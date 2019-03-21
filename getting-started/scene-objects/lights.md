@@ -41,87 +41,8 @@ This **Attribute** is only available on the **Spot Light Object**.
 
 ![](../../.gitbook/assets/radialfalloff.gif)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Shadow Mapping
-**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
+**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
 
 There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired *visual* result for your **Scene**, as well as meeting the *performance* requirements of your project.
 
@@ -144,6 +65,14 @@ Increased `Kernel Size` may help improve results that suffer from *shadow acne*,
 
 ### Clip Near
 
+As stated above, **Shadow Mapping** takes passes from the **Light**'s perspective. Like the `Clip Near` **Attribute** of **Camera**, everything within the defined distance isn't rendered and is therefore excluded from those passes and the **Shadow Mapping** algorithm.
+
 ![](../../.gitbook\assets\ClipNear.gif)
+
 ### Offset
 
+`Offset` offsets the depth of the shadow map and can massively improve the appearance of the its appearance, by reducing *shadow acne*. It is recommended that you increase this value by very small increments (0.0001), until you get an acceptable reduction in artifacts.
+
+Due to the effect `Offset` has on the **Shadow Mapping** algorithm, higher values can cause shadows to appear to become disconnected from the geometry that casts them.
+
+![](../../.gitbook\assets\Offset.gif)
