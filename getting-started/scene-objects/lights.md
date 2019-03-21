@@ -53,7 +53,7 @@ There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a
 
 `Resolution` alters the size of the shadow map. Just like with normal 2D textures, higher resolutions produce better quality, at the cost of increasing processing time and file size.
 
-![](../../.gitbook\assets\resolution.gif)
+![](../../.gitbook/assets/resolution.gif)
 
 ### Kernel Size
 
@@ -61,13 +61,13 @@ There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a
 
 Increased `Kernel Size` may help improve results that suffer from *shadow acne*, or to reduce artifacts in cases where the shadow map `Resolution` is low.
 
-![](../../.gitbook\assets\kernel-size.gif)
+![](../../.gitbook/assets/kernel-size.gif)
 
 ### Clip Near
 
 As stated above, **Shadow Mapping** takes passes from the **Light**'s perspective. Like the `Clip Near` **Attribute** of **Camera**, everything within the defined distance isn't rendered and is therefore excluded from those passes and the **Shadow Mapping** algorithm.
 
-![](../../.gitbook\assets\clip-near.gif)
+![](../../.gitbook/assets/clip-near.gif)
 
 ### Offset
 
@@ -75,4 +75,4 @@ As stated above, **Shadow Mapping** takes passes from the **Light**'s perspectiv
 
 Due to the effect `Offset` has on the **Shadow Mapping** algorithm, higher values can cause shadows to appear to become disconnected from the geometry that casts them.
 
-![](../../.gitbook\assets\offset.gif)
+![](../../.gitbook/assets/offset.gif)
