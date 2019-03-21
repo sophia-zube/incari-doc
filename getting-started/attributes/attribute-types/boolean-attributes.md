@@ -4,5 +4,5 @@
 
 Simply click a **Boolean Attribute** to toggle between _true_ and _false_.
 
-![](../../.gitbook/assets/attributebool%20%281%29.gif)
+![](../../../.gitbook/assets/attributebool%20%281%29.gif)
 

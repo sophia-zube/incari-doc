@@ -50,7 +50,7 @@ Alignment works like any other word processor. You can align your text to be lef
 
 ### Font Color / Background Color
 
-**Colors** can be set in various ways in INCARI and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/color-attributes.md).
+**Colors** can be set in various ways in INCARI and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attributes.md).
 
 ## Sprite
 

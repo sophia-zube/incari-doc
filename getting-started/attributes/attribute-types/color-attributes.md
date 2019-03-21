@@ -10,7 +10,7 @@
 
    levels.
 
-![](../../.gitbook/assets/colorattribute.png)
+![](../../../.gitbook/assets/colorattribute.png)
 
 ### Hex Codes
 

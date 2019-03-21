@@ -8,15 +8,15 @@ Their **Values** can be increased/decreased by clicking the arrow buttons of a *
 
 We can change the _step_ \(the amount to increment by\), by right-clicking the **Field**, and selecting an amount from the menu.
 
-![](../../.gitbook/assets/attributeadjustnumerical.gif)
+![](../../../.gitbook/assets/attributeadjustnumerical.gif)
 
 Alternatively, you can set the **Value** manually by clicking the **Field** and typing.
 
-![](../../.gitbook/assets/attributeadjustnumericalmanual.gif)
+![](../../../.gitbook/assets/attributeadjustnumericalmanual.gif)
 
 There are some cases where a **Numerical Attribute** can be adjusted using a slider.
 
-![](../../.gitbook/assets/attributeadjustslider.gif)
+![](../../../.gitbook/assets/attributeadjustslider.gif)
 
 ### Locking and Linking
 
@@ -31,7 +31,7 @@ If both the _lock_ and _link_ icons are active, all **Values** will be adjusted 
 
 If only the _lock_ icon is active, all **Values** will be adjusted to be _the same_ **Value**.
 
-![](../../.gitbook/assets/attributeadjustvectorlock.gif)
+![](../../../.gitbook/assets/attributeadjustvectorlock.gif)
 
 
 
