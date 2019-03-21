@@ -25,13 +25,13 @@ Please not that the `Color` **Attribute**'s _brightness_ level will affect the b
 
 `Brightness` governs the intensity of the light, with lower values giving less intense light emission and vice versa.
 
-![](../../../.gitbook/assets/brightness.gif)
+![](../../.gitbook/assets/brightness.gif)
 
 ### Attenuation
 
 `Attenuation` relates to the spread, or reach, of the light. Lower levels only illuminate close **Objects**, whereas high levels allow the light to reach **Objects** that are further away.
 
-![](../../../.gitbook/assets/attenuation.gif)
+![](../../.gitbook/assets/attenuation.gif)
 
 ### Radial Falloff
 
@@ -39,17 +39,111 @@ Please not that the `Color` **Attribute**'s _brightness_ level will affect the b
 
 This **Attribute** is only available on the **Spot Light Object**.
 
-![](../../../.gitbook/assets/radialfalloff.gif)
+![](../../.gitbook/assets/radialfalloff.gif)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Shadow Mapping
+**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
+
+There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired *visual* result for your **Scene**, as well as meeting the *performance* requirements of your project.
 
 ### Enable
+**Shadow Mapping** can be turned on/off using the `Enable` switch. Whether or not you use this effect often comes down to performance. If you are having performance issues, then you should consider removing the effect, or adjusting the other settings.
 
 ### Resolution
 
+`Resolution` alters the size of the shadow map. Just like with normal 2D textures, higher resolutions produce better quality, at the cost of increasing processing time and file size.
+
+![](../../.gitbook\assets\Resolution.gif)
+
 ### Kernel Size
+
+`Kernel Size` relates to the size of each sampled area during the calculation. It is a fairly complex subject, but it basically affects the smoothness of the shadow map. Lower levels give crisp, but jagged, shadows; whereas higher levels give smoother, but less defined results.
+
+Increased `Kernel Size` may help improve results that suffer from *shadow acne*, or to reduce artifacts in cases where the shadow map `Resolution` is low.
+
+![](../../.gitbook\assets\KernelSize.gif)
 
 ### Clip Near
 
+![](../../.gitbook\assets\ClipNear.gif)
 ### Offset
 
