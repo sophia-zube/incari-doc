@@ -14,11 +14,11 @@ Additionally, the `Value` **Attribute** can be used to add extra styling in the 
 Without CSS
 <br>
 <span style="
-	font-style: italic;font-weight:bold;
-	background:linear-gradient(#FEE140 0%, #FA709A 100%);
-	-webkit-background-clip:text;-webkit-text-fill-color:transparent;">
-	
-	With CSS
+    font-style: italic;font-weight:bold;
+    background:linear-gradient(#FEE140 0%, #FA709A 100%);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;">
+
+    With CSS
 </span>
 ```
 

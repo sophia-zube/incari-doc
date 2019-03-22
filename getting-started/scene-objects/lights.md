@@ -1,4 +1,4 @@
-# Lights \*
+# Lights
 
 **INCARI** has two types of **Light Object**; the **Spot Light** and the **Point Light**.
 
@@ -42,11 +42,13 @@ This **Attribute** is only available on the **Spot Light Object**.
 ![](../../.gitbook/assets/radialfalloff.gif)
 
 ## Shadow Mapping
+
 **Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
 
-There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired *visual* result for your **Scene**, as well as meeting the *performance* requirements of your project.
+There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired _visual_ result for your **Scene**, as well as meeting the _performance_ requirements of your project.
 
 ### Enable
+
 **Shadow Mapping** can be turned on/off using the `Enable` switch. Whether or not you use this effect often comes down to performance. If you are having performance issues, then you should consider removing the effect, or adjusting the other settings.
 
 ### Resolution
@@ -59,7 +61,7 @@ There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a
 
 `Kernel Size` relates to the size of each sampled area during the calculation. It is a fairly complex subject, but it basically affects the smoothness of the shadow map. Lower levels give crisp, but jagged, shadows; whereas higher levels give smoother, but less defined results.
 
-Increased `Kernel Size` may help improve results that suffer from *shadow acne*, or to reduce artifacts in cases where the shadow map `Resolution` is low.
+Increased `Kernel Size` may help improve results that suffer from _shadow acne_, or to reduce artifacts in cases where the shadow map `Resolution` is low.
 
 ![](../../.gitbook/assets/kernel-size.gif)
 
@@ -71,8 +73,9 @@ As stated above, **Shadow Mapping** takes passes from the **Light**'s perspectiv
 
 ### Offset
 
-`Offset` offsets the depth of the shadow map and can massively improve the appearance of the its appearance, by reducing *shadow acne*. It is recommended that you increase this value by very small increments (0.0001), until you get an acceptable reduction in artifacts.
+`Offset` offsets the depth of the shadow map and can massively improve the appearance of the its appearance, by reducing _shadow acne_. It is recommended that you increase this value by very small increments \(0.0001\), until you get an acceptable reduction in artifacts.
 
 Due to the effect `Offset` has on the **Shadow Mapping** algorithm, higher values can cause shadows to appear to become disconnected from the geometry that casts them.
 
 ![](../../.gitbook/assets/offset.gif)
+
