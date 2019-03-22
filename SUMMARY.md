@@ -10,7 +10,7 @@
 * [Project Objects](getting-started/project-objects/README.md)
   * [Screen](getting-started/project-objects/screen.md)
   * [Scene](getting-started/project-objects/scene.md)
-<!-- * [Scene Objects \*](getting-started/scene-objects/README.md) -->
+* [Scene Objects \*](getting-started/scene-objects/README.md)
   * [Camera](getting-started/scene-objects/camera.md)
   * [Group](getting-started/scene-objects/group.md)
   <!-- * [List Widget \*](getting-started/scene-objects/list-widget.md) -->
