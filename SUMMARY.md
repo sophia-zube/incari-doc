@@ -20,9 +20,9 @@
   * [Text](getting-started/scene-objects/text.md)
   <!-- * [Web Sprite \*](getting-started/scene-objects/web-sprite.md) -->
 * [Attributes](getting-started/attributes/README.md)
-  <!-- * [Common Attributes \*](getting-started/attributes/common-attributes/)
-    * [Transformation \*](getting-started/attributes/transformation.md)
-    * [Sprite \*](getting-started/attributes/sprite.md) -->
+  * [Common Attributes](getting-started/attributes/common-attributes/)
+    <!-- * [Transformation \*](getting-started/attributes/transformation.md) -->
+    * [Sprite](getting-started/attributes/sprite.md)
   * [Attribute Types](getting-started/attributes/attribute-types/README.md)
     * [Boolean Attributes](getting-started/attributes/attribute-types/boolean-attributes.md)
     * [Numerical Attributes](getting-started/attributes/attribute-types/numerical-attributes.md)
