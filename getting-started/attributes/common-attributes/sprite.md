@@ -4,7 +4,7 @@
 
 `Size` simply determines the dimensions of a graphic. As **Sprite Objects** are two-dimensional, the `Z` **Value** doesn't actually have any effect.
 
-If you want display the graphic with the precise *pixel* resolution, you should ensure that `Size` matches the file's pixel dimensions, and that the **Object**'s `Position` **Transformation** place it on the same plane as the **Scene**'s **Camera**.
+If you want to display the graphic with the precise *pixel* resolution, you should ensure that `Size` matches the file's pixel dimensions, and that the **Object**'s `Position` **Transformation** place it on the same plane as the **Scene**'s **Camera**.
 
 The dimensions should be correct my default when you create a new **Sprite** **Object**, by dragging a graphic from the **Asset Manager**.
 
