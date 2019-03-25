@@ -45,7 +45,7 @@ Similar to the `/` operator in most programming languages, the Divide node takes
 
 ### Note on Dividing Integers
 
-Because the result of dividing 2 [integers ](../../data-types/int.md)doesn't always return an [integer](../../data-types/int.md), [Euclidean division](../../../getting-started/terminology.md) is used to return the _quotient_, meaning that the result of the division will be rounded _down_ to the nearest [integer](../../data-types/int.md). If this isn't the desired behaviour, both the `a` \(_dividend_\) and `b` \(_divisor_\) must first be converted to [floats](../../data-types/float.md), using the Conversion node. 
+Because the result of dividing 2 [integers ](../../data-types/int.md)doesn't always return an [integer](../../data-types/int.md), [Euclidean division]() is used to return the _quotient_, meaning that the result of the division will be rounded _down_ to the nearest [integer](../../data-types/int.md). If this isn't the desired behaviour, both the `a` \(_dividend_\) and `b` \(_divisor_\) must first be converted to [floats](../../data-types/float.md), using the Conversion node. 
 
 ## Multiply
 

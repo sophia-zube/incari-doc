@@ -2,7 +2,7 @@
 
 ## Modulo
 
-Takes two numerical input types; `a` \(_the dividend_\) and `b` \(_the divisor_\) and returns the _remainder_ of the[ Euclidean division](../../../getting-started/terminology.md) of `a` and `b`.
+Takes two numerical input types; `a` \(_the dividend_\) and `b` \(_the divisor_\) and returns the _remainder_ of the[ Euclidean division]() of `a` and `b`.
 
 Euclidean division simply means that the result of a division is a _floored_ whole number. With regular division, If 3 people share 10 slices of pizza, they would each have ~3.33 slices of pizza. With Euclidean division, however, they would each have 3 slices, with 1 slice remaining; therefore, a modulo operation of 3 and 10, would give us 1, the remainder.
 

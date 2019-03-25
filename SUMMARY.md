@@ -13,15 +13,11 @@
 * [Scene Objects \*](getting-started/scene-objects/README.md)
   * [Camera](getting-started/scene-objects/camera.md)
   * [Group](getting-started/scene-objects/group.md)
-  <!-- * [List Widget \*](getting-started/scene-objects/list-widget.md) -->
   * [Mesh](getting-started/scene-objects/mesh.md)
   * [Lights](getting-started/scene-objects/lights.md)
-  <!-- * [Sprites \*](getting-started/scene-objects/sprites.md) -->
   * [Text](getting-started/scene-objects/text.md)
-  <!-- * [Web Sprite \*](getting-started/scene-objects/web-sprite.md) -->
 * [Attributes](getting-started/attributes/README.md)
   * [Common Attributes](getting-started/attributes/common-attributes/README.md)
-    <!-- * [Transformation \*](getting-started/attributes/transformation.md) -->
     * [Rotation Pivot](getting-started/attributes/common-attributes/rotation-pivot.md)
     * [Sprite](getting-started/attributes/common-attributes/sprite.md)
   * [Attribute Types](getting-started/attributes/attribute-types/README.md)
@@ -29,19 +25,10 @@
     * [Numerical Attributes](getting-started/attributes/attribute-types/numerical-attributes.md)
     * [Color Attributes](getting-started/attributes/attribute-types/color-attributes.md)
     * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)
-<!-- * [Terminology \*](getting-started/terminology.md) -->
 * [Interface \*](getting-started/interface/README.md)
-  <!-- * [Coordinate System \*](getting-started/interface/size-and-resolution.md) -->
   * [Modules \*](getting-started/interface/managers-editors-and-outliners/README.md)
-    <!-- * [Asset Manager \*](getting-started/interface/managers-editors-and-outliners/asset-manager.md) -->
-    <!-- * [Attribute Editor \*](getting-started/interface/managers-editors-and-outliners/attribute-editor.md) -->
-    <!-- * [Code Editor \*](getting-started/interface/managers-editors-and-outliners/code-editor.md) -->
-    <!-- * [Console \*](getting-started/interface/managers-editors-and-outliners/console.md) -->
     * [Logic Editor](getting-started/interface/managers-editors-and-outliners/logic-editor.md)
-    <!-- * [Material Editor \*](getting-started/interface/managers-editors-and-outliners/material-editor.md) -->
     * [Project Outliner](getting-started/interface/managers-editors-and-outliners/project-outliner.md)
-    <!-- * [Scene \*](getting-started/interface/managers-editors-and-outliners/scene.md) -->
-    <!-- * [Scene Outliner \*](getting-started/interface/managers-editors-and-outliners/scene-outliner.md) -->
 
 ## Beginner Tutorial - Creating a Speedometer
 
@@ -78,7 +65,6 @@
 
 ## Logic Editor
 
-<!-- * [Variables \*](logic-editor/variables.md) -->
 * [Data Types \*](logic-editor/data-types/README.md)
   * [Bool](logic-editor/data-types/bool.md)
   * [Byte](logic-editor/data-types/byte.md)

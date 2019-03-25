@@ -12,7 +12,7 @@ If you want to trigger the event only once per click, then you will need to plug
 
 ![The Key Press node in the Logic Editor&apos;s graph. ](../../../.gitbook/assets/keypressnode.png)
 
-In addition to having a single output [**Pulse**](../../../getting-started/terminology.md), the **KeyPress** node has four additional [**Boolean**](../../data-types/bool.md) outputs:
+In addition to having a single output [**Pulse**](), the **KeyPress** node has four additional [**Boolean**](../../data-types/bool.md) outputs:
 
 * **Is Alt** - Outputs as _true_ only if the **ALT** key is down when the assigned key is pressed; otherwise, the default value is _false_.
 * **Is Control** - Outputs as _true_ only if the **CTRL** key is down when the assigned key is pressed; otherwise, the default value is _false_.

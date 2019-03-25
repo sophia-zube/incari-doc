@@ -10,7 +10,7 @@ Note that the **KeyRelease** event is fired _once_, and therefore, will not be f
 
 ![The KeyRelease node in the Logic Editor&apos;s graph. ](../../../.gitbook/assets/keyreleasenode.png)
 
-In addition to having a single output [**Pulse**](../../../getting-started/terminology.md), the **KeyRelease** node has three additional [**Boolean**](../../data-types/bool.md) outputs:
+In addition to having a single output [**Pulse**](), the **KeyRelease** node has three additional [**Boolean**](../../data-types/bool.md) outputs:
 
 * **Is Alt** - Outputs as _true_ only if the ALT key is down when the assigned key is released. Otherwise, the default value is _false_.
 * **Is Control** - Outputs as _true_ only if the CTRL key is down when the assigned key is released. Otherwise, the default value is _false_.

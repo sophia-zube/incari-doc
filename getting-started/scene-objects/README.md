@@ -2,7 +2,7 @@
 
 An **Object** in **INCARI** is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviours and characteristics.
 
-All **Objects** in a **Scene** appear in the **Scene Outliner.**  exist in 3D space, and therefore, have **Transformation Attributes.**
+All **Objects** in a **Scene** appear in the **Scene Outliner.** exist in 3D space, and therefore, have **Transformation Attributes.**
 
 ## Creating an Object
 

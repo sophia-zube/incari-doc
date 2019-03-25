@@ -4,7 +4,7 @@
 
 `Size` simply determines the dimensions of a graphic. As **Sprite Objects** are two-dimensional, the `Z` **Value** doesn't actually have any effect.
 
-If you want to display the graphic with the precise *pixel* resolution, you should ensure that `Size` matches the file's pixel dimensions, and that the **Object**'s `Position` **Transformation** place it on the same plane as the **Scene**'s **Camera**.
+If you want to display the graphic with the precise _pixel_ resolution, you should ensure that `Size` matches the file's pixel dimensions, and that the **Object**'s `Position` **Transformation** place it on the same plane as the **Scene**'s **Camera**.
 
 The dimensions should be correct my default when you create a new **Sprite** **Object**, by dragging a graphic from the **Asset Manager**.
 
@@ -32,4 +32,5 @@ This is done by manipulating the `Sort Index` **Sprites** with higher values bei
 
 ## File
 
-This is an [**Asset / Object Attribute**](../../../getting-started/attributes/attribute-types/asset-object-attribute.md) that links the **Object** to an imported **Asset**. This should be assigned by default, when you use the drag-and-drop method to create the **Sprite Object**, but you can assign it manually by dragging a graphic from the **Asset Manager** onto the `File` slot.
+This is an [**Asset / Object Attribute**](../attribute-types/asset-object-attribute.md) that links the **Object** to an imported **Asset**. This should be assigned by default, when you use the drag-and-drop method to create the **Sprite Object**, but you can assign it manually by dragging a graphic from the **Asset Manager** onto the `File` slot.
+
