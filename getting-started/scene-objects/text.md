@@ -8,7 +8,7 @@
 Additionally, the `Value` **Attribute** can be used to add extra styling in the form of HTML/CSS. This is achieved using `<span>` tags and is only recommended to users who are familiar with these languages.
 {% endhint %}
 
-```markup
+```html
 Without CSS
 <br>
 <span style="
