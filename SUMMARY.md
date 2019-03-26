@@ -20,6 +20,7 @@
   * [Common Attributes](getting-started/attributes/common-attributes/README.md)
     * [Rotation Pivot](getting-started/attributes/common-attributes/rotation-pivot.md)
     * [Sprite](getting-started/attributes/common-attributes/sprite.md)
+    * [Transformation](getting-started/attributes/common-attributes/transformation.md)
   * [Attribute Types](getting-started/attributes/attribute-types/README.md)
     * [Boolean Attributes](getting-started/attributes/attribute-types/boolean-attributes.md)
     * [Numerical Attributes](getting-started/attributes/attribute-types/numerical-attributes.md)

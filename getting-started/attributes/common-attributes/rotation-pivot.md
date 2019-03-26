@@ -8,5 +8,5 @@ There are times, though, where you will want to set the **Pivot Point** to somew
 
 ![](../../../.gitbook/assets/pivot-offset.gif)
 
-Generally it is much better practice to set the origin of your 3D meshes in your 3D application, before importing them into in **INCARI**.
+Generally it is much better practice to set the origin of your 3D meshes in your 3D application, before importing them into **INCARI**.
 
