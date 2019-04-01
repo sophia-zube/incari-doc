@@ -18,6 +18,7 @@
   * [Text](getting-started/scene-objects/text.md)
 * [Attributes](getting-started/attributes/README.md)
   * [Common Attributes](getting-started/attributes/common-attributes/README.md)
+    * [Object](getting-started/attributes/common-attributes/object.md)
     * [Rotation Pivot](getting-started/attributes/common-attributes/rotation-pivot.md)
     * [Sprite](getting-started/attributes/common-attributes/sprite.md)
     * [Transformation](getting-started/attributes/common-attributes/transformation.md)
