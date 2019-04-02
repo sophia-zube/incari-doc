@@ -46,17 +46,19 @@ A **Model File** is where you define all the data for your list. Physically, a b
 How to write CSS won't be discussed here, but there is an abundance of information online, such as 
 [*Learn to style HTML using CSS*](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
 
-Here are the pre-defined classes and ID, to be used for styling **Lists** in INCARI.
+Here are the pre-defined classes and ID, to be used for styling **Lists** in INCARI. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box etc. 
 
-- `#list` - 
-- `.list` - 
-- `.list-title` - 
-- `.list-not-active` - 
-- `.entry` - 
-- `.entry-current` - 
-- `.entry-selected` -
+- `body` - The tag which ecompasses all of the elements.
+- `#list` - The ID for the container that contains the list elements, excluding the title.
+- `.list-title` - The class for the list's title.
+- `.list-not-active` - Like `#list`, except that it adjusts the styling if the **List** is set to inactive.
+- `.entry` - Individual row generated from each of the **Model**'s **Records**.
+  - `.entry-current` - Adds or overwrites attributes of the standard `.entry` class if it is the *current* list item.
+  - `.entry-selected` - Adds or overwrites attributes of the standard `.entry` class if it is the *selected* list item.
 
+![](../../.gitbook/assets/box-model.png)
 
+By adding a few CSS attributes, we can easily customise the appearence of our lists.
 
 ```css
 body {
@@ -64,26 +66,32 @@ body {
     text-align: center;
 }
 
-.list-title {
-    text-decoration: underline;
-    color: lightblue;
-}
-
-.list-not-active { }
-
 .entry {
     opacity: 0.8;
 }
 
-.entry-current {
-    font-size: 1.2em;
+.entry-selected, .entry-current {
     color: black;
-    background-color: rgb(189, 7, 7); 
     opacity: 1;
-    text-shadow: 1px 1px 1px rgb(177, 40, 40), -1px -1px 1px rgb(94, 1, 1);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.25), -1px -1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.entry-current {
+    background-color: rgb(189, 7, 7); 
+}
+
+.entry-selected {
+    background-color: rgb(136, 136, 136); 
+}
+
+* {
+    transition-property: none !important;
 }
 
 ```
+
+
+![](../../.gitbook/assets/audiobook-list.gif)
 
 ## Generate List
 
