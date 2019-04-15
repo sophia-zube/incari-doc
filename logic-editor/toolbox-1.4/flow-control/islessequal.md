@@ -1,5 +1,7 @@
 # Overview
 
+![](../../../.gitbook/assets/node-islessequal.png)
+
 **IsLessEqual** is a **Relational Expression Node**, which compares two **Input Values**, and returns a **Boolean**, based on whether or not the **Value** of **Input** `A` is less than **Input** `B`. If it is, the returned **Value** will be *true*, and if not, it will return *false*.
 
 Depending on the setting in the `Mode` **Attribute**, the **Node** may also return *true* if the **Values** are equal.
