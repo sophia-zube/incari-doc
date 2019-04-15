@@ -26,7 +26,7 @@ While you should never have **Cases** of the same **Value**, be aware that equal
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the `Data Type` **Attribute**.*|The **Value** to be compared with the list of pre-defined **Cases**.|
+|`Input`|*Defined in the* `Data Type` ***Attribute**.*|The **Value** to be compared with the list of pre-defined **Cases**.|
 
 # Outputs
 
