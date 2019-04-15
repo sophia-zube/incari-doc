@@ -32,7 +32,7 @@ While you should never have **Cases** of the same **Value**, be aware that equal
 
 |Output|Type|Description|
 |---|---|---|
-|`Case: [0-∞]`|**Pulse**|An **Output Pulse** for each pre-defined **Case**, whose execution is triggered if the corresponding **Case** is evaluated as being equal to `Input`.|
+|`Case: [n]`|**Pulse**|An **Output Pulse** for each pre-defined **Case**, whose execution is triggered if the corresponding **Case** is evaluated as being equal to `Input`.|
 
 # External Links
 
