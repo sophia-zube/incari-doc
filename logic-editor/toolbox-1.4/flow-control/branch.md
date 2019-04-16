@@ -6,11 +6,14 @@ Like a branch on a tree, the **Branch Node** splits a single path into two diver
 
 # Uses
 
-There are infinite uses for the **Branch Node**, however a very basic example would be a single input condition, which triggers one of two functions. In the example below we use a **Variable** to represent whether the unit of measurement for distance is set to _km/h_ or _mph_, and trigger functions to display data in the corresponding format.
+There are infinite uses for the **Branch Node**, however a very basic example would be a single **Input** condition, which triggers one of two functions. In the example below we use a **Variable** to represent whether the unit of measurement for distance is set to _km/h_ or _mph_, and trigger functions to display data in the corresponding format.
 
 ![Basic example of the Branch node.](../../../.gitbook/assets/branching-example-simple.png)
 
-By utilising various other nodes, we can define logical outcomes based on multiple conditions. In the example below we have four **Variables**, representing whether or not each of four car doors are open. By using the **Logical Operator Node**, **OR**, and triggering them all using a **Sequential Node**, we can trigger an alarm if any of the doors are open.
+These *conditional statements* can be chained together and combined with other **Nodes**. Below is an example where the **Logic** checks:
+1. If the passenger seat is occupied. If it is (*true*) then...
+2. It checks if the passenger seat belt is fastened. If it isn't (*false*) then...
+3. It sounds an alarm.
 
 ![An intermediate example of the Branch node.](../../../.gitbook/assets/branching-example-intermediate.png)
 
@@ -24,8 +27,8 @@ By utilising various other nodes, we can define logical outcomes based on multip
 
 |Output|Type|Description|
 |---|---|---|
-|OnTrue|**Pulse**|Triggers the execution of subsequent logic if **Input** condition is _True_.|
-|OnFalse|**Pulse**|Triggers the execution of subsequent logic if **Input** condition is _False_.|
+|`OnTrue`|**Pulse**|Triggers the execution of subsequent logic if **Input** condition is _True_.|
+|`OnFalse`|**Pulse**|Triggers the execution of subsequent logic if **Input** condition is _False_.|
 
 # External Links
 
