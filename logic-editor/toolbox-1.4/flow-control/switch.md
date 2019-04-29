@@ -6,7 +6,9 @@
 
 While you should never have **Cases** of the same **Value**, be aware that equality is checked from top-to-bottom; meaning that if a match has been found, subsequent **Cases** won't be evaluated.
 
-# Attributes
+## Attributes
+
+*The **Switch Node** has no **Attributes***.
 
 ## Inputs
 

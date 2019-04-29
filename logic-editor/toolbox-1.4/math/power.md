@@ -4,8 +4,6 @@
 
 **Power** performs an *exponentiation operation*, meaning that it multiplies the `Base` **Value**, against itself, *n* times, with *n* being defined by `Exponent`.
 
-
-
 # Attributes
 
 |Attribute|Type|Description|
