@@ -71,5 +71,3 @@ Two   [0 seconds]
 Three [0 seconds]
 One   [1 second]
 ```
-
-# External Links
