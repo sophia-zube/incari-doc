@@ -70,6 +70,7 @@
 ## Logic Editor
 
 * [Data Types \*](logic-editor/data-types/README.md)
+  * [Any](logic-editor/data-types/any.md)
   * [Bool](logic-editor/data-types/bool.md)
   * [Byte](logic-editor/data-types/byte.md)
   * [Int](logic-editor/data-types/int.md)
