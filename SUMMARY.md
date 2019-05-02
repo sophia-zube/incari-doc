@@ -129,7 +129,7 @@
 * [Math](logic-editor/toolbox/math/README.md)
   * [Absolute](logic-editor/toolbox/math/absolute.md)
   * [Add](logic-editor/toolbox/math/add.md)
-  <!-- * [Average](logic-editor/toolbox/math/average.md) -->
+  * [Average](logic-editor/toolbox/math/average.md)
   <!-- * [Boolean](logic-editor/toolbox/math/boolean/README.md)
     * [AND](logic-editor/toolbox/math/boolean/and.md)
     * [Boolean Value](logic-editor/toolbox/math/boolean/boolean-value.md)
