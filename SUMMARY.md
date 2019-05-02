@@ -69,7 +69,13 @@
 
 ## Logic Editor
 
-* [Data Types \*](logic-editor/data-types/README.md)
+* [Date Time](logic-editor/toolbox/datetime/README.md)
+  * [Date Time Formatter](logic-editor/toolbox/datetime/datetime-formatter.md)
+  * [Now (UTC)](logic-editor/toolbox/datetime/now-utc.md)
+  * [System Time](logic-editor/toolbox/datetime/systemtime.md)
+  * [Timezone Value](logic-editor/toolbox/datetime/timezone-value.md)
+
+<!-- * [Data Types \*](logic-editor/data-types/README.md)
   * [Any](logic-editor/data-types/any.md)
   * [Bool](logic-editor/data-types/bool.md)
   * [Byte](logic-editor/data-types/byte.md)
@@ -100,7 +106,7 @@
     * [Advanced Math Nodes](logic-editor/toolbox/math/advanced-math-nodes.md)
   * [String](logic-editor/toolbox/string.md)
   * [Utilities](logic-editor/toolbox/utilities.md)
-  * [Web](logic-editor/toolbox/web.md)
+  * [Web](logic-editor/toolbox/web.md) -->
 
 ## Toolbox 1.4
 
