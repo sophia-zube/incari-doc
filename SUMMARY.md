@@ -101,3 +101,6 @@
   * [Utilities](logic-editor/toolbox/utilities.md)
   * [Web](logic-editor/toolbox/web.md)
 
+## Toolbox 1.4
+
+
