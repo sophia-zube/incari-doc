@@ -70,7 +70,7 @@
 ## Logic Editor
 
 * [Date Time](logic-editor/toolbox/datetime/README.md)
-  * [Date Time Formatter](logic-editor/toolbox/datetime/datetime-formatter.md)
+  <!-- * [Date Time Formatter](logic-editor/toolbox/datetime/datetime-formatter.md) -->
   * [Now (UTC)](logic-editor/toolbox/datetime/now-utc.md)
   * [System Time](logic-editor/toolbox/datetime/systemtime.md)
   * [Timezone Value](logic-editor/toolbox/datetime/timezone-value.md)
