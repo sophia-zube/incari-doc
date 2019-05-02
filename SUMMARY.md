@@ -127,7 +127,7 @@
     * [Get Scene](logic-editor/toolbox/incari/screen/get-scene.md)
     * [Set Scene](logic-editor/toolbox/incari/screen/set-scene.md) -->
 * [Math](logic-editor/toolbox/math/README.md)
-  <!-- * [Absolute](logic-editor/toolbox/math/absolute.md) -->
+  * [Absolute](logic-editor/toolbox/math/absolute.md)
   * [Add](logic-editor/toolbox/math/add.md)
   <!-- * [Average](logic-editor/toolbox/math/average.md) -->
   <!-- * [Boolean](logic-editor/toolbox/math/boolean/README.md)
