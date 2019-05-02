@@ -137,10 +137,10 @@
     * [OR](logic-editor/toolbox/math/boolean/or.md) -->
   * [Ceil](logic-editor/toolbox/math/ceil.md)
   * [Clamp](logic-editor/toolbox/math/clamp.md)
-  <!-- * [Decrement](logic-editor/toolbox/math/decrement.md) -->
+  * [Decrement](logic-editor/toolbox/math/decrement.md)
   * [Divide](logic-editor/toolbox/math/divide.md)
   * [Floor](logic-editor/toolbox/math/floor.md)
-  <!-- * [Increment](logic-editor/toolbox/math/increment.md) -->
+  * [Increment](logic-editor/toolbox/math/increment.md)
   <!-- * [Interpolate](logic-editor/toolbox/math/interpolate.md) -->
   <!-- * [Logarithm](logic-editor/toolbox/math/logarithm.md) -->
   <!-- * [Math Constant](logic-editor/toolbox/math/math-constant.md) -->
@@ -164,40 +164,5 @@
     * [Sine](logic-editor/toolbox/math/trigonometry/sine.md)
     * [Tangent](logic-editor/toolbox/math/trigonometry/tangent.md) -->
   <!-- * [Vector Value](logic-editor/toolbox/math/vector-value.md) -->
-
-<!-- * [Data Types \*](logic-editor/data-types/README.md)
-  * [Any](logic-editor/data-types/any.md)
-  * [Bool](logic-editor/data-types/bool.md)
-  * [Byte](logic-editor/data-types/byte.md)
-  * [Int](logic-editor/data-types/int.md)
-  * [Float](logic-editor/data-types/float.md)
-  * [String](logic-editor/data-types/string-1.md)
-  * [Binary](logic-editor/data-types/binary.md)
-  * [Vector2](logic-editor/data-types/vector2.md)
-  * [Vector3](logic-editor/data-types/vector3.md)
-  * [Vector4](logic-editor/data-types/vector4.md)
-* [Toolbox](logic-editor/toolbox/README.md)
-  * [Communication](logic-editor/toolbox/communication.md)
-  * [Events](logic-editor/toolbox/events/README.md)
-    * [KeyPress](logic-editor/toolbox/events/keypress.md)
-    * [KeyRelease](logic-editor/toolbox/events/keyrelease.md)
-  * [Flow Control](logic-editor/toolbox/flow-control/README.md)
-    * [Relational Expression Nodes](logic-editor/toolbox/flow-control/relational-expression-nodes.md)
-    * [Logical Operator Nodes](logic-editor/toolbox/flow-control/logical-operator-nodes.md)
-    * [Pulse Flow Nodes](logic-editor/toolbox/flow-control/branch/README.md)
-      * [Branch](logic-editor/toolbox/flow-control/branch/branch.md)
-      * [SelectData](logic-editor/toolbox/flow-control/branch/selectdata.md)
-      * [Sequential](logic-editor/toolbox/flow-control/branch/sequential.md)
-      * [Toggle](logic-editor/toolbox/flow-control/branch/toggle.md)
-  * [Incari](logic-editor/toolbox/incari.md)
-  * [Math](logic-editor/toolbox/math/README.md)
-    * [Basic Math Operation Nodes](logic-editor/toolbox/math/basic-math-operation-nodes.md)
-    * [Additional Math Operation Nodes](logic-editor/toolbox/math/additional-math-operation-nodes.md)
-    * [Advanced Math Nodes](logic-editor/toolbox/math/advanced-math-nodes.md)
-  * [String](logic-editor/toolbox/string.md)
-  * [Utilities](logic-editor/toolbox/utilities.md)
-  * [Web](logic-editor/toolbox/web.md) -->
-
-<!-- ## Toolbox 1.4 -->
 
 
