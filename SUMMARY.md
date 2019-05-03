@@ -34,7 +34,7 @@
     * [Logic Editor](getting-started/interface/managers-editors-and-outliners/logic-editor.md)
     * [Project Outliner](getting-started/interface/managers-editors-and-outliners/project-outliner.md)
 
-## Beginner Tutorial - Creating a Speedometer
+<!-- ## Beginner Tutorial - Creating a Speedometer
 
 * [Tutorial Overview](beginner-tutorial-creating-a-speedometer/tutorial-overview.md)
 * [Part One](beginner-tutorial-creating-a-speedometer/part-one/README.md)
@@ -65,7 +65,7 @@
   * [Previewing the Text Object](beginner-tutorial-creating-a-speedometer/part-three/previewing-the-text-object.md)
   * [RangeMapper](beginner-tutorial-creating-a-speedometer/part-three/rotating-the-needle.md)
   * [The Float and Vector Data Types](beginner-tutorial-creating-a-speedometer/part-three/the-float-and-vector-data-types.md)
-  * [Dynamically Changing the Transformation of an Object](beginner-tutorial-creating-a-speedometer/part-three/dynamically-changing-the-transformation-of-an-object.md)
+  * [Dynamically Changing the Transformation of an Object](beginner-tutorial-creating-a-speedometer/part-three/dynamically-changing-the-transformation-of-an-object.md) -->
 
 ## Toolbox
 <!-- * [Binary](logic-editor/toolbox/binary/README.md) -->
@@ -130,11 +130,11 @@
   * [Absolute](logic-editor/toolbox/math/absolute.md)
   * [Add](logic-editor/toolbox/math/add.md)
   * [Average](logic-editor/toolbox/math/average.md)
-  <!-- * [Boolean](logic-editor/toolbox/math/boolean/README.md)
+  * [Boolean](logic-editor/toolbox/math/boolean/README.md)
     * [AND](logic-editor/toolbox/math/boolean/and.md)
-    * [Boolean Value](logic-editor/toolbox/math/boolean/boolean-value.md)
+    <!-- * [Boolean Value](logic-editor/toolbox/math/boolean/boolean-value.md) -->
     * [Negate](logic-editor/toolbox/math/boolean/negate.md)
-    * [OR](logic-editor/toolbox/math/boolean/or.md) -->
+    * [OR](logic-editor/toolbox/math/boolean/or.md)
   * [Ceil](logic-editor/toolbox/math/ceil.md)
   * [Clamp](logic-editor/toolbox/math/clamp.md)
   * [Decrement](logic-editor/toolbox/math/decrement.md)
@@ -155,14 +155,14 @@
   * [Root](logic-editor/toolbox/math/root.md)
   <!-- * [Rotation Matrix](logic-editor/toolbox/math/rotation-matrix.md) -->
   * [Subtract](logic-editor/toolbox/math/subtract.md)
-  <!-- * [Trigonometry](logic-editor/toolbox/math/trigonometry/README.md)
-    * [Arc Cosine](logic-editor/toolbox/math/trigonometry/arc-cosine.md)
-    * [Arc Sine](logic-editor/toolbox/math/trigonometry/arc-sine.md)
-    * [Arc Tangent](logic-editor/toolbox/math/trigonometry/arc-tangent.md)
+  * [Trigonometry](logic-editor/toolbox/math/trigonometry/README.md)
+    <!-- * [Arc Cosine](logic-editor/toolbox/math/trigonometry/arc-cosine.md) -->
+    <!-- * [Arc Sine](logic-editor/toolbox/math/trigonometry/arc-sine.md) -->
+    <!-- * [Arc Tangent](logic-editor/toolbox/math/trigonometry/arc-tangent.md) -->
     * [Cosine](logic-editor/toolbox/math/trigonometry/cosine.md)
-    * [Radian-Degree Converter](logic-editor/toolbox/math/trigonometry/radian-degree-converter.md)
+    <!-- * [Radian-Degree Converter](logic-editor/toolbox/math/trigonometry/radian-degree-converter.md) -->
     * [Sine](logic-editor/toolbox/math/trigonometry/sine.md)
-    * [Tangent](logic-editor/toolbox/math/trigonometry/tangent.md) -->
+    * [Tangent](logic-editor/toolbox/math/trigonometry/tangent.md)
   <!-- * [Vector Value](logic-editor/toolbox/math/vector-value.md) -->
 
 
