@@ -156,9 +156,9 @@
   <!-- * [Rotation Matrix](logic-editor/toolbox/math/rotation-matrix.md) -->
   * [Subtract](logic-editor/toolbox/math/subtract.md)
   * [Trigonometry](logic-editor/toolbox/math/trigonometry/README.md)
-    <!-- * [Arc Cosine](logic-editor/toolbox/math/trigonometry/arc-cosine.md) -->
-    <!-- * [Arc Sine](logic-editor/toolbox/math/trigonometry/arc-sine.md) -->
-    <!-- * [Arc Tangent](logic-editor/toolbox/math/trigonometry/arc-tangent.md) -->
+    * [Arc Cosine](logic-editor/toolbox/math/trigonometry/arc-cosine.md)
+    * [Arc Sine](logic-editor/toolbox/math/trigonometry/arc-sine.md)
+    * [Arc Tangent](logic-editor/toolbox/math/trigonometry/arc-tangent.md)
     * [Cosine](logic-editor/toolbox/math/trigonometry/cosine.md)
     <!-- * [Radian-Degree Converter](logic-editor/toolbox/math/trigonometry/radian-degree-converter.md) -->
     * [Sine](logic-editor/toolbox/math/trigonometry/sine.md)
