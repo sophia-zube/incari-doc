@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../../.gitbook/assets/node-interpolate.png)
+![](../../../.gitbook/assets/node-interpolate.png)
 
 The **Interpolate Node** is used primarily for animating the **Attributes** of **Objects**.
 
