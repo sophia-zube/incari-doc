@@ -141,7 +141,7 @@
   * [Divide](logic-editor/toolbox/math/divide.md)
   * [Floor](logic-editor/toolbox/math/floor.md)
   * [Increment](logic-editor/toolbox/math/increment.md)
-  <!-- * [Interpolate](logic-editor/toolbox/math/interpolate.md) -->
+  * [Interpolate](logic-editor/toolbox/math/interpolate.md)
   <!-- * [Logarithm](logic-editor/toolbox/math/logarithm.md) -->
   <!-- * [Math Constant](logic-editor/toolbox/math/math-constant.md) -->
   * [Maximum](logic-editor/toolbox/math/maximum.md)
@@ -151,7 +151,7 @@
   <!-- * [Numeric Value](logic-editor/toolbox/math/numeric-value.md) -->
   * [Power](logic-editor/toolbox/math/power.md)
   <!-- * [Random](logic-editor/toolbox/math/random.md) -->
-  <!-- * [Range Mapper](logic-editor/toolbox/math/range-mapper.md) -->
+  * [Range Mapper](logic-editor/toolbox/math/range-mapper.md)
   * [Root](logic-editor/toolbox/math/root.md)
   <!-- * [Rotation Matrix](logic-editor/toolbox/math/rotation-matrix.md) -->
   * [Subtract](logic-editor/toolbox/math/subtract.md)
