@@ -143,7 +143,7 @@
   * [Increment](logic-editor/toolbox/math/increment.md)
   * [Interpolate](logic-editor/toolbox/math/interpolate.md)
   <!-- * [Logarithm](logic-editor/toolbox/math/logarithm.md) -->
-  <!-- * [Math Constant](logic-editor/toolbox/math/math-constant.md) -->
+  * [Math Constant](logic-editor/toolbox/math/math-constant.md)
   * [Maximum](logic-editor/toolbox/math/maximum.md)
   * [Minimum](logic-editor/toolbox/math/minimum.md)
   * [Modulo](logic-editor/toolbox/math/modulo.md)
@@ -164,5 +164,3 @@
     * [Sine](logic-editor/toolbox/math/trigonometry/sine.md)
     * [Tangent](logic-editor/toolbox/math/trigonometry/tangent.md)
   <!-- * [Vector Value](logic-editor/toolbox/math/vector-value.md) -->
-
-
