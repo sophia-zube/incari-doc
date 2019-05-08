@@ -31,13 +31,25 @@ Every time a new **Value** is calculated, the **Output Pulse** is also triggered
 
 ## More about the Mode Attribute
 
+{% tabs %}
+
+{% tab title="Once" %}
+
 `Once` means that the animation will play only once and then stop any further evaluation:
 
 ![](../../../.gitbook/assets/interpolation-mode-once.gif)
 
+{% endtab %}
+
+{% tab title="Repeat" %}
+
 `Repeat` allows us to repeat the animation a set number of times, defined in the `Count` **Attribute**. Note that this will only work if `Infinite` is set to *false*. If `Infinite` is turned on, the animation will repeat indefinitely.
 
 ![](../../../.gitbook/assets/interpolation-mode-repeat.gif)
+
+{% endtab %}
+
+{% tab title="Alternate" %}
 
 Lastly, we have the `Alternate` option. This causes the interpolation to animate forwards and then backwards. As with the `Repeat` option, this will repeat forever if `Infinite` is enabled, or until it has played the amount of times defined in `Count`.
 
@@ -47,29 +59,56 @@ Also note that alternating animations will also reverse the `easing function`. I
 
 ![](../../../.gitbook/assets/interpolation-mode-alternate.gif)
 
+{% endtab %}
+
+{% endtabs %}
+
 ## More about the Type Attribute
 
 **INCARI** offers many different interpolation types, which determine the way that the transition between `To` and `From` is calculated, and the easing of the animation.
 
-`Linear` - interpolates between the **Values** at an equal pace.
+### Non-easing Interpolation Types
 
-The names of the `Type` options are based on a naming convention, which offers some insight into how the interpolation is calculated.
+- `Linear` - interpolates between the **Values** linearly at a constant pace.
+- `Constant` - like `Linear` except that the **Value** is *rounded down* to the nearest *whole* number.
 
-First we have the prefixes, which represent different "levels" of easing. Some are very strong, while some are more subtle. The prefixes are `Circ`, `Cube`, `Exp`, `Quad` and `Sin`.
+### Easing Interpolation Types
+
+Although linear interpolation does have its uses, a more stylised effect is often required to make an animation more interesting. This is often achieved using an acceleration and/or deceleration  of the animation speed over time. In animation, this is often referred to as *easing*.
+
+The easing functions in **INCARI** are named, based on a naming convention, which offers some insight into how the interpolation is calculated.
+
+First we have the prefixes, which represent different "levels" of easing. Some are very strong, while others are more subtle. The prefixes are `Circ`, `Cube`, `Exp`, `Quad` and `Sin`.
 
 Then we have the suffixes, which show whether the animation eases in (`EaseIn`), eases out (`EaseOut`), or both (`EaseInOut`).
+
+{% tabs %}
+
+{% tab title="Ease In" %}
 
 `ExpEaseIn`:
 
 ![](../../../.gitbook/assets/interpolation-type-expeasein.gif)
 
+{% endtab %}
+
+{% tab title="Ease Out" %}
+
 `ExpEaseOut`:
 
 ![](../../../.gitbook/assets/interpolation-type-expeaseout.gif)
 
+{% endtab %}
+
+{% tab title="Ease In Out" %}
+
 `ExpEaseInOut`:
 
 ![](../../../.gitbook/assets/interpolation-type-expeaseinout.gif)
+
+{% endtab %}
+
+{% endtabs %}
 
 # Inputs
 
