@@ -4,6 +4,12 @@
 
 **Power** performs an *exponentiation operation*, meaning that it multiplies the `Base` **Value**, against itself, *n* times, with *n* being defined by `Exponent`.
 
+# Exponentiation-Related Nodes
+
+The **Power**, **n<sup>th</sup> Root**, and **Logarithm** **Nodes** each relate to *exponentiation*. They all take two *known* parameters and return the 3<sup>rd</sup> *unknown* **Value**. 
+
+![](../../../.gitbook/assets/exponential-functions.png)
+
 # Attributes
 
 |Attribute|Type|Description|

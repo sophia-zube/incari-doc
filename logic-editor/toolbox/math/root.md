@@ -13,6 +13,12 @@ The most common example of **Root** operations, is finding the square (2nd) root
 |160000|4|20|
 |1024|10|2|
 
+# Exponentiation-Related Nodes
+
+The **Power**, **n<sup>th</sup> Root**, and **Logarithm** **Nodes** each relate to *exponentiation*. They all take two *known* parameters and return the 3<sup>rd</sup> *unknown* **Value**. 
+
+![](../../../.gitbook/assets/exponential-functions.png)
+
 # Attributes
 
 *The **Root Node** has no **Attributes***.
