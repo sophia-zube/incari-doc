@@ -2,11 +2,11 @@
 
 ![](../../../.gitbook/assets/node-root.png)
 
-**Root** calculates the *nth root* of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a base by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
+**Root** calculates the *nth root* of a number. The *nth root* (`Output`) of a number is the *base* value, which when raised to the power of *n* (`Degree`) would return the *radicand* (`Input`).
 
 The most common example of **Root** operations, is finding the square (2nd) root, or cubic (3rd) root of a number, however this can also be used for higher numbers.
 
-|`Input`|`Root`|`Output`|
+|`Input`|`Degree`|`Output`|
 |---|---|---|---|
 |9|2|3|
 |13824|3|24|
@@ -23,7 +23,7 @@ The most common example of **Root** operations, is finding the square (2nd) root
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Input`|**Float**|The **Value** which you want to find the *nth root* of.|
-|`Root`|**Float**|The degree of the root (the "*n*" in "*nth root*").|
+|`Root`|**Float**|The degree of the exponentiation (the "*n*" in "*nth root*").|
 
 # Outputs
 
