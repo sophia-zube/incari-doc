@@ -142,7 +142,7 @@
   * [Floor](logic-editor/toolbox/math/floor.md)
   * [Increment](logic-editor/toolbox/math/increment.md)
   * [Interpolate](logic-editor/toolbox/math/interpolate.md)
-  <!-- * [Logarithm](logic-editor/toolbox/math/logarithm.md) -->
+  * [Logarithm](logic-editor/toolbox/math/logarithm.md)
   * [Math Constant](logic-editor/toolbox/math/math-constant.md)
   * [Maximum](logic-editor/toolbox/math/maximum.md)
   * [Minimum](logic-editor/toolbox/math/minimum.md)
