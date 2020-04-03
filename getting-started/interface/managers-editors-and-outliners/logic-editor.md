@@ -20,14 +20,14 @@ This tab shows a list of all nodes in your logic tree. When you select an item i
 {% tab title="3. Toolbox" %}
 ![](../../../.gitbook/assets/logic-editor-toolbox.png)
 
-Like the name suggests, the [**Toolbox**](../../../logic-editor/toolbox/) tab contains all of the individual tools you will need to create your logic. The function and purpose of all the nodes is covered, in depth, in the [**Toolbox**](../../../logic-editor/toolbox/) section and it is _highly_ recommended that you refer to it, to understand how each individual node functions. In short though, the [**Toolbox** ](../../../logic-editor/toolbox/)contains a categorised list of all nodes available at your disposal, which can be added to your logic by dragging and dropping an item into your **Logic Graph**.
+Like the name suggests, the [**Toolbox**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/README.md) tab contains all of the individual tools you will need to create your logic. The function and purpose of all the nodes is covered, in depth, in the [**Toolbox**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/README.md) section and it is _highly_ recommended that you refer to it, to understand how each individual node functions. In short though, the [**Toolbox** ](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/README.md)contains a categorised list of all nodes available at your disposal, which can be added to your logic by dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
 {% tab title="4. Variables" %}
 ![](../../../.gitbook/assets/logic-editor-variables.png)
 
-The **Variables** tab is where you can create variables to be used in your logic. You do this by defining the variable name, selecting the [Data Type](../../../logic-editor/data-types/) from the drop-down menu and then clicking "Add".  
-  
+The **Variables** tab is where you can create variables to be used in your logic. You do this by defining the variable name, selecting the [Data Type](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/data-types/README.md) from the drop-down menu and then clicking "Add".
+
 You can then drag and drop these variables into the Logic Graph, so that they can be used for getting/setting their values within your logic.
 {% endtab %}
 {% endtabs %}
@@ -55,7 +55,7 @@ Fundamentally it is comprised of a combination of two entities: **Nodes** and **
 
 Beyond that, we have **Pulse** and **Data Sockets**, denoted by white triangles \(►\) and coloured squares \(⬛\) respectively. For example, when we refer to an "Input Pulse Socket", we are normally referring to the white triangle in the top-left-hand side of a node.
 
-The concept of **Sockets**, makes much more sense in the context of **Connections** \([See below](logic-editor.md#connections)\). 
+The concept of **Sockets**, makes much more sense in the context of **Connections** \([See below](logic-editor.md#connections)\).
 
 #### **Connections**
 
@@ -69,13 +69,13 @@ These connections do not carry any data between nodes. What they _do_ is tell no
 
 #### Data
 
-These connections pass data values between nodes. We do this by connecting the **Data Output Socket** of one node into a **Data Input Socket** of another node. Both the input and output sockets must be of the same data type. **Data Sockets** are represented by a coloured square \(⬛\), the colour of which, corresponds to the [**Data Type**](../../../logic-editor/data-types/). Conversely to **Pulse** connections, **Data Input Sockets** can take only one input connection, whereas **Data Output Sockets** can have multiple output connections.  Unlike **Pulse** connections, **Data** connections do not initiate the execution of a node.
+These connections pass data values between nodes. We do this by connecting the **Data Output Socket** of one node into a **Data Input Socket** of another node. Both the input and output sockets must be of the same data type. **Data Sockets** are represented by a coloured square \(⬛\), the colour of which, corresponds to the [**Data Type**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/data-types/README.md). Conversely to **Pulse** connections, **Data Input Sockets** can take only one input connection, whereas **Data Output Sockets** can have multiple output connections. Unlike **Pulse** connections, **Data** connections do not initiate the execution of a node.
 
 ## 6. **Node Attribute Editor**
 
 ![The Node Attribute Editor](../../../.gitbook/assets/logic-editor-attributes.png)
 
-The **Node Attribute Editor** \(referred to simply as **Editor** hereinafter\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the [**Toolbox** ](../../../logic-editor/toolbox/)section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions however, where **Attributes** can be set only in the **Editor**, and there is no equivalent **Socket** available, which are discussed below, in the [**Node-Specific Attributes**](logic-editor.md#node-specific-attributes) section.
+The **Node Attribute Editor** \(referred to simply as **Editor** hereinafter\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the [**Toolbox** ](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/README.md)section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions however, where **Attributes** can be set only in the **Editor**, and there is no equivalent **Socket** available, which are discussed below, in the [**Node-Specific Attributes**](logic-editor.md#node-specific-attributes) section.
 
 ### General Attributes
 
@@ -99,7 +99,7 @@ As stated above, most **Node Attributes** are an alternative to **Data Input Con
 
 ![](../../../.gitbook/assets/datatypedropdown.gif)
 
-Some **Nodes** work with different [**Data Types**](../../../logic-editor/data-types/), however these need to be explicitly defined in the **Editor**, so that the **Node** knows which type it will receive \(**Input**\), and/or the type of data it will return \(**Output**\). Where multiple [**Data Types**](../../../logic-editor/data-types/) are available, there will be a drop-down menu in the **Editor**. Changing the [**Type** ](../../../logic-editor/data-types/)will also change the colour of the corresponding **Socket**.
+Some **Nodes** work with different [**Data Types**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/data-types/README.md), however these need to be explicitly defined in the **Editor**, so that the **Node** knows which type it will receive \(**Input**\), and/or the type of data it will return \(**Output**\). Where multiple [**Data Types**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/data-types/README.md) are available, there will be a drop-down menu in the **Editor**. Changing the [**Type** ](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/data-types/README.md)will also change the colour of the corresponding **Socket**.
 
 #### Linked Objects
 
@@ -125,7 +125,7 @@ All **Node Trees** in INCARI must originate from a special type of **Pulse Socke
 
 #### Event Nodes
 
-INCARI currently has two designated **Event Nodes**, to trigger logic based on user input. They are [**KeyPress** ](../../../logic-editor/toolbox/events/keypress.md)and [**KeyRelease**](../../../logic-editor/toolbox/events/keyrelease.md), which you can read more about in those sections of the documentation.
+INCARI currently has two designated **Event Nodes**, to trigger logic based on user input. They are [**KeyPress** ](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/events/keypress.md)and [**KeyRelease**](https://github.com/cgi-studio-gmbh/incari-doc/tree/4112ceff668764a1a7a9bbd0c6554f8441406be4/logic-editor/toolbox/events/keyrelease.md), which you can read more about in those sections of the documentation.
 
 There is also the **Project Node**, which triggers its **OnLoaded Event** once the project is loaded in **INCARI Player**.
 
