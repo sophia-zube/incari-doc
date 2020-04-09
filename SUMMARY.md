@@ -4,11 +4,11 @@
 
 ## Getting Started
 
-* [Requirements](getting-started/requirements.md)
-* [Installation](getting-started/installation.md)
-* [Creating a Project](getting-started/creating-a-project.md)
-* [Navigation](getting-started/navigation.md)
-* [Terminology](getting-started/terminology.md)
+* [Requirements]<!-- (getting-started/requirements.md) -->
+* [Installation]<!-- (getting-started/installation.md) -->
+* [Creating a Project]<!-- (getting-started/creating-a-project.md) -->
+* [Navigation]<!-- (getting-started/navigation.md) -->
+* [Terminology]<!-- (getting-started/terminology.md) -->
 
 ## Interface
 
