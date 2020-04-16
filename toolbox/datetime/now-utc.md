@@ -1,10 +1,9 @@
 # Overview
 
-![](../../../.gitbook/assets/node-now-utc.png)
+![](../../.gitbook/assets/node-now-utc.png)
 
-**Now (UTC)** is used for getting the current [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) (UTC), which is a standard time basis around the world, with every timezone being a relative offset of UTC.
+**Now (UTC)** is used for getting the current [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) in Unix Time.
 
-The result is in Unix Time, which is the number of milliseconds since the Unix Epoch (1st January 1970). This of course isn't of much use on its own, and is therefore used in conjuction with other [**DateTime**](README.md) **Nodes**.
 
 # Inputs
 
@@ -22,7 +21,8 @@ The result is in Unix Time, which is the number of milliseconds since the Unix E
 
 # See Also
 
-- [**Now (UTC)**](now-utc.md)
+- [**DateTime**](README.md)
+- [**Timezone Value**](timezone-value.md)
 
 # External Links
 
