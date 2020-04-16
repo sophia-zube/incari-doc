@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-timezone-value.png)
+![](../../.gitbook/assets/node-timezone-value.png)
 
 **Timezone Value** returns the offset of a timezone, relative to [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) (UTC).
 
@@ -8,13 +8,14 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Value`|**Drop-down**|The timezone which the offset is based on.|
+|`Value`|**Drop-down**|The timezone that will be used, which is an offset of the UTC.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Timezone Offset (ms)`|**Int**|The offset from the UTC in milliseconds.|
 
 # Outputs
 
@@ -25,6 +26,7 @@
 
 # See Also
 
+- [**DateTime**](README.md)
 - [**Now (UTC)**](now-utc.md)
 
 # External Links

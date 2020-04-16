@@ -24,6 +24,7 @@
   * [Sprites](objects/scene-objects/sprites/README.md)
     * [Sprite](objects/scene-objects/sprites/sprite.md)
     * [Text](objects/scene-objects/sprites/text.md)
+
 ## Tutorials
 
 ## Toolbox

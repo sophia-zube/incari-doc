@@ -1,12 +1,17 @@
 # Overview
 
-**SystemTime** is used for returning different individual parts of the current system time at the moment that the **Node** is evaluated. Values are returned as **Integers**, and therefore, have no inherent zero-padding, textual notation or suffixes.
+![The System Time Node.](../../.gitbook/assets/node-system-time.png)
+
+**System Time** is used for returning different individual parts of the current system time at the moment that the **Node** is evaluated. Values are returned as **Integers** or **Floats**, and therefore, have no inherent zero-padding, textual notation or suffixes.
+
+When `Smooth float value` is enabled, the output values won't be rounded down, so if the current time is 1:45, the `Hour` output will be ~1.75.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`24h Mode`|**Bool**|Changes whether the `Hour` **Output** is given in 12 or 24 hour format.|
+|`Mode`|**Drop-down**|Determines whether the `Hour` value will be returned in 12-hour or 24-hour format.|
+|`Smooth float value`|**Bool**|Determines whether the output values will be rounded down (**Int**) or not (**Float**).|
 
 
 # Inputs
@@ -16,10 +21,15 @@
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
-|Output | Type   | Description   |
+
+|Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Hour`|**Int**|The system's current hour, in 12 or 24 hour format (based on `24h Mode` **Attribute**).|
-|`Minute`|**Int**|The system's current minute.|
-|`Second`|**Int**|The system's current seconds.|
-|`Millisecond`|**Int**|The system's current milliseconds.|
+|`Hour`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The hour according to the system's current time.|
+|`Minute`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The minute according to the system's current time.|
+|`Second`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The second according to the system's current time.|
+|`Millisecond`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The millisecond according to the system's current time.|
+
+# See Also
+
+- [**DateTime**](README.md)
