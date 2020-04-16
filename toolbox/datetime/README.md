@@ -1,7 +1,7 @@
 # Introduction
 The **DateTime Nodes** are used when working with the representation and calculation of anything relating to dates and/or times.
 
-The way in way that the **Nodes** function may seem quite technical, with certain conventions, standards and terminology, therefore we have provided a basic overview of some of the [terminology](#terminology) to take into consideration and some links to [further information](#contents).
+The way that the **Nodes** function may seem quite technical, with certain conventions, standards, and terminology, therefore we have provided a basic overview of some of the [terminology](#terminology) to take into consideration and some links to [further information](#contents).
 
 # Terminology
 ## UTC
@@ -14,13 +14,13 @@ With UTC as a basis, all timezones in the world can be defined by their relation
 
 ## DST
 
-It is common around the world for countries to switch to an alternative timezone at certain times of the year to better align time of daylight with things like road-usage and business hours.
+It is common around the world for countries to switch to an alternative timezone at certain times of the year to better align times of daylight with things like road-usage and business hours.
 
-Germany and other parts of Europe, for example, use Central European Summer Time (CEST or UTC+02) between March and October, but use Central European Time (CET or UTC+01) the rest of the year.
+Germany and other parts of Europe, for example, use Central European Summer Time (CEST or UTC+02) between March and October but use Central European Time (CET or UTC+01) the rest of the year.
 
 ## Unix Time
 
-The Unix Time Stamp is a way of representing, and keeping track of time on computers and other electronic devices. It represents the number of milliseconds since the Unix Epoch (1st January 1970). The reason this is used is because its data size is very small (an unsigned 32-Bit integer) and can be used as a basis for representing a date and/or time in a more human-readable way.
+The Unix Time Stamp is a way of representing and keeping track of time on computers and other electronic devices. It represents the number of milliseconds since the Unix Epoch (1st January 1970). The reason this is used is that its data size is very small (an unsigned 32-Bit integer) and can be used as a basis for representing a date and/or time in a more human-readable way.
 
 # Contents
 
