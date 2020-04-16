@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/node-date-time-formatter.png)
 
-**Date Time Formatter** outputs a date and/or time in a specified format. By using a combination of special *format characters*, many different date/time formats can be created. This is used mostly for localization, however it could also be used for formatting based on user preferences.
+**Date Time Formatter** outputs a *date* and/or *time* in a specified format. By using a combination of special *format characters*, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
 
 For more information about *formatting strings*, please see the external links at the [bottom of this page](#external-links).
 
