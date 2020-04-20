@@ -1,43 +1,34 @@
-# On Key Press
+# Overview
 
-### Overview
+![The On Key Press Node.](../../../.gitbook/assets/node-on-key-press.png)
 
-The **On Key Press** node is for purposefully triggering actions in **Incari Player**, by pressing a defined key.
+**On Key Press** is used for triggering logic using key presses on a computer keyboard.
 
-Note that the **On Key Press** event is _continually-fired_ by default, and any logic following its output pulse will be called repeatedly, while the key is held down.
+# Attributes
 
-If you want to trigger the event only once per click, then you will need to plug the **Is Repeated** output  of the node into a **Branch** node to control the flow of your blueprint.
+## Miscellaneous
 
-### Inputs and Outputs
+|Attribute|Type|Description|
+|---|---|---|
+|`Repeat Enabled`|**Bool**|Whether or not the **Event** is triggered while the key is *held* down, or just when initially clicked.|
 
-![The Key Press node in the Logic Editor&apos;s graph. ](../../../.gitbook/assets/keypressnode.png)
+## Event
 
-In addition to having a single output [**Pulse**](), the **On Key Press** node has four additional [**Boolean**](../../data-types/bool.md) outputs:
+|Attribute|Type|Description|
+|---|---|---|
+|`Key`|**Drop-down**|The key that **INCARI** will *listen* for.|
 
-* **Is Alt** - Outputs as _true_ only if the **ALT** key is down when the assigned key is pressed; otherwise, the default value is _false_.
-* **Is Control** - Outputs as _true_ only if the **CTRL** key is down when the assigned key is pressed; otherwise, the default value is _false_.
-* **Is Shift** - Outputs as _true_ only if the **SHIFT** key is down when the assigned key is pressed; otherwise, the default value is _false_.
-* **Is Repeated** - Outputs as _false_ the first time the key is pressed, and _true_ while it is being held down. This helps to prevent unintended re-firing of the event.
+# Outputs
 
-### Attributes
+|Output|Type|Description|
+|---|---|---|
+|*Pulse Output* (►)|**Pulse**|Moves onto the next part of the **Logic** once the assigned key is pressed (or held).|
+|`Is Alt`|**Bool**|Whether or not the **Alt** key was also pressed in combination with the assigned key.|
+|`Is Ctrl`|**Bool**|Whether or not the **Ctrl** key was also pressed in combination with the assigned key.|
+|`Is Shift`|**Bool**|Whether or not the **Shift** key was also pressed in combination with the assigned key.|
+|`Is Repeated`|**Bool**|Indicates whether this is a repeated/subsequent firing of the **Event** (`true`) or the initial time it is fired (`false`). If the `Repeat Enabled` **Attribute** is enabled, the output will always be `false` because the **Event** is only fired on the initial press.|
 
-![Attributes of the On Key Press node](../../../.gitbook/assets/keypressproperties.png)
-
-* **Name** - The assigned name of the node. Can't be edited.
-* **Type** - The type of node, \(**On Key Press**\). Can't be edited.
-* **Scene** - The scene which the key press applies to. The scene should be dragged and dropped onto the Scene property from the **Project Outliner**. This can be removed by clicking the trash can icon to the right of the "Scene" icon.
-* **Key** - The keyboard key that you want Incari to listen for.
-
-### Uses
-
-Although your HMIs will be ultimately controlled by input from physical buttons, dials, knobs and CANBUS data, it is useful in the development stage, to be able to simulate this kind of input in real time, using only the keyboard.
-
-### Examples
-
-#### Basic
-
-![The above example outputs a message to the console every time the RETURN key is pressed.](../../../.gitbook/assets/keypressbasic.png)
-
-#### Intermediate
-
-![The above example would output different messages depending on whether ENTER is pressed or ENTER + SHIFT.](../../../.gitbook/assets/keypressadvanced.png)
+# See Also
+- [**Events**](../README.md)
+- [**Keyboard**](README.md)
+- [**On Key Release**](on-key-release.md)
