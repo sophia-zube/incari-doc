@@ -1,14 +1,10 @@
 # Overview
 
-![](../../../.gitbook/assets/node-switch.png)
+![](../../.gitbook/assets/node-switch.png)
 
-**Switch** compares whether or not the **Value** of a single **Data Input** is equal to any of multiple pre-defined **Values**, also known as **Cases**. Whichever **Case** is evaulated to be equal to the **Input**, will trigger the corresponding **Output Pulse**. If there are no matches found, the `Default` **Pulse** will be executed.
+**Switch** takes an input value and triggers one of several output **Pulses**, based on whether or not the input matches a pre-defined value. These pre-defined values, referred to as *cases* in computer programming, can be defined as a list in the `Cases` **Attribute**. Each value added to the **Node** also creates a corresponding output **Pulse**. If the value of the `Input` **Socket** matches a value defined in the `Cases` **Attribute**, its corresponding **Pulse** is triggered. If no match is found, then the `Default` **Pulse** is triggered instead.
 
-While you should never have **Cases** of the same **Value**, be aware that equality is checked from top-to-bottom; meaning that if a match has been found, subsequent **Cases** won't be evaluated.
-
-## Attributes
-
-*The **Switch Node** has no **Attributes***.
+# Attributes
 
 ## Inputs
 
@@ -20,21 +16,20 @@ While you should never have **Cases** of the same **Value**, be aware that equal
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Cases`|**List**|The pre-defined **Cases** to compare with `Input`.|
-
+|`Cases [n]`|*Defined in the* `Data Type` ***Attribute***.|The pre-defined values which will be compared to the value of the `Input` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the* `Data Type` ***Attribute**.*|The **Value** to be compared with the list of pre-defined **Cases**.|
+|`Input`|*Defined in the* `Data Type` ***Attribute**.*|The value to be compared with the list of pre-defined `Cases`.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|`Case: [n]`|**Pulse**|An **Output Pulse** for each pre-defined **Case**, whose execution is triggered if the corresponding **Case** is evaluated as being equal to `Input`.|
+|`Case: [n]`|**Pulse**|An **Output Pulse** for each pre-defined *case*, whose execution is triggered if the corresponding value is evaluated as being equal to `Input`.|
 
 # External Links
 
