@@ -1,39 +1,42 @@
-# Flow Control
+# Overview
 
-## Overview
+**Flow Control Nodes** are used to define the order in which logic is evaluated, allows a program to consider multiple conditions, and perform different actions based on those variable conditions.
 
-Flow Control \(or Control Flow\) defines the order in which logic is evaluated, allows a program to consider multiple conditions and performs different actions based on those variable conditions.
+**Nodes** in the **Flow Control** category fall into several subcategories.
 
-Nodes in the Control Flow category fall into several subcategories.
+# Relational Expression Nodes
 
-### Relational Expression Nodes
+*Relational expression* **Nodes** compare two values and yield a value based on the relationship of those inputs. These include the following:
 
-Relational expression nodes compare two values and yield a [**Boolean** ](../../data-types/bool.md)value based on the relationship of those inputs. These include the following:
+* **IsEqual** - Compares whether two values are *equal* in value, or *not equal*, depending on `Mode`. This is the equivalent of the `==` and `!=` operators in computer programming.
+* **IsGreaterEqual** - Compares whether one value is *greater* than another, or if they are equal, depending on `Mode`. This is the equivalent of the `>` and `>=` operators in computer programming.
+* **IsLessEqual** - Compares whether one value is *less* than another, or if they are equal, depending on `Mode`. This is the equivalent of the `<` and `<=` operators in computer programming.
 
-* **IsEqual**
-* **IsGreaterEqual**
-* **IsLessEqual**
+# Logical Operator Nodes 
 
-### Logical Operator Nodes 
+*Logical operator* **Nodes** combine two or more **Boolean** expressions to yield a **Boolean** value based on the inputs' logical relationship to one another. These are:
 
-Logical operator nodes combine [**Boolean** ](../../data-types/bool.md)expressions to yield a [**Boolean**](../../data-types/bool.md) value based on the outcome of multiple conditions and their logical relationship to one another. These are:
+* **AND** - Returns *true* if all of the **Node**'s inputs are also *true*. The equivalent of the `&&` operator in computer programming.
+* **OR** - Returns *true* if at least one of the **Node**'s inputs are *true*. The equivalent of the `||` operator in computer programming.
 
-* **AND**
-* **OR**
-* **Negate**
+There is also the **Negate Node**, whose output is simply the **Boolean** value opposite to its input. This is used to mean *NOT* and is the equivalent of the `!` operator in computer programming. 
 
-### Pulse Flow Nodes
+# Pulse Flow Nodes
 
-Pulse flow nodes are used to better visually organise the Node Editor graph, and to implement control flow along multiple paths depending on provided conditions or combinations of conditions. They are:
+**Pulse Flow Nodes** are mainly used to change the *control flow* of logic, which means executing different logic branches based on various *conditions*. To achieve truly dynamic programs, they are used in synergy with *relational expression* and *logical operator* **Nodes**.
 
-* **Branch**
-* **Switch**
-* **Sequential**
-* **Toggle**
+* **Branch** - Takes one of two paths based on its input **Boolean** value. Similar to an `if` statement in computer programming.
+* **Switch** - Takes one of several paths if the input value is equal to a path's corresponding, pre-defined value. If not, then the `Default` path is taken. Similar to a `switch` statement in computer programming.
+* **Toggle** - Holds a **Boolean** *state*, which alternates between its opposite state every time the input **Pulse** is triggered.
+* **Select Data** - Takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by. This is a useful way to converge **Pulse Flow** into a single path.
 
+Additionally, **INCARI** has the **Sequential Node** which triggers all output **Pulses** sequentially and is used primarily as a means of grouping and organizing blocks of logic with a similar or combined purpose into a more visually readable way.
 
-
-
+# External Links
+- [*Control Flow*](https://www.computerhope.com/jargon/c/contflow.htm) on Computer Hope.
+- [*Conditional Statement*](https://www.computerhope.com/jargon/c/contstat.htm) on Computer Hope.
+- [*Logical Operation*](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
+- [*State*](https://www.techopedia.com/definition/696/state-computer-science) on Technopedia.
 
 
 

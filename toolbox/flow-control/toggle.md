@@ -1,16 +1,14 @@
 # Overview
 
-![](../../../.gitbook/assets/node-toggle.png)
+![](../../.gitbook/assets/node-toggle.png)
 
-The **Toggle Node** holds an internal **Boolean Value**, which is toggled between *true* and *false*, every time the **Node** is triggered.
-
-A **Node** which holds data internally (not held in a **Variable**), is also referred to as having a **State**.
+Holds a **Boolean** *state*, which alternates between *true* and *false* every time the input **Pulse** is triggered. This can be thought of as being like a light switch, which alternates a light bulb's state between being *on* and *off*. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Value`|**Bool**|The default **Value** of the **Node**, before it is executed.|
+|`Value`|**Bool**|The default value/*state* of the **Node**, before it is executed.|
 
 # Inputs
 
@@ -23,4 +21,8 @@ A **Node** which holds data internally (not held in a **Variable**), is also ref
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`isOn`|**Bool**|Whether or not the **State** of the **Node** is currently set to *true*.|
+|`is On`|**Bool**|Whether or not the value/*state* of the **Node** is currently  *true*.|
+
+# External Links
+
+- [*State*](https://www.techopedia.com/definition/696/state-computer-science) on Technopedia.

@@ -1,21 +1,24 @@
 # Overview
 
-![](../../../.gitbook/assets/node-isgreaterequal.png)
+![](../../.gitbook/assets/node-is-greater-equal.png)
 
-**IsGreaterEqual** is a **Relational Expression Node**, which compares two **Input Values**, and returns a **Boolean**, based on whether or not the **Value** of **Input** `A` is greater than **Input** `B`. If it is, the returned **Value** will be *true*, and if not, it will return *false*.
+**Is Greater Equal** is a *relational expression* **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of *inequality*. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
-Depending on the setting in the `Mode` **Attribute**, the **Node** may also return *true* if the **Values** are equal.
+1. `IsGreater` - Whether the value of `A` is greater than the value of `B`.
+2. `IsGreaterEqual` - Whether the value of `A` is greater than *or* equal to the value of `B`.
 
-Because the **IsGreaterEqual** and **IsLessEqual** compare the difference in **Value**, these **Nodes** can only be used with **Numerical Types**.
+*Relational expressions* are frequently used in combination with **Branch Nodes** and *logical operator* **Nodes** (**AND**, **OR**, and **Negate**) to create *conditional logic*, and are essential for building complex systems.
 
-**Relational Expressions** are frequently used alongside **Branch Nodes** and **Logical Operator Nodes** to manipulate the flow of logic and are essential when building any complex applications.
+Due to their nature, *inequality* operations only work for *numerical data types*.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
 |`Data Type`|**Drop-down**|The type of data that will be plugged into the `A` and `B` **Sockets**.|
-|`Mode`|**Drop-down**|Determines whether equal **Values** will return *true* (`IsGreaterEqual`), or they will return *false* (`IsGreater`).|
+|`Mode`|**Drop-down**|The type of expression that will be used when comparing the values.|
+|`Default Value A`|*Defined in the* `Data Type` ***Attribute***.|The value of `A` if no value is provided via the **Node**'s **Socket**.|
+|`Default Value B`|*Defined in the* `Data Type` ***Attribute***.|The value of `B` if no value is provided via the **Node**'s **Socket**.|
 
 # Inputs
 
@@ -30,18 +33,7 @@ Because the **IsGreaterEqual** and **IsLessEqual** compare the difference in **V
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`C`|**Bool**|Returns *true* if `A` is greater (or equal, depending on `Mode`) than `B`. If not, then it returns *false*.|
-
-# Examples
-
-Below, in the top two examples, we can see the difference between the `IsGreaterEqual` and `IsGreater` modes and how even small differences in **Value** affect the outcome of the evaluation.
-
-| `Mode` | `A` | `B` | `C` |
-| :--- | :--- | :--- | :--- |
-| `IsGreater` | 123 | 123 | *False* |
-| `IsGreaterEqual` | 123 | 123 |  *True* |
-| `IsGreater` | 384 | 384.0001 | *False* |
-| `IsGreater` | 365 | 180 |  *True* |
+|`C`|**Bool**|Returns *true* if the value of `A` is greater than (or equal to, depending on `Mode`) to `B`. If not, then it returns *false*.|
 
 # External Links
 
