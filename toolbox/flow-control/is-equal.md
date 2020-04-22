@@ -24,8 +24,8 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`A`|*Defined in the* `Data Type` ***Attribute**.*|The **Value** to be compared with `B`.|
-|`B`|*Defined in the* `Data Type` ***Attribute**.*|The **Value** to be compared with `A`.|
+|`A`|*Defined in the* `Data Type` ***Attribute***.|The **Value** to be compared with `B`.|
+|`B`|*Defined in the* `Data Type` ***Attribute***|The **Value** to be compared with `A`.|
 
 # Outputs
 

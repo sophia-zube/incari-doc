@@ -23,7 +23,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the* `Data Type` ***Attribute**.*|The value to be compared with the list of pre-defined `Cases`.|
+|`Input`|*Defined in the* `Data Type` ***Attribute***.|The value to be compared with the list of pre-defined `Cases`.|
 
 # Outputs
 
