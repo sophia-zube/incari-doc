@@ -2,25 +2,27 @@
 
 ![](../../.gitbook/assets/node-subtract.png)
 
-**Subtract** subtracts all of the values provided in the **Input Sockets**, in order, from top-to-bottom, and returns the result of those operations.
+**Subtract** is a *basic arithmetic operation* **Node**, which performs a sequence of subtraction operations, from top-to-bottom, for each `Input` **Socket**, whose value is subtracted from the result of the previous operation.
+
+This is the equivalent of the subtraction (`-`) operation in computer science and mathematics.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Data Type`|**Drop-down**|The type of **Data** that will be plugged into the `Input` **Sockets**.|
-|`Count`|**Int**|The number of **Data Input Sockets** the **Node** will have.|
+|`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Sockets**.|
+|`Default Inputs`|*Defined in the `Data Type` **Attribute***.|The amount of `Input` **Sockets** and their default values if they have no data connected to them.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input [n]`|*Defined in the* `Data Type` ***Attribute***.|The **Values** to be subtracted from each other.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+|`Input [n]`|*Defined in the* `Data Type` ***Attribute***.|The values to be subtracted sequentially, from top-to-bottom.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`Output`|*Defined in the* `Data Type` ***Attribute***.|The result of the subtraction operation(s).|
