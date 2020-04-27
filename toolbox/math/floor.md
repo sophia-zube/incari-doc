@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-floor.png)
+![](../../.gitbook/assets/node-floor.png)
 
 **Floor** takes a numerical **Value** and returns the highest whole number, which is less than, or equal to, the `Input` **Value**. This basically means that the **Value** is rounded down, with anything after the decimal point of a number, being removed, making it a non-fractional number.
 

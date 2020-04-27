@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-minimum.png)
+![](../../.gitbook/assets/node-minimum.png)
 
 **Minimum** compares two or more numerical **Inputs** against each other and returns the lower bound (minimum **Value**) in the set.
 

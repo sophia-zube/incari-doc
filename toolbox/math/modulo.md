@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-modulo.png)
+![](../../.gitbook/assets/node-modulo.png)
 
 **Modulo** takes two **Numerical Type Inputs**; `a` \(_the dividend_\) and `b` \(_the divisor_\) and returns the _remainder_ of the *division* of `a` and `b`.
 

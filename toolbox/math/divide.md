@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-divide.png)
+![](../../.gitbook/assets/node-divide.png)
 
 **Divide** divides all of the values provided in the **Input Sockets**, in order, from top-to-bottom, and returns the result of those operations.
 

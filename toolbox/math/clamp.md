@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-clamp.png)
+![](../../.gitbook/assets/node-clamp.png)
 
 **Clamp** limits a **Numerical Value** to a given range, so that it isn't lower than the lower boundary, or higher than the upper boundary.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-root.png)
+![](../../.gitbook/assets/node-root.png)
 
 **Root** calculates the *nth root* of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a base by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
 

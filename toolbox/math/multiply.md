@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-multiply.png)
+![](../../.gitbook/assets/node-multiply.png)
 
 **Multiply** returns the result of all **Values** provided in the **Input Sockets**, multiplied together.
 

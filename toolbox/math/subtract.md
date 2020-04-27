@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-subtract.png)
+![](../../.gitbook/assets/node-subtract.png)
 
 **Subtract** subtracts all of the values provided in the **Input Sockets**, in order, from top-to-bottom, and returns the result of those operations.
 

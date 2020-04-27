@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-ceil.png)
+![](../../.gitbook/assets/node-ceil.png)
 
 **Floor** takes a numerical **Value** and returns the highest whole number, which is greater than, or equal to, the `Input` **Value**. This basically means that the **Value** is rounded up, and any non-whole number will ouput the next highest whole number.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-add.png)
+![](../../.gitbook/assets/node-add.png)
 
 **Add** returns the sum of all of the **Values** provided in the **Input Sockets**.
 

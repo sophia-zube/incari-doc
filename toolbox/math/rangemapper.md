@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-range-mapper.png)
+![](../../.gitbook/assets/node-range-mapper.png)
 
 **Range Mapper** takes a **Value**, calculates its position in relation to a reference range, and transforms the **Value** to its same relative position within a target range.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![](../../../.gitbook/assets/node-maximum.png)
+![](../../.gitbook/assets/node-maximum.png)
 
 **Maximum** compares two or more numerical **Inputs** against each other and returns the upper bound (maximum **Value**) in the set.
 
