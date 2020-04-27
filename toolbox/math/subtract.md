@@ -18,11 +18,11 @@ This is the equivalent of the subtraction (`-`) operation in computer science an
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input [n]`|*Defined in the* `Data Type` ***Attribute***.|The values to be subtracted sequentially, from top-to-bottom.|
+|`Input [n]`|*Defined in the `Data Type` **Attribute**.*|The values to be subtracted sequentially, from top-to-bottom.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|*Defined in the* `Data Type` ***Attribute***.|The result of the subtraction operation(s).|
+|`Output`|*Defined in the `Data Type` **Attribute**.*|The result of the subtraction operation(s).|

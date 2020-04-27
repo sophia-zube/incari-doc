@@ -18,11 +18,11 @@ This is the equivalent of the multiplication (`*` or `x`) operation in computer 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input [n]`|*Defined in the* `Data Type` ***Attribute***.|The values to be multiplied together.|
+|`Input [n]`|*Defined in the `Data Type` **Attribute**.*|The values to be multiplied together.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|*Defined in the* `Data Type` ***Attribute***.|The product of all of the values provided in the `Input` **Sockets**.|
+|`Output`|*Defined in the `Data Type` **Attribute**.*|The product of all of the values provided in the `Input` **Sockets**.|

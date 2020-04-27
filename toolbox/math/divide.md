@@ -27,4 +27,4 @@ This is the equivalent of the division (`÷` or `/`) operation in computer scien
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Quotient`|*Defined in the* `Data Type` ***Attribute***.|The result of the division operation.|
+|`Quotient`|*Defined in the `Data Type` **Attribute**.*|The result of the division operation.|
