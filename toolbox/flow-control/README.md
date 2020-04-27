@@ -12,15 +12,6 @@
 * **IsGreaterEqual** - Compares whether one value is *greater* than another, or if they are equal, depending on `Mode`. This is the equivalent of the `>` and `>=` operators in computer programming.
 * **IsLessEqual** - Compares whether one value is *less* than another, or if they are equal, depending on `Mode`. This is the equivalent of the `<` and `<=` operators in computer programming.
 
-# Logical Operator Nodes 
-
-*Logical operator* **Nodes** combine two or more **Boolean** expressions to yield a **Boolean** value based on the inputs' logical relationship to one another. These are:
-
-* **AND** - Returns *true* if all of the **Node**'s inputs are also *true*. The equivalent of the `&&` operator in computer programming.
-* **OR** - Returns *true* if at least one of the **Node**'s inputs are *true*. The equivalent of the `||` operator in computer programming.
-
-There is also the **Negate Node**, whose output is simply the **Boolean** value opposite to its input. This is used to mean *NOT* and is the equivalent of the `!` operator in computer programming. 
-
 # Pulse Flow Nodes
 
 **Pulse Flow Nodes** are mainly used to change the *control flow* of logic, which means executing different logic branches based on various *conditions*. To achieve truly dynamic programs, they are used in synergy with *relational expression* and *logical operator* **Nodes**.
@@ -32,7 +23,12 @@ There is also the **Negate Node**, whose output is simply the **Boolean** value 
 
 Additionally, **INCARI** has the **Sequential Node** which triggers all output **Pulses** sequentially and is used primarily as a means of grouping and organizing blocks of logic with a similar or combined purpose into a more visually readable way.
 
+# See Also
+
+- [**Boolean**](../math/boolean/README.md)
+
 # External Links
+
 - [*Control Flow*](https://www.computerhope.com/jargon/c/contflow.htm) on Computer Hope.
 - [*Conditional Statement*](https://www.computerhope.com/jargon/c/contstat.htm) on Computer Hope.
 - [*Logical Operation*](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
