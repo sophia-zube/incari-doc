@@ -2,11 +2,11 @@
 
 ![](../../.gitbook/assets/node-root.png)
 
-**Root** calculates the *nth root* of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a base by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
+**Root** calculates the *nth root* of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a *base* by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
 
-The most common example of **Root** operations, is finding the square (2nd) root, or cubic (3rd) root of a number, however this can also be used for higher numbers.
+The most common example of **Root** operations, is finding the *square* (degree 2) root, or *cubic* (degree 3) *root* of a number, however this can also be used for higher numbers.
 
-|`Input`|`Root`|`Output`|
+|`Base`|`Degree`|`Output`|
 |---|---|---|---|
 |9|2|3|
 |13824|3|24|
@@ -15,22 +15,28 @@ The most common example of **Root** operations, is finding the square (2nd) root
 
 # Attributes
 
-*The **Root Node** has no **Attributes***.
+|Input|Type|Description|
+|---|---|---|
+|`Default Base`|**Float**|The default value of `Base`, if no value is provided in the `Base` **Socket**.|
+|`Default Degree`|**Float**|The default value of `Degree`, if no value is provided in the `Degree` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**Float**|The **Value** which you want to find the *nth root* of.|
-|`Root`|**Float**|The degree of the root (the "*n*" in "*nth root*").|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+|`Base`|**Float**|The value which you want to find the *nth root* of.|
+|`Degree`|**Float**|The degree of the root.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|**Float**|The *base* number which, when multiplied against itself the number of times defined in `Root`, would return the **Value** of `Input`. |
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
+|`Output`|**Float**|The *nth root* (defined in `Degree`) of `Base`.|
+
+# See Also
+- [**Power**](power.md)
 
 # External Links
 
