@@ -9,14 +9,14 @@
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 |`Offset (ms)`|**Int**|The offset from the current UTC in milliseconds.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`UTC Unix (ms)`|**Int**|The current UTC, with the offset (if any) applied.|
 
 # See Also

@@ -14,7 +14,7 @@
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 |`Input`|**Bool**|The *true* or *false* condition to determine which of the two output **Pulses** are executed.|
 
 # Outputs

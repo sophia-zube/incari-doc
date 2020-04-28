@@ -14,13 +14,13 @@ Holds a **Boolean** *state*, which alternates between *true* and *false* every t
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`is On`|**Bool**|Whether or not the value/*state* of the **Node** is currently  *true*.|
 
 # External Links

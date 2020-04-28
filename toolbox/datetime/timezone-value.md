@@ -14,14 +14,14 @@
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 |`Timezone Offset (ms)`|**Int**|The offset from the UTC in milliseconds.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`Timezone Offset (ms)`|**Int**|The offset of the timezone, in milliseconds, relative to UTC.|
 
 # See Also

@@ -17,22 +17,22 @@ Due to their nature, *inequality* operations only work for *numerical data types
 |---|---|---|
 |`Data Type`|**Drop-down**|The type of data that will be plugged into the `A` and `B` **Sockets**.|
 |`Mode`|**Drop-down**|The type of expression that will be used when comparing the values.|
-|`Default Value A`|*Defined in the* `Data Type` ***Attribute***.|The value of `A` if no value is provided via the **Node**'s **Socket**.|
-|`Default Value B`|*Defined in the* `Data Type` ***Attribute***.|The value of `B` if no value is provided via the **Node**'s **Socket**.|
+|`Default Value A`|*Defined in the `Data Type` **Attribute**.*|The value of `A` if no value is provided via the **Node**'s **Socket**.|
+|`Default Value B`|*Defined in the `Data Type` **Attribute**.*|The value of `B` if no value is provided via the **Node**'s **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`A`|*Defined in the* `Data Type` ***Attribute***|The **Value** to be compared with `B`.|
-|`B`|*Defined in the* `Data Type` ***Attribute***|The **Value** to be compared with `A`.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+|`A`|*Defined in the* `Data Type` ***Attribute***|The value to be compared with `B`.|
+|`B`|*Defined in the* `Data Type` ***Attribute***|The value to be compared with `A`.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`C`|**Bool**|Returns *true* if the value of `A` is less than (or equal to, depending on `Mode`) to `B`. If not, then it returns *false*.|
 
 # External Links

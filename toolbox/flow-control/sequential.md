@@ -16,7 +16,7 @@ They are used primarily as a means of grouping and organizing blocks of logic wi
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 

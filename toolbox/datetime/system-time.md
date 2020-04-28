@@ -18,13 +18,13 @@ When `Smooth float value` is enabled, the output values won't be rounded down, s
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`Hour`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The hour according to the system's current time.|
 |`Minute`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The minute according to the system's current time.|
 |`Second`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The second according to the system's current time.|
