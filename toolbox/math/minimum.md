@@ -9,7 +9,7 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`Data Type`|**Drop-down**|The data type of all `Input` and `Output` **Sockets**.|
-|`DInputs`|*Defined in the `Data Type` **Attribute***.|The amount of `Input` **Sockets** and their default values if they have no data connected to them.|
+|`Inputs`|*Defined in the `Data Type` **Attribute***.|The amount of `Input` **Sockets** and their default values if they have no data connected to them.|
 
 # Inputs
 
