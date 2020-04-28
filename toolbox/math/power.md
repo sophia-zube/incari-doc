@@ -27,6 +27,10 @@
 |*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
 |`Output`|*Defined in the `Data Type` **Attribute***.|The result of the *exponentiation operation*.|
 
+# See Also
+
+- [**Root**](root.md)
+
 # External Links
 
 - [*Exponentiation: Definition & Examples*](https://study.com/academy/lesson/exponentiation-definition-examples-quiz.html) on Study.com.
