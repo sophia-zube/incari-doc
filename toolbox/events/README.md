@@ -7,9 +7,9 @@ Although many branches of **Logic** can be defined in **INCARI**'s **Logic Edito
 **Events** in **INCARI** can be directly triggered by the user's input, as is the case with **Keyboard** and **Mouse Events**, or triggered automatically when something happens relating to an **Object**, **Variable**, **Scene**, or **Screen**. One of the most powerful aspect of **INCARI**'s **Events** is that you even can define your own custom *triggers* and *listeners*, to establish the criteria under which one part of your **Logic** causes the execution of others.
 
 # Contents
-* [Keyboard](keyboard/README.md)
-  * [On Key Press](keyboard/on-key-press.md)
-  * [On Key Release](keyboard/on-key-release.md)
+* [**Keyboard**](keyboard/README.md)
+  * [**On Key Press**](keyboard/on-key-press.md)
+  * [**On Key Release**](keyboard/on-key-release.md)
 
 # External Links
 [*What is event programming?*](https://mortoray.com/2017/06/26/what-is-event-programming/) on Musing Mortoray.
