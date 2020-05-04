@@ -16,14 +16,14 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Cases [n]`|*Defined in the* `Data Type` ***Attribute***.|The pre-defined values which will be compared to the value of the `Input` **Socket**.|
+|`Cases [n]`|*Defined in the `Data Type` **Attribute**.*|The pre-defined values which will be compared to the value of the `Input` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the* `Data Type` ***Attribute**.*|The value to be compared with the list of pre-defined `Cases`.|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+|`Input`|*Defined in the `Data Type` **Attribute**.*|The value to be compared with the list of pre-defined `Cases`.|
 
 # Outputs
 

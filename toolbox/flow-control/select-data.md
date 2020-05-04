@@ -16,11 +16,11 @@ Because **Input Data Sockets** in **INCARI** can only receive a value from a sin
 |Input|Type|Description|
 |---|---|---|
 |`Pulse [n]`|**Pulse**|The **Pulse** corresponding to the **Data** in the **Socket** below.|
-|`Input [n]`|*Defined in the* `Data Type` ***Attribute***.|The **Data Value** corresponding to the above **Pulse**.|
+|`Input [n]`|*Defined in the `Data Type` **Attribute**.*|The **Data Value** corresponding to the above **Pulse**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|*Defined in the* `Data Type` ***Attribute***.|The `Input` **Value** corresponding to whichever `Pulse` triggered the execution of the **Node**.|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
+|`Output`|*Defined in the `Data Type` **Attribute**.*|The `Input` value corresponding to whichever `Pulse` triggered the execution of the **Node**.|

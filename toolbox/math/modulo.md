@@ -1,12 +1,12 @@
 # Overview
 
-![](../../../.gitbook/assets/node-modulo.png)
+![](../../.gitbook/assets/node-modulo.png)
 
-**Modulo** takes two **Numerical Type Inputs**; `a` \(_the dividend_\) and `b` \(_the divisor_\) and returns the _remainder_ of the *division* of `a` and `b`.
+**Modulo** is a *modular arithmetic* **Node**, which divides one number (*dividend*) by a second number (*divisor*) and outputs the *remainder* of the *Euclidean division* operation.
 
-Unlike normal division, this kind of operation, actually considers how many times the divisor fits into the dividend in its entirity (the *quotient*), with the *remainder* being the amount that is left over.
+This is the equivalent of the modulo (`%`) operation in computer science.
 
-|Dividend (`a`)|Divisor (`b`)|Quotient|Remainder (`c`)|
+|`Dividend`|`Divisor`|Quotient|`Remainder`|
 |---|---|---|---|
 |10|25|2|5|
 |5.5|1.5|3|1|
@@ -17,22 +17,24 @@ Unlike normal division, this kind of operation, actually considers how many time
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Data Type`|*Defined in the* `Data Type` ***Attribute**.*|The **Numerical Data Type** of both the dividend and the divisor (`a` and `b`)|
+|`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Sockets**.|
+|`Default Dividend`|*Defined in the `Data Type` **Attribute***.|The left side of the *Euclidean division* operation (the number to be divided) if no value is provided in the `Dividend` **Socket**.|
+|`Default Divisor`|*Defined in the `Data Type` **Attribute***.|The right side of the *Euclidean division* operation (the number to divide by) if no value is provided in the `Divisor` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`a`|*Defined in the* `Data Type` ***Attribute**.*|The dividend (number to be divided).|
-|`b`|*Defined in the* `Data Type` ***Attribute**.*|The divisor (amount the dividend should be divided by).|
+|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+|`Dividend`|*Defined in the `Data Type` **Attribute***.|The left side of the  *Euclidean division* operation (the number to be divided).|
+|`Divisor`|*Defined in the `Data Type` **Attribute***.|The right side of the *Euclidean division* operation (the number to divide by).|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`c`|*Defined in the* `Data Type` ***Attribute**.*|The remainder of the division operation. (*divisor - dividend * quotient*).|
+|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
+|`Remainder`|*Defined in the `Data Type` **Attribute**.*|The remainder of the *Euclidean division* operation.|
 
 
 # External Links
