@@ -64,3 +64,7 @@
   * [Range Mapper](toolbox/math/range-mapper.md)
   * [Root](toolbox/math/root.md)
   * [Subtract](toolbox/math/subtract.md)
+* [Get Scale](toolbox/incari/object/get-scale.md)   
+* [Get Alpha](toolbox/incari/object/get-alpha.md)
+* [Get Rotation](toolbox/incari/object/get-rotation.md)
+* [Get Position](toolbox/incari/object/get-position.md)

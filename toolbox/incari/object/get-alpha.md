@@ -1,0 +1,29 @@
+# Overview
+
+![The Get Alpha Node.](../../../.gitbook/assets/toolbox/incari/object/get-alpha.PNG)
+
+| Input | Output |
+| :--- | :--- |
+| Object ID | Alpha |
+
+**Get Alpha** returns the *alpha* value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**. 
+
+# Inputs
+
+|Input|Type|Description|
+|---|---|---|
+|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|Int|The ID of the **Object** whose color space's *alpha* value is to be determined.
+
+# Outputs
+
+|Output|Type|Description|
+|---|---|---|
+|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Alpha`| Float | The *alpha* value.
+
+# See Also
+
+# External Links
+- [*Alpha value*](https://en.wikipedia.org/wiki/Alpha_compositing)
+
