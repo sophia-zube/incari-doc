@@ -2,10 +2,6 @@
 
 ![The Get Alpha Node.](../../../.gitbook/assets/toolbox/incari/object/get-alpha.PNG)
 
-| Input | Output |
-| :--- | :--- |
-| Object ID | Alpha |
-
 **Get Alpha** returns the *alpha* value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**. 
 
 The **Get Alpha** node only works with objects that have **Sprite** category of attributes such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.

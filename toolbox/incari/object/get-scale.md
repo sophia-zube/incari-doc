@@ -2,11 +2,6 @@
 
 ![The Get Scale Node.](../../../.gitbook/assets/toolbox/incari/object/get-scale.PNG)
 
-| Input | Output |
-| :--- | :--- |
-| Object ID | Scale |
-
-
 **Get Scale** returns the *scale* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 # Attributes

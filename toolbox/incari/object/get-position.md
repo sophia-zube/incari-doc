@@ -2,10 +2,6 @@
 
 ![The Get Position Node.](../../../.gitbook/assets/toolbox/incari/object/get-position.PNG)
 
-| Input | Output |
-| :--- | :--- |
-| Object ID | Position |
-
 **Get Position** returns the *position* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 # Attributes

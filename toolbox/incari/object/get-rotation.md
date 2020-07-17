@@ -2,10 +2,6 @@
 
 ![The Get Rotation Node.](../../../.gitbook/assets/toolbox/incari/object/get-rotation.PNG)
 
-| Input | Output |
-| :--- | :--- |
-| Object ID | Rotation |
-
 **Get Rotation** returns the *rotation* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 # Attributes
