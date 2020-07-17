@@ -8,12 +8,21 @@
 
 **Get Alpha** returns the *alpha* value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**. 
 
+The **Get Alpha** node only works with objects that have **Sprite** category of attributes such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.
+
+# Attributes
+
+|Attribute|Type|Description|
+|---|---|---|
+|`Object`|**ObjectID**|The **Object** that you wish to return the `alpha` component of, if one is not provided in the `object ID` **Socket**.
+
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|Int|The ID of the **Object** whose color space's *alpha* value is to be determined.
+|`Object`|**ObjectID** |The ID of the **Object** whose color space's *alpha* value is to be determined.
+
 
 # Outputs
 

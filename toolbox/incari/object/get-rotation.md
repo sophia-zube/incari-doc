@@ -8,19 +8,25 @@
 
 **Get Rotation** returns the *rotation* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
+# Attributes
+
+|Attribute|Type|Description|
+|---|---|---|
+|`Object`|**ObjectID**|The **Object** that you wish to return the `rotation` of, if one is not provided in the `object ID` **Socket**.
+
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|Int|The ID of the **Object** whose *rotation* is to be determined.
+|`Object`|**ObjectID**|The ID of the **Object** whose *rotation* is to be determined.
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Scale`| 3D vector | A 3 dimensional vector that contains *rotation* in the x, y and z directions.
+|`Scale`|**Vector3** | A 3 dimensional vector that contains *rotation* in the x, y and z directions.
 
 # See Also
 [**Get Scale**](get-scale.md)
