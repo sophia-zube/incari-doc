@@ -8,14 +8,14 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **List** **Object** of which you wish to select a previous entry item. if a **List** **Object** is provided in the `object ID` **Socket**, this attribute is not used.|
+|`Object`|**ObjectID**|The **List** **Object** which you wish to select a previous entry item of. If a **List** **Object** is provided in the `Object ID` **Socket**, this **Attribute** is not used.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The **List** **Object** you wish to find a previous entry item.|
+|`Object ID`|**ObjectID**|The **List** **Object** which you wish to select a previous entry item of.|
 
 
 # Outputs
