@@ -8,14 +8,14 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **List** **Object** you would to select an entry of, if one is not provided in the `object ID` **Socket**.|
+|`Object ID`|**ObjectID**|The target **List** **Object** you want to select an entry of, if one is not provided in the `object ID` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The target **List** **Object** you would to select an entry of.|
+|`Object ID`|**ObjectID**|The target **List** **Object** you want to select an entry of.|
 
 # Outputs
 
