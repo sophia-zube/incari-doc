@@ -2,7 +2,7 @@
 
 ![The Set Text Node.](../../../.gitbook/assets/toolbox/incari/object/set-text.PNG)
 
-**Set Text** inputs a **Text** value into a **Text** **Object**.
+**Set Text** sets the text ofa **Text** **Object**.
 
 The **Set Text** node only works for **Text Objects**.
 
