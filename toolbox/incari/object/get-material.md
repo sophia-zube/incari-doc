@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** whose `Material` assert you would like to return, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The **Mesh Object** whose allocated **Material** you wish to return, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
