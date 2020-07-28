@@ -2,7 +2,7 @@
 
 ![The Get Material Node.](../../../.gitbook/assets/toolbox/incari/object/get-material.PNG)
 
-**Get Material** returns the **Material** assert applied to a **Mesh** of an **Object**.
+**Get Material** returns the assigned **Material** of a **Mesh Object**.
 
 # Attributes
 
