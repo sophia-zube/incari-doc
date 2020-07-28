@@ -23,7 +23,7 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Color`|**Color**|An *RGBA* color mode representing the `tint` color value of the target **Object**.|
+|`Color`|**Color**| The **Color** value of the **Object**'s `Tint` **Attribute**.|
 
 # See Also
 [**SET Tint**](set-tint.md)
