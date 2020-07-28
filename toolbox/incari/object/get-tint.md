@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** that you wish to return the `tint` color value of, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The ID of the **Object** whose `Tint` **Attribute**'s **Color** value should be returned if one is not provided in the `Object ID` **Socket**.|
 
 
 # Inputs
