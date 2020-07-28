@@ -17,7 +17,7 @@ The **Get Alpha** **Node** only works with **Objects** that have  **Attribute**'
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID** |The ID of the **Object** whose color space's *alpha* value is to be determined.
+|`Object ID`|**ObjectID** |The **Object** whose `Alpha` **Attribute** value you wish to return.
 
 
 # Outputs
