@@ -2,7 +2,7 @@
 
 ![The Get Tint Node.](../../../.gitbook/assets/toolbox/incari/object/get-tint.PNG)
 
-**Get Tint** returns an *RGBA* color mode representing the `tint` value applied to the *hue* color of an **Object**.
+**Get Tint** returns the **Color** of the `Tint` **Attribute** of a given **Object**.
 
 # Attributes
 
@@ -30,4 +30,3 @@
 
 # External Links
 - [*Tints and Shades*](https://en.wikipedia.org/wiki/Tints_and_shades) on wikipedia.
-
