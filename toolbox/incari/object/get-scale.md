@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the target **Object** whose *scale* value you seek to return.
+|`Object ID`|**ObjectID**|The ID of the target **Object** whose *scale* value you wish to return.
 
 # Outputs
 
