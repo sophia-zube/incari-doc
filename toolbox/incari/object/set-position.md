@@ -17,7 +17,7 @@
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object`|**ObjectID**|The ID of the **Object** that you would like to set the `Position` value of.|
-|`Position`|**Vector3**|The `Position` you would like to set for the **Object** in a **Scene**.|
+|`Position`|**Vector3**|The desired `Position` value of the **Object**.|
 
 # Outputs
 
