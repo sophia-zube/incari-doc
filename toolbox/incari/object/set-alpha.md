@@ -10,7 +10,7 @@ The **Set Alpha** **Node** only works with **Objects** that have  **Attribute**'
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** whose color space's `alpha` component is to be set, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The **Object** you wish to set the `Alpha` of if one is not provided in the `Object ID` **Socket**.|
 |`Default Alpha`|**Float**|The default value of the **Object** color space's `alpha` component. 
 
 # Inputs
