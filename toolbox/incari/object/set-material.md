@@ -2,7 +2,7 @@
 
 ![The Set Material Node.](../../../.gitbook/assets/toolbox/incari/object/set-material.PNG)
 
-**Set Material** applies a material asset to an **Object** **Mesh**.
+**Set Material** assigns a **Material** to an **Mesh** **Object**.
 
 # Attributes
 
