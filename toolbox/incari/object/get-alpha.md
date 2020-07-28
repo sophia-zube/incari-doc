@@ -25,7 +25,7 @@ The **Get Alpha** **Node** only works with **Objects** that have  **Attribute**'
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Alpha`| Float | The desired *alpha* value.
+|`Alpha`| Float | The *alpha* value of the **Object**.
 
 # See Also
 [**Set Alpha**](set-alpha.md)
