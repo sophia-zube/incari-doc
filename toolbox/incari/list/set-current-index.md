@@ -5,7 +5,7 @@
 
 **Set Current Index** selects an entry item by using it's *index*. It accepts a **List** **Object** and an `index` value and selects an entry item corresponding to the `index` value. 
 
-The index count starts from zero which means the `index` of last entry item of the **list** **Object** is equal to the total number of entry items minus one (sum of entries - 1). This follows from array based indexing whereby the index of the first entry is 0.
+The index count starts from zero, which means that the `index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one (sum of entries - 1). This follows from array-based indexing whereby the index of the first entry is 0.
 
 # Attributes
 
