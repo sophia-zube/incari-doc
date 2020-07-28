@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The target **List** **Object** you want to select an entry of.|
+|`Object ID`|**ObjectID**|The **List** **Object** you want to select an entry of.|
 
 # Outputs
 

@@ -2,7 +2,7 @@
 
 ![The Set Active Node.](../../../.gitbook/assets/toolbox/incari/list/set-active.PNG)
 
-**Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and boolean value `Is Active` and If `Is Active` is positive, then the **List** **Object** is activated otherwise it is deactivated.
+**Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and boolean value `Is Active`. If `Is Active` is positive, then the **List** **Object** is activated otherwise it is deactivated.
 
 # Attributes
 
