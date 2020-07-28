@@ -16,7 +16,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the **Object** whose *tint* color value is to be determined.
+|`Object ID`|**ObjectID**|The ID of the **Object** whose `Tint` **Attribute**'s **Color** value should be returned.
 
 # Outputs
 
