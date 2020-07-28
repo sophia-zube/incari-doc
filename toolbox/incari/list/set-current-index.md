@@ -20,7 +20,7 @@ The index count starts from zero, which means that the `index` of the last entry
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The **List** **Object** from which an entry item can be selected by using its index.|
-|`Index`|**Int**|The *index* value of the entry item of the **List** **Object** you wish to select. |
+|`Index`|**Int**|The *index* of the entry item you wish to select. |
 
 # Outputs
 
