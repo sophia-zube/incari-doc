@@ -18,7 +18,7 @@ The **Set Alpha** **Node** only works with **Objects** that have  **Attribute**'
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the **Object** whose `Alpha` value you would like to set.|
+|`Object ID`|**ObjectID**|The ID of the **Object** whose `Alpha` value you would like to set.|
 |`Alpha`|**Float**|The input `Alpha` value of the **Object's** color space you seek to set.|
 
 # Outputs
