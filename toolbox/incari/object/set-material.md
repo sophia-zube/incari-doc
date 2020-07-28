@@ -17,7 +17,7 @@
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the **Mesh Object** that you would like to assign the **Material** to.|
-|`Material`|**MaterialID**|The `Material` to be applied to the **Object** **Mesh**.|
+|`Material`|**CustomID**|The **Material** to be applied to the **Mesh** **Object**.|
 
 # Outputs
 
