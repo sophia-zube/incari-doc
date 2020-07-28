@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** that you wish to return the `scale` of, if one is not provided in the `object ID` **Socket**
+|`Object`|**ObjectID**|The target **Object** that you wish to return the `scale` of if one is not provided in the `Object ID` **Socket**
 
 # Inputs
 
