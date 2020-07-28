@@ -16,7 +16,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate.|
+|`Object ID`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate.|
 |`Is Active`|**Bool**|If `Is Active` is *true*, the **List** **Object** is activated, otherwise is deactivated.|
 
 # Outputs
@@ -29,5 +29,4 @@
 - [**List**](objects/scene-objects/list.md)
 - [**Generate List**](generate-list.md)
 - [**Previous List Entry**](previous-list-entry.md)
-
 
