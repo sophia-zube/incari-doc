@@ -4,7 +4,7 @@
 
 **Get Alpha** returns the *alpha* value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**. 
 
-The **Get Alpha** node only works with objects that have **Sprite** category as an attribute such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.
+The **Get Alpha** **Node** only works with **Objects** that have  **Attribute**'s from the **Sprite** category, such as **List**, **Image Sequence**, **Web Sprite**, **Sprite**, and **Text**.
 
 # Attributes
 
@@ -32,4 +32,3 @@ The **Get Alpha** node only works with objects that have **Sprite** category as 
 
 # External Links
 - [*Alpha value*](https://en.wikipedia.org/wiki/Alpha_compositing)
-
