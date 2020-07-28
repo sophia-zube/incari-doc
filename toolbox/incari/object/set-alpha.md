@@ -4,7 +4,7 @@
 
 **Set Alpha** sets the value of a specified **Object**'s `Alpha` **Attribute** .
 
-The **Set Alpha** node only works with objects that have **Sprite** category as an attribute such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.
+The **Set Alpha** **Node** only works with **Objects** that have  **Attribute**'s from the **Sprite** category, such as **List**, **Image Sequence**, **Web Sprite**, **Sprite**, and **Text**.
 
 # Attributes
 
