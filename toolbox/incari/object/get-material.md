@@ -22,7 +22,7 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Material`|**MaterialID**|`Material` assert of the target **Object**.|
+|`Material`|**CustomID**|The assigned **Material** of the **Mesh Object**.|
 
 # See Also
 - [**Set Material**](set-material.md)
