@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** which the `material` is to be applied to, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The **Object** which the **Material** is to be applied to if one is not provided in the `Object ID` **Socket**.|
 |`Default Material`|**MaterialID**|The default value of the `Material` **Socket**, if no value is provided.|
 
 # Inputs
