@@ -2,7 +2,7 @@
 
 ![The Set Alpha Node.](../../../.gitbook/assets/toolbox/incari/object/set-alpha.PNG)
 
-**Set Alpha** sets the `alpha` component value of the color space of an **Object**.
+**Set Alpha** sets the value of a specified **Object**'s `Alpha` **Attribute** .
 
 The **Set Alpha** node only works with objects that have **Sprite** category as an attribute such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.
 
