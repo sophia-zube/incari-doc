@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object ID`|**ObjectID**|The target **List** **Object** you want to select an entry of, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **List** **Object** you want to select an entry of, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
@@ -30,4 +30,3 @@
 - [**List**](objects/scene-objects/list.md)
 - [**Generate List**](generate-list.md)
 - [**Next List Entry**](next-list-entry.md)
-
