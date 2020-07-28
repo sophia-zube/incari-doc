@@ -18,7 +18,7 @@ The **Set Text** node only works for **Text Objects**.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the **Text** **Object**.|
+|`Object ID`|**ObjectID**|The ID of the **Text** **Object**.|
 |`Text`|**String**|The `text` value you would like to set for the **Text Object**.|
 
 # Outputs
