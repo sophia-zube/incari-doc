@@ -12,7 +12,7 @@ The index count starts from zero which means the `index` of last entry item of t
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|This represents the **List** **Object** from which an entry item can be select by it's index, if one is not provided in the `object ID` **Socket**.|
-|`Default Index`|**Int**|The default *index* value if no value is provided to the input *index* **Socket**. |
+|`Default Index`|**Int**|The default **Index** value if no value is provided to the input **Index** **Socket**. |
 
 # Inputs
 
