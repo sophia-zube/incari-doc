@@ -22,7 +22,7 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Scale`|**Vector3** | A 3 dimensional vector that contains *rotation* in the x, y and z directions of the target **Object**.
+|`Rotation`|**Vector3** | A 3-dimensional vector that contains *Euler rotation* on the x, y, and z axes of the target **Object**.
 
 # See Also
 - [**Get Scale**](get-scale.md)
