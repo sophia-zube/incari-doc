@@ -2,7 +2,7 @@
 
 ![The Set Position Node.](../../../.gitbook/assets/toolbox/incari/object/set-position.PNG)
 
-**Set Position** sets the `Position` of an **Object** in a **Scene**.
+**Set Position** sets the value of a given **Object**'s `Position` **Attribute**.
 
 # Attributes
 
