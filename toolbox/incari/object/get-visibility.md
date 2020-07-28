@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the **Object** whose *visibility* you seek to return
+|`Object ID`|**ObjectID**|The ID of the **Object** whose *visibility* you wish to return
 
 
 # Outputs
@@ -27,4 +27,3 @@
 
 # See Also
 - [**Set Visibility**](set-visibility.md)
-
