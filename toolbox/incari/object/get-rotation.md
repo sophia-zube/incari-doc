@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** that you wish to return the `rotation` of, if one is not provided in the `object ID` **Socket**.
+|`Object`|**ObjectID**|The target **Object** that you wish to return the `rotation` of, if one is not provided in the `Object ID` **Socket**.
 
 # Inputs
 
@@ -32,4 +32,3 @@
 # External Links
 - [*Rotation*](https://en.wikipedia.org/wiki/Rotation_matrix) on wikipedia
 - [*Rotation*](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations/programming-3d-shapes/a/rotating-3d-shapes) on Khan Academy
-
