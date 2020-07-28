@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** that you wish to return the `position` of, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **Object** that you wish to return the `position` of, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
@@ -31,4 +31,3 @@
 
 # External Links
 - [*Positioning*](https://en.wikipedia.org/wiki/Position_(geometry)) in geometry.
-
