@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The **List** **Object** you wish to generate.|
+|`Object ID`|**ObjectID**|The **List** **Object** you wish to generate.|
 
 # Outputs
 
@@ -30,4 +30,3 @@
 - [**Select List Entry**](toolbox/incari/list/select-list-entry.md)
 - [**Set Active**](toolbox/incari/list/set-active.md)
 - [**Set Current Index**](toolbox/incari/list/set-current-index.md)
-
