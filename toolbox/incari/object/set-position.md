@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** whose *position* is to be set in the **Scene**, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The ID of the **Object** that you would like to set the `Position` value of if one is not provided in the `Object ID` **Socket**.|
 |`Default Position`|**Vector3**|The default value of the `Position` **Socket**, if no value is provided.|
 
 # Inputs
