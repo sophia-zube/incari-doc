@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the target **Object** whose `material` assert you seek to return.
+|`Object ID`|**ObjectID**|The **Mesh Object** whose allocated **Material** you wish to return.|
 
 # Outputs
 
