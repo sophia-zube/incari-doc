@@ -10,7 +10,7 @@ The **Get Alpha** **Node** only works with **Objects** that have  **Attribute**'
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** that you wish to return the `alpha` component of, if one is not provided in the `object ID` **Socket**.
+|`Object`|**ObjectID**|The **Object** whose `Alpha` **Attribute** value you wish to return if one is not provided in the `Object ID` **Socket**.
 
 # Inputs
 
