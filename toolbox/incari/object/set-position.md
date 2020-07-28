@@ -9,7 +9,7 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|The ID of the **Object** that you would like to set the `Position` value of if one is not provided in the `Object ID` **Socket**.|
-|`Default Position`|**Vector3**|The default value of the `Position` **Socket**, if no value is provided.|
+|`Position`|**Vector3**|The desired `Position` value of the **Object** if one is not provided in the `Position` **Socket**.|
 
 # Inputs
 
