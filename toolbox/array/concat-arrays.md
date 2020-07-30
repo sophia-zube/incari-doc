@@ -4,25 +4,27 @@
 
 **Concat Arrays** merges two or more **Arrays** into one new **Array**. The **Arrays** to be merged are given as input to the node. 
 
-Note that the **Arrays** that are merged by this node are not sorted prior to the merger.
+Note that the **Arrays** that are to be merged by this node are not sorted.
+
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Default Count`|**Int**|The number of input **Arrays** you wish to merge. The default is 2 **Arrays**.|
+|`Default Count`|**Int**|The number of **Arrays** you wish to merge. The default number is 2 **Arrays**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Array`|**Array**|An input array to be merged.|
+|`Array` * (`Count` **Attribute**)|**Array**|Two or more **Input** **Arrays** you wish to merge.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`New Array`|**Array**|The merged **Array**.|
 
 # See Also
 - [**Array Value**](array-value.md)

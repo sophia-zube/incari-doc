@@ -2,14 +2,14 @@
 
 ![The Clear Array Node.](../../.gitbook/assets/toolbox/array/clear-array.png)
 
-**Clear Array** accepts an input **Array** and proceeds to remove and delete all elements contained in it. After which it outputs the emptied **Array** with a size of 0.
+**Clear Array** accepts an input **Array** and proceeds to remove and delete all elements contained in it. After that the **Node** outputs the emptied **Array** with a size of 0.
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Array`|**Array**.|The input **Array** you wish to empty. |
+|`Array`|**Array**.|The input **Array** you wish to empty.|
 
 # Outputs
 
