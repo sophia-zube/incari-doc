@@ -92,7 +92,7 @@ These connections do not carry any data between nodes. What they _do_ is tell no
 
 These connections pass data values between nodes. We do this by connecting the **Data Output Socket** of one node into a **Data Input Socket** of another node. Both the input and output sockets must be of the same data type. **Data Sockets** are represented by a coloured square \(⬛\), the colour of which, corresponds to the **Data Type**. Conversely to **Pulse** connections, **Data Input Sockets** can take only one input connection, whereas **Data Output Sockets** can have multiple output connections. Unlike **Pulse** connections, **Data** connections do not initiate the execution of a node.
 
-## 6. **Node Attribute Editor**
+## 6 & 7. **Node Attribute Editor**
 
 ![The Node Attribute Editor Node](/.gitbook/assets/interface/logic-editor/rangeMapperNode.PNG)
 ![The Node Attribute Editor Inputs](/.gitbook/assets/interface/logic-editor/rangeMapperInputs.PNG)
