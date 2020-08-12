@@ -37,7 +37,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 ## Disabling Screens
 
-When you **Start** the **Simulation** of a **Project** in **INCARI**, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
+When you **Start** the **Simulation** of a **Project** in Incari, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
 
 To disable a **Screen**, simply click the eye \(👁\) icon.
 
@@ -54,6 +54,7 @@ Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned
 ![](../.gitbook/assets/interface/project-outliner/rearranging.gif)
 
 # See Also
+
 - [**Scene**](../objects/project-objects/scene.md)
 - [**Screen**](../objects/project-objects/screen.md)
 
