@@ -27,6 +27,3 @@
 
 # See Also
 - [**Get Material**](get-material.md)
-  
-# External Links
-- [*Materials*](https://docs.unrealengine.com/en-US/Engine/Rendering/Materials/index.html)

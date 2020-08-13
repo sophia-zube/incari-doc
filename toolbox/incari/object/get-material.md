@@ -26,6 +26,3 @@
 
 # See Also
 - [**Set Material**](set-material.md)
-  
-# External Links
-- [*Materials*](https://docs.unrealengine.com/en-US/Engine/Rendering/Materials/index.html)

@@ -31,5 +31,4 @@
 - [**Get Rotation**](get-position.md)
   
 # External Links
-- [*Rotation*](https://en.wikipedia.org/wiki/Rotation_matrix) on wikipedia
-- [*Rotation*](https://www.khanacademy.org/computing/computer-programming/programming-games-visualizations/programming-3d-shapes/a/rotating-3d-shapes) on Khan Academy
+- [*Rotation*](https://en.wikipedia.org/wiki/Euler_angles) on wikipedia.
