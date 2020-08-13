@@ -30,4 +30,4 @@ Note that the **Arrays** that are to be merged by this node are not sorted.
 - [**Array Value**](array-value.md)
 
 # External Links
-- [*Concatenation in computer programming*](https://en.wikipedia.org/wiki/Concatenation) on wikipedia.
+- [*Array Concatenation*](https://www.tutorialspoint.com/learn_c_by_examples/array_concatenation_program_in_c.htm) on tutorialspoint.
