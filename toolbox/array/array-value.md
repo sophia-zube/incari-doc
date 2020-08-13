@@ -27,7 +27,7 @@ The number of **Input Element**s you wish to add to the **Attribute section**. E
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Output`|**Array**|An **Array** that holds the values that have been added to the **Array Value** **Node**.|
 
-# Eg Usage
+# Usage
 ![The Array Value Node Usage.](../../.gitbook/assets/toolbox/array/array-value-usage.png)
 
 # See Also
