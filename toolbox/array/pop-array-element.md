@@ -37,5 +37,4 @@ The `Mode` is a *toggle* what determines if an element will be removed from the 
 
 # See Also
 - [**Array Value**](array-value.md)
-- - [**Push Array Element**](push-array-element.md)
-
+- [**Push Array Element**](push-array-element.md)
