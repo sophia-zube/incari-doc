@@ -28,30 +28,56 @@ The toolbar shows a list of icons that are used to visualize certain features in
 ## 3 - Top Panel
 ![](/.gitbook/assets/interface/logic-editor/topPanel.PNG)
 
-The *top panel* represents **Logic Graph**s that are implemented for different Incari items such as the current opened **Project**, the selected **Scene** in the **Project Outliner** and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the Top Panel. 
+The *top panel* represents **Logic Graph**s that are implemented for different Incari items such as the current opened **Project**, the selected **Scene** in the **Project Outliner** and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel. 
 
 ## 4 - Left Panel
-The *left panel* contains **Nodes** that can be added to the **Logic Editor**. The panel is divided into five sections, and these are the **Explorer**, **Toolbox**, **Events**, **Functions** and **Variables** tab.
+The *left panel* contains **Nodes** that can be added to the **Logic Editor**. The panel is divided into five sections, and these are the **Explorer**, **Toolbox**, **Events**, **Functions** and **Variables**.
 
 Each section is described below:
 
-* **Explorer**: All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding node is selected in the **Logic Graph**.
+{% tabs %}
+
+{% tab title="Explorer" %}
   - ![](/.gitbook/assets/interface/logic-editor/left_panel_explorer.PNG) 
 
-* **Toolbox**: The **Toolbox** tab contains all of the individual tools you will need to create your logic. The function and purpose of all nodes are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it, to understand how each node functions. In short, the **Toolbox** contains a categorized list of all nodes available at your disposal, which can be added to your logic by double-clicking or dragging and dropping an item into your **Logic Graph**.
+* All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding node is selected in the **Logic Graph**.
+{% endtab %}
+
+{% tab title="Toolbox" %}
   - ![](/.gitbook/assets/interface/logic-editor/left_panel_toolbox.PNG) 
+
+* The **Toolbox** contains all of the individual tools you will need to create your logic. The function and purpose of all nodes are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it, to understand how each node functions. In short, the **Toolbox** contains a categorized list of all nodes available at your disposal, which can be added to your logic by double-clicking or dragging and dropping an item into your **Logic Graph**.
+{% endtab %}
+
+{% tab title="Events" %}
+
+ - ![](/.gitbook/assets/interface/logic-editor/left_panel_events.PNG)
   
-* **Events**: An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/README.md).
-  - ![](/.gitbook/assets/interface/logic-editor/left_panel_events.PNG)
-  - ![](/.gitbook/assets/interface/logic-editor/addEvent.gif)
+* An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/README.md).
   
-* **Functions**: Custom built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/README.md).
-  - ![](/.gitbook/assets/interface/logic-editor/left_panel_functions.PNG) 
-  - ![](/.gitbook/assets/interface/logic-editor/addFunction.gif)
+ - ![](/.gitbook/assets/interface/logic-editor/addEvent.gif)
   
-* **Variables**: The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/variables/README.md).
+{% endtab %}
+
+{% tab title="Functions" %}
+ - ![](/.gitbook/assets/interface/logic-editor/left_panel_functions.PNG)
+
+* Custom built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/README.md).
+  
+ - ![](/.gitbook/assets/interface/logic-editor/addFunction.gif)
+  
+{% endtab %}
+
+{% tab title="Variables" %}
+
   - ![](/.gitbook/assets/interface/logic-editor/left_panel_variables.PNG) 
-  - ![](/.gitbook/assets/interface/logic-editor/addVariables.gif)
+  
+* The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/variables/README.md).
+
+- ![](/.gitbook/assets/interface/logic-editor/addVariable.gif)
+
+{% endtab %}
+{% endtabs %}
 
 ## 5 - The Logic Graph / Node Graph
 
