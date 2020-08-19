@@ -64,3 +64,4 @@
   * [Range Mapper](toolbox/math/range-mapper.md)
   * [Root](toolbox/math/root.md)
   * [Subtract](toolbox/math/subtract.md)
+* [Group](toolbox/utilities/group.md)
