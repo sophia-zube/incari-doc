@@ -72,7 +72,7 @@
     * [Select List Entry](toolbox/incari/list/select-list-entry.md)
     * [Set Active](toolbox/incari/list/set-active.md)
     * [Set Current Index](toolbox/incari/list/set-current-index.md)
-  * [Object] (<!--- TODO -->)
+  * [Object](<!--- TODO -->)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
     * [Get Scale](toolbox/incari/object/get-scale.md) 
