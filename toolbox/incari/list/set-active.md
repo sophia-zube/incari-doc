@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate, if one is not provided in the `object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate, if one is not provided in the `Object ID` **Socket**.|
 |`Default Value Is Active`|**Bool**|A default boolean switch which activates and deactivates the **List** **Object**, if no value is provided to the `Is Active` input **Socket**.
 
 # Inputs
