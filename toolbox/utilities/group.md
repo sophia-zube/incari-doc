@@ -1,7 +1,7 @@
 # Overview
 
 #### Example Node
-![The Group Node.](../../../incari-doc/.gitbook/assets/toolbox/utilities/group/group.PNG)
+![The Group Node.](../../.gitbook/assets/toolbox/utilities/group/group.PNG)
 
 A **Group Node** is used as a container for other **Logic**. As the color, opacity, size, and name can all be changed, it is very useful for management and organization.
 
@@ -23,7 +23,7 @@ Another advantage of the **Group Node** is that, by changing the `Name` **Attrib
 
 # Usage
 
-![Group Node Usage](../../../incari-doc/.gitbook/assets/toolbox/utilities/group/group.gif)
+![Group Node Usage](../../.gitbook/assets/toolbox/utilities/group/group.gif)
 
 # See Also
 - [**Camera**](camera.md)
