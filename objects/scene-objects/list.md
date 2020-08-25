@@ -2,7 +2,7 @@
 
 ## Overview 
 
-**List Object** represents modeled data as single-level list items in a **Scene**. It utilizes a *model/view* architecture whereby data inserted into the **Model Editor** is presented in an HTML format. 
+**List Object** models data as single-level list items in a **Scene**. It utilizes a *model/view* architecture whereby data added to an Incari **Model File** is presented as a **List** in the **Scene**. 
 
 Like any other **Scene Object**, we can manipulate the **Position**, **Rotation** and **Scale** of a **List** using the **Transformation Attributes** and adjusting its **Rotation Pivot**.
 
@@ -67,6 +67,11 @@ Here are the pre-defined classes and IDs, to be used for styling **Lists** in In
 By adding a few CSS attributes, we can easily customize the appearance of the audio-book example.
 
 {% tabs %}
+
+{% tab title="Result" %}
+![](../../.gitbook/assets/audiobook-list.gif)
+{% endtab %}
+
 {% tab title="CSS" %}
 ```css
 body {
@@ -98,22 +103,50 @@ body {
 ```
 {% endtab %}
 
-{% tab title="Result" %}
-![](../../.gitbook/assets/audiobook-list.gif)
-{% endtab %}
 {% endtabs %}
 
 ### Js File
-The `Js File` **attribute** is a *JavaScript programming language* file that allows us to create a dynamic and interactive experience for **List**. The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. 
+The `Js File` **attribute** is a *JavaScript programming language* file that allows us to add complex features and also create dynamic and interactive experiences for **List** **Objects**. 
 
+The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. 
 For more information about JavaScript. Please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-The scenario below describes how *Javascript* can be us
+In the illustration below, we add user interaction to our audio-book **List** example using the `Js File` **Attribute**.
+
+{% tabs %}
+
+{% tab title="Result" %}
+
+![](../../.gitbook/assets/objects/scene-objects/list/replaceAudioBook.gif)
+
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```JS
+function replaceBook(){
+    let bookName = prompt('Enter book name');
+    let author = prompt('Enter author')
+    let index = prompt('Index of book you would like to replace')
+
+    const item = document.getElementById('list').children[index];
+    
+    const newItem = "<h2>" + bookName + " by " + author + "</h2>";
+
+    if (item) {
+      item.innerHTML = newItem;
+      item.style.color = "#ADD8E6";
+    }
+}
+
+replaceBook();
+```
+{% endtab %}
+{% endtabs %}
 
 ### Generate List
-`Generate List` button automatically creates all internal *.html*, *.css*, *.js* needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
+`Generate List` button automatically creates all internal *.html*, *.css*, *.js* needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**. 
 
- Clicking the `Generate List` button works once for **List** **Object**s that have not been created yet. Therefore, clicking on the button more than once has no effect.
+Also, clicking the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
 
 ## Simulation
 
@@ -142,7 +175,7 @@ The `Tint` **Attribute** applies a *color overlay* to the **List Object**, there
 `Size` determines the dimensions of the rendered **List** in the **Scene**. **List** are two-dimensional, therefore, the `Z` **Value** doesn't have any effect.
 
 ## Sprite
-**Sprite** **Attributes** are explained in the [**Sprite Object**](sprites/sprite.md) documentation.
+**Sprite** **Attributes** are documented in [**Sprite Object**](sprites/sprite.md).
 
 ## Advanced
 
