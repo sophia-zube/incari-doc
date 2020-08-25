@@ -1,8 +1,8 @@
 # Lights
 
-**INCARI** has two types of **Light Object**; the **Spot Light** and the **Point Light**.
+Incari has two types of **Light Object**; the **Spot Light** and the **Point Light**.
 
-The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; while the **Spot Light** is _directional_ and will only light the area that it is rotated towards. Additionally, unlike **Point Light**, **Spot Light** supports shadow mapping, and has a extra set of **Attributes** for that purpose.
+The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; while the **Spot Light** is _directional_ and will only light the area that it is rotated towards. Additionally, unlike **Point Light**, **Spot Light** supports shadow mapping, and has an extra set of **Attributes** for that purpose.
 
 | Attribute | Spot Light | Point Light |
 | :--- | :--- | :--- |
@@ -10,14 +10,15 @@ The **Point** **Light** is _omnidirectional_, meaning that light is emitted equa
 | `Brightness` | ✔ | ✔ |
 | `Attenuation` | ✔ | ✔ |
 | `Radial Falloff` | ✔ | ✘ |
+| `Shadow Mapping` | ✔ | ✘ |
 
 ## Light
 
 ### Color
 
-`Color` determines the colour of the light being emitted.
+`Color` determines the color of the light being emitted.
 
-Please not that the `Color` **Attribute**'s _brightness_ level will affect the brightness of the light itself. It is therefore recommended that you always have the brightness level set to 1, and use the actual `Brightness` **Attribute** to alter the intensity of the light.
+Please note that the `Color` **Attribute**'s _brightness_ level will affect the brightness of the light itself. It is therefore recommended that you always have the brightness level set to 1, and use the actual `Brightness` **Attribute** to alter the intensity of the light.
 
 `Color`'s _alpha_ level has no effect.
 
@@ -25,13 +26,13 @@ Please not that the `Color` **Attribute**'s _brightness_ level will affect the b
 
 `Brightness` governs the intensity of the light, with lower values giving less intense light emission and vice versa.
 
-![](../../.gitbook/assets/brightness.gif)
+![](./../../../.gitbook/assets/brightness.gif)
 
 ### Attenuation
 
 `Attenuation` relates to the spread, or reach, of the light. Lower levels only illuminate close **Objects**, whereas high levels allow the light to reach **Objects** that are further away.
 
-![](../../.gitbook/assets/attenuation.gif)
+![](./../../../.gitbook/assets/attenuation.gif)
 
 ### Radial Falloff
 
@@ -39,11 +40,11 @@ Please not that the `Color` **Attribute**'s _brightness_ level will affect the b
 
 This **Attribute** is only available on the **Spot Light Object**.
 
-![](../../.gitbook/assets/radialfalloff.gif)
+![](./../../../.gitbook/assets/radialfalloff.gif)
 
 ## Shadow Mapping
 
-**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
+**Shadow Mapping** is a performance-based method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
 
 There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired _visual_ result for your **Scene**, as well as meeting the _performance_ requirements of your project.
 
@@ -53,29 +54,29 @@ There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a
 
 ### Resolution
 
-`Resolution` alters the size of the shadow map. Just like with normal 2D textures, higher resolutions produce better quality, at the cost of increasing processing time and file size.
+`Resolution` alters the size of the shadow map. Just like with normal 2D textures, higher resolutions produce better quality, at the cost of processing time and file size.
 
-![](../../.gitbook/assets/resolution.gif)
+![](./../../../.gitbook/assets/resolution.gif)
 
 ### Kernel Size
 
-`Kernel Size` relates to the size of each sampled area during the calculation. It is a fairly complex subject, but it basically affects the smoothness of the shadow map. Lower levels give crisp, but jagged, shadows; whereas higher levels give smoother, but less defined results.
+`Kernel Size` relates to the size of each sampled area during the calculation. It is a fairly complex subject, but it affects the smoothness of the shadow map. Lower levels give crisp, but jagged, shadows; whereas higher levels give smoother, but less defined results.
 
 Increased `Kernel Size` may help improve results that suffer from _shadow acne_, or to reduce artifacts in cases where the shadow map `Resolution` is low.
 
-![](../../.gitbook/assets/kernel-size.gif)
+![](./../../../.gitbook/assets/kernel-size.gif)
 
 ### Clip Near
 
 As stated above, **Shadow Mapping** takes passes from the **Light**'s perspective. Like the `Clip Near` **Attribute** of **Camera**, everything within the defined distance isn't rendered and is therefore excluded from those passes and the **Shadow Mapping** algorithm.
 
-![](../../.gitbook/assets/clip-near.gif)
+![](./../../../.gitbook/assets/clip-near.gif)
 
 ### Offset
 
-`Offset` offsets the depth of the shadow map and can massively improve the appearance of the its appearance, by reducing _shadow acne_. It is recommended that you increase this value by very small increments \(0.0001\), until you get an acceptable reduction in artifacts.
+`Offset` offsets the depth of the shadow map and can massively improve its appearance, by reducing _shadow acne_. It is recommended that you increase this value by very small increments \(0.0001\) until you get an acceptable reduction in artifacts.
 
-Due to the effect `Offset` has on the **Shadow Mapping** algorithm, higher values can cause shadows to appear to become disconnected from the geometry that casts them.
+Due to the effect `Offset` has on the **Shadow Mapping** algorithm, higher values can cause shadows to appear to be disconnected from the geometry that casts them.
 
-![](../../.gitbook/assets/offset.gif)
+![](./../../../.gitbook/assets/offset.gif)
 

@@ -4,58 +4,57 @@
 
 The **Project Outliner** contains a structured list of every **Scene** and **Screen** in a **Project**, and can be used to organize, manage, create, delete and edit them.
 
-![](/.gitbook/assets/projectoutliner.png)
+![](../.gitbook/assets/interface/project-outliner/project-outliner.PNG) 
 
 ## Creating
 
-New **Screens** and **Scenes** can be created by either:
+New **Screens** and **Scenes** can be created in the following ways:
 
-* Right-clicking inside the **Project Outliner** and selecting `New`.
-* Selecting `File` &gt; `New` from the **Menu**.
-* Pressing `Ctrl` +`N` whilst the **Project Outliner** is active.
+* Click on the plus ![](../.gitbook/assets/interface/project-outliner/plusIcon.PNG) icon located at the top left corner of the **Project Outliner**, after that click the `Scene` button.
+  
+* Right-click inside the **Project Outliner** and select `Create` &gt; `Scene` from the pop-up.
+  
+* Select `File` &gt; `New Screen` or `New Scene` from the drop-down **Menu**.
+  
+* Pressing `Ctrl`+`N` whilst the **Project Outliner** is active.
 
-![](/.gitbook/assets/projectoutlinernew.png)
-
-From here you can provide a descriptive name and select whether you wish to create a new **Screen** or a new **Scene**.
-
-![](/.gitbook/assets/projectoutlinernewscreen.png)
+![](../.gitbook/assets/interface/project-outliner/right-click-scene.PNG)
 
 ## Deleting
 
-**Screens** and **Scenes** can be deleted by either:
+**Screens** and **Scenes** can be deleted in the following ways:
 
-* Right-clicking an item and selecting `Delete`.
-* Selecting and item and selecting `File`&gt;`Delete` from the **Menu**.
-* Selecting an item and pressing `del`.
+* Right-click on an item and select the `Delete` button from the pop-up.
+* Select an item and press `del`.
 
-![](/.gitbook/assets/projectoutlinerdelete.png)
+![](../.gitbook/assets/interface/project-outliner/delete-scene.PNG)
 
 ## Renaming
 
-**Screens** and **Scenes** can be renamed by either:
+**Screens** and **Scenes** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
-* Right-clicking an item and selecting `Rename`.
-* Single-clicking on an already selected item.
-
-You can then type a new name and press **`⏎`**/`Return` to confirm the change.
-
-![](/.gitbook/assets/projectoutlinerrename.png)
+![](../.gitbook/assets/interface/project-outliner/rename.PNG)
 
 ## Disabling Screens
 
-When you **Start** the **Simulation** of a **Project** in **INCARI**, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
+When you **Start** the **Simulation** of a **Project** in Incari, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
 
 To disable a **Screen**, simply click the eye \(👁\) icon.
 
-![](/.gitbook/assets/projectoutlinerdisable.gif)
+![](../.gitbook/assets/interface/project-outliner/disablingScreen.gif)
 
 ## Unassigned Scenes
 
-Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned Scenes`, and will therefore be excluded from **Simulation**. When you create a **Scene** it is unassigned by default, unless a **Screen** was selected when it was created, in which case, it will be assigned to that **Screen**.
+Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned Scenes`, and therefore it will be excluded from the **Simulation**. When you create a **Scene**, it is unassigned by default. Unless a **Screen** was selected when it was created, in which case, it will be assigned to that **Screen**.
 
 ## Rearranging Scenes
 
-**Scenes** can be rearranged easily by dragging and dropping them to a new place in the **Project Outliner**. Not only does this make it easier to organize **Scenes**, but you can also move a them to an entirely different **Screen**. or disable them entirely, by moving them into `Unassigned Scenes`.
+**Scenes** can be rearranged easily by dragging and dropping them to a new place in the **Project Outliner**. Not only does this make it easier to organize **Scenes**, but you can also move them to an entirely different **Screen** or disable them entirely, by moving them into `Unassigned Scenes`.
 
-![](/.gitbook/assets/projectoutlinerrearrange%20%281%29.gif)
+![](../.gitbook/assets/interface/project-outliner/rearranging.gif)
+
+# See Also
+
+- [**Scene**](../objects/project-objects/scene.md)
+- [**Screen**](../objects/project-objects/screen.md)
 
