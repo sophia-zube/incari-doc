@@ -4,7 +4,7 @@
 
 **List Object** models data as single-level list items in a **Scene**. It utilizes a *model/view* architecture whereby data added to an Incari **Model File** is presented as a **List** in the **Scene**. 
 
-Like any other **Scene Object**, we can manipulate the **Position**, **Rotation** and **Scale** of a **List** using the **Transformation Attributes** and adjusting its **Rotation Pivot**.
+Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
 ## List
 
@@ -157,7 +157,7 @@ Also, clicking the `Generate List` button renders any update made to the **Attri
 `Next` highlights the next item in the **List**.
 
 ### Select
-`Select` picks an item highlighted in the **List**.
+`Select` selects an item highlighted in the **List**.
 
 ## Style
 ### Background color
