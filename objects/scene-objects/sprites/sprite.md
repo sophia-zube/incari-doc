@@ -28,7 +28,7 @@ A **Mask** can be added to a **Sprite Object** by clicking the **Assert** slot a
 `Invert Mask` turns a **Mask** upside down When it is activated.
 
 ## Sprite 
-## Size
+### Size
 
 `Size` determines the dimensions of a graphic. As **Sprite Objects** are two-dimensional, the `Z` **Value** doesn't have any effect.
 
@@ -36,13 +36,13 @@ If you want to display the graphic with the precise _pixel_ resolution, you shou
 
 The graphic's dimensions will be loaded correctly when you create a new **Sprite** **Object**, by dragging a graphic from the **Asset Manager**.
 
-## Alpha
+### Alpha
 
 `Alpha` determines the opacity of a **Sprite** with 0 being completely transparent and 1 being completely opaque.
 
 ![](../../../.gitbook/assets/sprite-alpha.gif)
 
-## Flip U / Flip V
+### Flip U / Flip V
 
 The horizontal and vertical coordinates in most 2D graphics programs are referred to as _XY_ coordinates. In 3D applications, though, it is conventional to call these _UV_ coordinates to differentiate between 3D _mesh_ transformation coordinates and 2D _texture_ transformation coordinates.
 
@@ -50,7 +50,7 @@ The `Flip U` and `Flip V` **Attributes** simply inverts the direction of the cor
 
 ![](../../../.gitbook/assets/sprite-uv.gif)
 
-## Sort Index
+### Sort Index
 
 Because Incari works in 3D, it has no way of automatically discerning which elements should be shown on top of which, when they occupy the same area in 3D space. It is therefore, necessary to manually define the _sort order_ of **Sprites** to ensure that they are layered correctly.
 
@@ -58,7 +58,7 @@ This is done by manipulating the `Sort Index` **Sprites** with higher values bei
 
 ![](../../../.gitbook/assets/sprite-sort-index.gif)
 
-## Diffuse Texture
+### Diffuse Texture
 
 ![](../../../.gitbook/assets/objects/scene-objects/sprites/sprite/diffuse.PNG)
 
@@ -66,13 +66,13 @@ The `Diffuse Texture` **Attribute** contains a reference to a graphic **Assert**
 
 Also, the **Assert** can be dragged and dropped from the **Assert Manager** into the **Attribute** slot.
 
-## Use Opacity Map
+### Use Opacity Map
 
 Opacity maps are gray-scale graphics that allows **Sprite Objects** to have a transparent detail. Black pixels show areas as completely transparent while white pixels show them as opaque, with variations in gray showing different levels of transparency.
 
 Opacity map **Assert** supplied to the `Opacity Map` **Attribute** are used if this toggle is activated.
 
-## Opacity Map
+### Opacity Map
 
 ![](../../../.gitbook/assets/objects/scene-objects/sprites/sprite/diffuse.PNG)
 
