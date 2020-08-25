@@ -4,4 +4,4 @@ The primary function of the **Group** **Object** is that it allows us to transfo
 
 Additionally, it is a useful way of organizing collections of **Objects** into categories, and making **Scenes** with high amounts of different **Objects**, more manageable.
 
-Like any other **Scene Object**, we can manipulate the **Position**, **Rotation** and **Scale** of a **Sprite** using the **Transformation Attributes** and adjusting its **Rotation Pivot**.
+Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
