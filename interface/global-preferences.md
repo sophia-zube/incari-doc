@@ -53,3 +53,7 @@ The `Reset Layout` button resets **Interface**s found in Incari to its default p
 `Grid Color` sets the color of the *grid* found in the **ViewPort**. The color is set in the same way as `Bottom` and `Top Gradient Color` **Attributes**.
 
 `Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default colors. 
+
+In order to open the **Global Preference** **Interface**, please the see the illustration below:
+
+ ![](../.gitbook/assets/interface/global-preferences/open-global-preferences.PNG)
