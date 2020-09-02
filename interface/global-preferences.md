@@ -47,7 +47,7 @@ Also, the `Reset color` button sets the `Grid color` back to its default value.
 
 ## Layout 
 ### Reset layout
-The `Reset Layout` button resets all **Modules**s found in Incari to their default positions.
+The `Reset Layout` button resets all **Module**s found in Incari to their default positions.
 
 {% tab title="Viewport" %}
 ![](../.gitbook/assets/interface/global-preferences/viewport.png)
