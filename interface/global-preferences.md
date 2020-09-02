@@ -1,5 +1,5 @@
 # Global Preferences 
-**Global Preferences** allows us to apply default settings for aspects of our Incari **Project**. These aspects are discussed below:
+**Global Preferences** allow us to apply default settings to aspects of Incari. These aspects are discussed below:
 
 {% tabs %}
 
@@ -11,8 +11,17 @@
 ### Loop Mode 
 `Loop Mode` determines if an animation should play forward or alternate between playing forward and backward in a **Scene**. It can be set in the following ways:
 * `Alternate`: The animation is played forward and backward in each animation cycle.
-* `None`: The animation is not played.
+  
+![](../.gitbook/assets/interpolation-mode-alternate.gif)
+
+* `None`: The animation is played forward once in each animation cycle.
+
+![](../.gitbook/assets/interpolation-mode-once.gif)
+
 * `Repeat`: The animation is played forward in repeated cycles without reversing direction.
+
+![](../.gitbook/assets/interpolation-mode-repeat.gif)
+
 
 {% tab title="Global" %}
 ![](../.gitbook/assets/interface/global-preferences/global.png)
@@ -38,7 +47,7 @@ Also, the `Reset color` button sets the `Grid color` back to its default value.
 
 ## Layout 
 ### Reset layout
-The `Reset Layout` button resets **Interface**s found in Incari to its default positions.
+The `Reset Layout` button resets all **Modules**s found in Incari to their default positions.
 
 {% tab title="Viewport" %}
 ![](../.gitbook/assets/interface/global-preferences/viewport.png)
@@ -50,10 +59,10 @@ The `Reset Layout` button resets **Interface**s found in Incari to its default p
 `Bottom` and `Top Gradient Color` sets a *color gradient* that starts at the *bottom* and *top* positions of the **ViewPort** respectively. The *color gradient* can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../_archive/attributes/attribute-types/color-attributes.md).
 
 ### Grid Color
-`Grid Color` sets the color of the *grid* found in the **ViewPort**. The color is set in the same way as `Bottom` and `Top Gradient Color` **Attributes**.
+`Grid Color` sets the color of the *grid* found in the **Viewport**. The color is set in the same way as `Bottom` and `Top Gradient Color` **Attributes**.
 
 `Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default colors. 
 
-In order to open the **Global Preference** **Interface**, *right-click* on the *file menu bar* in Incari and *click* on **Global Preference** from the drop-down list. Please the see the illustration below:
+In order to open the **Global Preference** **Module**, *right-click* on the *menu bar* in Incari and *click* on **Global Preference** from the drop-down list. Please the see the illustration below:
 
  ![](../.gitbook/assets/interface/global-preferences/open-global-preferences.PNG)
