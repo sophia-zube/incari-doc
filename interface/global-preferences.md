@@ -4,7 +4,7 @@
 {% tabs %}
 
 {% tab title="Animation Editor" %}
-![](../.gitbook/assets/interface/global-preferences/animation-editor.png)
+![](../.gitbook/assets/interface/global-preferences/animation-editor.PNG)
 
 
 ## Playback
@@ -25,7 +25,7 @@
 {% endtab %}
 
 {% tab title="Global" %}
-![](../.gitbook/assets/interface/global-preferences/global.png)
+![](../.gitbook/assets/interface/global-preferences/global.PNG)
 
 
 ## Projects
@@ -34,7 +34,7 @@ The default directory on a user's computer where Incari **Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
-![](../.gitbook/assets/interface/global-preferences/logic-editor.png)
+![](../.gitbook/assets/interface/global-preferences/logic-editor.PNG)
 
 
 ## Theme
@@ -46,7 +46,7 @@ Also, the `Reset color` button sets the `Grid color` back to its default value.
 {% endtab %}
 
 {% tab title="User Interface" %}
-![](../.gitbook/assets/interface/global-preferences/user-interface.png)
+![](../.gitbook/assets/interface/global-preferences/user-interface.PNG)
 
 ## Layout 
 ### Reset layout
@@ -55,7 +55,7 @@ The `Reset Layout` button resets all **Module**s found in Incari to their defaul
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](../.gitbook/assets/interface/global-preferences/viewport.png)
+![](../.gitbook/assets/interface/global-preferences/viewport.PNG)
 
 ## Theme
 ### Bottom and Top Gradient Color
