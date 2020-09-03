@@ -5,7 +5,7 @@
 
 {% tab title="Animation Editor" %}
 ![](../.gitbook/assets/interface/global-preferences/animation-editor.png)
-{% endtab %}
+
 
 ## Playback
 ### Loop Mode 
@@ -22,18 +22,20 @@
 
 ![](../.gitbook/assets/interpolation-mode-repeat.gif)
 
+{% endtab %}
 
 {% tab title="Global" %}
 ![](../.gitbook/assets/interface/global-preferences/global.png)
-{% endtab %}
+
 
 ## Projects
 ### Projects Path
 The default directory on a user's computer where Incari **Projects** are saved. 
+{% endtab %}
 
 {% tab title="Logic Editor" %}
 ![](../.gitbook/assets/interface/global-preferences/logic-editor.png)
-{% endtab %}
+
 
 ## Theme
 ### Grid Color 
@@ -41,18 +43,19 @@ The `Grid color` of the **Logic Editor** can be set here. The *color* can be set
 
 Also, the `Reset color` button sets the `Grid color` back to its default value.
 
+{% endtab %}
+
 {% tab title="User Interface" %}
 ![](../.gitbook/assets/interface/global-preferences/user-interface.png)
-{% endtab %}
 
 ## Layout 
 ### Reset layout
 The `Reset Layout` button resets all **Module**s found in Incari to their default positions.
 
+{% endtab %}
+
 {% tab title="Viewport" %}
 ![](../.gitbook/assets/interface/global-preferences/viewport.png)
-{% endtab %}
-{% endtabs %}
 
 ## Theme
 ### Bottom and Top Gradient Color
@@ -62,6 +65,9 @@ The `Reset Layout` button resets all **Module**s found in Incari to their defaul
 `Grid Color` sets the color of the *grid* found in the **Viewport**. The color is set in the same way as `Bottom` and `Top Gradient Color` **Attributes**.
 
 `Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default colors. 
+
+{% endtab %}
+{% endtabs %}
 
 In order to open the **Global Preference** **Module**, *right-click* on the *menu bar* in Incari and *click* on **Global Preference** from the drop-down list. Please the see the illustration below:
 
