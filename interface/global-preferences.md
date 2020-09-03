@@ -39,7 +39,7 @@ The default directory on a user's computer where Incari **Projects** are saved.
 
 ## Theme
 ### Grid Color 
-The `Grid color` of the **Logic Editor** can be set here. The *color* can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../_archive/attributes/attribute-types/color-attributes.md).
+The `Grid Color` of the **Logic Editor** can be set here. The *color* can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../_archive/attributes/attribute-types/color-attributes.md).
 
 Also, the `Reset color` button sets the `Grid color` back to its default value.
 
