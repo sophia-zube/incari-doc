@@ -6,7 +6,7 @@
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
-## List Attributes
+## List
 
 ### Title
 
