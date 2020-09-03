@@ -11,6 +11,7 @@
 * [Logic Editor](interface/logic-editor.md)
 * [Project Outliner](interface/project-outliner.md)
 * [Attribute Editor](interface/attribute-editor.md)
+* [Material Editor](interface/material-editor.md)
 
 ## Objects
 * [Project Objects](objects/project-objects/README.md)
