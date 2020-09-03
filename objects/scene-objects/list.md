@@ -6,11 +6,12 @@
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
+## Attributes
 ## List
 
 ### Title
 
-This is the optional text that you wish to appear as a header for your list. It works like a `<h1>` tag in HTML.
+This is the optional text that you wish to appear as a header for your list. It works like an `<h1>` tag in HTML.
 
 ### Font Family
 
@@ -38,7 +39,7 @@ To read more about basic HTML, take a look at [_HTML basics_](https://developer.
 
 ### Incari Model File
 
-A **Model File** is where you define all the data for your list. Physically, a book has many different properties. It has weight, size, number of pages etc., but when thinking in terms of a **Model**, we are thinking of what properties we need to represent in our data. If, going back to the audio-book example above, we just want to display two properties; the author and title of each audio-book, we create **Fields** for `title` and `author`.
+A **Model File** is where you define all the data for your list. Physically, a book has many different properties. It has weight, size, number of pages etc., but when thinking in terms of a **Model**, we are thinking of what properties we need to represent in our data. Going back to the audio-book example above, if we want to display two properties; the author and title of each audio-book, we create **Fields** for `title` and `author`.
 
 ![](../../.gitbook/assets/objects/scene-objects/list/audiobook-model.PNG)
 
@@ -117,7 +118,7 @@ In the illustration below, we add user interaction to our audio-book **List** ex
 
 {% tab title="Result" %}
 
-![](../../.gitbook/assets/objects/scene-objects/list/replaceAudioBook.gif)
+![](../../.gitbook/assets/objects/scene-objects/list/ReplaceAudioBook.gif)
 
 {% endtab %}
 
@@ -172,7 +173,7 @@ The `Tint` **Attribute** applies a *color overlay* to the **List Object**, there
 ## Web Resource
 
 ### Size
-`Size` determines the dimensions of the rendered **List** in the **Scene**. **List** are two-dimensional, therefore, the `Z` **Value** doesn't have any effect.
+`Size` determines the dimensions of the rendered **List** in the **Scene**. **List** are two-dimensional, therefore, the `z` **Value** doesn't have any effect.
 
 ## Sprite
 **Sprite** **Attributes** are documented in [**Sprite Object**](sprites/sprite.md).
@@ -182,6 +183,6 @@ The `Tint` **Attribute** applies a *color overlay* to the **List Object**, there
 ### Link resolution to size
 The value of the `Resolution` **Attribute** would be updated to be equal to that of the `size` **Attribute** if the *toggle* is activated.
 
-### Resolution (px)
+### Resolution
 The *resolution* of the displayed **List**. 
 
