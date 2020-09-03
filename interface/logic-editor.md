@@ -1,40 +1,87 @@
 # Logic Editor
 
-Logic in INCARI is what allows us to take our 2D/3D assets and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code, however by utilizing INCARI's powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminology of INCARI's **Logic Editor**.
+Logic in Incari is what allows us to take our 2D/3D assets and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code, however by utilizing Incari's powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminologies of Incari's **Logic Editor**.
 
-## 1 - The Logic Editor Window
+## 1 - Logic Editor Window
 
-![Each section of the Logic Editor is numerically labelled. Each number corresponds to a sub-section shown below.](/.gitbook/assets/logic-editor&#32;(1).png)
+![Each section of the Logic Editor is numerically labelled. Each number corresponds to a sub-section shown below.](/.gitbook/assets/interface/logic-editor/logic_editor_window.PNG)
 
 1. **Logic Editor** - The main window which contains all things logic-related. It is compartmentalized into several different sections discussed below.
 
-## 2, 3 & 4 - The Left Panel
+## 2 - Toolbar
+![](/.gitbook/assets/interface/logic-editor/toolbar.PNG)
+
+The toolbar shows a list of icons that are used to visualize certain features in the **Logic Graph**. Definitions of the icons are as follows:
+
+* ![](/.gitbook/assets/interface/logic-editor/import_blueprint.PNG) **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
+  
+* ![](/.gitbook/assets/interface/logic-editor/group.PNG) **Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: ![](/.gitbook/assets/interface/logic-editor/group.gif) 
+
+* ![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.PNG) **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below: ![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.gif) 
+
+* ![](/.gitbook/assets/interface/logic-editor/align.PNG) 
+**Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: ![](/.gitbook/assets/interface/logic-editor/align-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/align-vertically.gif) 
+
+* ![](/.gitbook/assets/interface/logic-editor/arrange.PNG) 
+**Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: ![](/.gitbook/assets/interface/logic-editor/arrange-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/arrange-vertically.gif) 
+
+## 3 - Top Panel
+![](/.gitbook/assets/interface/logic-editor/topPanel.PNG)
+
+The *top panel* represents **Logic Graph**s that are implemented for different Incari items such as the current opened **Project**, the selected **Scene** in the **Project Outliner** and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel. 
+
+## 4 - Left Panel
+The *left panel* contains **Nodes** that can be added to the **Logic Editor**. The panel is divided into five sections, and these are the **Explorer**, **Toolbox**, **Events**, **Functions** and **Variables**.
+
+Each section is described below:
 
 {% tabs %}
-{% tab title="2. Explorer" %}
-![](/.gitbook/assets/logic-editor-explorer.png)
 
-This tab shows a list of all nodes in your logic tree. When you select an item in the **Explorer** tab, the corresponding node is simultaneously selected in the **Logic Graph**.
+{% tab title="Explorer" %}
+  - ![](/.gitbook/assets/interface/logic-editor/left_panel_explorer.PNG) 
+
+* All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding node is selected in the **Logic Graph**.
 {% endtab %}
 
-{% tab title="3. Toolbox" %}
-![](/.gitbook/assets/logic-editor-toolbox.png)
+{% tab title="Toolbox" %}
+  - ![](/.gitbook/assets/interface/logic-editor/left_panel_toolbox.PNG) 
 
-Like the name suggests, the **Toolbox** tab contains all of the individual tools you will need to create your logic. The function and purpose of all the nodes is covered, in depth, in the **Toolbox** section and it is _highly_ recommended that you refer to it, to understand how each individual node functions. In short though, the **Toolbox** contains a categorized list of all nodes available at your disposal, which can be added to your logic by dragging and dropping an item into your **Logic Graph**.
+* The **Toolbox** contains all of the individual tools you will need to create your logic. The function and purpose of all nodes are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it, to understand how each node functions. In short, the **Toolbox** contains a categorized list of all nodes available at your disposal, which can be added to your logic by double-clicking or dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
-{% tab title="4. Variables" %}
-![](/.gitbook/assets/logic-editor-variables.png)
+{% tab title="Events" %}
 
-The **Variables** tab is where you can create variables to be used in your logic. You do this by defining the variable name, selecting the **Data Type** from the drop-down menu and then clicking "Add".
+ - ![](/.gitbook/assets/interface/logic-editor/left_panel_events.PNG)
+  
+* An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/README.md).
+  
+ - ![](/.gitbook/assets/interface/logic-editor/addEvent.gif)
+  
+{% endtab %}
 
-You can then drag and drop these variables into the Logic Graph, so that they can be used for getting/setting their values within your logic.
+{% tab title="Functions" %}
+ - ![](/.gitbook/assets/interface/logic-editor/left_panel_functions.PNG)
+
+* Custom built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/README.md).
+  
+ - ![](/.gitbook/assets/interface/logic-editor/addFunction.gif)
+  
+{% endtab %}
+
+{% tab title="Variables" %}
+
+  - ![](/.gitbook/assets/interface/logic-editor/left_panel_variables.PNG) 
+  
+* The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/variables/README.md).
+
+- ![](/.gitbook/assets/interface/logic-editor/addVariable.gif)
+
 {% endtab %}
 {% endtabs %}
 
 ## 5 - The Logic Graph / Node Graph
 
-The most important section of the **Logic Editor**. If the nodes and variables are the paints and materials at your disposal, then the **Logic Graph** is the canvas. This is where we build our systems from the ground up and where you will spend most of your time while using INCARI.
+The most important section of the **Logic Editor**. If the nodes and variables are the paints and materials at your disposal, then the **Logic Graph** is the canvas. This is where we build our systems from the ground up and where you will spend most of your time while using Incari.
 
 Fundamentally, it is comprised of a combination of two entities: **Nodes** and **Connections**.
 
@@ -48,7 +95,7 @@ Fundamentally, it is comprised of a combination of two entities: **Nodes** and *
 
 ![Nodes have a number of input/output sockets.](/.gitbook/assets/anatomyofnodes-sockets.png)
 
-**Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In INCARI, sockets are either:
+**Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In Incari, sockets are either:
 
 * **Input** \(receiving an instruction or data value\). **Sockets** on the left-hand side of a **Node** are **Input Sockets.**
 * **Output** \(sending an instruction or data value\). **Sockets** on the right-hand side of a **Node** are **Output Sockets**.
@@ -65,15 +112,17 @@ The concept of **Sockets**, makes much more sense in the context of **Connection
 
 #### Pulse
 
-These connections do not carry any data between nodes. What they _do_ is tell nodes that it is time for them to do their thing. Once a node has finished its execution and its purpose has be fulfilled, the next node connected via the **Pulse** connection will then begin _its_ task. Pulse connections are represented by a white "wire", linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple connections can be plugged into a single **Pulse Input Socket**, however only one connection can come out of a **Pulse Output Socket**. Pulse Connections are also referred to as Pulses.
+These connections do not carry any data between nodes. What they _do_ is tell nodes that it is time for them to do their thing. Once a node has finished its execution and its purpose has been fulfilled, the next node connected via the **Pulse** connection will then begin _its_ task. Pulse connections are represented by a white "wire", linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple connections can be plugged into a single **Pulse Input Socket**, however only one connection can come out of a **Pulse Output Socket**. Pulse Connections are also referred to as Pulses.
 
 #### Data
 
 These connections pass data values between nodes. We do this by connecting the **Data Output Socket** of one node into a **Data Input Socket** of another node. Both the input and output sockets must be of the same data type. **Data Sockets** are represented by a coloured square \(⬛\), the colour of which, corresponds to the **Data Type**. Conversely to **Pulse** connections, **Data Input Sockets** can take only one input connection, whereas **Data Output Sockets** can have multiple output connections. Unlike **Pulse** connections, **Data** connections do not initiate the execution of a node.
 
-## 6. **Node Attribute Editor**
+## 6 & 7. **Node Attribute Editor**
 
-![The Node Attribute Editor](/.gitbook/assets/logic-editor-attributes.png)
+![The Node Attribute Editor Node](/.gitbook/assets/interface/logic-editor/rangeMapperNode.PNG)
+![The Node Attribute Editor Inputs](/.gitbook/assets/interface/logic-editor/rangeMapperInputs.PNG)
+![The Node Attribute Editor Outputs](/.gitbook/assets/interface/logic-editor/rangeMapperOutPuts.PNG)
 
 The **Node Attribute Editor** \(referred to simply as **Editor** hereinafter\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions however, where **Attributes** can be set only in the **Editor**, and there is no equivalent **Socket** available, which are discussed below, in the **Node-Specific Attributes** section.
 
@@ -103,15 +152,15 @@ Some **Nodes** work with different **Data Types**, however these need to be expl
 
 #### Linked Objects
 
-![](/.gitbook/assets/draggingobject.gif)
+![](/.gitbook/assets/interface/logic-editor/addObjectToAttribute.gif)
 
 Some **Node Attributes** correspond to something outside of the **Logic Editor**, such as a **Scene**, **Screen**, **Object**, **Text Object** or **File**. In this case, you will see a small square, which will either have a thumbnail, related to that type of **File** or **Object**, or the text "drag here". To assign something to the **Attribute**, simply drag and drop it onto the square.
 
 #### Adding Removing Sockets
 
-![](/.gitbook/assets/addingparams.gif)
+![](/.gitbook/assets/interface/logic-editor/addRemoveSockets.gif)
 
-There are a few **Nodes** in **INCARI** that allow you to customise the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
+There are a few **Nodes** in **Incari** that allow you to customise the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
 By clicking the plus button \(**+**\) you can add additional elements, which will be added to the _bottom_ of the list.
 
@@ -121,13 +170,13 @@ You can also rearrange the order of the elements by clicking and dragging elemen
 
 ## Events
 
-All **Node Trees** in INCARI must originate from a special type of **Pulse Socket**, called an **Event**. While most **Nodes** require an **Input Pulse Connection** to both evaluate and trigger subsequent, **Pulse**-connected **Nodes**, **Events** don't necessarily require an **Input Pulse** to fire, and are actually triggered as a response to a pre-defined action or occurrence.
+All **Node Trees** in Incari must originate from a special type of **Pulse Socket**, called an **Event**. While most **Nodes** require an **Input Pulse Connection** to both evaluate and trigger subsequent, **Pulse**-connected **Nodes**, **Events** don't necessarily require an **Input Pulse** to fire, and are actually triggered as a response to a pre-defined action or occurrence.
 
 #### Event Nodes
 
-INCARI currently has two designated **Event Nodes**, to trigger logic based on user input. They are **KeyPress** and **KeyRelease**, which you can read more about in those sections of the documentation.
+Incari currently has two designated **Event Nodes**, to trigger logic based on user input. They are **KeyPress** and **KeyRelease**, which you can read more about in those sections of the documentation.
 
-There is also the **Project Node**, which triggers its **OnLoaded Event** once the project is loaded in **INCARI Player**.
+There is also the **Project Node**, which triggers its **OnLoaded Event** once the project is loaded in **Incari Player**.
 
 #### Other Events
 
