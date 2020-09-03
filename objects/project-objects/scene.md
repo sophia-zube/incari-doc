@@ -14,5 +14,5 @@ In order to create an **Unassigned Scene**, click on the plus ![](../../.gitbook
 
 Also by *right-clicking* on a **Scene** or **Screen** in the **Project Outliner** you can create an **Unassigned Scene** or a *child* **Scene** for that particular **Screen**.
 
- ![](../../.gitbook/assets/objects/project-objects/scene/unassigned_scenes.PNG)
+ ![](../../.gitbook/assets/objects/project-objects/scene/Unassigned_scenes.PNG)
 
