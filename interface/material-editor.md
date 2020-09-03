@@ -9,7 +9,7 @@ The sections defined in the **Material Editor** are discussed below:
 
 Note: These sections will not be opened if a **Material** file has already been opened in the **Material Editor**.
 
-`Used Materials` section, you will find **Materials** that have previously applied to a **Mesh** in a **Scene**. These **Materials** can be edited by *clicking* on them.
+`Used Materials` section, has **Materials** that have been previously applied to a **Mesh** in a **Scene**. These **Materials** can be edited by *clicking* on them.
 
 `New Material` as its name suggests allows us to create new **Materials**. The illustration below depicts its behavior when *clicked*.
 
