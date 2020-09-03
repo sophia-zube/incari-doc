@@ -10,6 +10,7 @@
 ## Interface
 * [Logic Editor](interface/logic-editor.md)
 * [Project Outliner](interface/project-outliner.md)
+* [Global Preferences](interface/global-preferences.md)
 * [Attribute Editor](interface/attribute-editor.md)
 * [Material Editor](interface/material-editor.md)
 
