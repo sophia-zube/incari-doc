@@ -14,10 +14,14 @@ Logic in Incari is what allows us to take our 2D/3D assets and turn them into fu
 
 The toolbar shows a list of icons that are used to visualize certain features in the **Logic Graph**. Definitions of the icons are as follows:
 
-* ![](../.gitbook/assets/interface/logic-editor/import_blueprint.PNG) 
+![](../.gitbook/assets/interface/logic-editor/import_blueprint.PNG) 
+
 **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
   
-* ![](../.gitbook/assets/interface/logic-editor/group.PNG) **Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: 
+![](../.gitbook/assets/interface/logic-editor/group.PNG) 
+
+**Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: 
+
 ![](../.gitbook/assets/interface/logic-editor/group.gif) 
 
 * ![](../.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.PNG) 
