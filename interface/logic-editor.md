@@ -14,17 +14,23 @@ Logic in Incari is what allows us to take our 2D/3D assets and turn them into fu
 
 The toolbar shows a list of icons that are used to visualize certain features in the **Logic Graph**. Definitions of the icons are as follows:
 
-* ![](/.gitbook/assets/interface/logic-editor/import_blueprint.PNG) **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
+* ![](/.gitbook/assets/interface/logic-editor/import_blueprint.PNG) 
+**Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
   
-* ![](/.gitbook/assets/interface/logic-editor/group.PNG) **Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: ![](/.gitbook/assets/interface/logic-editor/group.gif) 
+* ![](/.gitbook/assets/interface/logic-editor/group.PNG) **Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: 
+![](/.gitbook/assets/interface/logic-editor/group.gif) 
 
-* ![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.PNG) **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below: ![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.gif) 
+* ![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.PNG) 
+**Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below: 
+![](/.gitbook/assets/interface/logic-editor/highlightAndUnhighlight.gif) 
 
 * ![](/.gitbook/assets/interface/logic-editor/align.PNG) 
-**Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: ![](/.gitbook/assets/interface/logic-editor/align-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/align-vertically.gif) 
+**Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: 
+![](/.gitbook/assets/interface/logic-editor/align-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/align-vertically.gif) 
 
 * ![](/.gitbook/assets/interface/logic-editor/arrange.PNG) 
-**Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: ![](/.gitbook/assets/interface/logic-editor/arrange-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/arrange-vertically.gif) 
+**Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: 
+![](/.gitbook/assets/interface/logic-editor/arrange-horizontally.gif) ![](/.gitbook/assets/interface/logic-editor/arrange-vertically.gif) 
 
 ## 3 - Top Panel
 ![](/.gitbook/assets/interface/logic-editor/topPanel.PNG)
@@ -39,6 +45,7 @@ Each section is described below:
 {% tabs %}
 
 {% tab title="Explorer" %}
+
   - ![](/.gitbook/assets/interface/logic-editor/left_panel_explorer.PNG) 
 
 * All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding node is selected in the **Logic Graph**.
