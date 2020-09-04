@@ -106,42 +106,40 @@ body {
 {% endtabs %}
 
 ### Js File
-The `Js File` **attribute** is a *JavaScript programming language* file that allows us to add complex features and also create dynamic and interactive experiences for **List** **Objects**. 
+The `Js File` **Attribute** is a *JavaScript programming language* file that allows us to add complex features and create dynamic experiences for **List** **Objects**. 
 
 The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. 
 For more information about JavaScript. Please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
-In the illustration below, we add user interaction to our audio-book **List** example using the `Js File` **Attribute**.
+In the illustration below, we replace a book in our audio-book **List** example using the `Js File` **Attribute**.
 
 {% tabs %}
 
 {% tab title="Result" %}
 
-![](../../.gitbook/assets/objects/scene-objects/list/ReplaceAudioBook.gif)
+![](../../.gitbook/assets/objects/scene-objects/list/jsExample.PNG)
 
 {% endtab %}
 
 {% tab title="JavaScript" %}
 ```JS
-function replaceBook(){
-    let bookName = prompt('Enter book name');
-    let author = prompt('Enter author')
-    let index = prompt('Index of book you would like to replace')
 
+function replaceBook(index){
     const item = document.getElementById('list').children[index];
-    
-    const newItem = "<h2>" + bookName + " by " + author + "</h2>";
+    const newItem = "<h2> The Gods Are Not to Blame by Ola Rotimi </h2>";
 
     if (item) {
       item.innerHTML = newItem;
-      item.style.color = "#ADD8E6";
+      item.style.color = "#FF0000";
     }
-}
+} 
 
-replaceBook();
+replaceBook(3);
 ```
 {% endtab %}
 {% endtabs %}
+
+In the *JavaScript* code above, the  `replaceBook` function allows us to replace any book in the audio-book **List** example by using its index. Furthermore, the color of the new audio-book entry is changed to *red*.
 
 ### Generate List
 `Generate List` button automatically creates all internal *.html*, *.css*, *.js* needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**. 
