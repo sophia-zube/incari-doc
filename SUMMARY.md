@@ -31,6 +31,15 @@
 ## Tutorials
 
 ## Toolbox
+* [Array](toolbox/array/README.md)
+  * [Array Value](toolbox/array/array-value.md)
+  * [Clear Array](toolbox/array/clear-array.md)
+  * [Concat Arrays](toolbox/array/concat-arrays.md)
+  * [Get Array Element](toolbox/array/get-array-element.md)
+  * [Length of Array](toolbox/array/length-of-array.md)
+  * [Pop Array Element](toolbox/array/pop-array-element.md)
+  * [Push Array Element](toolbox/array/push-array-element.md)
+  * [Set Array Element](toolbox/array/set-array-element.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
   * [Now (UTC)](toolbox/datetime/now-utc.md)
