@@ -6,7 +6,7 @@ Logic in Incari is what allows us to take our 2D/3D assets and turn them into fu
 
 ![](../.gitbook/assets/interface/logic-editor/logic_editor_window.PNG)
 
-1. **Logic Editor** - The main window which contains all things logic-related. It is compartmentalized into several different sections discussed below.
+**Logic Editor** - The main window which contains all things logic-related. It is compartmentalized into several different sections discussed below.
 
 ## 2 - Toolbar
 
