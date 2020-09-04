@@ -5,13 +5,15 @@
 **Array Value** is a data structure that can hold varying types of elements. The number of elements that the data structure can hold can be increased or decreased as needed. Also, each element can be identified and accessed by its index. 
 
 # Attributes
-## Input
+## Inputs
+
+### Inputs
 The number of **Input Element**s you wish to add to the **Attribute section**. Each **Input Element** represents a value that is added to the **Array Value** **Node**. The values in this section are used if no values are provided to the **Input** **Node**. The format of the section is as follows: 
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Data Type`|**Drop-down**|The `Data Type` of the `Default Value` that you wish to add to the **Array Value** **Node**.|
-|`Default Value`|*Defined in the* `Data Type` ***Attribute***.|The `Default value` that you wish to add to the **Array Value** **node**, if no value is provided in the input **Socket**.|
+|`Data Type`|**Drop-down**|The `Data Type` of the `Value` that you wish to add to the **Array Value** **Node**.|
+|`Value`|*Defined in the* `Data Type` ***Attribute***.|A `value` that you wish to add to the **Array Value** **node**, if no value is provided in the input **Socket**.|
 
 # Inputs
 

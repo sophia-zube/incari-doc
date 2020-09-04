@@ -5,8 +5,9 @@
 **Push Array Element** adds element/s to an **Array**. The **Array** is given as input to the **Node**.
 
 # Attributes
-
 ## Inputs
+
+### Inputs
 The number of **Input** **Elements** you wish to add to the **Attribute** section. The **Elements** added to the **Attribute** section will also be added to the **Input** **Array**. Each **Element** has the following format:
 
 |Attribute|Type|Description|

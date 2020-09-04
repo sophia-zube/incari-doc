@@ -5,8 +5,9 @@
 **Pop Array Element** removes element/s from an **Array** supplied to the **Node**. The element/s can be removed from either the *front* or *back* of the **Array**.
 
 # Attributes
-
 ## Outputs
+
+### Outputs
 The number of **Output** **Elements** you wish to add to the **Attribute** section. The **Elements** added will be removed from the **Input** **Array**. Each **Element** has the following format:
 
 |Attribute|Type|Description|

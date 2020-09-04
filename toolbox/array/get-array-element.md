@@ -5,7 +5,9 @@
 **Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the *index/es* of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
 
 # Attributes
-## Inputs/Outputs
+## Miscellaneous 
+
+### Inputs/Outputs
 The number of **Input** and **Output** **Element**s you wish to add to the **Attribute** section. Each **Element** represents an *index* element you wish to return.
 
 |Attribute|Type|Description|

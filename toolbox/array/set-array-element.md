@@ -6,6 +6,8 @@
 
 # Attributes
 ## Inputs
+
+### Inputs
 The number of **Input Element**/s you wish to add to the **Attribute section**. The **Input Element**/s are used to update elements in the **Array** to new values. Each **Input Element** has the following format: 
 
 |Attribute|Type|Description|

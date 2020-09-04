@@ -7,10 +7,11 @@
 Note that the **Arrays** that are to be merged by this node are not sorted.
 
 # Attributes
+## Inputs
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Default Count`|**Int**|The number of **Arrays** you wish to merge. The default number is 2 **Arrays**.|
+|`Count`|**Int**|The number of **Arrays** you wish to merge. The default number is 2 **Arrays**.|
 
 # Inputs
 
