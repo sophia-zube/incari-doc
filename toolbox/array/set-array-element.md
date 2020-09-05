@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Array Element Node.](../../.gitbook/assets/toolbox/array/set-array-element.png)
+![The Set Array Element Node.](../../.gitbook/assets/toolbox/array/set-array-element.PNG)
 
 **Set Array Element** updates element/s in an **Array** to new values.
 

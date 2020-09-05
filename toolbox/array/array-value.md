@@ -1,6 +1,6 @@
 # Overview
 
-![The Array Value Node.](../../.gitbook/assets/toolbox/array/array-value.png)
+![The Array Value Node.](../../.gitbook/assets/toolbox/array/array-value.PNG)
 
 **Array Value** is a data structure that can hold varying types of elements. The number of elements that the data structure can hold can be increased or decreased as needed. Also, each element can be identified and accessed by its index. 
 
@@ -30,7 +30,7 @@ The number of **Input Element**s you wish to add to the **Attribute section**. E
 |`Output`|**Array**|An **Array** that holds the values that have been added to the **Array Value** **Node**.|
 
 # Usage
-![The Array Value Node Usage.](../../.gitbook/assets/toolbox/array/array-value-usage.png)
+![The Array Value Node Usage.](../../.gitbook/assets/toolbox/array/array-value-usage.PNG)
 
 # See Also
 [**Clear Array**](clear-array.md)
