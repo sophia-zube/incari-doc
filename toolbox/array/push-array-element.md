@@ -1,6 +1,6 @@
 # Overview
 
-![The Push Array Element Node.](../../.gitbook/assets/toolbox/array/push-array-element.png)
+![The Push Array Element Node.](../../.gitbook/assets/toolbox/array/push-array-element.PNG)
 
 **Push Array Element** adds element/s to an **Array**. The **Array** is given as input to the **Node**.
 

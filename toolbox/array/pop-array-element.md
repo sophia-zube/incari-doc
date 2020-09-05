@@ -1,6 +1,6 @@
 # Overview
 
-![The Pop Array Element Node.](../../.gitbook/assets/toolbox/array/pop-array-element.png)
+![The Pop Array Element Node.](../../.gitbook/assets/toolbox/array/pop-array-element.PNG)
 
 **Pop Array Element** removes element/s from an **Array** supplied to the **Node**. The element/s can be removed from either the *front* or *back* of the **Array**.
 

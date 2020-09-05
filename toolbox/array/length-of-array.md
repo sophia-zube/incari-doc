@@ -1,6 +1,6 @@
 # Overview
 
-![The Length Of Array Node.](../../.gitbook/assets/toolbox/array/length-of-array.png)
+![The Length Of Array Node.](../../.gitbook/assets/toolbox/array/length-of-array.PNG)
 
 **Length Of Array** returns the total number of elements in an **Array**.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element.png)
+![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element.PNG)
 
 **Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the *index/es* of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
 
@@ -32,7 +32,7 @@ The number of **Input** and **Output** **Element**s you wish to add to the **Att
 |`Value`|*Defined in the* `Data Type` ***Attribute***.|The **Output** value accessed from the **Array**.|
 
 # Eg Usage
-![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element-usage.png)
+![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element-usage.PNG)
 
 # See Also
 - [**Array Value**](array-value.md)
