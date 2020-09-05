@@ -14,25 +14,30 @@ Logic in Incari is what allows us to take our 2D/3D assets and turn them into fu
 
 The toolbar shows a list of icons that are used to visualize certain features in the **Logic Graph**. Definitions of the icons are as follows:
 
-* ![](../.gitbook/assets/interface/logic-editor/importBlueprint.PNG)
+![](../.gitbook/assets/interface/logic-editor/importBlueprint.PNG)
 **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
   
-* ![](../.gitbook/assets/interface/logic-editor/group.PNG) 
+![](../.gitbook/assets/interface/logic-editor/group.PNG) 
 **Group** icon clusters **Logic Graph**s into distinct groupings. See a usage example below: 
-![](../.gitbook/assets/interface/logic-editor/group.gif) 
 
-* ![](../.gitbook/assets/interface/logic-editor/highlightUnhighlight.PNG) 
+![](../.gitbook/assets/interface/logic-editor/groupNode.gif) 
+
+![](../.gitbook/assets/interface/logic-editor/highlightUnhighlight.PNG) 
 **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below: 
+
 ![](../.gitbook/assets/interface/logic-editor/highlightUnhighlight.gif) 
 
-* ![](../.gitbook/assets/interface/logic-editor/alignVerticalHorizontal.PNG) 
+![](../.gitbook/assets/interface/logic-editor/alignVerticalHorizontal.PNG) 
 **Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: 
 ![](../.gitbook/assets/interface/logic-editor/align-horizontally.gif) 
+
 ![](../.gitbook/assets/interface/logic-editor/align-vertically.gif) 
 
-* ![](../.gitbook/assets/interface/logic-editor/arrange.PNG) 
+![](../.gitbook/assets/interface/logic-editor/arrange.PNG) 
 **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: 
+
 ![](../.gitbook/assets/interface/logic-editor/arrange-horizontally.gif) 
+
 ![](/.gitbook/assets/interface/logic-editor/arrange-vertically.gif) 
 
 ## 3 - Top Panel
