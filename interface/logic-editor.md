@@ -28,7 +28,7 @@ The toolbar shows a list of icons that are used to visualize certain features in
 * ![](../.gitbook/assets/interface/logic-editor/alignVerticalHorizontal.PNG) 
 **Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: 
 ![](../.gitbook/assets/interface/logic-editor/align-horizontally.gif) 
-![](/.gitbook/assets/interface/logic-editor/align-vertically.gif) 
+![](../.gitbook/assets/interface/logic-editor/align-vertically.gif) 
 
 * ![](../.gitbook/assets/interface/logic-editor/arrange.PNG) 
 **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: 
@@ -50,21 +50,21 @@ Each section is described below:
 
 {% tab title="Explorer" %}
 
-![](../.gitbook/assets/interface/logic-editor/left_panel_explorer.PNG) 
+![](../.gitbook/assets/interface/logic-editor/leftPanelExplorer.PNG) 
 
 All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding node is selected in the **Logic Graph**.
 {% endtab %}
 
 {% tab title="Toolbox" %}
 
-![](../.gitbook/assets/interface/logic-editor/left_panel_toolbox.PNG) 
+![](../.gitbook/assets/interface/logic-editor/leftPanelToolbox.PNG) 
 
 The **Toolbox** contains all of the individual tools you will need to create your logic. The function and purpose of all nodes are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it, to understand how each node functions. In short, the **Toolbox** contains a categorized list of all nodes available at your disposal, which can be added to your logic by double-clicking or dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
 {% tab title="Events" %}
 
-![](../.gitbook/assets/interface/logic-editor/left_panel_events.PNG)
+![](../.gitbook/assets/interface/logic-editor/leftPanelEvents.PNG)
   
 An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/README.md).
   
@@ -74,7 +74,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 
 {% tab title="Functions" %}
 
-![](../.gitbook/assets/interface/logic-editor/left_panel_functions.PNG)
+![](../.gitbook/assets/interface/logic-editor/leftPanelFunctions.PNG)
 
 Custom-built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/README.md).
   
@@ -84,7 +84,7 @@ Custom-built **Node Graph**s can be packaged as a function and added to your **S
 
 {% tab title="Variables" %}
 
-![](../.gitbook/assets/interface/logic-editor/left_panel_variables.PNG) 
+![](../.gitbook/assets/interface/logic-editor/leftPanelVariables.PNG) 
   
 The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/variables/README.md).
 
