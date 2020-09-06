@@ -84,7 +84,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 
 Custom-built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/README.md).
   
-![](../.gitbook/assets/interface/logic-editor/addFunction.gif)
+![](../.gitbook/assets/interface/logic-editor/addFunctions.gif)
   
 {% endtab %}
 
@@ -94,7 +94,7 @@ Custom-built **Node Graph**s can be packaged as a function and added to your **S
   
 The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](/.gitbook/assets/interface/logic-editor/plusIcon.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/variables/README.md).
 
-![](../.gitbook/assets/interface/logic-editor/addVariable.gif)
+![](../.gitbook/assets/interface/logic-editor/addVariables.gif)
 
 {% endtab %}
 {% endtabs %}
@@ -105,7 +105,7 @@ The most important section of the **Logic Editor**. If the nodes and variables a
 
 Fundamentally, it is comprised of a combination of two entities: **Nodes** and **Connections**.
 
-![Nodes are linked together by connections to define logic and execution order.](../.gitbook/assets/logic-editor-graph.png)
+![Nodes are linked together by connections to define logic and execution order.](../.gitbook/assets/interface/logic-editor/LogicNodeGraph.PNG)
 
 ### **Nodes**
 
@@ -113,7 +113,7 @@ Fundamentally, it is comprised of a combination of two entities: **Nodes** and *
 
 #### Sockets
 
-![Nodes have a number of input/output sockets.](../.gitbook/assets/anatomyofnodes-sockets.png)
+![Nodes have a number of input/output sockets.](../.gitbook/assets/interface/logic-editor/sockets.PNG)
 
 **Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In Incari, sockets are either:
 
@@ -126,7 +126,7 @@ The concept of **Sockets**, makes much more sense in the context of **Connection
 
 #### **Connections**
 
-![Nodes are linked to each other via Connections.](../.gitbook/assets/connections.png)
+![Nodes are linked to each other via Connections.](../.gitbook/assets/interface/logic-editor/connections.PNG)
 
 **Connections** are the "wires" that link our components together. This is how we pass data between nodes and how we determine the execution order of our logic. Connections come in two categories and are related to the type of **Socket** they are plugged into. The two categories are **Pulse** and **Data**.
 
@@ -144,7 +144,7 @@ These connections pass data values between nodes. We do this by connecting the *
 
 ![The Node Attribute Editor Inputs](../.gitbook/assets/interface/logic-editor/rangeMapperInputsImg.PNG)
 
-![The Node Attribute Editor Outputs](../.gitbook/assets/interface/logic-editor/rangeMapperOutPutsImg.PNG)
+![The Node Attribute Editor Outputs](../.gitbook/assets/interface/logic-editor/rangeMapperOutputsImg.PNG)
 
 The **Node Attribute Editor** \(referred to simply as **Editor** hereinafter\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions however, where **Attributes** can be set only in the **Editor**, and there is no equivalent **Socket** available, which are discussed below, in the **Node-Specific Attributes** section.
 
