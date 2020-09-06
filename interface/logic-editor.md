@@ -28,17 +28,18 @@ The toolbar shows a list of icons that are used to visualize certain features in
 ![](../.gitbook/assets/interface/logic-editor/highlightUnhighlight.gif) 
 
 ![](../.gitbook/assets/interface/logic-editor/alignVerticalHorizontal.PNG) 
-**Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below: 
-![](../.gitbook/assets/interface/logic-editor/align-horizontally.gif) 
+**Align horizontally** and **Align Vertically** icons will align a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See usage example below:
 
-![](../.gitbook/assets/interface/logic-editor/align-vertically.gif) 
+![](../.gitbook/assets/interface/logic-editor/alignHorizontally.gif) 
+
+![](../.gitbook/assets/interface/logic-editor/alignVertically.gif) 
 
 ![](../.gitbook/assets/interface/logic-editor/arrange.PNG) 
 **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically respectively in the **Logic Editor**. See Usage example below: 
 
-![](../.gitbook/assets/interface/logic-editor/arrange-horizontally.gif) 
+![](../.gitbook/assets/interface/logic-editor/arrangeHorizontally.gif) 
 
-![](/.gitbook/assets/interface/logic-editor/arrange-vertically.gif) 
+![](/.gitbook/assets/interface/logic-editor/arrangeVertically.gif) 
 
 ## 3 - Top Panel
 
@@ -139,11 +140,11 @@ These connections pass data values between nodes. We do this by connecting the *
 
 ## 6 & 7. **Node Attribute Editor**
 
-![The Node Attribute Editor Node](../.gitbook/assets/interface/logic-editor/rangeMapperNode.PNG)
+![The Node Attribute Editor Node](../.gitbook/assets/interface/logic-editor/rangeMapperNodeImg.PNG)
 
-![The Node Attribute Editor Inputs](../.gitbook/assets/interface/logic-editor/rangeMapperInputs.PNG)
+![The Node Attribute Editor Inputs](../.gitbook/assets/interface/logic-editor/rangeMapperInputsImg.PNG)
 
-![The Node Attribute Editor Outputs](../.gitbook/assets/interface/logic-editor/rangeMapperOutPuts.PNG)
+![The Node Attribute Editor Outputs](../.gitbook/assets/interface/logic-editor/rangeMapperOutPutsImg.PNG)
 
 The **Node Attribute Editor** \(referred to simply as **Editor** hereinafter\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions however, where **Attributes** can be set only in the **Editor**, and there is no equivalent **Socket** available, which are discussed below, in the **Node-Specific Attributes** section.
 
