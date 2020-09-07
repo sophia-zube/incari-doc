@@ -2,9 +2,10 @@
 
 ![The Generate List Node.](../../../.gitbook/assets/toolbox/incari/list/generate-list.PNG)
 
-**Generate List** accepts a **List** **Object** and renders it to **Scene**.
+**Generate List** accepts a **List** **Object** and renders it to a **Scene**.
 
 # Attributes
+## Object 
 
 |Attribute|Type|Description|
 |---|---|---|

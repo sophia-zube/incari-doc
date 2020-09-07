@@ -7,11 +7,16 @@
 The index count starts from zero, which means that the `Index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one (sum of entries - 1). This follows from array-based indexing whereby the index of the first entry is 0.
 
 # Attributes
+## Object
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|This represents the **List** **Object** from which an entry item can be selected by its `Index` if one is not provided in the `Object ID` **Socket**.|
-|`Default Index`|**Int**|The default `Index` value if no value is provided to the input `Index` **Socket**. |
+|`Object`|**ObjectID**|This represents the **List** **Object** from which an entry item can be selected by its `Index` if one is not provided in the `Object ID` **Socket**.
+
+## Input
+|Attribute|Type|Description|
+|---|---|---|
+|`Index`|**Int**|The default `Index` value if no value is provided to the input `Index` **Socket**.
 
 # Inputs
 

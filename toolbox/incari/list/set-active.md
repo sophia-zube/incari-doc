@@ -5,11 +5,16 @@
 **Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and boolean value `Is Active`. If `Is Active` is positive, then the **List** **Object** is activated otherwise it is deactivated.
 
 # Attributes
+## Object
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate, if one is not provided in the `Object ID` **Socket**.|
-|`Default Value Is Active`|**Bool**|A default boolean switch which activates and deactivates the **List** **Object**, if no value is provided to the `Is Active` input **Socket**.
+|`Object`|**ObjectID**|The target **List** **Object** you wish to activate or deactivate, if one is not provided in the `Object ID` **Socket**.
+
+## Input 
+|Attribute|Type|Description|
+|---|---|---|
+|`Is Active`|**Bool**|A default boolean switch which activates and deactivates the **List** **Object**, if no value is provided to the `Is Active` input **Socket**.
 
 # Inputs
 
