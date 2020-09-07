@@ -1,6 +1,6 @@
 # Table of contents
 
-* [INCARI Studio Documentation](README.md)
+* [Incari Studio Documentation](README.md)
 
 ## Getting Started
 * [Requirements](./getting-started/requirements.md)
@@ -145,7 +145,7 @@
   * [Sequential](toolbox/flow-control/sequential.md)
   * [Switch](toolbox/flow-control/switch.md)
   * [Toggle](toolbox/flow-control/toggle.md)
-* [INCARI](toolbox/incari/README.md)
+* [Incari](toolbox/incari/README.md)
   * [Animation](toolbox/incari/animation/README.md)
     * [Pause Animation](toolbox/incari/animation/pause-animation.md)
     * [Play Animation](toolbox/incari/animation/play-animation.md)

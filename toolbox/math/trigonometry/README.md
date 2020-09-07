@@ -1,6 +1,6 @@
 # Introduction
 
-*Trigonometric functions* are  used to calculate the acute angles and side lengths of right-angled triangles. Trigonometry has a vast number of applications, ranging from engineering to astronomy. The most relevant to **INCARI**, though, is that it can be used to calculate coordinates and distances within 3D space.
+*Trigonometric functions* are  used to calculate the acute angles and side lengths of right-angled triangles. Trigonometry has a vast number of applications, ranging from engineering to astronomy. The most relevant to Incari, though, is that it can be used to calculate coordinates and distances within 3D space.
 
 # Trigonometric Functions
 

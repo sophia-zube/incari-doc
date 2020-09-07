@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/iconscreen.png)
 
-The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
+The **Screen Object** in Incari contains the technical specifications of the physical display that the **Project** will ultimately displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
 ## Attributes
 

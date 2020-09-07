@@ -182,7 +182,7 @@ Some **Node Attributes** correspond to something outside of the **Logic Editor**
 
 ![](/.gitbook/assets/interface/logic-editor/addRemoveSockets.gif)
 
-There are a few **Nodes** in **Incari** that allow you to customise the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
+There are a few **Nodes** in Incari that allow you to customise the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
 By clicking the plus button \(**+**\) you can add additional elements, which will be added to the _bottom_ of the list.
 

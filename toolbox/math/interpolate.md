@@ -4,7 +4,7 @@
 
 **Interpolate** gradually changes the value of a numerical input from an initial value (`From`) to a target value (`To`) over a set period of time (`Duration (s)`).
 
-By default, the value is adjusted *linearly*, but can also be interpolated using one of several of **INCARI**'s **Interpolation Types**.
+By default, the value is adjusted *linearly*, but can also be interpolated using one of several of Incari's **Interpolation Types**.
 
 Additionally, the interpolation can be executed a single time (`Once`) or multiple times (`Repeat`/`Alternate`) using the `Mode` **Attribute**.
 
