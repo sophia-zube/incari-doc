@@ -1,6 +1,6 @@
 # Table of contents
 
-* [INCARI Studio Documentation](README.md)
+* [Incari Studio Documentation](README.md)
 
 ## Getting Started
 * [Requirements](./getting-started/requirements.md)

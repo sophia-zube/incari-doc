@@ -21,7 +21,7 @@
 * [**Toggle**](toggle.md) - Holds a **Boolean** *state*, which alternates between its opposite state every time the input **Pulse** is triggered.
 * [**Select Data**](select-data.md) - Takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by. This is a useful way to converge **Pulse Flow** into a single path.
 
-Additionally, **INCARI** has the [**Sequential Node**](sequential.md), which triggers all output **Pulses** sequentially and is used primarily as a means of grouping and organizing blocks of logic with a similar or combined purpose into a more visually readable way.
+Additionally, Incari has the [**Sequential Node**](sequential.md), which triggers all output **Pulses** sequentially and is used primarily as a means of grouping and organizing blocks of logic with a similar or combined purpose into a more visually readable way.
 
 # See Also
 

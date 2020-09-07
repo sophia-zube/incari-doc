@@ -2,7 +2,7 @@
 
 A **Boolean** is a *data type*, which represents one of two values: *true* or *false*.
 
-Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of **INCARI**'s logic system, and computer programming in general, due to their use in **Flow Control**. More specifically, *Boolean expressions* are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being *true* or *false*.
+Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of Incari's logic system, and computer programming in general, due to their use in **Flow Control**. More specifically, *Boolean expressions* are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being *true* or *false*.
 
 # Boolean Value
 

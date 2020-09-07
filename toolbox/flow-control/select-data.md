@@ -2,7 +2,7 @@
 
 ![The Select Data Node.](../../.gitbook/assets/node-select-data.png)
 
-Because **Input Data Sockets** in **INCARI** can only receive a value from a single connection, this creates a problem when you wish to converge the logic into a single branch. This is why the **Select Data Node** was created, which takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by.
+Because **Input Data Sockets** in Incari can only receive a value from a single connection, this creates a problem when you wish to converge the logic into a single branch. This is why the **Select Data Node** was created, which takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by.
 
 # Attributes
 

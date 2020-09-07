@@ -16,7 +16,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Key`|**Drop-down**|The key that **INCARI** will *listen* for.|
+|`Key`|**Drop-down**|The key that Incari will *listen* for.|
 
 # Outputs
 
