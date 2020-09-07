@@ -9,7 +9,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **List** **Object** that you wish to generate, if one is not provided in the `object ID` **Socket**.
+|`Object`|**ObjectID**|The **List** **Object** that you wish to generate, if one is not provided in the `Object ID` **Socket**.
 
 # Inputs
 
