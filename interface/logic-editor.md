@@ -189,18 +189,3 @@ By clicking the plus button \(**+**\) you can add additional elements, which wil
 By clicking the cross button \(**x**\) you can remove elements. If you click the cross on the list _header_, it will remove _all_ of the elements, whereas if you click the cross on a list _item_, you only remove that _single_ element.
 
 You can also rearrange the order of the elements by clicking and dragging elements using the rearrange button \(**⠿**\).
-
-## Events
-
-All **Node Trees** in Incari must originate from a special type of **Pulse Socket**, called an **Event**. While most **Nodes** require an **Input Pulse Connection** to both evaluate and trigger subsequent, **Pulse**-connected **Nodes**, **Events** don't necessarily require an **Input Pulse** to fire, and are actually triggered as a response to a pre-defined action or occurrence.
-
-#### Event Nodes
-
-Incari currently has two designated **Event Nodes**, to trigger logic based on user input. They are **KeyPress** and **KeyRelease**, which you can read more about in those sections of the documentation.
-
-There is also the **Project Node**, which triggers its **OnLoaded Event** once the project is loaded in **Incari Player**.
-
-#### Other Events
-
-In addition to their standard input/output **Sockets**, some **Nodes** also have their own **Event Sockets**, which can usually be recognized by their label, which will be prefixed with the word "On", for example **OnCancel**, **OnChange**, **OnReset**. The conditions that cause these **Events** to fire are specific to that particular **Node**, however it is good to be aware that they exist and how to tell them apart from other **Pulse Output Sockets**.
-
