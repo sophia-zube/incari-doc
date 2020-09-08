@@ -2,7 +2,7 @@
 
 ![The Next List Entry Node.](../../../.gitbook/assets/toolbox/incari/list/next-list-entry.PNG)
 
-**Next List Entry** selects the next entry item in the **List** **Object**.
+**Next List Entry** selects the next entry item in a **List** **Object**.
 
 # Attributes
 ## Object
