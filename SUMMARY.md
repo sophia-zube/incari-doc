@@ -5,7 +5,6 @@
 ## Getting Started
 * [Requirements](./getting-started/requirements.md)
 * [Installation](getting-started/installation.md)
-* [Creating a Project](getting-started/creating-a-project.md)
 
 ## Interface
 * [Logic Editor](interface/logic-editor.md)
