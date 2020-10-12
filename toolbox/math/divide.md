@@ -1,30 +1,33 @@
-# Overview
+# Divide
+
+## Overview
 
 ![](../../.gitbook/assets/node-divide.png)
 
-**Divide** is a *basic arithmetic operation* **Node**, which divides one number (*dividend*) by a second number (*divisor*) and outputs the result of the operation (*quotient*).
+**Divide** is a _basic arithmetic operation_ **Node**, which divides one number \(_dividend_\) by a second number \(_divisor_\) and outputs the result of the operation \(_quotient_\).
 
-This is the equivalent of the division (`÷` or `/`) operation in computer science and mathematics.
+This is the equivalent of the division \(`÷` or `/`\) operation in computer science and mathematics.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Sockets**.|
-|`Default Dividend`|*Defined in the `Data Type` **Attribute***.|The left side of the division operation (the number to be divided) if no value is provided in the `Dividend` **Socket**.|
-|`Default Divisor`|*Defined in the `Data Type` **Attribute***.|The right side of the division operation (the number to divide by) if no value is provided in the `Divisor` **Socket**.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Sockets**. |
+| `Default Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the division operation \(the number to be divided\) if no value is provided in the `Dividend` **Socket**. |
+| `Default Divisor` | _Defined in the `Data Type` **Attribute**_. | The right side of the division operation \(the number to divide by\) if no value is provided in the `Divisor` **Socket**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Dividend`|*Defined in the `Data Type` **Attribute***.|The left side of the division operation (the number to be divided).|
-|`Divisor`|*Defined in the `Data Type` **Attribute***.|The right side of the division operation (the number to divide by).|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the division operation \(the number to be divided\). |
+| `Divisor` | _Defined in the `Data Type` **Attribute**_. | The right side of the division operation \(the number to divide by\). |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Quotient`|*Defined in the `Data Type` **Attribute**.*|The result of the division operation.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Quotient` | _Defined in the `Data Type` **Attribute**._ | The result of the division operation. |
+

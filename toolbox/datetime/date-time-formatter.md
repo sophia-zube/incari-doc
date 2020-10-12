@@ -1,51 +1,55 @@
-# Overview
+# Date Time Formatter
+
+## Overview
 
 ![](../../.gitbook/assets/node-date-time-formatter.png)
 
-**Date Time Formatter** outputs a *date* and/or *time* in a specified format. By using a combination of special *format characters*, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
+**Date Time Formatter** outputs a _date_ and/or _time_ in a specified format. By using a combination of special _format characters_, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
 
-For more information about *formatting strings*, please see the external links at the [bottom of this page](#external-links).
+For more information about _formatting strings_, please see the external links at the [bottom of this page](date-time-formatter.md#external-links).
 
-# Attributes
-## Input
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Default Timezone`|**Drop-down**|The timezone that will be used, which is an offset of the UTC.|
-|`Default DST`|**Drop-down**|Determines whether or not Daylight Savings Time is taken into account.|
+### Input
 
-## Output
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Timezone` | **Drop-down** | The timezone that will be used, which is an offset of the UTC. |
+| `Default DST` | **Drop-down** | Determines whether or not Daylight Savings Time is taken into account. |
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Format Examples`|**Drop-down**|A selection of pre-defined formats. By selecting `Custom`, you can create a custom *formatting string*.|
-|`Custom Format`|**String**|The *formatting string* which will determine how the date and/or time is represented.|
+### Output
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Format Examples` | **Drop-down** | A selection of pre-defined formats. By selecting `Custom`, you can create a custom _formatting string_. |
+| `Custom Format` | **String** | The _formatting string_ which will determine how the date and/or time is represented. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`UTC Unix (ms)`|**Int**|The UTC in Unix format.|
-|`Timezone Offset (ms)`|**Int**|The time offset in milliseconds.|
-|`DST`|**Bool**|Determines whether or not Daylight Savings Time is taken into account.|
-|`Format`|**String**|The *formatting string* which will determine how the date and/or time is represented.|
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `UTC Unix (ms)` | **Int** | The UTC in Unix format. |
+| `Timezone Offset (ms)` | **Int** | The time offset in milliseconds. |
+| `DST` | **Bool** | Determines whether or not Daylight Savings Time is taken into account. |
+| `Format` | **String** | The _formatting string_ which will determine how the date and/or time is represented. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|**String**|The formatted date/time.|
+## Outputs
 
-# See Also
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Output` | **String** | The formatted date/time. |
 
-- [**DateTime**](README.md)
-- [**Timezone Value**](timezone-value.md)
-- [**Now (UTC)**](now-utc.md)
+## See Also
 
-# External Links
+* [**DateTime**](./)
+* [**Timezone Value**](timezone-value.md)
+* [**Now \(UTC\)**](now-utc.md)
 
-- [*Formatting Date and Time*](https://wordpress.org/support/article/formatting-date-and-time/) on WordPress.org.
-- [*PHP: date - Manual*](https://www.php.net/manual/en/function.date.php) on PHP.net.
-- [*UTC - The World's Time Standard*](https://www.timeanddate.com/time/aboututc.html) on timeanddate.com.
+## External Links
+
+* [_Formatting Date and Time_](https://wordpress.org/support/article/formatting-date-and-time/) on WordPress.org.
+* [_PHP: date - Manual_](https://www.php.net/manual/en/function.date.php) on PHP.net.
+* [_UTC - The World's Time Standard_](https://www.timeanddate.com/time/aboututc.html) on timeanddate.com.
+

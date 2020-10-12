@@ -1,44 +1,48 @@
-# Overview
+# Root
+
+## Overview
 
 ![](../../.gitbook/assets/node-root.png)
 
-**Root** calculates the *nth root* of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a *base* by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
+**Root** calculates the _nth root_ of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a _base_ by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
 
-The most common example of **Root** operations, is finding the *square* (degree 2) root, or *cubic* (degree 3) *root* of a number, however this can also be used for higher numbers.
+The most common example of **Root** operations, is finding the _square_ \(degree 2\) root, or _cubic_ \(degree 3\) _root_ of a number, however this can also be used for higher numbers.
 
-|`Base`|`Degree`|`Output`|
-|---|---|---|---|
-|9|2|3|
-|13824|3|24|
-|160000|4|20|
-|1024|10|2|
+| `Base` | `Degree` | `Output` |
+| :--- | :--- | :--- |
+| 9 | 2 | 3 |
+| 13824 | 3 | 24 |
+| 160000 | 4 | 20 |
+| 1024 | 10 | 2 |
 
-# Attributes
+## Attributes
 
-|Input|Type|Description|
-|---|---|---|
-|`Default Base`|**Float**|The default value of `Base`, if no value is provided in the `Base` **Socket**.|
-|`Default Degree`|**Float**|The default value of `Degree`, if no value is provided in the `Degree` **Socket**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Default Base` | **Float** | The default value of `Base`, if no value is provided in the `Base` **Socket**. |
+| `Default Degree` | **Float** | The default value of `Degree`, if no value is provided in the `Degree` **Socket**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Base`|**Float**|The value which you want to find the *nth root* of.|
-|`Degree`|**Float**|The degree of the root.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Base` | **Float** | The value which you want to find the _nth root_ of. |
+| `Degree` | **Float** | The degree of the root. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|**Float**|The *nth root* (defined in `Degree`) of `Base`.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Output` | **Float** | The _nth root_ \(defined in `Degree`\) of `Base`. |
 
-# See Also
-- [**Power**](power.md)
+## See Also
 
-# External Links
+* [**Power**](power.md)
 
-- [*Root*](https://www.mathopenref.com/root.html) on Math Open Reference.
-- [*nth root*](https://en.wikipedia.org/wiki/Nth_root) on Wikipedia.
+## External Links
+
+* [_Root_](https://www.mathopenref.com/root.html) on Math Open Reference.
+* [_nth root_](https://en.wikipedia.org/wiki/Nth_root) on Wikipedia.
+

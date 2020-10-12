@@ -1,4 +1,4 @@
-# Scene Objects \*
+# Scene Objects
 
 An **Object** in Incari is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviours and characteristics.
 

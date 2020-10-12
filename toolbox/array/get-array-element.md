@@ -1,38 +1,45 @@
-# Overview
+# Get Array Element
 
-![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element.PNG)
+## Overview
 
-**Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the *index/es* of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
+![The Get Array Element Node.](../../.gitbook/assets/get-array-element.PNG)
 
-# Attributes
-## Miscellaneous 
+**Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the _index/es_ of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
 
-### Inputs/Outputs
-The number of **Input** and **Output** **Element**s you wish to add to the **Attribute** section. Each **Element** represents an *index* element you wish to return.
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Default Index`|*Defined in the* `Data Type` ***Attribute***|The `Index` of the element you wish to return if no value is provided to the `Index` **Input** **Socket**.|
-|`Data Type`|**Drop-down**|The `Data Type` of the `Index` element you wish to return.|
+### Miscellaneous
 
-# Inputs
+#### Inputs/Outputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Array`|**Array**|The desired element/s will be returned from this **Array**.|
-|`Index`|*Defined in the* `Data Type` ***Attribute***|The `Index` of the element you wish to return.|
+The number of **Input** and **Output** **Element**s you wish to add to the **Attribute** section. Each **Element** represents an _index_ element you wish to return.
 
-# Outputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Index` | _Defined in the_ `Data Type` _**Attribute**_ | The `Index` of the element you wish to return if no value is provided to the `Index` **Input** **Socket**. |
+| `Data Type` | **Drop-down** | The `Data Type` of the `Index` element you wish to return. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Array`|**Array**|The **Array** provided to the **Input** **Socket**.|
-|`Value`|*Defined in the* `Data Type` ***Attribute***.|The **Output** value accessed from the **Array**.|
+## Inputs
 
-# Eg Usage
-![The Get Array Element Node.](../../.gitbook/assets/toolbox/array/get-array-element-usage.PNG)
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Array` | **Array** | The desired element/s will be returned from this **Array**. |
+| `Index` | _Defined in the_ `Data Type` _**Attribute**_ | The `Index` of the element you wish to return. |
 
-# See Also
-- [**Array Value**](array-value.md)
+## Outputs
+
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Array` | **Array** | The **Array** provided to the **Input** **Socket**. |
+| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The **Output** value accessed from the **Array**. |
+
+## Eg Usage
+
+![The Get Array Element Node.](../../.gitbook/assets/get-array-element-usage.PNG)
+
+## See Also
+
+* [**Array Value**](array-value.md)
+

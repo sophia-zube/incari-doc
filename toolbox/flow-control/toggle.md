@@ -1,28 +1,31 @@
-# Overview
+# Toggle
+
+## Overview
 
 ![](../../.gitbook/assets/node-toggle.png)
 
-Holds a **Boolean** *state*, which alternates between *true* and *false* every time the input **Pulse** is triggered. This can be thought of as being like a light switch, which alternates a light bulb's state between being *on* and *off*. 
+Holds a **Boolean** _state_, which alternates between _true_ and _false_ every time the input **Pulse** is triggered. This can be thought of as being like a light switch, which alternates a light bulb's state between being _on_ and _off_.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Value`|**Bool**|The default value/*state* of the **Node**, before it is executed.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Value` | **Bool** | The default value/_state_ of the **Node**, before it is executed. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`is On`|**Bool**|Whether or not the value/*state* of the **Node** is currently  *true*.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `is On` | **Bool** | Whether or not the value/_state_ of the **Node** is currently  _true_. |
 
-# External Links
+## External Links
 
-- [*State*](https://www.techopedia.com/definition/696/state-computer-science) on Technopedia.
+* [_State_](https://www.techopedia.com/definition/696/state-computer-science) on Technopedia.
+

@@ -1,35 +1,40 @@
-# Overview
+# Set Text
 
-![The Set Text Node.](../../../.gitbook/assets/toolbox/incari/object/set-text.PNG)
+## Overview
+
+![The Set Text Node.](../../../.gitbook/assets/set-text.PNG)
 
 **Set Text** sets the text ofa **Text** **Object**.
 
 The **Set Text** node only works for **Text Objects**.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The **Text** **Object** whose `Text` **Attribute**'s value is to be set if one is not provided in the `Object ID` **Socket**.|
-|`Default Text`|**String**|The default value of the **Text Object**, if no value is provided.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The **Text** **Object** whose `Text` **Attribute**'s value is to be set if one is not provided in the `Object ID` **Socket**. |
+| `Default Text` | **String** | The default value of the **Text Object**, if no value is provided. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the **Text** **Object**.|
-|`Text`|**String**|The desired value of the **Text Object**'s `Text` **Attribute**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the **Text** **Object**. |
+| `Text` | **String** | The desired value of the **Text Object**'s `Text` **Attribute**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# See Also
-- [**Get Text**](get-text.md)
-- [**Text**](objects/scene-objects/sprites/text.md)
+## See Also
 
-# External Links
-- [*Strings*](https://en.wikipedia.org/wiki/String_(computer_science))
+* [**Get Text**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/object/get-text.md)
+* [**Text**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/object/objects/scene-objects/sprites/text.md)
+
+## External Links
+
+* \[_Strings_\]\([https://en.wikipedia.org/wiki/String\_\(computer\_science](https://en.wikipedia.org/wiki/String_%28computer_science)\)\)
+

@@ -1,32 +1,34 @@
-# Overview
+# Sequential
+
+## Overview
 
 ![](../../.gitbook/assets/node-sequential.png)
 
-The **Sequential Node** generates a user-defined number of **Output Pulses**, and executes their **Logic** sequentially (one after the other), with the top-most **Pulses** being executed first. The one caveat to this is, that if any **Nodes** that *pause*, or *delay* the flow of **Logic** are used, they will only affect that particular **Branch**, not the other **Output Pulses** (See **Execution Order** below).
+The **Sequential Node** generates a user-defined number of **Output Pulses**, and executes their **Logic** sequentially \(one after the other\), with the top-most **Pulses** being executed first. The one caveat to this is, that if any **Nodes** that _pause_, or _delay_ the flow of **Logic** are used, they will only affect that particular **Branch**, not the other **Output Pulses** \(See **Execution Order** below\).
 
 They are used primarily as a means of grouping and organizing blocks of logic with a similar or combined purpose into a more visually readable way.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Pulse Count`|**Int**|The number of **Output Pulses** that will be executed in the sequence.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Pulse Count` | **Int** | The number of **Output Pulses** that will be executed in the sequence. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|`Pulse [n]`|**Pulse**|A **Pulse** which is executed sequentially from top-to-bottom. The total number of **Pulses** is defined in the `Pulse Count` **Attribute**.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| `Pulse [n]` | **Pulse** | A **Pulse** which is executed sequentially from top-to-bottom. The total number of **Pulses** is defined in the `Pulse Count` **Attribute**. |
 
-# Execution Order
+## Execution Order
 
-## Example 1
+### Example 1
 
 ![](../../.gitbook/assets/sequential-execution-order-normal.png)
 
@@ -38,7 +40,7 @@ Two   [0 seconds]
 Three [0 seconds]
 ```
 
-## Example 2
+### Example 2
 
 ![](../../.gitbook/assets/sequential-execution-order-timeout-01.png)
 
@@ -50,14 +52,15 @@ Two   [0 seconds]
 Three [0 seconds]
 ```
 
-## Example 3
+### Example 3
 
 ![](../../.gitbook/assets/sequential-execution-order-timeout-02.png)
 
-This becomes much clearer, when we insert a **Start Timeout Node** *before* the **Console Node** is executed. Now we see that "Two" and "Three" are shown immediately, whereas "One" is output to the console after the given time has elapsed.
+This becomes much clearer, when we insert a **Start Timeout Node** _before_ the **Console Node** is executed. Now we see that "Two" and "Three" are shown immediately, whereas "One" is output to the console after the given time has elapsed.
 
 ```text
 Two   [0 seconds]
 Three [0 seconds]
 One   [1 second]
 ```
+

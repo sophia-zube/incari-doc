@@ -36,8 +36,9 @@ Alignment works like any other word processor. You can align your text to be lef
 
 ![](../../../.gitbook/assets/alignment.png)
 
-### Transform 
-The `Transform` attribute can *capitalize*, set to a *lower* or *upper* case, text appearing in the **Text Object**.
+### Transform
+
+The `Transform` attribute can _capitalize_, set to a _lower_ or _upper_ case, text appearing in the **Text Object**.
 
 ### Font Size
 
@@ -45,23 +46,25 @@ The `Transform` attribute can *capitalize*, set to a *lower* or *upper* case, te
 
 ![](../../../.gitbook/assets/font-size.png)
 
-### Letter spacing (px)
+### Letter spacing \(px\)
+
 The approximate amount of spacing in pixels between each letter of the text.
 
 ### Font Color / Background Color
 
-**Colors** can be set in various ways in Incari and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attributes.md).
+**Colors** can be set in various ways in Incari and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/scene-objects/attributes/attribute-types/color-attributes.md).
 
-### Style File (CSS)
+### Style File \(CSS\)
 
-![](../../../.gitbook/assets/objects/scene-objects/sprites/text/CSSstyle.PNG)
+![](../../../.gitbook/assets/CSSstyle.PNG)
 
-The `Style File` **Attribute** is used to apply *CSS text styling* to a **Text Object**. The **Attribute** accepts a *CSS text style* assert that can be created in the **Asset Manager** and edited in the **Code Editor**.
+The `Style File` **Attribute** is used to apply _CSS text styling_ to a **Text Object**. The **Attribute** accepts a _CSS text style_ assert that can be created in the **Asset Manager** and edited in the **Code Editor**.
 
-To assign a *CSS text style* **Asset** to the **Attribute**, drag and drop it onto the **Asset** slot of the **Attribute**.
+To assign a _CSS text style_ **Asset** to the **Attribute**, drag and drop it onto the **Asset** slot of the **Attribute**.
 
-### Size (unit)
-*Size* of the displayed text.
+### Size \(unit\)
+
+_Size_ of the displayed text.
 
 ## Sprite
 
@@ -74,10 +77,12 @@ Additionally, **Text** also shares **Common Attributes** of the **Sprite** categ
 ## Advanced
 
 ### Link resolution to size
-The value of the `Resolution` **Attribute** would be updated to be equal to that of the `size` **Attribute** if the *toggle* is activated.
 
-### Resolution (px)
-The *resolution* of the displayed text.
+The value of the `Resolution` **Attribute** would be updated to be equal to that of the `size` **Attribute** if the _toggle_ is activated.
+
+### Resolution \(px\)
+
+The _resolution_ of the displayed text.
 
 ## Additional Information
 
@@ -86,3 +91,4 @@ The *resolution* of the displayed text.
 Although you may already be familiar with the `Size` and `Resolution` **Attributes** of the **Camera Object**, things work slightly differently with **Text** and **Web Sprite Objects**.
 
 With **Camera**, `Resolution` relates to the resolution of a _physical_ piece of hardware ,i.e., a display. With **Text** and **Web Sprite**, however, both `Size` and `Resolution` relate to something which exists in _virtual_ 3D space. So although, like **Camera**, the `Size` **Attribute** defines the **Object**'s size in 3D space, the `Resolution` **Attribute** defines the resolution of the content that will be stretched to fit that space.
+

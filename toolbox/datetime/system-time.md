@@ -1,4 +1,6 @@
-# Overview
+# System Time
+
+## Overview
 
 ![The System Time Node.](../../.gitbook/assets/node-system-time.png)
 
@@ -6,30 +8,30 @@
 
 When `Smooth float value` is enabled, the output values won't be rounded down, so if the current time is 1:45, the `Hour` output will be ~1.75.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Mode`|**Drop-down**|Determines whether the `Hour` value will be returned in 12-hour or 24-hour format.|
-|`Smooth float value`|**Bool**|Determines whether the output values will be rounded down (**Int**) or not (**Float**).|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Mode` | **Drop-down** | Determines whether the `Hour` value will be returned in 12-hour or 24-hour format. |
+| `Smooth float value` | **Bool** | Determines whether the output values will be rounded down \(**Int**\) or not \(**Float**\). |
 
+## Inputs
 
-# Inputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
+## Outputs
 
-# Outputs
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Hour` | **Int** or **Float** \(_Determined by the_ `Mode` _**Attribute**_\). | The hour according to the system's current time. |
+| `Minute` | **Int** or **Float** \(_Determined by the_ `Mode` _**Attribute**_\). | The minute according to the system's current time. |
+| `Second` | **Int** or **Float** \(_Determined by the_ `Mode` _**Attribute**_\). | The second according to the system's current time. |
+| `Millisecond` | **Int** or **Float** \(_Determined by the_ `Mode` _**Attribute**_\). | The millisecond according to the system's current time. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Hour`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The hour according to the system's current time.|
-|`Minute`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The minute according to the system's current time.|
-|`Second`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The second according to the system's current time.|
-|`Millisecond`|**Int** or **Float** (*Determined by the* `Mode` ***Attribute***).|The millisecond according to the system's current time.|
+## See Also
 
-# See Also
+* [**DateTime**](./)
 
-- [**DateTime**](README.md)

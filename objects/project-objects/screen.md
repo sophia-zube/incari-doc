@@ -30,7 +30,7 @@ The `Color` **Attribute** defines the background colour of the **Simulation** an
 
 **Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how 2D and 3D **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider 3D geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
 
-In terms of options, `Mode` changes the way the effect is calculated, with `fast` being more performant  than `accurate`, which may give better results at the expense of some calculation speed.
+In terms of options, `Mode` changes the way the effect is calculated, with `fast` being more performant than `accurate`, which may give better results at the expense of some calculation speed.
 
 `Enabled` enables/disables the effect entirely. Turning the effect off is of course the most performant option, and should be considered if it isn't necessary or you are having performance issues. Another point worth noting is that **FXAA** doesn't consider movement at all, and may produce undesirable results in cases where you have fast moving objects.
 

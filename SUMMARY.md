@@ -3,10 +3,12 @@
 * [Incari Studio Documentation](README.md)
 
 ## Getting Started
-* [Requirements](./getting-started/requirements.md)
+
+* [Requirements](getting-started/requirements.md)
 * [Installation](getting-started/installation.md)
 
 ## Interface
+
 * [Logic Editor](interface/logic-editor.md)
 * [Project Outliner](interface/project-outliner.md)
 * [Global Preferences](interface/global-preferences.md)
@@ -14,22 +16,22 @@
 * [Material Editor](interface/material-editor.md)
 
 ## Objects
+
 * [Project Objects](objects/project-objects/README.md)
   * [Scene](objects/project-objects/scene.md)
   * [Screen](objects/project-objects/screen.md)
 * [Scene Objects](objects/scene-objects/README.md)
   * [Camera](objects/scene-objects/camera.md)
   * [Group](objects/scene-objects/group.md)
-  * [Lights](objects/scene-objects/lights/README.md)
+  * [Lights](objects/scene-objects/lights.md)
   * [List](objects/scene-objects/list.md)
   * [Mesh](objects/scene-objects/mesh.md)
   * [Sprites](objects/scene-objects/sprites/README.md)
     * [Sprite](objects/scene-objects/sprites/sprite.md)
     * [Text](objects/scene-objects/sprites/text.md)
 
-## Tutorials
-
 ## Toolbox
+
 * [Array](toolbox/array/README.md)
   * [Array Value](toolbox/array/array-value.md)
   * [Clear Array](toolbox/array/clear-array.md)
@@ -41,7 +43,7 @@
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
-  * [Now (UTC)](toolbox/datetime/now-utc.md)
+  * [Now \(UTC\)](toolbox/datetime/now-utc.md)
   * [System Time](toolbox/datetime/system-time.md)
   * [Timezone Value](toolbox/datetime/timezone-value.md)
 * [Events](toolbox/events/README.md)
@@ -75,19 +77,19 @@
   * [Range Mapper](toolbox/math/range-mapper.md)
   * [Root](toolbox/math/root.md)
   * [Subtract](toolbox/math/subtract.md)
-* [Incari](<!--- TODO -->)
-  * [List](<!--- TODO -->)
+* [Incari](toolbox/incari/README.md)
+  * [List](toolbox/incari/list/README.md)
     * [Generate List](toolbox/incari/list/generate-list.md)
     * [Next List Entry](toolbox/incari/list/next-list-entry.md)
     * [Previous List Entry](toolbox/incari/list/previous-list-entry.md)
     * [Select List Entry](toolbox/incari/list/select-list-entry.md)
     * [Set Active](toolbox/incari/list/set-active.md)
     * [Set Current Index](toolbox/incari/list/set-current-index.md)
-  * [Object](<!-- TODO -->)
+  * [Object](toolbox/incari/object/README.md)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
-    * [Get Scale](toolbox/incari/object/get-scale.md) 
-    * [Set Scale](toolbox/incari/object/set-scale.md)  
+    * [Get Scale](toolbox/incari/object/get-scale.md)
+    * [Set Scale](toolbox/incari/object/set-scale.md)
     * [Get Rotation](toolbox/incari/object/get-rotation.md)
     * [Set Rotation](toolbox/incari/object/set-rotation.md)
     * [Get Position](toolbox/incari/object/get-position.md)
@@ -99,5 +101,6 @@
     * [Get Material](toolbox/incari/object/get-material.md)
     * [Set Material](toolbox/incari/object/set-material.md)
     * [Set Text](toolbox/incari/object/set-text.md)
-* [Utilities](<!-- TODO -->)
+* [Utilities](toolbox/utilities/README.md)
   * [Group](toolbox/utilities/group.md)
+

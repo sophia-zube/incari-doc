@@ -1,30 +1,33 @@
-# Overview
+# Maximum
+
+## Overview
 
 ![](../../.gitbook/assets/node-maximum.png)
 
-**Maximum** compares a set of numerical inputs and returns the upper bound (maximum value) in the set.
+**Maximum** compares a set of numerical inputs and returns the upper bound \(maximum value\) in the set.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Data Type`|**Drop-down**|The data type of all `Input` and `Output` **Sockets**.|
-|`Inputs`|*Defined in the `Data Type` **Attribute***.|The amount of `Input` **Sockets** and their default values if they have no data connected to them.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Data Type` | **Drop-down** | The data type of all `Input` and `Output` **Sockets**. |
+| `Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values if they have no data connected to them. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input [n]`|*Defined in the `Data Type` **Attribute**.*|The set of values to get the upper bound from.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Input [n]` | _Defined in the `Data Type` **Attribute**._ | The set of values to get the upper bound from. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Maximum`|*Defined in the `Data Type` **Attribute**.*|The maximum value in the set of inputs.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Maximum` | _Defined in the `Data Type` **Attribute**._ | The maximum value in the set of inputs. |
 
-# External Links
+## External Links
 
-- [*Upper and lower bounds*](https://en.wikipedia.org/wiki/Upper_and_lower_bounds) on Wikipedia.
+* [_Upper and lower bounds_](https://en.wikipedia.org/wiki/Upper_and_lower_bounds) on Wikipedia.
+

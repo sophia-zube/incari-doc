@@ -1,8 +1,8 @@
-# List 
+# List
 
-## Overview 
+## Overview
 
-**List Object** models data as single-level list items in a **Scene**. It utilizes a *model/view* architecture whereby data added to an Incari **Model File** is presented as a **List** in the **Scene**. 
+**List Object** models data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an Incari **Model File** is presented as a **List** in the **Scene**.
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
@@ -40,7 +40,7 @@ To read more about basic HTML, take a look at [_HTML basics_](https://developer.
 
 A **Model File** is where you define all the data for your list. Physically, a book has many different properties. It has weight, size, number of pages etc., but when thinking in terms of a **Model**, we are thinking of what properties we need to represent in our data. Going back to the audio-book example above, if we want to display two properties; the author and title of each audio-book, we create **Fields** for `title` and `author`.
 
-![](../../.gitbook/assets/objects/scene-objects/list/audiobook-model.PNG)
+![](../../.gitbook/assets/audiobook-model.PNG)
 
 **Fields** define a single aspect of each **Record** in a table and are displayed in columns. By double-clicking on the **Field**'s _header / label_ we can define the name that will be used as a placeholder in the **List Entry File**.
 
@@ -67,7 +67,6 @@ Here are the pre-defined classes and IDs, to be used for styling **Lists** in In
 By adding a few CSS attributes, we can easily customize the appearance of the audio-book example.
 
 {% tabs %}
-
 {% tab title="Result" %}
 ![](../../.gitbook/assets/audiobook-list.gif)
 {% endtab %}
@@ -102,28 +101,23 @@ body {
 }
 ```
 {% endtab %}
-
 {% endtabs %}
 
 ### Js File
-The `Js File` **Attribute** is a *JavaScript programming language* file that allows us to add complex features and create dynamic experiences for **List** **Objects**. 
 
-The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. 
-For more information about JavaScript. Please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List** **Objects**.
+
+The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript. Please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 In the illustration below, we replace a book in our audio-book **List** example using the `Js File` **Attribute**.
 
 {% tabs %}
-
 {% tab title="Result" %}
-
-![](../../.gitbook/assets/objects/scene-objects/list/jsExample.PNG)
-
+![](../../.gitbook/assets/jsExample.PNG)
 {% endtab %}
 
 {% tab title="JavaScript" %}
-```JS
-
+```javascript
 function replaceBook(index){
     const item = document.getElementById('list').children[index];
     const newItem = "<h2> The Gods Are Not to Blame by Ola Rotimi </h2>";
@@ -139,47 +133,57 @@ replaceBook(3);
 {% endtab %}
 {% endtabs %}
 
-In the *JavaScript* code above, the  `replaceBook` function allows us to replace any book in the audio-book **List** example by using its index. Furthermore, the color of the new audio-book entry is changed to *red*.
+In the _JavaScript_ code above, the `replaceBook` function allows us to replace any book in the audio-book **List** example by using its index. Furthermore, the color of the new audio-book entry is changed to _red_.
 
 ### Generate List
-`Generate List` button automatically creates all internal *.html*, *.css*, *.js* needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**. 
+
+`Generate List` button automatically creates all internal _.html_, _.css_, _.js_ needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
 
 Also, clicking the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
 
 ## Simulation
 
 ### Prev
+
 `Prev` highlights the previous item in the **List**.
 
 ### Next
+
 `Next` highlights the next item in the **List**.
 
 ### Select
+
 `Select` selects an item highlighted in the **List**.
 
 ## Style
+
 ### Background color
 
-The `Background color` can be set by if you manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attributes.md).
+The `Background color` can be set by if you manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/attributes/attribute-types/color-attributes.md).
 
 ## Effects
-### Tint 
 
-The `Tint` **Attribute** applies a *color overlay* to the **List Object**, thereby changing its appearance. The *color overlay* can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attributes.md).
+### Tint
+
+The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/attributes/attribute-types/color-attributes.md).
 
 ## Web Resource
 
 ### Size
+
 `Size` determines the dimensions of the rendered **List** in the **Scene**. **List** are two-dimensional, therefore, the `z` **Value** doesn't have any effect.
 
 ## Sprite
+
 **Sprite** **Attributes** are documented in [**Sprite Object**](sprites/sprite.md).
 
 ## Advanced
 
 ### Link resolution to size
-The value of the `Resolution` **Attribute** would be updated to be equal to that of the `size` **Attribute** if the *toggle* is activated.
+
+The value of the `Resolution` **Attribute** would be updated to be equal to that of the `size` **Attribute** if the _toggle_ is activated.
 
 ### Resolution
-The *resolution* of the displayed **List**. 
+
+The _resolution_ of the displayed **List**.
 

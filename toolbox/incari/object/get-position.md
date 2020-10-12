@@ -1,33 +1,38 @@
-# Overview
+# Get Position
 
-![The Get Position Node.](../../../.gitbook/assets/toolbox/incari/object/get-position.PNG)
+## Overview
 
-**Get Position** returns the *position* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
+![The Get Position Node.](../../../.gitbook/assets/get-position.PNG)
 
-# Attributes
+**Get Position** returns the _position_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The target **Object** that you wish to return the `position` of, if one is not provided in the `Object ID` **Socket**.|
+## Attributes
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The target **Object** that you wish to return the `position` of, if one is not provided in the `Object ID` **Socket**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the target **Object** whose *position* you wish to return.
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose _position_ you wish to return. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Position`| **Vector3** | A 3-dimensional vector that contains x, y, and z positions of the target **Object**.
+## Outputs
 
-# See Also
-- [**Get Rotation**](get-rotation.md)
-- [**Get Scale**](get-scale.md)
-- [**Set Position**](set-position.md)
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Position` | **Vector3** | A 3-dimensional vector that contains x, y, and z positions of the target **Object**. |
 
-# External Links
-- [*Positioning*](https://en.wikipedia.org/wiki/Position_(geometry)) in geometry.
+## See Also
+
+* [**Get Rotation**](get-rotation.md)
+* [**Get Scale**](get-scale.md)
+* [**Set Position**](set-position.md)
+
+## External Links
+
+* \[_Positioning_\]\([https://en.wikipedia.org/wiki/Position\_\(geometry](https://en.wikipedia.org/wiki/Position_%28geometry)\)\) in geometry.
+

@@ -1,4 +1,4 @@
-# Minimum Requirements
+# Requirements
 
 | Category | Requirement |
 | :--- | :--- |

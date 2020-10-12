@@ -1,44 +1,36 @@
-# Overview
+# Negate
+
+## Overview
 
 ![The Negate Node.](../../../.gitbook/assets/node-negate.png)
 
-**Negate** is a *logical operator* **Node** which takes a single **Boolean** expression to yield a **Boolean** value, which is the opposite of its input. This is used to mean *NOT* and is the equivalent of the `!` operator in computer programming.
+**Negate** is a _logical operator_ **Node** which takes a single **Boolean** expression to yield a **Boolean** value, which is the opposite of its input. This is used to mean _NOT_ and is the equivalent of the `!` operator in computer programming.
 
 | Input | Output |
 | :--- | :--- |
 | True | False |
 | False | True |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**Bool**|The **Boolean** value to be negated.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Input` | **Bool** | The **Boolean** value to be negated. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|**Bool**|*true* if `Input` is *false* or *false* if `Input` is *true*.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Output` | **Bool** | _true_ if `Input` is _false_ or _false_ if `Input` is _true_. |
 
-# See Also
-- [**Boolean**](README.md)
-- [**Flow Control**](../../flow-control/README.md)
+## See Also
 
-# External Links
-- [*Logical operation*](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
+* [**Boolean**](./)
+* [**Flow Control**](../../flow-control/)
 
+## External Links
 
-<!-- 
-# Negate
+* [_Logical operation_](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
 
-![The Negate node.](../../../.gitbook/assets/nodenegate.png)
-
-The **Negate** node takes a single **Boolean** value as an input and returns its inverse. If the input is _true_, it returns _false_ and vice versa.
-
-| Input | Output |
-| :--- | :--- |
-| True | False |
-| False | True | -->

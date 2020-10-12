@@ -1,33 +1,39 @@
-# Overview
+# Select List Entry
 
-![The Select List Entry Node.](../../../.gitbook/assets/toolbox/incari/list/select-list-entry.PNG)
+## Overview
+
+![The Select List Entry Node.](../../../.gitbook/assets/select-list-entry.PNG)
 
 **Select List Entry** selects an entry item in the **List** **Object**.
 
-# Attributes
-## Object
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The target **List** **Object** you want to select an entry of, if one is not provided in the `Object ID` **Socket**.|
+### Object
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The target **List** **Object** you want to select an entry of, if one is not provided in the `Object ID` **Socket**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The **List** **Object** you want to select an entry of.|
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The **List** **Object** you want to select an entry of. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+## Outputs
 
-# Usage Example
-![The Select List Entry Usage.](../../../.gitbook/assets/toolbox/incari/list/select-list-entry.gif)
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# See Also
-- [**List**](objects/scene-objects/list.md)
-- [**Generate List**](generate-list.md)
-- [**Next List Entry**](next-list-entry.md)
+## Usage Example
+
+![The Select List Entry Usage.](../../../.gitbook/assets/select-list-entry.gif)
+
+## See Also
+
+* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/objects/scene-objects/list.md)
+* [**Generate List**](generate-list.md)
+* [**Next List Entry**](next-list-entry.md)
+

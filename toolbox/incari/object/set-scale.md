@@ -1,32 +1,37 @@
-# Overview
+# Set Scale
 
-![The Set Scale Node.](../../../.gitbook/assets/toolbox/incari/object/set-scale.PNG)
+## Overview
+
+![The Set Scale Node.](../../../.gitbook/assets/set-scale.PNG)
 
 **Set Scale** sets the value of a given **Object**'s `Scale` **Attribute**.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The ID of the **Object** that you would like to set the `Scale` value of if one is not provided in the `Object ID` **Socket**.|
-|`Scale`|**Vector3**|The desired `Scale` value of the **Object** if one is not provided in the `Scale` **Socket**.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Scale` value of if one is not provided in the `Object ID` **Socket**. |
+| `Scale` | **Vector3** | The desired `Scale` value of the **Object** if one is not provided in the `Scale` **Socket**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the **Object** that you would like to set the `Scale` value of.|
-|`Scale`|**Vector3**|The desired `Scale` value of the **Object**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the **Object** that you would like to set the `Scale` value of. |
+| `Scale` | **Vector3** | The desired `Scale` value of the **Object**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# See Also
-- [**Get Scale**](get-scale.md)
+## See Also
 
-# External Links
-- [*Scaling*](https://en.wikipedia.org/wiki/Scaling_(geometry)) in geometry.
+* [**Get Scale**](get-scale.md)
+
+## External Links
+
+* \[_Scaling_\]\([https://en.wikipedia.org/wiki/Scaling\_\(geometry](https://en.wikipedia.org/wiki/Scaling_%28geometry)\)\) in geometry.
+

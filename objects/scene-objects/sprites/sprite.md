@@ -2,7 +2,7 @@
 
 ## Overview
 
-A **Sprite** places a graphic **Asset** onto a two-dimensional plane in the **Scene**. 
+A **Sprite** places a graphic **Asset** onto a two-dimensional plane in the **Scene**.
 
 Like any other **Scene Object**, we can manipulate the **Position**, **Rotation** and **Scale** of a **Sprite** using the **Transformation Attributes** and adjusting its **Rotation Pivot**.
 
@@ -10,24 +10,26 @@ Like any other **Scene Object**, we can manipulate the **Position**, **Rotation*
 
 ### Tint
 
-The `Tint` **Attribute** applies a *color overlay* to the **Sprite Object**, thereby changing its appearance. The *color overlay* can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attributes.md).
+The `Tint` **Attribute** applies a _color overlay_ to the **Sprite Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/scene-objects/attributes/attribute-types/color-attributes.md).
 
 ## Mask
 
 ### Use Mask
 
-**Mask**s obscure or reveal parts of a **Sprite Object** that it's applied to. If the *toggle* is activated, the **Mask** supplied to the `Object` **Attribute** would be applied to the **Sprite Object**.
+**Mask**s obscure or reveal parts of a **Sprite Object** that it's applied to. If the _toggle_ is activated, the **Mask** supplied to the `Object` **Attribute** would be applied to the **Sprite Object**.
 
 ### Object
 
-![](../../../.gitbook/assets/objects/scene-objects/sprites/sprite/mask.PNG)
+![](../../../.gitbook/assets/mask.PNG)
 
 A **Mask** can be added to a **Sprite Object** by clicking the **Assert** slot and selecting it from the drop-down **Scene Outliner**.
 
 ### Invert Mask
+
 `Invert Mask` turns a **Mask** upside down When it is activated.
 
-## Sprite 
+## Sprite
+
 ### Size
 
 `Size` determines the dimensions of a graphic. As **Sprite Objects** are two-dimensional, the `Z` **Value** doesn't have any effect.
@@ -60,7 +62,7 @@ This is done by manipulating the `Sort Index` **Sprites** with higher values bei
 
 ### Diffuse Texture
 
-![](../../../.gitbook/assets/objects/scene-objects/sprites/sprite/diffuse.PNG)
+![](../../../.gitbook/assets/diffuse.PNG)
 
 The `Diffuse Texture` **Attribute** contains a reference to a graphic **Assert** that is loaded in a **Scene** and this **Assert** can be found in the **Asset Manager**. The **Attribute** is assigned by default if you drag and drop the **Assert** into the **Scene**.
 
@@ -74,8 +76,9 @@ Opacity map **Assert** supplied to the `Opacity Map` **Attribute** are used if t
 
 ### Opacity Map
 
-![](../../../.gitbook/assets/objects/scene-objects/sprites/sprite/diffuse.PNG)
+![](../../../.gitbook/assets/diffuse%20%281%29.PNG)
 
 An Opacity map can be added to this **Attribute** by clicking the **Assert** slot and selecting it from drop-down **Assert Manager**.
 
 Also, the **Assert** can be dragged and dropped from the **Assert Manager** into the **Attribute** slot.
+

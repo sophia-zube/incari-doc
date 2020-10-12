@@ -1,27 +1,32 @@
-# Introduction
+# Boolean
 
-A **Boolean** is a *data type*, which represents one of two values: *true* or *false*.
+## Introduction
 
-Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of Incari's logic system, and computer programming in general, due to their use in **Flow Control**. More specifically, *Boolean expressions* are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being *true* or *false*.
+A **Boolean** is a _data type_, which represents one of two values: _true_ or _false_.
 
-# Boolean Value
+Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of Incari's logic system, and computer programming in general, due to their use in **Flow Control**. More specifically, _Boolean expressions_ are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being _true_ or _false_.
 
-The [**Boolean Value Node**](boolean-value.md) simply stores a **Boolean** value in its internal *state*, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
+## Boolean Value
 
-# Logical Operator Nodes 
+The [**Boolean Value Node**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/math/boolean/boolean-value.md) simply stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
 
-*Logical operator* **Nodes** combine two or more **Boolean** expressions to yield a **Boolean** value based on the inputs' logical relationship to one another. These are:
+## Logical Operator Nodes
 
-* [**AND**](and.md) - Returns *true* if all of the **Node**'s inputs are also *true*. The equivalent of the `&&` operator in computer programming.
-* [**OR**](or.md) - Returns *true* if at least one of the **Node**'s inputs are *true*. The equivalent of the `||` operator in computer programming.
+_Logical operator_ **Nodes** combine two or more **Boolean** expressions to yield a **Boolean** value based on the inputs' logical relationship to one another. These are:
 
-There is also the [**Negate Node**](negate.md), whose output is simply the **Boolean** value *opposite* to its input. This is used to mean *NOT* and is the equivalent of the `!` operator in computer programming. 
+* [**AND**](and.md) - Returns _true_ if all of the **Node**'s inputs are also _true_. The equivalent of the `&&` operator in computer programming.
+* [**OR**](or.md) - Returns _true_ if at least one of the **Node**'s inputs are _true_. The equivalent of the `||` operator in computer programming.
 
-# Contents
-- [**Boolean Value**](boolean-value.md)
-- [**AND**](and.md)
-- [**Negate**](negate.md)
-- [**OR**](or.md)
+There is also the [**Negate Node**](negate.md), whose output is simply the **Boolean** value _opposite_ to its input. This is used to mean _NOT_ and is the equivalent of the `!` operator in computer programming.
 
-# External Links
-- [*Logical operation*](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
+## Contents
+
+* [**Boolean Value**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/math/boolean/boolean-value.md)
+* [**AND**](and.md)
+* [**Negate**](negate.md)
+* [**OR**](or.md)
+
+## External Links
+
+* [_Logical operation_](https://www.computerhope.com/jargon/l/logioper.htm) on Computer Hope.
+
