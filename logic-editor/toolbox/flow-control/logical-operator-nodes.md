@@ -6,7 +6,7 @@ Logical operator nodes are used to combine Boolean expressions by checking the e
 
 ![The AND node.](../../../.gitbook/assets/nodeand.png)
 
-The **AND** node takes two **Boolean** values as input and returns a **Boolean**. It returns _true_ if both of its inputs are also _true_. If one or both of the inputs are _false_, the node returns _false_. 
+The **AND** node takes two **Boolean** values as input and returns a **Boolean**. It returns _true_ if both of its inputs are also _true_. If one or both of the inputs are _false_, the node returns _false_.
 
 | Input 1 | Input 2 | Output |
 | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ The **AND** node takes two **Boolean** values as input and returns a **Boolean**
 
 ![The OR node.](../../../.gitbook/assets/nodeor.png)
 
-The **AND** node takes two **Boolean** values as input and returns a **Boolean**. It returns _true_ if one or both of the inputs are _true_. The node only returns _false_ if both of its inputs are _false_. 
+The **AND** node takes two **Boolean** values as input and returns a **Boolean**. It returns _true_ if one or both of the inputs are _true_. The node only returns _false_ if both of its inputs are _false_.
 
 | Input 1 | Input 2 | Output |
 | :--- | :--- | :--- |
@@ -46,6 +46,4 @@ The **Negate** node takes a single **Boolean** value as an input and returns its
 | :--- | :--- |
 | True | False |
 | False | True |
-
-
 

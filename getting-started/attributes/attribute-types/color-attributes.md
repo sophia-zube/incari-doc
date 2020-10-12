@@ -8,23 +8,21 @@
 * Manually setting _hue_, _saturation brightness_ \(**HSB**\) levels.
 * Manually setting _red_, _green_, _blue_ and _alpha_ \(**RGBA**\)
 
-   levels.
+  levels.
 
 ![](../../../.gitbook/assets/colorattribute.png)
 
-### Hex Codes
+## Hex Codes
 
 Currently the hex code **Field** of the **Color Attribute** only accepts _full_ 8-digit hex codes. It does _not_ support shorthand hex codes \(e.g. \#FFF\), and does not automatically interpret 6-digit hex codes as 8-digit hex codes.
 
 Additionally, the first two digits of the code represent the _alpha_ value, not the _red_ value, therefore 6-digit hex codes must have an alpha value added to _the front_ of the code \(e.g. \#FF0000 would become \#FFFF0000\).
 
-### Hue, Saturation and Brightness
+## Hue, Saturation and Brightness
 
 **HSB** values in **INCARI** are within the range 0 - 1, which may differ from other software. Hue properties, for example, are often given in degrees \(0° - 360°\), while saturation and brightness are often represented as a percentage \(0% - 100%\). To translate values from another application to **INCARI**, you may need to convert the values first.
 
-### Red, Green, Blue and Alpha
+## Red, Green, Blue and Alpha
 
 **RGBA** are all within the range of 0 - 255. This is a fairly common convention, however there are some cases where alpha values are given as a percentage, or within the range 0 - 1. As with **HSB**, values may need to be converted beforehand.
-
-
 

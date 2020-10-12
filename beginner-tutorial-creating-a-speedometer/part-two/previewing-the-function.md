@@ -28,7 +28,7 @@ Then we need to reconnect our **Pulse** and **Data** Connections.
 
 ![](../../.gitbook/assets/conversionfunctionswap.gif)
 
-Note, that by clicking on a **Function Node**, you will be able to see its **Inputs** as **Attributes** in the **Node Attribute Editor**. This way you can assign **Input Values** without creating additional **Nodes**. You can try this out with our **Function** by setting **IsKmh** _****_to be _true_ or _false_.
+Note, that by clicking on a **Function Node**, you will be able to see its **Inputs** as **Attributes** in the **Node Attribute Editor**. This way you can assign **Input Values** without creating additional **Nodes**. You can try this out with our **Function** by setting **IsKmh** _\*\*\_to be \_true_ or _false_.
 
 {% hint style="info" %}
 * Press **Start** \(▶\) and use the **Up**/**Down Arrows** \(↑ /↓\) to adjust the **Speed** value.
@@ -36,6 +36,4 @@ Note, that by clicking on a **Function Node**, you will be able to see its **Inp
 {% endhint %}
 
 ![](../../.gitbook/assets/functionoutput.gif)
-
-
 

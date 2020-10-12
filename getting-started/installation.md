@@ -8,8 +8,8 @@ Installation and licensing:
 
 ![The Incari Studio welcome screen.](../.gitbook/assets/setup1.png)
 
-   4. After installation, start **Incari Studio** by double-clicking the shortcut icon on your desktop.  
-   5. On the first startup, there is a license dialog. Copy the license request key, send it to the vendor and apply for a valid license.
+1. After installation, start **Incari Studio** by double-clicking the shortcut icon on your desktop.  
+2. On the first startup, there is a license dialog. Copy the license request key, send it to the vendor and apply for a valid license.
 
 ![The license check dialog.](../.gitbook/assets/licenseblurred.png)
 

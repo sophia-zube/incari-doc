@@ -1,6 +1,6 @@
 # Strings and Data Types
 
-You may have noticed that **Nodes** in INCARI have different coloured **Input** and **Output Sockets**. This is because there are a few different **Data Types**, and each colour represents a different one. If you compare the colour of our **Speed Variable** with the **Input** colour of the **Console Node**, for instance, you will notice that they are different. This is because our **Variable** is an **Integer** \(whole numerical value\) and the **Console Node** takes **Strings** \(sequences of characters\) ****as **Input**.
+You may have noticed that **Nodes** in INCARI have different coloured **Input** and **Output Sockets**. This is because there are a few different **Data Types**, and each colour represents a different one. If you compare the colour of our **Speed Variable** with the **Input** colour of the **Console Node**, for instance, you will notice that they are different. This is because our **Variable** is an **Integer** \(whole numerical value\) and the **Console Node** takes **Strings** \(sequences of characters\) **\*\*as** Input\*\*.
 
 {% hint style="info" %}
 Drag and drop our **Speed Variable** onto the **Node Graph**.

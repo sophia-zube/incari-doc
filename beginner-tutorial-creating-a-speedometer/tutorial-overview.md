@@ -12,7 +12,7 @@ That being said, people with experience with programming concepts and/or the nod
 
 ## Format and Styling
 
-If you wish to follow along with the project from start to finish, you should look out for instructions on each page, which always look like the one below. 
+If you wish to follow along with the project from start to finish, you should look out for instructions on each page, which always look like the one below.
 
 {% hint style="info" %}
 * Instructions in this tutorial look like this!
@@ -26,7 +26,7 @@ Occasionally, you may also see optional suggestions and instructions, which will
 
 Because there are a lot of references to **Terminology**, **Nodes**, **Attributes** etc. those words and phrases will always be in **Bold and Uppercase**, and will often link to separate, more detailed pages in the documentation \(where available\).
 
-As well as detailed _textual_ descriptions, we wanted to provide you with a lot of _visual_  information, so that you can see all of the individual steps in action. Because of this, you will also see _a lot_ of images and animated GIFs.
+As well as detailed _textual_ descriptions, we wanted to provide you with a lot of _visual_ information, so that you can see all of the individual steps in action. Because of this, you will also see _a lot_ of images and animated GIFs.
 
 ## The Final Product
 
@@ -45,6 +45,4 @@ Finally, the only things you will need to follow along are the graphics used in 
 {% file src="../.gitbook/assets/speedometerneedle.png" caption="Needle Graphic" %}
 
 {% file src="../.gitbook/assets/speedometerface.png" caption="Face Graphic" %}
-
-
 

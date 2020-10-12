@@ -10,5 +10,3 @@ Now that the **Speed Variable** is hooked up to our **Text Object**, we are able
 
 ![](../../.gitbook/assets/previewtext.gif)
 
-
-

@@ -1,6 +1,6 @@
 # Building the Output String
 
-### Conversion
+## Conversion
 
 Now that we have logic to manage the format of our speed, we need to combine it with the value from our **Speed Variable**. Because **Speed** is an **Integer**, we first need to convert it to a **String**.
 
@@ -12,11 +12,11 @@ Now that we have logic to manage the format of our speed, we need to combine it 
 
 ![](../../.gitbook/assets/conversion.gif)
 
-### Concatenation
+## Concatenation
 
 The last step before outputting our **String** is to combine the speed _value_ and speed _unit_. The process of adding one **String** to the end of another is known as _concatenation_, and INCARI has a **Node** for this task, called **Concat Strings**.
 
-If we use the **Concat Strings Node** with our existing **Strings**, we will run into a problem. Rather than outputting "120 km/h",  for example, we will actually get "120km/h". Because **Strings** are sequences of characters and a **Space** is technically a character, we need to adjust our **String Value Nodes** to have a leading whitespace character.
+If we use the **Concat Strings Node** with our existing **Strings**, we will run into a problem. Rather than outputting "120 km/h", for example, we will actually get "120km/h". Because **Strings** are sequences of characters and a **Space** is technically a character, we need to adjust our **String Value Nodes** to have a leading whitespace character.
 
 {% hint style="info" %}
 * Change the value of top **String Node** from "km/h" to " km/h".
@@ -40,6 +40,4 @@ The final thing that we need to complete our first **Function** is make the nece
 {% endhint %}
 
 ![](../../.gitbook/assets/concatenation%20%281%29.gif)
-
-
 

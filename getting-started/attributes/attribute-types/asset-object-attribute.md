@@ -8,5 +8,3 @@ Depending on how you create your **Nodes** or **Objects**, the **Asset**/**Objec
 
 ![](../../../.gitbook/assets/assetobjectslot2.gif)
 
-
-

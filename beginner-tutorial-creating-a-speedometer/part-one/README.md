@@ -2,7 +2,7 @@
 
 In this first part, we will be learning how to get up and running with INCARI Studio, from opening the application for the first time, to creating your first **Logic Tree**.
 
-### Contents
+## Contents
 
 1. [Setting Up Our Project](https://docs.cgi-studio.com/incari-studio/~/edit/drafts/-L_HcacPJhUk-4jg6W1Y/beginner-tutorial-creating-a-speedometer/part-one/setting-up-our-project)
 2. [Importing Assets and Sort Order](https://docs.cgi-studio.com/incari-studio/~/edit/drafts/-L_HcacPJhUk-4jg6W1Y/beginner-tutorial-creating-a-speedometer/part-one/importing-assets)

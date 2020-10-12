@@ -21,9 +21,3 @@ In our case we want a **Text Object** to represent the speed of a vehicle, so le
 
 ![](../../.gitbook/assets/addingtextobject.gif)
 
-
-
-
-
-
-

@@ -46,13 +46,13 @@ A common use for **RangeMapper** is translating raw data from an input device in
 
 If you have a trackpad for user interaction. It is typical that you will get two values within a range, between 0 and 1, representing the x and y positions of the user's finger. For this to translate to screen space, the xy coordinates of the trackpad would be transformed to the x and y ranges of the screen
 
-Clamping means constraining a value to within a certain range. 
+Clamping means constraining a value to within a certain range.
 
 If the input value is greater than the maximum value of the range, the output will be equal to the maximum value of the range.
 
 Similarly, if the input value is lower than the minimum value of the range, the output will be equal to the minimum value of the range.
 
-If the input value falls within the range, the output value will  be equal to the input value.
+If the input value falls within the range, the output value will be equal to the input value.
 
 We can perform a Clamp operation in INCARI by using the RangeMapper and setting both the output and input ranges to be the same.
 

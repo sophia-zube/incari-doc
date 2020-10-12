@@ -9,5 +9,3 @@ Another way of adding **Nodes** to our **Logic Graph** is by right-clicking anyw
 
 ![](../../.gitbook/assets/createfunction.gif)
 
-## 
-

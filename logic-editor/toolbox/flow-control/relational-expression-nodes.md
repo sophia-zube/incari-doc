@@ -37,7 +37,7 @@ There are many types available, which are **Binary**, **Bool**, **Byte**, **CAN\
 
 ![The IsGreaterEqual node.](../../../.gitbook/assets/nodeisgreaterequal.png)
 
-This node tests two values of the _same_ [**type**](../../data-types/) to see if one is greater than the other __or not. There are two modes to the node:
+This node tests two values of the _same_ [**type**](../../data-types/) to see if one is greater than the other \_\_or not. There are two modes to the node:
 
 * **IsGreater** - Returns _true_ if the first input value is _greater than_ the second.
 * **IsGreaterEqual** - Returns _true_ if the first input value is _equal to_, or _greater than_ the second.
@@ -50,7 +50,7 @@ This node tests two values of the _same_ [**type**](../../data-types/) to see if
 
 ### Inputs
 
-![The type can be specified from the drop-down menu in the Node attribute editor.](../../../.gitbook/assets/isequaltypes%20%281%29.png)
+![The type can be specified from the drop-down menu in the Node attribute editor.](../../../.gitbook/assets/isequaltypes%20%281%29%20%282%29.png)
 
 The node takes two inputs of the _same_ [**type**](../../data-types/).
 
@@ -66,7 +66,7 @@ Because the node compares the value of the inputs to equate their relation to ea
 
 ![The IsLessEqual node.](../../../.gitbook/assets/nodeislessequal.png)
 
-This node tests two values of the _same_ [**type**](../../data-types/) to see if one is less than the other __or not. There are two modes to the node:
+This node tests two values of the _same_ [**type**](../../data-types/) to see if one is less than the other \_\_or not. There are two modes to the node:
 
 * **IsLess** - Returns _true_ if the first input value is _less than_ the second.
 * **IsLessEqual** - Returns _true_ if the first input value is _equal to_, or _less than_ the second.
@@ -81,7 +81,7 @@ A usage example would be to check if a tire's pressure drops below a certain amo
 
 ### Inputs
 
-![The type can be specified from the drop-down menu in the Node attribute editor.](../../../.gitbook/assets/isequaltypes%20%281%29.png)
+![The type can be specified from the drop-down menu in the Node attribute editor.](../../../.gitbook/assets/isequaltypes%20%281%29%20%281%29.png)
 
 The node takes two inputs of the _same_ [**type**](../../data-types/).
 
@@ -94,6 +94,4 @@ Because the node compares the value of the inputs to equate their relation to ea
 ## Conclusion
 
 Relational expressions alone aren't of much use, but when combined with other nodes they can form extremely complex logic and are an essential part of flow control.
-
-## 
 

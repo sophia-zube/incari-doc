@@ -14,7 +14,7 @@ Relational expression nodes compare two values and yield a [**Boolean** ](../../
 * **IsGreaterEqual**
 * **IsLessEqual**
 
-### Logical Operator Nodes 
+### Logical Operator Nodes
 
 Logical operator nodes combine [**Boolean** ](../../data-types/bool.md)expressions to yield a [**Boolean**](../../data-types/bool.md) value based on the outcome of multiple conditions and their logical relationship to one another. These are:
 
@@ -30,12 +30,4 @@ Pulse flow nodes are used to better visually organise the Node Editor graph, and
 * **Switch**
 * **Sequential**
 * **Toggle**
-
-
-
-
-
-
-
-
 

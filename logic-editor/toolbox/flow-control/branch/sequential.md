@@ -1,10 +1,10 @@
 # Sequential
 
-### Overview
+## Overview
 
 Used as a way of splitting a single logic pulse into multiple sets of instructions in a more rational and readable way. Each output pulse is executed one after the other, however, nodes that trigger things like delays, only affect a single pulse \(see **Execution Order** below\).
 
-### Usage
+## Usage
 
 For example, say that we have two variables:
 
@@ -19,7 +19,7 @@ Although it isn't much of an issue when changing two variables, it would become 
 
 ![](../../../../.gitbook/assets/sequential-example-good.png)
 
-### Execution Order
+## Execution Order
 
 Each output pulse of the node is triggered in order, however, Timeouts, Tickers and Intervals won't delay the execution of subsequent pulses, only delay the logic in that particular single pulse.
 
@@ -52,6 +52,4 @@ Two   [1 second]
 ```
 
 ![The above would output &quot;one&quot;, &quot;two&quot; immediately followed by &quot;three&quot; after the 1 second Timeout is finished.](../../../../.gitbook/assets/sequential-132.png)
-
-
 

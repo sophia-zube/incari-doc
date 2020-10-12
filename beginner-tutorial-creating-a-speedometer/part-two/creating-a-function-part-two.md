@@ -10,7 +10,7 @@ A very important part of building interactive systems is something called **Bran
 
 ![](../../.gitbook/assets/flowcontrolexample%20%281%29.jpg)
 
-In INCARI we define this kind of logic by using the [**Branch Node**](../../logic-editor/toolbox/flow-control/branch/branch.md). If you want to learn more about the concept of **Branching** and the function of the[ **Branch Node**](../../logic-editor/toolbox/flow-control/branch/branch.md), you should visit [**Branch**](../../logic-editor/toolbox/flow-control/branch/branch.md)'s dedicated page in the documentation. 
+In INCARI we define this kind of logic by using the [**Branch Node**](../../logic-editor/toolbox/flow-control/branch/branch.md). If you want to learn more about the concept of **Branching** and the function of the[ **Branch Node**](../../logic-editor/toolbox/flow-control/branch/branch.md), you should visit [**Branch**](../../logic-editor/toolbox/flow-control/branch/branch.md)'s dedicated page in the documentation.
 
 The **Branch Node** always takes a **Boolean Input**, which represents a _condition_. If the condition is _true_, the **OnTrue Output Pulse** is executed, and if the condition is _false_, **OnFalse** is executed.
 
@@ -39,8 +39,4 @@ As you may remember [from earlier](../part-one/setting-variable-values-and-secti
 {% endhint %}
 
 ![](../../.gitbook/assets/selectdata.gif)
-
-
-
-
 

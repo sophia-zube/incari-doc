@@ -8,7 +8,7 @@ This may sound confusing at first and is a slightly complex topic for a beginner
 
 Although we have done our calculation on the change in speed, we need to update our Speed variable to represent the new value. We do this by dragging the value from the result of each of our math nodes and plugging them into our Speed variable.
 
-We _could_ do this by dragging the Speed variable to the graph _twice_ and plugging the [Add and Subtract nodes](../../logic-editor/toolbox/math/basic-math-operation-nodes.md) into each of those nodes, however it is highly recommended \(and good practice\)  to use a SelectData node and just _one_ Speed variable node. That way we are _getting_ our Speed value in one place and _setting_ our speed value in one place.
+We _could_ do this by dragging the Speed variable to the graph _twice_ and plugging the [Add and Subtract nodes](../../logic-editor/toolbox/math/basic-math-operation-nodes.md) into each of those nodes, however it is highly recommended \(and good practice\) to use a SelectData node and just _one_ Speed variable node. That way we are _getting_ our Speed value in one place and _setting_ our speed value in one place.
 
 * Create a SelectData node.
 * Drag our Speed variable node to the graph.
@@ -27,6 +27,4 @@ Once you have done this, save the project. This can be done in any of three ways
 3. Press Ctrl + S.
 
 ![](../../.gitbook/assets/save.gif)
-
-
 
