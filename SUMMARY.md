@@ -91,5 +91,4 @@
 	* [Set Material](toolbox/incari/object/set-material.md) 
 	* [Set Text](toolbox/incari/object/set-text.md) 
 * [Utilities](toolbox/utilities/README.md) 
-	* [Group](toolbox/utilities/group.md) 
-* [What's New](What's New) 
+	* [Group](toolbox/utilities/group.md)
