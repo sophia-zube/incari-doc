@@ -1,4 +1,5 @@
 # [Table of contents](undefined) 
+* [What's New](getting-started/whats-new.md)
 * [Incari Studio Documentation](README.md) 
 * [Requirements](getting-started/requirements.md) 
 * [Installation](getting-started/installation.md) 
