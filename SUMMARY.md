@@ -43,9 +43,6 @@
   * [Keyboard](toolbox/events/keyboard.md)
   * [On Key Press](toolbox/events/on-key-press.md)
   * [On Key Release](toolbox/events/on-key-release.md)
-
----
-
 * [Flow Control](flow-control/README.md)
   * [Branch](flow-control/branch.md)
   * [Is Equal](flow-control/is-equal.md)
