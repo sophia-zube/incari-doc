@@ -10,9 +10,9 @@ _Triggers_ can be thought of as being like announcements. A real-world example o
 
 ## Contents
 
-* [**Keyboard**](keyboard/)
-  * [**On Key Press**](keyboard/on-key-press.md)
-  * [**On Key Release**](keyboard/on-key-release.md)
+* [**Keyboard**](keyboard.md)
+  * [**On Key Press**](on-key-press.md)
+  * [**On Key Release**](on-key-release.md)
 
 ## External Links
 
