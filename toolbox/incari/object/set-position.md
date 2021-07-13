@@ -29,9 +29,9 @@
 
 ## See Also
 
-* [**Get Rotation**](../object/get-rotation.md)
-* [**Get Scale**](../object/get-scale.md)
-* [**Get Position**](../object/get-position.md)
+* [**Get Rotation**](get-rotation.md)
+* [**Get Scale**](get-scale.md)
+* [**Get Position**](get-position.md)
 
 ## External Links
 

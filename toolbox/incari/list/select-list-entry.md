@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Select List Entry Node.](../../.gitbook/assets/select-list-entry.PNG)
+![The Select List Entry Node.](../../../.gitbook/assets/select-list-entry.PNG)
 
 **Select List Entry** selects an entry item in the **List** **Object**.
 
@@ -29,7 +29,7 @@
 
 ## Usage Example
 
-![The Select List Entry Usage.](../../.gitbook/assets/select-list-entry.gif)
+![The Select List Entry Usage.](../../../.gitbook/assets/select-list-entry.gif)
 
 ## See Also
 

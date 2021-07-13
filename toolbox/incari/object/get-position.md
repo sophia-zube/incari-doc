@@ -30,7 +30,7 @@
 
 * [**Get Rotation**](get-rotation.md)
 * [**Get Scale**](get-scale.md)
-* [**Set Position**](../set-current-index/set-position.md)
+* [**Set Position**](set-position.md)
 
 ## External Links
 
