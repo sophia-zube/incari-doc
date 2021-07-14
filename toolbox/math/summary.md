@@ -88,9 +88,9 @@
   * [Set Visibility](../incari/object/set-visibility.md) 
   * [Set Tint](../incari/object/set-tint.md) 
   * [Get Tint](../incari/object/get-tint.md) 
-  * [Get Material](../incari/get-material.md) 
-  * [Set Material](../incari/set-material.md) 
-  * [Set Text](../incari/set-text.md) 
+  * [Get Material](../incari/object/get-material.md) 
+  * [Set Material](../incari/object/set-material.md) 
+  * [Set Text](../incari/object/set-text.md) 
 * [Utilities](../utilities/) 
   * [Group](../utilities/group.md)
 

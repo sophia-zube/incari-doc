@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Material Node.](../../.gitbook/assets/set-material.PNG)
+![The Set Material Node.](../../../.gitbook/assets/set-material.PNG)
 
 **Set Material** assigns a **Material** to an **Mesh** **Object**.
 
