@@ -28,9 +28,9 @@
 
 ## See Also
 
-[**SET Tint**](set-tint.md)
+* [**Set Tint**](set-tint.md)
 
 ## External Links
 
-* [_Tints and Shades_](https://en.wikipedia.org/wiki/Tints_and_shades) on wikipedia.
+* [_Tints and Shades_](https://en.wikipedia.org/wiki/Tints_and_shades) on Wikipedia.
 
