@@ -4,7 +4,7 @@
 
 ![The Set Material Node.](../../../.gitbook/assets/set-material.PNG)
 
-**Set Material** assigns a **Material** to an **Mesh** **Object**.
+**Set Material** assigns a **Material** to a [**Mesh** **Object**](https://docs.incari.com/incari-studio/scene-objects/mesh).
 
 ## Attributes
 
@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the **Mesh Object** that you would like to assign the **Material** to. |
-| `Material` | **CustomID** | The **Material** to be applied to the **Mesh** **Object**. |
+| `Material ID` | **CustomID** | The **Material** to be applied to the **Mesh** **Object**. |
 
 ## Outputs
 
@@ -30,4 +30,5 @@
 ## See Also
 
 * [**Get Material**](get-material.md)
+* \*\*\*\*[**Mesh**](https://docs.incari.com/incari-studio/scene-objects/mesh)\*\*\*\*
 
