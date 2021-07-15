@@ -18,7 +18,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of. |
+| `Object ID` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of. |
 | `Position` | **Vector3** | The desired `Position` value of the **Object**. |
 
 ## Outputs
