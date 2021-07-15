@@ -4,7 +4,7 @@
 
 ![The Pop Array Element Node.](../../.gitbook/assets/pop-array-element.PNG)
 
-**Pop Array Element** removes element/s from an **Array** supplied to the **Node**. The element/s can be removed from either the _front_ or _back_ of the **Array**.
+**Pop Array Element** removes element/s from an **Array** supplied to the **Node** and returns the resulting **Array** and the removed element/s. The element/s can be removed from either the _front_ or _back_ of the **Array**.
 
 ## Attributes
 
@@ -12,19 +12,19 @@
 
 #### Outputs
 
-The number of **Output** **Elements** you wish to add to the **Attribute** section. The **Elements** added will be removed from the **Input** **Array**. Each **Element** has the following format:
+The number of **Output** elements you wish to add to the **Attribute** section. These elements will be removed from the **Input** **Array**. Each ****element ****has the following format:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Data Type` | **Drop-down** | The `Data Type` of the element you wish to remove from **Array**. |
+| `Data Type` | **Drop-down** | The `Data Type` of the element/s you wish to remove from **Array**. |
 
 ### Mode
 
-The `Mode` is a _toggle_ what determines if an element will be removed from the _front_ or _back_ of the **Array**.
+The `Mode` is a _toggle_ that determines if the element/s will be removed from the _front_ or _back_ of the **Array**.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Pop end` | **Bool** | If the _toggle_ is switched on, the desired element is removed from the _back_ of the **Array** otherwise it will be removed from the _front_ of the **Array**. |
+| `Pop end` | **Bool** | If the _toggle_ is switched on, the desired element/s will be removed from the _back_ of the **Array**, otherwise they will be removed from the _front_ of the **Array**. |
 
 ## Inputs
 
@@ -35,11 +35,42 @@ The `Mode` is a _toggle_ what determines if an element will be removed from the 
 
 ## Outputs
 
-| Output | Type | Description |
-| :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Array` | **Array** | The resulting **Array** after the desired element/s are removed. |
-| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The element removed from the **Array**. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Output</th>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><em>Pulse Output</em> (&#x25BA;)</td>
+      <td style="text-align:left"><b>Pulse</b>
+      </td>
+      <td style="text-align:left">A standard <b>Output Pulse</b>, to move onto the next <b>Node</b> along the <b>Logic Branch</b>,
+        once this <b>Node</b> has finished its execution.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>Array</code>
+      </td>
+      <td style="text-align:left"><b>Array</b>
+      </td>
+      <td style="text-align:left">The resulting <b>Array</b> after the desired element/s are removed.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><code>Value</code>
+        </p>
+        <p><code>[n]</code>
+        </p>
+      </td>
+      <td style="text-align:left"><em>Defined in the</em>  <code>Data Type</code>  <em><b>Attribute</b></em>.</td>
+      <td
+      style="text-align:left">The element/s removed from the <b>Array</b>.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## See Also
 
