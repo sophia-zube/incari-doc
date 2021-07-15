@@ -45,7 +45,7 @@ For more information about _formatting strings_, please see the external links a
 
 * [**DateTime**](./)
 * [**Timezone Value**](timezone-value.md)
-* [**Now \(UTC\)**]()
+* [**Now \(UTC\)**](https://docs.incari.com/incari-studio/toolbox/datetime/now-utc)
 
 ## External Links
 
