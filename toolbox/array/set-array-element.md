@@ -4,7 +4,9 @@
 
 ![The Set Array Element Node.](../../.gitbook/assets/set-array-element.PNG)
 
-**Set Array Element** updates element/s in an **Array** to new values.
+**Set Array Element** updates element/s in an **Array** to new values. For this, it receives the `Index` of the element to update and the `Value` with which it will be updated.
+
+If the `Index` is out of range for the **Array**, it will extend the **Array** up to the `Index` and fill the newly created element/s with empty element/s of the data type **Any**.
 
 ## Attributes
 
@@ -12,7 +14,7 @@
 
 #### Inputs
 
-The number of **Input Element**/s you wish to add to the **Attribute section**. The **Input Element**/s are used to update elements in the **Array** to new values. Each **Input Element** has the following format:
+The number of **Input** element/s you wish to add to the **Attribute section**. The **Input** element/s are used to update elements in the **Array** to new values. Each **Input** element has the following format:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
