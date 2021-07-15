@@ -34,5 +34,5 @@
 
 ## External Links
 
-* \[_Positioning_\]\([https://en.wikipedia.org/wiki/Position\_\(geometry](https://en.wikipedia.org/wiki/Position_%28geometry)\)\) in geometry.
+* \*\*\*\*[**Position \(geometry\)**](https://en.wikipedia.org/wiki/Position_%28geometry%29)\*\*\*\*
 
