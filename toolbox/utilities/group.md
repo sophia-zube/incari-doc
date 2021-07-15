@@ -26,7 +26,7 @@ Another advantage of the **Group Node** is that, by changing the `Name` **Attrib
 
 ## Usage
 
-![Group Node Usage](../../.gitbook/assets/group.gif)
+![Group Node Usage](../../.gitbook/assets/group%20%281%29.gif)
 
 ## See Also
 
