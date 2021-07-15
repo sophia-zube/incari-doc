@@ -4,7 +4,7 @@
 
 ![The Get Material Node.](../../../.gitbook/assets/get-material.PNG)
 
-**Get Material** returns the assigned **Material** of a **Mesh Object**.
+**Get Material** returns the assigned **Material** of a [**Mesh Object**](https://docs.incari.com/incari-studio/scene-objects/mesh).
 
 ## Attributes
 
