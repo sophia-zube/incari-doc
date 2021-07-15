@@ -33,5 +33,5 @@
 
 ## External Links
 
-* \[_Scaling_\]\([https://en.wikipedia.org/wiki/Scaling\_\(geometry](https://en.wikipedia.org/wiki/Scaling_%28geometry)\)\) in geometry.
+* \_\_[_Scaling \(geometry\)_](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
 

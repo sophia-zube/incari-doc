@@ -63,6 +63,7 @@
   * [Object](toolbox/incari/object/README.md)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
     * [Get Material](toolbox/incari/object/get-material.md)
+    * [Get Opacity](toolbox/incari/object/get-opacity.md)
     * [Get Position](toolbox/incari/object/get-position.md)
     * [Get Rotation](toolbox/incari/object/get-rotation.md)
     * [Get Scale](toolbox/incari/object/get-scale.md)
