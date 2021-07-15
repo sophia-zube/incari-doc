@@ -31,9 +31,9 @@ The **Set Alpha** **Node** only works with **Objects** that have **Attribute**'s
 
 ## See Also
 
-[**Get Alpha**](get-alpha.md)
+* [**Get Alpha**](get-alpha.md)
 
 ## External Links
 
-* [_Alpha value_](https://en.wikipedia.org/wiki/Alpha_compositing)
+* [_Alpha value_](https://en.wikipedia.org/wiki/Alpha_compositing) __on Wikipedia.
 
