@@ -12,11 +12,11 @@
 
 #### Inputs/Outputs
 
-The number of **Input** and **Output** **Element**s you wish to add to the **Attribute** section. Each **Element** represents an _index_ element you wish to return.
+The number of **Input** and **Output** elements ****you wish to add to the **Attribute** section. Each element ****represents an _index_ element you wish to return.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Default Index` | _Defined in the_ `Data Type` _**Attribute**_ | The `Index` of the element you wish to return if no value is provided to the `Index` **Input** **Socket**. |
+| `Default Index` | **Int** | The `Index` of the element you wish to return if no value is provided to the `Index` **Input** **Socket**. |
 | `Data Type` | **Drop-down** | The `Data Type` of the `Index` element you wish to return. |
 
 ## Inputs
@@ -25,7 +25,7 @@ The number of **Input** and **Output** **Element**s you wish to add to the **Att
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Array` | **Array** | The desired element/s will be returned from this **Array**. |
-| `Index` | _Defined in the_ `Data Type` _**Attribute**_ | The `Index` of the element you wish to return. |
+| `Index` | **Int** | The `Index` of the element you wish to return. |
 
 ## Outputs
 
