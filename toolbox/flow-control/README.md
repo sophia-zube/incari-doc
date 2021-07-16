@@ -27,7 +27,7 @@ Additionally, Incari has the [**Sequential Node**](sequential.md), which trigger
 
 ## See Also
 
-* [**Boolean**](../math/boolean.md)
+* [**Boolean**](../math/boolean/)
 
 ## External Links
 
