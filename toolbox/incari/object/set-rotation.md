@@ -35,5 +35,5 @@
 
 ## External Links
 
-* [_Rotation_](https://en.wikipedia.org/wiki/Euler_angles) on wikipedia.
+* [_Rotation_](https://en.wikipedia.org/wiki/Euler_angles) on Wikipedia.
 
