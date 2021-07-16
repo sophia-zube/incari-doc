@@ -40,7 +40,7 @@ The number of **Input** element/s you wish to add to the **Attribute section**. 
 
 ## Eg Usage
 
-![The Set Array Element Node Usage.](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/.gitbook/assets/toolbox/array/set-array-element-Usage.png)
+![The Set Array Element Node Usage.](../../.gitbook/assets/set-array-usage.png)
 
 ## See Also
 
