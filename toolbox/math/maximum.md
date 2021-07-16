@@ -8,6 +8,8 @@
 
 ## Attributes
 
+### Inputs
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The data type of all `Input` and `Output` **Sockets**. |
