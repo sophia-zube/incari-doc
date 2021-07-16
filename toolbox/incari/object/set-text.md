@@ -4,7 +4,7 @@
 
 ![The Set Text Node.](../../../.gitbook/assets/set-text.PNG)
 
-**Set Text** sets the text ofa **Text** **Object**.
+**Set Text** sets the text of a **Text** **Object**.
 
 The **Set Text** node only works for **Text Objects**.
 
