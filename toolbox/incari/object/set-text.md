@@ -36,5 +36,5 @@ The **Set Text** node only works for **Text Objects**.
 
 ## External Links
 
-* \[_Strings_\]\([https://en.wikipedia.org/wiki/String\_\(computer\_science](https://en.wikipedia.org/wiki/String_%28computer_science)\)\)
+* \_\_[_String \(computer science\)_](https://en.wikipedia.org/wiki/String_%28computer_science%29) on Wikipedia.
 
