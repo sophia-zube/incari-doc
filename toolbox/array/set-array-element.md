@@ -40,7 +40,7 @@ The number of **Input** element/s you wish to add to the **Attribute section**. 
 
 ## Eg Usage
 
-![The Set Array Element Node Usage.](../../.gitbook/assets/set-array-usage.png)
+![The Set Array Element Node Usage.](../../.gitbook/assets/set-array-usage%20%281%29.png)
 
 ## See Also
 
