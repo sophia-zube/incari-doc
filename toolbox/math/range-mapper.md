@@ -22,16 +22,16 @@ In the event that `Input` is outside of the reference \(input\) range, `Clamp` d
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input`, `Input From`, and `Input To` **Sockets**. |
-| `From` | _Defined in the `Data Type` **Attribute**_. | The default lower boundary of the reference range, if there is nothing attached to the `Input From` **Socket**. |
-| `To` | _Defined in the `Data Type` **Attribute**_. | The default upper boundary of the reference range, if there is nothing attached to the `Input To` **Socket**. |
+| `From` | _Defined in the `Data Type` **Attribute**_. | The default beginning of the reference range, if there is nothing attached to the `Input From` **Socket**. |
+| `To` | _Defined in the `Data Type` **Attribute**_. | The default end of the reference range, if there is nothing attached to the `Input To` **Socket**. |
 
 ### Outputs
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Output From` and `Output To` **Sockets** and will return via its `Output` **Socket**. |
-| `From` | _Defined in the `Data Type` **Attribute**_. | The default lower boundary of the target range, if there is nothing attached to the `Output From` **Socket**. |
-| `To` | _Defined in the `Data Type` **Attribute**_. | The default upper boundary of the target range, if there is nothing attached to the `Output To` **Socket**. |
+| `From` | _Defined in the `Data Type` **Attribute**_. | The default beginning of the target range, if there is nothing attached to the `Output From` **Socket**. |
+| `To` | _Defined in the `Data Type` **Attribute**_. | The default end of the target range, if there is nothing attached to the `Output To` **Socket**. |
 | `Clamp` | **Bool** | Whether or not the `Output` should be clamped within the target range, or if it should be transformed to its relative value outside of the range. |
 
 ## Inputs
@@ -40,10 +40,10 @@ In the event that `Input` is outside of the reference \(input\) range, `Clamp` d
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
 | `Input` | _Defined in the `Data Type` **Attribute**_. | The value to be transformed/mapped. |
-| `Input From` | _Defined in the `Data Type` **Attribute**_. | The lower boundary of the reference range. |
-| `Input To` | _Defined in the `Data Type` **Attribute**_. | The upper boundary of the reference range. |
-| `Output From` | _Defined in the `Data Type` **Attribute**_. | The lower boundary of the target range. |
-| `Output To` | _Defined in the `Data Type` **Attribute**_. | The upper boundary of the target range. |
+| `Input From` | _Defined in the `Data Type` **Attribute**_. | The beginning of the reference range. |
+| `Input To` | _Defined in the `Data Type` **Attribute**_. | The end of the reference range. |
+| `Output From` | _Defined in the `Data Type` **Attribute**_. | The beginning of the target range. |
+| `Output To` | _Defined in the `Data Type` **Attribute**_. | The end of the target range. |
 
 ## Outputs
 
