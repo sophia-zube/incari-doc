@@ -6,7 +6,7 @@
 
 **Set Tint** modifies the `Tint` attribute of an **Object**.
 
-The **Set Tint** node only works with objects that have **Sprite** category as an attribute such as **List**, **Image**, **Sequence**, **Web Sprite**, **Sprite** and **Text**.
+The **Set Tint** node only works with objects that have **Sprite** category as an attribute such as [**List**](https://docs.incari.com/incari-studio/scene-objects/list), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](https://docs.incari.com/incari-studio/scene-objects/sprite) and [**Text**](https://docs.incari.com/incari-studio/scene-objects/text).
 
 ## Attributes
 
