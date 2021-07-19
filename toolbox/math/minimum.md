@@ -6,6 +6,8 @@
 
 **Minimum** compares a set of numerical inputs and returns the lower bound \(minimum value\) in the set.
 
+In the case of _vectors_, it compares the values by component and returns them separately.
+
 ## Attributes
 
 | Attribute | Type | Description |
