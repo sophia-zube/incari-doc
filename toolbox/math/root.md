@@ -4,9 +4,9 @@
 
 ![](../../.gitbook/assets/node-root.png)
 
-**Root** calculates the _nth root_ of a number. This is effectively the reversal of the **Power** operation, meaning that instead of multiplying a _base_ by itself, multiple times, it calculates what the base number is, based on how many times it was multiplied by itself.
+**Root** calculates the _nth root_ of a number, where _n_ is called the _degree of the root_. This node outputs the number which, when raised to the _nth power_, yields the _base_ given as input.
 
-The most common example of **Root** operations, is finding the _square_ \(degree 2\) root, or _cubic_ \(degree 3\) _root_ of a number, however this can also be used for higher numbers.
+The most common example of **Root** operations is finding the _square_ \(degree 2\) root, or _cubic_ \(degree 3\) _root_ of a number, however this can also be used for higher numbers.
 
 | `Base` | `Degree` | `Output` |
 | :--- | :--- | :--- |
