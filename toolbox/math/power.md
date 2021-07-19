@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Data Type` | **Drop-down** | The type of data that will be plugged into the `Base` and `Input` **Sockets**. |
+| `Data Type` | **Drop-down** | The type of data that will be plugged into the `Base` and `Exponent` **Sockets**. |
 | `Default Base` | _Defined in the `Data Type` **Attribute**_. | The default value of `Base`, if no value is provided in the `Base` **Socket**. |
 | `Default Exponent` | _Defined in the `Data Type` **Attribute**_. | The default value of `Exponent`, if no value is provided in the `Exponent` **Socket**. |
 
