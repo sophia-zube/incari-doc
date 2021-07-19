@@ -10,7 +10,7 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 
 | `Dividend` | `Divisor` | Quotient | `Remainder` |
 | :--- | :--- | :--- | :--- |
-| 10 | 25 | 2 | 5 |
+| 25 | 10 | 2 | 5 |
 | 5.5 | 1.5 | 3 | 1 |
 | 540 | 360 | 1 | 180 |
 | 15 | 12 | 1 | 3 |
