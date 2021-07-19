@@ -18,7 +18,7 @@
   * [Lights](../../scene-objects/lights.md) 
   * [List](../../scene-objects/list.md) 
   * [Mesh](../../scene-objects/mesh.md) 
-  * [Sprites](../../scene-objects/sprites.md) 
+  * [Sprites]() 
   * [Sprite](../../scene-objects/sprite.md) 
   * [Text](../../scene-objects/text.md) 
 * [Array](../array/) 
