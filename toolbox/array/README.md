@@ -2,4 +2,4 @@
 
 ## Introduction
 
-The **Array Nodes** are 
+The **Array Nodes** are used when  
