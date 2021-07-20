@@ -52,9 +52,9 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
       <td style="text-align:left"><b>Bool</b>
       </td>
       <td style="text-align:left">
-        <p>In <code>IsEqual</code> mode: Returns <em>true</em> if <code>A</code> is equal
-          to <code>B</code>. If not, then it returns <em>false</em>.</p>
-        <p>In <code>IsNotEqual</code> mode: Returns <em>true</em> if <code>A</code> and <code>B</code> are
+        <p>In <code>IsEqual</code>  <code>Mode</code>: Returns <em>true</em> if <code>A</code> is
+          equal to <code>B</code>. If not, then it returns <em>false</em>.</p>
+        <p>In <code>IsNotEqual</code>  <code>Mode</code>: Returns <em>true</em> if <code>A</code> and <code>B</code> are
           not equal. Otherwise, it returns <em>false</em>.</p>
       </td>
     </tr>
