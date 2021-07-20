@@ -12,9 +12,7 @@ If the `Index` is out of range for the **Array**, it will extend the **Array** u
 
 ### Inputs
 
-#### Inputs
-
-The number of **Input** element/s you wish to add to the **Attribute section**. The **Input** element/s are used to update elements in the **Array** to new values. Each **Input** element has the following format:
+`Inputs` - The number of elements you wish to set the value of. Each **Input** element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
