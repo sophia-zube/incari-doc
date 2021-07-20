@@ -6,15 +6,13 @@
 
 **Push Array Element** adds element/s to an **Array**. The **Array** is given as input to the **Node**.
 
-If no **Array** is given as input, the elements are added to an empty **Array**.
+If no **Array** is given as input, the elements are added to a new, empty **Array**.
 
 ## Attributes
 
 ### Inputs
 
-#### Inputs
-
-The number of **Input** elements you wish to add to the **Attribute** section. The elements added to the **Attribute** section will also be added to the **Input** **Array**. Each element has the following format:
+`Inputs` - The number of **Input** elements you wish to add to the **Input** **Array**. Each element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -23,7 +21,7 @@ The number of **Input** elements you wish to add to the **Attribute** section. T
 
 ### Mode
 
-The `Mode` is a _toggle_ that determines if an element will be added to the _front_ or _back_ of the **Array**.
+The `Mode` is a _toggle_ that determines whether element/s will be added to the _front_ or _back_ of the **Array**.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

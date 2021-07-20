@@ -10,9 +10,7 @@
 
 ### Miscellaneous
 
-#### Inputs/Outputs
-
-The number of **Input** and **Output** elements ****you wish to add to the **Attribute** section. Each element ****represents an _index_ element you wish to return.
+`Inputs/Outputs` - The number of elements ****you want to get from the **Array**. Each element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

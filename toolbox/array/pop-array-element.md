@@ -10,17 +10,13 @@
 
 ### Outputs
 
-#### Outputs
-
-The number of **Output** elements you wish to add to the **Attribute** section. These elements will be removed from the **Input** **Array**. Each ****element ****has the following format:
+`Outputs` - The number of elements you wish to remove from the **Input** **Array**. Each ****element ****has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Data Type` | **Drop-down** | The `Data Type` of the element/s you wish to remove from **Array**. |
+| `Data Type` | **Drop-down** | The `Data Type` of the element/s you wish to remove from the **Array**. |
 
 ### Mode
-
-The `Mode` is a _toggle_ that determines if the element/s will be removed from the _front_ or _back_ of the **Array**.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -31,7 +27,7 @@ The `Mode` is a _toggle_ that determines if the element/s will be removed from t
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Array` | **Array** | The **Array** whose element you wish to remove. |
+| `Array` | **Array** | The **Array** whose element/s you wish to remove. |
 
 ## Outputs
 
