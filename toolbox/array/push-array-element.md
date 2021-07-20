@@ -6,13 +6,15 @@
 
 **Push Array Element** adds element/s to an **Array**. The **Array** is given as input to the **Node**.
 
+If no **Array** is given as input, the elements are added to an empty **Array**.
+
 ## Attributes
 
 ### Inputs
 
 #### Inputs
 
-The number of **Input** **Elements** you wish to add to the **Attribute** section. The **Elements** added to the **Attribute** section will also be added to the **Input** **Array**. Each **Element** has the following format:
+The number of **Input** elements you wish to add to the **Attribute** section. The elements added to the **Attribute** section will also be added to the **Input** **Array**. Each element has the following format:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -32,7 +34,7 @@ The `Mode` is a _toggle_ that determines if an element will be added to the _fro
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Array (optional)` | **Array** | An **Array** whose contents you wish to add to a desired **Array**. |
+| `Array (optional)` | **Array** | An **Array** to which you wish to add element/s. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_ | The value you wish to add to a desired **Array**. |
 
 ## Outputs
