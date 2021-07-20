@@ -30,10 +30,36 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
 
 ## Outputs
 
-| Output | Type | Description |
-| :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
-| `C` | **Bool** | Returns _true_ if `A` is equal to `B`. If not, then it returns _false_. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Output</th>
+      <th style="text-align:left">Type</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><em>Pulse Output</em> (&#x25BA;)</td>
+      <td style="text-align:left"><b>Pulse</b>
+      </td>
+      <td style="text-align:left">A standard output <b>Pulse</b>, to move onto the next <b>Node</b> along the <em>logic branch</em>,
+        once this <b>Node</b> has finished its execution.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>C</code>
+      </td>
+      <td style="text-align:left"><b>Bool</b>
+      </td>
+      <td style="text-align:left">
+        <p>In <code>IsEqual</code> mode: Returns <em>true</em> if <code>A</code> is equal
+          to <code>B</code>. If not, then it returns <em>false</em>.</p>
+        <p>In <code>IsNotEqual</code> mode: Returns <em>true</em> if <code>A</code> and <code>B</code> are
+          not equal. Otherwise, it returns <em>false</em>.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## External Links
 
