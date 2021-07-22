@@ -33,10 +33,6 @@
 | `Array` | **Array** | The **Array** provided to the **Input** **Socket**. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The **Output** value accessed from the **Array**. |
 
-## Eg Usage
-
-![The Get Array Element Node.](../../.gitbook/assets/get-array-element-usage.PNG)
-
 ## See Also
 
 * [**Array Value**](array-value.md)
