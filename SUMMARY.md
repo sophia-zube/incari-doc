@@ -40,6 +40,8 @@
   * [Now \(UTC\)](toolbox/datetime/now-utc.md)
   * [System Time](toolbox/datetime/system-time.md)
   * [Timezone Value](toolbox/datetime/timezone-value.md)
+* [Dictionary](toolbox/dictionary/README.md)
+  * [Dictionary Value](toolbox/dictionary/dictionary-value.md)
 * [Events](toolbox/events/README.md)
   * [Keyboard](toolbox/events/keyboard.md)
   * [On Key Press](toolbox/events/on-key-press.md)

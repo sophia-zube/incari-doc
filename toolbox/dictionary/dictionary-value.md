@@ -2,9 +2,11 @@
 
 ![The Dictionary Value Node.](../../.gitbook/assets/dictionary-value.png)
 
-**Dictionary Value** .
+The **Dictionary Value** node  .
 
 # Attributes
+
+
 
 |Attribute|Type|Description|
 |---|---|---|
