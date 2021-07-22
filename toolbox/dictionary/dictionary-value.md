@@ -6,7 +6,9 @@ The **Dictionary Value** node  .
 
 # Attributes
 
+## Inputs
 
+### Inputs
 
 |Attribute|Type|Description|
 |---|---|---|
