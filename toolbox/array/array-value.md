@@ -12,7 +12,7 @@
 
 #### Inputs
 
-The number of **Input Element**s you wish to add to the **Attribute section**. Each **Input Element** represents a value that is added to the **Array Value** **Node**. The values in this section are used if no values are provided to the **Input** **Node**. The format of the section is as follows:
+The number of **Input** elements you wish to add to the **Attribute section**. Each **Input** element represents a value that is added to the **Array Value** **Node**. The values in this section are used if no values are provided to the **Input** **Node**. The format of the section is as follows:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
