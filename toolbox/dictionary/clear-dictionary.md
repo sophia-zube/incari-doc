@@ -2,7 +2,7 @@
 
 ![The Clear Dictionary Node.]()
 
-**Clear Dictionary** .
+**Clear Dictionary** is.
 
 # Attributes
 
