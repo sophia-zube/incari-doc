@@ -6,16 +6,10 @@
 
 The **Dictionary Value** node .
 
-<<<<<<< HEAD
-## Inputs
-
-### Inputs
-=======
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
->>>>>>> 0c0155298aee2869ed9b77d8fca8a8d355c99a02
 
 
 ## Inputs
