@@ -8,9 +8,15 @@ The **Dictionary Value** node .
 
 ## Attributes
 
+### Inputs
+
+#### Inputs
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-
+| `Key`| **String** | 
+| `Value Type` | |
+| `Value`| |
 
 ## Inputs
 
