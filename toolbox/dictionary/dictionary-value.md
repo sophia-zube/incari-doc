@@ -14,22 +14,23 @@ The **Dictionary Value** node .
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key`| **String** | 
-| `Value Type` | |
-| `Value`| |
+| `Key` | **String** |  |
+| `Value Type` |  |  |
+| `Value` |  |  |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Dictionary** | |
+| `Input` | **Dictionary** |  |
+
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | **Dictionary** | |
+| `Output` | **Dictionary** |  |
 
 ## See Also
 
