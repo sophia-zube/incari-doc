@@ -41,6 +41,7 @@
   * [System Time](toolbox/datetime/system-time.md)
   * [Timezone Value](toolbox/datetime/timezone-value.md)
 * [Dictionary](toolbox/dictionary/README.md)
+  * [Clear Dictionary](toolbox/dictionary/clear-dictionary.md)
   * [Dictionary Value](toolbox/dictionary/dictionary-value.md)
 * [Events](toolbox/events/README.md)
   * [Keyboard](toolbox/events/keyboard.md)
