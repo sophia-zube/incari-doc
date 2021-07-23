@@ -43,6 +43,7 @@
 * [Dictionary](toolbox/dictionary/README.md)
   * [Clear Dictionary](toolbox/dictionary/clear-dictionary.md)
   * [Dictionary Value](toolbox/dictionary/dictionary-value.md)
+  * [Erase Dictionary Element](toolbox/dictionary/erase-dictionary-element.md)
 * [Events](toolbox/events/README.md)
   * [Keyboard](toolbox/events/keyboard.md)
   * [On Key Press](toolbox/events/on-key-press.md)
