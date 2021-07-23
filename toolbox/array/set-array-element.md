@@ -25,7 +25,7 @@ If the `Index` is out of range for the **Array**, it will extend the **Array** u
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Àrray` | **Array** | An **Array** whose element/s you wish to update. |
+| `Array` | **Array** | An **Array** whose element/s you wish to update. |
 | `Index` | **Int** | The `Index` of the element you wish to update. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | An **Input** value that is used to replace the element whose _index_ is specified in the `Index` **Input** **Socket**. |
 
