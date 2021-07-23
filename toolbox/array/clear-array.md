@@ -22,9 +22,9 @@
 
 ## See Also
 
-[**Array Value**](array-value.md)
+* [**Array Value**](array-value.md)
 
 ## External Links
 
-[_Arrays_](https://en.wikipedia.org/wiki/Array_data_structure#:~:text=In%20computer%20science%2C%20an%20array,one%20array%20index%20or%20key.) on Wikipedia.
+* [_Arrays_](https://en.wikipedia.org/wiki/Array_data_structure#:~:text=In%20computer%20science%2C%20an%20array,one%20array%20index%20or%20key.) on Wikipedia.
 

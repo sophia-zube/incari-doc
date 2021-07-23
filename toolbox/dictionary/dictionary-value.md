@@ -38,5 +38,10 @@ The number of **Input** elements you wish to add to the **Attribute section**. E
 
 * [**Clear Dictionary**](clear-dictionary.md)
 
+## External Links
+
+* [Fundamentals of data structures: Dictionaries](https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries) on Wikibooks.
+* [Associative Array](https://en.wikipedia.org/wiki/Associative_array) on Wikipedia.
+
 
 

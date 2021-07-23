@@ -40,7 +40,11 @@ The number of **Input** elements you wish to add to the **Attribute section**. E
 
 ## See Also
 
-[**Clear Array**](clear-array.md)
+* [**Clear Array**](clear-array.md)
+
+## External Links
+
+* [_Arrays_](https://en.wikipedia.org/wiki/Array_data_structure#:~:text=In%20computer%20science%2C%20an%20array,one%20array%20index%20or%20key.) on Wikipedia.
 
 
 
