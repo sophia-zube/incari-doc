@@ -64,7 +64,7 @@ The **Toolbox** contains all of the individual tools you will need to create you
 {% tab title="Events" %}
 ![](../.gitbook/assets/leftPanelEvents.PNG)
 
-An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%281%29.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
+An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%281%29.PNG) located at the top of the panel and then the desired name for the **Event Node** inserted. You can add the **Event Node** to your logic by dragging and dropping it into your **Logic Graph**. The illustrations below describes briefly how **Events** are created in the **Logic** **Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
 
 ![](../.gitbook/assets/addEvent.gif)
 {% endtab %}
@@ -72,7 +72,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 {% tab title="Functions" %}
 ![](../.gitbook/assets/leftPanelFunctions.PNG)
 
-Custom-built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%283%29.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/functions/README.md).
+Custom-built **Node Graph**s can be packaged as a function and added to your **Scene** logic in a modular manner. To add a function to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.PNG) located at the top of the panel and type in the desired name of the function. The illustrations below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/functions/README.md).
 
 ![](../.gitbook/assets/addFunctions.gif)
 {% endtab %}
@@ -80,7 +80,7 @@ Custom-built **Node Graph**s can be packaged as a function and added to your **S
 {% tab title="Variables" %}
 ![](../.gitbook/assets/leftPanelVariables.PNG)
 
-The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/variables/README.md).
+The **Variables** tab allows us to add variables to the **Logic Editor**. To add a variable to your **Logic Graph**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired variable name. The illustrations below describes briefly how **Variables** are created in the **Logic** **Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/variables/README.md).
 
 ![](../.gitbook/assets/addVariables.gif)
 {% endtab %}
@@ -113,7 +113,7 @@ The concept of **Sockets**, makes much more sense in the context of **Connection
 
 #### **Connections**
 
-![Nodes are linked to each other via Connections.](../.gitbook/assets/connections.PNG)
+![Nodes are linked to each other via Connections.](../.gitbook/assets/connections%20%281%29.png)
 
 **Connections** are the "wires" that link our components together. This is how we pass data between nodes and how we determine the execution order of our logic. Connections come in two categories and are related to the type of **Socket** they are plugged into. The two categories are **Pulse** and **Data**.
 
