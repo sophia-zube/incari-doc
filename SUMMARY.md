@@ -83,6 +83,7 @@
     * [Set Tint](toolbox/incari/object/set-tint.md)
     * [Set Visibility](toolbox/incari/object/set-visibility.md)
 * [Math](toolbox/math/README.md)
+  * [Absolute](toolbox/math/absolute.md)
   * [Add](toolbox/math/add.md)
   * [Boolean](toolbox/math/boolean/README.md)
     * [AND](toolbox/math/boolean/and.md)
