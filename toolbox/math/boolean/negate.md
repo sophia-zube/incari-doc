@@ -4,7 +4,7 @@
 
 ![The Negate Node.](../../../.gitbook/assets/node-negate.png)
 
-**Negate** is a _logical operator_ **Node** which takes a single **Boolean** expression to yield its opposite **Boolean** value. 
+**Negate** is a _logical operator_ **Node**, which takes a single **Boolean** expression to yield its opposite **Boolean** value. 
 
 This is used to mean _NOT_ and is the equivalent of the `!` operator in computer programming.
 
