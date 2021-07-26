@@ -22,7 +22,7 @@ The **Erase Dictionary Element** removes an element or more of a **Dictionary**.
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary` | **Dictionary** | The **Dictionary** from which you wish to remove elements. |
-| `Index (*Key name*)` | **String** | The `Key name` of the element you wish to remove. |
+| `Index (*Key name*)` | **String** | The `Key` of the element you wish to remove. |
 
 ## Outputs
 
