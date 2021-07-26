@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-absolute.png)
+![The Absolute Node.](../../.gitbook/assets/node-absolute.png)
 
 **Absolute** takes a single numerical value and converts any negative value \(per component\) to its absolute/non-negative equivalent.
 

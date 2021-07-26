@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-maximum.png)
+![The Maximum Node.](../../.gitbook/assets/node-maximum.png)
 
 **Maximum** compares a set of numerical inputs and returns the upper bound \(maximum value\) in the set.
 

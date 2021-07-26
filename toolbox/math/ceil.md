@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-ceil.png)
+![The Ceil Node.](../../.gitbook/assets/node-ceil.png)
 
 **Ceil** takes a numerical value and rounds it _up_ to the nearest whole number. This will affect each _component_ separately with _data types_ that are comprised of multiple components \(_vectors_ and _matrices_\).
 

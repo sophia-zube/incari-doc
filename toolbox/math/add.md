@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-add.png)
+![The Add Node.](../../.gitbook/assets/node-add.png)
 
 **Add** is a _basic arithmetic operation_ **Node**, that returns the sum of all of the values provided in the `Input` **Sockets**.
 
