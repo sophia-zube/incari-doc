@@ -15,7 +15,7 @@ In the case of _vectors_, it compares the values by component and returns them s
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The data type of all `Input` and `Output` **Sockets**. |
-| `Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values if they have no data connected to them. |
+| `Inputs` | _Defined in the `Data Type` **Attribute**_. | The number of `Input` **Sockets** and their default values if they have no data connected to them. |
 
 ## Inputs
 

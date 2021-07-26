@@ -20,7 +20,7 @@
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Dictionary`| **Dictionary** | The **Dictionary** from which the desired element/s will be retrieved.|
-|`Index (*Key name*)`| The `Key` of the element you wish to return.|
+|`Index (*Key name*)`| **String** |The `Key` of the element you wish to return.|
 
 # Outputs
 
