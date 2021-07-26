@@ -1,29 +1,32 @@
-# Overview
+# Absolute
 
-![The Absolute Node.](../../.gitbook/assets/node-absolute.png)
+## Overview
 
-**Absolute** takes a single numerical value and converts any negative value (per component) to its absolute/non-negative equivalent.
+![](../../.gitbook/assets/node-absolute.png)
 
-# Attributes
+**Absolute** takes a single numerical value and converts any negative value \(per component\) to its absolute/non-negative equivalent.
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Socket** and will return via its `Output` **Socket**.|
+## Attributes
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Socket** and will return via its `Output` **Socket**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the `Data Type` **Attribute***.|The value to be converted to its non-negative equivalent.|
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Input` | _Defined in the `Data Type` **Attribute**_. | The value to be converted to its non-negative equivalent. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|*Defined in the `Data Type` **Attribute***.|The non-negative equivalent of `Input`.|
+## Outputs
 
-# External Links
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Output` | _Defined in the `Data Type` **Attribute**_. | The non-negative equivalent of `Input`. |
 
-- [*Absolute value*](https://en.wikipedia.org/wiki/Absolute_value) on Wikipedia.
+## External Links
+
+* [_Absolute value_](https://en.wikipedia.org/wiki/Absolute_value) on Wikipedia.
+

@@ -4,8 +4,7 @@
 
 ![The Clear Dictionary Node](../../.gitbook/assets/clear-dictionary.png)
 
-**Clear Dictionary** takes as input a **Dictionary**, removes all of its _(key, value)_ pairs and outputs an empty **Dictionary**.
-
+**Clear Dictionary** takes as input a **Dictionary**, removes all of its _\(key, value\)_ pairs and outputs an empty **Dictionary**.
 
 ## Inputs
 
