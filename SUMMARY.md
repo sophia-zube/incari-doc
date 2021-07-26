@@ -46,6 +46,7 @@
   * [Erase Dictionary Element](toolbox/dictionary/erase-dictionary-element.md)
   * [Get Dictionary Element](toolbox/dictionary/get-dictionary-element.md)
   * [Get Dictionary Keys](toolbox/dictionary/get-dictionary-keys.md)
+  * [Get Dictionary Values](toolbox/dictionary/get-dictionary-values.md)
 * [Events](toolbox/events/README.md)
   * [Keyboard](toolbox/events/keyboard.md)
   * [On Key Press](toolbox/events/on-key-press.md)
