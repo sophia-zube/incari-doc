@@ -21,7 +21,7 @@ Note that the **Arrays** that are to be merged by this node are not sorted.
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Array`  _\(`Count` \*Attribute_\) | **Array** | Two or more **Input** **Arrays** you wish to merge. |
+| `Array`  _\(`Count`  **Attribute**\)_ | **Array** | Two or more **Input** **Arrays** you wish to merge. |
 
 ## Outputs
 
