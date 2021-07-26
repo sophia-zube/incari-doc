@@ -59,7 +59,7 @@ The concept of **Sockets**, makes much more sense in the context of **Connection
 
 #### **Connections**
 
-![Nodes are linked to each other via Connections.](../../../.gitbook/assets/connections.png)
+![Nodes are linked to each other via Connections.](../../../.gitbook/assets/connections%20%281%29%20%281%29.png)
 
 **Connections** are the "wires" that link our components together. This is how we pass data between nodes and how we determine the execution order of our logic. Connections come in two categories and are related to the type of **Socket** they are plugged into. The two categories are **Pulse** and **Data**.
 
