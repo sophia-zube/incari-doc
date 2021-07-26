@@ -10,7 +10,7 @@
 
 ### Miscellaneous
 
-`Inputs/Outputs` - The number of elements ****you want to get from the **Array**. Each element has the following **Attributes**:
+`Inputs/Outputs` - The number of elements you want to get from the **Array**. Each element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
