@@ -1,27 +1,27 @@
-# Overview
+# Size of Dictionary
 
-![The Size Of Dictionary Node.]()
+## Overview
 
-**Size Of Dictionary** .
+![The Size Of Dictionary Node.](../../.gitbook/assets/size-of-dictionary.png)
 
-# Attributes
+**Size Of Dictionary** returns the total number of elements in a **Dictionary**.
 
-|Attribute|Type|Description|
-|---|---|---|
+## Inputs
 
-# Inputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Dictionary` | **Dictionary** | The **Dictionary** whose length you wish to return. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+## Outputs
 
-# Outputs
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Dictionary` | **Dictionary** | The **Dictionary** supplied to the **Input** **Socket**. |
+| `Size` | **Int** | The total number of elements in the **Input** **Dictionary**. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+## See Also
 
-# See Also
-
-# External Links
+* [**Dictionary Value**](dictionary-value.md) 
 

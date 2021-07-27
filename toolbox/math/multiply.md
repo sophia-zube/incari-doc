@@ -4,7 +4,7 @@
 
 ![The Multiply Node.](../../.gitbook/assets/node-multiply.png)
 
-**Multiply** is a _basic arithmetic operation_ **Node**, that outputs the product of all of the values provided in the `Input` **Sockets**.
+**Multiply** is a _basic arithmetic operation_ **Node** that outputs the product of all of the values provided in the `Input` **Sockets**.
 
 This is the equivalent of the multiplication \(`*` or `x`\) operation in computer science and mathematics.
 
