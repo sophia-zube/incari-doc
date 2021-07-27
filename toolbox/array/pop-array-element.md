@@ -10,7 +10,7 @@
 
 ### Outputs
 
-`Outputs` - The number of elements you wish to remove from the **Input** **Array**. Each ****element ****has the following **Attributes**:
+`Outputs` - The number of elements you wish to remove from the **Input** **Array**. Each element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

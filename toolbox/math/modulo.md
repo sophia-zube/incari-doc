@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-modulo.png)
+![The Modulo Node.](../../.gitbook/assets/node-modulo.png)
 
 **Modulo** is a _modular arithmetic_ **Node**, which divides one number \(_dividend_\) by a second number \(_divisor_\) and outputs the _remainder_ of the _Euclidean division_ operation.
 
@@ -28,7 +28,7 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
-| `Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the  _Euclidean division_ operation \(the number to be divided\). |
+| `Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the _Euclidean division_ operation \(the number to be divided\). |
 | `Divisor` | _Defined in the `Data Type` **Attribute**_. | The right side of the _Euclidean division_ operation \(the number to divide by\). |
 
 ## Outputs

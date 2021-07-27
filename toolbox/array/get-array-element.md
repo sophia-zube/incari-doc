@@ -10,7 +10,7 @@
 
 ### Miscellaneous
 
-`Inputs/Outputs` - The number of elements ****you want to get from the **Array**. Each element has the following **Attributes**:
+`Inputs/Outputs` - The number of elements you want to get from the **Array**. Each element has the following **Attributes**:
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -32,10 +32,6 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Array` | **Array** | The **Array** provided to the **Input** **Socket**. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The **Output** value accessed from the **Array**. |
-
-## Eg Usage
-
-![The Get Array Element Node.](../../.gitbook/assets/get-array-element-usage.PNG)
 
 ## See Also
 

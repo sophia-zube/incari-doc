@@ -2,18 +2,18 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-minimum.png)
+![The Minimum Node.](../../.gitbook/assets/node-minimum.png)
 
 **Minimum** compares a set of numerical inputs and returns the lower bound \(minimum value\) in the set.
 
-In the case of _vectors_, it compares the values by component and returns them separately.
+In case of _vectors_, it compares the values by component and returns them separately.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The data type of all `Input` and `Output` **Sockets**. |
-| `Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values if they have no data connected to them. |
+| `Inputs` | _Defined in the `Data Type` **Attribute**_. | The number of `Input` **Sockets** and their default values if they have no data connected to them. |
 
 ## Inputs
 
@@ -27,7 +27,7 @@ In the case of _vectors_, it compares the values by component and returns them s
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
-| `Maximum` | _Defined in the `Data Type` **Attribute**._ | The minimum value in the set of inputs. |
+| `Minimum` | _Defined in the `Data Type` **Attribute**._ | The minimum value in the set of inputs. |
 
 ## External Links
 
