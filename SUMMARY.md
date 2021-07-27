@@ -48,6 +48,7 @@
   * [Get Dictionary Keys](toolbox/dictionary/get-dictionary-keys.md)
   * [Get Dictionary Values](toolbox/dictionary/get-dictionary-values.md)
   * [Merge Dictionaries](toolbox/dictionary/merge-dictionaries.md)
+  * [Set Dictionary Element](toolbox/dictionary/set-dictionary-element.md)
 * [Events](toolbox/events/README.md)
   * [Keyboard](toolbox/events/keyboard.md)
   * [On Key Press](toolbox/events/on-key-press.md)
