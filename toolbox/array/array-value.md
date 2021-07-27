@@ -22,7 +22,7 @@ The **Array Value** **Node** defines an **Array** by setting its elements.
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Array** | An **Array** you wish to add to the **Array Value** node. |
+| `Input` | **Array** | An **Array** you wish to add to the **Array Value** **Node**. |
 
 ## Outputs
 

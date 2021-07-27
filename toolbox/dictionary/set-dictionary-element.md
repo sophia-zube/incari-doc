@@ -6,7 +6,7 @@
 
 **Set Dictionary Element** updates element/s in a **Dictionary** to new values. For this, it receives the `Key` of the element to update and the `Value` with which it will be updated.
 
-If the `Key` does not exist in the **Dictionary**, it creates a new _\(key, value\)_ pair.
+If the `Key` does not exist in the **Dictionary**, it creates a new \(`Key`, `Value`\) pair.
 
 ## Attributes
 
@@ -18,7 +18,7 @@ If the `Key` does not exist in the **Dictionary**, it creates a new _\(key, valu
 | :--- | :--- | :--- |
 | `Key` | **String** | The default `Key` of the element you wish to update if no value is provided in the `Key` **Input** **Socket**. |
 | `Data Type` | **Drop-down** | The `Data Type` of the `Key` element you wish to update. |
-| `Default Value` | _Defined in the_ `Data Type` _**Attribute**_ | The element whose `Key` is specified in the `Key` **Atribute** will be updated with this value. |
+| `Default Value` | _Defined in the_ `Data Type` _**Attribute**_ | The element whose `Key` is specified in the `Key` **Attribute** will be updated with this value. |
 
 ## Inputs
 
@@ -27,7 +27,7 @@ If the `Key` does not exist in the **Dictionary**, it creates a new _\(key, valu
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary (optional)` | **Dictionary** | A **Dictionary** whose element/s you wish to update. |
 | `Key` | **String** | The `Key` of the element you wish to update. |
-| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | An **Input** value that is used to replace the element whose  _key_ is specified in the `Key` **Input** **Socket** |
+| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The `Value` that will be associated with the `Key` given in the `Key` **Input** **Socket**. |
 
 ## Outputs
 
