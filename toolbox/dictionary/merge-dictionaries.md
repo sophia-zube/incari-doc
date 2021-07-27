@@ -21,7 +21,7 @@ In the case that two or more of the **Dictionaries** to be merged have the same 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Dictionary` _\(`Count`  **Attribute**\)_ | **Dictionary** | Two or more **Input** **Dictionaries** you wish to merge. |
+| `Dictionary` _\(`Count`  **Attribute**\)_ | **Dictionary** | Two or more **Dictionaries** you wish to merge. |
 
 ## Outputs
 
