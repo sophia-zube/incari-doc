@@ -36,6 +36,11 @@ If the `Index` is out of range for the **Array**, it will extend the **Array** u
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Array` | **Array** | An **Output** **Array** whose element/s have been replaced with the desired values. |
 
+
+## Example Usage
+
+![The Set Array Element Node Usage.](../../.gitbook/assets/set-array-usage.png)
+
 ## See Also
 
 * [**Array Value**](array-value.md)
