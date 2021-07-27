@@ -6,7 +6,7 @@
 
 **Set Dictionary Element** updates element/s in a **Dictionary** to new values. For this, it receives the `Key` of the element to update and the `Value` with which it will be updated.
 
-If the `Key` does not exist in the **Dictionary**, it creates a new _(key, value)_ pair.
+If the `Key` does not exist in the **Dictionary**, it creates a new _\(key, value\)_ pair.
 
 ## Attributes
 
@@ -16,10 +16,9 @@ If the `Key` does not exist in the **Dictionary**, it creates a new _(key, value
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **String** | The default `Key` of the element you wish to update if no value is provided in the `Key` **Input** **Socket**.|
+| `Key` | **String** | The default `Key` of the element you wish to update if no value is provided in the `Key` **Input** **Socket**. |
 | `Data Type` | **Drop-down** | The `Data Type` of the `Key` element you wish to update. |
 | `Default Value` | _Defined in the_ `Data Type` _**Attribute**_ | The element whose `Key` is specified in the `Key` **Atribute** will be updated with this value. |
-
 
 ## Inputs
 
@@ -40,6 +39,4 @@ If the `Key` does not exist in the **Dictionary**, it creates a new _(key, value
 ## See Also
 
 * [**Dictionary Value**](dictionary-value.md)
-
-
 
