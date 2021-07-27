@@ -4,7 +4,7 @@
 
 ![The Set Array Element Node.](../../.gitbook/assets/set-array-element.PNG)
 
-**Set Array Element** updates element/s in an **Array** to new values. For this, it receives the `Index` of the element to update and the `Value` with which it will be updated.
+**Set Array Element** updates element/s in an **Array** to new values. For this, it receives the `Index` of the element to update and the `Value` to which it will be updated.
 
 If the `Index` is out of range for the **Array**, it will extend the **Array** up to the `Index` and fill the newly created element/s with empty element/s of the data type **Any**.
 

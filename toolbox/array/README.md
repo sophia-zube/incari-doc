@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Array Nodes** are used for creating and handling **Arrays**. An **Array** is a _data structure_ that contains a collection of elements, each singlely identified by an _index_.
+The **Array Nodes** are used for creating and handling **Arrays**. An **Array** is a _data structure_ that contains a collection of elements, each uniquely identified by an _index_.
 
 ## Contents
 
