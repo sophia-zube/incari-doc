@@ -4,7 +4,7 @@
 
 ![The Get Array Element Node.](../../.gitbook/assets/get-array-element.PNG)
 
-**Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the _index/es_ of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
+**Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the _index/indices_ of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
 
 ## Attributes
 
