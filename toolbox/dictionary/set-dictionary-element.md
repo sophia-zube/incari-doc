@@ -6,7 +6,7 @@
 
 **Set Dictionary Element** updates element/s in a **Dictionary** to new values. For this, it receives the `Key` of the element to update and the `Value` with which it will be updated.
 
-If the `Key` does not exist in the **Dictionary**, it creates a new (`Key`,`Value`) pair.
+If the `Key` does not exist in the **Dictionary**, it creates a new _(key, value)_ pair.
 
 ## Attributes
 
