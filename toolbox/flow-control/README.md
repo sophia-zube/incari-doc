@@ -2,13 +2,16 @@
 
 ## Overview
 
-**Flow Control Nodes** are used to define the order in which logic is evaluated, allows a program to consider multiple conditions, and perform different actions based on those variable conditions.
+**Flow Control Nodes** are used to define the order in which logic is evaluated, allow a program to consider multiple conditions, and perform different actions based on those variable conditions.
 
-**Nodes** in the **Flow Control** category fall into several subcategories.
+**Nodes** in the **Flow Control** category fall into two subcategories:
+
+* \_\_[_Relational Expression_ **Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#relational-expression-nodes)\*\*\*\*
+* \_\_[**Pulse Flow Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#pulse-flow-nodes)\*\*\*\*
 
 ## Relational Expression Nodes
 
-_Relational expression_ **Nodes** compare two values and yield a value based on the relationship of those inputs. These include the following:
+_Relational expression_ **Nodes** compare two values and yield a value based on the relationship between those inputs. These include the following:
 
 * [**IsEqual**](is-equal.md) - Compares whether two values are _equal_ in value, or _not equal_, depending on `Mode`. This is the equivalent of the `==` and `!=` operators in computer programming.
 * [**IsGreaterEqual**](is-greater-equal.md) - Compares whether one value is _greater_ than another, or if they are equal, depending on `Mode`. This is the equivalent of the `>` and `>=` operators in computer programming.
