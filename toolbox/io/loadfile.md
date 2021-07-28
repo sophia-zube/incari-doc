@@ -1,14 +1,14 @@
 # Overview
 
-![The Loadfile Node.](../../.gitbook/assets/Loadfile.jpg)
+![The Load File Node.](../../.gitbook/assets/Loadfile.jpg)
 
-**Load File** is an _io_, or '_input/output_',  **Node** which allows one to load a specified file, such as a previously saved variable or **Dictionary**. In the latter case, the **JSON Parse** **Node** must be used first. 
+**Load File** is an *io* **Node**, which allows one to load a specified file, such as a previously saved variable or a Dictionary. In the latter case, the **JSON Parse** **Node** must be used first. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`File`|**User Input**| The user can drag a file from their library or select a file from a file tree. The icons to the right allow for the user to confirm selection, highlight the **Asset** in the **Asset Manager**, and remove the selection.
+|`File`|**User Input**| The user can drag a file from their library or select a file from a file tree. The icons to the right allow for the user to confirm selection, highlight the **Asset** in the **Asset Manager**, and remove the selection.|
 
 # Inputs
 
