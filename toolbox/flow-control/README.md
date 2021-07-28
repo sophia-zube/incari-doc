@@ -6,8 +6,8 @@
 
 **Nodes** in the **Flow Control** category fall into two subcategories:
 
-* \_\_[_Relational Expression_ **Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#relational-expression-nodes)\*\*\*\*
-* \_\_[**Pulse Flow Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#pulse-flow-nodes)\*\*\*\*
+* [_Relational Expression_ **Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#relational-expression-nodes)
+* [**Pulse Flow Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#pulse-flow-nodes)
 
 ## Relational Expression Nodes
 
