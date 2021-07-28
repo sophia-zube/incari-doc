@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Flow Control Nodes** are used to define the order in which logic is evaluated, allow a program to consider multiple conditions, and perform different actions based on those variable conditions.
+**Flow Control Nodes** are used to define the order in which the logic is evaluated, allow a program to consider multiple conditions, and perform different actions based on those variable conditions.
 
 **Nodes** in the **Flow Control** category fall into two subcategories:
 
@@ -13,7 +13,7 @@
 
 _Relational expression_ **Nodes** compare two values and yield a value based on the relationship between those inputs. These include the following:
 
-* [**IsEqual**](is-equal.md) - Compares whether two values are _equal_ in value, or _not equal_, depending on `Mode`. This is the equivalent of the `==` and `!=` operators in computer programming.
+* [**IsEqual**](is-equal.md) - Compares whether two values are _equal_, or _not equal_, depending on `Mode`. This is the equivalent of the `==` and `!=` operators in computer programming.
 * [**IsGreaterEqual**](is-greater-equal.md) - Compares whether one value is _greater_ than another, or if they are equal, depending on `Mode`. This is the equivalent of the `>` and `>=` operators in computer programming.
 * [**IsLessEqual**](is-less-equal.md) - Compares whether one value is _less_ than another, or if they are equal, depending on `Mode`. This is the equivalent of the `<` and `<=` operators in computer programming.
 
