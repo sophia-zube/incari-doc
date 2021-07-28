@@ -19,6 +19,7 @@ The **Cosine Node** takes a single **Float** value, representing an angle, in de
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
+
 ## Inputs
 
 | Input | Type | Description |
@@ -35,7 +36,7 @@ The **Cosine Node** takes a single **Float** value, representing an angle, in de
 
 ## See Also
 
-* [**Trigonometry**](README.md)
+* [**Trigonometry**](./)
 * [**Arc Cosine**](arc-cosine.md)
 * [**Radian-Degree Converter**](radian-degree-converter.md)
 

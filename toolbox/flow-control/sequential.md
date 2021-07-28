@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-sequential.png)
+![The Sequential Node.](../../.gitbook/assets/node-sequential.png)
 
 The **Sequential Node** generates a user-defined number of **Output Pulses**, and executes their **Logic** sequentially \(one after the other\), with the top-most **Pulses** being executed first. The one caveat to this is, that if any **Nodes** that _pause_, or _delay_ the flow of **Logic** are used, they will only affect that particular **Branch**, not the other **Output Pulses** \(See **Execution Order** below\).
 
@@ -44,7 +44,7 @@ Three [0 seconds]
 
 ![](../../.gitbook/assets/sequential-execution-order-timeout-01.png)
 
-When we add a **Start Timeout Node**, which delays the execution of **Branch**, one might expect the numbers to be output in order, with a delay between "One" and "Two". This, however, is not the case, as **Timeout Nodes** only affect the **Branch** that they're on. You will instead see the following output, exactly as before:
+When we add a **Start Timeout Node**, which delays the execution of **Branch**, one might expect the numbers to be output in order, with a delay between "One" and "Two". This, however, is not the case, as **Timeout Nodes** only affect the **Branch** that they are on. You will instead see the following output, exactly as before:
 
 ```text
 One   [0 seconds]

@@ -7,18 +7,18 @@
 The **Arc Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arccosine_.
 
 ## Attributes
+
 ### Miscellanous
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Is Degree`|**Bool**|Determines whether or not the `Input` value is given in degrees (°) or radians (rad).|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Is Degree` | **Bool** | Determines whether or not the `Input` value is given in degrees \(°\) or radians \(rad\). |
 
 ### Inputs
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Default Value`|**Float**|The default value of `Input`, if no value is provided in the `Input` **Socket**.|
-
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
 
 ## Inputs
 
@@ -36,7 +36,7 @@ The **Arc Cosine Node** takes a single **Float** value, representing an angle, i
 
 ## See Also
 
-* [**Trigonometry**](README.md)
+* [**Trigonometry**](./)
 * [**Cosine**](cosine.md)
 * [**Radian-Degree Converter**](radian-degree-converter.md)
 
