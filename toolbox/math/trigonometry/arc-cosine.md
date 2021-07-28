@@ -36,7 +36,9 @@ The **Arc Cosine Node** takes a single **Float** value, representing an angle, i
 
 ## See Also
 
-* [**Trigonometry**](./)
+* [**Trigonometry**](README.md)
+* [**Cosine**](cosine.md)
+* [**Radian-Degree Converter**](radian-degree-converter.md)
 
 ## External Links
 
