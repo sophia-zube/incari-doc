@@ -36,7 +36,7 @@ The **Cosine Node** takes a single **Float** value, representing an angle, in de
 ## See Also
 
 * [**Trigonometry**](README.md)
-* [**Arc Cosine](arc-cosine.md)
+* [**Arc Cosine**](arc-cosine.md)
 
 ## External Links
 
