@@ -64,7 +64,7 @@
   * [Switch](toolbox/flow-control/switch.md)
   * [Toggle](toolbox/flow-control/toggle.md)
 * [Incari](toolbox/incari/README.md)
-  * [Animation]()
+  * [Animation](toolbox/incari/animation/README.md)
     * [Pause Animation](toolbox/incari/animation/pauseanimation.md)
     * [Play Animation](toolbox/incari/animation/playanimation.md)
     * [Stop Animation](toolbox/incari/animation/stopanimation.md)
