@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](https://github.com/cgi-studio-gmbh/incari-doc/tree/ffcc37a1e467ecdd07c364f76c215e9b20fb0e94/.gitbook/assets/node-arc-sine.png)
+![The Arc Sine Node](../../../.gitbook/assets/node-arc-sine.png)
 
 The **Arc Sine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arcsine_.
 

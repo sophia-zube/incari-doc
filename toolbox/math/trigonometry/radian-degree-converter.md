@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](https://github.com/cgi-studio-gmbh/incari-doc/tree/ffcc37a1e467ecdd07c364f76c215e9b20fb0e94/.gitbook/assets/node-radian-degree-converter.png)
+![The Radian-Degree Converter Node](../../../.gitbook/assets/node-radian-degree-converter.png)
 
 **Radian-Degree Converter** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and converts it from one unit to the other.
 
