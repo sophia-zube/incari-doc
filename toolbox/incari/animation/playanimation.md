@@ -1,6 +1,6 @@
 # Overview
 
-![The Playanimation Node.]() !!!!Need Image!!!! 
+![The Playanimation Node.](../../../.gitbook/assets/playanimation.png) 
 
 **Play Animation** is an *animation* **Node** that can be found under **Incari** in the node library and a **CustomID** type variable is required as input. It is used to play an **Animation** when the project is run and can be used in conjunction with **Pause Animation** and **Stop Animation**
 

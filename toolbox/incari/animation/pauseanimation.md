@@ -1,6 +1,6 @@
 # Overview
 
-![The Pause Animation Node.]()!!!!Need Image!!!!!
+![The Pause Animation Node.](../../../.gitbook/assets/pauseanimation.png)
 
 The **Pause Animation** is an *animation* **Node** under the *incari* branch of the **Toolbox**. It requires a **CustomID** variable type and allows the user to pause an animation within the session. 
 

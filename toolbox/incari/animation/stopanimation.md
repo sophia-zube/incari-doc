@@ -1,6 +1,6 @@
 # Overview
 
-![The Stop Animation Node.]()
+![The Stop Animation Node.](../../../.gitbook/assets/stopanimation.png)
 
 The **Stop Animation** is an *animation* **Node** under the *incari* branch of the **Toolbox**. It requires a **CustomID** variable type and allows the user to pause an animation within the session. 
 
