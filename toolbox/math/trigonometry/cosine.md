@@ -8,11 +8,17 @@ The **Cosine Node** takes a single **Float** value, representing an angle, in de
 
 ## Attributes
 
+### Miscellaneous
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Is Degree` | **Bool** | Determines whether or not the `Input` value is given in degrees \(°\) or radians \(rad\). |
-| `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
 
+### Inputs
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
 ## Inputs
 
 | Input | Type | Description |
@@ -26,6 +32,11 @@ The **Cosine Node** takes a single **Float** value, representing an angle, in de
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
 | `Output` | **Float** | The _cosine_ of `Input`. |
+
+## See Also
+
+* [**Trigonometry**](README.md)
+* [**Arc Cosine](arc-cosine.md)
 
 ## External Links
 
