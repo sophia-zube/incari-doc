@@ -27,7 +27,7 @@ Because **Input Data Sockets** in Incari can only receive a value from a single 
 | _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
 | `Output` | _Defined in the `Data Type` **Attribute**._ | The `Input` value corresponding to whichever `Pulse` triggered the execution of the **Node**. |
 
-## Usage Example
+## Example Usage
 
 The **Select Data** **Node** is useful for converging several branches of the logic. The following example shows how to use the **Select Data** **Node** to merge two branches of logic into one.
 
@@ -37,3 +37,4 @@ The image above shows two branches that have the same effect (modify a **Text** 
 
 ![](../../.gitbook/assets/select-data-usage-2.png)
 
+Here, the two branches have been merged into one, optimizing the logic workflow.
