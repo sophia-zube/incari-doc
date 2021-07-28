@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Sine Node](../../../.gitbook/assets/node-sine.png)
+![The Sine Node](https://github.com/cgi-studio-gmbh/incari-doc/tree/65634e5b4b0d3223401be6b27a11f0a6872da087/.gitbook/assets/node-sine.png)
 
 The **Sine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _sine_.
 

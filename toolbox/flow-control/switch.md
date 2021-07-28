@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Cases [n]` | _Defined in the `Data Type` **Attribute**._ | The pre-defined values which will be compared to the value of the `Input` **Socket**. |
+| `Cases [n]` | _Defined in the `Data Type` **Attribute**._ | The pre-defined values, which will be compared to the value of the `Input` **Socket**. |
 
 ## Inputs
 

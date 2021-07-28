@@ -19,6 +19,7 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
+
 ## Inputs
 
 | Input | Type | Description |
@@ -35,7 +36,7 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 
 ## See Also
 
-* [**Trigonometry**](README.md)
+* [**Trigonometry**](./)
 * [**Tangent**](tangent.md)
 * [**Radian-Degree Converter**](radian-degree-converter.md)
 
