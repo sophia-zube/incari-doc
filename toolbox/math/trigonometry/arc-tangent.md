@@ -1,34 +1,38 @@
-# Overview
+# Arc Tangent
 
-![](../../../.gitbook/assets/node-arc-tangent.png)
+## Overview
 
-The **Arc Tangent Node** takes a single **Float** value, representing an angle, in degrees (°) or radians (rad), and returns its *arctangent*.
+![](https://github.com/cgi-studio-gmbh/incari-doc/tree/ffcc37a1e467ecdd07c364f76c215e9b20fb0e94/.gitbook/assets/node-arc-tangent.png)
 
-# Attributes
+The **Arc Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arctangent_.
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Is Degree`|**Bool**|Determines whether or not the `Input` value is given in degrees (°) or radians (rad).|
-|`Default Value`|**Float**|The default value of `Input`, if no value is provided in the `Input` **Socket**.|
+## Attributes
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Is Degree` | **Bool** | Determines whether or not the `Input` value is given in degrees \(°\) or radians \(rad\). |
+| `Default Value` | **Float** | The default value of `Input`, if no value is provided in the `Input` **Socket**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**Float**|The angle to calculate the *arctangent* of.|
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Input` | **Float** | The angle to calculate the _arctangent_ of. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|**Float**|The *arctangent* of `Input`.|
+## Outputs
 
-# See Also
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| `Output` | **Float** | The _arctangent_ of `Input`. |
 
-- [**Trigonometry**](README.md)
+## See Also
 
-# External Links
-- [*Trigonometry*](https://www.khanacademy.org/math/trigonometry) on Kahn Academy.
-- [*Sine, Cosine and Tangent*](https://www.mathsisfun.com/sine-Cosine-tangent.html) on Maths is Fun.
+* [**Trigonometry**](./)
+
+## External Links
+
+* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Kahn Academy.
+* [_Sine, Cosine and Tangent_](https://www.mathsisfun.com/sine-Cosine-tangent.html) on Maths is Fun.
+
