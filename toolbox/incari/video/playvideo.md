@@ -8,7 +8,7 @@ The **Play Video** **Node** can be used to play a specified video file during th
 
 |Attribute|Type|Description|
 |---|---|---|
-|`ObjectID`| **Object** | The video file or **Scene Object** the user wishes to reference|
+|`ObjectID`| **Object** | The video file or **Scene Object** the user wishes to reference.|
 
 # Inputs
 

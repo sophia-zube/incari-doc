@@ -4,13 +4,13 @@
 
 ![The Stop Animation Node.](../../../.gitbook/assets/stopanimation.png)
 
-The **Stop Animation** is an _animation_ **Node** under the _incari_ branch of the **Toolbox**. It requires a **CustomID** variable type and allows the user to pause an animation within the session.
+The **Stop Animation** is an _animation_ **Node** that can be found under **Incari** in the node library. It requires a **CustomID** variable type and allows the user to stop an animation within the session.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Enabled` | **Bool** | A toggle switch that allows the **Node** to be turned on or off |
+| `Enabled` | **Bool** | A toggle switch that allows the **Node** to be turned on or off. |
 
 ## Inputs
 

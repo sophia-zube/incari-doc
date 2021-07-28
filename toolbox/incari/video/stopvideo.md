@@ -8,7 +8,7 @@ The **Stop Video** **Node** can be used to stop a video file that is playing dur
 
 |Attribute|Type|Description|
 |---|---|---|
-|`ObjectID`| **Object** | The video **Scene Object** the user wishes to reference|
+|`ObjectID`| **Object** | The video **Scene Object** the user wishes to reference.|
 
 # Inputs
 
