@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="Animation Editor" %}
-![](.gitbook/assets/animation-editor.PNG)
+![](../.gitbook/assets/animation-editor.PNG)
 
 ## Playback
 
@@ -14,19 +14,19 @@
 
 * `Alternate`: The animation is played forward and backward in each animation cycle.
 
-![](.gitbook/assets/interpolation-mode-alternate.gif)
+![](../.gitbook/assets/interpolation-mode-alternate.gif)
 
 * `None`: The animation is played forward once in each animation cycle.
 
-![](.gitbook/assets/interpolation-mode-once.gif)
+![](../.gitbook/assets/interpolation-mode-once.gif)
 
 * `Repeat`: The animation is played forward in repeated cycles without reversing direction.
 
-![](.gitbook/assets/interpolation-mode-repeat.gif)
+![](../.gitbook/assets/interpolation-mode-repeat.gif)
 {% endtab %}
 
 {% tab title="Global" %}
-![](.gitbook/assets/global.PNG)
+![](../.gitbook/assets/global.PNG)
 
 ## Projects
 
@@ -36,7 +36,7 @@ The default directory on a user's computer where Incari **Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
-![](.gitbook/assets/logic-editor.PNG)
+![](../.gitbook/assets/logic-editor.PNG)
 
 ## Theme
 
@@ -48,7 +48,7 @@ Also, the `Reset color` button sets the `Grid color` back to its default value.
 {% endtab %}
 
 {% tab title="User Interface" %}
-![](.gitbook/assets/user-interface.PNG)
+![](../.gitbook/assets/user-interface.PNG)
 
 ## Layout
 
@@ -58,7 +58,7 @@ The `Reset Layout` button resets all **Module**s found in Incari to their defaul
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](.gitbook/assets/viewport.PNG)
+![](../.gitbook/assets/viewport.PNG)
 
 ## Theme
 
@@ -76,5 +76,5 @@ The `Reset Layout` button resets all **Module**s found in Incari to their defaul
 
 In order to open the **Global Preference** **Module**, _right-click_ on the _menu bar_ in Incari and _click_ on **Global Preference** from the drop-down list. Please the see the illustration below:
 
-![](.gitbook/assets/open-global-preferences.PNG)
+![](../.gitbook/assets/open-global-preferences.PNG)
 

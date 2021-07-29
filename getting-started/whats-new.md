@@ -14,7 +14,7 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
   You can now use a new object Label among all others.
 
-![](.gitbook/assets/label.jpg)
+![](../.gitbook/assets/label.jpg)
 
 * **New SVG import and SVG object** Incari 2021.1 now lets you import SVG files into the Incari documents.
 * **New Video object and Video Player controls in the Logic Editor** It is possible now to use videos directly in Incari via the Video Objects. This new addition comes with a new set of Nodes and Events to link your control graphics with the Logic of your application.
@@ -22,19 +22,19 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
   This is a communication protocol, with the help of which you can communicate, for example, between two programs created in Incari.
 
-![](.gitbook/assets/mqtt.jpg)
+![](../.gitbook/assets/mqtt.jpg)
 
 * **New CustomId node**
 
   There is a new CustomId node available in Logic Editor. If the user needs to create a unique identifier to combine all his objects and scenes, he can do this in CustomID node.
 
-![](.gitbook/assets/CustomId.jpg)
+![](../.gitbook/assets/CustomId.jpg)
 
 * **New JSON Stringify node**
 
   We have added a new JSON Stringify node in Logic Editor. JSON Stringify allows you to read key value pairs.
 
-![](.gitbook/assets/JSON-Stringify.jpg)
+![](../.gitbook/assets/JSON-Stringify.jpg)
 
 * **SDK for the logic to generate the C++ code for the Logic**
 
@@ -48,19 +48,19 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
   This node allows you to load any file with commands.
 
-![](.gitbook/assets/Loadfile.jpg)
+![](../.gitbook/assets/Loadfile.jpg)
 
 * **New Save File node in Logic Editor**
 
   With this new node there is a possibility to save your files.
 
-![](.gitbook/assets/Savefile.jpg)
+![](../.gitbook/assets/Savefile.jpg)
 
 * **New Benchmark node in the Logic Editor**
 
   Benchmark node allows you to measure time between two \(or more\) nodes. Thus, it is possible to determine the nodes performance.
 
-![](.gitbook/assets/benchmark-node.jpg)
+![](../.gitbook/assets/benchmark-node.jpg)
 
 * **New Mouse Enter/Leave event nodes in the Logic Editor**
 
@@ -70,7 +70,7 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
   The usage of keys to get the corresponding values in the dictionary as a list.
 
-![](.gitbook/assets/GetDictionary-k-v.jpg)
+![](../.gitbook/assets/GetDictionary-k-v.jpg)
 
 * **New Previous/Next frame nodes for image sequences in the Logic Editor**
 
@@ -80,7 +80,7 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
   You can now call different commands in the system.
 
-![](.gitbook/assets/systemCall.jpg)
+![](../.gitbook/assets/systemCall.jpg)
 
 * **New Render to texture maps**
 * **Animate Materials in the Animation Editor** There was already a list of what could be animated. Now we have added material to it, which can be animated too.

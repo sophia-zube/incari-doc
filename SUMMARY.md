@@ -1,13 +1,16 @@
 # Table of contents
 
+* [Incari HMI Development Platform](README.md)
+
 ## Getting Started
-* [Introduction](README.md)
+
 * [Requirements](getting-started/requirements.md)
 * [Installation](getting-started/installation.md)
 * [What's New](getting-started/whats-new.md)
 * [Terminology](getting-started/terminology.md)
 
 ## Modules
+
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)
 * [Global Preferences](modules/global-preferences.md)
@@ -15,22 +18,25 @@
 * [Material Editor](modules/material-editor.md)
 
 ## Objects
-* [Project Objects](project-objects/README.md)
-  * [Scene](project-objects/scene.md)
-  * [Screen](project-objects/screen.md)
-* [Scene Objects](scene-objects/README.md)
-  * [Camera](scene-objects/camera.md)
-  * [Group](scene-objects/group.md)
-  * [Lights](scene-objects/lights.md)
-  * [List](scene-objects/list.md)
-  * [Mesh](scene-objects/mesh.md)
-  * [Sprite](scene-objects/sprite.md)
-  * [Text](scene-objects/text.md)
+
+* [Project Objects](objects/project-objects/README.md)
+  * [Scene](objects/project-objects/scene.md)
+  * [Screen](objects/project-objects/screen.md)
+* [Scene Objects](objects/scene-objects/README.md)
+  * [Camera](objects/scene-objects/camera.md)
+  * [Group](objects/scene-objects/group.md)
+  * [Lights](objects/scene-objects/lights.md)
+  * [List](objects/scene-objects/list.md)
+  * [Mesh](objects/scene-objects/mesh.md)
+  * [Sprite](objects/scene-objects/sprite.md)
+  * [Text](objects/scene-objects/text.md)
 
 ## Demo Projects
+
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
 
 ## Toolbox
+
 * [Actions](toolbox/actions/README.md)
   * [Delay Action](toolbox/actions/delay-action.md)
 * [Array](toolbox/array/README.md)
@@ -44,7 +50,7 @@
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
-  * [Now (UTC)](toolbox/datetime/now-utc.md)
+  * [Now \(UTC\)](toolbox/datetime/now-utc.md)
   * [System Time](toolbox/datetime/system-time.md)
   * [Timezone Value](toolbox/datetime/timezone-value.md)
 * [Dictionary](toolbox/dictionary/README.md)

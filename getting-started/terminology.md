@@ -2,7 +2,7 @@
 description: Terms
 ---
 
-# Terminology \*
+# Terminology
 
 * Scene
 * Screen
@@ -17,6 +17,4 @@ description: Terms
 * Output
 * Properties and Attributes
 * Euclidean division
-
-
 
