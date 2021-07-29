@@ -23,6 +23,6 @@ The **Get Dictionary Values** **Node** takes a **Dictionary** as **Input** and y
 
 ## See Also
 
-* [Dictionary Value](dictionary-value.md)
-* [Set Dictionary Element](set-dictionary-element.md)
+* [**Dictionary Values**](dictionary-value.md)
+* [**Set Dictionary Element**](set-dictionary-element.md)
 
