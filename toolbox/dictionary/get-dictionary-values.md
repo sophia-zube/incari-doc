@@ -24,5 +24,5 @@ The **Get Dictionary Values** **Node** takes a **Dictionary** as **Input** and y
 ## See Also
 
 * [Dictionary Value](dictionary-value.md)
-* [Set Dictionary Element](https://github.com/cgi-studio-gmbh/incari-doc/tree/0c262d46ee6be19347933e2d39522aff52ab8c49/toolbox/dictionary/set-dictionary-element.md)
+* [Set Dictionary Element](set-dictionary-element.md)
 
