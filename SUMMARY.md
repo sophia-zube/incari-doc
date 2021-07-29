@@ -5,26 +5,8 @@
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
-* [Installation](getting-started/installation.md)
 * [What's New](getting-started/whats-new.md)
-* [Attributes](getting-started/attributes/README.md)
-  * [Attribute Types](getting-started/attributes/attribute-types/README.md)
-    * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)
-    * [Boolean Attribute](getting-started/attributes/attribute-types/boolean-attribute.md)
-    * [Color Attribute](getting-started/attributes/attribute-types/color-attribute.md)
-    * [Numerical Attribute](getting-started/attributes/attribute-types/numerical-attribute.md)
-* [Terminology](getting-started/terminology.md)
-
-## Interface
-
-* [Logic Editor](modules/logic-editor.md)
-* [Project Outliner](modules/project-outliner.md)
-* [Global Preferences](modules/global-preferences.md)
-* [Attribute Editor](modules/attribute-editor.md)
-* [Material Editor](modules/material-editor.md)
-
-## Objects
-
+* [Installation](getting-started/installation.md)
 * [Project Objects](objects/project-objects/README.md)
   * [Scene](objects/project-objects/scene.md)
   * [Screen](objects/project-objects/screen.md)
@@ -36,6 +18,35 @@
   * [Mesh](objects/scene-objects/mesh.md)
   * [Sprite](objects/scene-objects/sprite.md)
   * [Text](objects/scene-objects/text.md)
+* [Attributes](getting-started/attributes/README.md)
+  * [Attribute Types](getting-started/attributes/attribute-types/README.md)
+    * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)
+    * [Boolean Attribute](getting-started/attributes/attribute-types/boolean-attribute.md)
+    * [Color Attribute](getting-started/attributes/attribute-types/color-attribute.md)
+    * [Numerical Attribute](getting-started/attributes/attribute-types/numerical-attribute.md)
+  * [Common Attributes](getting-started/attributes/common-attributes/README.md)
+    * [Object](getting-started/attributes/common-attributes/object.md)
+    * [Rotation Pivot](getting-started/attributes/common-attributes/rotation-pivot.md)
+    * [Sprite](getting-started/attributes/common-attributes/sprite.md)
+    * [Transformation](getting-started/attributes/common-attributes/transformation.md)
+* [Data Types](getting-started/data-types/README.md)
+  * [Bool](getting-started/data-types/bool.md)
+  * [Float](getting-started/data-types/float.md)
+  * [Int](getting-started/data-types/int.md)
+  * [String](getting-started/data-types/string.md)
+  * [Vector2](getting-started/data-types/vector2.md)
+  * [Vector3](getting-started/data-types/vector3.md)
+  * [Vecttor4](getting-started/data-types/vecttor4.md)
+* [Terminology](getting-started/terminology.md)
+
+## Modules
+
+* [Logic Editor](modules/logic-editor.md)
+* [Project Outliner](modules/project-outliner.md)
+* [Global Preferences](modules/global-preferences.md)
+* [Attribute Editor](modules/attribute-editor.md)
+* [Material Editor](modules/material-editor.md)
+
 
 ## Demo Projects
 
