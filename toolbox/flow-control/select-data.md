@@ -33,8 +33,9 @@ The **Select Data** **Node** is useful for converging several branches of the lo
 
 ![](../../.gitbook/assets/select-data-usage-1.png)
 
-The image above shows two branches that have the same effect (modify a **Text** **Object**) and could be merged into one. For this, the **Select Data** **Node** is introduced:
+The image above shows two branches that have the same effect \(modify a **Text** **Object**\) and could be merged into one. For this, the **Select Data** **Node** is introduced:
 
 ![](../../.gitbook/assets/select-data-usage-2.png)
 
 Here, the two branches have been merged into one, optimizing the logic workflow.
+
