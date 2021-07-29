@@ -1,8 +1,7 @@
 # Table of contents
 
-* [Incari Studio Documentation](README.md)
-
 ## Getting Started
+* [Introduction](README.md)
 * [Requirements](./getting-started/requirements.md)
 * [Installation](getting-started/installation.md)
 * [Creating a Project](getting-started/creating-a-project.md)

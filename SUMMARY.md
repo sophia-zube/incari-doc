@@ -1,15 +1,20 @@
 # Table of contents
 
+## Getting Started
 * [Introduction](README.md)
-* [What's New](whats-new.md)
-* [Incari Studio Documentation](readme-1.md)
-* [Requirements](requirements.md)
-* [Installation](installation.md)
-* [Logic Editor](logic-editor.md)
-* [Project Outliner](project-outliner.md)
-* [Global Preferences](global-preferences.md)
-* [Attribute Editor](attribute-editor.md)
-* [Material Editor](material-editor.md)
+* [Requirements](getting-started/requirements.md)
+* [Installation](getting-started/installation.md)
+* [What's New](getting-started/whats-new.md)
+* [Terminology](getting-started/terminology.md)
+
+## Modules
+* [Logic Editor](modules/logic-editor.md)
+* [Project Outliner](modules/project-outliner.md)
+* [Global Preferences](modules/global-preferences.md)
+* [Attribute Editor](modules/attribute-editor.md)
+* [Material Editor](modules/material-editor.md)
+
+## Objects
 * [Project Objects](project-objects/README.md)
   * [Scene](project-objects/scene.md)
   * [Screen](project-objects/screen.md)
@@ -22,8 +27,10 @@
   * [Sprite](scene-objects/sprite.md)
   * [Text](scene-objects/text.md)
 
-## Toolbox
+## Demo Projects
+* [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
 
+## Toolbox
 * [Actions](toolbox/actions/README.md)
   * [Delay Action](toolbox/actions/delay-action.md)
 * [Array](toolbox/array/README.md)
@@ -37,7 +44,7 @@
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
-  * [Now \(UTC\)](toolbox/datetime/now-utc.md)
+  * [Now (UTC)](toolbox/datetime/now-utc.md)
   * [System Time](toolbox/datetime/system-time.md)
   * [Timezone Value](toolbox/datetime/timezone-value.md)
 * [Dictionary](toolbox/dictionary/README.md)
