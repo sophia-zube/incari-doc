@@ -7,9 +7,15 @@
 * [Requirements](getting-started/requirements.md)
 * [Installation](getting-started/installation.md)
 * [What's New](getting-started/whats-new.md)
+* [Attributes](getting-started/attributes/README.md)
+  * [Attribute Types](getting-started/attributes/attribute-types/README.md)
+    * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)
+    * [Boolean Attribute](getting-started/attributes/attribute-types/boolean-attribute.md)
+    * [Color Attribute](getting-started/attributes/attribute-types/color-attribute.md)
+    * [Numerical Attribute](getting-started/attributes/attribute-types/numerical-attribute.md)
 * [Terminology](getting-started/terminology.md)
 
-## Modules
+## Interface
 
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)

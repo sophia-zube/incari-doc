@@ -1,4 +1,4 @@
-# Numerical Attributes
+# Numerical Attribute
 
 **Numerical Attributes** are **Attributes** that hold **Numerical Data**. These include **Byte**, **Int**, **Float**, **Vector2**, **Vector3** and **Vector4**.
 

@@ -1,4 +1,4 @@
-# Color Attributes
+# Color Attribute
 
 **Color Attributes** are used to set the colour and opacity of several **Objects** in **INCARI**. They can be set in a variety of ways:
 

@@ -1,0 +1,15 @@
+{
+  "Snippet": {
+    "prefix": "snip",
+    "body": [
+      "\"${1:Snippet_Template}\":{",
+      "\t\"prefix\": \"${2:snippet-prefix}\",",
+      "\t\"body\": [",
+      "\t\t\"${3:snippet-body}\"",
+      "\t],",
+      "\t\"description\": \"${4:Description goes here}\"",
+      "}"
+    ],
+    "description": "A template for creating custom snippets in JSON"
+  }
+}
