@@ -4,7 +4,7 @@
 
 ![The Set Dictionary Element Node.](../../.gitbook/assets/set-dictionary-element.png)
 
-**Set Dictionary Element** updates element/s in a **Dictionary** to new values. For this, it receives the `Key` of the element to update and the `Value` with which it will be updated.
+**Set Dictionary Element** updates one or more elements in a **Dictionary** to new values. For this, it receives the `Key` of the element to update to and the `Value` to which it will be updated.
 
 If the `Key` does not exist in the **Dictionary**, it creates a new \(`Key`, `Value`\) pair.
 

@@ -26,7 +26,7 @@ In case of _vectors_, it compares the values by component and returns them separ
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Minimum` | _Defined in the `Data Type` **Attribute**._ | The minimum value in the set of inputs. |
 
 ## External Links

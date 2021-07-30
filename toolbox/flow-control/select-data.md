@@ -4,7 +4,7 @@
 
 ![The Select Data Node.](../../.gitbook/assets/node-select-data.png)
 
-Because **Input Data Sockets** in Incari can only receive a value from a single connection, this creates a problem when you wish to converge the logic into a single branch. This is why the **Select Data Node** was created, which takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by.
+Because **Input Data Sockets** in Incari can only receive a value from a single connection, this creates a problem when you wish to converge the logic into a single branch. This is why the **Select Data Node** was introduced, which takes two or more pairs of **Pulse** and **Data** inputs and outputs the value corresponding to the input **Pulse** that the **Node** was executed by.
 
 ## Attributes
 
@@ -29,13 +29,13 @@ Because **Input Data Sockets** in Incari can only receive a value from a single 
 
 ## Example Usage
 
-The **Select Data** **Node** is useful for converging several branches of the logic. The following example shows how to use the **Select Data** **Node** to merge two branches of logic into one.
+The **Select Data** **Node** is particularly useful for optimizing our logic workflow in order to avoid repetition of **Nodes**. The following example shows how to use the **Select Data** **Node** to merge two branches of logic into a single one.
 
-![](../../.gitbook/assets/select-data-usage-1.png)
+![](../../.gitbook/assets/select-data-usage-1_new.png)
 
-The image above shows two branches that have the same effect \(modify a **Text** **Object**\) and could be merged into one. For this, the **Select Data** **Node** is introduced:
+The image above shows two branches that have the same effect \(modify a **Text** **Object**\) and could converge into a single one. For this, the **Select Data** **Node** is introduced:
 
-![](../../.gitbook/assets/select-data-usage-2.png)
+![](../../.gitbook/assets/select-data-usage-2_new.png)
 
-Here, the two branches have been merged into one, optimizing the logic workflow.
+
 
