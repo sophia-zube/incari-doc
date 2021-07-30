@@ -28,6 +28,6 @@ This is the equivalent of the division \(`÷` or `/`\) operation in computer sci
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Quotient` | _Defined in the `Data Type` **Attribute**._ | The result of the division operation. |
 

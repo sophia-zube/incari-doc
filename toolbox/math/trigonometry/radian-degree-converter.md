@@ -2,14 +2,16 @@
 
 ## Overview
 
-![The Radian-Degree Converter Node](https://github.com/cgi-studio-gmbh/incari-doc/tree/65634e5b4b0d3223401be6b27a11f0a6872da087/.gitbook/assets/node-radian-degree-converter.png)
+![The Radian-Degree Converter Node](../../../.gitbook/assets/radian-degree-converter-node.png)
 
 **Radian-Degree Converter** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and converts it from one unit to the other.
 
 The equation used by the **Node** is determined by the `Mode` **Attribute**. The equations are:
 
-* `Radian_to_Degree` - _R_ x 180/π
-* `Degree_to_Radian` - _D_ x π/180
+* `Radian_to_Degree`: _D_ =  _R_ x 180/π.
+* `Degree_to_Radian`: _R_ = _D_ x π/180,
+
+where _R_ is an angle in radians \(rad\) and _D_  is an angle in degrees \(°\).
 
 ## Attributes
 

@@ -12,14 +12,14 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **List** **Object** which you wish to select the next entry item of. If an **Object** is provided in the `Object ID` **Socket**, this **Attribute** is not used. |
+| `Object` | **ObjectID** | The **List** **Object** you wish to select the next entry item of. If an **Object** is provided in the `Object ID` **Socket**, this **Attribute** is not used. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The **List** **Object** which you wish to select the next entry item of. |
+| `Object ID` | **ObjectID** | The **List** **Object** you wish to select the next entry item of. |
 
 ## Outputs
 
@@ -33,7 +33,7 @@
 
 ## See Also
 
-* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/objects/scene-objects/list.md)
+<!-- * [**List**](objects/scene-objects/list.md) -->
 * [**Generate List**](generate-list.md)
 * [**Previous List Entry**](previous-list-entry.md)
 

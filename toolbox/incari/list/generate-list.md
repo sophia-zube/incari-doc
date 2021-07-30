@@ -12,7 +12,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **List** **Object** that you wish to generate, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **List** **Object** you wish to generate, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
@@ -29,10 +29,10 @@
 
 ## See Also
 
-* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/objects/scene-objects/list.md)
-* [**Next List Entry**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/toolbox/incari/list/next-list-entry.md)
-* [**Previous List Entry**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/toolbox/incari/list/previous-list-entry.md)
-* [**Select List Entry**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/toolbox/incari/list/select-list-entry.md)
-* [**Set Active**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/toolbox/incari/list/set-active.md)
-* [**Set Current Index**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/toolbox/incari/list/set-current-index.md)
+<!-- * [**List**](../../objects/scene-objects/list.md) -->
+* [**Next List Entry**](next-list-entry.md)
+* [**Previous List Entry**](previous-list-entry.md)
+* [**Select List Entry**](select-list-entry.md)
+* [**Set Active**](set-active.md)
+* [**Set Current Index**](set-current-index.md)
 
