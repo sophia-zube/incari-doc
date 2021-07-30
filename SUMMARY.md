@@ -121,7 +121,7 @@
     * [Set Text](toolbox/incari/object/set-text.md)
     * [Set Tint](toolbox/incari/object/set-tint.md)
     * [Set Visibility](toolbox/incari/object/set-visibility.md)
-  *  [Video](toolbox/video/README.md)
+  * [Video](toolbox/video/README.md)
     * [Play Video](toolbox/video/playvideo.md)
     * [Stop Video](toolbox/video/stopvideo.md)
 * [IO](toolbox/io/README.md)
@@ -156,7 +156,3 @@
     * [Tangent](toolbox/math/trigonometry/tangent.md)
 * [Utilities](toolbox/utilities/README.md)
   * [Group](toolbox/utilities/group.md)
-* [Video](toolbox/video/README.md)
-  * [Play Video](toolbox/video/playvideo.md)
-  * [Stop Video](toolbox/video/stopvideo.md)
-
