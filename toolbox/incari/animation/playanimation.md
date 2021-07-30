@@ -1,3 +1,4 @@
+Play Animation:
 # Play Animation
 
 ## Overview
@@ -30,4 +31,3 @@
 | _OnPlay_ | **Pulse** | Flows to additional actions following **Play Animation** if the animation is currently playing. |
 | _OnPause_ | **Pulse** | Flows to additional actions following **Play Animation** if the animation pauses. |
 | _OnStop_ | **Pulse** | Flows to additional actions following **Play Animation** if the animation ends. |
-

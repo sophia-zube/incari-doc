@@ -24,4 +24,3 @@ The **Stop Animation** is an _animation_ **Node** that can be found under the *i
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-

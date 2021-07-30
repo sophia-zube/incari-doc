@@ -25,3 +25,8 @@ The **Pause Animation** is an _animation_ **Node** under the _incari_ **Category
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
+
+
+
+
+
