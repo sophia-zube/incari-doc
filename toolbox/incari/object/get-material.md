@@ -4,13 +4,13 @@
 
 ![The Get Material Node.](../../../.gitbook/assets/get-material.PNG)
 
-**Get Material** returns the assigned **Material** of a [**Mesh Object**](https://docs.incari.com/incari-studio/scene-objects/mesh).
+**Get Material** returns the assigned **Material** of a [**Mesh Object**](../../../getting-started/scene-objects/mesh.md).
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Mesh Object** whose allocated **Material** you wish to return, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Mesh Object**, whose allocated **Material** you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
@@ -29,7 +29,7 @@
 ## See Also
 
 * [**Set Material**](set-material.md)
-* \*\*\*\*[**Mesh**](https://docs.incari.com/incari-studio/scene-objects/mesh)\*\*\*\*
+* [**Mesh**](../../../getting-started/scene-objects/mesh.md)
 
 
 
