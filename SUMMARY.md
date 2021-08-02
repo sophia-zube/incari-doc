@@ -13,7 +13,7 @@
 * [Scene Objects](getting-started/scene-objects/README.md)
   * [Group](getting-started/scene-objects/group.md)
   * [Lights](getting-started/scene-objects/lights.md)
-  * [List](toolbox/incari/list-widget.md)
+  * [List](getting-started/scene-objects/list-widget.md)
   * [Mesh](getting-started/scene-objects/mesh.md)
   * [Sprite](getting-started/scene-objects/sprite.md)
   * [Text](getting-started/scene-objects/text.md)
