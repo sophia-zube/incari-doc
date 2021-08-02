@@ -36,7 +36,7 @@
 
 ## See Also
 
-* [**List**](../../../getting-started/scene-objects/list-widget.md)
+* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/23ca004175ebe8c81ae3d4d6a0095a826c8d5f9a/getting-started/scene-objects/list-widget.md)
 * [**Generate List**](generate-list.md)
 * [**Previous List Entry**](previous-list-entry.md)
 

@@ -37,5 +37,3 @@ The image above shows two branches that have the same effect \(modify a **Text**
 
 ![](../../.gitbook/assets/select-data-usage-2_new.png)
 
-
-

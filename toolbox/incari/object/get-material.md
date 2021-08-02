@@ -31,5 +31,3 @@
 * [**Set Material**](set-material.md)
 * [**Mesh**](../../../getting-started/scene-objects/mesh.md)
 
-
-

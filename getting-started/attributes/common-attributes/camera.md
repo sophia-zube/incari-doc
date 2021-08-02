@@ -4,7 +4,7 @@
 
 ### Size and Resolution
 
-The relationship between `Size` **and** `Resolution` _\*\*_can be thought of as being like the relationship between your monitor's display resolution \(the physical pixel dimensions available\) and the resolution setting in your OS's display settings. You could have a 4K monitor, with a display resolution of 3840 x 2160 pixels, but have your OS's display resolution set to 800 x 600. This would stretch the much smaller display resolution to fit your display.
+The relationship between `Size` **and** `Resolution` \_\*\*\_can be thought of as being like the relationship between your monitor's display resolution \(the physical pixel dimensions available\) and the resolution setting in your OS's display settings. You could have a 4K monitor, with a display resolution of 3840 x 2160 pixels, but have your OS's display resolution set to 800 x 600. This would stretch the much smaller display resolution to fit your display.
 
 Similarly, `Resolution` defines, in pixels, the resolution of the targeted display, while `Size` defines the dimensions of the area of 3D space, that will be shown on that display. If `Size` and `Resolution` are different values, then the image will be stretched and/or squashed. This may be okay for _3D_ elements, but _2D_ graphics are made up of pixels, and will have lower resolution when scaled up.
 

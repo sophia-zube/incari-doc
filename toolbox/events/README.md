@@ -8,7 +8,6 @@ _Triggers_ can be thought of as being like announcements. A real-world example o
 
 **Events** in **Incari** can be directly triggered by the user's input, as is the case with **Keyboard** and **Mouse Events**, or triggered automatically when something happens relating to an **Object**, **Variable**, **Scene**, or **Screen**. One of the most powerful aspect of **Incari**'s **Events** is that you even can define your own custom _triggers_ and _listeners_, to establish the criteria under which one part of your **Logic** causes the execution of others.
 
-
 ## External Links
 
 [_What is event programming?_](https://mortoray.com/2017/06/26/what-is-event-programming/) on Musing Mortoray.

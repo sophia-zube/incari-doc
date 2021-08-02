@@ -11,7 +11,7 @@ The equation used by the **Node** is determined by the `Mode` **Attribute**. The
 * `Radian_to_Degree`: _D_ =  _R_ x 180/π.
 * `Degree_to_Radian`: _R_ = _D_ x π/180,
 
-where _R_ is an angle in radians \(rad\) and _D_  is an angle in degrees \(°\).
+where _R_ is an angle in radians \(rad\) and _D_ is an angle in degrees \(°\).
 
 ## Attributes
 

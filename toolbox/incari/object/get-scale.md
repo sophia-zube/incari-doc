@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Scale` | **Vector3** | A 3-dimensional vector that contains the `Scale` of the **Object** along its X, Y, and Z axes. |
+| `Scale` | **Vector3** | A 3-dimensional vector that contains the _scale_ of the **Object** along its X, Y, and Z axes. |
 
 ## See Also
 

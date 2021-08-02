@@ -4,7 +4,7 @@
 
 ![The Stop Animation Node.](../../../.gitbook/assets/stopanimation.png)
 
-The **Stop Animation** is an _animation_ **Node** that can be found under the *incari* **Category**. This **Node** is used to stop an **Animation** when the project is run.
+The **Stop Animation** is an _animation_ **Node** that can be found under the _incari_ **Category**. This **Node** is used to stop an **Animation** when the project is run.
 
 ## Attributes
 
@@ -24,3 +24,4 @@ The **Stop Animation** is an _animation_ **Node** that can be found under the *i
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+

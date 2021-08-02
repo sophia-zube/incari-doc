@@ -47,7 +47,6 @@
 * [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
 
-
 ## Demo Projects
 
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
@@ -161,3 +160,4 @@
     * [Tangent](toolbox/math/trigonometry/tangent.md)
 * [Utilities](toolbox/utilities/README.md)
   * [Group](toolbox/utilities/group.md)
+
