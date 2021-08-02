@@ -38,8 +38,8 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 ## See Also
 
-* [**List**](../../../getting-started/scene-objects/list-widget.md)
-* [**Generate List**](generate-list.md)
+* [**List2**](../../../getting-started/scene-objects/list-widget.md)
+* [**Generate List2**](generate-list.md)
 
 ## External Links
 
