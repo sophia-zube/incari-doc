@@ -20,14 +20,14 @@ Play Animation:
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| _InstanceID_ | **???** | The assigned **Instance** of an **Animation Block**. |
+| _InstanceID_ | **CustomID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| _InstanceID_ | **???** | The previously assigned **Instance** of the **Animation Block**. |
+| _InstanceID_ | **CustomID** | The previously assigned **Instance** of the **Animation Block**. |
 | _OnPlay_ | **Pulse** | Flows to additional actions following **Play Animation** if the **Animation** is currently playing. |
 | _OnPause_ | **Pulse** | Flows to additional actions following **Play Animation** if the animation pauses. |
 | _OnStop_ | **Pulse** | Flows to additional actions following **Play Animation** if the animation ends. |

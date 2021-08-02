@@ -17,7 +17,7 @@ The **Stop Animation** is an _animation_ **Node** that can be found under the *i
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| _InstanceID_ | **???** | The assigned **Instance** of an **Animation Block**. |
+| _InstanceID_ | **CustomID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
