@@ -17,7 +17,7 @@ The **Pause Animation** is an _animation_ **Node** under the _incari_ **Category
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| _InstanceID_ | **???** | The assigned **Instance** of an **Animation Block**. |
+| _InstanceID_ | **CustomID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
