@@ -38,7 +38,7 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 ## See Also
 
-<!-- * [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/objects/scene-objects/list.md) -->
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
 * [**Generate List**](generate-list.md)
 
 ## External Links

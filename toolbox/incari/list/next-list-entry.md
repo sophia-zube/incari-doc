@@ -33,7 +33,7 @@
 
 ## See Also
 
-<!-- * [**List**](objects/scene-objects/list.md) -->
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
 * [**Generate List**](generate-list.md)
 * [**Previous List Entry**](previous-list-entry.md)
 
