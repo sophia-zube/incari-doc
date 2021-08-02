@@ -28,5 +28,5 @@
 
 ## External Links
 
-* \[_Transparency \(graphic\)_\]\([https://en.wikipedia.org/wiki/Transparency\_\(graphic](https://en.wikipedia.org/wiki/Transparency_%28graphic)\) on Wikipedia.
+* [_Transparency (graphic)_](https://en.wikipedia.org/wiki/Transparency_(graphic)) on Wikipedia.
 
