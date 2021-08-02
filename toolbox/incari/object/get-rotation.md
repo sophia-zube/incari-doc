@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object** that you wish to return the `rotation` of, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The target **Object**, whose `Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Rotation` | **Vector3** | A 3-dimensional vector that contains _Euler rotation_ on the x, y, and z axes of the target **Object**. |
+| `Rotation` | **Vector3** | A 3-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Object**. |
 
 ## See Also
 
