@@ -36,7 +36,7 @@
 
 ## See Also
 
-* [**List2**](../../../getting-started/scene-objects/list-widget.md)
-* [**Generate List2**](generate-list.md)
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
+* [**Generate List**](generate-list.md)
 * [**Previous List Entry**](previous-list-entry.md)
 

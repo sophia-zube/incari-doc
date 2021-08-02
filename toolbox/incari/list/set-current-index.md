@@ -38,11 +38,11 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 ## See Also
 
-* [**List2**](../../../getting-started/scene-objects/list-widget.md)
-* [**Generate List2**](generate-list.md)
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
+* [**Generate List**](generate-list.md)
 
 ## External Links
 
-* [_Array Indexing_](https://en.wikipedia.org/wiki/Array_data_structure)
-* [_Index Mapping_](https://en.wikipedia.org/wiki/Index_mapping)
+* [_Array Indexing_](https://en.wikipedia.org/wiki/Array_data_structure) on Wikipedia.
+* [_Index Mapping_](https://en.wikipedia.org/wiki/Index_mapping) on Wikipedia.
 

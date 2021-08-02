@@ -29,7 +29,7 @@
 
 ## See Also
 
-* [**List2**](../../../getting-started/scene-objects/list-widget.md)
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
 * [**Next List Entry**](next-list-entry.md)
 * [**Previous List Entry**](previous-list-entry.md)
 * [**Select List Entry**](select-list-entry.md)
