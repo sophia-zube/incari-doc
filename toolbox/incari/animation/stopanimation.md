@@ -6,7 +6,6 @@
 
 **Stop Animation** is an _animation_ **Node** used to stop an **Animation** already playing.
 
-
 ## Attributes
 
 | Attribute | Type | Description |
@@ -25,7 +24,8 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-## See Also 
+
+## See Also
 
 * [**Pause Animation**](pauseanimation.md)
 * [**Play Animation**](playanimation.md)

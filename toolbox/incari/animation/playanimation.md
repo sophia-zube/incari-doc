@@ -1,28 +1,19 @@
 # Play Animation
+
 ## Overview
 
-<!--- ![The Play Animation Node.](../../../.gitbook/assets/playanimation.png)--->
+![The Play Animation Node](../../../.gitbook/assets/playanimation.png)
 
-<img src="../../../.gitbook/assets/playanimation.png" alt="The Play Animation Node" height="315x">
-
-
-
-<img src="../../../.gitbook/assets/playanimationwithfile.png" alt="The Play Animation Node with input." height="355x">
-
-
-<!---![The Play Animation Node with input.](../../../.gitbook/assets/playanimationwithfile.png)--->
-
-
+![The Play Animation Node with input.](../../../.gitbook/assets/playanimationwithfile.png)
 
 **Play Animation** is an _animation_ **Node** used to play an **Animation** that can be used with **Pause Animation** and **Stop Animation**. Once an **Animation** is created in the **Animation Editor Module**, it can be selected in the file selector. A dropdown will appear that allows the user to choose an **Animation Block**. This will show up as a blue-colored input on the **Play Animation Node**.
-
 
 ### Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `File` | **User Input** | The selected **Animation** file created in the **Animation Editor**. The user can drag a file from their library or select a file from a file tree. The icons to the right allow the user to confirm the selection, highlight the **Asset** in the **Asset Manager**, and remove the selection. |
-|`Name`|**Dropdown Menu**|The specified **Animation Block** created in the **Animation Editor**. In the sample image, it is labeled **Animation Block**, but it is useful to name it in relation to the animation purpose.| 
+| `Name` | **Dropdown Menu** | The specified **Animation Block** created in the **Animation Editor**. In the sample image, it is labeled **Animation Block**, but it is useful to name it in relation to the animation purpose. |
 
 ### Inputs
 
@@ -41,7 +32,8 @@
 | `OnPause` | **Pulse** | Flows to additional actions following **Play Animation** if the animation pauses. |
 | `OnStop` | **Pulse** | Flows to additional actions following **Play Animation** if the animation ends. |
 
-## See Also 
+## See Also
 
 * [**Pause Animation**](pauseanimation.md)
 * [**Stop Animation**](stopanimation.md)
+
