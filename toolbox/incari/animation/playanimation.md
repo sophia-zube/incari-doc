@@ -1,14 +1,4 @@
 # Play Animation
-<<<<<<< Updated upstream
-
-Play Animation:
-
-## Play Animation
-
-### Overview
-
-![The Play Animation Node.](../../../.gitbook/assets/playanimation.png) ![The Play Animation Node with input](../../../.gitbook/assets/playanimationwithfile.png)
-=======
 ## Overview
 
 <!--- ![The Play Animation Node.](../../../.gitbook/assets/playanimation.png)--->
