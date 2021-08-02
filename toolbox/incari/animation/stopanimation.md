@@ -4,7 +4,11 @@
 
 ![The Stop Animation Node.](../../../.gitbook/assets/stopanimation.png)
 
+<<<<<<< Updated upstream
 The **Stop Animation** is an _animation_ **Node** that can be found under the _incari_ **Category**. This **Node** is used to stop an **Animation** when the project is run.
+=======
+**Stop Animation** is an _animation_ **Node** used to stop an **Animation** already playing.
+>>>>>>> Stashed changes
 
 ## Attributes
 
@@ -17,7 +21,7 @@ The **Stop Animation** is an _animation_ **Node** that can be found under the _i
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| _InstanceID_ | **CustomID** | The assigned **Instance** of an **Animation Block**. |
+| `InstanceID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
@@ -25,3 +29,10 @@ The **Stop Animation** is an _animation_ **Node** that can be found under the _i
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
+<<<<<<< Updated upstream
+=======
+## See Also 
+
+* [**Pause Animation**](pauseanimation.md)
+* [**Play Animation**](playanimation.md)
+>>>>>>> Stashed changes
