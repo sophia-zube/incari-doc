@@ -5,12 +5,10 @@
 
 <img src="../../../.gitbook/assets/playanimation.png" alt="The Play Animation Node" height="315x">
 
-The Play Animation Node.
 
 
 <img src="../../../.gitbook/assets/playanimationwithfile.png" alt="The Play Animation Node with input." height="355x">
 
-The Play Animation Node with input. 
 
 <!---![The Play Animation Node with input.](../../../.gitbook/assets/playanimationwithfile.png)--->
 
