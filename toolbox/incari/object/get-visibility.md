@@ -4,20 +4,20 @@
 
 ![The Get Visibility Node.](../../../.gitbook/assets/get-visibility.PNG)
 
-**Get Visibility** returns a boolean indicating whether an **Object** is visible in a **Scene** or not.
+**Get Visibility** returns a **Boolean** value indicating whether an **Object** is visible in a **Scene** or not.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** whose `visibility` is desired, if one is not provided in the `object ID` **Socket** |
+| `Object` | **ObjectID** | The **Object**, whose `visibility` is desired, if one is not provided in the `object ID` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the **Object** whose _visibility_ you wish to return |
+| `Object ID` | **ObjectID** | The ID of the **Object** whose _visibility_ you wish to return. |
 
 ## Outputs
 
