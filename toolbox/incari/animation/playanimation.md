@@ -4,7 +4,7 @@
 
 ![The Play Animation Node](../../../.gitbook/assets/playanimation.png)
 
-![The Play Animation Node Block.](../../../.gitbook/assets/playanimationwithfile.png)
+![The Play Animation Node Block](../../../.gitbook/assets/playanimationwithfile.png)
 
 **Play Animation** is an _animation_ **Node** used to play an **Animation** that can be used with **Pause Animation** and **Stop Animation**. Once an **Animation** is created in the **Animation Editor Module**, it can be selected in the file selector. A dropdown will appear that allows the user to choose an **Animation Block**. This will show up as a blue-colored input on the **Play Animation Node**.
 
