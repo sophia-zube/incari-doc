@@ -35,5 +35,5 @@ The **Set Alpha** **Node** only works with **Objects** that have **Attributes** 
 
 ## External Links
 
-* [_Alpha compositing_](https://en.wikipedia.org/wiki/Alpha_compositing) __on Wikipedia.
+* [_Alpha compositing_](https://en.wikipedia.org/wiki/Alpha_compositing) on Wikipedia.
 
