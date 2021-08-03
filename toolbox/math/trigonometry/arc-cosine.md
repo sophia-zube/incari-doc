@@ -31,7 +31,7 @@ The **Arc Cosine Node** takes a single **Float** value, representing an angle, i
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Float** | The _arccosine_ of `Input`. |
 
 ## See Also

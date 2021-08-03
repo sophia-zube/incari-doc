@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Scale` value of, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The ID of the **Object**, whose `Scale` you would like to set, if one is not provided in the `Object ID` **Socket**. |
 | `Scale` | **Vector3** | The desired `Scale` value of the **Object**, if one is not provided in the `Scale` **Socket**. |
 
 ## Inputs
@@ -18,7 +18,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the **Object** that you would like to set the `Scale` value of. |
+| `Object ID` | **ObjectID** | The ID of the **Object** whose `Scale` you would like to set. |
 | `Scale` | **Vector3** | The desired `Scale` value of the **Object**. |
 
 ## Outputs

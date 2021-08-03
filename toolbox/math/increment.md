@@ -2,7 +2,9 @@
 
 ![The Increment Node.](../../.gitbook/assets/node-increment.png)
 
-**Increment** increases a value by a given step and outputs the new value. It is comparable to the `++` operator in computer science, except for the fact that the *increment step* is variable, as opposed to being fixed at 1.
+**Increment** increases a value by a given step and outputs the new value.
+
+ It is comparable to the `++` operator in computer science, except for the fact that the *increment step* is variable, as opposed to being fixed at 1.
 
 # Attributes
 
@@ -30,4 +32,4 @@
 
 # See Also
 
-- [**Decrement**](decrement.md)
+* [**Decrement**](decrement.md)
