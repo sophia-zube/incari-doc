@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Video Nodes** provide a way to incorporate video files in the **Logic Editory** and allow the user to perform certain actions. These **Nodes** are:
+The **Video Nodes** provide a way to incorporate video files in the **Logic Editor** and allow the user to perform certain actions. These **Nodes** are:
 
 ## Contents
 
