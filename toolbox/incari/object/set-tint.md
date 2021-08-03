@@ -6,7 +6,7 @@
 
 **Set Tint** modifies the `Tint` attribute of an **Object**.
 
-The **Set Tint** node only works with objects that have **Sprite** category as an **Attribute** such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md) and [**Text**](../../../getting-started/scene-objects/text).
+The **Set Tint** node only works with objects that have **Sprite** category as an **Attribute** such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md) and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
 

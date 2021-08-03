@@ -6,8 +6,6 @@
 
 **Set Text** sets the text of a **Text** **Object**.
 
-This **Node** only works for **Text Objects**.
-
 ## Attributes
 
 | Attribute | Type | Description |
@@ -31,7 +29,6 @@ This **Node** only works for **Text Objects**.
 
 ## See Also
 
-* [**Get Text**](get-text.md)
 * [**Text**](../../../getting-started/scene-objects/text.md)
 
 ## External Links
