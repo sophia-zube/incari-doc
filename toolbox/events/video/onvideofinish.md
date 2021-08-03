@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **Object** | The video file the user wishes to reference. |
+| `Object` | **ObjectID** | The target **Object**. |
 
 ## Inputs
 | Input | Type | Description |
