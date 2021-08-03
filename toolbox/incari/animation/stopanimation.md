@@ -17,7 +17,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `InstanceID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
+| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
