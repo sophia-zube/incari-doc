@@ -4,7 +4,7 @@
 
 ![The Set Active Node.](../../../.gitbook/assets/set-active.PNG)
 
-**Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and a boolean value `Is Active`. If `Is Active` is positive, then the **List** **Object** is activated otherwise, it is deactivated.
+**Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and a **Boolean** value `Is Active`. If `Is Active` is positive, then the **List** **Object** is activated otherwise, it is deactivated.
 
 ## Attributes
 

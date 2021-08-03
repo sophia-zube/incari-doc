@@ -175,7 +175,7 @@ The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, there
 
 ## Sprite
 
-**Sprite** **Attributes** are documented in [**Sprite Object**](sprites/sprite.md).
+**Sprite** **Attributes** are documented in [**Sprite Object**](https://github.com/cgi-studio-gmbh/incari-doc/tree/c45e708ea3d76c2b80cfa51e6e1613896cec44e3/getting-started/scene-objects/sprites/sprite.md).
 
 ## Advanced
 
