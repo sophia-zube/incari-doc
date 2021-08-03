@@ -10,8 +10,8 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of if one is not provided in the `Object ID` **Socket**. |
-| `Position` | **Vector3** | The desired `Position` value of the **Object** if one is not provided in the `Position` **Socket**. |
+| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of, if one is not provided in the `Object ID` **Socket**. |
+| `Position` | **Vector3** | The desired `Position` value of the **Object**, if one is not provided in the `Position` **Socket**. |
 
 ## Inputs
 
@@ -35,5 +35,5 @@
 
 ## External Links
 
-* \_\_[_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
+* [_Position (geometry)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
 

@@ -6,13 +6,13 @@
 
 **Set Text** sets the text of a **Text** **Object**.
 
-The **Set Text** node only works for **Text Objects**.
+This **Node** only works for **Text Objects**.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Text** **Object** whose `Text` **Attribute**'s value is to be set if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Text** **Object** whose `Text` **Attribute** value is to be set, if one is not provided in the `Object ID` **Socket**. |
 | `Default Text` | **String** | The default value of the **Text Object**, if no value is provided. |
 
 ## Inputs
@@ -31,10 +31,10 @@ The **Set Text** node only works for **Text Objects**.
 
 ## See Also
 
-* [**Get Text**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/object/get-text.md)
-* [**Text**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/object/objects/scene-objects/sprites/text.md)
+* [**Get Text**](get-text.md)
+* [**Text**](../../../getting-started/scene-objects/text.md)
 
 ## External Links
 
-* \_\_[_String \(computer science\)_](https://en.wikipedia.org/wiki/String_%28computer_science%29) on Wikipedia.
+* [_String (computer science)_](https://en.wikipedia.org/wiki/String_%28computer_science%29) on Wikipedia.
 

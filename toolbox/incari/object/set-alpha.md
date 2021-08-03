@@ -6,14 +6,14 @@
 
 **Set Alpha** sets the value of a specified **Object**'s `Alpha` **Attribute** .
 
-The **Set Alpha** **Node** only works with **Objects** that have **Attribute**'s from the **Sprite** category, such as **List**, **Image Sequence**, **Web Sprite**, **Sprite**, and **Text**.
+The **Set Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md), and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** you wish to set the `Alpha` of if one is not provided in the `Object ID` **Socket**. |
-| `Default Alpha` | **Float** | The default value of the **Object** color space's `alpha` component. |
+| `Object` | **ObjectID** | The **Object** you wish to set the `Alpha` of, if one is not provided in the `Object ID` **Socket**. |
+| `Default Alpha` | **Float** | The default value of the **Object** color space's `Alpha` component. |
 
 ## Inputs
 
@@ -35,5 +35,5 @@ The **Set Alpha** **Node** only works with **Objects** that have **Attribute**'s
 
 ## External Links
 
-* [_Alpha value_](https://en.wikipedia.org/wiki/Alpha_compositing) __on Wikipedia.
+* [_Alpha compositing_](https://en.wikipedia.org/wiki/Alpha_compositing) __on Wikipedia.
 

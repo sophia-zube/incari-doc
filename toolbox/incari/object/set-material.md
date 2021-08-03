@@ -4,13 +4,13 @@
 
 ![The Set Material Node.](../../../.gitbook/assets/set-material.PNG)
 
-**Set Material** assigns a **Material** to a [**Mesh** **Object**](https://docs.incari.com/incari-studio/scene-objects/mesh).
+**Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../getting-started/scene-objects/mesh.md).
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** which the **Material** is to be applied to if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Object** which the **Material** is to be applied to, if one is not provided in the `Object ID` **Socket**. |
 | `Default Material` | **MaterialID** | The default value of the `Material` **Socket**, if no value is provided. |
 
 ## Inputs
@@ -30,5 +30,5 @@
 ## See Also
 
 * [**Get Material**](get-material.md)
-* \*\*\*\*[**Mesh**](https://docs.incari.com/incari-studio/scene-objects/mesh)\*\*\*\*
+* [**Mesh**](../../../getting-started/scene-objects/mesh.md)
 

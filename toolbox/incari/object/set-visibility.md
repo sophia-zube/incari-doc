@@ -11,7 +11,7 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The **Object** that you wish to _set visibility_ of, if one is not provided in the `object ID` **Socket**. |
-| `Is Visible` | **Bool** | A boolean indicating whether a desired **Object** is set to _visible_ or not. The default value is `true`. |
+| `Is Visible` | **Bool** | A **Boolean** indicating whether a desired **Object** is set to _visible_ or not. The default value is `true`. |
 
 ## Inputs
 
@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object` | **ObjectID** | The ID of the **Object** you would like to make _visible_ or not. |
-| `Is Visible` | **Bool** | An input _boolean_ that sets the **Object** **Visibility** to either _true_ or _false_. |
+| `Is Visible` | **Bool** | An input **Boolean** that sets the **Object** **Visibility** to either _true_ or _false_. |
 
 ## Outputs
 
