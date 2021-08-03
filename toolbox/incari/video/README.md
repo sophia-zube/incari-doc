@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Video Nodes** provide a way to incorporate video files in the **Logic Editor** and allow the user to perform certain actions. These **Nodes** are:
+The **Video Nodes** provide a way to incorporate video files in the **Logic Editor** and allow the user to perform certain actions.
 
 ## Contents
 
@@ -11,6 +11,5 @@ The **Video Nodes** provide a way to incorporate video files in the **Logic Edit
 * [**Seek Video**](seekvideo.md)
 * [**Stop Video**](stopvideo.md)
 * [**Pause Video**](pausevideo.md)
-* [**On Video Play**](onvideoplay.md)
-* [**On Video Finish**](onvideofinish.md)
+
 

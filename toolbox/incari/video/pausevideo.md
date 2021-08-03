@@ -10,17 +10,24 @@ The **Pause Video** **Node** can be used to pause a video file already playing d
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **Object** | The video file the user wishes to reference. |
+| `Object` | **Object ID** | The target **Object**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `ObjectID` | **Object** | The **Scene Object** the user wishes to reference. |
+| `Object ID` | **Object** | The ID of the target **Object**. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+
+
+## See Also 
+
+* [**Play Video**](playvideo.md)
+* [**Stop Video**](stopvideo.md)
+* [**Seek Video**](seekvideo.md)

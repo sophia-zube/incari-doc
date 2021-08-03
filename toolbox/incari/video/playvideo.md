@@ -10,14 +10,14 @@ The **Play Video** **Node** can be used to play a specified video file during th
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **User Input** | The video file the user wishes to reference. |
+| `Object` | **Object ID** | The target **Object**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `ObjectID` | **Object** | The **Scene Object** the user wishes to reference. |
+| `Object ID` | **Object ID** | The ID of the target **Object**. |
 
 ## Outputs
 
@@ -25,3 +25,9 @@ The **Play Video** **Node** can be used to play a specified video file during th
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
+
+## See Also
+
+* [**Stop Video**](stopvideo.md)
+* [**Pause Video**](pausevideo.md)
+* [**Seek Video**](seekvideo.md)
