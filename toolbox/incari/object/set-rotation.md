@@ -10,8 +10,8 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Rotation` value of if one is not provided in the `Object ID` **Socket**. |
-| `Rotation` | **Vector3** | The desired `Rotation` value of the **Object** if one is not provided in the `Rotation` **Socket**. |
+| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Rotation` value of, if one is not provided in the `Object ID` **Socket**. |
+| `Rotation` | **Vector3** | The desired `Rotation` value of the **Object**, if one is not provided in the `Rotation` **Socket**. |
 
 ## Inputs
 
