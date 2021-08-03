@@ -2,7 +2,9 @@
 
 ![The Decrement Node.](../../.gitbook/assets/node-decrement.png)
 
-**Decrement** decreases a value by a given step and outputs the new value. It is comparable to the `--` operator in computer science, except for the fact that the *decrement step* is variable, as opposed to being fixed at 1.
+**Decrement** decreases a value by a given step and outputs the new value. 
+
+It is comparable to the `--` operator in computer science, except for the fact that the *decrement step* is variable, as opposed to being fixed at 1.
 
 # Attributes
 

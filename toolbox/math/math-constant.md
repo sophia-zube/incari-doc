@@ -1,8 +1,8 @@
 # Overview
 
-![The Math Constant Node.]()
+![The Math Constant Node.](../../.gitbook/assets/math-constant-node.png)
 
-**Math Constant** .
+The **Math Constant** **Node** outputs a mathematical constant chosen out of three options: Pi, e (Euler's number), and Douglas-Adams Constant (42).
 
 # Attributes
 
@@ -10,19 +10,15 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Type` | **Drop-down** |
+|`Type` | **Drop-down** | The mathematical constant you wish to output. |
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `Value` | **Float** | The value of the mathematical constant chosen in `Type` |
+
 
 # See Also
 

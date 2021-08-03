@@ -12,7 +12,7 @@ The *arithmetic mean* is the *sum* of all values in a set, divided by the total 
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Default Inputs`|**Float**|The amount of `Input` **Sockets** and their default values if they have no data connected to them.|
+|`Default Inputs`|**Float**|The number of `Input` **Sockets** and their default values, if they have no data connected to them.|
 
 # Inputs
 

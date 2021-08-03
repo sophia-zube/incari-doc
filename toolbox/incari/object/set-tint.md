@@ -12,7 +12,7 @@ The **Set Tint** node only works with objects that have **Sprite** category as a
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** whose color is to be adjusted, if one is not provided in the O`Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Object**, whose color is to be adjusted, if one is not provided in the `Object ID` **Socket**. |
 | `Color` | **Color** | The default value of the `Color` **Socket**, if no value is provided. |
 
 ## Inputs
@@ -20,7 +20,7 @@ The **Set Tint** node only works with objects that have **Sprite** category as a
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the **Object** you would like to `Tint`. |
+| `Object ID` | **ObjectID** | The ID of the **Object** whose `Tint` you would like to set. |
 | `Color` | **Color** | The `Tint` value used to adjust the  color of the **Object**. |
 
 ## Outputs

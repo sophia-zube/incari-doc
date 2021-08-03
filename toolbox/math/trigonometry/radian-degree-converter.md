@@ -31,7 +31,7 @@ where _R_ is an angle in radians \(rad\) and _D_ is an angle in degrees \(°\).
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Float** | The converted value. |
 
 ## See Also
