@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Is Active` | **Bool** | A default boolean switch, which activates and deactivates the **List** **Object**, if no value is provided to the `Is Active` input **Socket**. |
+| `Is Active` | **Bool** | A default **Boolean** switch, which activates and deactivates the **List** **Object**, if no value is provided to the `Is Active` input **Socket**. |
 
 ## Inputs
 
