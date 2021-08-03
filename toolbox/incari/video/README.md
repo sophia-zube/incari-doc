@@ -10,7 +10,7 @@ The **Video Nodes** provide a way to incorporate video files in the **Logic Edit
 * [**Play Video**](playvideo.md)
 * [**Seek Video**](seekvideo.md)
 * [**Stop Video**](stopvideo.md)
-* [**Pause Video**](pausvideo.md)
+* [**Pause Video**](pausevideo.md)
 * [**On Video Play**](onvideoplay.md)
 * [**On Video Finish**](onvideofinish.md)
 
