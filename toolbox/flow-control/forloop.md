@@ -1,8 +1,9 @@
+# For Loop
 # Overview
 
 ![The For Loop Node.](../../.gitbook/assets/forloop.png)
 
-The **For Loop Node** triggers an iterative process that steps through the provided **Integer** inputs. The output can then, for example, be printed to the console or influence the next **Node** in the **Logic Branch**. 
+The **For Loop Node** triggers an iterative process that steps through the provided **Integer** inputs. The output can then, for example, be printed to the **Console** or influence the next **Node** in the **Logic Branch**. 
 
 # Attributes
 
