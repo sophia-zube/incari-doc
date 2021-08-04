@@ -13,7 +13,7 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Socket** and will return via its `Output` **Socket**.|
-|`Default Step`|*Defined in the `Data Type` **Attribute***.|The default value of the `Step` **Socket**, if no value is provided.|
+|`Step`|*Defined in the `Data Type` **Attribute***.|The default value of the `Step` **Socket**, if no value is provided.|
 
 # Inputs
 

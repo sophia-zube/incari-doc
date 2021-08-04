@@ -19,8 +19,7 @@ The **Math Constant** **Node** outputs a mathematical constant chosen out of thr
 |---|---|---|
 | `Value` | **Float** | The value of the mathematical constant chosen in `Type` |
 
-
-# See Also
-
 # External Links
 
+* [_Pi_](https://en.wikipedia.org/wiki/Pi) on Wikipedia.
+* [_e (mathematical constant)_](https://en.wikipedia.org/wiki/E_(mathematical_constant)) on Wikipedia.
