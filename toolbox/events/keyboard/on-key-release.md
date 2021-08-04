@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Key Release Node.](../../.gitbook/assets/node-on-key-release.png)
+![The On Key Release Node.](../../../.gitbook/assets/node-on-key-release.png)
 
 **On Key Release** is used for triggering logic when a key is released on a computer keyboard.
 
 ## Attributes
+
+### Event
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -23,7 +25,7 @@
 
 ## See Also
 
-* [**Events**](./)
-* [**Keyboard**]()
+* [**Events**](../README.md)
+* [**Keyboard**](README.md)
 * [**On Key Press**](on-key-press.md)
 

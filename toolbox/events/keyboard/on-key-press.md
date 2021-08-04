@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Key Press Node.](../../.gitbook/assets/node-on-key-press.png)
+![The On Key Press Node.](../../../.gitbook/assets/node-on-key-press.png)
 
-**On Key Press** is used for triggering logic using key presses on a computer keyboard.
+**On Key Press** is used for triggering logic when a key is pressed on a computer keyboard.
 
 ## Attributes
 
@@ -32,7 +32,7 @@
 
 ## See Also
 
-* [**Events**](./)
-* [**Keyboard**]()
+* [**Events**](../README.md)
+* [**Keyboard**](README.md)
 * [**On Key Release**](on-key-release.md)
 
