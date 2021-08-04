@@ -4,7 +4,7 @@
 
 **Logarithm** calculates the _logarithm_ of a number in a chosen base. 
 
-This is the inverse function of the [**Power Node**](power.md). Rather than taking a *base* value, raising it to the power of an *exponent*, and returning the *power*, it takes the *base* Value, along with the *power*, and returns the *exponent*.
+This is the inverse function of the [**Power Node**](power.md). Rather than taking a *base* value, raising it to the power of an *exponent*, and returning the *power*, it takes the *base* value, along with the *power*, and returns the *exponent*.
 
 # Attributes
 

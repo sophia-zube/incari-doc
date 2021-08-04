@@ -1,6 +1,6 @@
 # Overview
 
-![](../../.gitbook/assets/node-average.png)
+![The Average Node.](../../.gitbook/assets/node-average.png)
 
 **Average** calculates and returns the *arithmetic mean* of all of its inputs.
 
@@ -19,7 +19,7 @@ The *arithmetic mean* is the *sum* of all values in a set, divided by the total 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input [n]`|**Float**|The values that will be added together, and divided by total number of `Input` **Sockets**.|
+|`Input [n]`|**Float**|The values that will be added together, and divided by the total number of `Input` **Sockets**.|
 
 # Outputs
 
