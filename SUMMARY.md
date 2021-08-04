@@ -83,7 +83,7 @@
   * [Keyboard](toolbox/events/keyboard/README.md)
     * [On Key Press](toolbox/events/keyboard/on-key-press.md)
     * [On Key Release](toolbox/events/keyboard/on-key-release.md)
-  * [Video](toolbox/events/video/README.md
+  * [Video](toolbox/events/video/README.md)
     * [On Video Play](toolbox/events/video/onvideoplay.md)
     * [On Video Finish](toolbox/events/video/onvideofinish.md)
 * [Flow Control](toolbox/flow-control/README.md)
