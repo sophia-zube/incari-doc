@@ -30,3 +30,4 @@ The **Stop Video** **Node** can be used to stop a video file already playing dur
 * [**Play Video**](playvideo.md)
 * [**Pause Video**](pausevideo.md)
 * [**Seek Video**](seekvideo.md)
+* [**Is Video Playing**](isvideoplaying.md)

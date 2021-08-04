@@ -31,3 +31,4 @@ The **Seek Video** **Node** can be used to move to a certain timeframe of a spec
 * [**Play Video**](playvideo.md)
 * [**Pause Video**](pausevideo.md)
 * [**Seek Video**](seekvideo.md)
+* [**Is Video Playing**](isvideoplaying.md)
