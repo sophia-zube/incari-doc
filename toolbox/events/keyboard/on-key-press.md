@@ -4,7 +4,7 @@
 
 ![The On Key Press Node.](../../../.gitbook/assets/node-on-key-press.png)
 
-**On Key Press** is used for triggering logic when a key is pressed on a computer keyboard.
+**On Key Press** is an **Event Listener** **Node** used for executing additional **Logic** when a key is pressed on a computer keyboard.
 
 ## Attributes
 
@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **Drop-down** | The key that Incari will _listen_ for. |
+| `Key` | **Drop-down** | The key that Incari will _listen_ to. |
 
 ## Outputs
 
@@ -28,7 +28,7 @@
 | `Is Alt` | **Bool** | Whether or not the **Alt** key was also pressed in combination with the assigned key. |
 | `Is Ctrl` | **Bool** | Whether or not the **Ctrl** key was also pressed in combination with the assigned key. |
 | `Is Shift` | **Bool** | Whether or not the **Shift** key was also pressed in combination with the assigned key. |
-| `Is Repeated` | **Bool** | Indicates whether this is a repeated/subsequent firing of the **Event** \(`true`\) or the initial time it is fired \(`false`\). If the `Repeat Enabled` **Attribute** is enabled, the output will always be `false` because the **Event** is only fired on the initial press. |
+| `Is Repeated` | **Bool** | Indicates whether this is a repeated/subsequent executing of the **Event** \(`true`\) or the initial time it is executed \(`false`\). If the `Repeat Enabled` **Attribute** is enabled, the output will always be `false` because the **Event** is only executed on the initial press. |
 
 ## See Also
 

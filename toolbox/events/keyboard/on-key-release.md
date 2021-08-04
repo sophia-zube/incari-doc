@@ -4,7 +4,7 @@
 
 ![The On Key Release Node.](../../../.gitbook/assets/node-on-key-release.png)
 
-**On Key Release** is used for triggering logic when a key is released on a computer keyboard.
+**On Key Release** is an **Event Listener** **Node** used for executing additional **Logic** when a key is released on a computer keyboard.
 
 ## Attributes
 
@@ -12,7 +12,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **Drop-down** | The key that Incari will _listen_ for. |
+| `Key` | **Drop-down** | The key that Incari will _listen_ to. |
 
 ## Outputs
 

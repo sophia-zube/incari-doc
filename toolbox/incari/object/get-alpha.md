@@ -6,7 +6,7 @@
 
 **Get Alpha** returns the _alpha_ value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
-The **Get Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as **List**, **Image Sequence**, **Web Sprite**, **Sprite**, and **Text**.
+The **Get Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md), and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
 
