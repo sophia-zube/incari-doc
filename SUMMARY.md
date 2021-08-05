@@ -2,10 +2,13 @@
 
 * [Incari HMI Development Platform](README.md)
 
+## Demo Projects
+
+* [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
-* [What's New](getting-started/whats-new.md)
+* [What's New](getting-started/whats-new-20212.md)
 * [Installation](getting-started/installation.md)
 * [Project Objects](getting-started/project-objects/README.md)
   * [Scene](getting-started/project-objects/scene.md)
@@ -47,9 +50,7 @@
 * [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
 
-## Demo Projects
 
-* [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
 
 ## Toolbox
 
