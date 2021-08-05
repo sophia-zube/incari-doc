@@ -28,7 +28,7 @@
 | `Is Alt` | **Bool** | Whether or not the **Alt** key was also pressed in combination with the assigned key. |
 | `Is Ctrl` | **Bool** | Whether or not the **Ctrl** key was also pressed in combination with the assigned key. |
 | `Is Shift` | **Bool** | Whether or not the **Shift** key was also pressed in combination with the assigned key. |
-| `Is Repeated` | **Bool** | Indicates whether this is a repeated/subsequent executing of the **Event** \(`true`\) or the initial time it is executed \(`false`\). If the `Repeat Enabled` **Attribute** is enabled, the output will always be `false` because the **Event** is only executed on the initial press. |
+| `Is Repeated` | **Bool** | Indicates whether this is a repeated/subsequent execution of the **Event** \(`true`\) or the initial time it is executed \(`false`\). If the `Repeat Enabled` **Attribute** is enabled, the output will always be `false` because the **Event** is only executed on the initial press. |
 
 ## See Also
 

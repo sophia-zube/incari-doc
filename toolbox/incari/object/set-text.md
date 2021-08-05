@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Text** **Object** whose `Text` **Attribute** value is to be set, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Text** **Object**, whose `Text` **Attribute** value is to be set, if one is not provided in the `Object ID` **Socket**. |
 | `Default Text` | **String** | The default value of the **Text Object**, if no value is provided. |
 
 ## Inputs
