@@ -1,5 +1,3 @@
-# On Video Play
-
 ## Overview
 
 ![The On Video Play Node.](../../../.gitbook/assets/onvideoplay.png)
