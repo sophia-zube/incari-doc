@@ -6,6 +6,8 @@ All **Objects** in a **Scene** appear in the **Scene Outliner**, exist in 3D spa
 
 ## Creating an Object
 
+For creating an **Object**, go to the **Scene Outliner**, click the plus sign on the top left and select the **Object** to create.
+
 ## Contents
 
 * [Camera](camera.md)
