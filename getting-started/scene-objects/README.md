@@ -12,7 +12,7 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 
 * [Camera](camera.md)
 * [Group](group.md)
-* [List Widget](list-widget.md)
+* [List](list-widget.md)
 * [Mesh](mesh.md)
 * [Lights](lights.md)
 * [Sprite](sprite.md)
