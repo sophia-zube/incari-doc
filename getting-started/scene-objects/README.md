@@ -8,12 +8,12 @@ All **Objects** in a **Scene** appear in the **Scene Outliner**, exist in 3D spa
 
 ## Contents
 
-* [Camera_](camera.md)
+* [Camera](camera.md)
 * [Group](group.md)
 * [List Widget](list-widget.md)
 * [Mesh](mesh.md)
 * [Lights](lights.md)
 * [Sprites](sprites.md)
 * [Text](text.md)
-* [Web Sprite_](web-sprite.md)
+* [Web Sprite](web-sprite.md)
 
