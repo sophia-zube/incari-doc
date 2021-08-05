@@ -1,5 +1,3 @@
-# On Video Finish
-
 ## Overview
 ![The On Video Finish Node.](../../../.gitbook/assets/onvideofinish.png)
 
