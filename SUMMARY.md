@@ -127,6 +127,7 @@
     * [Set Text](toolbox/incari/object/set-text.md)
     * [Set Tint](toolbox/incari/object/set-tint.md)
     * [Set Visibility](toolbox/incari/object/set-visibility.md)
+    * [Set Opacity](toolbox/incari/object/setopacity.md)
   * [Video](toolbox/incari/video/README.md)
     * [Play Video](toolbox/incari/video/playvideo.md)
     * [Stop Video](toolbox/incari/video/stopvideo.md)
