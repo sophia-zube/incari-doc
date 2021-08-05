@@ -25,7 +25,7 @@ Because **Input Data Sockets** in Incari can only receive a value from a single 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
-| `Output` | _Defined in the `Data Type` **Attribute**._ | The `Input` value corresponding to whichever `Pulse` triggered the execution of the **Node**. |
+| `Output` | _Defined in the `Data Type` **Attribute**._ | The **Data Value** received in the `Input` **Socket** corresponding to whichever `Pulse` triggered the execution of the **Node**. |
 
 ## Example Usage
 
