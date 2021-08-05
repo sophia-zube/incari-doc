@@ -15,7 +15,7 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 * [List Widget](list-widget.md)
 * [Mesh](mesh.md)
 * [Lights](lights.md)
-* [Sprites](sprites.md)
+* [Sprites](sprite.md)
 * [Text](text.md)
 * [Web Sprite](web-sprite.md)
 
