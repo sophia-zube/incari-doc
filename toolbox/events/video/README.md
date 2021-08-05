@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Event Video Nodes** provide a way to perform actions on video files at their start or end. 
+The **Event Video Nodes** provide a way to perform certain actions when video files start or finish. 
 
 ## Contents
 
