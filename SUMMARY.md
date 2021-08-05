@@ -133,6 +133,9 @@
 * [Section]
   * [Sub-Section 1]
   * [Sub-Section 2]
-* [Section2]
-  * [Sub-Section2.1]
-  * [Sub-Section2.2]
+* [Section2](tests/section2.md)
+  * [Sub-Section2.1](tests/section2.1.md)
+  * [Sub-Section2.2](tests/section2.2.md)
+* [Section3](tests/section3.md)
+  * [SubSection3.1](tests/section3.1.md)
+  * [SubSection3.2](tests/section3.2.md)
