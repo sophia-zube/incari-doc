@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The target **Object**, whose `Position` you wish to set, if one is not provided in the `Object ID` **Socket**. |
 | `Position` | **Vector3** | The desired `Position` value of the **Object**, if one is not provided in the `Position` **Socket**. |
 
 ## Inputs
@@ -18,8 +18,8 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the **Object** that you would like to set the `Position` value of. |
-| `Position` | **Vector3** | The desired `Position` value of the **Object**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
+| `Position` | **Vector3** |  A 3-dimensional vector that contains X, Y, and Z positions of the target **Object**. |
 
 ## Outputs
 
