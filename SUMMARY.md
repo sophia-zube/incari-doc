@@ -128,14 +128,15 @@
 * [Utilities](toolbox/utilities/README.md)
   * [Group](toolbox/utilities/group.md)
 
-## Test 
+## Test
 
-* [Section]
-  * [Sub-Section 1]
-  * [Sub-Section 2]
-* [Section2](tests/section2.md)
-  * [Sub-Section2.1](tests/section2.1.md)
-  * [Sub-Section2.2](tests/section2.2.md)
-* [Section3](tests/section3.html)
-  * [SubSection3.1](tests/section3.1.md)
-  * [SubSection3.2](tests/section3.2.md)
+* [\[Section\]](test/section/README.md)
+  * [\[Sub-Section 1\]](test/section/sub-section-1.md)
+  * [\[Sub-Section 2\]](test/section/sub-section-2.md)
+* [Section2](test/section2/README.md)
+  * [Sub-Section2.1](test/section2/section2.1.md)
+  * [Sub-Section2.2](test/section2/section2.2.md)
+* [Section3](test/section3/README.md)
+  * [SubSection3.1](test/section3/section3.1.md)
+  * [SubSection3.2](test/section3/section3.2.md)
+
