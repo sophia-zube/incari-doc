@@ -1,8 +1,8 @@
 # Overview
 
-![The Get BackgroundColor Node.](../../../.gitbook/assets/getbackgroundcolor.png)
+![The Get FillColor Node.](../../../.gitbook/assets/getfillcolor.png)
 
-The **Get BackgroundColor Node** returns the **BackgroundColor** of the target **Object**. For example, this could be the **BackgroundColor** of a **Text**. 
+The **Get FillColor Node** returns the **FillColor** of the target **Object**. 
 
 # Attributes
 
@@ -17,7 +17,6 @@ The **Get BackgroundColor Node** returns the **BackgroundColor** of the target *
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Object ID` | **Object ID** | The ID of the target **Object**. |
 
-
 # Outputs
 
 |Output|Type|Description|
@@ -25,4 +24,5 @@ The **Get BackgroundColor Node** returns the **BackgroundColor** of the target *
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
 
-
+# See Also
+* [**Get BackgroundColor**](getbackgroundcolor.md)
