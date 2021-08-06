@@ -3,7 +3,7 @@
 <a href=sub-section-1.md>This is a link to Sub-Section 1.</a>
 
 <a href=sub-section-2.md>
-    <div class= border: 1px solid #eaeaea;
+    <div class="border: 1px solid #eaeaea;
   border-radius: 15px;
   box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -15,11 +15,7 @@
   display: flex;
   flex-direction: column;
   padding: 1.5em;
-  width: 300px;>
-
+  width: 300px;">
     <h2>This is a Link to Sub-Section 2.</h2>
-
-
     </div>
-
 </a>
