@@ -4,8 +4,9 @@
 
 ![](../../.gitbook/assets/projectoutliner.png)
 
-Read more about these **Objects** here.
+Read more about these **Objects** here:
 
-* [Screen](https://docs.cgi-studio.com/incari-studio/~/edit/drafts/-L_mYEpR7wF3RCbI1bLb/getting-started/project-objects/screen)
-* [Scene](https://docs.cgi-studio.com/incari-studio/~/edit/drafts/-L_mYEpR7wF3RCbI1bLb/getting-started/project-objects/scene)
+* [Scene](scene.md)
+* [Screen](screen.md)
+
 
