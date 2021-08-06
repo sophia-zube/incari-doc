@@ -26,6 +26,9 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Opacity` | **Float** | The _opacity_ value of the **Object**. |
 
+## See Also
+
+* [**Set Opacity**](set-opacity.md)
 ## External Links
 
 * \_\_[_Transparency \(graphic\)_](https://en.wikipedia.org/wiki/Transparency_%28graphic%29) on Wikipedia.
