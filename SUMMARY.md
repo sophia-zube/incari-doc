@@ -134,7 +134,7 @@
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
   * [Vector](toolbox/incari/vector/README.md)
     * [Get BackgroundColor](toolbox/incari/vector/getbackgroundcolor.md)
-    * [Get FillColor](toolbox/incari/vector/getfillcolor.md
+    * [Get FillColor](toolbox/incari/vector/getfillcolor.md)
     * [Set Arc Start](toolbox/incari/vector/setarcstart.md)
     * [Set Arc End](toolbox/incari/vector/setarcend.md)
   * [Video](toolbox/incari/video/README.md)
