@@ -1,5 +1,3 @@
-#For Each Loop
-
 # Overview
 
 ![The For Each Loop Node.](../../.gitbook/assets/foreachloop.png)
