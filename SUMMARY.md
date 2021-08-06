@@ -133,6 +133,7 @@
     * [Set Visibility](toolbox/incari/object/set-visibility.md)
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
   * [Vector](toolbox/incari/vector/README.md)
+    * [Get Background Color](toolbox/incari/vector/getbackgroundcolor.md)
     * [Set Arc Start](toolbox/incari/vector/setarcstart.md)
     * [Set Arc End](toolbox/incari/vector/setarcend.md)
   * [Video](toolbox/incari/video/README.md)
