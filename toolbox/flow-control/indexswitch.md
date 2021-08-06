@@ -30,7 +30,7 @@ The **Index Switch Node** takes an **Int** as input and compares it to the value
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Index: 0`|**Bool**|The **Index** that is being compared to the **Integer** **Input**. Can continue with `Index: 1`, `Index: 2`, and so on.|
-|`Default`|**Bool**|The default index which is set in **Inputs**.|
+|`Default`|**Bool**|The default **Index** which is set in **Inputs**.|
 
 
 # External Links
