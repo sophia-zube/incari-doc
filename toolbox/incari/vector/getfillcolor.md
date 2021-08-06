@@ -22,7 +22,7 @@ The **Get FillColor Node** returns the **FillColor** of the target **Object**.
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
+|`BackgroundColor`|**Color**| The **FillColor** of the target **Object**.|
 
 # See Also
 * [**Get BackgroundColor**](getbackgroundcolor.md)

@@ -26,3 +26,5 @@ The **Get BackgroundColor Node** returns the **BackgroundColor** of the target *
 |`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
 
 
+# See Also
+* [**Get FillColor**](getfillcolor.md)
