@@ -4,7 +4,7 @@
 
 
 
-The **Index Switch Node** takes an **Int** as input and compares it to the value of`Index: value`, returning true or false. This could be used for enabling or disabling features in a user interface based on the output of a function, for example.
+The **Index Switch Node** takes an **Int** as input and compares it to the value of`Index: value`, returning true or false. This could be used, for example, for enabling or disabling features in a user interface based on the output of a function.
 
 
 # Attributes
@@ -29,9 +29,10 @@ The **Index Switch Node** takes an **Int** as input and compares it to the value
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Index: 0`|**Bool**|The **Index** that is being compared to the **Integer** **Input**. Can continue with `Index: 1`, `Index: 2`, and so on.|
+|`Index: [n]`|**Bool**|The **Index** that is being compared to the **Integer** **Input**.|
 |`Default`|**Bool**|The default **Index** which is set in **Inputs**.|
 
 
-# External Links
+# See Also
 
+* [**Switch**](switch.md)
