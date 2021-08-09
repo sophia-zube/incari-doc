@@ -134,9 +134,9 @@
   * [\[Sub-Section 1\]](test/section/sub-section-1.md)
   * [\[Sub-Section 2\]](test/section/sub-section-2.md)
 * [Section2](test/section2/README.md)
-  * [Sub-Section2.1](test/section2/section2.1.md)
+  * [Sub-Section 2.1](test/section2/section2.1.md)
   * [Sub-Section2.2](test/section2/section2.2.md)
-* [Section3](test/section3/README.md)
-  * [SubSection3.1](test/section3/section3.1.md)
-  * [SubSection3.2](test/section3/section3.2.md)
+* [Section 3](test/section3/README.md)
+  * [SubSection 3.1](test/section3/section3.1.md)
+  * [SubSection 3.2](test/section3/section3.2.md)
 

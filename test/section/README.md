@@ -23,11 +23,3 @@
 
 
 
-<a href=sub-section-1.md>
-<div style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition:0.3s;">
-<img src="img_avatar2.png" alt="Avatar" style="width:100%">
-<div style="padding 2px 16px;">
-<p>Hola</p>
-</div>
-</div>
-</a>
