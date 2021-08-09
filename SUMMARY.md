@@ -184,6 +184,7 @@
     * [Radian-Degree Converter](toolbox/math/trigonometry/radian-degree-converter.md)
     * [Sine](toolbox/math/trigonometry/sine.md)
     * [Tangent](toolbox/math/trigonometry/tangent.md)
+* [String](toolbox/string/README.md)
 * [Utilities](toolbox/utilities/README.md)
   * [Group](toolbox/utilities/group.md)
 
