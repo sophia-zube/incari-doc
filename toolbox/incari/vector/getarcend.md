@@ -1,22 +1,19 @@
 # Overview
 
-![The Set ArcStart Node.](../../../.gitbook/assets/setarcstart.png)
+![The Getarcend Node.]()
 
-The **Set ArcStart Node** sets the starting *arc degree* of an **Object**, such as a **Vector Arc** created in the **Scene Outliner Module**.
+**Getarcend** .
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the target **Object**.|
-|`ArcStart`|**Float**|The starting *arc degree*.|
 
 # Outputs
 
@@ -26,5 +23,5 @@ The **Set ArcStart Node** sets the starting *arc degree* of an **Object**, such 
 
 # See Also
 
-* [**Set ArcEnd**](setarcend.md)
+# External Links
 
