@@ -10,14 +10,14 @@ The **Play Video** **Node** can be used to play a specified video file during th
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **Object ID** | The target **Object**. |
+| `Object` | **ObjectID** | The target **Object**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **Object ID** | The ID of the target **Object**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object**. |
 
 ## Outputs
 
