@@ -3,7 +3,7 @@
 ![The For Each Loop Node.](../../.gitbook/assets/foreachloop.png)
 
 
-The **For Each Loop Node** triggers an iterative process that steps through the provided **Array** input. The output can then, for example, be printed to the **Console** or influence the next **Node** in the **Logic Branch**. 
+The **For Each Loop Node** triggers an iterative process that steps through the provided **Array** input. The output can then, for example, be printed to the **Console** or affect the next **Node** in the **Logic Branch**. 
 
 # Attributes
 
@@ -24,8 +24,8 @@ The **For Each Loop Node** triggers an iterative process that steps through the 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Value`|**Variable Type**|The value of a **Variable** in the **Array**, the type of which matches the type of the **Array**.|
-|`Index`|**Variable Type**|The index of a **Variable** in the **Array**, the type of which matches the type of the **Array**.|
+|`Value`|**Variable Type**|The value of a **Variable** in the **Array**, whose type matches the type of the **Array**.|
+|`Index`|**Variable Type**|The index of a **Variable** in the **Array**, whose type matches the type of the **Array**.|
 |`Array`|**Array**|The referenced **Array**.|
 |`OnTypeError` \(►\)|**Pulse**| A **Pulse** that flows to some action that can alert the user of a **Type Error**, such as printing a message to the **Console**.|
 |`OnEnd` \(►\)|**Pulse**|A **Pulse** that flows to some action that can alert the user that the loop has ended, such as printing a message to the **Console**.|
