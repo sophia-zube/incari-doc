@@ -27,3 +27,5 @@ The **Set ArcEnd Node** sets the ending *arc degree* of an **Object**, such as a
 # See Also
 
 * [**Set ArcStart**](setarcstart.md)
+* [**Get ArcStart**](getarcstart.md)
+* [**Get ArcEnd**](getarcend.md)
