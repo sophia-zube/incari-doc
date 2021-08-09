@@ -37,12 +37,13 @@
     * [Transformation](getting-started/attributes/common-attributes/transformation.md)
 * [Data Types](getting-started/data-types/README.md)
   * [Bool](getting-started/data-types/bool.md)
+  * [Byte](getting-started/data-types/byte.md)
   * [Float](getting-started/data-types/float.md)
   * [Int](getting-started/data-types/int.md)
   * [String](getting-started/data-types/string.md)
   * [Vector2](getting-started/data-types/vector2.md)
   * [Vector3](getting-started/data-types/vector3.md)
-  * [Vecttor4](getting-started/data-types/vecttor4.md)
+  * [Vector4](getting-started/data-types/vector4.md)
 * [Terminology](getting-started/terminology.md)
 
 ## Modules
