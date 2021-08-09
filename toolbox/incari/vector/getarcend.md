@@ -15,7 +15,7 @@ The **Get ArcEnd Node** returns the ending *arc degree* of an **Object**.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the taregt **Object**.|
+|`Object ID`|**ObjectID**|The ID of the target **Object**.|
 
 # Outputs
 
