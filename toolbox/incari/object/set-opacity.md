@@ -10,8 +10,8 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object ID` | **ObjectID** | The target **Object**, whose `Opacity` you wish to set, if one is not provided in the `Object ID` **Socket**. |
-|`Opacity`|**Float**|The `Opacity` you wish to set for the target **Object**.|
+| `Object` | **ObjectID** | The target **Object**, whose `Opacity` you wish to set, if one is not provided in the `Object ID` **Socket**. |
+|`Opacity`|**Float**|The *opacity value* you wish to set for the target **Object**.|
 
 ## Inputs
 
@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Opacity` you wish to set.|
-|`Opacity`|**Float**|The `Opacity` you wish to set for the target **Object**.|
+|`Opacity`|**Float**|The *opacity value* you wish to set for the target **Object**.|
 
 ## Outputs
 
