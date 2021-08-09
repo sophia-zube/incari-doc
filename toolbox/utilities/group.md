@@ -28,8 +28,4 @@ Another advantage of the **Group Node** is that, by changing the `Name` **Attrib
 
 ![Group Node Usage](../../.gitbook/assets/group%20%281%29.gif)
 
-## See Also
-
-* [**Camera**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/utilities/camera.md)
-* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/utilities/list.md)
 
