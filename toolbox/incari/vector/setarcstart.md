@@ -27,4 +27,6 @@ The **Set ArcStart Node** sets the starting *arc degree* of an **Object**, such 
 # See Also
 
 * [**Set ArcEnd**](setarcend.md)
+* [**Get ArcStart**](getarcstart.md)
+* [**Get ArcEnd**](getarcend.md)
 
