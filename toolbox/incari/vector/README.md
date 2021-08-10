@@ -18,5 +18,7 @@ The **Vector Nodes** .
 * [**Get StrokeWidth**](getstrokewidth.md)
 * [**Set LineWidth**](setlinewidth.md)
 * [**Get LineWidth**](getlinewidth.md)
+* [**Set PieStart](setpiestart.md)
+* [**Set PieEnd](setpieend.md)
 
 

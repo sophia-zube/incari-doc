@@ -147,6 +147,8 @@
     * [Get StrokeWidth](toolbox/incari/vector/getstrokewidth.md)
     * [Set LineWidth](toolbox/incari/vector/setlinewidth.md)
     * [Get LineWidth](toolbox/incari/vector/getlinewidth.md)
+    * [Set PieStart](toolbox/incari/vector/setpiestart.md)
+    * [Set PieEnd](toolbox/incari/vector/setpieend.md)
   * [Video](toolbox/incari/video/README.md)
     * [Play Video](toolbox/incari/video/playvideo.md)
     * [Stop Video](toolbox/incari/video/stopvideo.md)
