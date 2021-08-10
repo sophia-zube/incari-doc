@@ -2,7 +2,7 @@
 
 ![The Set StrokeWidth Node.](../../../.gitbook/assets/setstrokewidth.png)
 
-The **Set StrokeWidth Node** sets the **StrokeWidth** of a **Vector Object**, such as an **Ellipse**. **StrokeWidth** is an **Attribute** of a **Vector Object**.  
+The **Set StrokeWidth Node** sets the **StrokeWidth** of a **Vector Object**, such as an **Ellipse**. **StrokeWidth** is an **Attribute** of a **Vector Object** that is visualized as the outside line of the **Object**.  
 
 # Attributes
 
