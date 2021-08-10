@@ -1,5 +1,5 @@
 ---
-description: Terms
+
 ---
 
 # Terminology
@@ -9,7 +9,7 @@ description: Terms
 * [Project]()
 * [Asset]()
 * [Event]()
-* [Data Type](data-types/README.md):
+* [Data Types](data-types/README.md): A classification of data values into several categories that specify how they are read by the program and which operations they can be subjected to.
 * [Node]()
 * [Flow Control](../toolbox/flow-control/README.md):
 * [Pulse]()
