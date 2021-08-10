@@ -2,7 +2,7 @@
 
 ![The Set ArcEnd Node.](../../../.gitbook/assets/setarcend.png)
 
-The **Set ArcEnd Node** sets the ending *arc degree* of an **Arc Object**, created in the **Scene Outliner Module** under *Vector*.
+The **Set ArcEnd Node** sets the ending *arc degree* of an **Arc Object** created in the **Scene Outliner Module** under *Vector*.
 
 # Attributes
 
