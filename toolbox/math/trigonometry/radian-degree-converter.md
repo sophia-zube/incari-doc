@@ -38,3 +38,9 @@ where _R_ is an angle in radians \(rad\) and _D_ is an angle in degrees \(°\).
 
 * [**Trigonometry**](./)
 
+## External Links
+
+* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Khan Academy.
+* [_Radians_](https://www.mathsisfun.com/geometry/radians.html) on Maths is Fun.
+* [_Degrees_](https://www.mathsisfun.com/geometry/degrees.html) on Maths is Fun. 
+
