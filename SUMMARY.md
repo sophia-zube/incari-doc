@@ -145,6 +145,8 @@
     * [Get ArcEnd](toolbox/incari/vector/getarcend.md)
     * [Set StrokeWidth](toolbox/incari/vector/setstrokewidth.md)
     * [Get StrokeWidth](toolbox/incari/vector/getstrokewidth.md)
+    * [Set LineWidth](toolbox/incari/vector/setlinewidth.md)
+    * [Get LineWidth](toolbox/incari/vector/getlinewidth.md)
   * [Video](toolbox/incari/video/README.md)
     * [Play Video](toolbox/incari/video/playvideo.md)
     * [Stop Video](toolbox/incari/video/stopvideo.md)
