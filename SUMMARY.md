@@ -4,6 +4,7 @@
 
 ## Demo Projects
 
+* [Introduction](demo-projects/introduction.md)
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
   
 ## Getting Started
