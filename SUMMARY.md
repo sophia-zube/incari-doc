@@ -136,6 +136,7 @@
   * [Vector](toolbox/incari/vector/README.md)
     * [Set BackgroundColor](toolbox/incari/vector/setbackgroundcolor.md)
     * [Get BackgroundColor](toolbox/incari/vector/getbackgroundcolor.md)
+    * [Set FillColor](toolbox/incari/vector/setfillcolor.md
     * [Get FillColor](toolbox/incari/vector/getfillcolor.md)
     * [Set ArcStart](toolbox/incari/vector/setarcstart.md)
     * [Set ArcEnd](toolbox/incari/vector/setarcend.md)

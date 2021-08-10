@@ -25,3 +25,6 @@ The **Get BackgroundColor Node** returns the **BackgroundColor** of the target *
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
 
+# See Also
+
+* [Set BackgroundColor**](setbackgroundcolor.md)

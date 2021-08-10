@@ -1,8 +1,8 @@
 # Overview
 
-![The Get FillColor Node.](../../../.gitbook/assets/getfillcolor.png)
+![The Set FillColor Node.](../../../.gitbook/assets/setfillcolor.png)
 
-The **Get FillColor Node** returns the **FillColor** of a **Vector Object** created in the **Scene Outliner Module**. 
+The **Set FillColor Node** sets the **FillColor** of a **Vector Object** created in the **Scene Outliner Module**. 
 
 # Attributes
 
@@ -26,4 +26,5 @@ The **Get FillColor Node** returns the **FillColor** of a **Vector Object** crea
 
 # See Also
 
-* [**Set FillColor**](setfillcolor.md)
+* [**Get FillColor**](getfillcolor.md)
+
