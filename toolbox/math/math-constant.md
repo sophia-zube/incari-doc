@@ -17,7 +17,7 @@ The **Math Constant** **Node** outputs a mathematical constant chosen out of thr
 
 |Output|Type|Description|
 |---|---|---|
-| `Value` | **Float** | The value of the mathematical constant chosen in `Type` |
+| `Value` | **Float** | The value of the mathematical constant chosen in `Type`. |
 
 # External Links
 

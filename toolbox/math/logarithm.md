@@ -32,7 +32,7 @@ This is the inverse function of the [**Power Node**](power.md). Rather than taki
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|**Float**|The *logarithm* of `Input` in the chosen *base*.|
+|`Exponent`|**Float**|The *logarithm* of `Input` in the chosen *base*.|
 
 # External Links
 
