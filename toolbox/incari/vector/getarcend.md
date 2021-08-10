@@ -2,7 +2,7 @@
 
 ![The Get ArcEnd Node.](../../../.gitbook/assets/getarcend.png)
 
-The **Get ArcEnd Node** returns the ending *arc degree* of an **Object**.
+The **Get ArcEnd Node** returns the ending *arc degree* of an **Arc Object**.
 
 # Attributes
 
