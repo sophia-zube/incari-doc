@@ -8,14 +8,14 @@ The **Set BackgroundColor Node** sets the **BackgroundColor** of the target **Ve
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **Object ID** | The target **Object**. |
+| `Object` | **ObjectID** | The target **Object**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **Object ID** | The ID of the target **Object**.|
+| `Object ID` | **ObjectID** | The ID of the target **Object**.|
 |`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
 
 
