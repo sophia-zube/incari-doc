@@ -16,5 +16,7 @@ The **Vector Nodes** .
 * [**Get ArcEnd**](getarcend.md)
 * [**Set StrokeWidth**](setstrokewidth.md)
 * [**Get StrokeWidth**](getstrokewidth.md)
+* [**Set LineWidth**](setlinewidth.md)
+* [**Get LineWidth**](getlinewidth.md)
 
 
