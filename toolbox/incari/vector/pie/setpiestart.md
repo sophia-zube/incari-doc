@@ -27,4 +27,6 @@ The **Set PieStart Node** sets the starting *degree value* of a **Pie Object** c
 # See Also
 
 * [**Set PieEnd**](setpieend.md)
+* [**Get PieStart**](getpiestart.md)
+* [**Get PieEnd**](getpieend.md)
 

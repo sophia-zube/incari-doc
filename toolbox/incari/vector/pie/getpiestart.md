@@ -27,4 +27,6 @@ The **Get PieStart Node** returns the starting *degree value* of a **Pie Object*
 
 # See Also
 
+* [**Set PieStart**](setpiestart.md)
+* [**Set PieEnd**](setpieend.md)
 * [**Get PieEnd**](getpieend.md)

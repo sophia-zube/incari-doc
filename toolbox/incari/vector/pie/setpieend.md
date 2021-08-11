@@ -27,3 +27,5 @@ The **Set PieEnd Node** sets the ending *degree value* of a **Pie Object** creat
 # See Also
 
 * [**Set PieStart**](setpiestart.md)
+* [**Get PieStart**](getpiestart.md)
+* [**Get PieEnd**](getpieend.md)
