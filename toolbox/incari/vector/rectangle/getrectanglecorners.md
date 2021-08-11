@@ -23,10 +23,10 @@ The **Get RectangleCorners Node** returns the **Corners** of a **Rectangle Objec
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`LineWidth`|**Int**| The **LineWidth** of the target **Object**.|
+|`RectangleCorners`|**Int**| The **RectangleCorners** of the target **Object**.|
 
 
 # See Also
 
-* [**Set LineWidth**](setlinewidth.md)
+* [**Set RectangleCorners**](setrectanglecorners.md)
 

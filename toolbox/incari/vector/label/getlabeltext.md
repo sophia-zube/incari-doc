@@ -1,27 +1,26 @@
 # Overview
 
-![The Getlabeltext Node.](../../../../.gitbook/assets/getlabeltext.png)
+![The Get LabelText Node.](../../../../.gitbook/assets/getlabeltext.png)
 
-**Getlabeltext** .
+The **Get LabelText Node** returns the **LabelText** of a **Label Object** created in the **Scene Outliner Module** under *Vector*. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The target **Object**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Object ID` | **ObjectID** | The ID of the target **Object**. |
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-
-# See Also
-
-# External Links
+|`LabelText`|**Int**| The **LabelText** of the target **Object**.|
 
