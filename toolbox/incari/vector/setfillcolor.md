@@ -16,13 +16,14 @@ The **Set FillColor Node** sets the **FillColor**, visualized as the inside colo
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
+|`FillColor`|**Color**| The **FillColor** of the target **Object**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`FillColor`|**Color**| The **FillColor** of the target **Object**.|
+
 
 # See Also
 
