@@ -1,6 +1,6 @@
 # Overview
 
-![The Set PieEnd Node.](../../../.gitbook/assets/setpieend.png)
+![The Set PieEnd Node.](../../../../.gitbook/assets/setpieend.png)
 
 The **Set PieEnd Node** sets the ending *degree value* of a **Pie Object** created in the **Scene Outliner Module** under *Vector*.
 
