@@ -27,4 +27,4 @@ The **Get BackgroundColor Node** returns the **BackgroundColor** of the target *
 
 # See Also
 
-* [Set BackgroundColor**](setbackgroundcolor.md)
+* [**Set BackgroundColor**](setbackgroundcolor.md)
