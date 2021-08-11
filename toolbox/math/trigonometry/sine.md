@@ -30,6 +30,8 @@ The **Sine Node** takes a single **Float** value, representing an angle, in degr
 ## See Also
 
 * [**Trigonometry**](./)
+* [**Arc Sine**](arc-sine.md)
+* [**Radian-Degree Converter**](radian-degree-converter.md)
 
 ## External Links
 
