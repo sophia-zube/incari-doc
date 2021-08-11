@@ -27,4 +27,6 @@ The **Get PieEnd Node** returns the ending *degree value* of a **Pie Object** cr
 
 # See Also
 
+* [**Set PieStart**](setpiestart.md)
+* [**Set PieEnd**](setpieend.md)
 * [**Get PieStart**](getpiestart.md)
