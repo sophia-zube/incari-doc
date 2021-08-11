@@ -17,6 +17,8 @@ The **Vector Nodes** .
 * [**Pie**](pie/README.md)
   * [**Set PieStart**](pie/setpiestart.md)
   * [**Set PieEnd**](pie/setpieend.md)
+  * [**Get PieStart**](pie/getpiestart.md)
+  * [*Get PieEnd**](pie/getpiestart.md)
 * [**Set BackgroundColor**](setbackgroundcolor.md)
 * [**Get BackgroundColor**](getbackgroundcolor.md)
 * [**Set FillColor**](setfillcolor.md)

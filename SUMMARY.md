@@ -146,6 +146,8 @@
     * [Pie](toolbox/incari/vector/pie/README.md)
       * [Set PieStart](toolbox/incari/vector/pie/setpiestart.md)
       * [Set PieEnd](toolbox/incari/vector/pie/setpieend.md)
+      * [Get PieStart](toolbox/incari/vector/pie/getpiestart.md)
+      * [Get PieEnd](toolbox/incari/vector/pie/getpieend.md)
     * [Set BackgroundColor](toolbox/incari/vector/setbackgroundcolor.md)
     * [Get BackgroundColor](toolbox/incari/vector/getbackgroundcolor.md)
     * [Set FillColor](toolbox/incari/vector/setfillcolor.md)
