@@ -8,7 +8,7 @@ Although **Booleans** themselves are conceptually simple, and take up very littl
 
 ## Boolean Value
 
-The [**Boolean Value Node_**](boolean-value.md) simply stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
+The [**Bool Value Node**](bool-value.md) simply stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
 
 ## Logical Operator Nodes
 
@@ -21,8 +21,8 @@ There is also the [**Negate Node**](negate.md), whose output is simply the **Boo
 
 ## Contents
 
-* [**Boolean Value_**](boolean-value.md)
 * [**AND**](and.md)
+* [**Bool Value_**](bool-value.md)
 * [**Negate**](negate.md)
 * [**OR**](or.md)
 
