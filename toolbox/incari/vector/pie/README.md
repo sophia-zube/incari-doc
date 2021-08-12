@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Pie Nodes** provide a means for a user to perform several adjustments on already created **Pie Objects**. A **Pie** is a type of **Vector Object** and can be found in the **Scene Outliner Module**. **Pies** are useful for adding visual aspects to a User Interface. One such application is a . *****need clarification
+The **Pie Nodes** provide a means for a user to perform several adjustments on already created **Pie Objects**. A **Pie** is a type of **Vector Object** and can be found in the **Scene Outliner Module**. **Pies** are useful for adding visual aspects to a **User Interface**, such as **Mask**, which is another feature in **Incari**. 
 
 ## Contents
 
