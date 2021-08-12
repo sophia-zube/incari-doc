@@ -22,5 +22,5 @@ The **Get LabelText Node** returns the **LabelText** of a **Label Object** creat
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`LabelText`|**Int**| The **LabelText** of the target **Object**.|
+|`LabelText`|**String**| The **LabelText** of the target **Object**.|
 
