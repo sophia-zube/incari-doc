@@ -2,13 +2,21 @@
 
 ![The Vector Value Node.]()
 
-**Vector Value** .
+The **Vector Value** **Node** generates a **Vector**, it can either be a **Vector2**, **Vector3**, or **Vector4**.
 
 # Attributes
 
+## Inputs
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Data Type` | **Drop-down** | Wheter a **Vector2**, **Vector3**, or **Vector4** will be generated.
 
+## Default
+
+|Attribute|Type|Description|
+|---|---|---|
+| `Value` | **Float
 # Inputs
 
 |Input|Type|Description|
