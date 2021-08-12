@@ -1,6 +1,6 @@
 # Overview
 
-![The Random Node.]()
+![The Random Node.](../../.gitbook/assets/node-random.png)
 
 The **Random** **Node** outputs a random number.
 
