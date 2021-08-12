@@ -10,7 +10,7 @@ The **Vector Value** **Node** generates a **Vector**, it can either be a **Vecto
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | Wheter a **Vector2**, **Vector3**, or **Vector4** will be generated. |
+| `Data Type` | **Drop-down** | Whether a **Vector2**, **Vector3**, or **Vector4** will be generated. |
 
 ## Default
 

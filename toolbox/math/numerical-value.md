@@ -2,7 +2,7 @@
 
 ![The Numerical Value Node.](../../.gitbook/assets/node-numerical-value.png)
 
-The **Numerical Value** **Node** generates a number, which can either be of **Data Type** **Int**, **Float**, or **Byte**.
+The **Numerical Value** **Node** generates a number, which can either be an **Int**, **Float**, or **Byte**.
 
 # Attributes
 
