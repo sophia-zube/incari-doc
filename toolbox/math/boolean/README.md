@@ -8,7 +8,7 @@ Although **Booleans** themselves are conceptually simple, and take up very littl
 
 ## Boolean Value
 
-The [**Boolean Value Node**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/math/boolean/boolean-value.md) simply stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
+The [**Boolean Value Node**](boolean-value.md) simply stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and can be modified and retrieved at runtime.
 
 ## Logical Operator Nodes
 
@@ -21,7 +21,7 @@ There is also the [**Negate Node**](negate.md), whose output is simply the **Boo
 
 ## Contents
 
-* [**Boolean Value**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/math/boolean/boolean-value.md)
+* [**Boolean Value**](boolean-value.md)
 * [**AND**](and.md)
 * [**Negate**](negate.md)
 * [**OR**](or.md)

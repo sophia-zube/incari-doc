@@ -174,6 +174,7 @@
   * [Average](toolbox/math/average.md)
   * [Boolean](toolbox/math/boolean/README.md)
     * [AND](toolbox/math/boolean/and.md)
+    * [Bool Value](toolbox/math/boolean/bool-value.md)
     * [Negate](toolbox/math/boolean/negate.md)
     * [OR](toolbox/math/boolean/or.md)
   * [Ceil](toolbox/math/ceil.md)
