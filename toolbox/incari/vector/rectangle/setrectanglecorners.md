@@ -17,7 +17,7 @@ The **Set RectangleCorners Node** sets the **Corners** of a **Rectangle Object**
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-|`RectangleCorners`|**Int**| The **RectangleCorners** of the target **Object**.|
+|`RectangleCorners`|**Vector2**| The **RectangleCorners** of the target **Object**.|
 
 
 # Outputs
