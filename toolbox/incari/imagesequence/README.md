@@ -8,7 +8,7 @@
 * [**Pause ImageSequence**](pauseimagesequence.md)
 * [**Stop ImageSequence**](stopimagesequence.md)
 * [**Resume ImageSequence**](resumeimagesequence.md)
-* [**Get Current ImageSequence Frame_**](getcurrentimagesequenceframe.md)
+* [**Get Current ImageSequence Frame**](getcurrentimagesequenceframe.md)
 
 ## See Also
 
