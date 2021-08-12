@@ -11,8 +11,8 @@ The **Rotation Matrix** **Node** receives three angles as inputs and generates a
 |Attribute|Type|Description|
 |---|---|---|
 | `Default Angle X`| **Float** | The angle, in degrees, along the X axis in which the _rotation_ will be performed, if no value is provided in the `Angle X in degree` **Socket**.  |
-| `Default Angle Y`| **Float** | The angle, in degrees, along the Y axis in which the _rotation_ will be performed, if no value is provided in the `Angle X in degree` **Socket**.  |
-| `Default Angle Z`| **Float** | The angle, in degrees, along the Z axis in which the _rotation_ will be performed, if no value is provided in the `Angle X in degree` **Socket**.  |
+| `Default Angle Y`| **Float** | The angle, in degrees, along the Y axis in which the _rotation_ will be performed, if no value is provided in the `Angle Y in degree` **Socket**.  |
+| `Default Angle Z`| **Float** | The angle, in degrees, along the Z axis in which the _rotation_ will be performed, if no value is provided in the `Angle Z in degree` **Socket**.  |
 # Inputs
 
 |Input|Type|Description|

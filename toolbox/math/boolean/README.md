@@ -22,7 +22,7 @@ There is also the [**Negate Node**](negate.md), whose output is simply the **Boo
 ## Contents
 
 * [**AND**](and.md)
-* [**Bool Value_**](bool-value.md)
+* [**Bool Value**](bool-value.md)
 * [**Negate**](negate.md)
 * [**OR**](or.md)
 
