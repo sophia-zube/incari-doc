@@ -187,6 +187,7 @@
   * [Divide](toolbox/math/divide.md)
   * [Floor](toolbox/math/floor.md)
   * [Increment](toolbox/math/increment.md)
+  * [Interpolate](toolbox/math/interpolate.md)
   * [Logarithm](toolbox/math/logarithm.md)
   * [Math Constant](toolbox/math/math-constant.md)
   * [Maximum](toolbox/math/maximum.md)
