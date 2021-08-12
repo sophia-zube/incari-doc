@@ -2,9 +2,8 @@
 
 ## Introduction
 
-The **Vector Nodes** provide a means for the user to perform several actions on the many types of **Vector Objects**. These **Vector Objects** can be created in the **Scene Outliner Module** and include **Arc**, **Line**, **Label**, **Pie**, **Ellipse**, and **Rectangle**. **Vector Objects** have some benefits over *Raster Graphics* for simple visual aspects in a **User Interface**, requiring less overhead. They are able to be scaled to inifinity, which allows for clear quality on large monitors; and **Attributes**, such as color (`Fill Color`) and size (`Scale`), can be changed dynamically using the **Vector Nodes**. This lends them to be a helpful alternative to **Animations** as they are not static, in comparison to a pixel image. However, **Vector Objects** are not recommended for more complicated visual designs. More information on the differences between *Vector Graphics* (such as a *SVG*) and *Raster Graphics* (such as a *PNG*) can be found on the Wikipedia page [here](https://en.wikipedia.org/wiki/Vector_graphics).
+The **Vector Nodes** provide a means for the user to perform several actions on the many types of **Vector Objects**. These **Vector Objects** can be created in the **Scene Outliner Module** and include **Arc**, **Line**, **Label**, **Pie**, **Ellipse**, and **Rectangle**. **Vector Objects** correspond to *Vector Graphics Objects* and, in contrast with *Raster Graphics Objects*, they can have their **BackgroundColor**, **FillColor** (the inside color of an **Object**), and **StrokeWidth** (the outline, the line drawn around the **Object**) modified. For the differences between *Vector Graphics* and *Raster Graphics* see the link at the end. 
 
-All **Vector Objects** can have their **BackgroundColor**, **FillColor** (the inside color of an **Object**), and **StrokeWidth** (the outside line of an **Object**) altered. 
 
 ## Contents
 
@@ -34,3 +33,6 @@ All **Vector Objects** can have their **BackgroundColor**, **FillColor** (the in
 * [**Get StrokeWidth**](getstrokewidth.md)
 
 
+# External Links
+
+* [*Vector Graphics vs. Raster Graphics*](https://en.wikipedia.org/wiki/Vector_graphics) on Wikipedia.
