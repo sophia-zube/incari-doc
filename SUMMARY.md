@@ -198,6 +198,7 @@
   * [Multiply](toolbox/math/multiply.md)
   * [Numerical Value](toolbox/math/numerical-value.md)
   * [Power](toolbox/math/power.md)
+  * [Random](toolbox/math/random.md)
   * [Range Mapper](toolbox/math/range-mapper.md)
   * [Root](toolbox/math/root.md)
   * [Rotation Matrix](toolbox/math/rotation-matrix.md)
