@@ -115,6 +115,8 @@
     * [Stop ImageSequence](toolbox/incari/imagesequence/stopimagesequence.md)
     * [Resume ImageSequence](toolbox/incari/imagesequence/resumeimagesequence.md)
     * [Get Current ImageSequence Frame](toolbox/incari/imagesequence/getcurrentimagesequenceframe.md)
+    * [Get ImageSequence Total Frames](toolbox/incari/imagesequence/getimagesequencetotalframes.md)
+    * [Go To Next ImageSequence Frame](toolbox/incari/imagesequence/gotonextimagesequenceframe.md)
   * [List](toolbox/incari/list/README.md)
     * [Generate List](toolbox/incari/list/generate-list.md)
     * [Next List Entry](toolbox/incari/list/next-list-entry.md)

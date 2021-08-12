@@ -9,6 +9,8 @@
 * [**Stop ImageSequence**](stopimagesequence.md)
 * [**Resume ImageSequence**](resumeimagesequence.md)
 * [**Get Current ImageSequence Frame**](getcurrentimagesequenceframe.md)
+* [**Get ImageSequence Total Frames**](getimagesequencetotalframes.md)
+* [**Go To Next ImageSequence Frame**](gotonextimagesequenceframe.md)
 
 ## See Also
 
