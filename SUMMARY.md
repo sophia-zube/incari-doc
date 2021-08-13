@@ -117,6 +117,8 @@
     * [Get Current ImageSequence Frame](toolbox/incari/imagesequence/getcurrentimagesequenceframe.md)
     * [Get ImageSequence Total Frames](toolbox/incari/imagesequence/getimagesequencetotalframes.md)
     * [Go To Next ImageSequence Frame](toolbox/incari/imagesequence/gotonextimagesequenceframe.md)
+    * [Go To Previous ImageSequence Frame](toolbox/incari/imagesequence/gotopreviousimagesequenceframe.md)
+    * [Show ImageSequence Frame](toolbox/incari/imagesequence/showimagesequenceframe.md)
   * [List](toolbox/incari/list/README.md)
     * [Generate List](toolbox/incari/list/generate-list.md)
     * [Next List Entry](toolbox/incari/list/next-list-entry.md)
