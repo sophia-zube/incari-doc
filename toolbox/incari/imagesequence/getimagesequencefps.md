@@ -25,3 +25,8 @@ The **Get ImageSequence Duration Node** returns the framerate of the **ImageSequ
 |`FPS`|**Float**|The framerate.|
 
 
+# See Also
+
+* [**Get ImageSequence Duration**](getimagesequenceduration.md)
+* [**Get Current ImageSequence Frame**](getcurrentimagesequenceframe.md)
+* [**Get Image Sequence Total Frames**](getimagesequencetotalframes.md)

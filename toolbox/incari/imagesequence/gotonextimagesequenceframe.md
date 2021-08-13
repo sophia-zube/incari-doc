@@ -16,7 +16,7 @@ The **Go To Next ImageSequence Frame Node** moves forward to the next frame on t
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**Object**|The ID of the target **Object**.|
-|`Wrap`|**Bool**|Set as true or false depending on....|
+|`Wrap`|**Bool**|Set as true or false for when the next index of the frame is out of range and whether should return to the first element or not. |
 
 # Outputs
 
@@ -28,3 +28,4 @@ The **Go To Next ImageSequence Frame Node** moves forward to the next frame on t
 
 # See Also
 
+# [**Go To Previous ImageSequence Frame**](gotopreviousimagesequenceframe.md)

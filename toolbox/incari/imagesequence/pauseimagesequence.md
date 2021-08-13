@@ -27,3 +27,4 @@
 
 * [**Play ImageSequence**](playimagesequence.md)
 * [**Stop ImageSequence**](stopimagesequence.md)
+* [**Resume ImageSequence**](resumeimagesequence.md)
