@@ -22,7 +22,7 @@
 |---|---|---|
 | `Type` | **Drop-down** | |
 | `Mode` | **Drop-down** | |
-| `Count`| **Int** (_Not available for `Mode` Once_) | |
+| `Count`| **Int** (_not available for `Mode` Once_) | |
 | `Infinite` | **Bool** | |
 # Inputs
 
