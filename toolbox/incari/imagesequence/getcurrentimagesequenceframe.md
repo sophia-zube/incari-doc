@@ -2,7 +2,7 @@
 
 ![The Get Current ImageSequence Frame Node.](../../../.gitbook/assets/getcurrentimagesequenceframe.png)
 
-The **Get Current ImageSequenceFrame Node** returns the current frame number of the selected **ImageSequence**.
+The **Get Current ImageSequence Frame Node** returns the current frame number of the selected **ImageSequence**.
 
 # Attributes
 
@@ -24,7 +24,7 @@ The **Get Current ImageSequenceFrame Node** returns the current frame number of 
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Frame No.`|**Int**|The **Int** value of the current frame index.|
 
-# See Also
+
 
 
 
