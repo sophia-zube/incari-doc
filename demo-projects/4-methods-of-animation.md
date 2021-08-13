@@ -95,7 +95,7 @@ While the **Pause ImageSequence** and **Stop ImageSequence** are quite self-expl
 * `Start Frame` / `End Frame` - This is the frame index that the animation will start and finish on. Setting these to -1 will tell **Incari** to start at the first frame and end at the last frame.
 * `Object` - The **Image Sequence Sprite Object**, which can be dragged from the **Scene Outliner** onto the **Node**.
 * `Play Mode` - Whether the animation will be played based on frames-per-second \(`FPS`\) or a duration \(`Time`\). The value of this **Attribute** will determine which of the following **Attributes** will be visible:
-  * `FPS` - The framerate of the animation. This may be preferable if the animation was exported at a specific framerate that you want to reflect in **Incari**.
+  * `FPS` - The frame rate of the animation. This may be preferable if the animation was exported at a specific frame rate that you want to reflect in **Incari**.
   * `Time` - The amount of time the animation will take from start to finish. This is useful for tweaking the duration of the animation and can incorporate frame blending using the `Interpolation Mode` **Attribute**.
 * `Interpolation Mode` - This determines whether the animation should fade between one frame and the next. `Constant` means that frames aren't blended, while `Linear` means that they are. This **Attribute** only has an effect when the `Play Mode` is set to `Time`.
 * `Loop Mode` - Whether the **Image Sequence** plays once \(`none`\), plays repeatedly \(`repeat`\), or ping-pongs backwards and forwards \(`alternate`\).
