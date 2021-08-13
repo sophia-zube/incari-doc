@@ -81,11 +81,15 @@ This **Attribute** has a **Drop-down** menu from which the _probability distribu
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Probability of 'true'` | **Float** | |
 
 * #### Binomial
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Data Type` | **Drop-down** | |
+| `Probability of 'true'` | **Float**  | |
+| `Number of trials` | **Int** | |
 
 * #### Cauchy
 
