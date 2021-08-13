@@ -27,31 +27,31 @@ This **Attribute** has a **Drop-down** menu from which the _probability distribu
 |---|---|---|
 | `Distribution` | **Drop-down** | The _probability distribution_ that the random number generator will use. |
 
-#### Bernoulli
+* #### Bernoulli
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Probability of 'true'` | **Float** | |
-#### Binomial
+* #### Binomial
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | |
 | `Probability of 'true'` | **Float** | |
 | `Number of trials` | **Int** | |
-#### Normal
+* #### Normal
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Mean` | **Float** | |
 | `Standard deviation` | **Float** | |
-#### Poisson
+* #### Poisson
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | |
 | `Mean` | **Float** | |
-#### Uniform
+* #### Uniform
 
 |Attribute|Type|Description|
 |---|---|---|
