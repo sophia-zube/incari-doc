@@ -19,4 +19,4 @@
 
 ## See Also
 
-* [**4 Methods of Animation**](../../../demo-projects/4-methods-of-animation#3-image-sequence.md)
+* [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#3-image-sequence)

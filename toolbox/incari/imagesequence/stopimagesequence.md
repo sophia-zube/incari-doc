@@ -27,3 +27,4 @@ The **Stop ImageSequence Node** ends an **ImageSequence** already playing during
 
 * [**Play ImageSequence**](playimagesequence.md)
 * [**Pause ImageSequence**](pauseimagesequence.md)
+* [**Resume ImageSequence**](resumeimagesequence.md)
