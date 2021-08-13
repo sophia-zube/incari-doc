@@ -12,7 +12,7 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 |`End Frame`|**Int**| The selected end frame. If -1, the end frame is the very last frame of the **ImageSequence**.|
 |`Object`|**ObjectID**|The target **Object**.|
 |`PlayMode`|**Dropdown**|The `PlayMode` type. Can be either *Frames per Second* or *Time*.|
-|`FPS`|**Int**|The number of *Frames per Second**.|
+|`FPS`|**Int**|The number of *Frames per Second*.|
 |`Interpolation Mode`|**Dropdown**|The `Interpolation Mode` type. Can be either *Constant* or *Linear*.| 
 |`Loop Mode`|**Dropdown**|The looping type. Can be *Alternate*, *None*, or *Repeat*.|
 |`PlayDirection`|**Dropdown**|The direction in which the **ImageSequence** plays. Can be `Backward` or `Forward`.|  
