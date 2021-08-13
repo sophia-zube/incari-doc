@@ -4,7 +4,7 @@
 
 The **Random** **Node** outputs a random number.
 
-This **Node** can be set to three different **Modes** (**Advanced**, **Expert**, and **Standard**). Each of these **Modes** 
+This **Node** can be set to three different **Modes** (**Advanced**, **Expert**, and **Standard**). Each of these **Modes** offer a different set of **Attributes**
 
 # Attributes
 
