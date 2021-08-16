@@ -2,7 +2,7 @@
 
 ![The Go To Previous ImageSequence Frame Node.](../../../.gitbook/assets/gotopreviousimagesequenceframe.png)
 
-The **Go To Previous ImageSequence Frame Node** moves backward to the previous frame on the **ImageSequence**.
+The **Go To Previous ImageSequence Frame Node** moves backwards to the previous frame on the **ImageSequence**.
 
 # Attributes
 
@@ -16,14 +16,14 @@ The **Go To Previous ImageSequence Frame Node** moves backward to the previous f
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**Object**|The ID of the target **Object**.|
-|`Wrap`|**Bool**|Set as true or false for when the next previous of the frame is out of range and whether should return to the last element or not.|
+|`Wrap`|**Bool**|Set as true or false when the previous frame is out of range and whether or not, it should return the previous element.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Frame`|**Int**|The index value of the previous frame.|
+|`Frame`|**Int**|The index of the previous frame.|
 
 
 # See Also
