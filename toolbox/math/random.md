@@ -2,7 +2,7 @@
 
 ![The Random Node.](../../.gitbook/assets/node-random.png)
 
-The **Random** **Node** generates a random number.
+The **Random** **Node** generates a random outcome, usually a number.
 
 This **Node** can be set to three different `Modes` (**Advanced**, **Expert**, and **Standard**). Each of these `Modes` offers a different set of **Attributes** that are explained below.
 
@@ -21,7 +21,7 @@ Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced*
 
 ### Distribution
 
-This **Attribute** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -31,26 +31,29 @@ This **Attribute** has a **Drop-down** menu from which the _probability distribu
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Probability of 'true'` | **Float** | |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability that the outcome will be _true_. |
+
 * #### Binomial
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | |
-| `Probability of 'true'` | **Float** | |
-| `Number of trials` | **Int** | |
+| `Data Type` | **Drop-down** | Whether the outcome will be an **Int** or **Byte**.|
+| `Probability of 'true'` | **Float** | The probability that the outcome of each trial is _true_. |
+| `Number of trials` | **Int** | The number of independent experiments performed, each with probability of success `Probability of 'true'`. |
 * #### Normal
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Mean` | **Float** | |
-| `Standard deviation` | **Float** | |
+| `Mean` | **Float** | The mean value of the distribution. |
+| `Standard deviation` | **Float** | The standard deviation of the distribution. |
+
 * #### Poisson
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | |
-| `Mean` | **Float** | |
+| `Data Type` | **Drop-down** | Wheter the outcome will be an **Int** or **Byte**. |
+| `Mean` | **Float** | The mean value of the distribution. |
+
 * #### Uniform
 
 |Attribute|Type|Description|
@@ -73,23 +76,25 @@ This **Attribute** has a **Drop-down** menu from which the _probability distribu
 
 ### Distribution
 
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Distribution` | **Drop-down** | |
+| `Distribution` | **Drop-down** | The _probability distribution_ that the random number generator will use. |
 
 * #### Bernoulli
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Probability of 'true'` | **Float** | |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability that the outcome will be _true_. |
 
 * #### Binomial
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | |
-| `Probability of 'true'` | **Float**  | |
-| `Number of trials` | **Int** | |
+| `Data Type` | **Drop-down** | Whether the outcome will be an **Int** or **Byte**.|
+| `Probability of 'true'` | **Float** | The probability that the outcome of each trial is _true_. |
+| `Number of trials` | **Int** | The number of independent experiments performed, each with probability of success `Probability of 'true'`. |
 
 * #### Cauchy
 
@@ -140,11 +145,16 @@ This **Attribute** has a **Drop-down** menu from which the _probability distribu
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Mean` | **Float** | The mean value of the distribution. |
+| `Standard deviation` | **Float** | The standard deviation of the distribution. |
 
 * #### Poisson
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Data Type` | **Drop-down** | Wheter the outcome will be an **Int** or **Byte**. |
+| `Mean` | **Float** | The mean value of the distribution. |
+
 
 * #### Student_T
 
