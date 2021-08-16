@@ -15,7 +15,7 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Frame`|**Int**|The index value of the desired frame.|
+|`Frame`|**Int**|The index of the desired frame. |
 
 # Outputs
 

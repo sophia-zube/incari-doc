@@ -2,7 +2,7 @@
 
 ![The Go To Next ImageSequence Frame Node.](../../../.gitbook/assets/gotonextimagesequenceframe.png)
 
-The **Go To Next ImageSequence Frame Node** moves forward to the next frame on the **ImageSequence**.
+The **Go To Next ImageSequence Frame Node** moves forward to the next frame of the **ImageSequence**.
 
 # Attributes
 
@@ -16,16 +16,16 @@ The **Go To Next ImageSequence Frame Node** moves forward to the next frame on t
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**Object**|The ID of the target **Object**.|
-|`Wrap`|**Bool**|Set as true or false for when the next index of the frame is out of range and whether should return to the first element or not. |
+|`Wrap`|**Bool**|Set as true or false when the next index of the frame is out of range and whether or not, it should return the next element.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Frame`|**Int**|The index value of the next frame.|
+|`Frame`|**Int**|The index of the next frame.|
 
 
 # See Also
 
-# [**Go To Previous ImageSequence Frame**](gotopreviousimagesequenceframe.md)
+* [**Go To Previous ImageSequence Frame**](gotopreviousimagesequenceframe.md)
