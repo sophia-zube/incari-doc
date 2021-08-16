@@ -73,10 +73,11 @@
 * [Communication](toolbox/communication/README.md)
   * [CAN](toolbox/communication/CAN/README.md)
   * [HTTP](toolbox/communication/HTTP/README.md)
+    * [Events](toolbox/communication/HTTP/events/README.md
+      * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
+      * [On HTTP Server Stop](toolbox/communication/HTTP/events/onhttpserverstop.md)
     * [HTTP Server Start](toolbox/communication/HTTP/httpserverstart.md)
     * [HTTP Server Stop](toolbox/communication/HTTP/httpserverstop.md)
-    * [On HTTP Server Start](toolbox/communication/HTTP/onhttpserverstart.md)
-    * [On HTTP Server Stop](toolbox/communication/HTTP/onhttpserverstop.md)
   * [MQTT](toolbox/communication/MQTT/README.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
