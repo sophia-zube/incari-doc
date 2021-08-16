@@ -2,7 +2,7 @@
 
 ![The Go To Previous ImageSequence Frame Node.](../../../.gitbook/assets/gotopreviousimagesequenceframe.png)
 
-The **Go To Previous ImageSequence Frame Node** moves backwards to the previous frame on the **ImageSequence**.
+The **Go To Previous ImageSequence Frame Node** moves backwards to the previous frame of the **ImageSequence**.
 
 # Attributes
 
