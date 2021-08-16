@@ -2,7 +2,7 @@
 
 ![The Get ImageSequence FPS Node.](../../../.gitbook/assets/getimagesequencefps.png)
 
-The **Get ImageSequence Duration Node** returns the frame rate of the **ImageSequence**.
+The **Get ImageSequence FPS Node** returns the frame rate of the **ImageSequence**.
 
 # Attributes
 

@@ -1,8 +1,8 @@
 # Overview
 
-![The Onhttpserverstop Node.](../../../../.gitbook/assets/onhttpserverstop.png)
+![The On HTTP Server Stop Node.](../../../../.gitbook/assets/onhttpserverstop.png)
 
-**Onhttpserverstop** .
+**On HTTP Server Stop** is an **Event Listener Node** that gives the user a way to perform an action once a server stops.
 
 # Attributes
 

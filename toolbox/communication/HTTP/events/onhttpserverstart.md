@@ -1,8 +1,8 @@
 # Overview
 
-![The Onhttpserverstart Node.](../../../../.gitbook/assets/onhttpserverstart.png)
+![The On HTTP Server Start Node.](../../../../.gitbook/assets/onhttpserverstart.png)
 
-**Onhttpserverstart** .
+**On HTTP Server Start** is an **Event Listener Node** that gives the user a way to perform an action once a server starts.
 
 # Attributes
 
