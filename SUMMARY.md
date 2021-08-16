@@ -74,8 +74,11 @@
   * [CAN](toolbox/communication/CAN/README.md)
   * [HTTP](toolbox/communication/HTTP/README.md)
     * [Events](toolbox/communication/HTTP/events/README.md
+      * [On HTTP Route](toolbox/communication/HTTP/events/onhttproute.md)
       * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
       * [On HTTP Server Stop](toolbox/communication/HTTP/events/onhttpserverstop.md)
+    * [HTTP Client](toolbox/communication/HTTP/httpclient.md)
+    * [HTTP Response](toolbox/communication/HTTP/httpresponse.md)
     * [HTTP Server Start](toolbox/communication/HTTP/httpserverstart.md)
     * [HTTP Server Stop](toolbox/communication/HTTP/httpserverstop.md)
   * [MQTT](toolbox/communication/MQTT/README.md)
