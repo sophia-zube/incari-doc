@@ -8,12 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Configuration`|**Dropdown**|???|
 
 # Outputs
 
@@ -23,5 +18,5 @@
 
 # See Also
 
-# External Links
+* [**On HTTP Server Stop**](onhttpserverstop.md)
 

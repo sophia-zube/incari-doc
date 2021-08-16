@@ -1,13 +1,14 @@
 # Overview
 
-![The Httpserverstart Node.](../../../.gitbook/assets/httpserverstart.png)
+![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstart.png)
 
-**Httpserverstart** .
+The **HTTP Server Start Node** starts access to the user's server.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|???|
 
 # Inputs
 
@@ -23,5 +24,5 @@
 
 # See Also
 
-# External Links
+* [**HTTP Server Stop**](httpserverstop.md)
 

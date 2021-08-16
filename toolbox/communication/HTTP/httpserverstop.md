@@ -1,13 +1,15 @@
 # Overview
 
-![The Httpserverstop Node.](../../../.gitbook/assets/httpserverstop.png)
+![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstop.png)
 
-**Httpserverstop** .
+
+The **HTTP Server Stop Node** stops access to the user's server.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|???|
 
 # Inputs
 
@@ -23,5 +25,7 @@
 
 # See Also
 
-# External Links
+* [**HTTP Server Start**](httpserverstart.md)
+
+
 
