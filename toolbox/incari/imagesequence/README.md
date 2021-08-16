@@ -1,6 +1,7 @@
 # ImageSequence
 
 ## Introduction
+The **ImageSequence Nodes** provide a means for the user to perform many actions on an **ImageSequence**, which can be added as an **ImageSequence Sprite** in the **Scene Outliner Module** after being created and edited in the **ImageSequence Editor**. **ImageSequences** are a good way to execute simple animations, such as a button being pressed, and a more in-depth explanation can be found in the **4 Methods of Animation** section which is linked below under **See Also**. 
 
 ## Contents
 
