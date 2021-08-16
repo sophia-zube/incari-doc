@@ -29,7 +29,7 @@ This **Mode** has a **Drop-down** menu from which the _probability distribution_
 
 Next, the **Attributes** for each _probability distribution_ are described. For each _probability distribution_, the link to its corresponding Wikipedia entry is given.
 
-* #### [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+* [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
 
 _Probability distribution_ of a _random variable_ that can take two values: _true_, with probability p; and _false_, with probability 1-p.
 When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
