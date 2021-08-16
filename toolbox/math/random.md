@@ -100,46 +100,63 @@ This **Mode** has a **Drop-down** menu from which the _probability distribution_
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Location` | **Float** | |
+| `Scale` | **Float** | |
 
 * #### Chi_Squared
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Degrees of freedom` | **Float** |  |
 
 * #### Exponential
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Rate` | **Float** |  |
 
 * #### Extreme_Value
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Location` | **Float** | |
+| `Scale` | **Float** | |
 
 * #### Fisher_F
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Denominator Dof` | **Float** | |
+| `Numerator DoF` | **Float** | |
 
 * #### Gamma
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Shape` | **Float** | |
+| `Scale` | **Float** | |
 
 * #### Geometric
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Data Type` | **Drop-down** | |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | |
 
 * #### Lognormal
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Mean` | **Float** | |
+| `Standard deviation` | **Float** | |
 
 * #### Negative_Binomial
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Data Type` | **Drop-down** | |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | |
+| `Number of trials` | **Float** | |
 
 * #### Normal
 
@@ -160,6 +177,7 @@ This **Mode** has a **Drop-down** menu from which the _probability distribution_
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Degrees of freedom` | **Float** | |
 
 * #### Uniform
 
@@ -172,6 +190,8 @@ This **Mode** has a **Drop-down** menu from which the _probability distribution_
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Shape` | **Float** | |
+| `Scale` | **Float** | |
 
 
 
