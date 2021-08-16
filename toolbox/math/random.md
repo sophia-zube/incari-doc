@@ -21,33 +21,43 @@ Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced*
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Distribution` | **Drop-down** | The _probability distribution_ that the random number generator will use. |
 
-* #### Bernoulli
+Next, the **Attributes** for each _probability distribution_ are described. For each _probability distribution_, the link to its corresponding Wikipedia entry is given.
+
+* #### [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
+
+_Probability distribution_ of a _random variable_ that can take two values: _true_, with probability p; and _false_, with probability 1-p.
+When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability that the outcome will be _true_. |
 
-* #### Binomial
+* #### [Binomial](https://en.wikipedia.org/wiki/Binomial_distribution)
+
+_Probability distribution_ of the number of successes in a sequence of independent experiment, each with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | Whether the outcome will be an **Int** or **Byte**.|
 | `Probability of 'true'` | **Float** | The probability that the outcome of each trial is _true_. |
-| `Number of trials` | **Int** | The number of independent experiments performed, each with probability of success `Probability of 'true'`. |
-* #### Normal
+| `Number of trials` | **Int** | The number of independent experiments, each with probability of success `Probability of 'true'`. |
+
+* #### [Normal](https://en.wikipedia.org/wiki/Normal_distribution)
+
+
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Mean` | **Float** | The mean value of the distribution. |
 | `Standard deviation` | **Float** | The standard deviation of the distribution. |
 
-* #### Poisson
+* #### [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -55,6 +65,8 @@ This **Mode** has a **Drop-down** menu from which the _probability distribution_
 | `Mean` | **Float** | The mean value of the distribution. |
 
 * #### Uniform
+
+_Probability distribution_ in which all the values in an interval are equally likely to be drawn. It can either be [continuous](https://en.wikipedia.org/wiki/Continuous_uniform_distribution) or [discrete](https://en.wikipedia.org/wiki/Discrete_uniform_distribution).
 
 |Attribute|Type|Description|
 |---|---|---|
