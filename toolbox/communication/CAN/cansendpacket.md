@@ -2,7 +2,7 @@
 
 ![The CAN Send Packet Node.](../../../.gitbook/assets/cansendpacket.png)
 
-The **CAN Send Packet Node** is used to send information, perhaps to update the status of a site after a **Signal** is received.
+The **CAN Send Packet Node** is used to send information elsewhere in the **CAN** network, perhaps to update the status of a site after a **Signal** is received.
 
 # Inputs
 

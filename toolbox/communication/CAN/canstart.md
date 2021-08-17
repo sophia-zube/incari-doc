@@ -2,7 +2,7 @@
 
 ![The CAN Start Node.](../../../.gitbook/assets/canstart.png)
 
-The **CAN Start Node** starts a **CAN** process.
+The **CAN Start Node** starts communication with a **CAN** network.
 
 
 # Inputs
