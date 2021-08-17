@@ -9,7 +9,7 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
-||`Topic`|**User Input**|The key in the **MQTT** key/value pair.|
+|`Topic`|**User Input**|The key in the **MQTT** key/value pair.|
 
 # Inputs
 
