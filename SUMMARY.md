@@ -83,6 +83,7 @@
     * [MQTT Start](toolbox/communication/MQTT/mqttstart.md)
     * [MQTT Stop](toolbox/communication/MQTT/mqttstop.md)
     * [MQTT Subscribe](toolbox/communication/MQTT/mqttsubscribe.md)
+    * [MQTT Publish](toolbox/communication/MQTT/mqttpublish.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
   * [Now \(UTC\)](toolbox/datetime/now-utc.md)
