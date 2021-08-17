@@ -2,12 +2,14 @@
 
 ![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribe.png)
 
-**MQTT Subscribe** .
+The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value pair.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
+|`Topic`|**User Input**|The key in the **MQTT** key/value pair.|
 
 # Inputs
 
@@ -23,5 +25,6 @@
 
 # See Also
 
-# External Links
-
+* [**MQTT Start**](mqttstart.md)
+* [**MQTT Stop**](mqttstop.md)
+* [**MQTT Publish**](mqttpublish.md)
