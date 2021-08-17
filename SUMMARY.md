@@ -72,7 +72,7 @@
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [Communication](toolbox/communication/README.md)
   * [CAN](toolbox/communication/CAN/README.md)
-    * [Events](toolbox/communicaton/CAN/events/README.md)
+    * [Events](toolbox/communication/CAN/events/README.md)
       * [On CAN Start](toolbox/communication/CAN/events/oncanstart.md)
       * [On CAN Stop](toolbox/communication/CAN/events/oncanstop.md)
       * [On CAN Packet Received](toolbox/communication/CAN/events/oncanpacketreceived.md)
