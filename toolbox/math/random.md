@@ -14,24 +14,26 @@ Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced*
 
 ### Generator
 
+This `Mode` allows to choose whether the random generator is deterministic or not, and for the deterministic case, the seed to use.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Is deterministic` | **Bool** | Whether the random number generator is deterministic or not. |
-| `Seed` | **Int** (*only available when `Is Deterministic` is set to _true_*)| The `Seed` to use for the deterministic random number generator. |
+| `Is deterministic` | **Bool** | Whether the random generator is deterministic or not. |
+| `Seed` | **Int** (*only available when `Is Deterministic` is set to _true_*)| The `Seed` to use for the deterministic random generator. |
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Distribution` | **Drop-down** | The _probability distribution_ that the random number generator will use. |
+| `Distribution` | **Drop-down** | The _probability distribution_ that the random generator will use. |
 
 Next, the **Attributes** for each _probability distribution_ are described. For each _probability distribution_, the link to its corresponding Wikipedia entry is given.
 
 * [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
 
-_Probability distribution_ of a _random variable_ that can take two values: _true_, with probability p; and _false_, with probability 1-p.
+_Probability distribution_ of a _random variable_ that can take two values: _true_, with probability p; and _false_, with probability 1-p. 
 When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
 
 |Attribute|Type|Description|
@@ -40,7 +42,7 @@ When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
 
 *  [Binomial](https://en.wikipedia.org/wiki/Binomial_distribution)
 
-_Probability distribution_ of the number of successes in a sequence of independent experiment, each with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each.
+_Probability distribution_ of the number of successes in a sequence of independent experiments, each with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -83,9 +85,11 @@ _Probability distribution_ in which all the values in an interval are equally li
 
 ### Generator
 
+This `Mode` allows to choose from a list of several types of random generators.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Generator` | **Drop-down** | |
+| `Generator` | **Drop-down** | The type of random generator to use. |
 | `Seed` | **Int** (*not available for non_deterministic `Generator`*) | The `Seed` to use for the random number generator. |
 
 ### Distribution
@@ -262,7 +266,7 @@ _Probability distribution_ in which all the values in an interval are equally li
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Output` | _Defined in the `Data Type` **Attribute**_ | The random outcome that was generated. |
+| `Output` | _Depends on the `Mode` and `Distribution`_ | The random outcome that was generated. |
 
 
 # External Links
