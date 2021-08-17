@@ -142,6 +142,8 @@ _Probability distribution_ of the time between events in a [Poisson process](htt
 
 *  [Extreme_Value](https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution)
 
+Limit distribution of properly normalized maxima of a sequence of independent and identically distributed random variables.
+
 |Attribute|Type|Description|
 |---|---|---|
 | `Location` | **Float** | Defines where the peak is. |
@@ -149,39 +151,49 @@ _Probability distribution_ of the time between events in a [Poisson process](htt
 
 *  [Fisher_F](https://en.wikipedia.org/wiki/F-distribution)
 
+Ratio of two independent random variables with chi-squared distributions, each divided by its corresponding number of degrees of freedom for scaling.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Denominator Dof` | **Float** | |
-| `Numerator DoF` | **Float** | |
+| `Denominator Dof` | **Float** | Degrees of freedom of the chi-squared random variable in the denominator. |
+| `Numerator DoF` | **Float** | Degrees of freedom of the chi-squared random variable in the numerator.|
 
 *  [Gamma](https://en.wikipedia.org/wiki/Gamma_distribution)
 
+Maximum entropy probability distribution for a random variable for which the mean is the product between the shape and scale, which are the two parameters of the Gamma distribution. 
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Shape` | **Float** | |
-| `Scale` | **Float** | |
+| `Shape` | **Float** | Modifies the shape of the probability distribution. |
+| `Scale` | **Float** | Defines how spread out are the values. |
 
 *  [Geometric](https://en.wikipedia.org/wiki/Geometric_distribution)
 
+The probability distribution of the number of experiments with a Bernoulli distribution needed to get one success.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | |
-| `Probability of 'true'` | **Float** (_between 0 and 1_) | |
+| `Data Type` | **Drop-down** | Whether the output is an **Int** or **Byte**. |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability of success in the Bernoulli trials. |
 
 *  [Lognormal](https://en.wikipedia.org/wiki/Log-normal_distribution)
 
+Probability distribution of a random variable whose logarithm has a normal distribution.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Mean` | **Float** | |
-| `Standard deviation` | **Float** | |
+| `Mean` | **Float** | The mean value of the logarithm of the distribution. |
+| `Standard deviation` | **Float** | The standard deviation of the logarithm of the distribution. |
 
 *  [Negative_Binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution)
 
+_Probability distribution_ of the number of successes in a sequence of independent experiment, each with two possible outcomes: success and failure, before a specified non-random number of failures occur. The parameters for this _probability distribution_ are the probability of a successful outcome in each experiment and the number of failures until the experiments stop.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Data Type` | **Drop-down** | |
-| `Probability of 'true'` | **Float** (_between 0 and 1_) | |
-| `Number of trials` | **Float** | |
+| `Data Type` | **Drop-down** | Whether the outcome is an **Int** or **Byte**. |
+| `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability that the outcome of each trial is _true_. |
+| `Number of trials` | **Int** | The number of failures to occurr until the experiments stop. |
 
 *  [Normal](https://en.wikipedia.org/wiki/Normal_distribution)
 
@@ -204,9 +216,11 @@ Discrete _probability distribution_ that expresses the probability of a given nu
 
 *  [Student_T](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
 
+_Probability distribution_ that arise when estimating the mean of a normally-distributed statistical population with a small sample size and unknown standard deviation. Its parameter is the number of degrees of freedom, which is the number of observations taken from a normal distribution minus one.
+
 |Attribute|Type|Description|
 |---|---|---|
-| `Degrees of freedom` | **Float** | |
+| `Degrees of freedom` | **Float** | The number of observations taken from a normal distribution minus one. As it grows, the Student-t distribution approaches a normal distribution. |
 
 *  Uniform
 
@@ -222,8 +236,8 @@ _Probability distribution_ in which all the values in an interval are equally li
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Shape` | **Float** | |
-| `Scale` | **Float** | |
+| `Shape` | **Float** | Defines the shape of the probability distribution. |
+| `Scale` | **Float** | Defined how spread out are the values of the probability distribution.  |
 
 
 
@@ -248,8 +262,10 @@ _Probability distribution_ in which all the values in an interval are equally li
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Output` | _Defined in the `Data Type` **Attribute**_ | The random number that was generated. |
+| `Output` | _Defined in the `Data Type` **Attribute**_ | The random outcome that was generated. |
 
 
 # External Links
 
+* [_Pseudorandom number generator_](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) on Wikipedia.
+* [_List of probability distributions_](https://en.wikipedia.org/wiki/List_of_probability_distributions) on Wikipedia.
