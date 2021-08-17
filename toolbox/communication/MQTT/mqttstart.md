@@ -26,6 +26,6 @@ The **MQTT Start Node** starts the **MQTT** connection.
 
 * [**MQTT Stop**](mqttstop.md)
 * [**MQTT Subscribe**](mqttsubscribe.md)
-* [**MQTT Publish_**](mqttpublish.md)
+* [**MQTT Publish**](mqttpublish.md)
   
 
