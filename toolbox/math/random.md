@@ -144,8 +144,8 @@ _Probability distribution_ of the time between events in a [Poisson process](htt
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Location` | **Float** | |
-| `Scale` | **Float** | |
+| `Location` | **Float** | Defines where the peak is. |
+| `Scale` | **Float** | Defines how spread out are the values. |
 
 *  [Fisher_F](https://en.wikipedia.org/wiki/F-distribution)
 
