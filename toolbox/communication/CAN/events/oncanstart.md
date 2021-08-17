@@ -12,5 +12,5 @@
 
 # See Also
 
-* [**On CAN Packet Received**](oncanpacketreceived)]
+* [**On CAN Packet Received**](oncanpacketreceived)
 * [**On CAN Stop**](oncanstop.md)
