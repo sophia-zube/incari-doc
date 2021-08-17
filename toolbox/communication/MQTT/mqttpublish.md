@@ -15,7 +15,7 @@ The **MQTT Publish Node** sends a message to a different location.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Topic`|**String**|The key in the **MQTT** key/value pair. In the form Topic/name.|
+|`Topic`|**String**|The key in the **MQTT** key/value pair, in the form *Topic/name*.|
 |`Message`|**String**|The value in the **MQTT** key/value pair.|
 
 # Outputs

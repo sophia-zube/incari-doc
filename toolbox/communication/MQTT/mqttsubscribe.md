@@ -9,7 +9,7 @@ The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value
 |Attribute|Type|Description|
 |---|---|---|
 |`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
-|`Topic`|**User Input**|The key in the **MQTT** key/value pair.|
+|`Topic`|**User Input**|The key in the **MQTT** key/value pair, in the form *Topic/name*.|
 
 # Inputs
 
