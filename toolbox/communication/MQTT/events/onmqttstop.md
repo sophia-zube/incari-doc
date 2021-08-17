@@ -10,12 +10,6 @@
 |---|---|---|
 |`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-
 # Outputs
 
 |Output|Type|Description|
