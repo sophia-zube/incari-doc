@@ -4,7 +4,7 @@
 
 #### Example Node
 
-![The Group Node.](../../.gitbook/assets/group%20%281%29.PNG)
+![The Group Node.](../../.gitbook/assets/GroupNew.png)
 
 A **Group Node** is used as a container for other **Logic**. As the color, opacity, size, and name can all be changed, it is very useful for management and organization.
 
