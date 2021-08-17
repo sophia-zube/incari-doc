@@ -94,11 +94,13 @@ This `Mode` allows to choose from a list of several types of random generators.
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Distribution` | **Drop-down** | The _probability distribution_ that the random generator will use. |
+
+Next, the **Attributes** for each _probability distribution_ are described. For each _probability distribution_, the link to its corresponding Wikipedia entry is given.
 
 *  [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
 
