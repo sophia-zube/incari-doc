@@ -94,7 +94,7 @@ This `Mode` allows to choose from a list of several types of random generators.
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
+This `Mode` has a **Drop-down** menu from which the _probability distribution_ to be used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -249,6 +249,7 @@ _Probability distribution_ in which all the values in an interval are equally li
 
 ## Standard
 
+This `Mode` only uses a uniform distribution. It can either be [discrete](https://en.wikipedia.org/wiki/Discrete_uniform_distribution) or [continuous](https://en.wikipedia.org/wiki/Continuous_uniform_distribution).
 ### Distribution
 
 |Attribute|Type|Description|
