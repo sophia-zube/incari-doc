@@ -72,6 +72,13 @@
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [Communication](toolbox/communication/README.md)
   * [CAN](toolbox/communication/CAN/README.md)
+    * [Events](toolbox/communicaton/CAN/events/README.md)
+      * [On CAN Start](toolbox/communication/CAN/events/oncanstart.md)
+      * [On CAN Stop](toolbox/communication/CAN/events/oncanstop.md)
+      * [On CAN Packet Received](toolbox/communication/CAN/events/oncanpacketreceived.md)
+    * [CAN Start](toolbox/communication/CAN/canstart.md)
+    * [CAN Stop](toolbox/communication/CAN/canstop.md)
+    * [CAN Send Packet](toolbox/communication/CAN/cansendpacket.md)
   * [HTTP](toolbox/communication/HTTP/README.md)
     * [Events](toolbox/communication/HTTP/events/README.md
       * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
