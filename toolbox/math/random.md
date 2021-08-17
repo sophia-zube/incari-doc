@@ -90,15 +90,15 @@ This `Mode` allows to choose from a list of several types of random generators.
 |Attribute|Type|Description|
 |---|---|---|
 | `Generator` | **Drop-down** | The type of random generator to use. |
-| `Seed` | **Int** (*not available for non_deterministic `Generator`*) | The `Seed` to use for the random number generator. |
+| `Seed` | **Int** (*not available for non_deterministic `Generator`*) | The `Seed` to use for the random generator. |
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random number generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes**, which are detailed below.
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Distribution` | **Drop-down** | The _probability distribution_ that the random number generator will use. |
+| `Distribution` | **Drop-down** | The _probability distribution_ that the random generator will use. |
 
 *  [Bernoulli](https://en.wikipedia.org/wiki/Bernoulli_distribution)
 
@@ -271,5 +271,6 @@ _Probability distribution_ in which all the values in an interval are equally li
 
 # External Links
 
+* [_Random number generation_](https://en.wikipedia.org/wiki/Random_number_generation) on Wikipedia.
 * [_Pseudorandom number generator_](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) on Wikipedia.
 * [_List of probability distributions_](https://en.wikipedia.org/wiki/List_of_probability_distributions) on Wikipedia.
