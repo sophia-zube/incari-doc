@@ -2,7 +2,7 @@
 
 ![The CAN Stop Node.](../../../.gitbook/assets/canstop.png)
 
-The **CAN Stop Node** halts the **CAN** process.
+The **CAN Stop Node** halts communication with a **CAN** network.
 
 # Inputs
 
