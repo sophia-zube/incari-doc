@@ -2,12 +2,13 @@
 
 ![The MQTT Stop Node.](../../../.gitbook/assets/mqttstop.png)
 
-**MQTT Stop** .
+The **MQTT Stop Node** stops the **MQTT** connection.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
 
 # Inputs
 
@@ -23,5 +24,7 @@
 
 # See Also
 
-# External Links
+* [**MQTT Start**](mqttstart.md)
+* [*MQTT Subscribe**](mqttsubscribe.md)
+* [**MQTT Publish**](mqttpublish.md)
 

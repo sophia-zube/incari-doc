@@ -2,12 +2,13 @@
 
 ![The MQTT Start Node.](../../../.gitbook/assets/mqttstart.png)
 
-**MQTT Start** .
+The **MQTT Start Node** starts the **MQTT** connection.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
 
 # Inputs
 
@@ -23,5 +24,8 @@
 
 # See Also
 
-# External Links
+* [**MQTT Stop**](mqttstop.md)
+* [**MQTT Subscribe**](mqttsubscribe.md)
+* [**MQTT Publish**](mqttpublish.md)
+  
 
