@@ -2,12 +2,7 @@
 
 ![The CAN Send Packet Node.](../../../.gitbook/assets/cansendpacket.png)
 
-**CAN Send Packet** .
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+The **CAN Send Packet Node** is used to send information, perhaps to update the status of a site after a **Signal** is received.
 
 # Inputs
 
@@ -23,5 +18,5 @@
 
 # See Also
 
-# External Links
-
+* [**CAN Start**](canstart.md)
+* [**CAN Stop**](canstop.md)

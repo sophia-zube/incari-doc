@@ -2,12 +2,7 @@
 
 ![The CAN Stop Node.](../../../.gitbook/assets/canstop.png)
 
-**CAN Stop** .
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+The **CAN Stop Node** halts the **CAN** process.
 
 # Inputs
 
@@ -23,5 +18,6 @@
 
 # See Also
 
-# External Links
+* [**CAN Start**](canstart.md)
+* [**CAN Send Packet**](cansendpacket.md)
 

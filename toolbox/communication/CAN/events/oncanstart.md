@@ -2,18 +2,7 @@
 
 ![The On CAN Start Node.](../../../../.gitbook/assets/oncanstart.png)
 
-**On CAN Start** .
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+**On CAN Start** is an **Event Listener Node** that gives the user a way to perform an action once a **CAN** process has begun.
 
 # Outputs
 
@@ -23,5 +12,5 @@
 
 # See Also
 
-# External Links
-
+* [**On CAN Packet Received**](oncanpacketreceived)]
+* [**On CAN Stop**](oncanstop.md)

@@ -2,19 +2,7 @@
 
 ![The On CAN Stop Node.](../../../../.gitbook/assets/oncanstop.png)
 
-**On CAN Stop** .
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-
+**On CAN Stop** is an **Event Listener Node** that gives the user a way to perform an action once a **CAN** process has ended.
 # Outputs
 
 |Output|Type|Description|
@@ -23,5 +11,5 @@
 
 # See Also
 
-# External Links
-
+* [**On CAN Start**](oncanstart.md)
+* [**On CAN Packet Received**](oncanpacketreceived.md)
