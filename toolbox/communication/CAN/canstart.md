@@ -2,12 +2,8 @@
 
 ![The CAN Start Node.](../../../.gitbook/assets/canstart.png)
 
-**CAN Start** .
+The **CAN Start Node** starts a **CAN** process.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
@@ -23,5 +19,5 @@
 
 # See Also
 
-# External Links
-
+* [**CAN Start**](canstart.md)
+* [**CAN Send Packet**](cansendpacket.md)
