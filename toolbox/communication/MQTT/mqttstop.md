@@ -26,5 +26,5 @@ The **MQTT Stop Node** stops the **MQTT** connection.
 
 * [**MQTT Start**](mqttstart.md)
 * [**MQTT Subscribe**](mqttsubscribe.md)
-* [**MQTT Publish_**](mqttpublish.md)
+* [**MQTT Publish**](mqttpublish.md)
 

@@ -27,4 +27,4 @@ The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value
 
 * [**MQTT Start**](mqttstart.md)
 * [**MQTT Stop**](mqttstop.md)
-* [**MQTT Publish_**](mqttpublish.md)
+* [**MQTT Publish**](mqttpublish.md)

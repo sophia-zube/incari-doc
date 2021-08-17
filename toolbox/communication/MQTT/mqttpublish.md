@@ -27,8 +27,9 @@ The **MQTT Publish Node** sends a message to a different location.
 # See Also
 
 * [**MQTT Start**](mqttstart.md)
+* [**MQTT Stop**](mqttstop.md)
 * [**MQTT Subscribe**](mqttsubscribe.md)
-* [**MQTT Publish**](mqttpublish.md)
+
 
 # External Links
 
