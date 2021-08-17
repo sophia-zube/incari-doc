@@ -2,12 +2,13 @@
 
 ![The On MQTT Stop Node.](../../../../.gitbook/assets/onmqttstop.png)
 
-The **On MQTT Stop Node** .
+**On MQTT Stop** is an **Event Listener Node** that gives the user a way to perform an action once a **MQTT** connection is disconnected.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
 
 # Inputs
 
@@ -23,5 +24,6 @@ The **On MQTT Stop Node** .
 
 # See Also
 
-# External Links
+* [**On MQTT Start**](onmqttstart.md)
+* [**On MQTT Topic**](onmqtttopic.md)
 

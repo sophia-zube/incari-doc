@@ -1,19 +1,14 @@
 # Overview
 
-![The On MQTT Start Node.](../../../../.gitbook/assets/onmqttstart.png))
+![The On MQTT Start Node.](../../../../.gitbook/assets/onmqttstart.png)
 
-The**On MQTT Start Node** .
+**On MQTT Start** is an **Event Listener Node** that gives the user a way to perform an action once a **MQTT** connection is established.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Configuration`|**Dropdown**|The connection, or signal name, that will be used.|
 
 # Outputs
 
@@ -23,5 +18,5 @@ The**On MQTT Start Node** .
 
 # See Also
 
-# External Links
-
+* [**On MQTT Stop**](onmqttstop.md)
+* [**On MQTT Topic**](onmqtttopic.md)
