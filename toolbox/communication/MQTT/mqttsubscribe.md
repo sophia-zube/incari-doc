@@ -28,3 +28,7 @@ The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value
 * [**MQTT Start**](mqttstart.md)
 * [**MQTT Stop**](mqttstop.md)
 * [**MQTT Publish**](mqttpublish.md)
+
+# External Links
+
+* [*An in-depth explanation of Topics*](http://www.steves-internet-guide.com/understanding-mqtt-topics/#:~:text=%20Understanding%20MQTT%20Topics%20%201%20The%20%24SYS,publish%20to%20an%20individual%20topic.%20That...%20More%20)

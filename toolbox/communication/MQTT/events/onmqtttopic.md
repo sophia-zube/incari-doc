@@ -2,7 +2,7 @@
 
 ![The On MQTT Topic Node.](../../../../.gitbook/assets/onmqtttopic.png)
 
-**On MQTT Topic** is an **Event Listener Node** that fires when it receives a `Topic`. 
+**On MQTT Topic** is an **Event Listener Node** that executes when it receives a `Topic`. 
 
 # Attributes
 
@@ -15,5 +15,8 @@
 # See Also
 
 * [**On MQTT Start**](onmqttstart.md)
-* [**On MQTT Topic**](onmqtttopic.md)
+* [**On MQTT Stop**](onmqttstop.md)
 
+# External Links
+
+* [*An in-depth explanation of Topics*](http://www.steves-internet-guide.com/understanding-mqtt-topics/#:~:text=%20Understanding%20MQTT%20Topics%20%201%20The%20%24SYS,publish%20to%20an%20individual%20topic.%20That...%20More%20)
