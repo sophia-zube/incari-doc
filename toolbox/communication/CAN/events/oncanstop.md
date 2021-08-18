@@ -2,7 +2,7 @@
 
 ![The On CAN Stop Node.](../../../../.gitbook/assets/oncanstop.png)
 
-**On CAN Stop** is an **Event Listener Node** that gives the user a way to perform an action once a **CAN** process has ended.
+**On CAN Stop** is an **Event Listener Node** allowing the user to perform an action once a **CAN** process has ended.
 # Outputs
 
 |Output|Type|Description|
