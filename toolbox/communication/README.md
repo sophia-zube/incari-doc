@@ -1,7 +1,7 @@
 
 # Introduction
 
-The *Communcation* category contains the **CAN**, **HTTP**, and **MQTT Nodes**. These **Nodes** represent the different messaging protocols and ways of communicating between devices that each encompass. 
+The **Communcation Nodes** (**CAN**, **HTTP**, and **MQTT**) represent the different messaging protocols and ways of communicating between devices that each one encompass. 
 
 # Content
 
