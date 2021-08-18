@@ -18,12 +18,12 @@ This `Mode` allows to choose whether the random generator is deterministic or no
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Is deterministic` | **Bool** | Whether the random generator is deterministic or not. |
+| `Is Deterministic` | **Bool** | Whether the random generator is deterministic or not. |
 | `Seed` | **Int** (*only available when `Is Deterministic` is set to _true_*)| The `Seed` to use for the deterministic random generator. |
 
 ### Distribution
 
-This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
+This **Mode** has a **Drop-down** menu from which the _probability distribution_ used for the random generator can be chosen. Each option offers its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -42,13 +42,13 @@ When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
 
 *  [Binomial](https://en.wikipedia.org/wiki/Binomial_distribution)
 
-_Probability distribution_ of the number of successes in a sequence of independent experiments, each with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each.
+_Probability distribution_ of the number of successes in a sequence of independent experiments, each one with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each one.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | Whether the outcome will be an **Int** or **Byte**.|
 | `Probability of 'true'` | **Float** | The probability that the outcome of each trial is _true_. |
-| `Number of trials` | **Int** | The number of independent experiments, each with probability of success `Probability of 'true'`. |
+| `Number of trials` | **Int** | The number of independent experiments, each one with probability of success `Probability of 'true'`. |
 
 *  [Normal](https://en.wikipedia.org/wiki/Normal_distribution)
 
@@ -94,7 +94,7 @@ This `Mode` allows to choose from a list of several types of random generators.
 
 ### Distribution
 
-This `Mode` has a **Drop-down** menu from which the _probability distribution_ to be used for the random generator can be chosen. Each option offers then its own set of **Attributes** with the _probability distribution_ parameters.
+This `Mode` has a **Drop-down** menu from which the _probability distribution_ to be used for the random generator can be chosen. Each option offers its own set of **Attributes** with the _probability distribution_ parameters.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -113,17 +113,17 @@ When this distribution is chosen, the outcome of the **Node** is a **Boolean**.
 
 *  [Binomial](https://en.wikipedia.org/wiki/Binomial_distribution)
 
-_Probability distribution_ of the number of successes in a sequence of independent experiment, each with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each.
+_Probability distribution_ of the number of successes in a sequence of independent experiment, each one with two possible outcomes: success and failure. The parameters for this _probability distribution_ are the number of experiments and the probability of a successful outcome in each one.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | Whether the outcome will be an **Int** or **Byte**.|
 | `Probability of 'true'` | **Float** | The probability that the outcome of each trial is _true_. |
-| `Number of trials` | **Int** | The number of independent experiments performed, each with probability of success `Probability of 'true'`. |
+| `Number of trials` | **Int** | The number of independent experiments performed, each one with probability of success `Probability of 'true'`. |
 
 *  [Cauchy](https://en.wikipedia.org/wiki/Cauchy_distribution)
 
-_Probability distribution_ that resembles a _normal_ distribution but with a taller peak and whose tails decay slower. Its parameter are the location of the peak and the scale, which defines its width.
+_Probability distribution_ that resembles a _normal_ distribution but with a taller peak, whose tails decay slower. Its parameters are the location of the peak and the scale - the latter defines its width.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -153,11 +153,11 @@ Limit distribution of properly normalized maxima of a sequence of independent an
 |Attribute|Type|Description|
 |---|---|---|
 | `Location` | **Float** | Defines where the peak is. |
-| `Scale` | **Float** | Defines how spread out are the values. |
+| `Scale` | **Float** | Defines how spread out the values are. |
 
 *  [Fisher_F](https://en.wikipedia.org/wiki/F-distribution)
 
-Ratio of two independent random variables with chi-squared distributions, each divided by its corresponding number of degrees of freedom for scaling.
+Ratio of two independent random variables with chi-squared distributions, each one divided by its corresponding number of degrees of freedom for scaling.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -166,7 +166,7 @@ Ratio of two independent random variables with chi-squared distributions, each d
 
 *  [Gamma](https://en.wikipedia.org/wiki/Gamma_distribution)
 
-Maximum entropy probability distribution for a random variable for which the mean is the product between the shape and scale, which are the two parameters of the Gamma distribution. 
+Maximum entropy probability distribution for a random variable, whose mean is the product between the shape and scale, which are the two parameters of the Gamma distribution. 
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -193,13 +193,13 @@ Probability distribution of a random variable whose logarithm has a normal distr
 
 *  [Negative_Binomial](https://en.wikipedia.org/wiki/Negative_binomial_distribution)
 
-_Probability distribution_ of the number of successes in a sequence of independent experiment, each with two possible outcomes: success and failure, before a specified non-random number of failures occur. The parameters for this _probability distribution_ are the probability of a successful outcome in each experiment and the number of failures until the experiments stop.
+_Probability distribution_ of the number of successes in a sequence of independent experiments, each with two possible outcomes: success and failure, before a specified non-random number of failures occur. The parameters for this _probability distribution_ are the probability of a successful outcome in each experiment and the number of failures until the experiments stop.
 
 |Attribute|Type|Description|
 |---|---|---|
 | `Data Type` | **Drop-down** | Whether the outcome is an **Int** or **Byte**. |
 | `Probability of 'true'` | **Float** (_between 0 and 1_) | The probability that the outcome of each trial is _true_. |
-| `Number of trials` | **Int** | The number of failures to occurr until the experiments stop. |
+| `Number of trials` | **Int** | The number of failures to occur until the experiments stop. |
 
 *  [Normal](https://en.wikipedia.org/wiki/Normal_distribution)
 
@@ -222,7 +222,7 @@ Discrete _probability distribution_ that expresses the probability of a given nu
 
 *  [Student_T](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
 
-_Probability distribution_ that arise when estimating the mean of a normally-distributed statistical population with a small sample size and unknown standard deviation. Its parameter is the number of degrees of freedom, which is the number of observations taken from a normal distribution minus one.
+_Probability distribution_ that arises when estimating the mean of a normally-distributed statistical population with a small sample size and unknown standard deviation. Its parameter is the number of degrees of freedom, which is the number of observations taken from a normal distribution minus one.
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -243,7 +243,7 @@ _Probability distribution_ in which all the values in an interval are equally li
 |Attribute|Type|Description|
 |---|---|---|
 | `Shape` | **Float** | Defines the shape of the probability distribution. |
-| `Scale` | **Float** | Defined how spread out are the values of the probability distribution.  |
+| `Scale` | **Float** | Defines how spread out the values of the probability distribution are.  |
 
 
 
