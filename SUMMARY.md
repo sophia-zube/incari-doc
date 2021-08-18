@@ -60,7 +60,10 @@
 ## Toolbox
 
 * [Actions](toolbox/actions/README.md)
-  * [Delay Action](toolbox/actions/delay-action.md)
+  * [MoveBy Action](toolbox/actions/movebyaction.md)
+  * [MoveTo Action](toolbox/actions/movetoaction.md)
+  * [ScaleBy Action](toolbox/actions/scaleby.md)
+  * [ScaleTo Action](toolbox/actions/scaleto.md)
 * [Array](toolbox/array/README.md)
   * [Array Value](toolbox/array/array-value.md)
   * [Clear Array](toolbox/array/clear-array.md)
