@@ -1,19 +1,23 @@
 # Overview
 
-![The On Mouse Button Down Node.]()
+![The On Mouse Button Down Node.](../../../.gitbook/assets/node-on-mouse-button-down.png)
 
-**On Mouse Button Down** .
+**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when the mouse down button is pressed on an **Object**.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Object** in which a pressing the down button triggers the **Logic Branch**.|
 
-# Inputs
+## Button
 
-|Input|Type|Description|
+|Attribute|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Mouse Button` | **Drop-down** | |
+
 
 # Outputs
 
@@ -23,5 +27,7 @@
 
 # See Also
 
-# External Links
+* [**Events**](../README.md)
+* [**Mouse**](README.md).
+
 

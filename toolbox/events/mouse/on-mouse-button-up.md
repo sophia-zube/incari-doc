@@ -1,19 +1,23 @@
 # Overview
 
-![The On Mouse Button Up Node.]()
+![The On Mouse Button Up Node.](../../../.gitbook/assets/node-on-mouse-button-up.png)
 
-**On Mouse Button Up** .
+**On Mouse Button Up** is an **Event Listener** **Node** used for executing a **Logic Branch** when the mouse up button is pressed on an **Object**.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Object** in which a pressing the up button triggers the **Logic Branch**.|
 
-# Inputs
+## Button
 
-|Input|Type|Description|
+|Attribute|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Mouse Button` | **Drop-down** | |
+
 
 # Outputs
 
@@ -23,5 +27,7 @@
 
 # See Also
 
-# External Links
+* [**Events**](../README.md)
+* [**Mouse**](README.md).
+
 
