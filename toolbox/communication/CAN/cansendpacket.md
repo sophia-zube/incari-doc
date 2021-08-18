@@ -8,7 +8,7 @@ The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN**
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Message Name`|**Dropdown**|The selected `Message` from uploaded *DBC* file.|
+|`Message Name`|**Dropdown**|The selected `Message` from the uploaded *DBC* file.|
 
 # Inputs
 
