@@ -19,5 +19,5 @@ The **CAN Start Node** starts communication with a **CAN** network.
 
 # See Also
 
-* [**CAN Start**](canstart.md)
+* [**CAN Stop**](canstop.md)
 * [**CAN Send Packet**](cansendpacket.md)
