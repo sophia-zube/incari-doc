@@ -79,8 +79,8 @@
     * [CAN Start](toolbox/communication/CAN/canstart.md)
     * [CAN Stop](toolbox/communication/CAN/canstop.md)
     * [CAN Send Packet](toolbox/communication/CAN/cansendpacket.md)
-  <!---
   * [HTTP](toolbox/communication/HTTP/README.md)
+  <!---
     * [Events](toolbox/communication/HTTP/events/README.md
       * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
       * [On HTTP Server Stop](toolbox/communication/HTTP/events/onhttpserverstop.md)
