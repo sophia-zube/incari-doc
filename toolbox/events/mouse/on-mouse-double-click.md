@@ -1,19 +1,23 @@
 # Overview
 
-![The On Mouse Double Click Node.]()
+![The On Mouse Double Click Node.](../../../.gitbook/assets/node-on-mouse-click.png)
 
-**On Mouse Double Click** .
+**On Mouse Double Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is double-clicked.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Object** in which a double click triggers the **Logic Branch**.|
 
-# Inputs
+## Button
 
-|Input|Type|Description|
+|Attribute|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Mouse Button` | **Drop-down** | Whether a double click with the left, middle or right button of the mouse will trigger the **Logic**. |
+
 
 # Outputs
 
@@ -23,5 +27,6 @@
 
 # See Also
 
-# External Links
+* [**Events**](../README.md)
+* [**Mouse**](README.md)
 
