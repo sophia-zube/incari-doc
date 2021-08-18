@@ -2,7 +2,7 @@
 
 ![The CAN Send Packet Node.](../../../.gitbook/assets/cansendpacket.png)
 
-The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN** network, once a **CAN** `Message` is selected from the **Dropdown Menu** and a **Signal** has been received.
+The **CAN Send Packet Node** is used to send a data Packet along the **CAN** network, once a **CAN** `Message` is selected from the **Dropdown Menu** and a **Signal** has been received.
 
 # Attributes
 
