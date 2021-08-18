@@ -79,12 +79,14 @@
     * [CAN Start](toolbox/communication/CAN/canstart.md)
     * [CAN Stop](toolbox/communication/CAN/canstop.md)
     * [CAN Send Packet](toolbox/communication/CAN/cansendpacket.md)
+  <!---
   * [HTTP](toolbox/communication/HTTP/README.md)
     * [Events](toolbox/communication/HTTP/events/README.md
       * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
       * [On HTTP Server Stop](toolbox/communication/HTTP/events/onhttpserverstop.md)
     * [HTTP Server Start](toolbox/communication/HTTP/httpserverstart.md)
     * [HTTP Server Stop](toolbox/communication/HTTP/httpserverstop.md)
+  --->
   * [MQTT](toolbox/communication/MQTT/README.md)
     * [Events](toolbox/communication/MQTT/events/README.md)
       * [On MQTT Start](toolbox/communication/MQTT/events/onmqttstart.md)
