@@ -32,6 +32,7 @@ The **FadeTo Action Node** diminishes the opacity of an **Animation** to the des
 
 # See Also
 
+* [**FadeFromTo Action**](fadefromtoaction.md)
 
 # External Links
 
