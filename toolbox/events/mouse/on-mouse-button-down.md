@@ -10,7 +10,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | The **Object** in which a pressing the down button triggers the **Logic Branch**.|
+| `Object` | **ObjectID** | The **Object** in which a pressing of the button triggers the **Logic Branch**.|
 
 ## Button
 
