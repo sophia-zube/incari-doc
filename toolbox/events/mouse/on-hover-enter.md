@@ -1,27 +1,29 @@
 # Overview
 
-![The On Hover Enter Node.]()
+![The On Hover Enter Node.](../../../.gitbook/assets/node-on-hover-enter.png)
 
-**On Hover Enter** .
+**On Hover Enter** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor starts hovering over an **Object**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Object** in which start hovering triggers the **Logic Branch**.|
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `Position` | **Vector2** | |
 
 # See Also
 
+* [**Events**](../README.md)
+* [**Mouse**](README.md)
+
 # External Links
+
+* [_Mouseover_](https://en.wikipedia.org/wiki/Mouseover) on Wikipedia.
 
