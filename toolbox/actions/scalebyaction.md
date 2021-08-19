@@ -37,5 +37,5 @@ The **ScaleBy Action Node** scales an **Animation** by the numbers specified in 
 
 # External Links
 
-* [Scaling (geometry)](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
+* [*Scaling (geometry)*](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
 

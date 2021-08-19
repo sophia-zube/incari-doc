@@ -2,7 +2,7 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoaction.png)
 
-The **ScaleTo Node** scales an **Animation** to the *xyz* coordinates specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
+The **ScaleTo Action Node** scales an **Animation** to the *xyz* coordinates specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 .
 
 # Attributes
@@ -36,4 +36,4 @@ The **ScaleTo Node** scales an **Animation** to the *xyz* coordinates specified 
 * [**ScaleBy**](scalebyaction.md)
 # External Links
 
-* [Scaling (geometry)](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
+* [*Scaling (geometry)*](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.

@@ -1,8 +1,8 @@
 # Overview
 
-![The Move To Action Node.](../../.gitbook/assets/movetoaction.png)
+![The MoveTo Action Node.](../../.gitbook/assets/movetoaction.png)
 
-The **Move To Action Node** moves an **Animation** to the coordinates specified in the `Offset` for the `Duration` (in seconds), in either **Attributes** or **Inputs**. 
+The **MoveTo Action Node** moves an **Animation** to the coordinates specified in the `Offset` for the `Duration` (in seconds), in either **Attributes** or **Inputs**. 
 
 # Attributes
 
