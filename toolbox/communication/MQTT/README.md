@@ -1,7 +1,7 @@
 
 # Introduction
 
-The **MQTT Nodes** provide a means for the user to perform several actions within the *MQTT* messaging protocol. *MQTT*, or *Message Queuing Telemetry Transport*, allows for communication among devices and is commonly used for *IoT* technology. To use the **MQTT Nodes** in *Incari*, the user needs to locate the **MQTT Attributes**  in **Project Settings** and add a `Connection`  to gain full functionality of the **Nodes**.
+The **MQTT Nodes** provide a means for the user to perform several actions within the *MQTT* messaging protocol. *MQTT*, or *Message Queuing Telemetry Transport*, allows the communication among devices and is commonly used in *IoT* applications. To use the **MQTT Nodes** in *Incari*, the user needs to locate the **MQTT Attributes**  in **Project Settings** and add a `Connection`.
 
 # Contents
 
