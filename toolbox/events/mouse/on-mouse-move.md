@@ -2,26 +2,26 @@
 
 ![The On Mouse Move Node.](../../../.gitbook/assets/node-on-mouse-move.png)
 
-**On Mouse Move** .
+**On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves within an **Object**..
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Object** in which moving with the cursor triggers the **Logic Branch**.|
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `Position` | **Vector2** | **Vector** containing the X-Y coordinates of the points through which the cursor passes with respect to the bottom left of the **Screen**.|
 
 # See Also
 
-# External Links
+* [**Events**](../README.md)
+* [**Mouse**](README.md)
+
+
 

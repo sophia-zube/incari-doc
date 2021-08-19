@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | The **Object** in which starting hovering triggers the **Logic Branch**.|
+| `Object` | **ObjectID** | The **Object** in which start hovering triggers the **Logic Branch**.|
 
 
 # Outputs
