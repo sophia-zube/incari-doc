@@ -28,6 +28,6 @@
 # See Also
 
 * [**Events**](../README.md)
-* [**Mouse**](README.md).
+* [**Mouse**](README.md)
 
 
