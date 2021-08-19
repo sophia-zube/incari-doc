@@ -60,8 +60,11 @@
 ## Toolbox
 
 * [Actions](toolbox/actions/README.md)
+  * [FadeTo Action](toolbox/actions/fadetoaction.md)
   * [MoveBy Action](toolbox/actions/movebyaction.md)
   * [MoveTo Action](toolbox/actions/movetoaction.md)
+  * [RotateBy Action](toolbox/actions/rotatebyaction.md)
+  * [RotateTo Action](toolbox/actions/rotatetoaction.md)
   * [ScaleBy Action](toolbox/actions/scalebyaction.md)
   * [ScaleTo Action](toolbox/actions/scaletoaction.md)
 * [Array](toolbox/array/README.md)
