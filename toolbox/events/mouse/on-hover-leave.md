@@ -8,14 +8,14 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | The **Object** in which start hovering triggers the **Logic Branch**.|
+| `Object` | **ObjectID** | The **Object** in which stopping hovering triggers the **Logic Branch**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Position` | **Vector2** | |
+| `Position` | **Vector2** | **Vector** containing the X-Y coordinates of the point of exit with respect to the bottom left of the **Screen**. |
 
 # See Also
 
