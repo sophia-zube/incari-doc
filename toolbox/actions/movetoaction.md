@@ -26,7 +26,7 @@ The **Move To Action Node** moves an **Animation** to the coordinates specified 
 
 |Output|Type|Description|
 |---|---|---|
-|`Instance ID`|**InstanceID**|The assinged **Instance** of an **Animation**??.|
+|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Animation**??.|
 |`OnStart` (►)|**Pulse**|Flows to additional actions following **MoveTo Action** if the **Action** is executed.|
 |`OnEnd` (►)|**Pulse**|Flows to additional actions following **MoveTo Action** if the **Action** stops.|
 
