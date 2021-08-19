@@ -1,6 +1,6 @@
 # Overview
 
-![The On Mouse Scroll Node.]()
+![The On Mouse Scroll Node.](../../../.gitbook/assets/node-on-mouse-scroll.png)
 
 **On Mouse Scroll** .
 

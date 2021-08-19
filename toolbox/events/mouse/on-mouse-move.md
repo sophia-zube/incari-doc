@@ -1,6 +1,6 @@
 # Overview
 
-![The On Mouse Move Node.]()
+![The On Mouse Move Node.](../../../.gitbook/assets/node-on-mouse-move.png)
 
 **On Mouse Move** .
 

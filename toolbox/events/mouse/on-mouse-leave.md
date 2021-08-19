@@ -1,6 +1,6 @@
 # Overview
 
-![The On Mouse Leave Node.]()
+![The On Mouse Leave Node.](../../../.gitbook/assets/node-on-mouse-leave.png)
 
 **On Mouse Leave** .
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The On Mouse Enter Node.]()
+![The On Mouse Enter Node.](../../../.gitbook/assets/node-on-mouse-enter.png)
 
 **On Mouse Enter** .
 
