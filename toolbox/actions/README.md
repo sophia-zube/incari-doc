@@ -12,3 +12,7 @@
 * [**RotateFromTo Action**](rotatefromtoaction.md)
 * [**ScaleBy Action**](scalebyaction.md)
 * [**ScaleTo Action**](scaletoaction.md)
+
+# See Also 
+
+* * [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
