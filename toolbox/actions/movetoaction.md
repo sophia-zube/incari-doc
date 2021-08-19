@@ -8,7 +8,7 @@ The **Move To Action Node** moves an **Animation** to the coordinates specified 
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Offset`|**Vector3**|???.|
+|`To`|**Vector3**|The desired *xyz* coordinates.|
 |`Duration`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
@@ -16,7 +16,7 @@ The **Move To Action Node** moves an **Animation** to the coordinates specified 
 
 |Input|Type|Description|
 |---|---|---|
-|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Animation**??.|
+|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Object**.|
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
@@ -26,7 +26,7 @@ The **Move To Action Node** moves an **Animation** to the coordinates specified 
 
 |Output|Type|Description|
 |---|---|---|
-|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Animation**??.|
+|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
 |`OnStart` (►)|**Pulse**|Flows to additional actions following **MoveTo Action** if the **Action** is executed.|
 |`OnEnd` (►)|**Pulse**|Flows to additional actions following **MoveTo Action** if the **Action** stops.|
 
