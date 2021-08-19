@@ -1,19 +1,26 @@
 # Overview
 
-![The ScaleBy Node.](../../.gitbook/assets/scalebyaction.png)
+![The ScaleBy Action Node.](../../.gitbook/assets/scalebyaction.png)
 
-**ScaleBy** .
+**ScaleBy Action** moves an **Animation** by the numbers specified in `By` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Offset`|**Vector3**|???.|
+|`Duration`|**Float**|The total time of the **Action**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Animation**??.|
+|(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The ID of the target **Object**.|
+|`Duration`|**Float**|The total time (in seconds).|
+|`By`|**Vector3**|The amount to scale the **Animation** by within 3D space.|
 
 # Outputs
 
