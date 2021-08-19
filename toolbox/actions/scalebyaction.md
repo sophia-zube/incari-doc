@@ -1,8 +1,8 @@
 # Overview
 
-![The Scaleby Node.](../../.gitbook/assets/scalebyaction.png)
+![The ScaleBy Node.](../../.gitbook/assets/scalebyaction.png)
 
-**Scaleby** .
+**ScaleBy** .
 
 # Attributes
 

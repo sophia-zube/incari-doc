@@ -2,7 +2,7 @@
 
 ![The MoveBy Action Node.](../../.gitbook/assets/movebyaction.png)
 
-The **MoveBy Action Node** .
+The **MoveBy Action Node** moves an **Animation** by the numbers specified in the `Offset` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 
 # Attributes
 
@@ -20,15 +20,20 @@ The **MoveBy Action Node** .
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`Offset`|
+|`Offset`|**Vector3**|???.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Instance ID`|**InstanceID**|The assinged **Instance** of an **Animation**??.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **MoveBy Action** if the **Action** is executed.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **MoveBy Action** if the **Action** stops.|
 
 # See Also
 
+* [**MoveTo Action**](movetoaction.md)
+
 # External Links
 
+* [*Position (geometry)*](https://en.wikipedia.org/wiki/Position_(geometry)) on Wikipedia. 
