@@ -54,5 +54,5 @@ The **Interpolate** **Node** calculates intermediate values between an initial a
   
 # External Links
 
-* [How to use Interpolation Node? part A | Incari Studio Tutorial](https://www.youtube.com/watch?v=StFmsERQJTs) on Youtube.
-* [How to use Interpolation Node? part B | Incari Studio Tutorial](https://www.youtube.com/watch?v=v-xG_oa0tLI) on Youtube.
+* [_How to use Interpolation Node? part A | Incari Studio Tutorial_](https://www.youtube.com/watch?v=StFmsERQJTs) on Youtube.
+* [_How to use Interpolation Node? part B | Incari Studio Tutorial_](https://www.youtube.com/watch?v=v-xG_oa0tLI) on Youtube.
