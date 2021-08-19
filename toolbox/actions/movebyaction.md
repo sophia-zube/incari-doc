@@ -16,7 +16,7 @@ The **MoveBy Action Node** moves an **Animation** by the numbers specified in th
 
 |Input|Type|Description|
 |---|---|---|
-|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Animation**??.|
+|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Object**.|
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
@@ -26,7 +26,7 @@ The **MoveBy Action Node** moves an **Animation** by the numbers specified in th
 
 |Output|Type|Description|
 |---|---|---|
-|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Animation**??.|
+|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
 |`OnStart` (►)|**Pulse**|Flows to additional actions following **MoveBy Action** if the **Action** is executed.|
 |`OnEnd` (►)|**Pulse**|Flows to additional actions following **MoveBy Action** if the **Action** stops.|
 
