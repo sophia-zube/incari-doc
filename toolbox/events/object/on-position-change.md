@@ -1,6 +1,6 @@
 # Overview
 
-![The On Position Change Node.]()
+![The On Position Change Node.](../../../.gitbook/assets/node-on-position-change.png)
 
 **On Position Change** .
 

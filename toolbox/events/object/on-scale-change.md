@@ -1,6 +1,6 @@
 # Overview
 
-![The On Scale Change Node.]()
+![The On Scale Change Node.](../../../.gitbook/assets/node-on-scale-change.png)
 
 **On Scale Change** .
 
