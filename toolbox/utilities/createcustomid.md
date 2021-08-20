@@ -2,12 +2,8 @@
 
 ![The Create CustomID Node.](../../.gitbook/assets/createcustomid.png)
 
-The **Create CustomID Node** .
+Everything in *Incari* has a unique ID number, from **Assets** to **Nodes** to **Variables**. The **Create CustomID Node** creates a new unique ID.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
@@ -20,8 +16,5 @@ The **Create CustomID Node** .
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-
-# See Also
-
-# External Links
+|`Output`|**CustomID**|A unique ID number.|
 
