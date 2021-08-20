@@ -9,7 +9,7 @@ The **ScaleBy Action Node** scales an **Animation** by the numbers specified in 
 |Attribute|Type|Description|
 |---|---|---|
 |`By`|**Vector3**| The amount to be scaled by.|
-|`Duration`|**Float**|The total time of the **Action**.|
+|`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
 # Inputs
@@ -27,8 +27,8 @@ The **ScaleBy Action Node** scales an **Animation** by the numbers specified in 
 |Output|Type|Description|
 |---|---|---|
 |`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
-|`OnStart` (►)|**Pulse**|Flows to additional actions following **ScaleBy Action** if the **Action** is executed.|
-|`OnEnd` (►)|**Pulse**|Flows to additional actions following **ScaleBy Action** if the **Action** stops.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **ScaleBy Action** when the **Action** starts.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **ScaleBy Action** when the **Action** stops.|
 
 
 # See Also

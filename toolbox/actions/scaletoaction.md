@@ -10,7 +10,7 @@ The **ScaleTo Action Node** scales an **Animation** to the *xyz* coordinates spe
 |Attribute|Type|Description|
 |---|---|---|
 |`To`|**Vector3**| The *xyz* coordinates to scale to.|
-|`Duration`|**Float**|The total time of the **Action**.|
+|`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
 # Inputs

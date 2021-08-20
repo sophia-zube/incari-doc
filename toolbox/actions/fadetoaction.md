@@ -8,7 +8,7 @@ The **FadeTo Action Node** diminishes the opacity of an **Animation** to the des
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Duration`|**Float**|The total time of the **Action**.|
+|`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`To`|**Float**|The desired opacity value at the end of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
@@ -27,8 +27,8 @@ The **FadeTo Action Node** diminishes the opacity of an **Animation** to the des
 |Output|Type|Description|
 |---|---|---|
 |`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
-|`OnStart` (►)|**Pulse**|Flows to additional actions following **FadeTo Action** if the **Action** is executed.|
-|`OnEnd` (►)|**Pulse**|Flows to additional actions following **FadeTo Action** if the **Action** stops.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **FadeTo Action** when the **Action** starts.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **FadeTo Action** when the **Action** stops.|
 
 # See Also
 
