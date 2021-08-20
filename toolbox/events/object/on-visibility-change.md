@@ -1,6 +1,6 @@
 # Overview
 
-![The On Visibility Change Node.]()
+![The On Visibility Change Node.](../../../.gitbook/assets/node-on-visibility-change.png)
 
 **On Visibility Change** .
 

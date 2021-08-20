@@ -1,6 +1,6 @@
 # Overview
 
-![The On Alpha Change Node.]()
+![The On Alpha Change Node.](../../../.gitbook/assets/node-on-alpha-change.png)
 
 **On Alpha Change** .
 

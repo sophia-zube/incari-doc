@@ -1,6 +1,6 @@
 # Overview
 
-![The On Opacity Change Node.]()
+![The On Opacity Change Node.](../../../.gitbook/assets/node-on-opacity-change.png)
 
 **On Opacity Change** .
 

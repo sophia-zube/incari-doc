@@ -1,6 +1,6 @@
 # Overview
 
-![The On Rotation Change Node.]()
+![The On Rotation Change Node.](../../../.gitbook/assets/node-on-rotation-change.png)
 
 **On Rotation Change** .
 
