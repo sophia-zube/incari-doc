@@ -20,7 +20,7 @@ The **MoveBy Action Node** moves an **Animation** by the relative values specifi
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`Offset`|**Vector3**|The amount to move the *position* of an **Animation** along the X,Y,Z axes.|
+|`Offset`|**Vector3**|The amount to move the *position* of an **Animation** along the X, Y, Z axes.|
 
 # Outputs
 
