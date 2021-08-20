@@ -34,6 +34,8 @@ The **ScaleTo Action Node** scales an **Animation** to the *xyz* coordinates spe
 # See Also
 
 * [**ScaleBy**](scalebyaction.md)
+  
+  
 # External Links
 
 * [*Scaling (geometry)*](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
