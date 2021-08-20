@@ -1,6 +1,6 @@
 # Introduction
 
-The **Actions Nodes** provide further animation techniques which require an exisitng **Animation** to work. Further examples can be found in the link at the end of the page. 
+The **Actions Nodes** extend the functionality of **Animations**.
 
 # Contents
 
