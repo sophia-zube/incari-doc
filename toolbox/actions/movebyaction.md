@@ -36,4 +36,4 @@ The **MoveBy Action Node** moves an **Animation** by the relative values specifi
 
 # External Links
 
-* [*Position \(geometry\)*](https://en.wikipedia.org/wiki/Position_(geometry)) on Wikipedia. 
+* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
