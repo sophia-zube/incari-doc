@@ -35,5 +35,9 @@ The **FadeFromTo Action Node** diminishes the opacity of an **Animation** from t
 
 # See Also
 
+* [**FadeTo Action**](fadetoaction.md)
+
 # External Links
+
+* [_Transparency \(graphic\)_](https://en.wikipedia.org/wiki/Transparency_%28graphic%29) on Wikipedia.
 
