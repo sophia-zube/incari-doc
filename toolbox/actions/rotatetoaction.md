@@ -2,14 +2,14 @@
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoaction.png)
 
-The **RotateTo Action Node** rotates an **Animation** to the *xyz* coordinates specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
+The **RotateTo Action Node** rotates an **Animation** to the absolute Euler angles along the X, Y, and Z axes specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`To`|**Vector3**|The *xyz* coordinates to rotate to.|
-|`Duration`|**Float**|The total time of the **Action**.|
+|`To`|**Vector3**|The Euler angles along the X, Y, and Z axes to rotate to.|
+|`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
 # Inputs
@@ -20,15 +20,15 @@ The **RotateTo Action Node** rotates an **Animation** to the *xyz* coordinates s
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`To`|**Vector3**| The *xyz* coordinates to rotate to.|
+|`To`|**Vector3**|The Euler angles along the X, Y, and Z axes to rotate to.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
-|`OnStart` (►)|**Pulse**|Flows to additional actions following **RotateTo Action** if the **Action** is executed.|
-|`OnEnd` (►)|**Pulse**|Flows to additional actions following **RotateTo Action** if the **Action** stops.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **RotateTo Action** when the **Action** starts.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **RotateTo Action** when the **Action** stops.|
 
 # See Also
 
