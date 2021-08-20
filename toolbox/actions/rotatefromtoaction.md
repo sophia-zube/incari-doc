@@ -34,8 +34,10 @@ The **RotateFromTo Action Node** rotates an **Animation** from the absolute Eule
 
 # See Also
 
-[**RotateTo Action**](rotatetoaction.md)
-[**RotateBy Action**](rotatebyaction.md)
+* [**RotateTo Action**](rotatetoaction.md)
+* [**RotateBy Action**](rotatebyaction.md)
 
 # External Links
+
+* [_Rotation_](https://en.wikipedia.org/wiki/Euler_angles) on Wikipedia
 
