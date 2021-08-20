@@ -2,14 +2,14 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoaction.png)
 
-The **FadeFromTo Action Node** diminishes the opacity of an **Animation** from the desired value to another over a specified time period, in either **Attributes** or **Inputs**..
+The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an initial value to a final one over a specified period of time, in either **Attributes** or **Inputs**..
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`From`|**Float**|The desired opacity value at the start of the **Action**.|
-|`To`|**Float**|The desired opacity value at the end of the **Action**.|
+|`From`|**Float**|The initial value of the desired *opacity*|
+|`To`|**Float**|The final value of the desired *opacity*.|
 |`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
@@ -21,8 +21,8 @@ The **FadeFromTo Action Node** diminishes the opacity of an **Animation** from t
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`From`|**Float**|The desired opacity value at the start of the **Action**.|
-|`To`|**Float**| The desired opacity at the end of the **Action**.|
+|`From`|**Float**|The initial value of the desired *opacity*.|
+|`To`|**Float**| The final value of the desired *opacity*.|
 
 # Outputs
 
