@@ -1,5 +1,7 @@
 # Introduction
 
+The **Actions Nodes** provide further animation techniques which require an exisitng **Animation** to work. Further examples can be found in the link at the end of the page. 
+
 # Contents
 
 * [**Delay Action**](delayaction.md)
@@ -15,4 +17,4 @@
 
 # See Also 
 
-* * [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
+*  [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
