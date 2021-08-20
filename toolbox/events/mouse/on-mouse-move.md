@@ -2,7 +2,7 @@
 
 ![The On Mouse Move Node.](../../../.gitbook/assets/node-on-mouse-move.png)
 
-**On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves within an **Object**..
+**On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves within an **Object**.
 
 # Attributes
 
