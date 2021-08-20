@@ -33,7 +33,7 @@ The **RotateBy Action Node** rotates an **Animation** by the relative values spe
 # See Also
 
 * [**RotateTo Action**](rotatetoaction.md)
-* [**RotateFromTo Action](rotatefromtoaction.md)
+* [**RotateFromTo Action**](rotatefromtoaction.md)
 
 # External Links
 
