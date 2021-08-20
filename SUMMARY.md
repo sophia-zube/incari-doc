@@ -282,4 +282,10 @@
   * [Group](toolbox/utilities/group.md)
   * [Is Data Type](toolbox/utilities/isdatatype.md)
   * [Is Object Type](toolbox/utilities/isobjecttype.md)
+  * [Interval](toolbox/utilities/interval/README.md)
+    * [Set Interval](toolbox/utilities/interval/setinterval.md)
+    * [Start Interval](toolbox/utilities/interval/startinterval.md)
+  * [Timeout](toolbox/utilities/timeout/README.md)
+    * [Start Timeout](toolbox/utilities/timeout/starttimeout.md)
+    * [Cancel Timeout](toolbox/utilities/timeout/canceltimeout.md)
 
