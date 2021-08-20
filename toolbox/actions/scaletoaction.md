@@ -2,14 +2,14 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoaction.png)
 
-The **ScaleTo Action Node** scales an **Animation** to the *xyz* coordinates specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
+The **ScaleTo Action Node** scales an **Animation** to the absolute *scale* values along the X, Y, Z axes specified in `To` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 .
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`To`|**Vector3**| The *xyz* coordinates to scale to.|
+|`To`|**Vector3**| The desired *scale* values along the X, Y, Z axes.|
 |`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
@@ -21,15 +21,15 @@ The **ScaleTo Action Node** scales an **Animation** to the *xyz* coordinates spe
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`To`|**Vector3**| The *xyz* coordinates to scale to.|
+|`To`|**Vector3**| The desired *scale* values along the X, Y, Z axes.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
-|`OnStart` (►)|**Pulse**|Flows to additional actions following **ScaleTo Action** if the **Action** is executed.|
-|`OnEnd` (►)|**Pulse**|Flows to additional actions following **ScaleTo Action** if the **Action** stops.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **ScaleTo Action** when the **Action** starts.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **ScaleTo Action** when the **Action** stops.|
 
 # See Also
 

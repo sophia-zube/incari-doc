@@ -2,13 +2,13 @@
 
 ![The ScaleBy Action Node.](../../.gitbook/assets/scalebyaction.png)
 
-The **ScaleBy Action Node** scales an **Animation** by the numbers specified in `By` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
+The **ScaleBy Action Node** scales an **Animation** by the relative values specified in `By` for the `Duration` (in seconds), in either **Attributes** or **Inputs**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`By`|**Vector3**| The amount to be scaled by.|
+|`By`|**Vector3**| The amount to scale an **Animation** by along the X, Y, Z axes.|
 |`Duration (sec)`|**Float**|The total time of the **Action**.|
 |`Interpolation`|**Dropdown**|The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out.|
 
@@ -20,7 +20,7 @@ The **ScaleBy Action Node** scales an **Animation** by the numbers specified in 
 |(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the target **Object**.|
 |`Duration`|**Float**|The total time (in seconds).|
-|`By`|**Vector3**| The amount to be scaled by.|
+|`By`|**Vector3**| The amount to scale an **Animation** by along the X, Y, Z axes.|
 
 # Outputs
 
