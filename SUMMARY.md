@@ -135,7 +135,7 @@
     * [On Mouse Leave](toolbox/events/mouse/on-mouse-leave.md)
     * [On Mouse Move](toolbox/events/mouse/on-mouse-move.md)
     * [On Mouse Scroll](toolbox/events/mouse/on-mouse-scroll.md)
-  * [Object](toolbox/events/object/README.md)
+  * [Object](toolbox/events/object/Readme.md)
     * [On Alpha Change](toolbox/events/object/on-alpha-change.md)
     * [On Opacity Change](toolbox/events/object/on-opacity-change.md)
     * [On Position Change](toolbox/events/object/on-position-change.md)
@@ -274,5 +274,9 @@
   * [Vector Value](toolbox/math/vector-value.md)
 * [String](toolbox/string/README.md)
 * [Utilities](toolbox/utilities/README.md)
+  * [Color Value](toolbox/utilities/colorvalue.md)
+  * [Create CustomID](toolbox/utilities/createcustomid.md)
   * [Group](toolbox/utilities/group.md)
+  * [Is Data Type](toolbox/utilities/isdatatype.md)
+  * [Is Object Type](toolbox/utilities/isobjecttype.md)
 
