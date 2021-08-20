@@ -2,18 +2,16 @@
 
 ![The Cancel Timeout Node.](../../../.gitbook/assets/canceltimeout.png)
 
-The **Cancel Timeout** Node .
+The **Cancel Timeout** Node cancels an existing **Timeout** and allows the user to decide what happens in the event it *is* cancelled.
 
-# Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
 
 # Outputs
 
@@ -23,5 +21,5 @@ The **Cancel Timeout** Node .
 
 # See Also
 
-# External Links
+* [**Start Timeout**](starttimeout.md)
 
