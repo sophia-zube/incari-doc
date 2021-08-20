@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | The **Object** in which a change of the **Opacity* value triggers the **Logic Branch**. |
+| `Object` | **ObjectID** | The **Object** in which a change of the **Opacity** value triggers the **Logic Branch**. |
 
 
 

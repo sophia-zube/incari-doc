@@ -2,13 +2,13 @@
 
 ![The On Visibility Change Node.](../../../.gitbook/assets/node-on-visibility-change.png)
 
-**On Visibility Change** .
+**On Visibility Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Visibility** of an **Object** changes.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | |
+| `Object` | **ObjectID** | The **Object** in which a change of **Visibility** triggers the **Logic Branch**. |
 
 
 # Outputs
@@ -16,9 +16,11 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Is Visible` | **Bool** |  |
+| `Is Visible` | **Bool** | Wheter the **Object** is now visible or not. |
 
 # See Also
 
-# External Links
+* [**Events**](../README.md)
+* [**Object**](README.md)
+  
 
