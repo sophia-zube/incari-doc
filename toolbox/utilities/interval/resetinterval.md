@@ -1,8 +1,8 @@
 # Overview
 
-![The Start Interval Node.](../../../.gitbook/assets/startinterval.png)
+![The Reset Interval Node.](../../../.gitbook/assets/resetinterval.png)
 
-The **Start Interval Node** .
+The **Reset Interval Node** .
 
 # Attributes
 

@@ -4,4 +4,4 @@
 # Contents
 
 * [**Start Interval**](startinterval.md)
-* [**Set Interval**](setinterval.md)
+* [**Reset Interval**](resetinterval.md)
