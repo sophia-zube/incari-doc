@@ -2,26 +2,28 @@
 
 ![The Delay Action Node.](../../.gitbook/assets/delayaction.png)
 
-The **Delay Action Node** .
+The **Delay Action Node** delays the **Action** for the specified duration (in seconds).
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Duration (sec)`|**Float**|The total time of the **Action**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Instance ID`| **InstanceID** | The assigned **Instance** of an **Object**.|
+|(►) `Start`|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Duration`|**Float**|The total time (in seconds).|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Instance ID`|**InstanceID**|The assigned **Instance** of an **Object**.|
+|`OnStart` (►)|**Pulse**|Flows to additional actions following **Delay Action** when the **Action** starts.|
+|`OnEnd` (►)|**Pulse**|Flows to additional actions following **Delay Action** when the **Action** stops.|
 
-# See Also
-
-# External Links
 
