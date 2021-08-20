@@ -21,7 +21,7 @@ The **Is Data Type Node** returns true or false depending on if the input **Vari
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|**Bool**|True or False depending on whether the input **Variable** type matches the data type.|
+|`Output`|**Bool**|Returns true or false depending on whether the input **Variable** type matches the data type.|
 
 
 

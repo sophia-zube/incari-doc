@@ -22,4 +22,4 @@ The **Is Object Type Node** returns true or false depending on if the input **Ob
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Result`|**Bool**|True or False depending on whether the input **Object** type matches the `Object Type`.|
+|`Result`|**Bool**|Returns true or false depending on whether the input **Object** type matches the `Object Type`.|
