@@ -23,4 +23,5 @@
 
 * [**Events**](../README.md)
 * [**Object**](README.md)
+* [**Alpha**](../../../getting-started/attributes/common-attributes/sprite.md#alpha)
 
