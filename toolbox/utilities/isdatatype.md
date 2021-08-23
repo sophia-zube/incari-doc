@@ -8,7 +8,7 @@ The **Is Data Type Node** returns true or false depending on whether or not the 
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Data Type`|**Dropdown**|The data type to compare the input type with. The **Node** name matches the `Data Type`, in the example image this is **Float**. Alternatively, the `Data Type` can be either, **Array**, **Binary**, **Bool**, **Byte**, **Color**, **Dictionary**, **Int**,**String**, or any **Vector** variable.|
+|`Data Type`|**Dropdown**|The data type to compare the input type with. The **Node** name matches the `Data Type`, in the example image this is **Float**. Alternatively, the `Data Type` can either be **Array**, **Binary**, **Bool**, **Byte**, **Color**, **Dictionary**, **Int**, **String**, or any **Vector** variable.|
 
 # Inputs
 
