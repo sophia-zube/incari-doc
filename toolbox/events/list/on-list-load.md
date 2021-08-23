@@ -8,12 +8,9 @@
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** |  |
 
-# Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
