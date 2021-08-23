@@ -2,8 +2,7 @@
 
 ![The Create CustomID Node.](../../.gitbook/assets/createcustomid.png)
 
-Everything in *Incari* has a unique ID number, from **Assets** to **Nodes** to **Variables**. The **Create CustomID Node** creates a new unique ID.
-
+The **Create CustomID Node** allows the user to create a unique identifier in order to combine all their objects and scenes. 
 
 # Inputs
 
