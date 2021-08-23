@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | The **List** in which an entry select triggers the **Logic Branch**.  |
+| `Object` | **ObjectID** | The **List** whose entry selection triggers the **Logic Branch**.  |
 
 
 

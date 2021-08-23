@@ -152,6 +152,8 @@
   * [Video](toolbox/events/video/README.md)
     * [On Video Play](toolbox/events/video/onvideoplay.md)
     * [On Video Finish](toolbox/events/video/onvideofinish.md)
+  * [Web](toolbox/events/web/README.md)
+    * [On Javascript Callback](toolbox/events/web/on-javascript-callback.md)
 * [Flow Control](toolbox/flow-control/README.md)
   * [Branch](toolbox/flow-control/branch.md)
   * [For Each Loop](toolbox/flow-control/foreachloop.md)
