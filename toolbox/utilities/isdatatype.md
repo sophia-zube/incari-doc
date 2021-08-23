@@ -15,7 +15,7 @@ The **Is Data Type Node** returns true or false depending on if the input **Vari
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**Variable**|The input **Object** to be compared.|
+|`Input`|**Variable**|The input **Variable** to be compared.|
 # Outputs
 
 |Output|Type|Description|

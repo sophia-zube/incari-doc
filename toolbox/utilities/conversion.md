@@ -2,7 +2,7 @@
 
 ![The Conversion Node.](../../.gitbook/assets/conversion1.png)
 
-The **Conversion** Node allows the user to convert one data type into another. With certain **Nodes** this happens automatically when the **Node** is connected, such as the **Console Node**. 
+The **Conversion Node** allows the user to convert one data type into another. With certain **Nodes** this happens automatically when the **Node** is connected, such as the **Console Node**. 
 
 # Attributes
 
