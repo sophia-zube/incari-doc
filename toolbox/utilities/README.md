@@ -8,6 +8,6 @@
 * [**Group**](group.md)
 * [**Is Data Type**](isdatatype.md)
 * [**Is Object Type**](isobjecttype.md)
-* [**System Call_**](systemcall.md)
+* [**System Call**](systemcall.md)
 * [**Interval**](interval/README.md)
 * [**Timeout**](timeout/README.md)
