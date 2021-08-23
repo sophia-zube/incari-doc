@@ -21,6 +21,6 @@
 # See Also
 
 * [**Events**](../README.md)
-* [**Object2**](README.md)
+* [**Object**](README.md)
   
 
