@@ -3,6 +3,8 @@
 
 ## Introduction
 
+The **List** **Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by an action on a **List**.
+
 ## Contents
 
 * [On List Current Index Change](on-list-current-index-change.md)

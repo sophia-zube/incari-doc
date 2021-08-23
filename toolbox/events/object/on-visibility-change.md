@@ -16,11 +16,11 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Is Visible` | **Bool** | Wheter the **Object** is now visible or not. |
+| `Is Visible` | **Bool** | Whether the **Object** is now visible or not. |
 
 # See Also
 
 * [**Events**](../README.md)
-* [**Object**](README.md)
+* [**Object2**](README.md)
   
 
