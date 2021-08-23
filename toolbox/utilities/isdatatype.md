@@ -2,13 +2,13 @@
 
 ![The Is Data Type Node.](../../.gitbook/assets/isfloattype.png)
 
-The **Is Data Type Node** returns true or false depending on if the input **Variable** type matches the data type or not.
+The **Is Data Type Node** returns true or false depending on whether or not the input **Variable** type matches the 'Data Type'.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Data Type`|**Dropdown**|The data type to compare the input type to. The **Node** name matches the `Data Type`, in the sample image this is **Float**.|
+|`Data Type`|**Dropdown**|The data type to compare the input type to. The **Node** name matches the `Data Type`, in the sample image this is **Float**. Other `Data Type` examples are **Bool**, **String**, and any **Vector** variable.|
 
 # Inputs
 
@@ -21,7 +21,7 @@ The **Is Data Type Node** returns true or false depending on if the input **Vari
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|**Bool**|Returns true or false depending on whether the input **Variable** type matches the data type.|
+|`Output`|**Bool**|Returns true or false depending on whether or not the input matches the `Data Type`.|
 
 
 

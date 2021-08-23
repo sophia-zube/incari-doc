@@ -2,13 +2,13 @@
 
 ![The Is Object Type Node.](../../.gitbook/assets/isobjecttype.png)
 
-The **Is Object Type Node** returns true or false depending on if the input **Object** matches the `Object Type` or not.
+The **Is Object Type Node** returns true or false depending on whether or not the input **Object** matches the `Object Type`.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object Type`|**Dropdown**|The `Object Type` to compare the input **Object** to.|
+|`Object Type`|**Dropdown**|The `Object Type` to compare the input **Object** to. This covers most **Scene Object** types such as **Sprite**, **Group**, and **Mesh**.|
 
 # Inputs
 
@@ -22,4 +22,6 @@ The **Is Object Type Node** returns true or false depending on if the input **Ob
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Result`|**Bool**|Returns true or false depending on whether the input **Object** type matches the `Object Type`.|
+|`Result`|**Bool**|Returns true or false depending on whether or not the input **Object** type matches the `Object Type`.|
+
+
