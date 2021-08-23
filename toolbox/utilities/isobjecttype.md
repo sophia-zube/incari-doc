@@ -8,7 +8,7 @@ The **Is Object Type Node** returns true or false depending on whether or not th
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object Type`|**Dropdown**|The `Object Type` to compare the input **Object** to. This covers most **Scene Object** types such as **Sprite**, **Group**, and **Mesh**.|
+|`Object Type`|**Dropdown**|The `Object Type` to compare the input **Object** to. The `Object Type` can be either **Group**, **Image Sequence Sprite**, **Label**, **List**, **Mesh**, **On-Screen Keyboard**, **Point Light**, **Spot Light**, **Sprite**, **Text**, or **Web Sprite**|
 
 # Inputs
 
