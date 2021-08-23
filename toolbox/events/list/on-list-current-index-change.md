@@ -2,13 +2,13 @@
 
 ![The On List Current Index Change Node.]()
 
-**On List Current Index Change** .
+**On List Current Index Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current index of a **List** changes.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | |
+| `Object` | **ObjectID** | The **List** in which an index change triggers the **Logic Branch**.  |
 
 
 # Outputs
@@ -16,9 +16,10 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Current Index` | **Int** | |
+| `Current Index` | **Int** | The current index of the **List**. |
 
 # See Also
 
-# External Links
+* [**List Events**](README.md)
+* [**List Object**](../../../getting-started/scene-objects/list-widget.md)
 
