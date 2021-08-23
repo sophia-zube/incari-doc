@@ -2,7 +2,7 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoaction.png)
 
-The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an initial value to a final one over a specified period of time, in either **Attributes** or **Inputs**..
+The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an initial value to a final one over a specified period of time, in either **Attributes** or **Inputs**.
 
 # Attributes
 
