@@ -1,6 +1,7 @@
 
 # Introduction
 
+The **Interval Nodes** provide a means for a user to start or reset an **Interval**, which is called repeatedly every *X* seconds.
 # Contents
 
 * [**Start Interval**](startinterval.md)
