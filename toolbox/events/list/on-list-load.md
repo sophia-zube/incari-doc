@@ -8,7 +8,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** |  |
+| `Object` | **ObjectID** | The **List** whose load triggers the **Logic Branch**. |
 
 
 
@@ -20,5 +20,5 @@
 
 # See Also
 
-# External Links
-
+* [**List Events**](README.md)
+* [**List Object**](../../../getting-started/scene-objects/list-widget.md)
