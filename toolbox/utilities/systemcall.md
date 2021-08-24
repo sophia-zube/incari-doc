@@ -2,7 +2,7 @@
 
 ![The System Call Node.](../../.gitbook/assets/systemcall1.png)
 
-** The System Call Node** allows the user to use any commands provided by the operating system (i.e. *Windows*, *Linux*, etc.).
+The **System Call Node** allows the user to use any commands provided by the operating system (i.e. *Windows*, *Linux*, etc.).
 
 # Attributes
 
