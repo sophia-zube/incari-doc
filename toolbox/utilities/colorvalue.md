@@ -25,6 +25,10 @@ The **Color Value Node** returns the `Value` of a **Color Variable** or the **De
 |`Output`|**Color**|A **Color Variable** value set with an 8-digit **ARGB** *hex code*, **HSB** levels, or **RGBA** levels.|
 
 
+# See Also
+
+* [**Color Attribute**](https://docs.incari.com/incari-studio/getting-started/attributes/attribute-types/color-attribute)
+
 # External Links
 
 * Information on types of [*Hex Codes*](https://www.color-hex.com/).
