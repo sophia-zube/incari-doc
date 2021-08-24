@@ -8,7 +8,7 @@ The **Color Value Node** returns the `Value` of a **Color Variable** or the **De
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Value`|The color value, in the form of either an 8-digit **ARGB** *hex code*, **HSB** levels, or **RGBA** levels.
+|`Value`|**Color Picker**|The color value, in the form of either an 8-digit **ARGB** *hex code*, **HSB** levels, or **RGBA** levels.
 
 # Inputs
 

@@ -2,20 +2,20 @@
 
 ![The Start Interval Node.](../../../.gitbook/assets/startinterval.png)
 
-The **Start Interval Node** sets an **Interval**, which occurs ever *X* seconds, as specified in `Seconds` or `Timeout (sec)`.
+The **Start Interval Node** sets an **Interval**, which occurs every *X* seconds, as specified in `Seconds` or `Timeout (sec)`.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Timeout (sec)`|**Dropdown**|The time it takes to reach the next occurrence of the **Interval**.| 
+|`Timeout (sec)`|**Float**|The time it takes to reach the next occurrence of the **Interval**.| 
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Seconds`|**Dropdown**|The time it takes to reach the next occurrence of the **Interval**.|
+|`Seconds`|**Float**|The time it takes to reach the next occurrence of the **Interval**.|
 # Outputs
 
 |Output|Type|Description|
