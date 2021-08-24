@@ -2,18 +2,14 @@
 
 ![The On Imagesequence Play Node.](../../../.gitbook/assets/node-on-imagesequence-play.png)
 
-**On Imagesequence Play** .
+**On Imagesequence Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** starts playing.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | **Image Sequence** that triggers the **Logic Branch** when played.  |
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
@@ -23,5 +19,5 @@
 
 # See Also
 
-# External Links
+* [**Image Sequence**](README.md)
 

@@ -2,26 +2,23 @@
 
 ![The On Imagesequence Frame Changed Node.](../../../.gitbook/assets/node-on-imagesequence-frame-changed.png)
 
-**On Imagesequence Frame Changed** .
+**On Imagesequence Frame Changed** is an **Event Listener** **Node** used for executing a **Logic Branch** when the frame of an **Image Sequence** changes.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | **Image Sequence** in which a frame change triggers the **Logic Branch**. |
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `#Frame` | **Int** | 
 
 # See Also
 
-# External Links
+* [**Image Sequence**](README.md)
 

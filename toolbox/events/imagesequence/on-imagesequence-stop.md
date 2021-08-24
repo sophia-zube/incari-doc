@@ -2,18 +2,14 @@
 
 ![The On Imagesequence Stop Node.](../../../.gitbook/assets/node-on-imagesequence-stop.png)
 
-**On Imagesequence Stop** .
+**On Imagesequence Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** is stopped.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | **Image Sequence** that triggers the **Logic Branch** when stopped. |
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
@@ -23,5 +19,5 @@
 
 # See Also
 
-# External Links
+* [**Image Sequence**](README.md)
 
