@@ -15,7 +15,7 @@ The **Is Data Type Node** returns true or false depending on whether or not the 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**Variable**|The input **Variable** to be compared with.|
+|`Input`|**Any**|The input `Data Type` to be compared with. **Any** is a generic `Data Type` that every type can be cast to.|
 # Outputs
 
 |Output|Type|Description|
@@ -23,7 +23,10 @@ The **Is Data Type Node** returns true or false depending on whether or not the 
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Output`|**Bool**|Returns true or false depending on whether or not the input matches the `Data Type`.|
 
-# See Also 
 
-* [**Data Types**](https://docs.incari.com/incari-studio/getting-started/data-types)
 
+
+
+![Is Data Type Node Example Usage.](../../.gitbook/assets/isdatatypeexample.png)
+
+The **Is Data Type Node** is useful for checking for correct `Data Types` from other sources, such as a parsed JSON file. In this image a **Float** is converted into the generic **Any** `Data Type`, to prove that it is indeed a **Float**. The resulting output will confirm that the `Data Type` matches the expected `Data Type` and flow to `OnTrue` for additional actions. 
