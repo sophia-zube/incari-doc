@@ -25,8 +25,8 @@ The **Is Data Type Node** returns true or false depending on whether or not the 
 
 
 
-
+# Example Usage
 
 ![Is Data Type Node Example Usage.](../../.gitbook/assets/isdatatypeexample.png)
 
-The **Is Data Type Node** is useful for checking for correct `Data Types` from other sources, such as a parsed JSON file. In this image a **Float** is converted into the generic **Any** `Data Type`, to prove that it is indeed a **Float**. The resulting output will confirm that the `Data Type` matches the expected `Data Type` and flow to `OnTrue` for additional actions. 
+The **Is Data Type Node** is useful for checking for correct `Data Types` from other sources, such as a parsed JSON file. In the above image, a **Float** is converted into the generic **Any** `Data Type`, to prove that it is indeed a **Float**. The resulting output will confirm that the `Data Type` matches the expected `Data Type` and flow to `OnTrue` for additional actions. 
