@@ -2,7 +2,7 @@
 
 ![The String Value Node.](../../.gitbook/assets/stringvalue.png)
 
-The **String Value Node** returns that `Value`, or contents, of a **String**.
+The **String Value Node** returns the `Value`, or contents, of a **String**.
 
 # Attributes
 
