@@ -1,13 +1,14 @@
 # Overview
 
-![The Benchmark Start Node.](../../../.gitbook/assets/node-benchmark-start.png)
+![The Benchmark Start Node.](../../.gitbook/assets/node-benchmark-start.png)
 
-**Benchmark Start** .
+The **Benchmark Start** **Node** starts a timer with a name given in the **Attributes**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Timer Name` | **String** | Name of the timer. |
 
 # Inputs
 
@@ -23,5 +24,6 @@
 
 # See Also
 
-# External Links
+* [**Benchmark Get**](benchmark-get.md)
+* [**Benchmark Stop**](benchmark-stop.md)
 
