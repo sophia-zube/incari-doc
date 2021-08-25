@@ -1,8 +1,10 @@
 # Overview
 
-![The Event Trigger Node.]()
+![The Event Trigger Node.](../../../.gitbook/assets/node-event-trigger.png)
 
-**Event Trigger** .
+**Event Trigger** is a **Custom Event Node** used for triggering an **Event**, which then activates the corresponding **Custom Event Listener Node**.
+
+The number, type and default value of the **Input** parameters can be set in the **Event** **Attributes**.
 
 
 
@@ -12,10 +14,11 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Parameter`| **Drop-down** | `Parameter` that will be passed on to the **Listener** **Node**.
 
 
 
 # See Also
 
-# External Links
-
+* [Custom](README.md)
+* [Event Listener](event-listener.md)
