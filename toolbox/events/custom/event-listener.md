@@ -12,7 +12,7 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Parameter`| **Drop-down** | The `Parameter` that was received by the **Trigger Node**. A default value can be set in the **Event** **Attributes**. |
+|`Parameter [n]`| **Drop-down** | The `Parameter` that was received by the **Trigger Node**. A default value can be set in the **Event** **Attributes**. |
 
 # See Also
 
