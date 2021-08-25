@@ -28,6 +28,6 @@ The **Assert** **Node** compares two values and outputs the result of the compar
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `C` | **Bool** | |
+| `C` | **Bool** | Result of the comparison. |
 
 
