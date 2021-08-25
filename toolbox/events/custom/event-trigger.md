@@ -14,7 +14,7 @@ The number, type and default value of the **Input** parameters can be set in the
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Parameter`| **Drop-down** | `Parameter` that will be passed on to the **Listener** **Node**.
+|`Parameter [n]`| **Drop-down** | `Parameter` that will be passed on to the **Listener** **Node**.
 
 
 
