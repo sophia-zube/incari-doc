@@ -1,6 +1,6 @@
 # Overview
 
-![The Benchmark Stop Node.]()
+![The Benchmark Stop Node.](../../../.gitbook/assets/node-benchmark-stop.png)
 
 **Benchmark Stop** .
 

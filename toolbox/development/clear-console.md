@@ -20,5 +20,5 @@ The **Clear Console** **Node** empties the console.
 
 # See Also
 
-* [Console](console.md)
+* [**Console**](console.md)
 
