@@ -1,6 +1,6 @@
 # Overview
 
-![The Benchmark Get Node.]()
+![The Benchmark Get Node.](../../../.gitbook/assets/node-benchmark-get.png)
 
 **Benchmark Get** .
 

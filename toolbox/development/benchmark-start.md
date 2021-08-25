@@ -1,6 +1,6 @@
 # Overview
 
-![The Benchmark Start Node.]()
+![The Benchmark Start Node.](../../../.gitbook/assets/node-benchmark-start.png)
 
 **Benchmark Start** .
 
