@@ -1,13 +1,14 @@
 # Overview
 
-![The Benchmark Get Node.](../../../.gitbook/assets/node-benchmark-get.png)
+![The Benchmark Get Node.](../../.gitbook/assets/node-benchmark-get.png)
 
-**Benchmark Get** .
+The **Benchmark Get** **Node** retrieves the time on a timer. When it is executed, it prints the time on the console and outputs the value in milliseconds as a **String**. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Timer Name` | **String** | The name of the timer from which the time will be retrieved.  |
 
 # Inputs
 
@@ -20,8 +21,9 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `Time` | **String** | The time on the timer in milliseconds.  |
 
 # See Also
 
-# External Links
-
+* [**Benchmark Start**](benchmark-start.md)
+* [**Benchmark Stop**](benchmark-stop.md)
