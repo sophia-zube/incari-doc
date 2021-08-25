@@ -23,7 +23,7 @@
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Swipde Direction` | **Drop-down** | The direction in which a swipe will trigger the **Logic**.|
+| `Swipe Direction` | **Drop-down** | The direction in which a swipe will trigger the **Logic**.|
 
 # Outputs
 
