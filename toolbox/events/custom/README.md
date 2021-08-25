@@ -7,5 +7,5 @@ The **Custom Nodes** are **Event** **Nodes** that allow to execute a **Logic Bra
 
 ## Contents
 
-* [Event Listener](event-listener.md)
-* [Event Trigger](event-trigger.md)
+* [**Event Listener**](event-listener.md)
+* [**Event Trigger**](event-trigger.md)

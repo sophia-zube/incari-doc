@@ -16,6 +16,6 @@
 
 # See Also
 
-* [Custom](README.md)
-* [Event Trigger](event-trigger.md)
+* [**Custom**](README.md)
+* [**Event Trigger**](event-trigger.md)
 

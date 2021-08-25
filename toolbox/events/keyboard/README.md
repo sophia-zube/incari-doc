@@ -7,5 +7,5 @@ The **Keyboard** **Nodes** are **Event Listener** **Nodes** that allow to execut
 
 ## Contents
 
-* [On Key Press](on-key-press.md)
-* [On Key Release](on-key-release.md)
+* [**On Key Press**](on-key-press.md)
+* [**On Key Release**](on-key-release.md)

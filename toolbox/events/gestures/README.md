@@ -7,6 +7,6 @@ The **Gestures Nodes** are **Event Listener Nodes** that allow to execute a **Lo
 
 ## Contents
 
-* [On Swipe](on-swipe.md)
-* [On Tap](on-tap.md)
+* [**On Swipe**](on-swipe.md)
+* [**On Tap**](on-tap.md)
 
