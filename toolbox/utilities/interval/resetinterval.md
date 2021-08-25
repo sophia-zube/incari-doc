@@ -2,7 +2,7 @@
 
 ![The Reset Interval Node.](../../../.gitbook/assets/resetinterval.png)
 
-The **Reset Interval Node** resets an existing **Interval** by taking the **Instance** of an **Interval** as input and allowing the user to make desired changes.
+The **Reset Interval Node** resets an existing **Interval** by taking the **Instance** of an **Interval** as input.
 
 
 # Inputs
