@@ -20,8 +20,8 @@ The **Assert** **Node** compares two values and outputs the result of the compar
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `A` | _Defined in the `Data Type` **Attribute**_ | |
-| `B` | _Defined in the `Data Type` **Attribute**_ | |
+| `A` | _Defined in the `Data Type` **Attribute**_ | First value to compare. |
+| `B` | _Defined in the `Data Type` **Attribute**_ | Second value to compare.|
 
 # Outputs
 
