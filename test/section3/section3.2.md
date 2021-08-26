@@ -1,4 +1,4 @@
-# SubSection3.2
+# SubSection 3.2
 
 _TEST_
 
