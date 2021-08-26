@@ -1,0 +1,12 @@
+{
+	// This determines if and where Quick Suggestions are shown
+	"[markdown]": {
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": true,
+			"strings": true
+		}
+	}
+}
+
+
