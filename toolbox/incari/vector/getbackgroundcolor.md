@@ -1,30 +1,32 @@
-# Overview
+# Get BackgroundColor
+
+## Overview
 
 ![The Get BackgroundColor Node.](../../../.gitbook/assets/getbackgroundcolor.png)
 
-The **Get BackgroundColor Node** returns the **BackgroundColor** of the target **Vector Object**. For example, this could be the **BackgroundColor** of an **Ellipse**, which can be created in the **Scene Outliner Module** under *Vector*. 
+The **Get BackgroundColor Node** returns the **BackgroundColor** of the target **Vector Object**. For example, this could be the **BackgroundColor** of an **Ellipse**, which can be created in the **Scene Outliner Module** under _Vector_.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 
+## Outputs
 
-# Outputs
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `BackgroundColor` | **Color** | The **BackgroundColor** of the target **Object**. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`BackgroundColor`|**Color**| The **BackgroundColor** of the target **Object**.|
-
-# See Also
+## See Also
 
 * [**Set BackgroundColor**](setbackgroundcolor.md)
+

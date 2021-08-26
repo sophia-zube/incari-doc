@@ -1,4 +1,6 @@
-# Overview
+# Event Trigger
+
+## Overview
 
 ![The Event Trigger Node.](../../../.gitbook/assets/node-event-trigger.png)
 
@@ -6,19 +8,15 @@
 
 The number, type and default value of the **Input** parameters can be set in the **Event** **Attributes**.
 
+## Inputs
 
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Parameter [n]` | **Drop-down** | `Parameter` that will be passed on to the **Listener** **Node**. |
 
+## See Also
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Parameter [n]`| **Drop-down** | `Parameter` that will be passed on to the **Listener** **Node**.
-
-
-
-# See Also
-
-* [**Custom**](README.md)
+* [**Custom**](./)
 * [**Event Listener**](event-listener.md)
+

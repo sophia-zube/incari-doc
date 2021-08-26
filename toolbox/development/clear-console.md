@@ -1,24 +1,24 @@
-# Overview
+# Clear Console
 
-![The Clear Console Node.](../../../.gitbook/assets/node-clear-console.png)
+## Overview
+
+![The Clear Console Node.](../../.gitbook/assets/node-clear-console.png)
 
 The **Clear Console** **Node** empties the console.
 
+## Inputs
 
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 
-# Inputs
+## Outputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# Outputs
-
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-
-# See Also
+## See Also
 
 * [**Console**](console.md)
 

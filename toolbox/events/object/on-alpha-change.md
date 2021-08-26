@@ -1,27 +1,27 @@
-# Overview
+# On Alpha Change
+
+## Overview
 
 ![The On Alpha Change Node.](../../../.gitbook/assets/node-on-alpha-change.png)
 
 **On Alpha Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Alpha** value of an **Object** changes.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-| `Object` | **ObjectID** | The **Object** in which a change of the **Alpha** value triggers the **Logic Branch**.  |
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The **Object** in which a change of the **Alpha** value triggers the **Logic Branch**. |
 
+## Outputs
 
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Alpha` | **Float** | The modified **Alpha** value. |
 
-# Outputs
+## See Also
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Alpha` | **Float** | The modified **Alpha** value.  |
-
-# See Also
-
-* [**Events**](../README.md)
-* [**Object**](README.md)
+* [**Events**](../)
+* [**Object**](./)
 * [**Alpha**](../../../getting-started/attributes/common-attributes/sprite.md#alpha)
 

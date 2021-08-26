@@ -12,4 +12,3 @@ The **Video Nodes** provide a way to incorporate video files in the **Logic Edit
 * [**Stop Video**](stopvideo.md)
 * [**Pause Video**](pausevideo.md)
 
-

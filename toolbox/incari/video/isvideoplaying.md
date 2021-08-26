@@ -26,7 +26,6 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `is Playing` | **Bool** | Returns **True** if the video is playing, **False** if not. Returns **None** if there is no file or **Scene Object**. |
 
-
 ## See Also
 
 * [**Play Video**](playvideo.md)

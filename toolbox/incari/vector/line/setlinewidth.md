@@ -1,31 +1,32 @@
-# Overview
+# Set LineWidth
 
-![The Set LineWidth Node.](../../../.gitbook/assets/setlinewidth.png)
+## Overview
 
-The **Set LineWidth Node** sets the **LineWidth** of a **Line Object** created in the **Scene Outliner Module** under *Vector*.  
+![The Set LineWidth Node.](../../../../.gitbook/assets/setlinewidth.png)
 
-# Attributes
+The **Set LineWidth Node** sets the **LineWidth** of a **Line Object** created in the **Scene Outliner Module** under _Vector_.
 
-|Attribute|Type|Description|
-|---|---|---|
+## Attributes
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-|`LineWidth`|**Int**| The **LineWidth** of the target **Object**.|
+| `LineWidth` | **Int** | The **LineWidth** of the target **Object**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-
-# See Also
+## See Also
 
 * [**Get LineWidth**](getlinewidth.md)
 

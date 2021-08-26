@@ -26,9 +26,10 @@ The **Seek Video** **Node** can be used to move to a certain timeframe of a spec
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-## See Also 
+## See Also
 
 * [**Play Video**](playvideo.md)
 * [**Pause Video**](pausevideo.md)
 * [**Seek Video**](seekvideo.md)
 * [**Is Video Playing**](isvideoplaying.md)
+

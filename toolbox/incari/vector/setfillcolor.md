@@ -1,31 +1,32 @@
-# Overview
+# Set FillColor
+
+## Overview
 
 ![The Set FillColor Node.](../../../.gitbook/assets/setfillcolor.png)
 
-The **Set FillColor Node** sets the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under *Vector*. 
+The **Set FillColor Node** sets the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under _Vector_.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-|`FillColor`|**Color**| The **FillColor** of the target **Object**.|
+| `FillColor` | **Color** | The **FillColor** of the target **Object**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-
-# See Also
+## See Also
 
 * [**Get FillColor**](getfillcolor.md)
 

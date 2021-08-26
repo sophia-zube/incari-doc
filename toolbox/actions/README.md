@@ -1,8 +1,10 @@
-# Introduction
+# Actions
+
+## Introduction
 
 The **Actions Nodes** extend the functionality of **Animations**.
 
-# Contents
+## Contents
 
 * [**Delay Action**](delayaction.md)
 * [**FadeFromTo Action**](fadefromtoaction.md)
@@ -15,6 +17,7 @@ The **Actions Nodes** extend the functionality of **Animations**.
 * [**ScaleBy Action**](scalebyaction.md)
 * [**ScaleTo Action**](scaletoaction.md)
 
-# See Also 
+## See Also
 
-*  [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
+* [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
+

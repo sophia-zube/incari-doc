@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose _position_ you wish to set. |
-| `Position` | **Vector3** |  A 3-dimensional vector that contains X, Y, and Z positions of the target **Object**. |
+| `Position` | **Vector3** | A 3-dimensional vector that contains X, Y, and Z positions of the target **Object**. |
 
 ## Outputs
 
@@ -35,5 +35,5 @@
 
 ## External Links
 
-* [_Position (geometry)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
+* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
 

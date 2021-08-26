@@ -25,7 +25,7 @@
 
 ## See Also
 
-* [**Events**](../README.md)
-* [**Keyboard**](README.md)
+* [**Events**](../)
+* [**Keyboard**](./)
 * [**On Key Press**](on-key-press.md)
 

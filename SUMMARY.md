@@ -6,7 +6,7 @@
 
 * [Overview](demo-projects/overview.md)
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
-  
+
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
@@ -55,8 +55,6 @@
 * [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
 
-
-
 ## Toolbox
 
 * [Actions](toolbox/actions/README.md)
@@ -80,31 +78,24 @@
   * [Push Array Element](toolbox/array/push-array-element.md)
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [Communication](toolbox/communication/README.md)
-  * [CAN](toolbox/communication/CAN/README.md)
-    * [Events](toolbox/communication/CAN/events/README.md)
-      * [On CAN Start](toolbox/communication/CAN/events/oncanstart.md)
-      * [On CAN Stop](toolbox/communication/CAN/events/oncanstop.md)
-      * [On CAN Packet Received](toolbox/communication/CAN/events/oncanpacketreceived.md)
-    * [CAN Start](toolbox/communication/CAN/canstart.md)
-    * [CAN Stop](toolbox/communication/CAN/canstop.md)
-    * [CAN Send Packet](toolbox/communication/CAN/cansendpacket.md)
-  * [HTTP](toolbox/communication/HTTP/README.md)
-  <!---
-    * [Events](toolbox/communication/HTTP/events/README.md
-      * [On HTTP Server Start](toolbox/communication/HTTP/events/onhttpserverstart.md)
-      * [On HTTP Server Stop](toolbox/communication/HTTP/events/onhttpserverstop.md)
-    * [HTTP Server Start](toolbox/communication/HTTP/httpserverstart.md)
-    * [HTTP Server Stop](toolbox/communication/HTTP/httpserverstop.md)
-  --->
-  * [MQTT](toolbox/communication/MQTT/README.md)
-    * [Events](toolbox/communication/MQTT/events/README.md)
-      * [On MQTT Start](toolbox/communication/MQTT/events/onmqttstart.md)
-      * [On MQTT Stop](toolbox/communication/MQTT/events/onmqttstop.md)
-      * [On MQTT Topic](toolbox/communication/MQTT/events/onmqtttopic.md)
-    * [MQTT Start](toolbox/communication/MQTT/mqttstart.md)
-    * [MQTT Stop](toolbox/communication/MQTT/mqttstop.md)
-    * [MQTT Subscribe](toolbox/communication/MQTT/mqttsubscribe.md)
-    * [MQTT Publish](toolbox/communication/MQTT/mqttpublish.md)
+  * [CAN](toolbox/communication/can/README.md)
+    * [Events](toolbox/communication/can/events/README.md)
+      * [On CAN Start](toolbox/communication/can/events/oncanstart.md)
+      * [On CAN Stop](toolbox/communication/can/events/oncanstop.md)
+      * [On CAN Packet Received](toolbox/communication/can/events/oncanpacketreceived.md)
+    * [CAN Start](toolbox/communication/can/canstart.md)
+    * [CAN Stop](toolbox/communication/can/canstop.md)
+    * [CAN Send Packet](toolbox/communication/can/cansendpacket.md)
+  * [HTTP](toolbox/communication/http.md)
+  * [MQTT](toolbox/communication/mqtt/README.md)
+    * [Events](toolbox/communication/mqtt/events/README.md)
+      * [On MQTT Start](toolbox/communication/mqtt/events/onmqttstart.md)
+      * [On MQTT Stop](toolbox/communication/mqtt/events/onmqttstop.md)
+      * [On MQTT Topic](toolbox/communication/mqtt/events/onmqtttopic.md)
+    * [MQTT Start](toolbox/communication/mqtt/mqttstart.md)
+    * [MQTT Stop](toolbox/communication/mqtt/mqttstop.md)
+    * [MQTT Subscribe](toolbox/communication/mqtt/mqttsubscribe.md)
+    * [MQTT Publish](toolbox/communication/mqtt/mqttpublish.md)
 * [DateTime](toolbox/datetime/README.md)
   * [Date Time Formatter](toolbox/datetime/date-time-formatter.md)
   * [Now \(UTC\)](toolbox/datetime/now-utc.md)
@@ -165,8 +156,8 @@
     * [On Scale Change](toolbox/events/object/on-scale-change.md)
     * [On Visibility Change](toolbox/events/object/on-visibility-change.md)
   * [Variables](toolbox/events/variables/README.md)
-    * [On _Variable_ Change](toolbox/events/variables/on-variable-change.md)
-    * [On _Variable_ Set](toolbox/events/variables/on-variable-set.md)
+    * [On Variable Change](toolbox/events/variables/on-variable-change.md)
+    * [On Variable Set](toolbox/events/variables/on-variable-set.md)
   * [Video](toolbox/events/video/README.md)
     * [On Video Play](toolbox/events/video/onvideoplay.md)
     * [On Video Finish](toolbox/events/video/onvideofinish.md)

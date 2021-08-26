@@ -1,33 +1,34 @@
-# Overview
+# Bool Value
+
+## Overview
 
 ![The Bool Value Node.](../../../.gitbook/assets/node-bool-value.png)
 
 The **Bool Value** **Node** stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and retrieved at runtime.
 
-# Attributes
+## Attributes
 
-## Miscellaneous
+### Miscellaneous
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Default Value` | **Bool** | The _truth value_ you wish to output.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Value` | **Bool** | The _truth value_ you wish to output. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Input`| **Bool** | A **Boolean** you wish to add to the **Bool Value** **Node**. |
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Input` | **Bool** | A **Boolean** you wish to add to the **Bool Value** **Node**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Output` | **Bool** |A **Boolean** variable that has the _truth value_ defined in `Default Value`.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Output` | **Bool** | A **Boolean** variable that has the _truth value_ defined in `Default Value`. |
 
-# See Also
+## See Also
 
 * [**Boolean**](./)
-
 

@@ -48,7 +48,7 @@ If we take a look into the **Logic Editor**, you will see that controlling anima
 
 ![2020-09-28\_11h55\_02.png](../.gitbook/assets/2020-09-28_11h55_02.png)
 
-Another last point to note is that the **Play Animation Block Node** has an **Attribute** for both the **Asset** \(`File`\) _**\*\***_and the **Animation Block** \(`Name`\) which will be played. You can drag the .incani file from the Asset Manager directly to the **Node** to assign it to the `File` **Attribute** and select the desired **Animation Block** from the dropdown menu.
+Another last point to note is that the **Play Animation Block Node** has an **Attribute** for both the **Asset** \(`File`\) \_**\*\***\_and the **Animation Block** \(`Name`\) which will be played. You can drag the .incani file from the Asset Manager directly to the **Node** to assign it to the `File` **Attribute** and select the desired **Animation Block** from the dropdown menu.
 
 ## 2. Interpolation
 

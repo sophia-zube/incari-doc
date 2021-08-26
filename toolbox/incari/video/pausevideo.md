@@ -25,10 +25,10 @@ The **Pause Video** **Node** can be used to pause a video file already playing d
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-
-## See Also 
+## See Also
 
 * [**Play Video**](playvideo.md)
 * [**Stop Video**](stopvideo.md)
 * [**Seek Video**](seekvideo.md)
 * [**Is Video Playing**](isvideoplaying.md)
+

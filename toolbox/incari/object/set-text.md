@@ -33,5 +33,5 @@
 
 ## External Links
 
-* [_String (computer science)_](https://en.wikipedia.org/wiki/String_%28computer_science%29) on Wikipedia.
+* [_String \(computer science\)_](https://en.wikipedia.org/wiki/String_%28computer_science%29) on Wikipedia.
 

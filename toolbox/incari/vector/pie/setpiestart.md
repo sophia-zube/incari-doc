@@ -1,30 +1,32 @@
-# Overview
+# Set PieStart
+
+## Overview
 
 ![The Set PieStart Node.](../../../../.gitbook/assets/setpiestart.png)
 
-The **Set PieStart Node** sets the starting *degree value* of a **Pie Object** created in the **Scene Outliner Module** under *Vector*.
+The **Set PieStart Node** sets the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under _Vector_.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The target **Object**.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the target **Object**.|
-|`PieStart`|**Float**|The starting *degree value*.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object**. |
+| `PieStart` | **Float** | The starting _degree value_. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# See Also
+## See Also
 
 * [**Set PieEnd**](setpieend.md)
 * [**Get PieStart**](getpiestart.md)

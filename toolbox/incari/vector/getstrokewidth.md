@@ -1,30 +1,32 @@
-# Overview
+# Get StrokeWidth
+
+## Overview
 
 ![The Get StrokeWidth Node.](../../../.gitbook/assets/getstrokewidth.png)
 
-The **Get StrokeWidth Node** returns the **StrokeWidth** of a **Vector Object**, such as an **Ellipse**. **StrokeWidth** is an **Attribute** of a **Vector Object** that is visualized as the line drawn around the **Object**.  
+The **Get StrokeWidth Node** returns the **StrokeWidth** of a **Vector Object**, such as an **Ellipse**. **StrokeWidth** is an **Attribute** of a **Vector Object** that is visualized as the line drawn around the **Object**.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`StrokeWidth`|**Int**| The **StrokeWidth** of the target **Object**.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `StrokeWidth` | **Int** | The **StrokeWidth** of the target **Object**. |
 
-# See Also
+## See Also
 
 * [**Set StrokeWidth**](setstrokewidth.md)
 

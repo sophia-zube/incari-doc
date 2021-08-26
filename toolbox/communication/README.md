@@ -1,10 +1,12 @@
+# Communication
 
-# Introduction
+## Introduction
 
-The **Communcation Nodes** (**CAN**, **HTTP**, and **MQTT**) represent the different messaging protocols and ways of communicating between devices that each one encompasses. 
+The **Communcation Nodes** \(**CAN**, **HTTP**, and **MQTT**\) represent the different messaging protocols and ways of communicating between devices that each one encompasses.
 
-# Content
+## Content
 
-* [**CAN**](CAN/README.md)
-* [**HTTP**](HTTP/README.md)
-* [**MQTT**](MQTT/README.md)
+* [**CAN**](can/)
+* [**HTTP**](http.md)
+* [**MQTT**](mqtt/)
+

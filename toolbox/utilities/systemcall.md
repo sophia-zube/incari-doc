@@ -1,30 +1,32 @@
-# Overview
+# System Call
+
+## Overview
 
 ![The SystemCall Node.](../../.gitbook/assets/systemcall1.png)
 
-The **SystemCall Node** allows the user to use any commands provided by the operating system (i.e. *Windows*, *Linux*, etc.).
+The **SystemCall Node** allows the user to use any commands provided by the operating system \(i.e. _Windows_, _Linux_, etc.\).
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Value`|**String**|The desired command.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Value` | **String** | The desired command. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Input`|**String**|The desired command.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Input` | **String** | The desired command. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Output`|**Int**|The resulting output of a command.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Output` | **Int** | The resulting output of a command. |
 
-# External Links
+## External Links
 
-* An explanation of [*OS commands*](https://www.tutorialspoint.com/what-are-system-calls-in-operating-system) and some examples.
+* An explanation of [_OS commands_](https://www.tutorialspoint.com/what-are-system-calls-in-operating-system) and some examples.
 

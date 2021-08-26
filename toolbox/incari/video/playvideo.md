@@ -25,10 +25,10 @@ The **Play Video** **Node** can be used to play a specified video file during th
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-
 ## See Also
 
 * [**Stop Video**](stopvideo.md)
 * [**Pause Video**](pausevideo.md)
 * [**Seek Video**](seekvideo.md)
 * [**Is Video Playing**](isvideoplaying.md)
+

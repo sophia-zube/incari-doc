@@ -1,30 +1,32 @@
-# Overview
+# Set ArcStart
 
-![The Set ArcStart Node.](../../../.gitbook/assets/setarcstart.png)
+## Overview
 
-The **Set ArcStart Node** sets the starting *arc degree* of an **Arc Object** created in the **Scene Outliner Module** under *Vector*.
+![The Set ArcStart Node.](../../../../.gitbook/assets/setarcstart.png)
 
-# Attributes
+The **Set ArcStart Node** sets the starting _arc degree_ of an **Arc Object** created in the **Scene Outliner Module** under _Vector_.
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Object`|**ObjectID**|The target **Object**.|
+## Attributes
 
-# Inputs
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Object` | **ObjectID** | The target **Object**. |
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the target **Object**.|
-|`ArcStart`|**Float**|The starting *arc degree*.|
+## Inputs
 
-# Outputs
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object**. |
+| `ArcStart` | **Float** | The starting _arc degree_. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+## Outputs
 
-# See Also
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+
+## See Also
 
 * [**Set ArcEnd**](setarcend.md)
 * [**Get ArcStart**](getarcstart.md)

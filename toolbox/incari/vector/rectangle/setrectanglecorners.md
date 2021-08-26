@@ -1,36 +1,32 @@
-# Overview
+# Set RectangleCorners
+
+## Overview
 
 ![The Set RectangleCorners Node.](../../../../.gitbook/assets/setrectanglecorners.png)
 
+The **Set RectangleCorners Node** sets the **Corners** of a **Rectangle Object** created in the **Scene Outliner Module** under _Vector_. **Corners** are **Vector2** type variables.
 
-The **Set RectangleCorners Node** sets the **Corners** of a **Rectangle Object** created in the **Scene Outliner Module** under *Vector*. **Corners** are **Vector2** type variables.  
+## Attributes
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-|`RectangleCorners`|**Vector2**| The **RectangleCorners** of the target **Object**.|
+| `RectangleCorners` | **Vector2** | The **RectangleCorners** of the target **Object**. |
 
+## Outputs
 
-# Outputs
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-
-
-
-# See Also
+## See Also
 
 * [**Get RectangleCorners**](getrectanglecorners.md)
-
-
 
