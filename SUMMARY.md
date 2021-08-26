@@ -6,7 +6,6 @@
 
 * [Overview](demo-projects/overview.md)
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
-* [Using APIs to Pull Dynamic Data](demo-projects/using-apis-to-pull-dynamic-data.md)
 
 ## Getting Started
 
