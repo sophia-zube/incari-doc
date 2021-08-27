@@ -14,10 +14,10 @@ The **Assert** **Node** compares two values and outputs the result of the compar
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The **Data Type** of the two values that will be compared. |
-| `Operator` | **Drop-down** | The operation with which the values |
-| `Default A` | _Defined in the `Data Type` **Attribute**_ | The default value of `A`, if none is received on the **Input Socket**. |
-| `Default B` | _Defined in the `Data Type` **Attribute**_ | The default value of `B`, if none is received on the **Input Socket**. |
-| `Label` | **String** | Message that will be printed on the console along with the test result. |
+| `Operator` | **Drop-down** | The operation that will be used to compare the values. |
+| `Default A` | _Defined in the `Data Type` **Attribute**_ | The default value of `A`, if none is given in the **Input Socket**. |
+| `Default B` | _Defined in the `Data Type` **Attribute**_ | The default value of `B`, if none is given in the **Input Socket**. |
+| `Label` | **String** | Message that will be printed on the console along with the comparison result. |
 
 ## Inputs
 
