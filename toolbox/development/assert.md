@@ -2,7 +2,6 @@
 
 ## Overview
 
-THIS IS A TEST.
 
 ![The Assert Node.](../../.gitbook/assets/node-assert.png)
 
