@@ -17,7 +17,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **String** | The **Strings** to be concatenated. The number of `Inputs` matches the number of elements in the **Attributes**. |
+| `Input [n]` | **String** | The **Strings** to be concatenated. The number of `Inputs` matches the number of elements in the **Attributes**. |
 
 ## Outputs
 
