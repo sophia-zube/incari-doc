@@ -1,6 +1,6 @@
 # Overview
 
-![The Binary (Hex) Value Node.](../../.gitbook/assets/binary-hex-value.png)
+![The Binary (Hex) Value Node.](../../.gitbook/assets/node-binary-hex-value.md)
 
 The **Binary (Hex) Value** generates a binary number represented as hexadecimal.
 
