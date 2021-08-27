@@ -299,7 +299,7 @@
 * [String](toolbox/string/README.md)
   * [Concat Strings](toolbox/string/concatstrings.md)
   * [JSON Parse](toolbox/string/jsonparse.md)
-  * [JSON Stringify_](toolbox/string/jsonstringify.md)
+  * [JSON Stringify](toolbox/string/jsonstringify.md)
   * [String Value](toolbox/string/stringvalue.md)
 * [Utilities](toolbox/utilities/README.md)
   * [Color Value](toolbox/utilities/colorvalue.md)
