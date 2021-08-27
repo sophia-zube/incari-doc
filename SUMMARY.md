@@ -179,6 +179,8 @@
   * [Sequential](toolbox/flow-control/sequential.md)
   * [Switch](toolbox/flow-control/switch.md)
   * [Toggle](toolbox/flow-control/toggle.md)
+* [Functions](toolbox/functions/README.md)
+  * [Function](toolbox/functions/function.md)
 * [Incari](toolbox/incari/README.md)
   * [Animation](toolbox/incari/animation/README.md)
     * [Pause Animation](toolbox/incari/animation/pauseanimation.md)
