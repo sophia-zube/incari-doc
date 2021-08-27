@@ -1,6 +1,6 @@
 # Overview
 
-![The Concat Binaries Node.](../../.gitbook/assets/concat-binaries.md)
+![The Concat Binaries Node.](../../.gitbook/assets/concat-binaries.png)
 
 **Concat Binaries** merges two or more **Binary** numbers into one new. The numbers to be merged are given as input in hexadecimal representation to the **Node**.
 
