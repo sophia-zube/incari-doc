@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Development Nodes** are used for monitoring the execution of the **Logic**. They allow to print values to the console or measure how long a **Branch** takes to be executed.
+The **Development Nodes** are used for monitoring the execution of the **Logic**. They allow to print values to the console or measure how long it takes a **Branch** to be executed.
 
 ## Contents
 
