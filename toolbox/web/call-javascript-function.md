@@ -1,28 +1,44 @@
-# Call JavaScript Function
+# Overview
 
-## Overview
+![The Call Javascript Function Node.](../../.gitbook/assets/node-call-javascript-function.png)
 
-**Call Javascript Function** .
+The **Call Javascript Function** **Node** executes a Javascript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as **Attribute**.
 
-## Attributes
+# Attributes
 
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
+## Object
 
+|Attribute|Type|Description|
+|---|---|---|
+| `Object` | **ObjectID** | **Web Sprite** **Object** that contains the definition of the function to be executed. |
+
+## Function
+
+|Attribute|Type|Description|
+|---|---|---|
+|`JS Function Name` | **String** | Name of the function to be executed, if none is given in the `Function name` **Input Socket**. |
 
 ## Inputs
 
-| Input | Type | Description |
-| :--- | :--- | :--- |
-| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+|Attribute|Type|Description|
+|---|---|---|
+| `Parameters [n]` | **Drop-down** | Label, **Data Type**, and default value of the parameters given to the function. |
 
-## Outputs
+# Inputs
 
-| Output | Type | Description |
-| :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+|Input|Type|Description|
+|---|---|---|
+|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Function name` | **String** | Name of the function to be executed. |
+| `Parameter [n]` | _Defined in the **Data Type** of the `Parameters` **Attribute**_  | Value of the corresponding parameter. |
 
-## See Also
+# Outputs
 
-## External Links
+|Output|Type|Description|
+|---|---|---|
+|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `OnLoaded` | **Pulse** | Flows to additional actions when the **Web Sprite** **Object** has finished loading. |
 
+# See Also
+ 
+ * [**On Javascript Callback**](../events/web/on-javascript-callback.md)
