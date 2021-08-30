@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `JS Function Name` | **String** | The name of the function that will trigger the **Logic**.  |
+| `JS Function Name` | **String** | The name of the function that will trigger the **Logic**. |
 
 ### Outputs
 
@@ -26,7 +26,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Data Types [n]` | **Drop-down** | Label and **Data Type** of the corresponding **Output** **Socket**.  |
+| `Data Types [n]` | **Drop-down** | Label and **Data Type** of the corresponding **Output** **Socket**. |
 
 ## Outputs
 
@@ -35,7 +35,7 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Parameter` | _Defined in the `Data Type` **Attribute**_ | Parameter received by the callback function. |
 
-
 ## See Also
 
 * [**Call Javascript Function**](../../web/call-javascript-function.md)
+
