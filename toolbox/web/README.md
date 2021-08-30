@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Esta es
+**Web Nodes** are used for handling **Web Sprite** **Objects** and their code.
 
 ## Contents
 
