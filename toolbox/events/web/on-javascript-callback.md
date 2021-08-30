@@ -33,7 +33,9 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Parameter` | _Defined in the `Data Type` **Attribute**_ |  |
+| `Parameter` | _Defined in the `Data Type` **Attribute**_ | Parameter received by the callback function. |
 
 
+## See Also
 
+* [**Call Javascript Function**](../../web/call-javascript-function.md)
