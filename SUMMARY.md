@@ -90,6 +90,7 @@
     * [CAN Stop](toolbox/communication/can/canstop.md)
     * [CAN Send Packet](toolbox/communication/can/cansendpacket.md)
   * [HTTP](toolbox/communication/http/README.md)
+    * [HTTP Client](toolbox/communication/http/httpclient.md)
     * [HTTP Server Start](toolbox/communication/http/httpserverstart.md)
     * [HTTP Server Stop](.gitbook/assets/httpserverstop.png)
     * [HTTP Response](toolbox/communication/http/httpresponse.md)
