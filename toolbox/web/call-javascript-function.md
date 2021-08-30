@@ -2,7 +2,7 @@
 
 ![The Call Javascript Function Node.](../../.gitbook/assets/node-call-javascript-function.png)
 
-The **Call Javascript Function** executes a function that is defined in Javascript.
+The **Call Javascript Function** **Node** executes a Javascript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as **Attribute**.
 
 # Attributes
 
