@@ -37,7 +37,7 @@ The **Call Javascript Function** executes a function that is defined in Javascri
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `OnLoaded` | **Pulse** | |
+| `OnLoaded` | **Pulse** | Flows to additional actions when the **Web Sprite** **Object** has finished loading. |
 
 # See Also
  
