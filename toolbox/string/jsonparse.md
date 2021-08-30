@@ -4,7 +4,7 @@
 
 ![The JSON Parse Node.](../../.gitbook/assets/jsonparse.png)
 
-**JSON Parse** allows the user to access the values of a *JSON* file in an **Array** format. Sometimes a **Node** already converts a *JSON* file into a **String**, such as **HTTP Get**, which prepares the data sufficiently for the `Input`. However, this is not always the case and sometimes **Load File** must be used first. Then that output can be used as the `Input`. Alternatively, a *JSON* file text can be typed into the `Value` section.
+The **JSON Parse Node** allows the user to access the values of a *JSON* file in an **Array** format. JavaScript Object Notation (*JSON*) is a data-interchange format, commonly used by APIs. A **Node**, such as **HTTP Get**, can convert a *JSON* file into a **String** format that can be used as `Input`. A **Load File Node** can also be used for the `Input` **String**. Alternatively, a *JSON* file text can be typed into the `Value` section.
 
 ## Attributes
 | Attribute | Type | Description |
@@ -28,6 +28,6 @@
 
 * [**JSON Stringify**](jsonstringify.md)
 * [**Load File**](../io/loadfile.md)
-* [**Using APIs to Pull Dynamic Data**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/demo-projects/using-apis-to-pull-dynamic-data)
+* [**Using APIs to Pull Dynamic Data**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/demo-projects/using-apis-to-pull-dynamic-data#json)
 
 
