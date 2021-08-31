@@ -28,7 +28,7 @@ A **Function** can be exported and then imported in a different **Project**.
 
 ## Exporting and Importing a **Function**
 
-For exporting a **Function**, double click it on the **Function**'s list or on the **Node**, select Export and save the **Blueprints** file.
+For exporting a **Function**, right click it on the **Function**'s list or on the **Node**, select Export and save the **Blueprints** file.
 
 ![](../../.gitbook/assets/export-function.png)
 
