@@ -57,9 +57,24 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 
 
-**HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the *HTTP* protocol. More information on the differences between **POST** and **GET** can be found in the **External Links** section.
+**HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the *HTTP* protocol. More information on the differences between **POST** and **GET** can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
+
+# Attributes
+
+|Attribute|Type|Description|
+|---|---|---|
+|`Request Body`|**User Input**|The body of the *HTTP* request.|
+
+# Inputs
+
+|Input|Type|Description|
+|---|---|---|
+|`Body`|**String**|The body of the *HTTP* request.|
 
 # See Also
 
+* [**Using APIs to Pull Dynamic Data**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/demo-projects/using-apis-to-pull-dynamic-data#http-get)
+
 # External Links
 
+* [*GET vs POST*](https://www.w3schools.com/tags/ref_httpmethods.asp) on W3Schools.
