@@ -185,6 +185,8 @@
   * [Toggle](toolbox/flow-control/toggle.md)
 * [Functions](toolbox/functions/README.md)
   * [Function](toolbox/functions/function.md)
+    * [Function Input](toolbox/functions/function/function-input.md)
+    * [Function Output](toolbox/functions/function/function-output.md)
 * [Incari](toolbox/incari/README.md)
   * [Animation](toolbox/incari/animation/README.md)
     * [Pause Animation](toolbox/incari/animation/pauseanimation.md)
