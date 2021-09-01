@@ -28,5 +28,5 @@ In the **Function**'s **Logic Graph**, the **Function Input** **Node** starts th
 
 # See Also
 
-* [Function](../function.md)
-* [Function Output](function-output.md)
+* [**Function**](../function.md)
+* [**Function Output**](function-output.md)
