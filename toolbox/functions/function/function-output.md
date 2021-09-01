@@ -22,5 +22,5 @@ In the **Function**'s **Logic Graph**, the **Function Output** **Node** finishes
 
 # See Also
 
-* [Function](../function.md)
-* [Function Input](function-input.md)
+* [**Function**](../function.md)
+* [**Function Input**](function-input.md)
