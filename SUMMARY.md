@@ -50,6 +50,7 @@
 
 ## Modules
 
+* [Console](modules/console.md)
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)
 * [Global Preferences](modules/global-preferences.md)
