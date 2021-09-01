@@ -5,7 +5,7 @@
 The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **HTTP POST**. 
 
 
-# HTTP Get
+# HTTP GET
 ![The HTTP GET Node.](../../../.gitbook/assets/httpget.png)
 
 **HTTP GET** creates a request and returns the response within the *HTTP* protocol. This is very useful when dealing with APIs. A more detailed explanation involving APIs can be found in the **See Also** section. 
@@ -16,7 +16,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Remote IP`|**User Input**|*HTTP* endpoint (either a URL or IP address).|
+|`Remote IP`|**User Input**|The *HTTP* endpoint (either a URL or IP address).|
 |`Remote Port`|**Int**|The port value. For *HTTP*, the standard is 80.|
 |`Method`|**Dropdown**|Either **GET** or **POST**, depending on the goal of the user.|
 |`Path`|**User Input**|A specific path from the call being referenced in `Remote IP`. Usually, this is the text after the main root URL but before the `?` character.|
@@ -30,7 +30,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Remote IP`|**String**|*HTTP* endpoint (either a URL or IP address).|
+|`Remote IP`|**String**|The *HTTP* endpoint (either a URL or IP address).|
 |`Remote Port`|**Int**|The port value. For *HTTP*, the standard is 80.|
 |`Path`|**String**|A specific path from the call being referenced in `Remote IP`. Usually, this is the text after the main root URL but before the `?` character.|
 |`Headers`|**Dictionary**|*HTTP* headers in the form of key/value pairs.|
@@ -44,7 +44,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`OnResponse` (►)|**Pulse**|Flows to additional actions when there is a response.|
-|`Status Code`|**Int**|A standard status code within the *HTTP* protocol. For example, 404 when a page is not found.|
+|`Status Code`|**Int**|A standard status code within the *HTTP* protocol. For example, 404 is when a page is not found.|
 |`Headers`|**Dictionary**|Parameters of the call in the form of key/value pairs.|
 |`Body`|**String**|The body of the response, usually including *HTML* text.|
 
