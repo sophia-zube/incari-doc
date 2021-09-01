@@ -26,6 +26,19 @@ A **Function** can be exported and then imported in a different **Project**.
 | `Output Parameter [n]` | _Defined in the **Function Input** **Node**_ | Parameter returned by the function. | 
 
 
+## Creating a Function
+
+To add a **Function**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%286%29.PNG) on the top left of the **Functions** tab on the left panel of the **Logic Editor** and type in the desired name of the **Function**.
+See an example on the image below.
+
+![](../.gitbook/assets/addFunctions.gif)
+
+## Customizing a Function
+
+To open the **Function**'s **Logic Graph**, double click on the **Function** **Node**. There the **Logic** of the **Function** can be defined.
+
+![](../../.gitbook/assets/function-logic-graph.gif)
+
 ## Exporting and Importing a **Function**
 
 For exporting a **Function**, right click it on the **Function**'s list or on the **Node**, select Export and save the **Blueprints** file.
@@ -37,3 +50,8 @@ For exporting a **Function**, right click it on the **Function**'s list or on th
 
 For importing a **Function**, right click on the **Function**'s list or on the **Logic Graph**, select Import and find the **Blueprints** file.
 
+## See Also
+
+* [**Logic Editor**](../../modules/logic-editor.md)
+* [**Function Input**](function/function-input.md)
+* [**Function Output**](function/function-output.md)
