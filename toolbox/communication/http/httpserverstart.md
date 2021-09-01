@@ -2,12 +2,13 @@
 
 ![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstart.png)
 
-The **HTTP Server Start Node** .
+The **HTTP Server Start Node** starts communication with a server that has already been set up in **Project Settings**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The desired *HTTP* server.|
 
 # Inputs
 
@@ -23,5 +24,5 @@ The **HTTP Server Start Node** .
 
 # See Also
 
-# External Links
+* [**HTTP Server Stop**](httpserverstop.md)
 

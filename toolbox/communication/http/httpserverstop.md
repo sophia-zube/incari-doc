@@ -2,12 +2,13 @@
 
 ![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstop.png)
 
-**Httpserverstop** .
+The **HTTP Server Stop Node** terminates the connection with an *HTTP* server.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Dropdown**|The desired *HTTP* server.|
 
 # Inputs
 
@@ -23,5 +24,5 @@
 
 # See Also
 
-# External Links
+* [**HTTP Server Start**](httpserverstart.md)
 
