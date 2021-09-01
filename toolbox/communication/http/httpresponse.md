@@ -29,4 +29,6 @@ The **HTTP Response Node** allows the user to define a response to be sent after
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
 
+# External Links
 
+* [*HTTP Responses*](https://www.toolsqa.com/client-server/http-response/)
