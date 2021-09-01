@@ -2,7 +2,7 @@
 
 ![The Function Input Node.](../../../.gitbook/assets/node-function-input.png)
 
-**Function Input** .
+In the **Function**'s **Logic Graph**, the **Function Input** **Node** starts the **Logic Branch** and outputs the parameter received by the **Function** **Node**.
 
 # Attributes
 
@@ -26,4 +26,7 @@
 | `Input Parameter [n]` | _Defined in the **Inputs** **Attribute**_ | Parameter received by the function. |
 
 
+# See Also
 
+* [Function](../function.md)
+* [Function Output](function-output.md)
