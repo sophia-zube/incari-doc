@@ -8,7 +8,7 @@ The **Function** **Node** is customized by the user. The number and **Data Types
 
 The **Node**'s **Logic** has two special **Nodes**: [**Function Input**](function/function-input.md) and [**Function Output**](function/function-output.md).
 
-A **Function** can be exported and then imported in a different **Project**.
+**Functions** can be exported and then imported in a different **Project**.
 
 
 ## Inputs
@@ -30,6 +30,7 @@ A **Function** can be exported and then imported in a different **Project**.
 
 To add a **Function**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%286%29.PNG) on the top left of the **Functions** tab on the left panel of the **Logic Editor** and type in the desired name of the **Function**.
 Then, to open the **Function**'s **Logic Graph**, double click on the **Function** **Node**. There the **Logic** of the **Function** can be defined.
+
 See an example on the image below.
 
 ![](../../.gitbook/assets/addFunctions.gif)
