@@ -49,6 +49,7 @@
 
 ## Modules
 
+* [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)
