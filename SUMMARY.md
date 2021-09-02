@@ -49,6 +49,7 @@
 
 ## Modules
 
+* [Asset Manager](modules/asset-manager.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Logic Editor](modules/logic-editor.md)
