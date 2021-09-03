@@ -22,7 +22,7 @@ For creating an **Asset**, right click on the **Asset Manager**, select `Create 
 
 The **Asset Manager** offers different views of the files in the **Assets** folder. The general view can be switched on the top left between flat and folder tree view and the files can be seen as either icons or in a list, which is chosen in the bottom right corner.
 
-![](../.gitbook/assets/asset-asset-manager-view.gif)
+![](../.gitbook/assets/asset-manager-view.gif)
 
 ## Deleting
 
