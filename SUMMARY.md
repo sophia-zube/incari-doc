@@ -51,6 +51,7 @@
 ## Modules
 
 * [Asset Manager](modules/asset-manager.md)
+* [Animation Editor](modules/animation-editor.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
