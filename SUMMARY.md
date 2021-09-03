@@ -53,6 +53,7 @@
 * [Asset Manager](modules/asset-manager.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
+* [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)
 * [Global Preferences](modules/global-preferences.md)
