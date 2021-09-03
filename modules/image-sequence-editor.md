@@ -12,11 +12,11 @@ The **Image Sequence Editor** allows to create and edit **Image Sequences**. Ima
 
 ## Removing
 
-![](../gitbook/assets/image-seq-del.gif)
+![](../.gitbook/assets/image-seq-del.gif)
 
 ## Changing Order
 
-![](../gitbook/assets/image-seq-change.gif)
+![](../.gitbook/assets/image-seq-change.gif)
 
 ## See Also
 
