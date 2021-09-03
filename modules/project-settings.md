@@ -2,14 +2,14 @@
 
 
 
-The **Project Settings Module** is used to set up projects that involve the different methods of communication available in *Incari*, **Fonts**, or the **Profiler**. 
+The **Project Settings Module** is used to set up **Projects** that involve the different methods of communication available in *Incari*, **Fonts**, or the **Profiler**. 
 
 
 # CAN
 
 ![The Project Settings CAN Attributes.](../.gitbook/assets/projectsettingscan.png)
 
-The  **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**. 
+The **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**. 
 
 `Interface Name` is the identifying name of the *CAN* Bus. Virtual *CAN* is also possible within *Incari*.
 
@@ -20,11 +20,13 @@ The  **CAN Attributes** cover the necessary data to provide functionality to the
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
 
-`Autostart` can be enabled or disabled and BLAH.
+`Autostart` can be enabled or disabled and decides when the channel is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
 # Fonts
 
 ![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettingsfonts.png)
+
+The **Fonts Attributes** let the user upload different types of **Fonts** to add personalized style to texts. 
 
 `Family Name` is automatically filled in with the **Font's** name when a **Font** file is chosen. The text can also be edited manually. 
 
@@ -44,7 +46,8 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 `Local port` is the port that the user wants to use for their *HTTP* server. More information on ports and port fowarding can be found in the **External Links** section.
 
-`Is auto start` can be enabled or disabled and BLAH.
+`Is auto start` can be enabled or disabled and decides when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+
 
 # MQTT
 
@@ -54,12 +57,16 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 `Is IPv6` can be enabled or disabled. *IPv6* is the newest version of the *Internet Protocol*. More information about *IPv6* can be found in the **External Links** section.
 
-`Remote ip address` is 
+`Remote ip address` is the ip address from which the connection originates. 
 
-`Remote port` is
+`Remote port` is the port number of the connection. 
 
-`Is auto start` is 
+`Is auto start` can be enabled or disabled and decides when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+
 # Profiler
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
 
+`Enable` BLAH
+
+`Port` 
