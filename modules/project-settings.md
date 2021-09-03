@@ -2,27 +2,63 @@
 
 
 
-**Project Settings** .
+The **Project Settings Module** is used to set up projects that involve the different methods of communication available in *Incari*, **Fonts**, or the **Profiler**. 
 
 
 # CAN
 
 ![The Project Settings CAN Attributes.](../.gitbook/assets/projectsettingscan.png)
 
+The  **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**. 
+
+`Interface Name` is the identifying name of the *CAN* Bus. Virtual *CAN* is also possible within *Incari*.
+
+`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the `External Links` section. 
+
+`Channel Name` is the USB port that *CAN* is connected to on *Windows*.
+
+A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
+
+
+`Autostart` can be enabled or disabled and BLAH.
 
 # Fonts
 
-![The Project Settings Fpnts Attributes.](../.gitbook/assets/projectsettingsfonts.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettingsfonts.png)
+
+`Family Name` is automatically filled in with the **Font's** name when a **Font** file is chosen. The text can also be edited manually. 
+
+`Font Asset` is the **Font** file that is uploaded and selected for use. The **Font** file needs to be in the **Project's** **Asset Folder**.
 
 
 # HTTP
 
 ![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttp.png)
 
+
+The **HTTP Attributes** cover the necessary data to provide functionality to the **HTTP Nodes**.
+
+`Name` is an identifying name of a *HTTP* server chosen at the user's discretion. This will show up in the **Nodes** as a choice for the `Configuration` **Attribute**.
+
+`Is IPv6` can be enabled or disabled. *IPv6* is the newest version of the *Internet Protocol*. More information about *IPv6* can be found in the **External Links** section.
+
+`Local port` is the port that the user wants to use for their *HTTP* server. More information on ports and port fowarding can be found in the **External Links** section.
+
+`Is auto start` can be enabled or disabled and BLAH.
+
 # MQTT
 
 ![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettingsmqtt.png)
 
+`Name` is an identifying name of an *MQTT* connection chosen at the user's discretion. 
+
+`Is IPv6` can be enabled or disabled. *IPv6* is the newest version of the *Internet Protocol*. More information about *IPv6* can be found in the **External Links** section.
+
+`Remote ip address` is 
+
+`Remote port` is
+
+`Is auto start` is 
 # Profiler
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
