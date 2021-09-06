@@ -72,7 +72,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 {% tab title="Functions" %}
 ![](../.gitbook/assets/leftPanelFunctions.PNG)
 
-Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** logic in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%286%29.PNG) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions_](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/functions/README.md).
+Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** logic in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%286%29.PNG) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/functions/README.md).
 
 ![](../.gitbook/assets/addFunctions.gif)
 {% endtab %}
