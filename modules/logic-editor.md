@@ -1,6 +1,6 @@
 # Logic Editor
 
-Logic in *Incari* is what allows us to take our 2D/3D **Assets** and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing *Incari's* powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminologies of *Incari's* **Logic Editor**.
+**Logic** in *Incari* is what allows us to take our 2D/3D **Assets** and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing *Incari's* powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminologies of *Incari's* **Logic Editor**.
 
 ## 1 - Logic Editor Window
 
@@ -119,7 +119,7 @@ The concept of **Sockets** makes much more sense in the context of **Connections
 
 #### Pulse
 
-These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to do their thing. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse** connection will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
+These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to do their thing. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse Connection** will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
 
 #### Data
 
@@ -133,7 +133,7 @@ These **Connections** pass data values between **Nodes**. We do this by connecti
 
 ![The Node Attribute Editor Outputs](../.gitbook/assets/rangeMapperOutputsImg.PNG)
 
-The **Node Attribute Editor** \(referred to simply as **Editor** from here on\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Often, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions, however, where **Attributes** can be set only in the **Editor** and there is no equivalent **Socket** available, which are discussed below in the **Node-Specific Attributes** section.
+The **Node Attribute Editor** \(referred to simply as **Editor** from here on\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Oftentimes, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions, however, where **Attributes** can be set only in the **Editor** and there is no equivalent **Socket** available, which are discussed below in the **Node-Specific Attributes** section.
 
 ### General Attributes
 
