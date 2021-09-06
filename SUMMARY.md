@@ -57,6 +57,7 @@
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor.md)
 * [Project Outliner](modules/project-outliner.md)
+* [Project Settings](modules/project-settings.md)
 * [Global Preferences](modules/global-preferences.md)
 * [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
