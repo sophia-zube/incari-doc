@@ -84,5 +84,5 @@ The **Profiler Attributes** cover the necessary data to provide functionality to
 
 * More information on the [*Baud metric*](https://en.wikipedia.org/wiki/Baud).
 * More information on [*IPv6*](https://en.wikipedia.org/wiki/IPv6).
-* More information on [*ports*](https://en.wikipedia.org/wiki/Port\_(computer\_networking)).
+* More information on [*ports*](https://en.wikipedia.org/wiki/Port_%28computer_networking%29).
 * More information on [*port fowarding*](https://en.wikipedia.org/wiki/Port_forwarding).
