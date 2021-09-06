@@ -28,7 +28,7 @@ The **Node**'s **Logic** has two special **Nodes**: [**Function Input**](functio
 
 ## Creating a Function
 
-To add a **Function**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%286%29.PNG) on the top left of the **Functions** tab on the left panel of the **Logic Editor** and type in the desired name of the **Function**.
+To add a **Function**, click on the add icon on the top left of the **Functions** tab on the left panel of the **Logic Editor** and type in the desired name of the **Function**.
 Then, to open the **Function**'s **Logic Graph**, double click on the **Function** **Node**. There the **Logic** of the **Function** can be defined.
 
 See an example on the image below.
