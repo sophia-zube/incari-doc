@@ -64,7 +64,7 @@ The `Reset Layout` button resets all **Modules** found in *Incari* to their defa
 
 ### Bottom and Top Gradient Color
 
-`Bottom` and `Top Gradient Color` sets a _color gradient_ that starts at the _bottom_ and _top_ positions of the **Viewport**, respectively. The _color gradient_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](color-../getting-started/attributes/attribute-types/color-attributes.md).
+`Bottom` and `Top Gradient Color` set a _color gradient_ that starts at the _bottom_ and _top_ positions of the **Viewport**, respectively. The _color gradient_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](color-../getting-started/attributes/attribute-types/color-attributes.md).
 
 ### Grid Color
 
@@ -74,7 +74,7 @@ The `Reset Layout` button resets all **Modules** found in *Incari* to their defa
 {% endtab %}
 {% endtabs %}
 
-In order to open the **Global Preference** **Module**, _right-click_ on the _menu bar_ in *Incari* and _click_ on **Global Preference** from the drop-down list. Please see the illustration below:
+In order to open the **Global Preferences** **Module**, _right-click_ on the _menu bar_ in *Incari* and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
 
 ![](../.gitbook/assets/open-global-preferences.PNG)
 
