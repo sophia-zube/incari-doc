@@ -2,7 +2,7 @@
 
 
 
-The **Project Settings Module** is used to set up **Projects** that involve the different methods of communication available in *Incari*, **Fonts**, or the **Profiler**. 
+The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in *Incari*, **Fonts**, or the **Profiler**. 
 
 
 # CAN
@@ -11,7 +11,7 @@ The **Project Settings Module** is used to set up **Projects** that involve the 
 
 The **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**. 
 
-`Interface Name` is the identifying name of the *CAN* Bus. Virtual *CAN* is also possible within *Incari*.
+`Interface Name` is the identifying name of the *CAN* Bus. *Virtual CAN* is also possible within *Incari*.
 
 `Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the `External Links` section. 
 
@@ -53,11 +53,13 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 ![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettingsmqtt.png)
 
+The **MQTT Attributes** cover the necessary data to provide functionality to the **MQTT Nodes**.
+
 `Name` is an identifying name of an *MQTT* connection chosen at the user's discretion. 
 
 `Is IPv6` can be enabled or disabled. *IPv6* is the newest version of the *Internet Protocol*. More information about *IPv6* can be found in the **External Links** section.
 
-`Remote ip address` is the ip address from which the connection originates. 
+`Remote ip address` is the IP address from which the connection originates. 
 
 `Remote port` is the port number of the connection. 
 
@@ -67,6 +69,20 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
 
-`Enable` BLAH
+The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler Nodes**.
 
-`Port` 
+`Enable` enables or disables the **Profiler**, which can be edited in the **Profiler View Module**.
+
+`Port` is the port number being used. 
+
+
+# See Also
+
+* [**Communication Nodes**](toolbox\communication\README.md)
+
+# External Links
+
+* More information on the [*Baud metric*](https://en.wikipedia.org/wiki/Baud)
+* More information on [*IPv6*](https://en.wikipedia.org/wiki/IPv6)
+* More information on [*ports*](https://en.wikipedia.org/wiki/Port_(computer_networking))
+* More information on [*port fowarding*](https://en.wikipedia.org/wiki/Port_forwarding)
