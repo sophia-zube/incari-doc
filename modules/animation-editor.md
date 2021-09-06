@@ -6,3 +6,14 @@ The **Animation Editor** is used for creating and editing key-frame based timeli
 
 ![](../.gitbook/assets/animation-editor2.png)
 
+## Toolbar
+
+![](../.gitbook/assets/animation-editor-top-panel.png)
+
+## Left panel
+
+![](../.gitbook/assets/animation-editor-left-panel.png)
+
+## Timeline
+
+![](../.gitbook/assets/animation-editor-central.png)
