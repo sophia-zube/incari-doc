@@ -18,6 +18,6 @@
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Headers`|**Dictionary**|*HTTP* headers in the form of key/value pairs.|
 |`Query`|**Dictionary**|Parameters of the call in the form of key/value pairs.|
-|`Request ID`|**InstanceID**|The unique ID of the request.|
+|`Request ID`|**CustomID**|The unique ID of the request.|
 
 
