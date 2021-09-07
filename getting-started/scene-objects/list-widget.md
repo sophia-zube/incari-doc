@@ -175,7 +175,7 @@ The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, there
 
 ## Sprite
 
-**Sprite** **Attributes** are documented in [**Sprite Object**](sprite.md).
+**Sprite** **Attributes** are documented in [**Sprite Object**](../attributes/common-attributes/sprite.md).
 
 ## Advanced
 
