@@ -107,7 +107,7 @@ body {
 
 The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List** **Objects**.
 
-The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript. Please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 In the illustration below, we replace a book in our audio-book **List** example using the `Js File` **Attribute**.
 
@@ -159,13 +159,13 @@ Also, clicking the `Generate List` button renders any update made to the **Attri
 
 ### Background color
 
-The `Background color` can be set by if you manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/attributes/attribute-types/color-attributes.md).
+The `Background color` can be set by if you manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
 
 ## Effects
 
 ### Tint
 
-The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/objects/attributes/attribute-types/color-attributes.md).
+The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
 
 ## Web Resource
 
@@ -175,7 +175,7 @@ The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, there
 
 ## Sprite
 
-**Sprite** **Attributes** are documented in [**Sprite Object**](https://github.com/cgi-studio-gmbh/incari-doc/tree/c45e708ea3d76c2b80cfa51e6e1613896cec44e3/getting-started/scene-objects/sprites/sprite.md).
+**Sprite** **Attributes** are documented in [**Sprite Object**](sprite.md).
 
 ## Advanced
 
