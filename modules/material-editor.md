@@ -20,3 +20,13 @@ The `Used Materials` section has **Materials** that have been previously applied
 
 ![](../.gitbook/assets/open-material-editor.PNG)
 
+
+Once a **Material** has been opened, the **Material Editor** allows to edit the **Material**'s **Attributes**, as it is shown in the images below.
+
+![](../.gitbook/assets/material-editor-1.png)
+
+![](../.gitbook/assets/material-editor-2.png)
+
+## See Also
+
+* [**Mesh**](../getting-started/scene-objects/mesh.md)
