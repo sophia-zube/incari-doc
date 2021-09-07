@@ -22,18 +22,34 @@ The rest of the options are for enabling the preview and playing and controlling
 
 ## Left Panel
 
-![](../.gitbook/assets/animation-editor-left-panel.png)
+![](../.gitbook/assets/animation-editor-left-panel-2.png)
 
 The **Left Panel** shows the **Animation Blocks** with their **Transformation Attributes** and corresponding **Keyframes**, which are highlighted in blue.
 
+A **Keyframe** consists of two parts:
+
+* The **Keyframe** itself, which holds a value at a specific time.
+
+* The curve handles, which control the easing and interpolation between frames.
+
+To add a **Keyframe**, simply right click an Attribute and select `Add Keyframe` from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. The curve handles can then be adjusted to fine-tune the intermediate frames.
+
+When a **Keyframe** is selected, its corresponding Bézier curve is shown in the **Animation Timeline**.
+
 When the animation is run, the **Left Panel** shows the evolving values of the **Transformation Attributes**.
+
+![](../.gitbook/assets/anim-editor-run.gif)
 
 ## Animation Timeline
 
 ![](../.gitbook/assets/animation-editor-central.png)
 
-The **Animation Timeline** shows a graph of the evolution in time of the **Transformation Attributes**.
+The **Animation Timeline** shows a graph with the Bézier curves of the **Transformation Attributes**.
 
 ## See Also
 
 * [**4 Methods of Animation - 1. Animation Editor**](../demo-projects/4-methods-of-animation.md#1-animation-editor)
+
+## External Link
+
+* [_Bézier Curve_](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) on Wikipedia.
