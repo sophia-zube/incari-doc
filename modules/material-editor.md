@@ -1,6 +1,6 @@
 # Material Editor
 
-The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have _.incmat_ as their filename extension.
+The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have a _.incmat_ as their filename extension.
 
 To open the **Material Editor**, _double-click_ on a **Material** file in the **Asset Manager** or _right-click_ on the _Menu bar_ in *Incari* and _click_ on **Material Editor** from the drop-down list. This can be seen in the illustration below:
 
@@ -21,7 +21,7 @@ The `Used Materials` section has **Materials** that have been previously applied
 ![](../.gitbook/assets/open-material-editor.PNG)
 
 
-Once a **Material** has been opened, the **Material Editor** allows to edit the **Material**'s **Attributes**, as it is shown in the images below.
+Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below.
 
 ![](../.gitbook/assets/material-editor-1.png)
 
