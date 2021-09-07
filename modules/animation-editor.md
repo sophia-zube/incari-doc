@@ -6,14 +6,34 @@ The **Animation Editor** is used for creating and editing key-frame based timeli
 
 ![](../.gitbook/assets/animation-editor2.png)
 
+## Animation Editor Window
+
+![](../.gitbook/assets/animation-editor3.png)
+
+**Animation Editor** - The main window, which contains all the option to create and edit an animation. The specifics of its sections are described below.
+
 ## Toolbar
 
 ![](../.gitbook/assets/animation-editor-top-panel.png)
 
-## Left panel
+The **Toolbar** offers several options to modify an animation, such as adding or deleting an animation block, adding or deleting a keyframe, and modifying the type of interpolation used.
+It also gives options for a better visualization of the timeline, such as a focus on just the visible lines and a toggle for the visibility of the tangent lines.
+The rest of the options are for enabling the preview and playing and controlling the animation.
+
+## Left Panel
 
 ![](../.gitbook/assets/animation-editor-left-panel.png)
 
-## Timeline
+The **Left Panel** shows the **Animation Blocks** with their **Transformation Attributes** and corresponding **Keyframes**, which are highlighted in blue.
+
+When the animation is run, the **Left Panel** shows the evolving values of the **Transformation Attributes**.
+
+## Animation Timeline
 
 ![](../.gitbook/assets/animation-editor-central.png)
+
+The **Animation Timeline** shows a graph of the evolution in time of the **Transformation Attributes**.
+
+## See Also
+
+* [**4 Methods of Animation - 1. Animation Editor**](../demo-projects/4-methods-of-animation.md#1-animation-editor)
