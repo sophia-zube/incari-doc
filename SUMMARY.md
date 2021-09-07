@@ -61,6 +61,7 @@
 * [Global Preferences](modules/global-preferences.md)
 * [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
+* [Model Editor](modules/model-editor.md)
 * [Scene Outliner](modules/scene-outliner.md)
 
 ## Toolbox
