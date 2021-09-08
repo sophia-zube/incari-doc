@@ -1,13 +1,10 @@
 # Overview
 
-![The Profiler Stop Node.]()
+![The Profiler Stop Node.](../../.gitbook/assets/node-profiler-stop.png)
 
-**Profiler Stop** .
+The **Profiler Stop** **Node** marks the end of a **Profiler Block** that will be analyzed in the **Profiler View**.
 
-# Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
@@ -22,6 +19,9 @@
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
 # See Also
+
+* [**Profiler Start**]()
+* [**Profiler View**]()
 
 # External Links
 
