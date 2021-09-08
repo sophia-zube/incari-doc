@@ -11,7 +11,7 @@
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
-* [What's New](getting-started/whats-new-20212.md)
+* [What's New](getting-started/whats-new-20213.md)
 * [Installation](getting-started/installation.md)
 * [Project Objects](getting-started/project-objects/README.md)
   * [Scene](getting-started/project-objects/scene.md)
@@ -52,6 +52,7 @@
 
 * [Asset Manager](modules/asset-manager.md)
 * [Animation Editor](modules/animation-editor.md)
+* [Attribute Editor](modules/attribute-editor.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
@@ -59,7 +60,6 @@
 * [Project Outliner](modules/project-outliner.md)
 * [Project Settings](modules/project-settings.md)
 * [Global Preferences](modules/global-preferences.md)
-* [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
 * [Model Editor](modules/model-editor.md)
 * [Scene Outliner](modules/scene-outliner.md)
