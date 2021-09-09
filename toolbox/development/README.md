@@ -12,4 +12,6 @@ The **Development Nodes** are used for monitoring the execution of the **Logic**
 * [**Benchmark Stop**](benchmark-stop.md)
 * [**Clear Console**](clear-console.md)
 * [**Console**](console.md)
+* [**Profiler Start**](profiler-start.md)
+* [**Profiler Stop**](profiler-stop.md)
 
