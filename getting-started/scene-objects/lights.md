@@ -1,8 +1,8 @@
 # Lights
 
-**INCARI** has three types of **Light Object**; the **Spot Light**, the **Point Light**, and the **Directional Light**.
+*Incari* has three types of **Light Objects**; the **Spot Light**, the **Point Light**, and the **Directional Light**.
 
-The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; while the **Spot Light** is _directional_ and will only light the area that it is rotated towards. The **Directional Light** presents light where the rays are parallel and are as if they come from a far off distance, lighting objects equally, like the sun. Additionally, unlike **Point Light**, **Spot Light** and **Directional Light** support shadow mapping, and has a extra set of **Attributes** for that purpose.
+The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; the **Spot Light** is _directional_ and will only light the area that it is rotated towards; and the **Directional Light** is where the rays of light are parallel to each other, illuminating as if from a far off distance and lighting objects equally, like with the sun. Additionally, unlike **Point Light**, **Spot Light** and **Directional Light** support shadow mapping and have an extra set of **Attributes** for that purpose.
 
 | Attribute | Spot Light | Point Light |Directional Light
 | :--- | :--- | :--- | :--- |
