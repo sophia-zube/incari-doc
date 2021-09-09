@@ -24,6 +24,7 @@
   * [Sprite](getting-started/scene-objects/sprite.md)
   * [Text](getting-started/scene-objects/text.md)
   * [Web Sprite](getting-started/scene-objects/web-sprite.md)
+  * [Primitives](getting-started/scene-objects/primitives.md)
 * [Attributes](getting-started/attributes/README.md)
   * [Attribute Types](getting-started/attributes/attribute-types/README.md)
     * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)
