@@ -67,6 +67,34 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 |`Material`|The user can choose a **Material** file to customize the look of the **Sphere**.|
 
 
+## Spring 
+
+![A Spring Object](../../.gitbook/assets/spiralexample.png)
+
+The **Spring**, a three-dimensional coil-shaped **Object**, has several **Attributes**.
+
+|`Object`|This section shows the name and type of the **Object**, in this case a **Spring**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Spring Object** within 3D space.|
+|`Rotation Pivot`|XX|
+|`Spring`|`Rows` sets the number of 'rows' which run through the **Spring**. The sample image has `Rows` = 10 and this can be further visualized by `Rows` = 3, which would show as ends witha triangle shape which show three sections making up the coil. `Columns` sets the number of 'columns', which look like how many 'kinks' the **Spring** has. This is better seen from a bird's eye view. For example if `Columns` was set to 5, the shape from the top would be a pentagram. `Radius` increases or decreases the radius of the **Spring** ends, which is visualized as the **Spring** becoming thicker and thinner. `Height` elongates or shortens the space between the number of coils, or `Segments`. `Segments` sets the number of coils the **Spring** has. `Inner Radius` sets the radius of the internal space of the **Spring**, widening and compressing the coil.| 
+|`Material`|The user can choose a **Material** file to customize the look of the **Spring**.|
+
+
+## Torus
+
+![A Torus Object](../../.gitbook/assets/torusexample.png)
+
+The **Torus**, a three-dimensional donut-shaped **Object**, has several **Attributes**.
+
+| Attribute | Description |
+| :--- | :--- |
+|`Object`|This section shows the name and type of the **Object**, in this case a **Torus**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Torus Object** within 3D space.|
+|`Rotation Pivot`|XX|
+|`Torus`|`Rows` sets the number of 'rows' of the **Torus**, which is visualized as the roundness and smoothness of its surface. `Columns` sets the number of 'columns' of the **Torus**, which are visualized as the number of sections it is made up of looking down. For example, if `Columns` were set to 4, then the number of sections would be 4 and the **Torus** would take a square-like shape. `Radius` increases or decreases the radius of the **Torus**. If one thinks of the **Torus** as many circular pieces patched together, it is the radius of these circles that are changed. This is visualized as the **Torus** becoming thicker or thinner. `Inner Radius` sets the radius of the internal space of the **Torus**.|
+|`Material`|The user can choose a **Material** file to customize the look of the **Torus**.|
+
+
 # See also
 
 * [**Material Editor**](../../modules/material-editor.md)
@@ -77,3 +105,5 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 * [*Cylinder*](https://en.wikipedia.org/wiki/Cylinder) on Wikipedia.
 * [*Dome*](https://en.wikipedia.org/wiki/Spherical_cap), or Spherical Cap, on Wikipedia
 * [*Plane*](https://en.wikipedia.org/wiki/Plane_%28(geometry%29)) on Wikipedia.
+* [*Sphere*](https://en.wikipedia.org/wiki/Sphere) on Wikipedia.
+* [*Torus*](https://en.wikipedia.org/wiki/Torus) on Wikipedia.
