@@ -16,13 +16,21 @@ The **Profiler** window consists of four panels (**Form**, **Diagram**, **Stats*
 
 ## Form
 
+The **Form** toolbar 
+
 ![](../.gitbook/assets/profiler-form.png)
 
 ## Diagram
 
+The **Diagram** shows the timeline with the capture. It is possible to zoom in and out by scrolling and move through the timeline by clicking and dragging.
+
+For selecting a **Block** or a time range to learns its stats, use the right-click button.
+
 ![](../.gitbook/assets/profiler-diagram.png)
 
 ## Stats
+
+The **Stats** panel shows the data collected for the blocks selected in the **Diagram**.
 
 ![](../.gitbook/assets/profiler-stats.png)
 
@@ -32,9 +40,11 @@ The **Profiler** window consists of four panels (**Form**, **Diagram**, **Stats*
 
 ## See Also
 
-* [**Logic Editor**]
-* [**Profiler Start**]
-* [**Profiler Stop**]
-* [**Project Settings**]
+* [**Logic Editor**](logic-editor.md)
+* [**Profiler Start**](../toolbox/development/profiler-start.md)
+* [**Profiler Stop**](../toolbox/development/profiler-stop.md)
+* [**Project Settings**](project-settings.md)
 
 ## External Links
+
+* [_Profiling (computer programming)_](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29)
