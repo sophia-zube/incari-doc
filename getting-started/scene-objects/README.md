@@ -18,5 +18,5 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 * [Sprite](sprite.md)
 * [Text](text.md)
 * [Web Sprite](web-sprite.md)
-* [Primitives](primitives.md)
+
 
