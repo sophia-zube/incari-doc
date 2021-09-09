@@ -58,11 +58,12 @@
 * [Console](modules/console.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor.md)
-* [Project Outliner](modules/project-outliner.md)
-* [Project Settings](modules/project-settings.md)
 * [Global Preferences](modules/global-preferences.md)
 * [Material Editor](modules/material-editor.md)
 * [Model Editor](modules/model-editor.md)
+* [Profiler View](modules/profiler-view.md)
+* [Project Outliner](modules/project-outliner.md)
+* [Project Settings](modules/project-settings.md)
 * [Scene Outliner](modules/scene-outliner.md)
 
 ## Toolbox
@@ -129,6 +130,8 @@
   * [Benchmark Stop](toolbox/development/benchmark-stop.md)
   * [Clear Console](toolbox/development/clear-console.md)
   * [Console](toolbox/development/console.md)
+  * [Profiler Start](toolbox/development/profiler-start.md)
+  * [Profiler Stop](toolbox/development/profiler-stop.md)
 * [Dictionary](toolbox/dictionary/README.md)
   * [Clear Dictionary](toolbox/dictionary/clear-dictionary.md)
   * [Dictionary Value](toolbox/dictionary/dictionary-value.md)
