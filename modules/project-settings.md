@@ -78,7 +78,7 @@ The **Profiler Attributes** cover the necessary data to provide functionality to
 
 # See Also
 
-* [**Communication Nodes**](toolbox/communication/)
+* [**Communication Nodes**](../toolbox/communication/README.md)
 
 # External Links
 
