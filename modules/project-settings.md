@@ -20,7 +20,7 @@ The **CAN Attributes** cover the necessary data to provide functionality to the 
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
 
-`Autostart` can be enabled or disabled and decides when the channel is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+`Autostart` can be enabled or disabled and dictates when the channel is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
 # Fonts
 
@@ -46,7 +46,7 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 `Local port` is the port that the user wants to use for their *HTTP* server. More information on ports and port fowarding can be found in the **External Links** section.
 
-`Is auto start` can be enabled or disabled and decides when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+`Is auto start` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
 
 # MQTT
@@ -63,7 +63,7 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 
 `Remote port` is the port number of the connection. 
 
-`Is auto start` can be enabled or disabled and decides when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+`Is auto start` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
 # Profiler
 
@@ -78,7 +78,7 @@ The **Profiler Attributes** cover the necessary data to provide functionality to
 
 # See Also
 
-* [**Communication Nodes**](toolbox\communication\README.md)
+* [**Communication Nodes**](toolbox/communication/README.md)
 
 # External Links
 
