@@ -16,7 +16,7 @@ The **Profiler** window consists of four panels (**Form**, **Diagram**, **Stats*
 
 ## Form
 
-The **Form** toolbar 
+The **Form** toolbar has buttons for configuring the connection of the **Profiler**, starting, stopping and saving a capture, and customizing the view of the rest of the panels.
 
 ![](../.gitbook/assets/profiler-form.png)
 
@@ -24,9 +24,12 @@ The **Form** toolbar
 
 The **Diagram** shows the timeline with the capture. It is possible to zoom in and out by scrolling and move through the timeline by clicking and dragging.
 
-For selecting a **Block** or a time range to learns its stats, use the right-click button.
-
 ![](../.gitbook/assets/profiler-diagram.png)
+
+For selecting a **Block** or a time range to learns its stats, use the right-click button. For a time range, right-click somewhere in the timeline and drag over the desired range.
+
+![](../.gitbook/assets/profiler-drag.gif)
+
 
 ## Stats
 
@@ -34,7 +37,13 @@ The **Stats** panel shows the data collected for the blocks selected in the **Di
 
 ![](../.gitbook/assets/profiler-stats.png)
 
+Right-clicking on a block opens a drop-down menu with the viewing options, including `Select Columns`, which allows to select which columns are shown on the stats table.
+
+![](../.gitbook/assets/profiler-stats-menu.png)
+
 ## FPS Monitor
+
+The **FPS Monitor** shows in real time whenever the **Profiler** is connected the frame rate of the player.
 
 ![](../.gitbook/assets/profiler-fps-monitor.png)
 
