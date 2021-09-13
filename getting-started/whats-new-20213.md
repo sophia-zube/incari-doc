@@ -16,7 +16,7 @@ With **Normal Maps** now available in the **Materials Editor**, users of *Incari
 
 * [**Build Module v1**](../modules/exporter.md)
   
-    This new **Module** allows to export a **Project** into a desired folder and it generates an execution file in said folder.
+    This new **Module** allows to export a **Project** into a desired folder and generates an execution file.
 
 * [**CPU Profiler Integration**](../modules/profiler-view.md)
   
@@ -26,5 +26,6 @@ With **Normal Maps** now available in the **Materials Editor**, users of *Incari
 
 * **Compiler cli v1**
 
-    Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to start a **Project** in _IncariPlayer_ without having to use _IncariStudio_.
+    Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to then directly run a **Project** in _IncariPlayer_ without having to open the **Project** in _IncariStudio_.
+    
     The command to compile the **Logic** of a **Project** is: `IncariCLI.exe /p="<project-path>"`.
