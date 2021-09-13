@@ -4,9 +4,9 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * **Primitives**
 
-* **Directional Lights**
+* [**Directional Lights**](scene-objects/lights.md)
 
-* **Normal Maps**
+* [**Normal Maps**](../modules/material-editor.md)
 
 * **Screen Space Elements**
 
