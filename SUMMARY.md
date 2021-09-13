@@ -57,6 +57,7 @@
 * [Attribute Editor](modules/attribute-editor.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
+* [Exporter](modules/exporter.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor.md)
 * [Global Preferences](modules/global-preferences.md)
