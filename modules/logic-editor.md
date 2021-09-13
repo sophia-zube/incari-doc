@@ -64,7 +64,7 @@ The **Toolbox** contains all of the individual tools you will need to create you
 {% tab title="Events" %}
 ![](../.gitbook/assets/leftPanelEvents.PNG)
 
-An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.PNG) located at the top of the panel, then the desired name for the **Event Node** inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
+An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29.PNG) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
 
 ![](../.gitbook/assets/addEvent.gif)
 {% endtab %}
@@ -119,7 +119,7 @@ The concept of **Sockets** makes much more sense in the context of **Connections
 
 #### Pulse
 
-These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to do their thing. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse Connection** will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
+These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to execute. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse Connection** will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
 
 #### Data
 
