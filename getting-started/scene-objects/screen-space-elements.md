@@ -32,14 +32,19 @@ More information on **Sprite** **Objects** and further links can be found [*here
 
 * **Svg2D**
 
-
+This **Object** allows the user to upload their own **SVG**, or *Scalable Vector Graphic*, file. Learn more about **Scalable Vector Graphics** on [*Wikipedia*](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics).
 
 * **Text2D**
 
 A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here*](text.md)
 
 * **Video2D**
+
+**Videos** are self-explanatory. This **Object** allows the user to upload their own video and move it around within two-dimensional space. 
+
 * **Web Sprite2D**
+
+Web Sprites are important for embedding different types of web technologies into an *Incari* **Project**. This is explained in greater detail [*here*](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/scene-objects/web-sprite).
 
 # Vector2D 
 
