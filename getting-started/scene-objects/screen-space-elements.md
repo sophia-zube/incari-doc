@@ -8,6 +8,26 @@ The **2D** **Objects** available in *Incari* fall under two groups in the **Scen
 
 ![2D Objects](../../.gitbook/assets/2Delements.png)
 
+The **2D Objects** cover different functional items used to provide engaging graphics and visuals in *Incari*.
+
+* **Image Sequence Sprite2D** 
+* **Label2D**
+* **List2D**
+* **On-Screen Keyboard2D**
+* **Sprite2D**
+* **Svg2D**
+* **Text2D**
+* **Video2D**
+* **Web Sprite2D**
+
 # Vector2D 
 
 ![Vector2D Objects](../../.gitbook/assets/2Dvectorelements.png)
+
+The **Vector2D Objects** provide 2D alternatives to their 3D **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a **User Interface**. 
+
+* **Arc2D**
+* **Ellipse2D**
+* **Line2D**
+* **Pie2D** 
+* **Rectangle2D**
