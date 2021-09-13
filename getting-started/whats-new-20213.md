@@ -6,7 +6,11 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * [**Directional Lights**](scene-objects/lights.md)
 
+*Incari* has added a third type of **Light** that extends the capabilities of lighting and shadows in a **Scene**.
+
 * [**Normal Maps**](../modules/material-editor.md)
+
+With **Normal Maps** now available in the **Materials Editor**, users of *Incari* can now take advantage of this texturing technique that will limit rendering time while also improving the complexity of **Materials**.
 
 * **Screen Space Elements**
 
