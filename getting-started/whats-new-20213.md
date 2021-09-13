@@ -14,9 +14,11 @@ With **Normal Maps** now available in the **Materials Editor**, users of *Incari
 
 * **Screen Space Elements**
 
-* **Build Module v1**
+* [**Build Module v1**](../modules/exporter.md)
+  
+    This new **Module** allows to export a **Project** into a desired folder and it generates an execution file in said folder.
 
-* **CPU Profiler Integration**
+* [**CPU Profiler Integration**](../modules/profiler-view.md)
   
     _Incari_ has now a **Profiler** tool integrated, which allows to analyze the performance of any **Block** of **Nodes** in the **Logic**. To use it, a **Profiler Block** using the new [**Profiler Start**](../toolbox/development/profiler-start.md) and [**Profiler Stop**](../toolbox/development/profiler-stop.md) **Nodes** has to be created and then the [**Profiler View Module**](../modules/profiler-view.md) is used for capturing and analyzing the performance of the **Blocks**.
 
