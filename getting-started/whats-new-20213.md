@@ -25,3 +25,6 @@ With **Normal Maps** now available in the **Materials Editor**, users of *Incari
 ![](../.gitbook/assets/profiler-view-connected.png)
 
 * **Compiler cli v1**
+
+    Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to start a **Project** in _IncariPlayer_ without having to use _IncariStudio_.
+    The command to compile the **Logic** of a **Project** is: `IncariCLI.exe /p="<project-path>"`.
