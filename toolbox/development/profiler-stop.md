@@ -20,8 +20,8 @@ The **Profiler Stop** **Node** marks the end of a **Profiler Block** that will b
 
 # See Also
 
-* [**Profiler Start**]()
-* [**Profiler View**]()
+* [**Profiler Start**](profiler-start.md)
+* [**Profiler View**](../../modules/profiler-view.md)
 
-# External Links
+
 

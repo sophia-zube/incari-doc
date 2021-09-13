@@ -69,11 +69,11 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
 
-The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler Nodes**.
+The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler** **Module**.
 
 `Enable` enables or disables the **Profiler**, which can be edited in the **Profiler View Module**.
 
-`Port` is the port number being used. 
+`Port` is the port number to which the **Profiler Module** has to connect.
 
 
 # See Also

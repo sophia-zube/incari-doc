@@ -26,8 +26,8 @@ The **Profiler Start** **Node** marks the start of a **Profiler Block** that wil
 
 # See Also
 
-* [**Profiler Stop**]()
-* [**Profiler View**]()
+* [**Profiler Stop**](profiler-stop.md)
+* [**Profiler View**](../../modules/profiler-view.md)
 
-# External Links
+
 

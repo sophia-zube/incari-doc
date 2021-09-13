@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Profiler** allows to analyze the performance of **Logic Blocks**, which have to be set in the **Logic Editor** by using the **Profiler Start** and **Profiler Stop** **Nodes**.
+The **Profiler** allows to analyze the performance of blocks of **Nodes** in the **Logic**, which we call **Profiler Blocks**. These **Profiler Blocks** have to be set in the **Logic Editor** by using the **Profiler Start** and **Profiler Stop** **Nodes**.
 
 ![](../.gitbook/assets/profiler-view.png)
 
@@ -26,7 +26,9 @@ The **Diagram** shows the timeline with the capture. It is possible to zoom in a
 
 ![](../.gitbook/assets/profiler-diagram.png)
 
-For selecting a **Block** or a time range to learns its stats, use the right-click button. For a time range, right-click somewhere in the timeline and drag over the desired range.
+For selecting a **Block** or a time range to learns its statistics, use the right-click button. For a time range, right-click somewhere in the timeline and drag over the desired range.
+
+After a selection has been made, the statistics of the included **Blocks** appear in the **Stats** panel.
 
 ![](../.gitbook/assets/profiler-drag.gif)
 
@@ -43,7 +45,7 @@ Right-clicking on a block opens a drop-down menu with the viewing options, inclu
 
 ## FPS Monitor
 
-The **FPS Monitor** shows in real time whenever the **Profiler** is connected the frame rate of the player.
+The **FPS Monitor** shows the frame rate of the player in real time when the **Profiler** is connected.
 
 ![](../.gitbook/assets/profiler-fps-monitor.png)
 
@@ -52,8 +54,8 @@ The **FPS Monitor** shows in real time whenever the **Profiler** is connected th
 * [**Logic Editor**](logic-editor.md)
 * [**Profiler Start**](../toolbox/development/profiler-start.md)
 * [**Profiler Stop**](../toolbox/development/profiler-stop.md)
-* [**Project Settings**](project-settings.md)
+* [**Project Settings**](project-settings.md#profiler)
 
 ## External Links
 
-* [_Profiling (computer programming)_](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29)
+* [_Profiling (computer programming)_](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) on Wikipedia.
