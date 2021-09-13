@@ -11,12 +11,33 @@ The **2D** **Objects** available in *Incari* fall under two groups in the **Scen
 The **2D Objects** cover different functional items used to provide engaging graphics and visuals in *Incari*.
 
 * **Image Sequence Sprite2D** 
+
+Image Sequences are used for one type of animation in *Incari*. More information can be found [*here*](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#3-image-sequence) and [*here*](../../modules/image-sequence-editor.md).
+
 * **Label2D**
+
+**Labels** are useful for identifying textual information and titles. More information can be found [*here*](../../toolbox/incari/vector/label/README.md).
+
 * **List2D**
+
+**Lists** require several different files to display data in the desired manner and are interwoven with *Incari* **Models**. More information can be found [*here*](list-widget.md).
+
 * **On-Screen Keyboard2D**
+
+As the name suggests, the **On-Screen Keyboard** is simply a keyboard shown on the screen in two-dimensional format. Certain style aspects can be changed with a .css file and `Tint`, which provides the color for the highlighted key. 
+
 * **Sprite2D**
+
+More information on **Sprite** **Objects** and further links can be found [*here*](sprite.md). 
+
 * **Svg2D**
+
+
+
 * **Text2D**
+
+A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here*](text.md)
+
 * **Video2D**
 * **Web Sprite2D**
 
