@@ -2,7 +2,9 @@
 
 With the release of Incari Studio 2021.3, there appeared a number of new features. Here is a list of the features you need to know.
 
-* **Primitives**
+* [**Primitives**](scene-objects/primitives.md)
+
+    **Primitives** are new 3D objects available in *Incari* that can be altered to the visual specifications of the user. 
 
 * [**Directional Lights**](scene-objects/lights.md)
 

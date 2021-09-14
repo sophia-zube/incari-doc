@@ -116,6 +116,6 @@ The **Torus**, a three-dimensional donut-shaped **Object**, has several **Attrib
 * [*Cube*](https://en.wikipedia.org/wiki/Cube) on Wikipedia.
 * [*Cylinder*](https://en.wikipedia.org/wiki/Cylinder) on Wikipedia.
 * [*Dome*](https://en.wikipedia.org/wiki/Spherical_cap), or Spherical Cap, on Wikipedia
-* [*Plane*](https://en.wikipedia.org/wiki/Plane_%28(geometry%29)) on Wikipedia.
+* [*Plane*](https://en.wikipedia.org/wiki/Plane_%28geometry%29) on Wikipedia.
 * [*Sphere*](https://en.wikipedia.org/wiki/Sphere) on Wikipedia.
 * [*Torus*](https://en.wikipedia.org/wiki/Torus) on Wikipedia.
