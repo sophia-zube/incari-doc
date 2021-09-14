@@ -1,6 +1,6 @@
 # Material Editor
 
-The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have a _.incmat_ as their filename extension.
+The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have an _.incmat_ as their filename extension.
 
 To open the **Material Editor**, _double-click_ on a **Material** file in the **Asset Manager** or _right-click_ on the _Menu bar_ in *Incari* and _click_ on **Material Editor** from the drop-down list. This can be seen in the illustration below:
 
@@ -21,7 +21,7 @@ The `Used Materials` section has **Materials** that have been previously applied
 ![](../.gitbook/assets/open-material-editor.PNG)
 
 
-Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below. Along with ways to edit **Shadow** and **Texture**, *Incari* now supports the use of *normal mapping* with the `Normal Maps` **Attribute**. This allows the user to upload a **Normal Map** file that, when applied, can improve the detail and complexity of a 3D object which is made up of a low number of polygons (simply put, less complex). This also helps streamline the rendering process. With this type of texture mapping, **3D Objects** in *Incari* can be just as detailed as complicated ones, while being more efficient. 
+Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below. Along with ways to edit **Shadow** and **Texture**, *Incari* now supports the use of *normal mapping* with the `Normal Maps` **Attribute**. This allows the user to upload a **Normal Map** file that, when applied, can improve the detail and complexity of a **Mesh** which is made up of a low number of polygons (simply put, less complex). This also helps streamline the rendering process. With this type of texture mapping, **Meshes** in *Incari* will seem as detailed as complicated ones, while being more efficient. 
 
 ![](../.gitbook/assets/material-editor-1.png)
 
