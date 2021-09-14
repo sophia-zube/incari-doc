@@ -12,9 +12,9 @@
 | Attribute | Description |
 | :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Cube**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
-|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Cube Object** within 3D space.|
-|`Rotation Pivot`|XX|
-|`Cube`|This section covers `Axis Division` which....|
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation`, and `Scale`. Together, they can alter the size, location, and rotation of the **Cube Object** within 3D space.|
+|`Rotation Pivot`|Sets the point of rotation.|
+|`Cube`|This section covers `Axis Division` which segments the cube into equal parts. While not visible, these segments would, for example, create a 1x1x1 cube or 2x2x2 cube and so on.|
 |`Material`|The user can choose a **Material** file to customize the look of the **Cube**.|
 
 
@@ -27,9 +27,9 @@ The **Cylinder**, a simple 3D geometric shape, has several **Attributes**.
 | Attribute | Description |
 | :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Cylinder**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
-|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Cylinder Object** within 3D space.|
-|`Rotation Pivot`|XX|
-|`Cylinder`|This section covers several editable aspects of a **Cylinder's** appearance. `Rows` essentially allows the user to choose how many edges/vertices there will be. For example, `Rows` = 3 would give a base shape of a triangle. The sample image has `Rows` = 10. At a certain point, around 22, the vertices are indeterminate and the base shape appears as a circle. `Columns` bla bla. `Radius` changes the radius of the bottom face, while `Top Radius` changes the radius of the top face. These essentially expand and retract the faces, respectively. `Height` changes the **Object's** length, elongating or shortening the **Cylinder**.|
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation`, and `Scale`. Together, they can alter the size, location, and rotation of the **Cylinder Object** within 3D space.|
+|`Rotation Pivot`|Sets the point of rotation.|
+|`Cylinder`|This section covers several editable aspects of a **Cylinder's** appearance. `Rows` set the number of rows, which segment the **Cylinder** horizontally. Essentially, this allows the user to choose how many edges/vertices there will be. For example, `Rows` = 3 would give a base shape of a triangle. The sample image has `Rows` = 10. At a certain point, around 22, the vertices are indeterminate and the base shape appears as a circle. `Columns` set the number of columns, which segment the cylinder vertically. `Radius` changes the radius of the bottom face, while `Top Radius` changes the radius of the top face. These essentially expand and retract the faces, respectively. `Height` changes the **Object's** length, elongating or shortening the **Cylinder**.|
 |`Material`|The user can choose a **Material** file to customize the look of the **Cylinder**.|
 
 
@@ -42,15 +42,16 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 | Attribute | Description |
 | :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Dome**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
-|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Dome Object** within 3D space.|
-|`Rotation Pivot`|XX|
-|`Dome`|`Rows` sets how many 'rows' there are. In the sample image there are 10 and if 1 were chosen, the dome would come to a point like a pyramid. It is easier to see with `Rows` = 1-4, but any higher numbers and the **Dome** shapes become indistinguishable. `Columns` defines the number of vertices of the bottom face, so `Columns` = 4 would set the bottom face as a square and so on. `Radius` changes the radius of the bottom face !!!!!!!!!!!!!|
-|`Material`|The user can choose a **Material** file to customize the look of the **Cube**.|
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation`, and `Scale`. Together, they can alter the size, location, and rotation of the **Dome Object** within 3D space.|
+|`Rotation Pivot`|Sets the point of rotation.|
+|`Dome`|`Rows` sets the number of rows, which segment the **Dome** horizontally. In the sample image there are 10. If 1 were chosen, the **Dome** would come to a point like a pyramid. It is easier to see with `Rows` = 1-4, but any higher numbers and the **Dome** shapes become indistinguishable. `Columns` sets the number of columns, which segment the **Dome** vertically. Essentially, these define the number of vertices of the bottom face, so `Columns` = 4 would set the bottom face as a square and so on. `Radius` changes the radius of the bottom face.|
+|`Material`|The user can choose a **Material** file to customize the look of the **Dome**.|
 
 ## Plane 
 
 ![A Plane Object](../../.gitbook/assets/planeexample.png)
 
+A **Plane** is a flat rectangular **Object** that can still be moved along the *z axis* in 3D space.
 
 ## Sphere
 
@@ -61,9 +62,9 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 | Attribute | Description |
 | :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Sphere**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
-|`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Sphere Object** within 3D space.|
-|`Rotation Pivot`|XX|
-|`Sphere`|`Rows` sets the number of 'rows', like segments of a colored beach ball. The sample image has `Rows` = 10. `Columns` sets the number of 'columns', essentially segments oriented lengthwise. The sample image has `Columns` = 10. The higher the numbers for each, the smoother the **Sphere** appears. `Radius` increases the radius of the **Sphere**, thus scaling it up or down.|
+|`Transformation`|The features under this **Attribute** are `Position`, `Rotation`, and `Scale`. Together, they can alter the size, location, and rotation of the **Sphere Object** within 3D space.|
+|`Rotation Pivot`|Sets the point of rotation.|
+|`Sphere`|`Rows` sets the number of rows, like segments of a colored beach ball. The sample image has `Rows` = 10. `Columns` sets the number of 'columns', essentially segments oriented lengthwise. The sample image has `Columns` = 10. The higher the numbers for each, the smoother the **Sphere** appears. `Radius` increases the radius of the **Sphere**, thus scaling it up or down.|
 |`Material`|The user can choose a **Material** file to customize the look of the **Sphere**.|
 
 
@@ -73,10 +74,12 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 
 The **Spring**, a three-dimensional coil-shaped **Object**, has several **Attributes**.
 
+| Attribute | Description |
+| :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Spring**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
 |`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Spring Object** within 3D space.|
-|`Rotation Pivot`|XX|
-|`Spring`|`Rows` sets the number of 'rows' which run through the **Spring**. The sample image has `Rows` = 10 and this can be further visualized by `Rows` = 3, which would show as ends witha triangle shape which show three sections making up the coil. `Columns` sets the number of 'columns', which look like how many 'kinks' the **Spring** has. This is better seen from a bird's eye view. For example if `Columns` was set to 5, the shape from the top would be a pentagram. `Radius` increases or decreases the radius of the **Spring** ends, which is visualized as the **Spring** becoming thicker and thinner. `Height` elongates or shortens the space between the number of coils, or `Segments`. `Segments` sets the number of coils the **Spring** has. `Inner Radius` sets the radius of the internal space of the **Spring**, widening and compressing the coil.| 
+|`Rotation Pivot`|Sets the point of rotation.|
+|`Spring`|`Rows` sets the number of rows, which segment hte **Spring** horizontally. The sample image has `Rows` = 10 and this can be further visualized by `Rows` = 3, which would show **Spring** with triangular ends. `Columns` sets the number of columns, which sets how many 'kinks' the **Spring** has. This is better seen from a bird's eye view. For example, if `Columns` was set to 5 the shape from the top would be a pentagram. `Radius` increases or decreases the radius of the **Spring** ends, which is visualized as the **Spring** becoming thicker and thinner. `Height` elongates or shortens the space between the number of coils, or `Segments`. `Segments` sets the number of coils the **Spring** has. `Inner Radius` sets the radius of the internal space of the **Spring**, widening and compressing the coil.| 
 |`Material`|The user can choose a **Material** file to customize the look of the **Spring**.|
 
 
@@ -90,7 +93,7 @@ The **Torus**, a three-dimensional donut-shaped **Object**, has several **Attrib
 | :--- | :--- |
 |`Object`|This section shows the name and type of the **Object**, in this case a **Torus**, as well as its `Opacity`, which determines how transparent or opaque the **Object** is.| 
 |`Transformation`|The features under this **Attribute** are `Position`, `Rotation` and `Scale`. Together, they can alter the size, location, and rotation of the **Torus Object** within 3D space.|
-|`Rotation Pivot`|XX|
+|`Rotation Pivot`|Sets the point of rotation.|
 |`Torus`|`Rows` sets the number of 'rows' of the **Torus**, which is visualized as the roundness and smoothness of its surface. `Columns` sets the number of 'columns' of the **Torus**, which are visualized as the number of sections it is made up of looking down. For example, if `Columns` were set to 4, then the number of sections would be 4 and the **Torus** would take a square-like shape. `Radius` increases or decreases the radius of the **Torus**. If one thinks of the **Torus** as many circular pieces patched together, it is the radius of these circles that are changed. This is visualized as the **Torus** becoming thicker or thinner. `Inner Radius` sets the radius of the internal space of the **Torus**.|
 |`Material`|The user can choose a **Material** file to customize the look of the **Torus**.|
 
