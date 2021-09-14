@@ -10,7 +10,7 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * [**Normal Maps**](../modules/material-editor.md)
 
-    With **Normal Maps** now available in the **Materials Editor**, users of *Incari* can now take advantage of this texturing technique that will limit rendering time while also improving the complexity of **Materials**.
+    With **Normal Maps** now available in the **Materials Editor**, users of *Incari* can now take advantage of this texturing technique that will reduce rendering time and also improve the details of the **Mesh**.
 
 * **Screen Space Elements**
 
