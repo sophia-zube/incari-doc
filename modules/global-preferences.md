@@ -42,7 +42,7 @@ The default directory on a user's computer where *Incari* **Projects** are saved
 
 ### Grid Color
 
-The `Grid Color` of the **Logic Editor** can be set here. The *color* can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute_**](getting-started\attributes\attribute-types\color-attributes.md).
+The `Grid Color` of the **Logic Editor** can be set here. The *color* can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](getting-started/attributes/attribute-types/color-attributes.md).
 
 Additionally, the `Reset color` button sets the `Grid Color` back to its default value.
 {% endtab %}
@@ -64,7 +64,7 @@ The `Reset Layout` button resets all **Modules** found in *Incari* to their defa
 
 ### Bottom and Top Gradient Color
 
-`Bottom` and `Top Gradient Color` set a _color gradient_ that starts at the _bottom_ and _top_ positions of the **Viewport**, respectively. The _color gradient_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute_**](getting-started\attributes\attribute-types\color-attributes.md).
+`Bottom` and `Top Gradient Color` set a _color gradient_ that starts at the _bottom_ and _top_ positions of the **Viewport**, respectively. The _color gradient_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](getting-started/attributes/attribute-types/color-attributes.md).
 
 ### Grid Color
 
