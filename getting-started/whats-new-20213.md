@@ -26,6 +26,6 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * **Compiler in Command Line Interface (version 1)**
 
-    Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to then directly run a **Project** in _IncariPlayer_ without having to open the **Project** in _IncariStudio_.
+    Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to then directly run a **Project** in _Incari Player_ without having to open the **Project** in _Incari Studio_.
     
     The command to compile the **Logic** of a **Project** is: `IncariCLI.exe /p="<project-path>"`.
