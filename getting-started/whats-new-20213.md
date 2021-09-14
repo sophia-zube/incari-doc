@@ -14,7 +14,7 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * **Screen Space Elements**
 
-* [**Build Module v1**](../modules/exporter.md)
+* [**Build Module (version 1)**](../modules/exporter.md)
   
     This new **Module** allows to export a **Project** into a desired folder and generates an execution file.
 
@@ -24,7 +24,7 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 ![](../.gitbook/assets/profiler-view-connected.png)
 
-* **Compiler cli v1**
+* **Compiler in Command Line Interface (version 1)**
 
     Now the **Logic** of a **Project** can be compiled directly from the command line. This allows to then directly run a **Project** in _IncariPlayer_ without having to open the **Project** in _IncariStudio_.
     
