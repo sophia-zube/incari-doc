@@ -7,6 +7,6 @@ The **Communcation Nodes** \(**CAN**, **HTTP**, and **MQTT**\) represent the dif
 ## Content
 
 * [**CAN**](can/)
-* [**HTTP**](http.md)
+* [**HTTP**](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/toolbox/communication/http.md)
 * [**MQTT**](mqtt/)
 

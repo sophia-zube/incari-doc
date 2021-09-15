@@ -12,6 +12,6 @@ The **Development Nodes** are used for monitoring the execution of the **Logic**
 * [**Benchmark Stop**](benchmark-stop.md)
 * [**Clear Console**](clear-console.md)
 * [**Console**](console.md)
-* [**Profiler Start**](profiler-start.md)
-* [**Profiler Stop**](profiler-stop.md)
+* [**Profiler Start**](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/toolbox/development/profiler-start.md)
+* [**Profiler Stop**](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/toolbox/development/profiler-stop.md)
 

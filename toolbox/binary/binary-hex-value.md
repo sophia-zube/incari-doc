@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Binary \(Hex\) Value Node.](../../.gitbook/assets/node-binary-hex-value.png)
+![The Binary \(Hex\) Value Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/node-binary-hex-value.png)
 
 The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
 

@@ -4,8 +4,9 @@ The **Code Editor** allows to edit the code of HTML, CSS and JS files. The top p
 
 When first opened, it offers the options of selecting a file used in the **Scene**, creating a new file, or selecting an existing file from the **Assets** folder.
 
-![](../.gitbook/assets/code-editor.png)
+![](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/code-editor.png)
 
 It can also be opened by directly double clicking an HTML, CSS or JS file.
 
-![](../.gitbook/assets/code-editor-html.png)
+![](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/code-editor-html.png)
+

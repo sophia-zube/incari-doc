@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Concat Binaries Node.](../../.gitbook/assets/concat-binaries.png)
+![The Concat Binaries Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/concat-binaries.png)
 
 **Concat Binaries** merges two or more **Binary** numbers into a new one. The numbers to be merged are given as input to the **Node**.
 

@@ -4,4 +4,5 @@ The **Console** displays all messages regarding the status of the software proce
 
 On the top left, there is the option to clear the **Console**.
 
-![](../.gitbook/assets/console.png)
+![](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/console.png)
+

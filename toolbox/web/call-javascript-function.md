@@ -1,47 +1,49 @@
 # Call JavaScript Function
 
-## Overview
+## Call JavaScript Function
 
-![The Call JavaScript Function Node.](../../.gitbook/assets/node-call-javascript-function.png)
+### Overview
 
+![The Call JavaScript Function Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/node-call-javascript-function.png)
 
 The **Call JavaScript Function** **Node** executes a JavaScript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as its **Object** **Attribute**.
 
-## Attributes
+### Attributes
 
-### Object
+#### Object
 
-|Attribute|Type|Description|
-|---|---|---|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
 | `Object` | **ObjectID** | **Web Sprite** **Object** that contains the definition of the function to be executed. |
 
-### Function
+#### Function
 
-|Attribute|Type|Description|
-|---|---|---|
-|`JS Function Name` | **String** | Name of the function to be executed, if none is given in the `Function name` **Input Socket**. |
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `JS Function Name` | **String** | Name of the function to be executed, if none is given in the `Function name` **Input Socket**. |
+
+#### Inputs
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Parameters [n]` | **Drop-down** | Label, **Data Type**, and default value of the parameters given to the function. |
 
 ### Inputs
 
-|Attribute|Type|Description|
-|---|---|---|
-| `Parameters [n]` | **Drop-down** | Label, **Data Type**, and default value of the parameters given to the function. |
-
-## Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Function name` | **String** | Name of the function to be executed. |
-| `Parameter [n]` | _Defined in the **Data Type** of the `Parameters` **Attribute**_  | Value of the corresponding parameter. |
+| `Parameter [n]` | _Defined in the **Data Type** of the `Parameters` **Attribute**_ | Value of the corresponding parameter. |
 
-## Outputs
+### Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `OnLoaded` | **Pulse** | Flows to additional actions when the **Web Sprite** **Object** has finished loading. |
 
-# See Also
+## See Also
 
- * [**On Javascript Callback**](../events/web/on-javascript-callback.md)
+* [**On Javascript Callback**](../events/web/on-javascript-callback.md)
+

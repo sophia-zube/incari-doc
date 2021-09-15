@@ -18,6 +18,6 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 * [Sprite](sprite.md)
 * [Text](text.md)
 * [Web Sprite](web-sprite.md)
-* [Primitives](primitives.md)
-* [Screen Space Elements](screen-space-elements.md)
+* [Primitives](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/getting-started/scene-objects/primitives.md)
+* [Screen Space Elements](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/getting-started/scene-objects/screen-space-elements.md)
 

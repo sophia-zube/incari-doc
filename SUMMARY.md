@@ -2,7 +2,6 @@
 
 * [Incari HMI Development Platform](README.md)
 
-
 ## Getting Started
 
 * [Requirements](getting-started/requirements.md)
@@ -96,7 +95,7 @@
   * [HTTP](toolbox/communication/http/README.md)
     * [Events](toolbox/communication/http/events/README.md)
       * [On HTTP Route](toolbox/communication/http/events/onhttproute.md)
-      * [On HTTP Server Start](toolbox/communication/http/events/onhttpserverstart.md))
+      * [On HTTP Server Start](toolbox/communication/http/events/onhttpserverstart.md)
       * [On HTTP Server Stop](toolbox/communication/http/events/onhttpserverstop.md)
     * [HTTP Client](toolbox/communication/http/httpclient.md)
     * [HTTP Response](toolbox/communication/http/httpresponse.md)
@@ -191,7 +190,7 @@
   * [Switch](toolbox/flow-control/switch.md)
   * [Toggle](toolbox/flow-control/toggle.md)
 * [Functions](toolbox/functions/README.md)
-  * [Function](toolbox/functions/function.md)
+  * [Function](toolbox/functions/function/README.md)
     * [Function Input](toolbox/functions/function/function-input.md)
     * [Function Output](toolbox/functions/function/function-output.md)
 * [Incari](toolbox/incari/README.md)
@@ -330,5 +329,4 @@
     * [Cancel Timeout](toolbox/utilities/timeout/canceltimeout.md)
 * [Web](toolbox/web/README.md)
   * [Call JavaScript Function](toolbox/web/call-javascript-function.md)
-
 
