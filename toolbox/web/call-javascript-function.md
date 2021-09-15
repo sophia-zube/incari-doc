@@ -4,7 +4,7 @@
 
 ### Overview
 
-![The Call JavaScript Function Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/node-call-javascript-function.png)
+![The Call JavaScript Function Node.](../../.gitbook/assets/node-call-javascript-function.png)
 
 The **Call JavaScript Function** **Node** executes a JavaScript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as its **Object** **Attribute**.
 
