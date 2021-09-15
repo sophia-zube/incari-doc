@@ -4,7 +4,7 @@
 
 ![The Erase Dictionary Element Node.](../../.gitbook/assets/erase-dictionary-element.png)
 
-The **Erase Dictionary Element Node** removes an element or more of a **Dictionary**. It receives as input the **Dictionary** from which the element/s will be removed and the `Key/s` of the element/s to erase.
+The **Erase Dictionary Element Node** removes one or more elements of a **Dictionary**. It receives as input the **Dictionary** from which the element/s will be removed and the `Key/s` of the element/s to erase.
 
 ## Attributes
 
@@ -29,7 +29,7 @@ The **Erase Dictionary Element Node** removes an element or more of a **Dictiona
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Dictionary` | **Dictionary** | The resulting **Dictionary** after the desired elements were removed |
+| `Dictionary` | **Dictionary** | The resulting **Dictionary** once the desired elements have been removed. |
 
 ## See Also
 

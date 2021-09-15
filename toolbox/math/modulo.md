@@ -35,7 +35,7 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Remainder` | _Defined in the `Data Type` **Attribute**._ | The remainder of the _Euclidean division_ operation. |
 
 ## External Links

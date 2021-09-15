@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object** that you wish to return the `position` of, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The target **Object**, whose `Position` you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector3** | A 3-dimensional vector that contains x, y, and z positions of the target **Object**. |
+| `Position` | **Vector3** | A 3-dimensional vector that contains X, Y, and Z positions of the target **Object**. |
 
 ## See Also
 
@@ -34,5 +34,5 @@
 
 ## External Links
 
-* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) __on Wikipedia.
+* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
 

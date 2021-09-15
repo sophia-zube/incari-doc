@@ -6,13 +6,13 @@
 
 **Set Tint** modifies the `Tint` attribute of an **Object**.
 
-The **Set Tint** node only works with objects that have **Sprite** category as an attribute such as [**List**](https://docs.incari.com/incari-studio/scene-objects/list), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](https://docs.incari.com/incari-studio/scene-objects/sprite) and [**Text**](https://docs.incari.com/incari-studio/scene-objects/text).
+The **Set Tint** node only works with objects that have **Sprite** category as an **Attribute** such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md) and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** whose color is to be adjusted, if one is not provided in the O`Object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Object**, whose color is to be adjusted, if one is not provided in the `Object ID` **Socket**. |
 | `Color` | **Color** | The default value of the `Color` **Socket**, if no value is provided. |
 
 ## Inputs
@@ -20,7 +20,7 @@ The **Set Tint** node only works with objects that have **Sprite** category as a
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the **Object** you would like to `Tint`. |
+| `Object ID` | **ObjectID** | The ID of the **Object** whose `Tint` you would like to set. |
 | `Color` | **Color** | The `Tint` value used to adjust the  color of the **Object**. |
 
 ## Outputs

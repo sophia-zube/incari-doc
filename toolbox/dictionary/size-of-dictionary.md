@@ -11,7 +11,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Dictionary` | **Dictionary** | The **Dictionary** whose length you wish to return. |
+| `Dictionary` | **Dictionary** | The **Dictionary**, whose length you wish to return. |
 
 ## Outputs
 
