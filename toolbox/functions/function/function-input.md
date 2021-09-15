@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Function Input Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/node-function-input.png)
+![The Function Input Node.](../../../.gitbook/assets/node-function-input.png)
 
 In the **Function**'s **Logic Graph**, the **Function Input** **Node** starts the **Logic Branch** and outputs the parameter received by the **Function** **Node**.
 

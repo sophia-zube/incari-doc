@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Function Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/node-function.png)
+![The Function Node.](../../../.gitbook/assets/node-function.png)
 
 The **Function** **Node** is customized by the user. The number and **Data Types** of the **Input** and **Output** **Sockets** and the functionality are defined in the **Node**'s own **Logic**, which is accessed by either double clicking the **Node** or the **Function** on the **Function**'s list.
 
@@ -36,9 +36,9 @@ See an example on the image below.
 
 For exporting a **Function**, right click it on the **Function**'s list or on the **Node**, select Export and save the **Blueprints** file.
 
-![](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/export-function.png)
+![](../../../.gitbook/assets/export-function.png)
 
-![](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/export-function2.png)
+![](../../../.gitbook/assets/export-function2.png)
 
 For importing a **Function**, right click on the **Function**'s list or on the **Logic Graph**, select Import and find the **Blueprints** file.
 
