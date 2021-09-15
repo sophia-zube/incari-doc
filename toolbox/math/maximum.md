@@ -28,7 +28,7 @@ In the case of _vectors_, it compares the values by component and returns them s
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Maximum` | _Defined in the `Data Type` **Attribute**._ | The maximum value in the set of inputs. |
 
 ## External Links

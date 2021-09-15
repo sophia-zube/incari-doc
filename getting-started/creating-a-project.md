@@ -22,7 +22,7 @@ From here you can **Open**, **Run**, **Edit**, **Remove** and **Import** project
 {% endtab %}
 
 {% tab title="Edit" %}
-Allows you to edit the **Project**'s `Project Name`, `Project Location` and `Category`. 
+Allows you to edit the **Project**'s `Project Name`, `Project Location` and `Category`.
 {% endtab %}
 
 {% tab title="Remove" %}
@@ -59,6 +59,4 @@ Allows you to import a previously unopened **Project** from another location. Th
 {% endtabs %}
 
 \*\*\*\*
-
-
 

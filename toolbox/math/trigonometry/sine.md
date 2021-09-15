@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Sine Node](https://github.com/cgi-studio-gmbh/incari-doc/tree/65634e5b4b0d3223401be6b27a11f0a6872da087/.gitbook/assets/node-sine.png)
+![The Sine Node](../../../.gitbook/assets/node-sine.png)
 
 The **Sine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _sine_.
 
@@ -24,15 +24,17 @@ The **Sine Node** takes a single **Float** value, representing an angle, in degr
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Float** | The _sine_ of `Input`. |
 
 ## See Also
 
 * [**Trigonometry**](./)
+* [**Arc Sine**](arc-sine.md)
+* [**Radian-Degree Converter**](radian-degree-converter.md)
 
 ## External Links
 
-* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Kahn Academy.
+* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Khan Academy.
 * [_Sine, Cosine and Tangent_](https://www.mathsisfun.com/sine-Cosine-Tangent.html) on Maths is Fun.
 

@@ -34,7 +34,7 @@ The most common example of **Root** operations is finding the _square_ \(degree 
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Float** | The _nth root_ \(defined in `Degree`\) of `Base`. |
 
 ## See Also

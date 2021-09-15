@@ -4,7 +4,7 @@
 
 ![The Pause Animation Node.](../../../.gitbook/assets/pauseanimation.png)
 
-The **Pause Animation** is an _animation_ **Node** under the _incari_ branch of the **Toolbox**. It requires a **CustomID** variable type and allows the user to pause an animation within the session.
+**Pause Animation** is an _animation_ **Node** used to pause an **Animation** already playing.
 
 ## Attributes
 
@@ -17,10 +17,16 @@ The **Pause Animation** is an _animation_ **Node** under the _incari_ branch of 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+
+## See Also
+
+* [**Play Animation**](playanimation.md)
+* [**Stop Animation**](stopanimation.md)
 

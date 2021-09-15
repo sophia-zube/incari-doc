@@ -1,81 +1,62 @@
-# Overview
+# Interpolate
+
+## Overview
 
 ![The Interpolate Node.](../../.gitbook/assets/node-interpolate.png)
 
-**Interpolate** gradually changes the value of a numerical input from an initial value (`From`) to a target value (`To`) over a set period of time (`Duration (s)`).
+The **Interpolate** **Node** calculates intermediate values between an initial and target value over a set amount of time. It is particularly useful for animations.
 
-By default, the value is adjusted *linearly*, but can also be interpolated using one of several of Incari's **Interpolation Types**.
+## Attributes
 
-Additionally, the interpolation can be executed a single time (`Once`) or multiple times (`Repeat`/`Alternate`) using the `Mode` **Attribute**.
+### Inputs
 
-{% tabs %}
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Data Type` | **Drop-down** | The numerical data type which will be interpolated. |
+| `Duration (s)` | **Float** | The length of time between the start and end of the interpolation, if it is not provided in the `Duration (s)` **Socket**. |
+| `Interval Time (s)` | **Float** | How frequently the interpolated value is updated and the output **Pulse** is triggered. |
+| `From` | _Defined in the `Data Type` **Attribute**_ | The value at the start of the interpolation, if one is not provided in the `From` **Socket**. |
+| `To` | _Defined in the `Data Type` **Attribute**_ | The value at the end of the interpolation, if one is not provided in the `To` **Socket**. |
 
-{% tab title="Once" %}
+### Interpolation
 
-`Once` means that the animation will play only once and then stop any further evaluation:
-
-![](../../.gitbook/assets/interpolation-mode-once.gif)
-
-{% endtab %}
-
-{% tab title="Repeat" %}
-
-`Repeat` repeats the interpolation a set number of times or indefinitely, depending on the `Count` and `Infinite` **Attributes**.
-
-![](../../.gitbook/assets/interpolation-mode-repeat.gif)
-
-{% endtab %}
-
-{% tab title="Alternate" %}
-
-`Alternate` interpolates forwards and then backwards a set number of times or indefinitely, depending on the `Count` and `Infinite` **Attributes**.
-
-Also note that alternating interpolations will also reverse the interpolation `Type`. If it *eases in* from the start to end position, then it will *ease out* from the end, back to the start position.
-
-![](../../.gitbook/assets/interpolation-mode-alternate.gif)
-
-{% endtab %}
-
-{% endtabs %}
-
-# Attributes
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Type` | **Drop-down** | Method used for calculating the intermediate values. |
+| `Mode` | **Drop-down** | Whether the interpolation will be performed once, repeated or alternated. |
+| `Count` | **Int** \(_not available for `Mode` Once_\) | The number of times that the interpolation will be performed, if it is not provided in the `Count` **Socket**. |
+| `Infinite` | **Bool** | Whether the interpolation will be played indefinitely \(this overrides the `Count` **Attribute**\). |
 
 ## Inputs
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Data Type`|**Drop-down**|The type of data that will be plugged into the `From` and `To` **Sockets** and will return via its `Value` **Socket**.|
-|`Duration (s)`|**Float**|The default value of `Duration (s)`, if no value is provided in the `Duration (s)` **Socket**.|
-|`Interval Time (s)`|**Float**|The total amount of time that the value should be interpolated over per repetition (if any).|
-|`From`|*Defined in the `Data Type` **Attribute***.|The default value of `From`, if no value is provided in the `From` **Socket**.|
-|`To`|*Defined in the `Data Type` **Attribute***.|The default value of `To`, if no value is provided in the `To` **Socket**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
+| `Start` | **Pulse** | **Pulse** to trigger the start of the interpolation. |
+| `Duration (s)` | **Float** | The length of time between the start and end of the interpolation. |
+| `Count` | **Int** | The number of times that the interpolation will be performed. |
+| `From` | _Defined in the `Data Type` **Attribute**_ | The value at the start of the interpolation. |
+| `To` | _Defined in the `Data Type` **Attribute**_ | The value at the end of the interpolation. |
+| `Reset` | **Pulse** | **Pulse** to reset the interpolation. |
 
-## Interpolation
+## Outputs
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Type`|**Drop-down**|The **Interpolation Type** that will be used to calculate the intermediate values between `To` and `From`.|
-|`Mode`|**Drop-down**|Whether the interpolation should occur single or multiple times and the direction that subsequent interpolations should play.|
-|`Count`|**Int**|The default value of `Count`, if no value is provided in the `Count` **Socket**.|
-|`Infinite`|**Bool**|Whether or not to repeat/alternate the interpolation indefinitely.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Instance ID` | **InstanceID** | The previously assigned **Instance** of the **Animation Block**. |
+| `Value` | _Defined in the `Data Type` **Attribute**_ | The intermediate value calculated. |
+| `OnStart` | **Pulse** | **Pulse** that gets triggered when the interpolation starts. |
+| `OnReset` | **Pulse** | **Pulse** that gets triggered when the interpolation resets. |
+| `OnEnd` | **Pulse** | **Pulse** that gets triggered when the interpolation ends. |
 
-# Inputs
+## See Also
 
-|Input|Type|Description|
-|---|---|---|
-|`Start`|**Pulse**|Initiates the interpolation.|
-|`Duration (s)`|**Float**|The total time, in seconds, per interpolation.|
-|`Count`|**Int**|How many times the interpolation will repeat/alternate. This is only applicable if `Mode` is not set to `Once` and `Infinite` is not set to *true*|
-|`From`|*Defined in the `Data Type` **Attribute***.|The value at the start of the interpolation.|
-|`To`|*Defined in the `Data Type` **Attribute***.|The value at the end of the interpolation.|
-|`Reset`|**Pulse**|Used to prematurely stop the interpolation and halt all further evaluation.|
+* [**4 Methods of Animation - Interpolation**](../../demo-projects/4-methods-of-animation.md#2-interpolation)
+* [**Play Animation**](../incari/animation/playanimation.md)
 
-# Outputs
+## External Links
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|Triggers at a regular interval, defined in the `Interval Time (s)` **Attribute**, while the interpolation is running.|
-|`Value`|*Defined in the `Data Type` **Attribute***.|The current value of the interpolation, which is updated periodically, while the interpolation is running.|
-|`OnStart`|**Pulse**|An **Event** that triggers as soon as the *first* interpolation begins.|
-|`OnReset`|**Pulse**|An **Event** that triggers as soon as the interpolation is manually rest using the `Reset` **Pulse Socket**.|
-|`OnEnd`|**Pulse**|An **Event** that triggers as soon as the *last* interpolation ends.|
+* [_How to use Interpolation Node? part A \| Incari Studio Tutorial_](https://www.youtube.com/watch?v=StFmsERQJTs) on Youtube.
+* [_How to use Interpolation Node? part B \| Incari Studio Tutorial_](https://www.youtube.com/watch?v=v-xG_oa0tLI) on Youtube.
+

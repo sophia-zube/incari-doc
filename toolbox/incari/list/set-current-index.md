@@ -6,7 +6,7 @@
 
 **Set Current Index** selects an entry item by using its _index_. It accepts a **List** **Object** and an `Index` value and selects an entry item corresponding to the `Index` value.
 
-The index count starts from zero, which means that the `Index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one \(sum of entries - 1\). This follows from array-based indexing whereby the index of the first entry is 0.
+The index count starts from zero, which means that the `Index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one \("sum of entries" - 1\). This follows from array-based indexing where the index of the first entry is 0.
 
 ## Attributes
 
@@ -14,7 +14,7 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | This represents the **List** **Object** from which an entry item can be selected by its `Index` if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | This represents the **List** **Object**, from which an entry item can be selected by its `Index`, if one is not provided in the `Object ID` **Socket**. |
 
 ### Input
 
@@ -38,11 +38,11 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 ## See Also
 
-* [**List**](https://github.com/cgi-studio-gmbh/incari-doc/tree/66656c2442958de634bc73f77b533a03f83df0fb/toolbox/incari/list/objects/scene-objects/list.md)
+* [**List**](../../../getting-started/scene-objects/list-widget.md)
 * [**Generate List**](generate-list.md)
 
 ## External Links
 
-* [_Array Indexing_](https://en.wikipedia.org/wiki/Array_data_structure)
-* [_Index Mapping_](https://en.wikipedia.org/wiki/Index_mapping)
+* [_Array Indexing_](https://en.wikipedia.org/wiki/Array_data_structure) on Wikipedia.
+* [_Index Mapping_](https://en.wikipedia.org/wiki/Index_mapping) on Wikipedia.
 

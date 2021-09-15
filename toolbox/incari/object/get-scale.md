@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object** that you wish to return the `scale` of if one is not provided in the `Object ID` **Socket** |
+| `Object` | **ObjectID** | The target **Object**, whose `Scale` you wish to return, if one is not provided in the `Object ID` **Socket** |
 
 ## Inputs
 
@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Scale` | **Vector3** | A 3-dimensional vector that contains the scale of the **Object** along its x, y, and z axes. |
+| `Scale` | **Vector3** | A 3-dimensional vector that contains the _scale_ of the **Object** along its X, Y, and Z axes. |
 
 ## See Also
 
@@ -33,5 +33,5 @@
 
 ## External Links
 
-* \_\_[_Scaling \(geometry\)_](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
+* [_Scaling \(geometry\)_](https://en.wikipedia.org/wiki/Scaling_%28geometry%29) on Wikipedia.
 

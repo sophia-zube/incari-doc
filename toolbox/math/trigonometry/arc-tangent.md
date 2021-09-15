@@ -31,7 +31,7 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Float** | The _arctangent_ of `Input`. |
 
 ## See Also
@@ -42,6 +42,6 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 
 ## External Links
 
-* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Kahn Academy.
+* [_Trigonometry_](https://www.khanacademy.org/math/trigonometry) on Khan Academy.
 * [_Sine, Cosine and Tangent_](https://www.mathsisfun.com/sine-Cosine-tangent.html) on Maths is Fun.
 

@@ -6,15 +6,15 @@ The **Dictionary Nodes** are used for creating and handling **Dictionaries**. A 
 
 ## Contents
 
-* [Clear Dictionary](clear-dictionary.md)
-* [Dictionary Value](dictionary-value.md)
-* [Erase Dictionary Element](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/erase-dictionary-element.md)
-* [Get Dictionary Element](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/get-dictionary-element.md)
-* [Get Dictionary Keys](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/get-dictionary-keys.md)
-* [Get Dictionary Values](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/get-dictionary-values.md)
-* [Merge Dictionaries](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/merge-dictionaries.md)
-* [Set Dictionary Element](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/set-dictionary-element.md)
-* [Size of Dictionary](https://github.com/cgi-studio-gmbh/incari-doc/tree/577d039adbc58a569acbb2191fd007033e968248/toolbox/dictionary/size-of-dictionary.md)
+* [**Clear Dictionary**](clear-dictionary.md)
+* [**Dictionary Value**](dictionary-value.md)
+* [**Erase Dictionary Element**](erase-dictionary-element.md)
+* [**Get Dictionary Element**](get-dictionary-element.md)
+* [**Get Dictionary Keys**](get-dictionary-keys.md)
+* [**Get Dictionary Values**](get-dictionary-values.md)
+* [**Merge Dictionaries**](merge-dictionaries.md)
+* [**Set Dictionary Element**](set-dictionary-element.md)
+* [**Size of Dictionary**](size-of-dictionary.md)
 
 ## External Links
 

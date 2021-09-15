@@ -2,7 +2,7 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-is-less-equal.png)
+![The Is Less Equal Node.](../../.gitbook/assets/node-is-less-equal.png)
 
 **Is Less Equal** is a _relational expression_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _inequality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 

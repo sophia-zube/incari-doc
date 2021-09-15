@@ -1,31 +1,38 @@
-# Overview
+# Decrement
+
+## Overview
 
 ![The Decrement Node.](../../.gitbook/assets/node-decrement.png)
 
-**Decrement** decreases a value by a given step and outputs the new value. It is comparable to the `--` operator in computer science, except for the fact that the *decrement step* is variable, as opposed to being fixed at 1.
+**Decrement** decreases a value by a given step and outputs the new value.
 
-# Attributes
+It is comparable to the `--` operator in computer science, except for the fact that the _decrement step_ varies, instead of being fixed at 1.
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Data Type`|**Drop-down**|The type of data that will be plugged into the `Input` **Socket** and will return via its `Output` **Socket**.|
-|`Default Step`|*Defined in the `Data Type` **Attribute***.|The default value of the `Step` **Socket**, if no value is provided.|
+## Attributes
 
-# Inputs
+### Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard input **Pulse**, to trigger the execution of the **Node**.|
-|`Input`|*Defined in the `Data Type` **Attribute***.|The value to be decremented.|
-|`Step`|*Defined in the `Data Type` **Attribute***.|The amount that the value should be decremented by.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Socket** and will return via its `Output` **Socket**. |
+| `Step` | _Defined in the `Data Type` **Attribute**_. | The default value of the `Step` **Socket**, if no value is provided. |
 
-# Outputs
+## Inputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard output **Pulse**, to move onto the next **Node** along the *logic branch*, once this **Node** has finished its execution.|
-|`Output`|*Defined in the `Data Type` **Attribute***.|The decremented value.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
+| `Input` | _Defined in the `Data Type` **Attribute**_. | The value to be decremented. |
+| `Step` | _Defined in the `Data Type` **Attribute**_. | The amount that the value will be decremented by. |
 
-# See Also
+## Outputs
 
-- [**Increment**](increment.md)
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Output` | _Defined in the `Data Type` **Attribute**_. | The decremented value. |
+
+## See Also
+
+* [**Increment**](increment.md)
+
