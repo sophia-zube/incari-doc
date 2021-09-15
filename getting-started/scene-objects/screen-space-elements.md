@@ -50,10 +50,24 @@ Web Sprites are important for embedding different types of web technologies into
 
 ![Vector2D Objects](../../.gitbook/assets/2Dvectorelements.png)
 
-The **Vector2D Objects** provide 2D alternatives to their 3D **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a **User Interface**. 
+The **Vector2D Objects** provide alternatives to their **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a **User Interface**. Unlike **Vector**, **Vector2D Objects** do not have *z axis* capabilities. 
 
 * **Arc2D**
+
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is retricted to the *x* and *y* *axes*. 
+
 * **Ellipse2D**
+
+A circular 2D **Object** that is restricted to the *x* and *y* *axes*.
+
 * **Line2D**
-* **Pie2D** 
+
+A linear 2D **Object** that is restricted to the *x* and *y* *axes*.
+
+* **Pie2D**
+
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree and comes to a point at the center of the circle. It is restricted to the *x* and *y* *axes*. 
+
 * **Rectangle2D**
+
+A rectangular 2D **Object** that is restricted to the *x* and *y* *axes*. 
