@@ -18,7 +18,7 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
 * [**Build Module (version 1)**](../modules/exporter.md)
   
-    This new **Module** allows to export a **Project** into a desired folder and generates an execution file.
+    This new **Module** allows to export a **Project** into a desired folder of the Host target and generate an execution file.
 
 * [**CPU Profiler Integration**](../modules/profiler-view.md)
   
