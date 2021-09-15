@@ -1,2 +1,0 @@
-# \[Sub-Section 2\]
-
