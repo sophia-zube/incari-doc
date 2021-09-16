@@ -46,7 +46,7 @@ A **Text Object** is used for writing texts in the **User Interface**. More info
 
 * **Web Sprite2D**
 
-Web Sprites are important for embedding different types of web technologies into an *Incari* **Project**. This is explained in greater detail [*here*](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/scene-objects/web-sprite).
+**Web Sprites** are important for embedding different types of web technologies into an *Incari* **Project**. This is explained in greater detail [*here*](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/scene-objects/web-sprite).
 
 # Vector2D 
 
@@ -82,11 +82,11 @@ These **Nodes** work for both **2D** and **Vector2D Objects**. The **Vector Node
 The **2D Nodes** fall under three groups and include the following:
 
 * Position
-  * Set Position Pixel
-  * Get Position Pixel
+  * [**Set Position Pixel**](../../toolbox/incari/object/set-position-pixel.md)
+  * [**Get Position Pixel**](../../toolbox/incari/object/get-position-pixel.md)
 * Rotation
-  * Set Rotation Pixel
-  * Get Rotation Pixel
+  * [**Set Rotation 2D**](../../toolbox/incari/object/set-rotation-pixel.md)
+  * [**Get Rotation 2D**](../../toolbox/incari/object/get-rotation-pixel.md)
 * Size
-  * Set Size Pixel
-  * Get Size Pixel
+  * [**Set Size Pixel**](../../toolbox/incari/object/set-size-pixel.md)
+  * [**Get Size Pixel**](get-size-../../toolbox/incari/object/get-size-pixel.md)
