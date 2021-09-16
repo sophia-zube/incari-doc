@@ -32,5 +32,5 @@ In the case that two or more of the **Dictionaries** to be merged have the same 
 
 ## See Also
 
-* [Dictionary Value](dictionary-value.md)
+* [**Dictionary Value**](dictionary-value.md)
 
