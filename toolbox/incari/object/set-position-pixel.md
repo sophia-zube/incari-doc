@@ -28,5 +28,5 @@
 # See Also
 
 * [**Set Rotation 2D**](set-rotation-pixel.md)
-* [**Set Size Pixel**](set-size-pixel.md)
+* [**Set Size Pixel_**](set-size-pixel.md)
 
