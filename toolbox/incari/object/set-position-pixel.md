@@ -2,18 +2,22 @@
 
 ![The Set Position Pixel Node.](../../../.gitbook/assets/setpositionpixel.png)
 
-**Set Position Pixel** .
+**Set Position Pixel Node** sets the *x* and *y values* of a **2D Scene Object's** `Position`. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The target **Object** whose `Position` you wish to set, if one is not provided in the `Object ID` **Socket**. |
+| `Position` | **Vector2** | The desired `Position` values of the **Object**, if one is not provided in the `Position` **Socket**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains *x* and *y* `Postion` *values* of the target **Object**. |
 
 # Outputs
 
@@ -23,5 +27,6 @@
 
 # See Also
 
-# External Links
+* [**Set Rotation 2D**](set-rotation-pixel.md)
+* [**Set Size Pixel**](set-size-pixel.md)
 
