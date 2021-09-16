@@ -14,7 +14,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Rotation**](get-rotation.md)
 * [**Get Rotation 2D**](get-rotation-pixel.md)
 * [**Get Scale**](get-scale.md)
-* [**Get Size Pixel**](get-size-pixel.md)
+* [**Get Size Pixel_**](get-size-pixel.md)
 * [**Get Tint**](get-tint.md)
 * [**Get Visibility**](get-visibility.md)
 * [**Set Alpha**](set-alpha.md)
