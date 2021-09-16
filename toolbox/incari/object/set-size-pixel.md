@@ -9,7 +9,7 @@ The **Set Size Pixel Node** sets the *x* and *y values* of a **2D** or **Vector2
 |Attribute|Type|Description|
 |---|---|---|
 | `Object` | **ObjectID** | The target **Object** whose `Size` you wish to set, if one is not provided in the `Object ID` **Socket**. |
-| `Position` | **Vector2** | The desired `Size` values of the **Object**, if one is not provided in the `Position` **Socket**. |
+| `Size` | **Vector2** | The desired `Size` values of the **Object**, if one is not provided in the `Size` **Socket**. |
 
 # Inputs
 
