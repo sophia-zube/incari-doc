@@ -33,7 +33,7 @@ The `Mode` is a _toggle_ that determines whether element/s will be added to the 
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Array (optional)` | **Array** | An **Array** to which you wish to add element/s. |
-| `Value` | _Defined in the_ `Data Type` _**Attribute**_ | The value you wish to add to a desired **Array**. |
+| `Value [n]` | _Defined in the_ `Data Type` _**Attribute**_ | The value you wish to add to a desired **Array**. |
 
 ## Outputs
 
