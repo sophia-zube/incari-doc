@@ -33,6 +33,6 @@ The **Erase Dictionary Element Node** removes one or more elements of a **Dictio
 
 ## See Also
 
-* [Clear Dictionary](clear-dictionary.md)
-* [Set Dictionary Element](https://github.com/cgi-studio-gmbh/incari-doc/tree/bd56e8bb4fa3c5b8a68b3476725aa695dc07cdb5/toolbox/dictionary/set-dictionary-element.md) 
+* [**Clear Dictionary**](clear-dictionary.md)
+* [**Set Dictionary Element**](set-dictionary-element.md) 
 
