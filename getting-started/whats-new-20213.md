@@ -14,7 +14,9 @@ With the release of Incari Studio 2021.3, there appeared a number of new feature
 
     With **Normal Maps** now available in the **Materials Editor**, users of *Incari* can now take advantage of this texturing technique that will reduce rendering time and also improve the details of the **Mesh**.
 
-* **Screen Space Elements**
+* [**Screen Space Elements**](scene-objects/screen-space-elements.md)
+
+    **Screen Space Elements** will let users transfer their designs from third-party applications like *Photoshop* and *Figma* into *Incari* without requiring a tedious conversion process. Furthermore, versions of **3D** and **Vector** **Objects** editable only in two-dimensional space make an appearance under **2D** and **Vector2D** categories in the **Scene Outliner**, alongside new **Nodes**. 
 
 * [**Build Module (version 1)**](../modules/exporter.md)
   
