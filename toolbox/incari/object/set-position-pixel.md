@@ -2,7 +2,7 @@
 
 ![The Set Position Pixel Node.](../../../.gitbook/assets/setpositionpixel.png)
 
-**Set Position Pixel Node** sets the *x* and *y values* of a **2D Scene Object's** `Position`. 
+**Set Position Pixel Node** sets the *x* and *y values* of a **2D** or **Vector2D Object's** `Position`. 
 
 # Attributes
 

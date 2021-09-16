@@ -2,7 +2,7 @@
 
 ![The Get Position Pixel Node.](../../../.gitbook/assets/getpixelposition.png)
 
-The **Get Position Pixel Node** returns the *x* and *y values* of a **2D Scene Object's** `Position`.
+The **Get Position Pixel Node** returns the *x* and *y values* of a **2D** or **Vector2D Object's** `Position`.
 
 # Attributes
 

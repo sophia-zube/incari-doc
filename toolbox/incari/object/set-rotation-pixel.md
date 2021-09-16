@@ -2,7 +2,7 @@
 
 ![The Set Rotation 2D Node.](../../../.gitbook/assets/setrotationpixel.png)
 
-The **Set Rotation 2D Node** sets the *degree of rotation* of a **2D Scene Object**.
+The **Set Rotation 2D Node** sets the *degree of rotation* of a **2D** or **Vector2D Object**.
 
 # Attributes
 
