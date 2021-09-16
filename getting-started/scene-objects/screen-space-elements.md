@@ -56,7 +56,7 @@ The **Vector2D Objects** provide alternatives to their **Vector** counterparts a
 
 * **Arc2D**
 
-A 2D **Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is restricted to the *x* and *y* *axes*. More information on **Arcs** can be found here [*here*](../../toolbox/incari/vector/arc/README.md)
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is restricted to the *x* and *y* *axes*. More information on **Arcs** can be found here [*here*](../../toolbox/incari/vector/arc/README.md).
 
 * **Ellipse2D**
 
@@ -64,20 +64,20 @@ A circular 2D **Object** that is restricted to the *x* and *y* *axes*.
 
 * **Line2D**
 
-A linear 2D **Object** that is restricted to the *x* and *y* *axes*. More information one **Lines** can be found [*here*](../../toolbox/incari/vector/line/README.md)
+A linear 2D **Object** that is restricted to the *x* and *y* *axes*. More information one **Lines** can be found [*here*](../../toolbox/incari/vector/line/README.md).
 
 * **Pie2D**
 
-A 2D **Object** that is a piece of a circle defined by a starting and ending degree and comes to a point at the center of the circle. It is restricted to the *x* and *y* *axes*. More information on **Pies** can be found [*here*](../../toolbox/incari/vector/pie/README.md)
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree and comes to a point at the center of the circle. It is restricted to the *x* and *y* *axes*. More information on **Pies** can be found [*here*](../../toolbox/incari/vector/pie/README.md).
 
 * **Rectangle2D**
 
-A rectangular 2D **Object** that is restricted to the *x* and *y* *axes*. More information on **Rectangles** can be found [*here*](../../toolbox/incari/vector/rectangle/README.md)
+A rectangular 2D **Object** that is restricted to the *x* and *y* *axes*. More information on **Rectangles** can be found [*here*](../../toolbox/incari/vector/rectangle/README.md).
 
 
 # 2D Nodes
 
-These **Nodes** work for both **2D** and **Vector2D Objects**. The **Vector Nodes** are still usable for **Vector Objects** and now can be used for **Vector2D Objects** as well. More information on **Vector Nodes** can be found [*here*](../../toolbox/incari/vector/README.md)
+These **Nodes** work for both **2D** and **Vector2D Objects**. The **Vector Nodes** are still usable for **Vector Objects** and now can be used for **Vector2D Objects** as well. More information on **Vector Nodes** can be found [*here*](../../toolbox/incari/vector/README.md).
 
 The **2D Nodes** fall under three groups and include the following:
 
