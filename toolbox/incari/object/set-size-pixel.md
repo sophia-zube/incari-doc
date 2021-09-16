@@ -2,7 +2,7 @@
 
 ![The Set Size Pixel Node.](../../../.gitbook/assets/setsizepixel.png)
 
-The **Set Size Pixel Node** sets the *x* and *y values* of a **2D Scene Object's** `Size`.
+The **Set Size Pixel Node** sets the *x* and *y values* of a **2D** or **Vector2D Object's** `Size`.
 
 # Attributes
 

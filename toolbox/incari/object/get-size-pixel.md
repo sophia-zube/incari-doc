@@ -2,7 +2,7 @@
 
 ![The Get Size Pixel Node.](../../../.gitbook/assets/getsizepixel.png)
 
-The **Get Size Pixel Node** returns the *x* and *y values* of a **2D Scene Object's** `Size`.
+The **Get Size Pixel Node** returns the *x* and *y values* of a **2D** or **Vector2D Object's** `Size`.
 
 # Attributes
 
