@@ -29,7 +29,3 @@ Once a **Material** has been opened, the **Material** **Editor** allows the user
 ## See Also
 
 * [**Mesh**](../getting-started/scene-objects/mesh.md)
-
-# External Links
-
-* More on [*normal mapping*](https://en.wikipedia.org/wiki/Normal_mapping) on Wikipedia.
