@@ -6,7 +6,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 ## HTTP GET
 
-![The HTTP GET Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/httpget.png)
+![The HTTP GET Node.](../../../.gitbook/assets/httpget.png)
 
 **HTTP GET** creates a request and returns the response within the _HTTP_ protocol. This is very useful when dealing with APIs. A more detailed explanation involving APIs can be found in the **See Also** section.
 
@@ -46,7 +46,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 ## HTTP POST
 
-![The HTTP POST Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/httppost.png)
+![The HTTP POST Node.](../../../.gitbook/assets/httppost.png)
 
 **HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the differences between **POST** and **GET** can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
 
