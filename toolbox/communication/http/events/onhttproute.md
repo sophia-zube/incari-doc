@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On HTTP Route Node.](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/onhttproute.png)
+![The On HTTP Route Node.](../../../../.gitbook/assets/onhttproute.png)
 
 **On HTTP Route** is an **Event Listener Node** that executes when a `Route` is received and returns the data defined by the outputs.
 
