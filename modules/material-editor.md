@@ -1,4 +1,3 @@
-# Material Editor
 
 The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have an `.incmat` as their filename extension.
 
