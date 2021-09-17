@@ -6,10 +6,10 @@ The **Object** **Nodes** are **Event Listener** **Nodes** that allow to execute 
 
 ## Contents
 
-* [On Alpha Change](on-alpha-change.md)
-* [On Opacity Change](on-opacity-change.md)
-* [On Position Change](on-position-change.md)
-* [On Rotation Change](on-rotation-change.md)
-* [On Scale Change](on-scale-change.md)
-* [On Visibility Change](on-visibility-change.md)
+* [**On Alpha Change**](on-alpha-change.md)
+* [**On Opacity Change**](on-opacity-change.md)
+* [**On Position Change**](on-position-change.md)
+* [**On Rotation Change**](on-rotation-change.md)
+* [**On Scale Change**](on-scale-change.md)
+* [**On Visibility Change**](on-visibility-change.md)
 
