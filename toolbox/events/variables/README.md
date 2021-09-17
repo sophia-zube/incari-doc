@@ -6,6 +6,6 @@ The **Variable Nodes** are **Event Listener Nodes** that allow to execute a **Lo
 
 ## Contents
 
-* [On Variable Change](on-variable-change.md)
-* [On Variable Set](on-variable-set.md)
+* [**On Variable Change**](on-variable-change.md)
+* [**On Variable Set**](on-variable-set.md)
 
