@@ -1,6 +1,6 @@
 # Material Editor
 
-The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have a _.incmat_ as their filename extension.
+The **Material Editor** allows us to create a **Material** that gives a **Mesh** a specific visual appearance when it comes into contact with **Light** in a **Scene**. The **Material** files have a `.incmat` as their filename extension.
 
 To open the **Material Editor**, _double-click_ on a **Material** file in the **Asset Manager** or _right-click_ on the _Menu bar_ in *Incari* and _click_ on **Material Editor** from the drop-down list. This can be seen in the illustration below:
 
