@@ -1,16 +1,16 @@
 # Lights
 
-_Incari_ has three types of **Light Objects**; the **Spot Light**, the **Point Light**, and the **Directional Light**.
+*Incari* has two types of **Light Objects**; the **Spot Light** and the **Point Light**.
 
-The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; the **Spot Light** is _directional_ and will only light the area that it is rotated towards; and when a **Directional Light** is used, the rays of light are parallel to each other, illuminating as if from a far off distance and lighting objects equally, like the sun. Additionally, unlike **Point Light**, **Spot Light** and **Directional Light** support shadow mapping and have an extra set of **Attributes** for that purpose.
+The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; while the **Spot Light** is _directional_ and will only light the area that it is rotated towards. Additionally, unlike **Point Light**, **Spot Light** supports shadow mapping and has an extra set of **Attributes** for that purpose.
 
-| Attribute | Spot Light | Point Light | Directional Light |
-| :--- | :--- | :--- | :--- |
-| `Color` | ✔ | ✔ | ✔ |
-| `Brightness` | ✔ | ✔ | ✔ |
-| `Attenuation` | ✔ | ✔ | ✘ |
-| `Radial Falloff` | ✔ | ✘ | ✘ |
-| `Shadow Mapping` | ✔ | ✘ | ✔ |
+| Attribute | Spot Light | Point Light |
+| :--- | :--- | :--- | 
+| `Color` | ✔ | ✔ | 
+| `Brightness` | ✔ | ✔ | 
+| `Attenuation` | ✔ | ✔ | 
+| `Radial Falloff` | ✔ | ✘ | 
+
 
 ## Light
 
@@ -44,7 +44,7 @@ This **Attribute** is only available on the **Spot Light Object**.
 
 ## Shadow Mapping
 
-**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light** or **Directional Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
+**Shadow Mapping** is a performant method of approximating shadows in real-time. Without getting too technical, **Shadow Mapping** takes the depth and normal passes of the **Scene** from the perspective of the **Spot Light**, calculates which areas are occluded, and projects the shadow map onto the **Scene**.
 
 There is no 'one size fits all' setup for **Shadow Mapping**. It is invariably a matter of tweaking and adjusting to achieve the desired visual result for your **Scene**, as well as meeting the _performance_ requirements of your **Project**.
 
