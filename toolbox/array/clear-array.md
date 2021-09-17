@@ -11,7 +11,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Array` | **Array**. | The input **Array** you wish to empty. |
+| `Array` | **Array** | The input **Array** you wish to empty. |
 
 ## Outputs
 
