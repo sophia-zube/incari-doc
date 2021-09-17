@@ -21,7 +21,7 @@ The `Used Materials` section has **Materials** that have been previously applied
 ![](../.gitbook/assets/open-material-editor.PNG)
 
 
-Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below. Along with ways to edit **Shadow** and **Texture**, *Incari* now supports the use of *normal mapping* with the `Normal Maps` **Attribute**. This allows the user to upload a **Normal Map** file that, when applied, can improve the detail and complexity of a **Mesh** which is made up of a low number of polygons (simply put, less complex). This also helps streamline the rendering process. With this type of texture mapping, **Meshes** in *Incari* will seem as detailed as complicated ones, while being more efficient. 
+Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below. 
 
 ![](../.gitbook/assets/material-editor-1.png)
 
