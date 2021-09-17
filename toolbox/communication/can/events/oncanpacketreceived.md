@@ -4,7 +4,7 @@
 
 ![The On CAN Packet Received Node.](../../../../.gitbook/assets/oncanpacketreceived.png)
 
-**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Dropdown Menu** and a data Packet has been received.
+**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Dropdown Menu** and a data **Packet** has been received.
 
 ## Attributes
 
