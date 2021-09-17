@@ -7,6 +7,6 @@ The **Communcation Nodes** \(**CAN**, **HTTP**, and **MQTT**\) represent the dif
 ## Content
 
 * [**CAN**](can/)
-* [**HTTP_**](http.md)
+* [**HTTP**](http.md)
 * [**MQTT**](mqtt/)
 
