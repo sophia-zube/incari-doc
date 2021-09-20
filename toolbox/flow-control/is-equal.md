@@ -65,5 +65,5 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
 
 ## External Links
 
-[_Relational operator_](https://en.wikipedia.org/wiki/Relational_operator) on Wikipedia.
+* [_Relational operator_](https://en.wikipedia.org/wiki/Relational_operator) on Wikipedia.
 
