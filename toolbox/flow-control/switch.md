@@ -35,5 +35,5 @@
 
 ## External Links
 
-[_Switch statement_](https://en.wikipedia.org/wiki/Switch_statement) on Wikipedia.
+* [_Switch statement_](https://en.wikipedia.org/wiki/Switch_statement) on Wikipedia.
 
