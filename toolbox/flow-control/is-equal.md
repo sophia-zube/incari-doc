@@ -9,9 +9,11 @@
 1. `IsEqual` - Are the two values equal in value.
 2. `IsNotEqual` - Are the two values _not_ equal in value.
 
-_Relational expressions_ are frequently used in combination with **Branch Nodes** and _logical operator_ **Nodes** \([**AND**](https://docs.incari.com/incari-studio/toolbox/math/boolean/and), [**OR**](https://docs.incari.com/incari-studio/toolbox/math/boolean/or), and [**Negate**](https://docs.incari.com/incari-studio/toolbox/math/boolean/negate)\) to create _conditional logic_, and are essential for building complex systems.
+_Relational expressions_ are frequently used in combination with **Branch Nodes** and _logical operator_ **Nodes** \([**AND**](../math/boolean/and.md), [**OR**](../math/boolean/or.md), and [**Negate**](../math/boolean/negate.md)\) to create _conditional logic_, and are essential for building complex systems.
 
 ## Attributes
+
+### Inputs
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
