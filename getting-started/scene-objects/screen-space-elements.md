@@ -2,9 +2,9 @@ As *Incari* can use both **2D** and **3D** **Assets**, it is necessary that the 
 
 With the introduction of **Screen** **Space** **Elements**, though, it is much easier for UI/UX designers using 2D-based tools to transfer their designs into *Incari* without the extra step of performing individual conversions. Designers can now import **Assets** from third-party content creation software, such as *Photoshop* or *Figma*, directly into *Incari*.
 
-Additionally, the **Screen Space Elements** encompass new **Objects** and new **Nodes**. 
+Additionally, the **Screen Space Elements** encompass new **Objects** and new [**Nodes**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/scene-objects/screen-space-elements#2d-nodes). 
 
-The **2D** **Objects** available in *Incari* fall under two groups in the **Scene Outliner**. These are **2D** and **Vector2D**. These provide 2D counterparts to those under **3D** and **Vector3D** and are only editable within two-dimensional space, meaning that their position is only contained within the *x* and *y* axes. 
+The **2D** **Objects** available in *Incari* fall under two groups in the **Scene Outliner**. These are **2D** and **Vector2D**. These provide 2D counterparts to those under **3D** and **Vector3D** and are only editable within two-dimensional space, meaning that their position is only contained within the *X* and *Y* *axes*. Additionally, these utilize the *pixel positioning feature*, which means that the origin (0,0) is set at the top-left corner of the **Screen** and the *X* and *Y* values under `Position` reflect the exact pixel position when the **Object** is rendered on the **Screen**. 
 
 # 2D
 
@@ -18,7 +18,7 @@ The **2D Objects** cover different functional items used to provide engaging gra
 
 * **Label2D**
 
-**Labels** are useful for identifying textual information and titles. More information can be found [*here*](../../toolbox/incari/vector/label/README.md).
+**Labels** are useful for displaying textual information and titles. More information can be found [*here*](../../toolbox/incari/vector/label/README.md).
 
 * **List2D**
 
@@ -26,7 +26,7 @@ The **2D Objects** cover different functional items used to provide engaging gra
 
 * **On-Screen Keyboard2D**
 
-As the name suggests, the **On-Screen Keyboard** is simply a keyboard shown on the screen in two-dimensional format. Certain style aspects can be changed with a .css file and `Tint`, which provides the color for the highlighted key. 
+As the name suggests, the **On-Screen Keyboard** is simply a keyboard shown on the screen in two-dimensional format. Certain style aspects can be changed with a .css file and `Tint`, the latter providing the color for the highlighted key. 
 
 * **Sprite2D**
 
@@ -38,7 +38,7 @@ This **Object** allows the user to upload their own **SVG**, or *Scalable Vector
 
 * **Text2D**
 
-A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here*](text.md)
+A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here_*](text.md)
 
 * **Video2D**
 
@@ -52,32 +52,32 @@ A **Text Object** is used for writing texts in the **User Interface**. More info
 
 ![Vector2D Objects](../../.gitbook/assets/2Dvectorelements.png)
 
-The **Vector2D Objects** provide alternatives to their **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a **User Interface**. Unlike **Vector**, **Vector2D Objects** do not have *z axis* capabilities. 
+The **Vector2D Objects** provide alternatives to their **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a **User Interface**. Unlike **Vector**, **Vector2D Objects** do not have *Z* *axis* components. 
 
 * **Arc2D**
 
-A 2D **Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is restricted to the *x* and *y* *axes*. More information on **Arcs** can be found here [*here*](../../toolbox/incari/vector/arc/README.md).
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is restricted to the *X* and *Y* *axes*. More information on **Arcs** can be found [*here*](../../toolbox/incari/vector/arc/README.md).
 
 * **Ellipse2D**
 
-A circular 2D **Object** that is restricted to the *x* and *y* *axes*.
+A circular 2D **Object** that is restricted to the *X* and *Y* *axes*.
 
 * **Line2D**
 
-A linear 2D **Object** that is restricted to the *x* and *y* *axes*. More information one **Lines** can be found [*here*](../../toolbox/incari/vector/line/README.md).
+A linear 2D **Object** that is restricted to the *X* and *Y* *axes*. More information one **Lines** can be found [*here*](../../toolbox/incari/vector/line/README.md).
 
 * **Pie2D**
 
-A 2D **Object** that is a piece of a circle defined by a starting and ending degree and comes to a point at the center of the circle. It is restricted to the *x* and *y* *axes*. More information on **Pies** can be found [*here*](../../toolbox/incari/vector/pie/README.md).
+A 2D **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It is restricted to the *X* and *Y* *axes*. More information on **Pies** can be found [*here*](../../toolbox/incari/vector/pie/README.md).
 
 * **Rectangle2D**
 
-A rectangular 2D **Object** that is restricted to the *x* and *y* *axes*. More information on **Rectangles** can be found [*here*](../../toolbox/incari/vector/rectangle/README.md).
+A rectangular 2D **Object** that is restricted to the *X* and *Y* *axes*. More information on **Rectangles** can be found [*here*](../../toolbox/incari/vector/rectangle/README.md).
 
 
 # 2D Nodes
 
-These **Nodes** work for both **2D** and **Vector2D Objects**. The **Vector Nodes** are still usable for **Vector Objects** and now can be used for **Vector2D Objects** as well. More information on **Vector Nodes** can be found [*here*](../../toolbox/incari/vector/README.md).
+These **Nodes** work for **2D Objects**. The **Vector Nodes** are still usable for **Vector Objects** and now can be used for **Vector2D Objects** as well. More information on **Vector Nodes** can be found [*here*](../../toolbox/incari/vector/README.md).
 
 The **2D Nodes** fall under three groups and include the following:
 
