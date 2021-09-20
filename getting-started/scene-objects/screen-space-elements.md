@@ -38,7 +38,7 @@ This **Object** allows the user to upload their own **SVG**, or *Scalable Vector
 
 * **Text2D**
 
-A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here_*](text.md)
+A **Text Object** is used for writing texts in the **User Interface**. More information can be found [*here*](text.md)
 
 * **Video2D**
 
