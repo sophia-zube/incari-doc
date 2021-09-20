@@ -4,7 +4,7 @@
 
 ![The Toggle Node.](../../.gitbook/assets/node-toggle.png)
 
-Holds a **Boolean** _state_, which alternates between _true_ and _false_ every time the input **Pulse** is triggered. This can be thought of as a light switch, which alternates a light bulb's state between being _on_ and _off_.
+The **Toggle Nodes** holds a **Boolean** _state_, which alternates between _true_ and _false_ every time the input **Pulse** is triggered. This can be thought of as a light switch, which alternates a light bulb's state between being _on_ and _off_.
 
 ## Attributes
 
