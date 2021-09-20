@@ -10,14 +10,13 @@ The **Scene Outliner** contains the list of every **Object** in the currently se
 
 New **Objects** can be created in the following ways:
 
-* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
+* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2847%29.PNG) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
 
 ![](../.gitbook/assets/scene-outliner-create-add-icon.png)
 
 * Right-click inside the **Scene Outliner**, select `Create` from the pop-up and click on the **Object**.
-  
-![](../.gitbook/assets/scene-outliner-create-right-click.png)
 
+![](../.gitbook/assets/scene-outliner-create-right-click.png)
 
 ## Deleting
 
@@ -44,8 +43,8 @@ And to show a hidden **Object**, click on the crossed eye icon at the right of i
 
 ![](../.gitbook/assets/show-and-hide-objects.gif)
 
-
 ## See Also
 
 * [**Scene**](../getting-started/project-objects/scene.md)
-* [**Scene Objects**](../getting-started/scene-objects/README.md)
+* [**Scene Objects**](../getting-started/scene-objects/)
+

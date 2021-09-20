@@ -1,6 +1,6 @@
 # Global Preferences
 
-**Global Preferences** allow us to apply default settings to aspects of *Incari*. These aspects are discussed below:
+**Global Preferences** allow us to apply default settings to aspects of _Incari_. These aspects are discussed below:
 
 {% tabs %}
 {% tab title="Animation Editor" %}
@@ -32,7 +32,7 @@
 
 ### Projects Path
 
-The default directory on a user's computer where *Incari* **Projects** are saved.
+The default directory on a user's computer where _Incari_ **Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
@@ -42,7 +42,7 @@ The default directory on a user's computer where *Incari* **Projects** are saved
 
 ### Grid Color
 
-The `Grid Color` of the **Logic Editor** can be set here. The *color* can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../getting-started/attributes/attribute-types/color-attribute.md).
+The `Grid Color` of the **Logic Editor** can be set here. The _color_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../getting-started/attributes/attribute-types/color-attribute.md).
 
 Additionally, the `Reset color` button sets the `Grid Color` back to its default value.
 {% endtab %}
@@ -54,7 +54,7 @@ Additionally, the `Reset color` button sets the `Grid Color` back to its default
 
 ### Reset layout
 
-The `Reset Layout` button resets all **Modules** found in *Incari* to their default positions.
+The `Reset Layout` button resets all **Modules** found in _Incari_ to their default positions.
 {% endtab %}
 
 {% tab title="Viewport" %}
@@ -68,13 +68,13 @@ The `Reset Layout` button resets all **Modules** found in *Incari* to their defa
 
 ### Grid Color
 
-`Grid Color` sets the color of the _grid_ found in the **Viewport**. The *color* is set in the same way as the `Bottom` and `Top Gradient Color` **Attributes**.
+`Grid Color` sets the color of the _grid_ found in the **Viewport**. The _color_ is set in the same way as the `Bottom` and `Top Gradient Color` **Attributes**.
 
-`Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default *colors*.
+`Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default _colors_.
 {% endtab %}
 {% endtabs %}
 
-In order to open the **Global Preferences** **Module**, _right-click_ on the _menu bar_ in *Incari* and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
+In order to open the **Global Preferences** **Module**, _right-click_ on the _menu bar_ in _Incari_ and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
 
 ![](../.gitbook/assets/open-global-preferences.PNG)
 

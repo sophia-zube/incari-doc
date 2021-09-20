@@ -12,7 +12,7 @@ Once the **Profiler** is connected, it allows to start and stop capturing with t
 
 ![](../.gitbook/assets/profiler-view-connected.png)
 
-The **Profiler** window consists of four panels (**Form**, **Diagram**, **Stats**, **FPS Monitor**), which are explained in detail below. These panels can be shown or hidden by right-clicking on the top bar of any of them and selecting or deselecting them from the drop-down menu that appears.
+The **Profiler** window consists of four panels \(**Form**, **Diagram**, **Stats**, **FPS Monitor**\), which are explained in detail below. These panels can be shown or hidden by right-clicking on the top bar of any of them and selecting or deselecting them from the drop-down menu that appears.
 
 ## Form
 
@@ -31,7 +31,6 @@ For selecting a **Block** or a time range to learns its statistics, use the righ
 After a selection has been made, the statistics of the included **Blocks** appear in the **Stats** panel.
 
 ![](../.gitbook/assets/profiler-drag.gif)
-
 
 ## Stats
 
@@ -58,4 +57,5 @@ The **FPS Monitor** shows the frame rate of the player in real time when the **P
 
 ## External Links
 
-* [_Profiling (computer programming)_](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) on Wikipedia.
+* [_Profiling \(computer programming\)_](https://en.wikipedia.org/wiki/Profiling_%28computer_programming%29) on Wikipedia.
+

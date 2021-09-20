@@ -13,3 +13,4 @@ After exporting a **Project**, the target folder will have:
 The **Project** can then be started by launching `run.bat`.
 
 It is also possible to export a **Project** from the command line with the command `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`.
+
