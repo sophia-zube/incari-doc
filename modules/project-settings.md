@@ -65,17 +65,6 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 
 `Is auto start` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
-# Profiler
-
-![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
-
-The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler** **Module**.
-
-`Enable` enables or disables the **Profiler**, which can be edited in the **Profiler View Module**.
-
-`Port` is the port number to which the **Profiler Module** has to connect.
-
-
 # See Also
 
 * [**Communication Nodes**](../toolbox/communication/README.md)
