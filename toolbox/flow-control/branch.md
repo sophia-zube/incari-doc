@@ -8,9 +8,11 @@
 
 ## Attributes
 
+### Inputs
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Default Value` | **Bool** | The default value if one is not provided in the `Input` **Input Socket.** |
+| `Default Value` | **Bool** | The default value, if one is not provided in the `Input` **Socket.** |
 
 ## Inputs
 
