@@ -10,6 +10,8 @@ They are used primarily as a means of grouping and organizing blocks of logic wi
 
 ## Attributes
 
+### Outputs
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Pulse Count` | **Int** | The number of **Output Pulses** that will be executed in the sequence. |
