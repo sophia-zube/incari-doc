@@ -2,7 +2,7 @@
 
 ![The Get Position Pixel Node.](../../../.gitbook/assets/getpixelposition.png)
 
-The **Get Position Pixel Node** returns the *x* and *y values* of a **2D** or **Vector2D Object's** `Position`.
+The **Get Position Pixel Node** returns the *X* and *Y values* of a **2D Object's** `Position`.
 
 # Attributes
 
@@ -22,7 +22,7 @@ The **Get Position Pixel Node** returns the *x* and *y values* of a **2D** or **
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the *x* and *y* `Position` *values* of the target **Object**. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the *X* and *Y* `Position` *values* of the target **Object**. |
 
 # See Also
 

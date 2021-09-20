@@ -2,7 +2,7 @@
 
 ![The Set Size Pixel Node.](../../../.gitbook/assets/setsizepixel.png)
 
-The **Set Size Pixel Node** sets the *x* and *y values* of a **2D** or **Vector2D Object's** `Size`.
+The **Set Size Pixel Node** sets the *X* and *Y values* of a **2D Object's** `Size`.
 
 # Attributes
 
@@ -17,7 +17,7 @@ The **Set Size Pixel Node** sets the *x* and *y values* of a **2D** or **Vector2
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Size` you wish to set. |
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains *x* and *y* `Size` *values* of the target **Object**. |
+| `Size` | **Vector2** | A 2-dimensional **Vector** that contains *X* and *Y* `Size` *values* of the target **Object**. |
 
 # Outputs
 

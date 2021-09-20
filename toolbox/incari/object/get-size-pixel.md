@@ -2,7 +2,7 @@
 
 ![The Get Size Pixel Node.](../../../.gitbook/assets/getsizepixel.png)
 
-The **Get Size Pixel Node** returns the *x* and *y values* of a **2D** or **Vector2D Object's** `Size`.
+The **Get Size Pixel Node** returns the *X* and *Y values* of a **2D Object's** `Size`.
 
 # Attributes
 
@@ -22,7 +22,7 @@ The **Get Size Pixel Node** returns the *x* and *y values* of a **2D** or **Vect
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the *x* and *y* `Size` *values* of the target **Object**. |
+| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the *X* and *Y* `Size` *values* of the target **Object**. |
 
 # See Also
 
