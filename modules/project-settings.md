@@ -2,7 +2,7 @@
 
 
 
-The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in *Incari*, **Fonts**, or the **Profiler**. 
+The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in *Incari* or **Fonts**. 
 
 
 # CAN
