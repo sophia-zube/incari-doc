@@ -34,5 +34,5 @@ The **Start Timeout Node** delays the execution of a **Node**.
 
 ## External Links
 
-* An example using the [_**Start Timeout Node**_](https://docs.incari.com/incari-studio/toolbox/flow-control/sequential#execution-order)
+* An example using the [_**Start Timeout Node**_](https://docs.incari.com/incari-studio/toolbox/flow-control/sequential#execution-order).
 
