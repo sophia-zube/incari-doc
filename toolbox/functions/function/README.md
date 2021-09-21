@@ -22,7 +22,7 @@ The **Node**'s **Logic** has two special **Nodes**: [**Function Input**](functio
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output Parameter [n]` | _Defined in the **Function Input** **Node**_ | Parameter returned by the function. |
+| `Output Parameter [n]` | _Defined in the **Function Output** **Node**_ | Parameter returned by the function. |
 
 ## Creating a Function
 
