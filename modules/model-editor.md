@@ -22,6 +22,6 @@ The `Used Models` section contains **Models** that have been previously applied.
 
 ## See Also
 
-* [**Incari Model File**](https://docs.incari.com/incari-studio/getting-started/scene-objects/list-widget#incari-model-file)
+* [**Incari Model File**](https://docs.incari.com/incari-studio/v/2021.1/getting-started/scene-objects/list-widget#incari-model-file)
 * [**List**](../toolbox/events/list/)
 
