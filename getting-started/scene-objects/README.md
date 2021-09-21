@@ -19,4 +19,3 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 * [Text](text.md)
 * [Web Sprite](web-sprite.md)
 
-

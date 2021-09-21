@@ -10,7 +10,6 @@ The **Node**'s **Logic** has two special **Nodes**: [**Function Input**](functio
 
 **Functions** can be exported and then imported in a different **Project**.
 
-
 ## Inputs
 
 | Input | Type | Description |

@@ -1,28 +1,30 @@
-# Overview
+# HTTP Server Stop
+
+## Overview
 
 ![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstop.png)
 
-The **HTTP Server Stop Node** terminates the connection with an *HTTP* server.
+The **HTTP Server Stop Node** terminates the connection with an _HTTP_ server.
 
-# Attributes
+## Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
-|`Configuration`|**Dropdown**|The desired *HTTP* server.|
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Configuration` | **Dropdown** | The desired _HTTP_ server. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
-# See Also
+## See Also
 
 * [**HTTP Server Start**](httpserverstart.md)
 
