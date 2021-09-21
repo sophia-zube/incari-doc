@@ -31,5 +31,4 @@ The **JSON Parse Node** allows the user to access the values of a _JSON_ file in
 
 * [**JSON Stringify**](jsonstringify.md)
 * [**Load File**](../io/loadfile.md)
-* [**Using APIs to Pull Dynamic Data**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/demo-projects/using-apis-to-pull-dynamic-data#json)
 
