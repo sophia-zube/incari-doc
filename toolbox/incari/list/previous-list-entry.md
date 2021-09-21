@@ -4,7 +4,7 @@
 
 ![The Previous List Entry Node.](../../../.gitbook/assets/previous-list-entry.PNG)
 
-**Previous List Entry** selects the previous entry item in the **List** **Object**.
+**Previous List Entry** selects the previous entry item in a **List** **Object**.
 
 ## Attributes
 
