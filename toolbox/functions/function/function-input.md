@@ -14,9 +14,9 @@ In the **Function**'s **Logic Graph**, the **Function Input** **Node** starts th
 
 ## Default Input Values
 
-|Attribute|Type|Description|
-|---|---|---|
-| `Input Parameter` | _Defined in the **Inputs** **Attribute**_ | Default value of the input parameter. | 
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Input Parameter [n]` | _Defined in the **Inputs** **Attribute**_ | Default value of the input parameter. |
 
 # Outputs
 
