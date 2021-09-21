@@ -4,7 +4,7 @@
 
 ![The Select List Entry Node.](../../../.gitbook/assets/select-list-entry.PNG)
 
-**Select List Entry** selects an entry item in the **List** **Object**.
+**Select List Entry** selects an entry item in a **List** **Object**.
 
 ## Attributes
 
