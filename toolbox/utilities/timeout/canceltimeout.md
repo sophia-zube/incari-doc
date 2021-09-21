@@ -4,7 +4,7 @@
 
 ![The Cancel Timeout Node.](../../../.gitbook/assets/canceltimeout.png)
 
-The **Cancel Timeout** Node cancels an existing **Timeout** and allows the user to decide how to proceed.
+The **Cancel Timeout Node** cancels an existing **Timeout** and allows the user to decide how to proceed.
 
 ## Inputs
 
