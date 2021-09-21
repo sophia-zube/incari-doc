@@ -8,7 +8,7 @@ To open the **Image Sequence Editor**, either open it from `View` in the top pan
 
 Once an **Image Sequence** is open in the **Image Sequence Editor**, images can be added or removed from the sequence and their order can be changed.
 
-The top panel gives the options to save or clear the **Image Sequence**. 
+The top panel gives the options to save or clear the **Image Sequence**.
 
 ![](../.gitbook/assets/image-seq-editor.png)
 
@@ -32,5 +32,6 @@ To move an image within the sequence, drag it and drop it in the desired positio
 
 ## See Also
 
-* [**ImageSequence Nodes**](../toolbox/incari/imagesequence/README.md)
-* [**4 Methods of Animation - Image Sequence**](../demo-projects/4-methods-of-animation.md#3-image-sequence)
+* [**ImageSequence Nodes**](../toolbox/incari/imagesequence/)
+* [**4 Methods of Animation - Image Sequence**](https://github.com/cgi-studio-gmbh/incari-doc/tree/04f5eb486773debf7252a51f0cbc18a7ef29df51/demo-projects/4-methods-of-animation.md#3-image-sequence)
+

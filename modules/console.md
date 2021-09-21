@@ -5,3 +5,4 @@ The **Console** displays all messages regarding the status of the software proce
 On the top left, there is the option to clear the **Console**.
 
 ![](../.gitbook/assets/console.png)
+

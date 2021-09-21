@@ -10,7 +10,7 @@ The **Project Outliner** contains a structured list of every **Scene** and **Scr
 
 New **Screens** and **Scenes** can be created in the following ways:
 
-* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) icon located at the _top left corner_ of the **Project Outliner**. After that, click the `Scene` button.
+* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2846%29.PNG) icon located at the _top left corner_ of the **Project Outliner**. After that, click the `Scene` button.
 * Right-click inside the **Project Outliner** and select `Create` &gt; `Scene` from the pop-up.
 * Select `File` &gt; `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.
@@ -34,7 +34,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 ## Disabling Screens
 
-When you **Start** the **Simulation** of a **Project** in *Incari*, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
+When you **Start** the **Simulation** of a **Project** in _Incari_, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
 
 To disable a **Screen**, simply click the eye \(👁\) icon.
 

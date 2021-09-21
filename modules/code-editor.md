@@ -9,3 +9,4 @@ When first opened, it offers the options of selecting a file used in the **Scene
 It can also be opened by directly double clicking an HTML, CSS or JS file.
 
 ![](../.gitbook/assets/code-editor-html.png)
+
