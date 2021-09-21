@@ -14,7 +14,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **String** | The `Key` of the element you wish to return if none is provided to the `Index` **Input** **Socket** |
+| `Key` | **String** | The `Key` of the element you wish to return if none is provided to the `Index` **Input** **Socket**. |
 | `Data Type` | **Drop Down** | The `Data Type` of the `Value` that will be returned. |
 
 ## Inputs
@@ -30,7 +30,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Dictionary` | **Dictionary** | The **Dictionary** provided to the **Input** **Socket** |
+| `Dictionary` | **Dictionary** | The **Dictionary** provided to the **Input** **Socket**. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The **Output** value retrieved from the **Dictionary**. |
 
 ## See Also
