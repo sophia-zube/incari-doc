@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector2** | A 2-dimensional **Vector** that contains _X_ and _Y_ `Postion` _values_ of the target **Object**. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains _X_ and _Y_ `Position` _values_ of the target **Object**. |
 
 ## Outputs
 
