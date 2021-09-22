@@ -66,7 +66,7 @@ A circular 2D **Object** that is restricted to the _X_ and _Y_ _axes_.
 
 * **Line2D**
 
-A linear 2D **Object** that is restricted to the _X_ and _Y_ _axes_. More information one **Lines** can be found [_here_](../../toolbox/incari/vector/line/).
+A linear 2D **Object** that is restricted to the _X_ and _Y_ _axes_. More information on **Lines** can be found [_here_](../../toolbox/incari/vector/line/).
 
 * **Pie2D**
 
