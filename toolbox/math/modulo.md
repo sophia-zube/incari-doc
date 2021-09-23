@@ -40,6 +40,6 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 
 ## External Links
 
-* [_Intro to remainders_](https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide/arith-review-remainders/v/introduction-to-remainders) on Kahn Academy.
-* [_What is modular arithmetic?_](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic) on Kahn Academy.
+* [_Intro to remainders_](https://www.khanacademy.org/math/arithmetic/arith-review-multiply-divide/arith-review-remainders/v/introduction-to-remainders) on Khan Academy.
+* [_What is modular arithmetic?_](https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/what-is-modular-arithmetic) on Khan Academy.
 
