@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Enabled` | **Bool** | A toggle switch that allows the **Node** to be turned on or off |
+| `Enabled` | **Bool** | A toggle switch that allows the **Node** to be turned on or off. |
 
 ## Inputs
 
