@@ -4,7 +4,7 @@
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoaction.png)
 
-The **RotateFromTo Action Node** rotates an **Animation** from the absolute Euler angles along the X, Y, and Z axes specified in `From` to those specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**. .
+The **RotateFromTo Action Node** rotates an **Animation** from the absolute Euler angles along the X, Y, and Z axes specified in `From` to those specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
 
