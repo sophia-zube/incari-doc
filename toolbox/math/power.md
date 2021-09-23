@@ -19,8 +19,8 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard input **Pulse**, to trigger the execution of the **Node**. |
-| `Base` | _Defined in the `Data Type` **Attribute**_. | The base value, that will be multiplied against itself multiple times, based on the `Exponent`. |
-| `Exponent` | _Defined in the `Data Type` **Attribute**_. | The number of times, the `Base` value will be multiplied against itself. |
+| `Base` | _Defined in the `Data Type` **Attribute**_. | The base value that will be multiplied against itself multiple times. |
+| `Exponent` | _Defined in the `Data Type` **Attribute**_. | The number of times the `Base` value will be multiplied against itself. |
 
 ## Outputs
 
