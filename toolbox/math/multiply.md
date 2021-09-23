@@ -4,7 +4,7 @@
 
 ![The Multiply Node.](../../.gitbook/assets/node-multiply.png)
 
-**Multiply** is a _basic arithmetic operation_ **Node** that outputs the product of all of the values provided in the `Input` **Sockets**.
+**Multiply** is a _basic arithmetic operation_ **Node** that outputs the product of all the values provided in the `Input` **Sockets**.
 
 This is the equivalent of the multiplication \(`*` or `x`\) operation in computer science and mathematics.
 
@@ -27,5 +27,5 @@ This is the equivalent of the multiplication \(`*` or `x`\) operation in compute
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | _Defined in the `Data Type` **Attribute**._ | The product of all of the values provided in the `Input` **Sockets**. |
+| `Output` | _Defined in the `Data Type` **Attribute**._ | The product of all the values provided in the `Input` **Sockets**. |
 
