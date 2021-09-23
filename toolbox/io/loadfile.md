@@ -4,7 +4,7 @@
 
 ![The Load File Node.](../../.gitbook/assets/Loadfile.jpg)
 
-**Load File** is an _io_ **Node**, which allows one to load a specified file, such as a previously saved variable or a **Dictionary**. In the latter case, the **JSON Parser** must be used first.
+**Load File** is an _io_ **Node**, which allows one to load a specified file, such as a previously saved **Variable** or a **Dictionary**. In the latter case, the **JSON Parser** must be used first.
 
 ## Attributes
 
@@ -23,5 +23,5 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| _Content_ | Defined in the **Logic Editor** | The project content that is to be loaded. |
+| _Content_ | Defined in the **Logic Editor** | The **Project** content that is to be loaded. |
 
