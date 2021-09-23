@@ -18,7 +18,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Content` | Defined in the **Logic Editor**. | The project content that needs to be saved. |
+| `Content` | Defined in the **Logic Editor**. | The **Project** content that needs to be saved. |
 
 ## Outputs
 
