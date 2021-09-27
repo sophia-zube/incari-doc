@@ -10,10 +10,6 @@ Process optimization can significantly reduce development time and significantly
 
 This is the best place to start your journey with **Incari Studio**. It presents the requirements and installation process, and describes the concepts and terminology used in **Incari**.
 
-### Demo projects
-
-**Incari Hub** provides **Demo Projects**, which are available under the *Remote Projects* tab. They are a great source of knowledge to see what can be achieved and how.
-
 ### Modules
 
 This section presents all the built-in tools, which are useful for various tasks, such as importing **Assets**, creating custom animations or visual programming with the **Logic Editor**.
