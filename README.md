@@ -18,7 +18,7 @@ This section presents all the built-in tools, which are useful for various tasks
 
 ### Toolbox
 
-Programming in **Incari** is done visually in the **Logic Editor** using **Nodes**. This section offers detailed descriptions of all the **Nodes** in **Incari** and their use.
+Programming in **Incari** is done visually in the **Logic Editor** using **Nodes**. This section offers detailed descriptions of all the **Nodes** available in **Incari** and their use.
 
 ### Rich documentation and community
 
