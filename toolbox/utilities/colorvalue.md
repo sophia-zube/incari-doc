@@ -28,7 +28,7 @@ The **Color Value Node** returns the `Value` of a **Color Variable** or the **De
 
 ## See Also
 
-* [**Color Attribute**](https://docs.incari.com/incari-studio/getting-started/attributes/attribute-types/color-attribute)
+* [**Color Attribute**](https://docs.incari.com/incari-studio/v/2021.1/getting-started/attributes/attribute-types/color-attribute)
 
 ## External Links
 
