@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object**, whose `visibility` is desired, if one is not provided in the `object ID` **Socket**. |
+| `Object` | **ObjectID** | The **Object**, whose _visibility_ is desired, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
