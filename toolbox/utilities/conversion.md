@@ -29,7 +29,7 @@ The **Conversion Node** allows the user to convert one `Data Type` into another.
 
 ## See Also
 
-* [**Data Types**](https://docs.incari.com/incari-studio/getting-started/data-types)
-* [**Attribute Types**](https://docs.incari.com/incari-studio/getting-started/attributes/attribute-types)
-* [**Common Attributes**](https://docs.incari.com/incari-studio/getting-started/attributes/common-attributes)
+* [**Data Types**](https://docs.incari.com/incari-studio/v/2021.1/getting-started/data-types)
+* [**Attribute Types**](https://docs.incari.com/incari-studio/v/2021.1/getting-started/attributes/attribute-types)
+* [**Common Attributes**](https://docs.incari.com/incari-studio/v/2021.1/getting-started/attributes/common-attributes)
 
