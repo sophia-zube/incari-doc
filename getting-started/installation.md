@@ -6,7 +6,7 @@ Installation and licensing:
 2. Execute the Incari Studio-2021.3.0-installer.exe and follow the instructions.
 3. Click "Next" to proceed or "Cancel" to stop the current installation. 
 
-![The Incari Studio welcome screen.](../.gitbook/assets/setup1.png)
+![The Incari Studio welcome screen.](../.gitbook/assets/incaristudio202130_installer.png)
 
 1. After installation, start **Incari Studio** by double-clicking the shortcut icon on your desktop.  
 2. On the first startup, there is a license dialog. Copy the license request key, send it to the vendor and apply for a valid license.
