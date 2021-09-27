@@ -1,6 +1,6 @@
 # Incari HMI Development Platform
 
-Incari Studio is the authoring tool for creating user interfaces \(UIs\) for all target platforms and hardware platforms. It offers all the functions of a development environment for designers and engineers.
+**Incari Studio** is the authoring tool for creating *User Interfaces* \(UIs\) for all target and hardware platforms. It offers all the functions of a development environment for designers and engineers.
 
 Process optimization can significantly reduce development time and significantly improve the quality of the results.
 
@@ -8,26 +8,25 @@ Process optimization can significantly reduce development time and significantly
 
 ### Getting started
 
-Best place to start your journey with Incari Studio. Presents general concept, requirements and terminology.
+This is the best place to start your journey with **Incari Studio**. It presents the requirements and installation process, and describes the concepts and terminology used in **Incari**.
 
 ### Demo projects
 
-Incari Hub provides demo projects available under "Remote Projects" tab. They are great source of knowledge to see what and how you can achieve it. 
-Start with project "4 Methods of Animation" it has detailed implementation (available as demo in remote projects)
+**Incari Hub** provides **Demo Projects**, which are available under the *Remote Projects* tab. They are a great source of knowledge to see what can be achieved and how.
 
 ### Modules
 
-Presents all built in tools for various tasks like importing assets, creating custom animations or logic editor for visual programming your applications in friendly way.
+This section presents all the built-in tools, which are useful for various tasks, such as importing **Assets**, creating custom animations or visual programming with the **Logic Editor**.
 
 ### Rich documentation and community
 
-Documentation with description of all Incari Studio elements, short animations that shows how to use particular feature. Lot of short videos, examples and tutorials. There is also community forum where emplyees of Incari can anwser your questions.
+Documentation with an in-depth description of all **Incari Studio** elements, short animations that show how to use particular features, videos, examples and tutorials. There is also a community forum where Incari employees can answer your questions.
 
 ### 2D/3D Engine
 
-Brand new 3D graphics engine provides new ways of user interface creation in Incari. For highly scalable performance and interactivity in User Interfaces. Especially designed for modern embedded systems.
+The brand new 3D graphics engine provides new ways of *User Interface* creation in **Incari**. For highly scalable performance and interactivity in *User Interfaces*. Especially designed for modern embedded systems.
 
-Incari Studio also fully supports HTML5 and JavaScript for interactive 2D content
+**Incari Studio** also fully supports _HTML5_ and _JavaScript_ for interactive 2D content
 
 ### Clustering
 
