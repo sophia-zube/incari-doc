@@ -13,7 +13,7 @@ This is the equivalent of the subtraction \(`-`\) operation in computer science 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Sockets**. |
-| `Default Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values if they have no data connected to them. |
+| `Default Inputs` | _Defined in the `Data Type` **Attribute**_. | The number of `Input` **Sockets** and their default values if they have no data connected to them. |
 
 ## Inputs
 
