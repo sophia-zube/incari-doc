@@ -12,7 +12,7 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Is Degree` | **Bool** | Determines whether or not the `Input` value is given in degrees \(°\) or radians \(rad\). |
+| `Is Degree` | **Bool** | Determines whether the `Input` value is given in degrees \(°\) or radians \(rad\). |
 
 ### Inputs
 
