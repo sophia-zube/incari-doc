@@ -26,5 +26,5 @@ Another advantage of the **Group Node** is that, by changing the `Name` **Attrib
 
 ## Usage
 
-![Group Node Usage](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/.gitbook/assets/group%20%283%29%20%284%29%20%284%29%20%284%29%20%284%29.gif)
+![Group Node Usage](../../.gitbook/assets/group%20%283%29%20%284%29%20%284%29%20%284%29%20%281%29%20%2810%29.gif)
 
