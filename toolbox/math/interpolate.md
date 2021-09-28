@@ -52,7 +52,6 @@ The **Interpolate** **Node** calculates intermediate values between an initial a
 
 ## See Also
 
-* [**4 Methods of Animation - Interpolation**](https://github.com/cgi-studio-gmbh/incari-doc/tree/8b797c630dccaa2b415ca3ed261027f0467693f1/demo-projects/4-methods-of-animation.md#2-interpolation)
 * [**Play Animation**](../incari/animation/playanimation.md)
 
 ## External Links
