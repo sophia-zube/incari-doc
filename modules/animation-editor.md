@@ -43,9 +43,7 @@ When the animation is run, the **Left Panel** shows the evolving values of the *
 
 The **Animation Timeline** shows a graph with the Bézier curves of the **Transformation Attributes**.
 
-## See Also
 
-* [**4 Methods of Animation - 1. Animation Editor**](https://github.com/cgi-studio-gmbh/incari-doc/tree/04f5eb486773debf7252a51f0cbc18a7ef29df51/demo-projects/4-methods-of-animation.md#1-animation-editor)
 
 ## External Link
 
