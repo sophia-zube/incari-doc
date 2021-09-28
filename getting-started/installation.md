@@ -15,7 +15,7 @@ Installation and licensing:
 
 Install License:
 
-After receiving the license file, please copy the provided `incaristudio.lic` into the installation folder of Incari Studio. The default installation path is `C:\Program Files\Incari\Incari Studio 2021.3.0` (it is same folder with other files like Uninstall.exe).
+After receiving the license file, please copy the provided `incaristudio.lic` into the installation folder of Incari Studio. The default installation path is `C:\Program Files\Incari\Incari Studio 2021.3.0` \(it is same folder with other files like Uninstall.exe\).
 
 After copying the license file to the installation folder you can start using Incari Studio.
 
