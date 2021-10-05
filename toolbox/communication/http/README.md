@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **HTTP Nodes** provide a means for the user to perform several actions within the _HTTP_ protocol. _HTTP_, or _Hypertext Transfer Protocol_, allows for communication between servers and clients by way of requests and responses using different methods. To use the **HTTP Nodes** in _Incari_, the user needs to locate the **HTTP Attributes** in **Project Settings** and add a server.
+The **HTTP Nodes** provide a means for the user to perform several actions within the _HTTP_ protocol. _HTTP_, or _Hypertext Transfer Protocol_, allows for communication between servers and clients by way of requests and responses using different methods. To use the **HTTP Nodes** in **Incari**, the user needs to locate the **HTTP Attributes** in **Project Settings** and add a server.
 
 ## Contents
 

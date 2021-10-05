@@ -10,7 +10,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Dropdown** | The desired _HTTP_ server. |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server. |
 | `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either GET or POST\) and its URL. |
 
 ## Outputs

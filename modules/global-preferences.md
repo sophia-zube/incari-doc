@@ -1,6 +1,6 @@
 # Global Preferences
 
-**Global Preferences** allow us to apply default settings to aspects of _Incari_. These aspects are discussed below:
+**Global Preferences** allow us to apply default settings to aspects of **Incari**. These aspects are discussed below:
 
 {% tabs %}
 {% tab title="Animation Editor" %}
@@ -32,7 +32,7 @@
 
 ### Projects Path
 
-The default directory on a user's computer where _Incari_ **Projects** are saved.
+The default directory on a user's computer where **Incari Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
@@ -54,7 +54,7 @@ Additionally, the `Reset color` button sets the `Grid Color` back to its default
 
 ### Reset layout
 
-The `Reset Layout` button resets all **Modules** found in _Incari_ to their default positions.
+The `Reset Layout` button resets all **Modules** found in **Incari** to their default positions.
 {% endtab %}
 
 {% tab title="Viewport" %}
@@ -74,7 +74,7 @@ The `Reset Layout` button resets all **Modules** found in _Incari_ to their defa
 {% endtab %}
 {% endtabs %}
 
-In order to open the **Global Preferences** **Module**, _right-click_ on the _menu bar_ in _Incari_ and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
+In order to open the **Global Preferences** **Module**, _right-click_ on the menu bar in **Incari** and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
 
 ![](../.gitbook/assets/open-global-preferences.PNG)
 

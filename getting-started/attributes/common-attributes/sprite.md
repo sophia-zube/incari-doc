@@ -6,7 +6,7 @@
 
 If you want to display the graphic with the precise _pixel_ resolution, you should ensure that `Size` matches the file's pixel dimensions, and that the **Object**'s `Position` **Transformation** place it on the same plane as the **Scene**'s **Camera**.
 
-The dimensions should be correct my default when you create a new **Sprite** **Object**, by dragging a graphic from the **Asset Manager**.
+The dimensions should be correct by default when you create a new **Sprite** **Object**, by dragging a graphic from the **Asset Manager**.
 
 ## Alpha
 
@@ -24,7 +24,7 @@ The `Flip U` and `Flip V` **Attributes** simply inverts the direction of the cor
 
 ## Sort Index
 
-Because **INCARI** works in 3D, it has no way of automatically discerning which elements should be shown on top of which, when they occupy the same area in 3D space. It is therefore necessary to manually define the _sort order_ of **Sprites** to ensure that they are layered correctly.
+Because **Incari** works in _3D_, it has no way of automatically discerning which elements should be shown on top of which, when they occupy the same area in _3D_ space. It is therefore necessary to manually define the _sort order_ of **Sprites** to ensure that they are layered correctly.
 
 This is done by manipulating the `Sort Index` **Sprites** with higher values being rendered above lower values. If **Sprites** have the same `Sort Index` **Value**, then there is no guarantee that they will be shown correctly, and it is therefore recommend that you assign a unique **Value** to each **Sprite** unless you are certain that they will never overlap one another.
 

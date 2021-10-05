@@ -13,7 +13,7 @@ The **RotateFromTo Action Node** rotates an **Animation** from the absolute Eule
 | `From` | **Vector3** | The Euler angles along the X, Y, and Z axes to rotate from. |
 | `To` | **Vector3** | The Euler angles along the X, Y, and Z axes to rotate to. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 

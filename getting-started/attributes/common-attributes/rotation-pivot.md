@@ -1,6 +1,6 @@
 # Rotation Pivot
 
-Every **Object** in **INCARI** has its own **Pivot Point**. This is the point in 3D space, that the **Object** will be rotated around. One of the most common places to have the **Pivot Point** is at the centre of the **Object**, which can be set automatically, using the `Center` button, under **Rotation Pivot** in the **Attribute Editor**.
+Every **Object** in **Incari** has its own **Pivot Point**. This is the point in _3D_ space, that the **Object** will be rotated around. One of the most common places to have the **Pivot Point** is at the center of the **Object**, which can be set automatically, using the `Center` button, under **Rotation Pivot** in the **Attribute Editor**.
 
 ![](../../../.gitbook/assets/pivot-basic.gif)
 
@@ -8,5 +8,5 @@ There are times, though, where you will want to set the **Pivot Point** to somew
 
 ![](../../../.gitbook/assets/pivot-offset.gif)
 
-Generally it is much better practice to set the origin of your 3D meshes in your 3D application, before importing them into **INCARI**.
+Generally it is much better practice to set the origin of your _3D meshes_ in your _3D_ application, before importing them into **Incari**.
 

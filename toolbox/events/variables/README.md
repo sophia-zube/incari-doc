@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Variable Nodes** are **Event Listener Nodes** that allow to execute a **Logic Branch** triggered by setting or changing the value of a variable. They are specific for each variable.
+The **Variable Nodes** are **Event Listener Nodes** that allow a **Logic Branch** triggered by setting or changing the value of a **Variable** to execute. They are specific for each **Variable**.
 
 ## Contents
 

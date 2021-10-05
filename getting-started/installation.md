@@ -2,20 +2,35 @@
 
 Installation and licensing:
 
-1. Download the **Incari Studio** installer \(Incari Studio-2021.3.0-installer.exe\) from the Incari website.
-2. Execute the Incari Studio-2021.3.0-installer.exe and follow the instructions.
-3. Click "Next" to proceed or "Cancel" to stop the current installation. 
+1. Download the **Incari Studio** installer \(`Incari Studio-2021.3.0-installer.exe`\) from the [**Incari** website](https://www.incari.com/).
+2. Execute `Incari Studio-2021.3.0-installer.exe` and follow the instructions.
+3. Click "Next" to proceed and go through the installation process.
 
 ![The Incari Studio welcome screen.](../.gitbook/assets/incaristudio202130_installer.png)
 
-1. After installation, start **Incari Studio** by double-clicking the shortcut icon on your desktop.  
-2. On the first startup, there is a license dialog. Copy the license request key, send it to the vendor and apply for a valid license.
+    4. After installation, start **Incari Hub**, which can be found in the folder where **Incari** was installed. 
 
-![The license check dialogue.](../.gitbook/assets/licenseblurred.png)
+![The Incari Hub welcome screen.](../.gitbook/assets/incar-hub-login.png)
 
-Install License:
+    5. Log-in into **Incari Hub** with your **Incari** credentials.
 
-After receiving the license file, please copy the provided `incaristudio.lic` into the installation folder of Incari Studio. The default installation path is `C:\Program Files\Incari\Incari Studio 2021.3.0` \(it is same folder with other files like Uninstall.exe\).
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license.png)
 
-After copying the license file to the installation folder you can start using Incari Studio.
+       6.  Go to the [**Incari** website](https://www.incari.com/my-account/) and log-in, here you can manage your subscriptions and obtain the license key.
+
+      7. Use the license key to activate your subscription in **Incari Hub**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

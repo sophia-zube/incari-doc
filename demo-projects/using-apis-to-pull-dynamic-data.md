@@ -14,13 +14,13 @@ For our latest demo though, we will be looking at the weather much closer to hom
 
 #### Getting the Demo
 
-As an example of how to use an API and how the data retrieved can be used in **Incari**, we have created a fully-functional weather application, which you can download from the **Remote Projects** section of **Incari Hub**. There, you will see a project called **'WeatherWidget'**, which you can download to your local machine by pressing the download icon.
+As an example of how to use an API and how the data retrieved can be used in _Incari_, we have created a fully-functional weather application, which you can download from the **Remote Projects** section of **Incari Hub**. There, you will see a project called **'WeatherWidget'**, which you can download to your local machine by pressing the download icon.
 
 ### Project Overview
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-If you open up the project and look inside the **Logic Editor**, under the **'Root'** **Scene** tab, you will see the top-level logic for the demo. To get things working, you will first need to change a few variables, which can be seen in the **Variables** tab of the **Logic Editor**. The variables are:
+If you open up the **Project** and look inside the **Logic Editor**, under the **'Root'** **Scene** tab, you will see the top-level **Logic** for the demo. To get things working, you will first need to change a few variables, which can be seen in the **Variables** tab of the **Logic Editor**. The **Variables** are:
 
 1. `apiKey` - The 32-character API key, unique to your OpenWeatherMap account.
 2. `city` - The city which you want to retrieve the weather for. To reduce ambiguity problems with city names, it is better to use the city name _and_ country. "San Francisco" could be 1 of 5 locations, so "San Francisco, US" will give much more specific results. To see the search results beforehand, you can check them [here](https://openweathermap.org/find).
@@ -28,11 +28,11 @@ If you open up the project and look inside the **Logic Editor**, under the **'Ro
 
 ![](../.gitbook/assets/servers-01.gif)
 
-Once these variables are changed you can press play to start the simulation. You should now be able to see current weather information for the city whose name you provided in the `city` variable.
+Once these **Variables** are changed you can press play to start the simulation. You should now be able to see current weather information for the city whose name you provided in the `city` variable.
 
 ### HTTP GET
 
-**Incari's** **HTTP GET Node** is what makes this kind of functionality possible. It takes some information, based on the documentation of the API provider, constructs and calls an API request, and asynchronously returns the response as a string.
+_Incari's_ **HTTP GET Node** is what makes this kind of functionality possible. It takes some information, based on the documentation of the API provider, constructs and calls an API request, and asynchronously returns the response as a string.
 
 If you take a look at the documentation at [OpenWeatherMaps's API documentation](https://openweathermap.org/current), you will see that one of the examples of an API call that it provides, is the following:
 
@@ -50,8 +50,8 @@ http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 #### The Request Header Attributes
 
 * `Method` - Because we want to _get_ data, the `Method` **Attribute** should be set to "GET".
-* `Path` - This is the specific path defined by the API provider. Usually, this is the text after the main root URL but before the `?` character. In the case above the path is `/data/2.5/weather`.
-* `Authetication` - This is used if the API required a username and password, however OpenWeatherMap doesn't require this, so we set it to "None".
+* `Path` - This is the specific path defined by the API provider. Usually, this is the text after the main root URL but before the`?`character. In the case above, the path is `/data/2.5/weather`.
+* `Authentication` - This is used if the API requires a username and password, however OpenWeatherMap doesn't require this, so we set it to "None".
 * `Default Headers` - This allows us to add additional information in the form of key-value pairs, using [_HTTP headers_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers). For our example, though, we don't need to add any.
 
 #### The Request Query Attributes
@@ -62,25 +62,25 @@ A query is a selection of key-value pairs, which form the parameters of the API 
 
 In the example call above, you will see that part of the string says `q=London`. By looking at the [documentation](https://openweathermap.org/current), you will see that the parameter `q` is the "City name, state code and country code divided by comma".
 
-Also, for localization purposes, there is one more query, which determines the temperature format. By default, the SI unit, Kelvin is used when making API calls on OpenWeatherMap. To change this to degrees Celsius \(°C\) or degrees Fahrenheit \(°F\), the `units` parameter should be set to "metric" or "imperial".
+Also, for localization purposes, there is one more query, which determines the temperature format. By default, the SI unit, Kelvin, is used when making API calls on OpenWeatherMap. To change this to degrees Celsius \(°C\) or degrees Fahrenheit \(°F\), the `units` parameter should be set to "metric" or "imperial".
 
-If we were to put this information directly into the **Attributes** of the **Node**, it would look something like the image here.
+If we were to put this information directly into the **Attributes** of the **Node**, it would look something like the image here:
 
 #### The Request Query as a Variable
 
 ![](../.gitbook/assets/2020-10-13_08h57_34.png)
 
-Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into variables, so that all settings of our application can be changed in one place \(the **Variable** tab of the **Logic Editor**\) and can be dynamically adjusted on-the-fly. If you look at the initialization logic above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form our `query` variable.
+Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place \(the **Variable** tab of the **Logic Editor**\) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form our `query` **Variable**.
 
 ![](../.gitbook/assets/2020-10-13_09h08_59.png)
 
-This variable is then passed into the `Query` input socket of the **HTTP GET Node**, overriding any information in its `Request Query` **Attribute**.
+This **Variable** is then passed into the `Query` input socket of the **HTTP GET Node**, overriding any information in its `Request Query` **Attribute**.
 
 ### JSON
 
 JavaScript Object Notation \(JSON\) is a data-interchange format, commonly used by APIs. Some APIs may require the format of the response to be defined explicitly, however, OpenWeatherMap returns JSON-formatted data by default.
 
-Because **HTTP GET** returns the JSON as one big **String**, we need to convert this into a format that we can use. The **Dictionary** data type is the perfect option for this, as it is made up of [key-value pairs](https://www.techopedia.com/definition/13645/key-value-pair-kvp), which can be accessed by name in other parts of our logic.
+Because **HTTP GET** returns the JSON as one big **String**, we need to convert this into a format that we can use. The **Dictionary** data type is the perfect option for this, as it is made up of [key-value pairs](https://www.techopedia.com/definition/13645/key-value-pair-kvp), which can be accessed by name in other parts of our **Logic**.
 
 ![](../.gitbook/assets/image.png)
 
@@ -100,11 +100,11 @@ For example, if you look at the image above, you will see that from the main `Re
 
 ### On Set
 
-In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn4941x4Q&ab_channel=IncariHMIDevelopmentPlatform), I discussed the advantages of _decoupling_ logic.
+In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn4941x4Q&ab_channel=IncariHMIDevelopmentPlatform), I discussed the advantages of _decoupling_ **Logic**.
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-By plugging the `Output` of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable \(called `Response` in this case\), it is possible to trigger logic in several places whenever the value of that variable is set. This variable is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them so that the text and images of the weather app change to reflect the API response.
+By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable \(called `Response` in this case\), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them so that the text and images of the weather app change to reflect the API response.
 
 ### Conclusion
 

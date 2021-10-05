@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/iconscreen.png)
 
-The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
+The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
 ## Attributes
 
@@ -14,7 +14,7 @@ Each **Scene** has the standard **Transformation Attributes**, however it is wor
 
 ### Camera
 
-Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the **Camera** page.
+Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the [**Camera**](../scene-objects/camera.md) page.
 
 ### Simulation Window
 
@@ -24,7 +24,7 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 ### Background
 
-The `Color` **Attribute** defines the background colour of the **Simulation** and is solid black by default.
+The `Color` **Attribute** defines the background color of the **Simulation** and is solid black by default.
 
 ### FXAA
 

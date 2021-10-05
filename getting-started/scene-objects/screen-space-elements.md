@@ -1,12 +1,12 @@
 # Screen Space Elements
 
-As _Incari_ can use both **2D** and **3D** **Assets**, it is necessary that the coordinate system is **3D**. The downside of this is that most designers work with a layer-based, 2D coordinate system which presents the need to convert each **Asset’s** position in 2D space to the same relative position in 3D. This can be a slow and tedious process.
+As **Incari** can use both **2D** and **3D** **Assets**, it is necessary that the coordinate system is **3D**. The downside of this is that most designers work with a layer-based, 2D coordinate system which presents the need to convert each **Asset’s** position in 2D space to the same relative position in 3D. This can be a slow and tedious process.
 
-With the introduction of **Screen** **Space** **Elements**, though, it is much easier for UI/UX designers using 2D-based tools to transfer their designs into _Incari_ without the extra step of performing individual conversions. Designers can now import **Assets** from third-party content creation software, such as _Photoshop_ or _Figma_, directly into _Incari_.
+With the introduction of **Screen** **Space** **Elements**, though, it is much easier for UI/UX designers using 2D-based tools to transfer their designs into **Incari** without the extra step of performing individual conversions. Designers can now import **Assets** from third-party content creation software, such as _Photoshop_ or _Figma_, directly into **Incari**.
 
 Additionally, the **Screen Space Elements** encompass new **Objects** and new [**Nodes**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/scene-objects/screen-space-elements#2d-nodes).
 
-The **2D** **Objects** available in _Incari_ fall under two groups in the **Scene Outliner**. These are **2D** and **Vector2D**. These provide 2D counterparts to those under **3D** and **Vector3D** and are only editable within two-dimensional space, meaning that their position is only contained within the _X_ and _Y_ _axes_. Additionally, these utilize the _pixel positioning feature_, which means that the origin \(0,0\) is set at the top-left corner of the **Screen** and the _X_ and _Y_ values under `Position` reflect the exact pixel position when the **Object** is rendered on the **Screen**.
+The **2D** **Objects** available in **Incari** fall under two groups in the **Scene Outliner**. These are **2D** and **Vector2D**. These provide 2D counterparts to those under **3D** and **Vector3D** and are only editable within two-dimensional space, meaning that their position is only contained within the _X_ and _Y_ _axes_. Additionally, these utilize the _pixel positioning feature_, which means that the origin \(0,0\) is set at the top-left corner of the **Screen** and the _X_ and _Y_ values under `Position` reflect the exact pixel position when the **Object** is rendered on the **Screen**.
 
 ## 2D
 
@@ -16,7 +16,7 @@ The **2D Objects** cover different functional items used to provide engaging gra
 
 * **Image Sequence Sprite2D** 
 
-**Image Sequences** are used for one type of animation in _Incari_. More information can be found [_here_](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#3-image-sequence) and [_here_](../../modules/image-sequence-editor.md).
+**Image Sequences** are used for one type of animation in **Incari**. More information can be found [_here_](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#3-image-sequence) and [_here_](../../modules/image-sequence-editor.md).
 
 * **Label2D**
 
@@ -24,7 +24,7 @@ The **2D Objects** cover different functional items used to provide engaging gra
 
 * **List2D**
 
-**Lists** require several different files to display data in the desired manner and are interwoven with _Incari_ **Models**. More information can be found [_here_](list-widget.md).
+**Lists** require several different files to display data in the desired manner and are interwoven with **Incari Models**. More information can be found [_here_](list-widget.md).
 
 * **On-Screen Keyboard2D**
 

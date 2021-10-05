@@ -12,7 +12,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Repeat Enabled` | **Bool** | Whether or not the **Event** is triggered while the key is _held_ down, or just when initially clicked. |
+| `Repeat Enabled` | **Bool** | Whether or not the **Event** is triggered while the key is _held_ down, or just when initially _clicked_. |
 
 ### Event
 

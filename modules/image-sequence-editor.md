@@ -4,7 +4,7 @@
 
 The **Image Sequence Editor** allows to create and edit **Image Sequences**, which have the extension `.incseq` in the **Asset Manager**.
 
-To open the **Image Sequence Editor**, either open it from `View` in the top panel of _Incari_, _right-click_ on the _Menu bar_ in _Incari_ and _click_ on **Image Sequence Editor** from the drop-down list, or simply double click on the **Image Sequence** to edit in the **Asset Manager**.
+To open the **Image Sequence Editor**, either open it from `View` in the top panel of **Incari**_**,**_ _right-click_ on the menu bar in **Incari** and _click_ on **Image Sequence Editor** from the drop-down list, or simply _double-click_ on the **Image Sequence** to edit in the **Asset Manager**.
 
 Once an **Image Sequence** is open in the **Image Sequence Editor**, images can be added or removed from the sequence and their order can be changed.
 
@@ -20,7 +20,7 @@ To add an image to the **Image Sequence**, drag it from the **Asset Manager**.
 
 ## Removing
 
-To remove an image from the sequence, select it and either right-click it and choose `delete` or press `del`.
+To remove an image from the sequence, select it and either _right-click_ it and choose `delete` or _press_ `del`.
 
 ![](../.gitbook/assets/image-seq-del.gif)
 

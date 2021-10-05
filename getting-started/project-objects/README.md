@@ -6,6 +6,6 @@
 
 Read more about these **Objects** here:
 
-* [Scene](scene.md)
-* [Screen](screen.md)
+* \*\*\*\*[**Scene**](scene.md)\*\*\*\*
+* \*\*\*\*[**Screen**](screen.md)\*\*\*\*
 

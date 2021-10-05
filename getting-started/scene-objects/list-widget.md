@@ -2,7 +2,7 @@
 
 ## Overview
 
-**List Object** models data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an Incari **Model File** is presented as a **List** in the **Scene**.
+**List Objects** model data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an **Incari** **Model File** is presented as a **List** in the **Scene**.
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
@@ -18,9 +18,9 @@ This is the optional text that you wish to appear as a header for your list. It 
 
 ### List Entry File
 
-This takes a local .html file, which defines a template for how each list item is displayed. You can create one by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `List Entry`. This method will create a new .html file, containing some example HTML text.
+This takes a local `.html` file, which defines a template for how each list item is displayed. You can create one by _right-clicking_ in the **Asset Manager** and selecting `Create asset` &gt; `List Entry`. This method will create a new `.html` file, containing some example HTML text.
 
-The way that we populate our list with content from our **Model** file, is by creating placeholders, with the name of the corresponding **Field**, surrounded by double curly braces.
+The way that we populate our list with content from our **Model** file is by creating placeholders, with the name of the corresponding **Field**, surrounded by double curly braces.
 
 For example, let's say that we have a list of audio-books, with two fields: `title` and `author`.
 
@@ -42,17 +42,17 @@ A **Model File** is where you define all the data for your list. Physically, a b
 
 ![](../../.gitbook/assets/audiobook-model.PNG)
 
-**Fields** define a single aspect of each **Record** in a table and are displayed in columns. By double-clicking on the **Field**'s _header / label_ we can define the name that will be used as a placeholder in the **List Entry File**.
+**Fields** define a single aspect of each **Record** in a table and are displayed in columns. By _double-clicking_ on the **Field**'s _header / label_ we can define the name that will be used as a placeholder in the **List Entry File**.
 
 **Records** are entries in the table and contain the data itself. By adding **Records**, we add more rows to the **Model**, and therefore, the **List**.
 
 ### Style File
 
-`Style File` references a .css file, which contains style data for our **List**. The best way to create this file is by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `List Style`. This creates a file, with all of the relevant IDs and classes already inside and ready to edit.
+`Style File` references a `.css` file, which contains style data for our **List**. The best way to create this file is by _right-clicking_ in the **Asset Manager** and selecting `Create asset` &gt; `List Style`. This creates a file, with all of the relevant IDs and classes already inside and ready to edit.
 
 How to write CSS won't be discussed here, but there is an abundance of information online, such as [_Learn to style HTML using CSS_](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
 
-Here are the pre-defined classes and IDs, to be used for styling **Lists** in Incari. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box etc.
+Here are the pre-defined classes and IDs, to be used for styling **Lists** in **Incari**. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box etc.
 
 * `body` - The tag which encompasses all of the elements.
 * `#list` - The ID for the container that contains the list elements, excluding the title.
@@ -107,7 +107,7 @@ body {
 
 The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List** **Objects**.
 
-The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: [JavaScript programming language](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: __[_JavaScript programming language_](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 In the illustration below, we replace a book in our audio-book **List** example using the `Js File` **Attribute**.
 
@@ -137,9 +137,9 @@ In the _JavaScript_ code above, the `replaceBook` function allows us to replace 
 
 ### Generate List
 
-`Generate List` button automatically creates all internal _.html_, _.css_, _.js_ needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
+`Generate List` button automatically creates all internal `.html,` `.css`, `.js` needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
 
-Also, clicking the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
+Also, _clicking_ the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
 
 ## Simulation
 

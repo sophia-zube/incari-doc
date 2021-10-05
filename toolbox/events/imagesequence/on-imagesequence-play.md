@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Imagesequence Play Node.](../../../.gitbook/assets/node-on-imagesequence-play.png)
+![The On ImageSequence Play Node.](../../../.gitbook/assets/node-on-imagesequence-play.png)
 
-**On Imagesequence Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** starts playing.
+**On ImageSequence Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** starts playing.
 
 ## Attributes
 

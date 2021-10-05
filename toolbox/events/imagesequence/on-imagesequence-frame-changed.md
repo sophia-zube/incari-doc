@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Imagesequence Frame Changed Node.](../../../.gitbook/assets/node-on-imagesequence-frame-changed.png)
+![The On ImageSequence Frame Changed Node.](../../../.gitbook/assets/node-on-imagesequence-frame-changed.png)
 
-**On Imagesequence Frame Changed** is an **Event Listener** **Node** used for executing a **Logic Branch** when the frame of an **Image Sequence** changes.
+**On ImageSequence Frame Changed** is an **Event Listener** **Node** used for executing a **Logic Branch** when the frame of an **Image Sequence** changes.
 
 ## Attributes
 

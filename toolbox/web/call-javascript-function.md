@@ -1,34 +1,32 @@
 # Call JavaScript Function
 
-## Call JavaScript Function
-
-### Overview
+## Overview
 
 ![The Call JavaScript Function Node.](../../.gitbook/assets/node-call-javascript-function.png)
 
 The **Call JavaScript Function** **Node** executes a JavaScript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as its **Object** **Attribute**.
 
-### Attributes
+## Attributes
 
-#### Object
+### Object
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | **Web Sprite** **Object** that contains the definition of the function to be executed. |
 
-#### Function
+### Function
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `JS Function Name` | **String** | Name of the function to be executed, if none is given in the `Function name` **Input Socket**. |
 
-#### Inputs
+### Inputs
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Parameters [n]` | **Drop-down** | Label, **Data Type**, and default value of the parameters given to the function. |
 
-### Inputs
+## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -36,7 +34,7 @@ The **Call JavaScript Function** **Node** executes a JavaScript function that is
 | `Function name` | **String** | Name of the function to be executed. |
 | `Parameter [n]` | _Defined in the **Data Type** of the `Parameters` **Attribute**_ | Value of the corresponding parameter. |
 
-### Outputs
+## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |

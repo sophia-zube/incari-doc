@@ -4,7 +4,7 @@
 
 ![The Clear Console Node.](../../.gitbook/assets/node-clear-console.png)
 
-The **Clear Console** **Node** empties the console.
+The **Clear Console** **Node** empties the **Console**.
 
 ## Inputs
 

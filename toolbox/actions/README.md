@@ -19,5 +19,5 @@ The **Actions Nodes** extend the functionality of **Animations**.
 
 ## See Also
 
-* [**4 Methods of Animation**](https://docs.incari.com/incari-studio/demo-projects/4-methods-of-animation#4-actions)
+* [**4 Methods of Animation**](https://app.gitbook.com/@incari/s/incari-studio/v/2021.3-unreleased/demo-projects/4-methods-of-animation)
 
