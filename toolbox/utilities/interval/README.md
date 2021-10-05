@@ -6,6 +6,7 @@ The **Interval Nodes** provide a means for a user to start or reset an **Interva
 
 ## Contents
 
-* [**Start Interval**](startinterval.md)
 * [**Reset Interval**](resetinterval.md)
+* [**Start Interval**](startinterval.md)
+
 
