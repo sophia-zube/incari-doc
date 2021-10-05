@@ -51,16 +51,16 @@
 
 * [Asset Manager](modules/asset-manager.md)
 * [Animation Editor](modules/animation-editor.md)
+* [Attribute Editor](modules/attribute-editor.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor.md)
-* [Project Outliner](modules/project-outliner.md)
-* [Project Settings](modules/project-settings.md)
 * [Global Preferences](modules/global-preferences.md)
-* [Attribute Editor](modules/attribute-editor.md)
 * [Material Editor](modules/material-editor.md)
 * [Model Editor](modules/model-editor.md)
+* [Project Outliner](modules/project-outliner.md)
+* [Project Settings](modules/project-settings.md)
 * [Scene Outliner](modules/scene-outliner.md)
 
 ## Toolbox

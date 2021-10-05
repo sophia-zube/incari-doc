@@ -1,6 +1,6 @@
 # Lights
 
-_Incari_ has two types of **Light Objects**; the **Spot Light** and the **Point Light**.
+**Incari** has two types of **Light Objects**: the **Spot Light** and the **Point Light**.
 
 The **Point** **Light** is _omnidirectional_, meaning that light is emitted equally in all directions; while the **Spot Light** is _directional_ and will only light the area that it is rotated towards. Additionally, unlike **Point Light**, **Spot Light** supports shadow mapping and has an extra set of **Attributes** for that purpose.
 

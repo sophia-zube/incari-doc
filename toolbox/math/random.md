@@ -10,7 +10,7 @@ This **Node** can be set to three different `Modes` \(**Advanced**, **Expert**, 
 
 ## Attributes
 
-Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced**](random.md#advanced), [**Expert**](random.md#expert), and [**Standard**](random.md#expert).
+Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced**](random.md#advanced), [**Expert**](random.md#expert), and [**Standard**](random.md#standard).
 
 ### Advanced
 

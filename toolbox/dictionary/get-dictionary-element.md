@@ -15,7 +15,7 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Key` | **String** | The `Key` of the element you wish to return if none is provided to the `Index` **Input** **Socket**. |
-| `Data Type` | **Drop Down** | The `Data Type` of the `Value` that will be returned. |
+| `Data Type` | **Drop-down** | The `Data Type` of the `Value` that will be returned. |
 
 ## Inputs
 

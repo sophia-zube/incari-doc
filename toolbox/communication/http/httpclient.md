@@ -16,9 +16,9 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 | :--- | :--- | :--- |
 | `Remote IP` | **User Input** | The _HTTP_ endpoint \(either a URL or IP address\). |
 | `Remote Port` | **Int** | The port value. For _HTTP_, the standard is 80. |
-| `Method` | **Dropdown** | Either **GET** or **POST**, depending on the goal of the user. |
+| `Method` | **Drop-down** | Either **GET** or **POST**, depending on the goal of the user. |
 | `Path` | **User Input** | A specific path from the call being referenced in `Remote IP`. Usually, this is the text after the main root URL but before the `?` character. |
-| `Authentication` | **Dropdown** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
+| `Authentication` | **Drop-down** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
 | `Default Headers` | **Add Elements** | _HTTP_ headers in the form of key/value pairs. |
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
 | `Response` | **Bool** | The user chooses true or false depending on if the response body is binary or not. Currently, the **Node** only supports **Strings**. |

@@ -1,6 +1,6 @@
 # Float
 
-A **Float** \(Floating Point\) data type represents a numerical value, which contain a decimal point.
+A **Float** \(Floating Point\) **Data Type** represents a numerical value, which contain a decimal point.
 
 **Floats** have a very large range, at the cost of some precision.
 

@@ -12,7 +12,7 @@ The **MoveBy Action Node** moves an **Animation** by the relative values specifi
 | :--- | :--- | :--- |
 | `Offset` | **Vector3** | The amount to move the _position_ of an **Animation** along the X, Y, Z axes. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 

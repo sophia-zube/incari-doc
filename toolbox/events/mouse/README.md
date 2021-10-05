@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Mouse** **Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by the user on their mouse.
+The **Mouse** **Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch** triggered by the user on their mouse to execute.
 
 ## Contents
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Keyboard** **Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by the user on their keyboard.
+The **Keyboard** **Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch** triggered by the user on their keyboard to execute.
 
 ## Contents
 

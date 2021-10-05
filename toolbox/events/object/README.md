@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Object** **Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by a change in the value of an **Object**'s **Attribute**.
+The **Object** **Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch** triggered by a change in the value of an **Object's** **Attribute** to execute.
 
 ## Contents
 

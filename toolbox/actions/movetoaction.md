@@ -12,7 +12,7 @@ The **MoveTo Action Node** moves an **Animation** to the absolute coordinates sp
 | :--- | :--- | :--- |
 | `To` | **Vector3** | The desired _position_ along the X, Y, Z axes. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 

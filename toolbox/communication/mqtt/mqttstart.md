@@ -10,7 +10,7 @@ The **MQTT Start Node** starts the **MQTT** connection.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Dropdown** | The connection, or signal name, that will be used. |
+| `Configuration` | **Drop-down** | The connection, or signal name, that will be used. |
 
 ## Inputs
 

@@ -4,9 +4,9 @@
 
 ![The Concat Arrays Node.](../../.gitbook/assets/concat-arrays.PNG)
 
-**Concat Arrays** merges two or more **Arrays** into one new **Array**. The **Arrays** to be merged are given as input to the node.
+**Concat Arrays** merges two or more **Arrays** into one new **Array**. The **Arrays** to be merged are given as input to the **Node**.
 
-Note that the **Arrays** that are to be merged by this node are not sorted.
+Note that the **Arrays** that are to be merged by this **Node** are not sorted.
 
 ## Attributes
 

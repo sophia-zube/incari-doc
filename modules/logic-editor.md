@@ -1,6 +1,6 @@
 # Logic Editor
 
-**Logic** in _Incari_ is what allows us to take our 2D/3D **Assets** and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing _Incari's_ powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminologies of _Incari's_ **Logic Editor**.
+**Logic** in **Incari** is what allows us to take our 2D/3D **Assets** and turn them into fully interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing **Incari's** powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminologies of **Incari's** **Logic Editor**.
 
 ## 1 - Logic Editor Window
 
@@ -18,7 +18,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
 
-![](../.gitbook/assets/group%20%283%29%20%284%29%20%284%29%20%284%29%20%281%29%20%287%29.gif)
+![](../.gitbook/assets/group%20%283%29%20%284%29%20%284%29%20%284%29%20%281%29%20%288%29.gif)
 
 ![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
@@ -40,7 +40,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/topPanelImage.PNG)
 
-The _top panel_ represents **Logic Graphs** that are implemented for different _Incari_ items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the _top panel_.
+The _top panel_ represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the _top panel_.
 
 ## 4 - Left Panel
 
@@ -88,7 +88,7 @@ The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To
 
 ## 5 - The Logic Graph / Node Graph
 
-This is the most important section of the **Logic Editor**. If the **Nodes** and **Variables** are the paints and materials at your disposal, then the **Logic Graph** is the canvas. This is where we build our systems from the ground up and where you will spend most of your time while using _Incari_.
+This is the most important section of the **Logic Editor**. If the **Nodes** and **Variables** are the paints and materials at your disposal, then the **Logic Graph** is the canvas. This is where we build our systems from the ground up and where you will spend most of your time while using **Incari**.
 
 Fundamentally, it is comprised of a combination of two entities: **Nodes** and **Connections**.
 
@@ -102,7 +102,7 @@ Fundamentally, it is comprised of a combination of two entities: **Nodes** and *
 
 ![Nodes have a number of input/output sockets.](../.gitbook/assets/sockets.PNG)
 
-**Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In _Incari_, **Sockets** are either:
+**Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In **Incari**, **Sockets** are either:
 
 * **Input** \(receiving an instruction or data value\). **Sockets** on the left-hand side of a **Node** are **Input Sockets.**
 * **Output** \(sending an instruction or data value\). **Sockets** on the right-hand side of a **Node** are **Output Sockets**.
@@ -169,7 +169,7 @@ Some **Node Attributes** correspond to something outside of the **Logic Editor**
 
 ![](../.gitbook/assets/addRemoveSockets.gif)
 
-There are a few **Nodes** in _Incari_ that allow you to customize the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
+There are a few **Nodes** in **Incari** that allow you to customize the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
 By clicking the plus button \(**+**\) you can add additional elements, which will be added to the _bottom_ of the list.
 

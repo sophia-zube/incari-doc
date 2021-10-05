@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Mouse Button` | **Drop-down** | Whether a swipe with the left, middle or right button of the mouse will trigger the **Logic**. |
+| `Mouse Button` | **Drop-down** | Whether a swipe with the left, middle, or right button of the mouse will trigger the **Logic**. |
 
 ### Swipe
 

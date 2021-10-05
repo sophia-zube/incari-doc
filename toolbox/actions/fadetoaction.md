@@ -12,7 +12,7 @@ The **FadeTo Action Node** reduces the opacity of an **Animation** to the desire
 | :--- | :--- | :--- |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
 | `To` | **Float** | The desired opacity value at the end of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 
