@@ -18,7 +18,7 @@ The **Go To Next ImageSequence Frame Node** moves forward to the next frame of t
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-| `Wrap` | **Bool** | Set as true or false when the next index of the frame is out of range and whether or not, it should return the next element. |
+| `Wrap` | **Bool** | Set as true or false when the next index of the frame is out of range and whether or not it should return the next element. |
 
 ## Outputs
 
