@@ -4,7 +4,7 @@
 
 ![The Is Less Equal Node.](../../.gitbook/assets/node-is-less-equal.png)
 
-**Is Less Equal** is a _relational expression_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _inequality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
+**Is Less Equal** is a _**Relational Expression**_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _inequality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
 1. `IsLess` - Whether the value of `A` is less than the value of `B`.
 2. `IsLessEqual` - Whether the value of `A` is less than _or_ equal to the value of `B`.
@@ -19,8 +19,8 @@ Due to their nature, _inequality_ operations only work for _numerical data types
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `A` and `B` **Sockets**. |
 | `Mode` | **Drop-down** | The type of expression that will be used when comparing the values. |
-| `Default Value A` | _Defined in the `Data Type` **Attribute**._ | The value of `A` if no value is provided via the **Node**'s **Socket**. |
-| `Default Value B` | _Defined in the `Data Type` **Attribute**._ | The value of `B` if no value is provided via the **Node**'s **Socket**. |
+| `Default Value A` | _Defined in the `Data Type` **Attribute**._ | The value of `A` if no value is provided via the **Node's** **Socket**. |
+| `Default Value B` | _Defined in the `Data Type` **Attribute**._ | The value of `B` if no value is provided via the **Node's** **Socket**. |
 
 ## Inputs
 
