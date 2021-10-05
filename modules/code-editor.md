@@ -10,3 +10,4 @@ It can also be opened by directly double clicking an `.html`, `.css` or `.js` fi
 
 ![](../.gitbook/assets/code-editor-html.png)
 
+This is a **Test**.
