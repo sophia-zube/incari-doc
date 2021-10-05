@@ -4,14 +4,14 @@
 
 ![The Conversion Node.](../../.gitbook/assets/conversion1.png)
 
-The **Conversion Node** allows the user to convert one `Data Type` into another. With certain **Nodes** the **Conversion Node** appears automatically when two **Nodes** are connected.
+The **Conversion Node** allows the user to convert one **Data Type** into another. With certain **Nodes** the **Conversion Node** appears automatically when two **Nodes** are connected.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Input Data Type` | **Dropdown** | The `Data Type` of the input. |
-| `Output Data Type` | **Dropdown** | The `Data Type` to be converted to. |
+| `Input Data Type` | **Drop-down** | The `Data Type` of the input. |
+| `Output Data Type` | **Drop-down** | The `Data Type` to be converted to. |
 
 ## Inputs
 
