@@ -4,14 +4,14 @@
 
 ![The On CAN Packet Received Node.](../../../../.gitbook/assets/oncanpacketreceived.png)
 
-**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Dropdown Menu** and a data **Packet** has been received.
+**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu** and a data **Packet** has been received.
 
 ## Attributes
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `On Change` | **Bool** | Returns true or false depending on whether or not the user wants to modify the `Message Name`. |
-| `Message Name` | **Dropdown** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
+| `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
 
 ## Outputs
 

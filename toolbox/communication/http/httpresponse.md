@@ -10,7 +10,7 @@ The **HTTP Response Node** allows the user to define a response to be sent after
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Dropdown** | The desired _HTTP_ server. |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server. |
 | `Header` | **Add elements** | Here a status code is entered and _HTTP_ headers, in the form of key/value pairs, are added. |
 | `Body` | **User Input** | The body of the response, usually including _HTML_ text. |
 

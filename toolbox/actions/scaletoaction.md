@@ -4,7 +4,7 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoaction.png)
 
-The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ values along the X, Y, Z axes specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**. .
+The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ values along the X, Y, Z axes specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**. 
 
 ## Attributes
 
@@ -12,7 +12,7 @@ The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ valu
 | :--- | :--- | :--- |
 | `To` | **Vector3** | The desired _scale_ values along the X, Y, Z axes. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 

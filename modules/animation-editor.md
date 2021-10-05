@@ -43,8 +43,6 @@ When the animation is run, the **Left Panel** shows the evolving values of the *
 
 The **Animation Timeline** shows a graph with the Bézier curves of the **Transformation Attributes**.
 
-
-
 ## External Link
 
 * [_Bézier Curve_](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) on Wikipedia.

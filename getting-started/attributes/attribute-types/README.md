@@ -8,3 +8,4 @@ The **Attribute** types are:
 * [**Boolean Attribute**](boolean-attribute.md): Attributes that hold a **Boolean** value.
 * [**Color Attribute**](color-attribute.md): Attributes that set the color and opacity of **Objects**.
 * [**Numerical Attribute**](numerical-attribute.md): Attributes that hold **Numerical Data**, be it of **Data Type** **Byte**, **Int**, **Float**, **Vector2**, **Vector3** or **Vector4**.
+

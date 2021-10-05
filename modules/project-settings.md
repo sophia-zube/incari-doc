@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in _Incari_ or **Fonts**.
+The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in **Incari** or **Fonts**.
 
 ## CAN
 
@@ -10,7 +10,7 @@ The **Project Settings Module** is used to set up **Projects** that involve the 
 
 The **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**.
 
-`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within _Incari_.
+`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
 
 `Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the `External Links` section.
 
@@ -40,7 +40,7 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Local port` is the port that the user wants to use for their _HTTP_ server. More information on ports and port fowarding can be found in the **External Links** section.
+`Local port` is the port that the user wants to use for their _HTTP_ server. More information on ports and port forwarding can be found in the **External Links** section.
 
 `Is auto start` can be enabled or disabled and dictates when the server is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
@@ -69,5 +69,5 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 * More information on the [_Baud metric_](https://en.wikipedia.org/wiki/Baud).
 * More information on [_IPv6_](https://en.wikipedia.org/wiki/IPv6).
 * More information on [_ports_](https://en.wikipedia.org/wiki/Port_%28computer_networking%29).
-* More information on [_port fowarding_](https://en.wikipedia.org/wiki/Port_forwarding).
+* More information on [_port forwarding_](https://en.wikipedia.org/wiki/Port_forwarding).
 

@@ -10,7 +10,7 @@ The **HTTP Server Start Node** starts communication with a server that has alrea
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Dropdown** | The desired _HTTP_ server. |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server. |
 
 ## Inputs
 

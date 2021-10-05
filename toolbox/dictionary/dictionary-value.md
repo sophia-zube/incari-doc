@@ -15,7 +15,7 @@ The **Dictionary Value** node defines a **Dictionary** by setting its _\(key, va
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Key` | **String** | The `Key` you wish to add to the **Dictionary Value** **Node**. |
-| `Value Type` | **Drop Down** | The `Data Type` of the `Value` you wish to add to the **Dictionary Value** **Node**. |
+| `Value Type` | **Drop-down** | The `Data Type` of the `Value` you wish to add to the **Dictionary Value** **Node**. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The `Value` you wish to give to the `Key` introduced above. |
 
 ## Inputs

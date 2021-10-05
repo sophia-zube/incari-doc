@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **ImageSequence Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by an action on an **Image Sequence**.
+The **ImageSequence Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch** triggered by an action on an **Image Sequence** to execute.
 
 ## Contents
 

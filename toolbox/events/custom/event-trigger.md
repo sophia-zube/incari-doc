@@ -6,7 +6,7 @@
 
 **Event Trigger** is a **Custom Event Node** used for triggering an **Event**, which then activates the corresponding **Custom Event Listener Node**.
 
-The number, type and default value of the **Input** parameters can be set in the **Event** **Attributes**.
+The number, type, and default value of the **Input** parameters can be set in the **Event** **Attributes**.
 
 ## Inputs
 

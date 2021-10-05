@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/iconscreen.png)
 
-The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
+The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
 ## Attributes
 
@@ -14,7 +14,7 @@ Each **Scene** has the standard **Transformation Attributes**, however it is wor
 
 ### Camera
 
-Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the **Camera** page.
+Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the [**Camera**](../scene-objects/camera.md) page.
 
 ### Simulation Window
 
@@ -24,11 +24,11 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 ### Background
 
-The `Color` **Attribute** defines the background colour of the **Simulation** and is solid black by default.
+The `Color` **Attribute** defines the background color of the **Simulation** and is solid black by default.
 
 ### FXAA
 
-**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how 2D and 3D **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider 3D geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
+**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how 2D and 3D **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider 3D geometry or know what should be smoothed and what should not. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
 
 In terms of options, `Mode` changes the way the effect is calculated, with `fast` being more performant than `accurate`, which may give better results at the expense of some calculation speed.
 

@@ -12,7 +12,7 @@ The **RotateBy Action Node** rotates an **Animation** by the relative values spe
 | :--- | :--- | :--- |
 | `Offset` | **Vector3** | The amount to rotate the **Animation** by measured in Euler angles along the X, Y, and Z axes. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Dropdown** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
 
 ## Inputs
 

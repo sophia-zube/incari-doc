@@ -10,7 +10,7 @@ The **HTTP Server Stop Node** terminates the connection with an _HTTP_ server.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Dropdown** | The desired _HTTP_ server. |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server. |
 
 ## Inputs
 

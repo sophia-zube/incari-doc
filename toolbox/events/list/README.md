@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **List** **Nodes** are **Event Listener** **Nodes** that allow to execute a **Logic Branch** triggered by an action on a **List**.
+The **List** **Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch** triggered by an action on a **List** to execute.
 
 ## Contents
 
