@@ -4,7 +4,7 @@
 
 ![The Is Equal Node.](../../.gitbook/assets/node-is-equal.png)
 
-**Is Equal** is a _relational expression_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _equality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
+**Is Equal** is a _**Relational Expression**_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _equality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
 1. `IsEqual` - Are the two values equal in value.
 2. `IsNotEqual` - Are the two values _not_ equal in value.
@@ -19,8 +19,8 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `A` and `B` **Sockets**. |
 | `Mode` | **Drop-down** | The type of expression that will be used when comparing the values. |
-| `Default Value A` | _Defined in the `Data Type` **Attribute**._ | The value of `A` if no value is provided via the **Node**'s **Socket**. |
-| `Default Value B` | _Defined in the `Data Type` **Attribute**._ | The value of `B` if no value is provided via the **Node**'s **Socket**. |
+| `Default Value A` | _Defined in the `Data Type` **Attribute**._ | The value of `A` if no value is provided via the **Node's** **Socket**. |
+| `Default Value B` | _Defined in the `Data Type` **Attribute**._ | The value of `B` if no value is provided via the **Node's** **Socket**. |
 
 ## Inputs
 
