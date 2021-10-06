@@ -4,7 +4,7 @@
 
 ![The Vector Value Node.](../../.gitbook/assets/node-vector-value.png)
 
-The **Vector Value** **Node** generates a **Vector**, it can either be a **Vector2**, **Vector3**, or **Vector4**.
+The **Vector Value** **Node** generates a **Vector**. It can either be a **Vector2**, **Vector3**, or **Vector4**.
 
 ## Attributes
 
