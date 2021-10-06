@@ -20,8 +20,8 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Sockets**. |
-| `Default Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the _Euclidean division_ operation \(the number to be divided\) if no value is provided in the `Dividend` **Socket**. |
-| `Default Divisor` | _Defined in the `Data Type` **Attribute**_. | The right side of the _Euclidean division_ operation \(the number to divide by\) if no value is provided in the `Divisor` **Socket**. |
+| `Default Dividend` | _Defined in the `Data Type` **Attribute**_. | The left side of the _Euclidean division_ operation \(the number to be divided\), if no value is provided in the `Dividend` **Socket**. |
+| `Default Divisor` | _Defined in the `Data Type` **Attribute**_. | The right side of the _Euclidean division_ operation \(the number to divide by\), if no value is provided in the `Divisor` **Socket**. |
 
 ## Inputs
 
