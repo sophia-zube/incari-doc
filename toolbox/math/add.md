@@ -4,7 +4,7 @@
 
 ![The Add Node.](../../.gitbook/assets/node-add.png)
 
-**Add** is a _basic arithmetic operation_ **Node**, that returns the sum of all of the values provided in the `Input` **Sockets**.
+**Add** is a _basic arithmetic operation_ **Node** that returns the sum of all of the values provided in the `Input` **Sockets**.
 
 This is the equivalent of the addition \(`+`\) operation in computer science and mathematics.
 
@@ -13,7 +13,7 @@ This is the equivalent of the addition \(`+`\) operation in computer science and
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Input` **Sockets**. |
-| `Default Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values if they have no data connected to them. |
+| `Default Inputs` | _Defined in the `Data Type` **Attribute**_. | The amount of `Input` **Sockets** and their default values, if they have no data connected to them. |
 
 ## Inputs
 
