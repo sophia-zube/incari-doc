@@ -129,11 +129,11 @@ _Probability distribution_ that resembles a _normal_ distribution but with a tal
 
 * [Chi\_Squared](https://en.wikipedia.org/wiki/Chi-squared_distribution)
 
-_Probability distribution_ of a sum of the squares of a number of independent normal random variables. The number of normal random variables is called the degrees of freedom of the Chi-squared _distribution_.
+_Probability distribution_ of a sum of the squares of a number of independent normal *random variables*. The number of normal *random variables* is called the degrees of freedom of the Chi-squared _distribution_.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Degrees of freedom` | **Float** | Number of independent normal random variables that are summed. |
+| `Degrees of freedom` | **Float** | Number of independent normal *random variables* that are summed. |
 
 * [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution)
 
@@ -145,7 +145,7 @@ _Probability distribution_ of the time between events in a [Poisson process](htt
 
 * [Extreme\_Value](https://en.wikipedia.org/wiki/Generalized_extreme_value_distribution)
 
-Limit distribution of properly normalized maxima of a sequence of independent and identically distributed random variables.
+Limit distribution of properly normalized maxima of a sequence of independent and identically distributed *random variables*.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -154,16 +154,16 @@ Limit distribution of properly normalized maxima of a sequence of independent an
 
 * [Fisher\_F](https://en.wikipedia.org/wiki/F-distribution)
 
-Ratio of two independent random variables with chi-squared distributions, each one divided by its corresponding number of degrees of freedom for scaling.
+Ratio of two independent *random variables* with chi-squared distributions, each one divided by its corresponding number of degrees of freedom for scaling.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Denominator Dof` | **Float** | Degrees of freedom of the chi-squared random variable in the denominator. |
-| `Numerator DoF` | **Float** | Degrees of freedom of the chi-squared random variable in the numerator. |
+| `Denominator Dof` | **Float** | Degrees of freedom of the chi-squared *random variable* in the denominator. |
+| `Numerator DoF` | **Float** | Degrees of freedom of the chi-squared *random variable* in the numerator. |
 
 * [Gamma](https://en.wikipedia.org/wiki/Gamma_distribution)
 
-Maximum entropy probability distribution for a random variable, whose mean is the product between the shape and scale, which are the two parameters of the Gamma distribution.
+Maximum entropy probability distribution for a *random variable*, whose mean is the product between the shape and scale, which are the two parameters of the Gamma distribution.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -181,7 +181,7 @@ The probability distribution of the number of experiments with a Bernoulli distr
 
 * [Lognormal](https://en.wikipedia.org/wiki/Log-normal_distribution)
 
-Probability distribution of a random variable whose logarithm has a normal distribution.
+Probability distribution of a *random variable* whose logarithm has a normal distribution.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
