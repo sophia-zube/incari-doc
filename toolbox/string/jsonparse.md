@@ -25,7 +25,7 @@ The **JSON Parse Node** allows the user to access the values of a _JSON_ file in
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Output` | **Any** | The parsed key/value pairs of the _JSON_ file that can now be accessed as an **Array**. For a different **Data Type**, such as a **Dictionary**, the **Conversion Node** must be used first. |
-| `IsArray` | **Bool** | Returns true or false whether or not the parsed output is an **Array**. |
+| `IsArray` | **Bool** | Returns *true* or *false* whether or not the parsed output is an **Array**. |
 
 ## See Also
 
