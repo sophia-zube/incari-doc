@@ -6,7 +6,7 @@
 
 **Range Mapper** transforms a single numerical value, from its relative position in a given reference range, to a new value within a second target range.
 
-In the event that `Input` is outside of the reference \(input\) range, `Clamp` determines whether or not the `Output` should be clamped within the target range, or if it should be transformed to its relative value outside of the range.
+In the event that `Input` is outside of the reference \(input\) range, `Clamp` determines whether the `Output` should be clamped within the target range or transformed to its relative value outside of the range.
 
 | `Input` | Input Range | Output Range | `Clamp` | `Output` |
 | :--- | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ In the event that `Input` is outside of the reference \(input\) range, `Clamp` d
 | `Data Type` | **Drop-down** | The type of data that will be plugged into the `Output From` and `Output To` **Sockets** and returned via the `Output` **Socket**. |
 | `From` | _Defined in the `Data Type` **Attribute**_. | The default beginning of the target range, if there is nothing attached to the `Output From` **Socket**. |
 | `To` | _Defined in the `Data Type` **Attribute**_. | The default end of the target range, if there is nothing attached to the `Output To` **Socket**. |
-| `Clamp` | **Bool** | Whether or not the `Output` should be clamped within the target range, or if it should be transformed to its relative value outside of the range. |
+| `Clamp` | **Bool** | Whether the `Output` should be clamped within the target range or transformed to its relative value outside of the range. |
 
 ## Inputs
 
