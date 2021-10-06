@@ -2,9 +2,9 @@
 
 ## Introduction
 
-A **Boolean** is a _data type_, which represents one of two values: _true_ or _false_.
+A **Boolean** is a **Data Type**, which represents one of two values: _true_ or _false_.
 
-Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of Incari's logic system, and computer programming in general, due to their use in **Flow Control**. More specifically, _Boolean expressions_ are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being _true_ or _false_.
+Although **Booleans** themselves are conceptually simple, and take up very little memory, they are an integral part of **Incari**'s **Logic** system, and computer programming in general, due to their use in **Flow Control**. More specifically, _Boolean expressions_ are used to define the conditions that determine what actions will be taken, dependent on whether they are evaluated as being _true_ or _false_.
 
 ## Boolean Value
 
