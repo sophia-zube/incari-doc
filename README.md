@@ -22,7 +22,7 @@ Programming in **Incari** is done visually in the **Logic Editor** using **Nodes
 
 ## Rich documentation and community
 
-Documentation with an in-depth description of all **Incari Studio** elements, short animations that show how to use particular features, videos, examples and tutorials. There is also a community forum where Incari employees can answer your questions.
+Documentation with an in-depth description of all **Incari Studio** elements, short animations that show how to use particular features, videos, examples and tutorials. There is also a community forum where **Incari** employees can answer your questions.
 
 ## 2D/3D Engine
 
