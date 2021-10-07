@@ -22,9 +22,9 @@ Documentation with an in-depth description of all **Incari Studio** elements, sh
 
 ## 2D/3D Engine
 
-The brand new 3D graphics engine provides new ways of _User Interface_ creation in **Incari**, usefulf for highly scalable performance and interactivity, and especially designed for modern embedded systems.
+The brand new 3D graphics engine provides new ways of _User Interface_ creation in **Incari**, useful for highly scalable performance and interactivity, and especially designed for modern embedded systems.
 
-**Incari Studio** also fully supports _HTML5_ and _JavaScript_ for interactive 2D content
+**Incari Studio** also fully supports _HTML5_ and _JavaScript_ for interactive *2D* content
 
 ## Clustering
 
