@@ -16,7 +16,7 @@ The **Animation Editor** is used for creating and editing **Keyframe**-based tim
 
 ![](../.gitbook/assets/animation-editor-top-panel.png)
 
-The **Toolbar** offers several options to modify an **Animation**, such as adding or deleting an **Animation** **Block**, adding or deleting a **Keyframe**, and modifying the type of interpolation used. It also provides options for a better visualization of the timeline, such as a focus on just the visible lines and a toggle for the visibility of the tangent lines. The rest of the options are for enabling the preview, playing and controlling of the **Animation**.
+The **Toolbar** offers several options to modify an **Animation**, such as adding or deleting an **Animation** **Block**, adding or deleting a **Keyframe**, and modifying the type of interpolation used. It also provides options for a better visualization of the timeline, such as a focus on just the visible lines and a toggle for the visibility of the tangent lines. The rest of the options are for enabling the preview, playing, and controlling of the **Animation**.
 
 ## Left Panel
 
