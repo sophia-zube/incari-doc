@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down menu_ on the top panel of **Incari**, or by _right-clicking_ on the menu bar in **Incari** and _clicking_ on **Animation Editor** from the drop-down list, or simply by _double-clicking_ an **Animation** **Asset** in the **Asset Manager**.
+The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down menu on the top panel of **Incari**, or by _right-clicking_ on the menu bar in **Incari** and _clicking_ on **Animation Editor** from the drop-down list, or simply by _double-clicking_ an **Animation** **Asset** in the **Asset Manager**.
 
 ![](../.gitbook/assets/animation-editor2.png)
 
