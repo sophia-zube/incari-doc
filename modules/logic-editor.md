@@ -40,11 +40,11 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/topPanelImage.PNG)
 
-The _top panel_ represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the _top panel_.
+The top panel represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel.
 
 ## 4 - Left Panel
 
-The _left panel_ contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These are the **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
+The left panel contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These are the **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
 
 Each section is described below:
 
@@ -157,7 +157,7 @@ As stated above, most **Node Attributes** are an alternative to **Data Input Con
 
 ![](../.gitbook/assets/datatypedropdown.gif)
 
-Some **Nodes** work with different **Data Types**. However, these need to be explicitly defined in the **Editor**, so that the **Node** knows which **Type** it will receive \(**Input**\) and/or the **Type** of data it will return \(**Output**\). Where multiple **Data Types** are available, there will be a drop-down menu in the **Editor**. Changing the **Type** will also change the color of the corresponding **Socket**.
+Some **Nodes** work with different **Data Types**. However, these need to be explicitly defined in the **Editor**, so that the **Node** knows which **Type** it will receive \(**Input**\) and/or the **Type** of data it will return \(**Output**\). Where multiple **Data Types** are available, there will be a drop-down Menu in the **Editor**. Changing the **Type** will also change the color of the corresponding **Socket**.
 
 #### Linked Objects
 
@@ -171,7 +171,7 @@ Some **Node Attributes** correspond to something outside of the **Logic Editor**
 
 There are a few **Nodes** in **Incari** that allow you to customize the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
-By clicking the plus button \(**+**\) you can add additional elements, which will be added to the _bottom_ of the list.
+By clicking the plus button \(**+**\) you can add additional elements, which will be added to the bottom of the list.
 
 By clicking the cross button \(**x**\) you can remove elements. If you click the cross on the list _header_, it will remove _all_ of the elements, whereas if you click the cross on a list _item_, you only remove that _single_ element.
 
