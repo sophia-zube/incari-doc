@@ -6,7 +6,7 @@ When first opened, it offers the options of selecting a file used in the **Scene
 
 ![](../.gitbook/assets/code-editor.png)
 
-It can also be opened by directly double clicking an `.html`, `.css` or `.js` file.
+It can also be opened by directly double-clicking an `.html`, `.css` or `.js` file.
 
 ![](../.gitbook/assets/code-editor-html.png)
 
