@@ -4,22 +4,22 @@ Animation is a key component of creating engaging UI experiences. Adding flare w
 
 ## See For Yourself
 
-Using the new _Remote Projects_ section of **Incari Hub**, we can now provide downloadable projects, which you can play around with to see how certain functionality is implemented in **Incari Studio**. The first of these mini-projects focuses on the 4 different approaches to animation, which can all be combined together based on the project requirements.
+Using the new _Remote Projects_ section of **Incari Hub**, we can now provide downloadable projects, which you can play around with to see how certain functionality is implemented in **Incari Studio**. The first of these mini-projects focuses on the 4 different approaches to animation, which can all be combined together based on the **Project** requirements.
 
-To download the project now, open **Incari Hub** and download the "Animations" **Project** from the _Remote Projects_ section.
+To download the **Project**, open **Incari Hub** and download the "Animations" **Project** from the _Remote Projects_ section.
 
-If you go back to the _My Projects_ section, you will see that the **Project** was added to your local files. If you _hover_ over the project thumbnail and _press_ the ▶ \(play\) icon, you can preview the **Project**.
+If you go back to the _My Projects_ section, you will see that the **Project** was added to your local files. If you hover over the project thumbnail and press the ▶ \(play\) icon, you can preview the **Project**.
 
 ![&quot;Animations&quot; Project.](../.gitbook/assets/untitled%20%282%29.png)
 
 Now you will see a variety of controls for each of the 4 animation methods.
 
-1. **Animation Editor** - Spins the **Incari** __logo 360°. Note that this kind of animation in **Incari** is _relative,_ meaning that if you hit the X \(stop\) button while the **Sprite** is partially rotated, then hit play again, the logo will rotate to the same rotation as it was when you hit the button. These animations are achieved using a **Keyframe**-based approach. 
+1. **Animation Editor** - Spins the **Incari** logo 360°. Note that this kind of animation in **Incari** is _relative,_ meaning that if you hit the X \(stop\) button while the **Sprite** is partially rotated, then hit play again, the logo will rotate to the same _rotation_ as it was when you hit the button. These animations are achieved using a **Keyframe**-based approach. 
 2. **Interpolation** - This fades the opacity of the graphic. **Interpolation** is without a doubt the most programmatic way of approaching animation. It is an entirely **Node**-based method which naturally favors a more parametric way of thinking.
-3. **Image Sequence** - This animates the logo itself using a pre-rendered sequence of .png files. This allows you to use any 3rd-party animation tool to create animations and then bring them into **Incari Studio** where you can attach functionality.
-4. **Actions** - This simply moves the logo from left to right with an easing effect. **Actions** are **Node**-based. However, unlike the **Interpolation** approach, these are specifically for animation and are much more akin to tween libraries like [TweenLite by GreenSock](https://greensock.com/tweenlite).
+3. **Image Sequence** - This animates the logo itself using a pre-rendered sequence of `.png` files. This allows you to use any 3rd-party animation tool to create animations and then bring them into **Incari Studio** where you can attach functionality.
+4. **Actions** - This simply moves the logo from left to right with an easing effect. **Actions** are **Node**-based. However, unlike the **Interpolation** approach, these are specifically for animation and are much more akin to tween libraries like [_TweenLite by GreenSock_](https://greensock.com/tweenlite).
 
-If you open the project from **Incari Hub** by _double-clicking_ it, we can begin to break down each animation method one by one.
+If you open the project from **Incari Hub** by double-clicking it, we can begin to break down each animation method one by one.
 
 ## 1. Animation Editor
 
