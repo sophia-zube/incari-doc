@@ -20,7 +20,7 @@ To add an image to the **Image Sequence**, drag it from the **Asset Manager**.
 
 ## Removing
 
-To remove an image from the sequence, select it and either _right-click_ it and choose `delete` or _press_ `del`.
+To remove an image from the sequence, select it and either right-click it and choose `delete` or press `del`.
 
 ![](../.gitbook/assets/image-seq-del.gif)
 
