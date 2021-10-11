@@ -14,7 +14,7 @@
 
 ## Creating
 
-For creating an **Asset**, right click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
+For creating an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
 
 ![](../.gitbook/assets/create-asset.png)
 
