@@ -10,11 +10,11 @@ For our latest demo though, we will be looking at the weather much closer to hom
 
 #### OpenWeatherMap
 
-[OpenWeatherMap](https://openweathermap.org/) provides a free API, capable of getting detailed weather information from over 200,000 cities. To be able to use the service in our **Incari** demo, you will first need to [create an account](https://home.openweathermap.org/users/sign_up) and [generate an API Key](https://home.openweathermap.org/api_keys). An API Key is a 32-character code, unique to your account, which will be used every time you make an API request.
+[*OpenWeatherMap*](https://openweathermap.org/) provides a free API, capable of getting detailed weather information from over 200,000 cities. To be able to use the service in our **Incari** demo, you will first need to [create an account](https://home.openweathermap.org/users/sign_up) and [generate an API Key](https://home.openweathermap.org/api_keys). An API Key is a 32-character code, unique to your account, which will be used every time you make an API request.
 
 #### Getting the Demo
 
-As an example of how to use an API and how the data retrieved can be used in _Incari_, we have created a fully-functional weather application, which you can download from the **Remote Projects** section of **Incari Hub**. There, you will see a project called **'WeatherWidget'**, which you can download to your local machine by pressing the download icon.
+As an example of how to use an API and how the data retrieved can be used in **Incari**, we have created a fully-functional weather application, which you can download from the _Remote Projects_ section of **Incari Hub**. There, you will see a project called **'WeatherWidget'**, which you can download to your local machine by pressing the download icon.
 
 ### Project Overview
 
@@ -32,9 +32,9 @@ Once these **Variables** are changed you can press play to start the simulation.
 
 ### HTTP GET
 
-_Incari's_ **HTTP GET Node** is what makes this kind of functionality possible. It takes some information, based on the documentation of the API provider, constructs and calls an API request, and asynchronously returns the response as a string.
+**Incari's** **HTTP GET Node** is what makes this kind of functionality possible. It takes some information, based on the documentation of the API provider, constructs and calls an API request, and asynchronously returns the response as a string.
 
-If you take a look at the documentation at [OpenWeatherMaps's API documentation](https://openweathermap.org/current), you will see that one of the examples of an API call that it provides, is the following:
+If you take a look at the documentation at [*OpenWeatherMaps's API documentation*](https://openweathermap.org/current), you will see that one of the examples of an API call that it provides, is the following:
 
 ```text
 http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
@@ -45,7 +45,7 @@ http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 * `Remote IP` - The first section of this request is `http://api.openweathermap.org`, which is our endpoint. This is the value we put inside the `Remote IP` **Attribute**. A couple of notes regarding this **Attribute**:
   1. An IP address can also be used, instead of a URL.
   2. The **HTTP GET Node** currently supports the _HTTP_ protocol only. _HTTPS_ is not supported.
-* `Remote Port` - For the `Remote Port` **Attribute**, this should be set to 80, which is the standard port for HTTP usage.
+* `Remote Port` - For the `Remote Port` **Attribute**, this should be set to 80, which is the standard port for _HTTP_ usage.
 
 #### The Request Header Attributes
 
@@ -70,7 +70,7 @@ If we were to put this information directly into the **Attributes** of the **Nod
 
 ![](../.gitbook/assets/2020-10-13_08h57_34.png)
 
-Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place \(the **Variable** tab of the **Logic Editor**\) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form our `query` **Variable**.
+Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place (the **Variable** tab of the **Logic Editor**) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form our `query` **Variable**.
 
 ![](../.gitbook/assets/2020-10-13_09h08_59.png)
 
@@ -78,25 +78,25 @@ This **Variable** is then passed into the `Query` input socket of the **HTTP GET
 
 ### JSON
 
-JavaScript Object Notation \(JSON\) is a data-interchange format, commonly used by APIs. Some APIs may require the format of the response to be defined explicitly, however, OpenWeatherMap returns JSON-formatted data by default.
+JavaScript Object Notation (JSON) is a data-interchange format, commonly used by APIs. Some APIs may require the format of the response to be defined explicitly, however, OpenWeatherMap returns JSON-formatted data by default.
 
 Because **HTTP GET** returns the JSON as one big **String**, we need to convert this into a format that we can use. The **Dictionary** data type is the perfect option for this, as it is made up of [key-value pairs](https://www.techopedia.com/definition/13645/key-value-pair-kvp), which can be accessed by name in other parts of our **Logic**.
 
 ![](../.gitbook/assets/image.png)
 
-To convert the `Body` output \(the response\) into a **Dictionary**, we can use the new **JSON Parse Node** to convert the **String**. Because JSON can also be parsed as an **Array**, we need to tell **Incari** that we are expecting a **Dictionary**, not an **Array**. We do this by using the **Conversion** **Node** to _cast_ the **Any**-type output of the **JSON Parse Node** to a **Dictionary**.
+To convert the `Body` output (the response) into a **Dictionary**, we can use the new **JSON Parse Node** to convert the **String**. Because JSON can also be parsed as an **Array**, we need to tell **Incari** that we are expecting a **Dictionary**, not an **Array**. We do this by using the **Conversion** **Node** to _cast_ the **Any**-type output of the **JSON Parse Node** to a **Dictionary**.
 
 ### Dictionaries
 
-**Dictionaries** are a common data structure, used in many programming languages. The term "dictionary", stems from the fact that, like a dictionary, you look up a string of characters \(a word in the case of a physical dictionary\) to get the information or definition associated with that particular string.
+**Dictionaries** are a common data structure, used in many programming languages. The term "dictionary" stems from the fact that, like a dictionary, you look up a string of characters (a word in the case of a physical dictionary) to get the information or definition associated with that particular string.
 
-**Dictionaries** share _some_ similarities with **Arrays**, namely that they are both _collections_ of data. Where they differ though, is that **Dictionaries** are _unordered_ \(can't be iterated over using loops\) and their values can only be accessed via their _key_. Conversely, **Arrays** are _ordered_ and the values are accessed by their _index_.
+**Dictionaries** share _some_ similarities with **Arrays**, namely that they are both _collections_ of data. Where they differ, though, is that **Dictionaries** are _unordered_ (can't be iterated over using loops) and their values can only be accessed via their _key_. Conversely, **Arrays** are _ordered_ and the values are accessed by their _index_.
 
 The reason why **Dictionaries** are advantageous when dealing with APIs is that once the JSON has been parsed we can access what we need by a _key_ name that relates to the information we need. **Dictionaries** can even contain other **Dictionaries**.
 
 ![](../.gitbook/assets/dictionaries.png)
 
-For example, if you look at the image above, you will see that from the main `Response` variable, we are getting another **Dictionary** called `main`. From this, we are then able to get the temperature \(`temp`\) as a **Float**. This structure \(`main` &gt; `temp`\) corresponds to the [OpenWeatherMap documentation](https://openweathermap.org/current#parameter), which shows an example of the hierarchy of the API response.
+For example, if you look at the image above, you will see that from the main `Response` variable, we are getting another **Dictionary** called `main`. From this, we are then able to get the temperature \(`temp`\) as a **Float**. This structure (`main` &gt; `temp`) corresponds to the [OpenWeatherMap documentation](https://openweathermap.org/current#parameter), which shows an example of the hierarchy of the API response.
 
 ### On Set
 
@@ -104,7 +104,7 @@ In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn49
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable \(called `Response` in this case\), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them so that the text and images of the weather app change to reflect the API response.
+By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable (called `Response` in this case), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them so that the text and images of the weather app change to reflect the API response.
 
 ### Conclusion
 
@@ -117,9 +117,9 @@ Whether you want to get [playlists from Spotify](https://developer.spotify.com/d
 
 ### Links
 
-[Understanding And Using REST APIs - Smashing Magazine](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
+* [_Understanding And Using REST APIs - Smashing Magazine_](https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/)
 
-[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+* [_HTTP request methods_](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
-[Weather API](https://openweathermap.org/api)
+* [_Weather API_](https://openweathermap.org/api)
 
