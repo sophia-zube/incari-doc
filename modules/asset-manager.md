@@ -28,7 +28,7 @@ The **Asset Manager** offers different views of the files in the **Assets** fold
 
 **Assets** can be deleted in the following ways:
 
-* Right click the **Asset** and select the `Delete` button from the pop-up.
+* Right-click the **Asset** and select the `Delete` button from the pop-up.
 * Select an **Asset** and press `del`.
 
 ![](../.gitbook/assets/asset-delete.png)
