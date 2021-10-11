@@ -107,7 +107,7 @@ While the **Pause ImageSequence** and **Stop ImageSequence** are quite self-expl
 
 ![Action Nodes.](../.gitbook/assets/2020-09-28_14h26_25.png)
 
-The names of these **Nodes** offers insight into what the **Node** actually does and which **Attribute** is affected:
+The names of these **Nodes** offer insight into what the **Node** actually does and which **Attribute** is affected:
 
 `Fade` = Opacity.
 
