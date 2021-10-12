@@ -10,12 +10,12 @@ For creating an **Object**, go to the **Scene Outliner**, click the plus sign on
 
 ## Contents
 
-* \*\*\*\*[**Camera**](camera.md)\*\*\*\*
-* \*\*\*\*[**Group**](group.md)\*\*\*\*
-* \*\*\*\*[**List**](list-widget.md)\*\*\*\*
-* \*\*\*\*[**Mesh**](mesh.md)\*\*\*\*
-* \*\*\*\*[**Lights**](lights.md)\*\*\*\*
-* \*\*\*\*[**Sprite**](sprite.md)\*\*\*\*
-* \*\*\*\*[**Text**](text.md)\*\*\*\*
-* \*\*\*\*[**Web Sprite**](web-sprite.md)\*\*\*\*
+* [**Camera**](camera.md)
+* [**Group**](group.md)
+* [**List**](list-widget.md)
+* [**Mesh**](mesh.md)
+* [**Lights**](lights.md)
+* [**Sprite**](sprite.md)
+* [**Text**](text.md)
+* [**Web Sprite**](web-sprite.md)
 
