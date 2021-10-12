@@ -1,6 +1,6 @@
 # Attributes
 
-Entities in **INCARI,** such as **Objects**, **Nodes**, **Screens** etc. have a collection of things called **Attributes**. An **Attribute** defines a specific characteristic of an entity, and thus by modifying the **Value** of these **Attributes** we can modify its characteristics.
+Entities in **Incari**, such as **Objects**, **Nodes**, **Screens** etc. have a collection of things called **Attributes**. An **Attribute** defines a specific characteristic of an entity, and thus by modifying the **Value** of these **Attributes** we can modify its characteristics.
 
 Generally, **Attributes** fall into one of two categories:
 
