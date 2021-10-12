@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/iconscreen.png)
 
-The **Screen Object** in **INCARI** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
+The **Screen Object** in **Incari** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
 ## Attributes
 
@@ -28,7 +28,7 @@ The `Color` **Attribute** defines the background color of the **Simulation** and
 
 ### FXAA
 
-**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how 2D and 3D **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider 3D geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
+**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how *2D* and *3D* **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider *3D* geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
 
 In terms of options, `Mode` changes the way the effect is calculated, with `fast` being more performant than `accurate`, which may give better results at the expense of some calculation speed.
 
@@ -38,7 +38,7 @@ In terms of options, `Mode` changes the way the effect is calculated, with `fast
 
 ### SSAO
 
-**Screen Space Ambient Occlusion** \(**SSAO**\) is a post-processing effect, which takes both the _depth_, and _normal_ information of 3D geometry within a **Scene**, to approximate areas of occlusion and exposure to ambient light. What this means is that areas such as corners and cavities are darker, creating a more realistic representation of the way light behaves in the real world.
+**Screen Space Ambient Occlusion** \(**SSAO**\) is a post-processing effect, which takes both the _depth_, and _normal_ information of *3D* geometry within a **Scene**, to approximate areas of occlusion and exposure to ambient light. What this means is that areas such as corners and cavities are darker, creating a more realistic representation of the way light behaves in the real world.
 
 Like **FXAA**, the effect can be disabled/enabled by toggling the `Enabled` option, but it also has a few extra **Attributes** to consider.
 
