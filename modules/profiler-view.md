@@ -12,11 +12,11 @@ Once the **Profiler** is connected, it allows to start and stop capturing with t
 
 ![](../.gitbook/assets/profiler-view-connected.png)
 
-The **Profiler** window consists of four panels \(**Form**, **Diagram**, **Stats**, **FPS Monitor**\), which are explained in detail below. These panels can be shown or hidden by right-clicking on the top bar of any of them and selecting or deselecting them from the drop-down menu that appears.
+The **Profiler** window consists of four panels \(**Form**, **Diagram**, **Stats**, **FPS Monitor**\), which are explained in detail below. These panels can be shown or hidden by right-clicking on the top bar of any of them and selecting or deselecting them from the drop-down Menu that appears.
 
 ## Form
 
-The **Form** toolbar has buttons for configuring the connection of the **Profiler**, starting, stopping and saving a capture, and customizing the view of the rest of the panels.
+The **Form** toolbar has buttons for configuring the connection of the **Profiler**, starting, stopping, and saving a capture, and customizing the view of the rest of the panels.
 
 ![](../.gitbook/assets/profiler-form.png)
 
@@ -38,7 +38,7 @@ The **Stats** panel shows the data collected for the blocks selected in the **Di
 
 ![](../.gitbook/assets/profiler-stats.png)
 
-Right-clicking on a block opens a drop-down menu with the viewing options, including `Select Columns`, which allows to select which columns are shown on the stats table.
+Right-clicking on a block opens a drop-down Menu with the viewing options, including `Select Columns`, which allows to select which columns are shown on the stats table.
 
 ![](../.gitbook/assets/profiler-stats-menu.png)
 
