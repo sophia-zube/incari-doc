@@ -42,7 +42,7 @@ The default directory on a user's computer where **Incari Projects** are saved.
 
 ### Grid Color
 
-The `Grid Color` of the **Logic Editor** can be set here. The _color_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../getting-started/attributes/attribute-types/color-attribute.md).
+The `Grid Color` of the **Logic Editor** can be set here. The _color_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color  Attribute**](../getting-started/attributes/attribute-types/color-attribute.md).
 
 Additionally, the `Reset color` button sets the `Grid Color` back to its default value.
 {% endtab %}
@@ -74,7 +74,7 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 {% endtab %}
 {% endtabs %}
 
-In order to open the **Global Preferences** **Module**, _right-click_ on the menu bar in **Incari** and _click_ on **Global Preferences** from the drop-down list. Please see the illustration below:
+In order to open the **Global Preferences** **Module**, right-click on the Menu bar in **Incari** and click on **Global Preferences** from the drop-down list. Please see the illustration below:
 
 ![](../.gitbook/assets/open-global-preferences.PNG)
 
