@@ -107,7 +107,7 @@ body {
 
 The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List** **Objects**.
 
-The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: __[_JavaScript programming language_](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: [_JavaScript programming language_](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 In the illustration below, we replace a book in our audio-book **List** example using the `Js File` **Attribute**.
 
@@ -139,7 +139,7 @@ In the _JavaScript_ code above, the `replaceBook` function allows us to replace 
 
 `Generate List` button automatically creates all internal `.html,` `.css`, `.js` needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
 
-Also, _clicking_ the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
+Also, clicking the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
 
 ## Simulation
 
