@@ -10,8 +10,8 @@ The **Project Outliner** contains a structured list of every **Scene** and **Scr
 
 New **Screens** and **Scenes** can be created in the following ways:
 
-* _Click_ on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) icon located at the _top left corner_ of the **Project Outliner**. After that, _click_ the `Scene` button.
-* _Right-click_ inside the **Project Outliner** and select `Create` &gt; `Scene` from the pop-up.
+* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) icon located at the top left corner of the **Project Outliner**. After that, click the `Scene` button.
+* Right-click inside the **Project Outliner** and select `Create` &gt; `Scene` from the pop-up.
 * Select `File` &gt; `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.
 
@@ -21,14 +21,14 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 **Screens** and **Scenes** can be deleted in the following ways:
 
-* _Right-click_ on an item and select the `Delete` button from the pop-up.
+* Right-click on an item and select the `Delete` button from the pop-up.
 * Select an item and press `del`.
 
 ![](../.gitbook/assets/delete-scene.PNG)
 
 ## Renaming
 
-**Screens** and **Scenes** can be renamed by _right-clicking_ an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
+**Screens** and **Scenes** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
 ![](../.gitbook/assets/rename.PNG)
 
