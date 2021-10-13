@@ -1,10 +1,10 @@
 # What's New
 
-With the release of Incari Studio 2021.1, there appeared a number of new features. Here is a list of the features you need to know.
+With the release of **Incari Studio** 2021.1, there appeared a number of new features. Here is a list of the features you need to know.
 
 * **New compiled Logic backend**
 
-  Incari 2021.1 now comes with an integrated compiler. The logic gets converted into C++ code and then compiled into machine code before the user runs the project. In practice, this means a dramatic increase in the speed of logic execution, with some benchmarks showing a speed increase of 120 times compared to the previous version.
+  **Incari** 2021.1 now comes with an integrated compiler. The logic gets converted into C++ code and then compiled into machine code before the user runs the project. In practice, this means a dramatic increase in the speed of logic execution, with some benchmarks showing a speed increase of 120 times compared to the previous version.
 
 * **New Vector objects and vector nodes in the Logic Editor**
 
@@ -16,11 +16,11 @@ With the release of Incari Studio 2021.1, there appeared a number of new feature
 
 ![](../.gitbook/assets/label.jpg)
 
-* **New SVG import and SVG object** Incari 2021.1 now lets you import SVG files into the Incari documents.
-* **New Video object and Video Player controls in the Logic Editor** It is possible now to use videos directly in Incari via the Video Objects. This new addition comes with a new set of Nodes and Events to link your control graphics with the Logic of your application.
+* **New SVG import and SVG object** **Incari** 2021.1 now lets you import SVG files into the **Incari** documents.
+* **New Video object and Video Player controls in the Logic Editor** It is possible now to use videos directly in **Incari** via the Video Objects. This new addition comes with a new set of Nodes and Events to link your control graphics with the Logic of your application.
 * **New MQTT Publish node in the Logic Editor**
 
-  This is a communication protocol, with the help of which you can communicate, for example, between two programs created in Incari.
+  This is a communication protocol, with the help of which you can communicate, for example, between two programs created in **Incari**.
 
 ![](../.gitbook/assets/mqtt.jpg)
 
