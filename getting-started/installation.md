@@ -1,21 +1,31 @@
 # Installation
 
-Installation and licensing:
+For installation and licensing, please follow these steps:
 
-1. Download the **Incari Studio** installer \(`Incari Studio-2021.3.0-installer.exe`\) from the **Incari** website.
-2. Execute `Incari Studio-2021.3.0-installer.exe` and follow the instructions.
-3. Click "Next" to proceed or "Cancel" to stop the current installation. 
+* Download the **Incari Studio** installer `Incari Studio-2021.3.0-installer.exe` from the **Incari** [website](https://www.incari.com/).
+* Execute `Incari Studio-2021.3.0-installer.exe` and follow the instructions.
+* Click "Next" to proceed and go through the installation process.
 
 ![The Incari Studio welcome screen.](../.gitbook/assets/incaristudio202130_installer.png)
 
-1. After installation, start **Incari Studio** by _double-clicking_ the shortcut icon on your desktop.  
-2. On the first startup, there is a license dialogue. Copy the license request key, send it to the vendor and apply for a valid license.
+* After installation, start **Incari Hub**, which can be found in the folder where **Incari** was installed. 
 
-![The license check dialogue.](../.gitbook/assets/licenseblurred.png)
+![The Incari Hub welcome screen.](../.gitbook/assets/incar-hub-login.png)
 
-Install License:
+* Log-in into **Incari Hub** with your **Incari** credentials.
 
-After receiving the license file, please copy the provided `incaristudio.lic` into the installation folder of **Incari Studio**. The default installation path is `C:\Program Files\Incari\Incari Studio 2021.3.0` \(it is the same folder with other files such as `Uninstall.exe`\).
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license.png)
 
-After copying the license file to the installation folder you can start using **Incari Studio**.
+*  Go to the **Incari** [website](https://www.incari.com/my-account/) and log-in, here you can manage your subscriptions and obtain the license key.
+
+* Use the license key to activate your subscription in **Incari Hub**.
+
+
+
+
+
+
+
+
+
 
