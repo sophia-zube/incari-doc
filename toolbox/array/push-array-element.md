@@ -21,11 +21,11 @@ If no **Array** is given as input, the elements are added to a new, empty **Arra
 
 ### Mode
 
-The `Mode` is a _toggle_ that determines whether element/s will be added to the _front_ or _back_ of the **Array**.
+The `Mode` is a toggle that determines whether element/s will be added to the front or back of the **Array**.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Add to end` | **Bool** | If the _toggle_ is switched on, the desired element is added to the _back_ of the **Array** otherwise it will be added to the _front_ of the **Array**. |
+| `Add to end` | **Bool** | If the toggle is switched on, the desired element is added to the back of the **Array** otherwise it will be added to the front of the **Array**. |
 
 ## Inputs
 

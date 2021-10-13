@@ -4,7 +4,7 @@
 
 ![The Pop Array Element Node.](../../.gitbook/assets/pop-array-element.PNG)
 
-**Pop Array Element** removes element/s from an **Array** supplied to the **Node** and returns the resulting **Array** and the removed element/s. The element/s can be removed from either the _front_ or _back_ of the **Array**.
+**Pop Array Element** removes element/s from an **Array** supplied to the **Node** and returns the resulting **Array** and the removed element/s. The element/s can be removed from either the front or back of the **Array**.
 
 ## Attributes
 
@@ -20,7 +20,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Pop end` | **Bool** | If the _toggle_ is switched on, the desired element/s will be removed from the _back_ of the **Array**, otherwise they will be removed from the _front_ of the **Array**. |
+| `Pop end` | **Bool** | If the toggle is switched on, the desired element/s will be removed from the back of the **Array**, otherwise they will be removed from the front of the **Array**. |
 
 ## Inputs
 
