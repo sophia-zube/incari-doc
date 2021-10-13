@@ -16,8 +16,14 @@ With the release of **Incari Studio** 2021.1, there appeared a number of new fea
 
 ![](../.gitbook/assets/label.jpg)
 
-* **New SVG import and SVG object** **Incari** 2021.1 now lets you import SVG files into the **Incari** documents.
-* **New Video object and Video Player controls in the Logic Editor** It is possible now to use videos directly in **Incari** via the Video Objects. This new addition comes with a new set of Nodes and Events to link your control graphics with the Logic of your application.
+* **New SVG import and SVG object** 
+  
+  **Incari** 2021.1 now lets you import SVG files into the **Incari** documents.
+
+* **New Video object and Video Player controls in the Logic Editor** 
+  
+  It is possible now to use videos directly in **Incari** via the Video Objects. This new addition comes with a new set of Nodes and Events to link your control graphics with the Logic of your application.
+  
 * **New MQTT Publish node in the Logic Editor**
 
   This is a communication protocol, with the help of which you can communicate, for example, between two programs created in **Incari**.
