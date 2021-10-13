@@ -1,6 +1,6 @@
 # Primitives
 
-**Incari** has several types of **Primitives**, which are three-dimensional **Objects** that can add a realistic, immersive experience to a **User Interface**. They are found in the **Scene Outliner** and show up after the `+` button is _clicked_.
+**Incari** has several types of **Primitives**, which are three-dimensional **Objects** that can add a realistic, immersive experience to a *User Interface*. They are found in the **Scene Outliner** and show up after the `+` button is clicked.
 
 ## Primitives
 
@@ -49,7 +49,7 @@ The **Dome**, a piece of a sphere with a flat bottom face, has several **Attribu
 
 ![A Plane Object](../../.gitbook/assets/planeexample.png)
 
-A **Plane** is a flat rectangular **Object** that can still be moved along the Z axis in 3D space.
+A **Plane** is a flat rectangular **Object** that can still be moved along the Z axis in *3D* space.
 
 | Attribute | Description |
 | :--- | :--- |
