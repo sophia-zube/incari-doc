@@ -11,7 +11,7 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Configuration` | **Drop-down** | The desired _HTTP_ server. |
-| `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either GET or POST\) and its URL. |
+| `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either **GET** or **POST**\) and its URL. |
 
 ## Outputs
 
