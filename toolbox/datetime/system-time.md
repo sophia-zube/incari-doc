@@ -4,7 +4,7 @@
 
 ![The System Time Node.](../../.gitbook/assets/node-system-time.png)
 
-**System Time** is used for returning different individual parts of the current system time at the moment that the **Node** is evaluated. Values are returned as **Integers, Floats**, or **Vector3**, and therefore, have no inherent zero-padding, textual notation or suffixes.
+**System Time** is used for returning different individual parts of the current system time at the moment that the **Node** is evaluated. Values are returned as **Integers, Floats**, or **Vector3** and therefore have no inherent zero-padding, textual notation, or suffixes.
 
 When `Smooth float value` is enabled, the output values won't be rounded down, so if the current time is 1:45, the `Hour` output will be ~1.75.
 
