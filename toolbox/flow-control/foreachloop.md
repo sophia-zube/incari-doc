@@ -10,8 +10,8 @@ The **For Each Loop Node** triggers an iterative process that steps through the 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Data Type` | **Dropdown** | The **Variable Type** that populates the **Array**. |
-| `Error Mode` | **Dropdown** | The action that takes place if there is an **Error**. The user can choose from **Abort**, **Break**, or **Continue**. |
+| `Data Type` | **Drop-down** | The **Variable Type** that populates the **Array**. |
+| `Error Mode` | **Drop-down** | The action that takes place if there is an **Error**. The user can choose from **Abort**, **Break**, or **Continue**. |
 
 ## Inputs
 

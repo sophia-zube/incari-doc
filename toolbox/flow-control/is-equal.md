@@ -45,7 +45,7 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
       <td style="text-align:left"><em>Pulse Output</em> (&#x25BA;)</td>
       <td style="text-align:left"><b>Pulse</b>
       </td>
-      <td style="text-align:left">A standard output <b>Pulse</b>, to move onto the next <b>Node</b> along the <em>logic branch</em>,
+      <td style="text-align:left">A standard output <b>Pulse</b>, to move onto the next <b>Node</b> along the <b>Logic Branch</b>,
         once this <b>Node</b> has finished its execution.</td>
     </tr>
     <tr>
