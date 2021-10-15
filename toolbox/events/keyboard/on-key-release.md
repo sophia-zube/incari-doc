@@ -12,7 +12,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **Drop-down** | The key that Incari will _listen_ to. |
+| `Key` | **Drop-down** | The key that **Incari** will listen to. |
 
 ## Outputs
 
