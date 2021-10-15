@@ -4,7 +4,7 @@
 
 ![The On Mouse Double Click Node.](../../../.gitbook/assets/node-on-mouse-click.png)
 
-**On Mouse Double Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is _double-clicked_.
+**On Mouse Double Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is double-clicked.
 
 ## Attributes
 
