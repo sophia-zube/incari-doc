@@ -10,7 +10,7 @@ The **Toggle Node** holds a **Boolean** _state_, which alternates between _true_
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Value` | **Bool** | The default value/_state_ of the **Node**, before it is executed. |
+| `Value` | **Bool** | The default _value_/_state_ of the **Node**, before it is executed. |
 
 ## Inputs
 
