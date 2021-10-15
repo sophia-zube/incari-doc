@@ -10,8 +10,8 @@ The **Index Switch Node** takes an **Int** as input and compares it to the value
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Default Index` | **Dropdown** | The **Index** that corresponds to `Default`. |
-| `Outputs` | **Dropdown** | The number of **Index** outputs. In the sample image there are two `Outputs`, which correspond to `Index: 0` and `Index: 1` on the **Node**. |
+| `Default Index` | **Drop-down** | The **Index** that corresponds to `Default`. |
+| `Outputs` | **Drop-down** | The number of **Index** outputs. In the sample image there are two `Outputs`, which correspond to `Index: 0` and `Index: 1` on the **Node**. |
 
 ## Inputs
 
