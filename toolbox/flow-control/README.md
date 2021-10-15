@@ -7,7 +7,7 @@
 **Nodes** in the **Flow Control** category fall into two subcategories:
 
 * [_**Relational Expression**_ **Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#relational-expression-nodes)
-* [**Pulse Flow Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#pulse-flow-nodes)
+* [_**Pulse Flow**_ **Nodes**](https://docs.incari.com/incari-studio/toolbox/flow-control#pulse-flow-nodes)
 
 ## Relational Expression Nodes
 
@@ -19,7 +19,7 @@ _**Relational Expression**_ **Nodes** compare two values and yield a value based
 
 ## Pulse Flow Nodes
 
-**Pulse Flow Nodes** are mainly used to change the _control flow_ of **Logic**, which means executing different **Logic Branches** based on various _conditions_. To achieve truly dynamic programs, they are used in synergy with _**Relational Expression**_ ****and _**Logical Operator**_ **Nodes**.
+_**Pulse Flow**_ **Nodes** are mainly used to change the _control flow_ of **Logic**, which means executing different **Logic Branches** based on various _conditions_. To achieve truly dynamic programs, they are used in synergy with _**Relational Expression**_ and _**Logical Operator**_ **Nodes**.
 
 * [**Branch**](branch.md) - Takes one of two paths based on its input **Boolean** value. Similar to an `if` statement in computer programming.
 * [**Switch**](switch.md) - Takes one of several paths if the input value is equal to a path's corresponding, pre-defined value. If not, then the `Default` path is taken. Similar to a `switch` statement in computer programming.
