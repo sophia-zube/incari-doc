@@ -34,7 +34,7 @@ Due to their nature, _inequality_ operations only work for _numerical data types
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `C` | **Bool** | Returns _true_ if the value of `A` is less than \(or equal to, depending on `Mode`\) to `B`. If not, then it returns _false_. |
 
 ## External Links
