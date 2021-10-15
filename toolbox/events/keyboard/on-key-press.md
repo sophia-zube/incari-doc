@@ -12,13 +12,13 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Repeat Enabled` | **Bool** | Whether or not the **Event** is triggered while the key is _held_ down, or just when initially clicked. |
+| `Repeat Enabled` | **Bool** | Whether or not the **Event** is triggered while the key is held down, or just when initially clicked. |
 
 ### Event
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **Drop-down** | The key that Incari will _listen_ to. |
+| `Key` | **Drop-down** | The key that **Incari** will listen to. |
 
 ## Outputs
 
