@@ -12,13 +12,13 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** in which a double click triggers the **Logic Branch**. |
+| `Object` | **ObjectID** | The **Object** in which a double-click triggers the **Logic Branch**. |
 
 ### Button
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Mouse Button` | **Drop-down** | Whether a double click with the left, middle, or right button of the mouse will trigger the **Logic**. |
+| `Mouse Button` | **Drop-down** | Whether a double-click with the left, middle, or right button of the mouse will trigger the **Logic**. |
 
 ## Outputs
 

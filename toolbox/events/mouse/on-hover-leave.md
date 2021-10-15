@@ -17,7 +17,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector2** | **Vector** containing the X-Y coordinates of the point of exit with respect to the bottom left of the **Screen**. |
+| `Position` | **Vector2** | **Vector** containing the XY-coordinates of the point of exit with respect to the bottom left of the **Screen**. |
 
 ## See Also
 
