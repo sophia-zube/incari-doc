@@ -17,7 +17,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector2** | **Vector** whose Y coordinate indicates the direction and speed of the scrolling. |
+| `Position` | **Vector2** | **Vector** whose Y-coordinate indicates the direction and speed of the scrolling. |
 
 ## See Also
 
