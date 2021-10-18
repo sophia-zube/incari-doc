@@ -16,8 +16,8 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 | `PlayMode` | **Drop-down** | The `PlayMode` type. Can be either _Frames per Second_ \(frame rate\) or _Time_ \(duration\). |
 | `FPS` | **Int** | The number of _Frames per Second_. |
 | `Interpolation Mode` | **Drop-down** | The `Interpolation Mode` type. Can be either _Constant_ or _Linear_. |
-| `Loop Mode` | **Dropdown** | The looping type. Can be _Alternate_, _None_, or _Repeat_. |
-| `PlayDirection` | **Dropdown** | The direction in which the **ImageSequence** plays. Can be `Backward` or `Forward`. |
+| `Loop Mode` | **Drop-down** | The looping type. Can be _Alternate_, _None_, or _Repeat_. |
+| `PlayDirection` | **Drop-down** | The direction in which the **ImageSequence** plays. Can be `Backward` or `Forward`. |
 
 ## Inputs
 

@@ -4,7 +4,7 @@
 
 ![The Stop Animation Node.](../../../.gitbook/assets/stopanimation.png)
 
-**Stop Animation** is an _animation_ **Node** used to stop an **Animation** already playing.
+**Stop Animation** is an **Animation** **Node** used to stop an **Animation** already playing.
 
 ## Attributes
 
