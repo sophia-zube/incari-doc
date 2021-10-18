@@ -42,5 +42,5 @@
   * [**Radian-Degree Converter**](trigonometry/radian-degree-converter.md)
   * [**Sine**](trigonometry/sine.md)
   * [**Tangent**](trigonometry/tangent.md)
-* [**Vector Value**](vector-value.md) ****
+* [**Vector Value**](vector-value.md)
 
