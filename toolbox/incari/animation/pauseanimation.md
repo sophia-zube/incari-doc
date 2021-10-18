@@ -4,7 +4,7 @@
 
 ![The Pause Animation Node.](../../../.gitbook/assets/pauseanimation.png)
 
-**Pause Animation** is an _animation_ **Node** used to pause an **Animation** already playing.
+**Pause Animation** is an **Animation** **Node** used to pause an **Animation** already playing.
 
 ## Attributes
 
