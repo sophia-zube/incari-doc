@@ -5,3 +5,11 @@ With the release of **Incari Studio** 2021.4, there appeared a number of new fea
 * [**New feature**](link)
 
     Description
+* [**Integration with Third-Party Software**]
+  xxx
+* [**Performance Improvements**]
+  xxx
+* [**New Version of Compiler in Command Line Interface**]
+  xxx
+* [**Serial Communication**]
+  xxx
