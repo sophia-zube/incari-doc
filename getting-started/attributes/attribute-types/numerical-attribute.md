@@ -20,7 +20,7 @@ There are some cases where a **Numerical Attribute** can be adjusted using a sli
 
 ### Locking and Linking
 
-**Vector Type Attributes** can have their **Values** linked so that they either all have the _same_ **Value** when adjusted, or have the same ****_relative_ **Value** when adjusted.
+**Vector Type Attributes** can have their **Values** linked so that they either all have the _same_ **Value** when adjusted, or have the same _relative_ **Value** when adjusted.
 
 | Lock Icon | Link Icon | Before | After |
 | :--- | :--- | :--- | :--- |
