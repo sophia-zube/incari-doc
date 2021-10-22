@@ -28,7 +28,7 @@ The **Compare** **Node** compares two **Strings** and outputs the result indicat
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Result` | **Int** | 0, if the **Strings** are equal; 1, if they are not.  |
+| `Result` | **Int** | 0, if the **Strings** are equal; -1, if they are not.  |
 | `Equal` | **Bool** | *True*, if the **Strings** are equal; **false**, if they are not.|
 
 
