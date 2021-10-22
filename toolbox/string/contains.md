@@ -2,7 +2,7 @@
 
 ![The Contains Node.]()
 
-**Contains** .
+The **Contains** **Node** receives two **Strings** and checks whether one is a *substring* of the other. It outputs the result as a **Boolean**.
 
 # Attributes
 
@@ -24,4 +24,6 @@
 # See Also
 
 # External Links
+
+* [*Substring*](https://en.wikipedia.org/wiki/Substring) on Wikipedia.
 
