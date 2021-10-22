@@ -2,7 +2,7 @@
 
 ![The Compare Node.](../../.gitbook/assets/node-compare.png)
 
-The **Compare** **Node** compares two **Strings** and outputs a result indicating whether they are equal or not in two forms: an **Int** and a **Bool**.
+The **Compare** **Node** compares two **Strings** and outputs the result indicating whether they are equal or not in two forms: an **Int** and a **Bool**.
 
 # Attributes
 
@@ -28,7 +28,10 @@ The **Compare** **Node** compares two **Strings** and outputs a result indicatin
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Result` | **Int** | 0 if the **Strings** are equal and 1 if they are not.  |
-| `Equal` | **Bool** | *True* if the **Strings** are equal and **false** if they are not.|
+| `Result` | **Int** | 0, if the **Strings** are equal; 1, if they are not.  |
+| `Equal` | **Bool** | *True*, if the **Strings** are equal; **false**, if they are not.|
 
 
+# See Also
+
+* [**String Value**](stringvalue.md)
