@@ -1,6 +1,6 @@
 # Overview
 
-![The Length Node.]()
+![The Length Node.](../../.gitbook/assets/node-length.png)
 
 **Length** returns the length of a **String**.
 
@@ -8,20 +8,21 @@
 
 |Attribute|Type|Description|
 |---|---|---|
+| `String` | **String** | **String** whose length you wish to return, if none is given in the **Input Socket**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Input` | **String** | **String** whose length you wish to return. |
+| `String` | **String** | **String** whose length you wish to return. |
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Output` | **Int** | Length of the **String** received. |
+| `Length` | **Int** | Length of the **String** received. |
 
 
 
