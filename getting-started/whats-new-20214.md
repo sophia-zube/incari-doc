@@ -18,3 +18,10 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
 * **Serial Communication**
     xxx
+
+* **String Manipulation Nodes**
+
+    
+  
+* **Websprite Nodes**
+
