@@ -21,6 +21,17 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
 * **String Manipulation Nodes**
 
+    Several new **Nodes** allowing to manipulate **Strings** have been introduced with this release:
+
+    * [**Compare**](../toolbox/string/compare.md)
+    * [**Contains**](../toolbox/string/contains.md)
+    * [**Length**](../toolbox/string/length.md)
+    * [**Lower**](../toolbox/string/lower.md)
+    * [**Replace**](../toolbox/string/replace.md)
+    * [**ReplaceRegex**](../toolbox/string/replaceregex.md)
+    * [**Split**](../toolbox/string/split.md)
+    * [**Upper**](../toolbox/string/upper.md)
+
     
   
 * **Websprite Nodes**
