@@ -335,6 +335,7 @@
   * [Length](toolbox/string/length.md)
   * [Lower](toolbox/string/lower.md)
   * [Replace](toolbox/string/replace.md)
+  * [ReplaceRegex](toolbox/string/replaceregex.md)
   * [Split](toolbox/string/split.md)
   * [String Value](toolbox/string/stringvalue.md)
   * [Upper](toolbox/string/upper.md)
