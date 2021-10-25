@@ -36,5 +36,7 @@ For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Result` | **String** | The resulting **String** after the replacement. |
 
+# See Also
 
+* [**ReplaceRegex**](replaceregex.md)
 
