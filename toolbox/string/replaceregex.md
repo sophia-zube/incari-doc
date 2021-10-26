@@ -2,7 +2,15 @@
 
 ![The Replace Regex  Node.]()
 
-**Replace Regex** .
+The **Replace Regex** **Node** allows to replace parts of a **String** using regular expressions to search for the pattern to replace.
+
+It receives three inputs:
+
+* `String`: The **String** in which some parts will be replaced.
+* `From`: The pattern, using regular expressions, that will be searched for and replaced.
+* `To`: The **String** that will replaced the pattern defined in `From`.
+  
+For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the output will be `Result`=`CbCbCb`.
 
 # Attributes
 
