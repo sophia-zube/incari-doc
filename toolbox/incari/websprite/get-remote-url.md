@@ -1,8 +1,8 @@
 # Overview
 
-![The Get Remote Url Node.](../../../.gitbook/assets/node-getremoteurl.png)
+![The Get Remote URL Node.](../../../.gitbook/assets/node-getremoteurl.png)
 
-**Get Remote Url** returns the URL of a **Web Sprite** **Object**. The **Object ID** is given as input to the **Node**.
+**Get Remote URL** returns the URL of a **Web Sprite** **Object**. The **Object ID** is given as input to the **Node**.
 
 # Attributes
 
@@ -28,7 +28,8 @@
 
 # See Also
 
-* [**WebSprite**](README.md)
+* [**Web Sprite Object**](../../../getting-started/scene-objects/web-sprite.md)
+* [**WebSprite Nodes**](README.md)
 * [**Set Remote URL**](set-remote-url.md)
 
 

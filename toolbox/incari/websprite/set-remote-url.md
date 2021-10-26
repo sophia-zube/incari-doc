@@ -1,13 +1,17 @@
 # Overview
 
-![The Set Remote Url Node.]()
+![The Set Remote Url Node.](../../../.gitbook/assets/node-setremoteurl.png)
 
-**Set Remote Url** .
+**Set Remote URL** sets the URL **Attribute** of a **Web Sprite** **Object**. It receives as inputs the **Object ID** of the **Web Sprite** **Object** and the URL.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+
+## Default
 
 # Inputs
 
@@ -23,5 +27,9 @@
 
 # See Also
 
-# External Links
+* [**Web Sprite Object**](../../../getting-started/scene-objects/web-sprite.md)
+* [**WebSprite Nodes**](README.md)
+* [**Get Remote URL**](get-remote-url.md)
+
+
 
