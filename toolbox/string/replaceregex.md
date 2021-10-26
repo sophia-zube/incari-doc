@@ -4,7 +4,6 @@
 
 The **Replace Regex** **Node** allows to replace parts of a **String** using regular expressions to search for the pattern to replace. 
 
-
 # Attributes
 
 ## Inputs
