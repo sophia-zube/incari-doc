@@ -6,7 +6,7 @@ The **Replace** **Node** replaces a *substring* of a **String** with another giv
 
 * `String`: The **String** in which a *substring* will be replaced.
 * `From`: The *substring* of `String` that will be replaced.
-* `To`: The **String** with which `To` will be replaced.
+* `To`: The **String** with which `From` will be replaced.
 
 For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the output will be `Result`=`CbCbCb`.
 
