@@ -27,7 +27,7 @@
 
 # See Also
 
-* [**Web Sprite Object**](../../../getting-started/scene-objects/web-sprite.md)
+* [**Web Sprite Objects**](../../../getting-started/scene-objects/web-sprite.md)
 * [**WebSprite Nodes**](README.md)
 * [**Get Remote URL**](get-remote-url.md)
 
