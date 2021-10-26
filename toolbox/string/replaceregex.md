@@ -2,7 +2,7 @@
 
 ![The Replace Regex  Node.]()
 
-**Replace Regex ** .
+**Replace Regex** .
 
 # Attributes
 
