@@ -6,7 +6,7 @@ The **Project Settings Module** is used to set up **Projects** that involve the 
 
 ## CAN
 
-![The Project Settings CAN Attributes.](../.gitbook/assets/projectsettingscan.png)
+![The Project Settings CAN Attributes.](../.gitbook/assets/can20214.png)
 
 The **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**.
 
@@ -22,7 +22,7 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 
 ## Fonts
 
-![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettingsfonts.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/font20214.png)
 
 The **Fonts Attributes** let the user upload different types of **Fonts** to add personalized style to texts.
 
@@ -32,7 +32,7 @@ The **Fonts Attributes** let the user upload different types of **Fonts** to add
 
 ## HTTP
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttp.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/http20214.png)
 
 The **HTTP Attributes** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -46,7 +46,7 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 ## MQTT
 
-![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettingsmqtt.png)
+![The Project Settings MQTT Attributes.](../.gitbook/assets/mqtt20214.png)
 
 The **MQTT Attributes** cover the necessary data to provide functionality to the **MQTT Nodes**.
 
@@ -62,13 +62,30 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 
 ## Profiler
 
-![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettingsprofiler.png)
+![The Project Settings Profiler Attributes.](../.gitbook/assets/profiler20214.png)
 
 The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler** **Module**.
 
 `Enable` enables or disables the **Profiler**, which can be edited in the **Profiler View Module**.
 
 `Port` is the port number to which the **Profiler Module** has to connect.
+
+## Serial
+
+![The Project Settings Serial Attributes.](../.gitbook/assets/serial20214.png)
+
+The **Serial Attributes** cover the necessary data to provide functionality to the **Serial** **Nodes**.
+
+`Name` is an identifying name of a _Serial_ connection chosen at the user's discretion
+
+`ChannelName (Linux)` is the USB port that a _Serial_ set-up is connected to on _Linux_. 
+
+`ChannelName (Windows)` is the USB port that a _Serial_ set-up is connected to on _Windows_.
+
+Furthermore, The `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` need be filled in. 
+
+`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the `External Links` section.
+
 
 ## See Also
 
