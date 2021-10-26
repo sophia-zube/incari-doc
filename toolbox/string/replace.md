@@ -4,7 +4,7 @@
 
 The **Replace** **Node** replaces a *substring* of a **String** with another given **String**. It receives three inputs:
 
-* `String`: The **String** in which a *substring* will be replaced.
+* `String`: The **String** whose *substring* will be replaced.
 * `From`: The *substring* of `String` that will be replaced.
 * `To`: The **String** with which `From` will be replaced.
 
@@ -16,7 +16,7 @@ For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the
 
 |Attribute|Type|Description|
 |---|---|---|
-| `String` | **String** | **String** of which a *substring* will be replaced, if none is given in the **Input Socket**. |
+| `String` | **String** | **String** whose a *substring* will be replaced, if none is given in the **Input Socket**. |
 | `From` | **String** | *Substring* of `String` that will be replaced, if none is given in the **Input Socket**.  |
 | `To` | **String** | **String** with which `From` will be replaced, if none is given in the **Input Socket**. |
 
@@ -25,7 +25,7 @@ For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `String` | **String** | **String** of which a *substring* will be replaced. |
+| `String` | **String** | **String** whose a *substring* will be replaced. |
 | `From` | **String** | *Substring* of `String` that will be replaced. |
 | `To` | **String** | **String** with which `From` will be replaced. |
 
