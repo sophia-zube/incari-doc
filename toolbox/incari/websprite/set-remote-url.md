@@ -10,14 +10,21 @@
 
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Web Sprite Object** whose URL you wish to set, if none is given in the `Object ID` **Socket**. |
 
 ## Default
+
+|Attribute|Type|Description|
+|---|---|---|
+| `URL` | **String** | Default value of the URL you wish to set the **Web Sprite** **Object** to, if none is given in the **Input Socket**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `Object ID` | **ObjectID** | The **Web Sprite** **Object** whose URL you wish to set. |
+| `URL` | **String** | The URL you wish to set the **Web Sprite** **Object** to. |
 
 # Outputs
 
