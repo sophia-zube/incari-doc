@@ -41,6 +41,6 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
     * [**Get Remote URL**](../toolbox/incari/websprite/get-remote-url.md)
     * [**Set Remote URL**](../toolbox/incari/websprite/set-remote-url.md)
     * [**Web Sprite Reload**](../toolbox/incari/websprite/web-sprite-reload.md)
-    * [**On WebSprite Load**](../toolbox/events/websprite/on-websprite-load.md)
+    * [**On_ WebSprite Load**](../toolbox/events/websprite/on-websprite-load.md)
 
 
