@@ -1,19 +1,23 @@
 # Overview
 
-![The Web Sprite Reload Node.]()
+![The Web Sprite Reload Node.](../../../.gitbook/assets/node-webspritereload.png)
 
-**Web Sprite Reload** .
+The **Web Sprite Reload** **Node** reloads a **Web Sprite** **Object** when triggered.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Web Sprite** **Object** you wish to reload, if none is given in the `ObjectID` **Socket**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+| `ObjectID` | **ObjectID** | The **Web Sprite** **Object** you wish to reload. |
 
 # Outputs
 
@@ -23,5 +27,6 @@
 
 # See Also
 
-# External Links
+* [**Web Sprite Objects**](../../../getting-started/scene-objects/web-sprite.md)
+* [**WebSprite Nodes**](README.md)
 

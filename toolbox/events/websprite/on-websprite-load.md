@@ -1,19 +1,18 @@
 # Overview
 
-![The On Websprite Load Node.]()
+![The On Websprite Load Node.](../../../.gitbook/assets/node-onwebspriteload.png)
 
-**On Websprite Load** .
+**On Websprite Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **Web Sprite** **Object** is loaded.
 
 # Attributes
 
+## Object
+
 |Attribute|Type|Description|
 |---|---|---|
+| `Object` | **ObjectID** | The **Web Sprite** **Object** whose load triggers the **Logic Branch**. |
 
-# Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
@@ -23,5 +22,6 @@
 
 # See Also
 
-# External Links
+* [**Web Sprite Objects**](../../../getting-started/scene-objects/web-sprite.md)
+* [**WebSprite Nodes**](../../incari/websprite/README.md)
 

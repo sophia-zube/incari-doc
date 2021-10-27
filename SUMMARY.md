@@ -189,6 +189,8 @@
     * [On Video Finish](toolbox/events/video/onvideofinish.md)
   * [Web](toolbox/events/web/README.md)
     * [On Javascript Callback](toolbox/events/web/on-javascript-callback.md)
+  * [WebSprite](toolbox/events/websprite/README.md)
+    * [On WebSprite Load](toolbox/events/websprite/on-websprite-load.md)
 * [Flow Control](toolbox/flow-control/README.md)
   * [Branch](toolbox/flow-control/branch.md)
   * [For Each Loop](toolbox/flow-control/foreachloop.md)
