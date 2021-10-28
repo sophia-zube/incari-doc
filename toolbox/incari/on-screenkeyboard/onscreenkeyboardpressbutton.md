@@ -1,8 +1,8 @@
 # Overview
 
-![The On-Screen Keyboard Get Input Node.](../../../.gitbook/assets/onscreenkeyboardgetinput.png)
+![The On-Screen Keyboard Press Button Node.](../../../.gitbook/assets/onscreenkeyboardpressbutton.png)
 
-The **On-Screen Keyboard Get Input Node** .
+The **On-Screen Keyboard Press Button Node** .
 
 # Attributes
 
