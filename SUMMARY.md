@@ -181,7 +181,7 @@
     * [On Rotation Change](toolbox/events/object/on-rotation-change.md)
     * [On Scale Change](toolbox/events/object/on-scale-change.md)
     * [On Visibility Change](toolbox/events/object/on-visibility-change.md)
-  * [On-Screen Keyboard](toolbox/events/on-screenkeyboard/README.md]
+  * [On-Screen Keyboard](toolbox/events/on-screenkeyboard/README.md)
     * [On On-Screen Keyboard Pressed Key](toolbox/events/on-screenkeyboard/ononscreenkeyboardpressed.md)
   * [Variables](toolbox/events/variables/README.md)
     * [On Variable Change](toolbox/events/variables/on-variable-change.md)
