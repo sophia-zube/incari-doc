@@ -12,7 +12,7 @@ The **CAN Attributes** cover the necessary data to provide functionality to the 
 
 `Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
 
-`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the `External Links` section.
+`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
 `Channel Name` is the USB port that _CAN_ is connected to on _Windows_.
 
@@ -76,15 +76,15 @@ The **Profiler Attributes** cover the necessary data to provide functionality to
 
 The **Serial Attributes** cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
-`Name` is an identifying name of a _Serial_ connection chosen at the user's discretion
+`Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
 `ChannelName (Linux)` is the USB port that a _Serial_ set-up is connected to on _Linux_. 
 
 `ChannelName (Windows)` is the USB port that a _Serial_ set-up is connected to on _Windows_.
 
-Furthermore, The `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` need be filled in. 
+Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` need be filled in. 
 
-`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the `External Links` section.
+`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 
 
 ## See Also
