@@ -13,7 +13,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**JSON Stringify**](jsonstringify.md)
 * [**Length**](length.md)
 * [**Lower**](lower.md)
-* [**Replace (regex)**](replace%20(regex).md)
+* [**ReplaceRegex**](replaceregex).md)
 * [**Replace**](replace.md)
 * [**Split**](split.md)
 * [**String Value**](stringvalue.md)
