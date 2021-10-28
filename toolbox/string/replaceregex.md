@@ -11,8 +11,8 @@ The **ReplaceRegex** **Node** allows to replace parts of a **String** using regu
 |Attribute|Type|Description|
 |---|---|---|
 | `String` | **String** | **String** in which some parts will be replaced, if none is given in the **Input Socket**. |
-| `From` | **String** | The pattern, using regular expressions, that will be searched for and replaced, if none is given in the **Input Socket**. |
-| `To` | **String** | **String** that will replaced the pattern defined in `From`, if none is given in the **Input Socket**. |
+| `From` | **String** | The pattern that will be searched for and replaced using regular expressions, if none is given in the **Input Socket**. |
+| `To` | **String** | **String** that will replace the pattern defined in `From`, if none is given in the **Input Socket**. |
 
 # Inputs
 
@@ -20,8 +20,8 @@ The **ReplaceRegex** **Node** allows to replace parts of a **String** using regu
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | **String** in which some parts will be replaced. |
-| `From` | **String** | The pattern, using regular expressions, that will be searched for and replaced. |
-| `To` | **String** | **String** that will replaced the pattern defined in `From`. |
+| `From` | **String** | The pattern that will be searched for and replaced using regular expressions. |
+| `To` | **String** | **String** that will replace the pattern defined in `From`. |
 
 # Outputs
 
