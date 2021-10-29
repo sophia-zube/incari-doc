@@ -2,12 +2,13 @@
 
 ![The On-Screen Keyboard Clear Input Node.](../../../.gitbook/assets/onscreenkeyboardclearinput.png)
 
-The **On-Screen Keyboard Clear Input Node** .
+The **On-Screen Keyboard Clear Input Node** clears whatever was previously inputted into the **On-Screen Keyboard**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Object`|**ObjectID**|The target **Object**|
 
 # Inputs
 
