@@ -15,7 +15,7 @@ The **On-Screen Keyboard Clear Input Node** clears whatever was previously input
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the target **Object**.|
+|`ObjectID`|**ObjectID**|The ID of the target **Object**.|
 
 # Outputs
 

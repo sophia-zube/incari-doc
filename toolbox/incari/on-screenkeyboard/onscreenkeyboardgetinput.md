@@ -9,6 +9,7 @@ The **On-Screen Keyboard Get Input Node** returns the input from the **On-Screen
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|The target **Object**.|
+
 # Inputs
 
 |Input|Type|Description|
