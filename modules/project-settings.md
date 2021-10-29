@@ -82,7 +82,7 @@ The **Serial Attributes** cover the necessary data to provide functionality to t
 
 `ChannelName (Windows)` is the USB port that a _Serial_ set-up is connected to on _Windows_.
 
-Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` need be filled in. 
+Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in. 
 
 `Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 
