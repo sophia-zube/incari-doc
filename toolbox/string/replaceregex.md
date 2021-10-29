@@ -1,6 +1,6 @@
 # Overview
 
-![The Replace Regex  Node.](../../.gitbook/assets/node-replaceregex.png)
+![The ReplaceRegex Node.](../../.gitbook/assets/node-replaceregex.png)
 
 The **ReplaceRegex** **Node** allows to replace parts of a **String** using regular expressions to search for the pattern to replace. 
 
