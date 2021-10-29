@@ -8,13 +8,14 @@ The **On-Screen Keyboard Clear Input Node** clears whatever was previously input
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object**|
+|`Object`|**ObjectID**|The target **Object**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object`|**ObjectID**|The ID of the target **Object**.|
 
 # Outputs
 
@@ -24,5 +25,8 @@ The **On-Screen Keyboard Clear Input Node** clears whatever was previously input
 
 # See Also
 
-# External Links
+* [**On-Screen Keyboard Get Input**](onscreenkeyboardgetinput.md)
+* [**On-Screen Keyboard Move Selection**](onscreenkeyboardmoveselection.md)
+* [**On-Screen Keyboard Press Button**](onscreenkeyboardpressbutton.md)
+
 
