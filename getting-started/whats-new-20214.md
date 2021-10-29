@@ -35,7 +35,7 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
     
   
-* **Websprite Nodes**
+* **WebSprite Nodes**
 
     New **Nodes** allowing to handle [**Web Sprite** **Objects**](scene-objects/web-sprite.md):
 
