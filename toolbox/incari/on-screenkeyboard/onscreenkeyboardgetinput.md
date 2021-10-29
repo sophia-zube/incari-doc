@@ -15,7 +15,7 @@ The **On-Screen Keyboard Get Input Node** returns the input from the **On-Screen
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the target **Object**.|
+|`Object ID`|**ObjectID**|The ID of the target **Object**.|
 
 # Outputs
 
