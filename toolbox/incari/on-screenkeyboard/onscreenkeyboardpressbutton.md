@@ -2,7 +2,7 @@
 
 ![The On-Screen Keyboard Press Button Node.](../../../.gitbook/assets/onscreenkeyboardpressbutton.png)
 
-The **On-Screen Keyboard Press Button Node** is a **Node** that takes place of a clicking action.
+The **On-Screen Keyboard Press Button Node** is a **Node** that provides an action equal to pressing enter on a selected **Keyboard** button.
 
 # Attributes
 
