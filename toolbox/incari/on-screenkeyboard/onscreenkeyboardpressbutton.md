@@ -2,20 +2,20 @@
 
 ![The On-Screen Keyboard Press Button Node.](../../../.gitbook/assets/onscreenkeyboardpressbutton.png)
 
-The **On-Screen Keyboard Press Button Node** is a **Node** that provides an action equal to pressing enter on a selected **Keyboard** button.
+The **On-Screen Keyboard Press Button Node** is a **Node** that provides an action equal to pressing `Enter` on a selected **Keyboard** button.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|**Object**|**ObjectID**|The target **Object**.|
+|`Object`|**ObjectID**|The target **Object**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|**Object ID**|**ObjectID**|The ID of the target **Object**.|
+|`Object ID`|**ObjectID**|The ID of the target **Object**.|
 
 # Outputs
 
