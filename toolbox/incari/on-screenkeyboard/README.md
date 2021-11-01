@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **On-Screen Keyboard Nodes** allowe the user to provide functionality and apply **Logic** to an **On-Screen Keyboard**, which can be added in the **Scene Outliner** under **2D** or **3D**. 
+The **On-Screen Keyboard Nodes** allows the user to provide functionality and apply **Logic** to an **On-Screen Keyboard**, which can be added in the **Scene Outliner** under **2D** or **3D**. 
 
 ## Contents
 
