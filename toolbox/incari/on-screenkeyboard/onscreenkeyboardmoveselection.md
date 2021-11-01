@@ -2,7 +2,9 @@
 
 ![The On-Screen Keyboard Move Selection Node.](../../../.gitbook/assets/onscreenkeyboardmoveselection.png)
 
-The **On-Screen Keyboard Move Selection Node** moves the selection from a previous one.
+The **On-Screen Keyboard Move Selection Node** moves the selection from a previous one using the `Direction` **Attribute**, a **Vector2 Variable**. 
+
+If the first element of the **Vector2** (X-coordinate) is positive then it moves to the right, if it is 0 it doesn't move horizontally, and if it is negative it moves to the left. If the second element of the **Vector2** (Y-coordinate) is positive then it moves down, if it is 0 it doesn't move vertically, and if it is negative it moves up.
 
 # Attributes
 
