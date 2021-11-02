@@ -9,4 +9,5 @@ The **Communication Nodes** \(**CAN**, **HTTP**, and **MQTT**\) represent the di
 * [**CAN**](can/)
 * [**HTTP**](http/)
 * [**MQTT**](mqtt/)
+* [**Serial**](serial/)
 
