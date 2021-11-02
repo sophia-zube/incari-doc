@@ -2,6 +2,11 @@
 
 Many new features have been added to the release of **Incari Studio** 2021.4. Here is a list of the features you need to know.
 
+* **New Incari Hub with over-the-air updates**
+  
+    The user can now install **Incari Studio** and **Incari Player** from **Incari Hub**. 
+    The updated **Incari Hub** also includes over-the-air (OTA) updates. With OTA updates, the **Incari** software can now be updated directly from **Incari Hub**. 
+
 * **Integration with Third-Party Software**
   
     **Incari** now lets users incorporate several third-party software into their **Projects** that encompass different categories. These include math libraries ([*Eigen*](https://eigen.tuxfamily.org/index.php?title=Main_Page) and [*GLM*](https://github.com/g-truc/glm)), an **MQTT** message broker ([*Mosquitto*](http://mosquitto.org/)), **HTTP** clients ([*cpp-httplib*](https://github.com/yhirose/cpp-httplib) and [*civetweb*](http://civetweb.github.io/civetweb/)), an **HTTP** server ([*civetweb*](http://civetweb.github.io/civetweb/)), *websocket* ([*civetweb*](http://civetweb.github.io/civetweb/)), and a *Javascript* library for web applications ([*SocketIO*](https://socket.io/)). These integrations improve the capabilities of **Incari Projects** and provide further functionality with a little boost from other software. 
