@@ -23,7 +23,15 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
 * **Serial Communication**
   
-    *Serial* *Communication* is a type of communication that sends single bits of data at a time, sequentially, through a communication channel/bus. This method of communication is now included in **Incari**, the settings of which can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). Additionally, there are new [**Serial Communication Nodes**.](still need link)  
+    *Serial* *Communication* is a type of communication that sends single bits of data at a time, sequentially, through a communication channel/bus. This method of communication is now included in **Incari**, the settings of which can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). Additionally, there are new **Serial Communication Nodes**:
+
+    * [**On Serial Error**](../toolbox/communication/serial/events/onserialerror.md)
+    * [**On Serial Packet Receive**](../toolbox/communication/serial/events/onserialpacketreceive.md) 
+    * [**On Serial Start**](../toolbox/communication/serial/events/onserialstart.md)
+    * [**On Serial Stop**](../toolbox/communication/serial/events/onserialstop.md)
+    * [**Serial Send Packet**](../toolbox/communication/serial/serialsendpacket.md)
+    * [**Serial Start**](../toolbox/communication/serial/serialstart.md)
+    * [**Serial Stop**](../toolbox/communication/serial/serialstop.md)
 
 * **String Manipulation Nodes**
 
@@ -49,4 +57,12 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
     * [**Web Sprite Reload**](../toolbox/incari/websprite/web-sprite-reload.md)
     * [**On WebSprite Load**](../toolbox/events/websprite/on-websprite-load.md)
 
+* **On-Screen Keyboard Nodes**
+    
+    These new **Nodes** allow the user to add functionality to an **On-Screen Keyboard**.
 
+    * [**On On-Screen Keyboard Key Pressed**](../toolbox/events/on-screenkeyboard/ononscreenkeyboardpressed.md)
+    * [**On-Screen Keyboard Clear Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardclearinput.md)
+    * [**On-Screen Keyboard Get Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardgetinput.md)
+    * [**On-Screen Keyboard Move Selection**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardmoveselection.md)
+    *  [**On-Screen Keyboard Press Button**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardpressbutton.md)
