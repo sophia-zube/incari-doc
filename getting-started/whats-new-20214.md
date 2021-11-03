@@ -22,7 +22,7 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
 * **Serial Communication**
   
-    *Serial* *Communication* is a type of communication that sends single bits of data at a time, sequentially, through a communication channel/bus. This method of communication is now included in **Incari**, the settings of which can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). Additionally, there are new **Serial Communication Nodes**:
+    **Incari** now allows communication through a channel or bus with USB and GPS devices such as a GPS mouse. The Serial Communication Settings can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). Additionally, there are new **Serial Communication Nodes**:
 
     * [**On Serial Error**](../toolbox/communication/serial/events/onserialerror.md)
     * [**On Serial Packet Receive**](../toolbox/communication/serial/events/onserialpacketreceive.md) 
