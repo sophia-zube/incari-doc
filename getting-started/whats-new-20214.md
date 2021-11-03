@@ -2,10 +2,9 @@
 
 Many new features have been added to the release of **Incari Studio** 2021.4. Here is a list of the features you need to know.
 
-* **New Incari Hub with over-the-air updates**
+* **New Incari Hub**
   
-    The user can now install **Incari Studio** and **Incari Player** from **Incari Hub**. 
-    The updated **Incari Hub** also includes over-the-air (OTA) updates. With OTA updates, the **Incari** software can now be updated directly from **Incari Hub**. 
+    The updated **Incari Hub** now serves as a central access point to install the latest **Incari** software.
 
 * **Integration with Third-Party Software**
   
