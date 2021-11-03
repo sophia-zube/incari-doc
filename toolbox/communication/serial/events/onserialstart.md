@@ -2,18 +2,13 @@
 
 ![The On Serial Start Node.](../../../../.gitbook/assets/onserialstart.png)
 
-The **On Serial Start Node** .
+The **On Serial Start Node** is an **Event Listener Node** that gives the user a way to perform an action once a **Serial** connection is established.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Outputs
 
@@ -23,5 +18,7 @@ The **On Serial Start Node** .
 
 # See Also
 
-# External Links
+* [**On Serial Error**](onserialerror.md)
+* [**On Serial Packet Receive**](onserialpacketreceive.md)
+* [**On Serial Stop**](onserialstop.md)
 

@@ -2,26 +2,25 @@
 
 ![The On Serial Error Node.](../../../../.gitbook/assets/onserialerror.png)
 
-The **On Serial Error Node** .
+The **On Serial Error Node** is an **Event Listener Node** that executes when an **Error** is received and returns the **Error** `Message`.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Message`|**String**|The returned **Error** `Message`.|
 
 # See Also
 
-# External Links
+* [**On Serial Packet Receive**](onserialpacketreceive.md)
+* [**On Serial Start**](onserialstart.md)
+* [**On Serial Stop**](onserialstop.md)
 
