@@ -1,6 +1,6 @@
 # Logic Editor
 
-Logic in INCARI is what allows us to take our 2D/3D assets and turn them into fully-interactive user interfaces. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code, however by utilising INCARI's powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminology of INCARI's **Logic Editor**.
+Logic in INCARI is what allows us to take our 2D/3D assets and turn them into fully-interactive *User Interfaces*. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code, however by utilising INCARI's powerful visual scripting tools, we can build these systems without writing a single line! This section introduces you to some of the core concepts and terminology of INCARI's **Logic Editor**.
 
 ## 1 - The Logic Editor Window
 
