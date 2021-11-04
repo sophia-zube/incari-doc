@@ -4,7 +4,7 @@
 
 ![The Index Switch Node.](../../.gitbook/assets/indexswitch.png)
 
-The **Index Switch Node** takes an **Int** as input and compares it to the value of`Index: value`, returning true or false. This could be used, for example, for enabling or disabling features in a user interface based on the output of a function.
+The **Index Switch Node** takes an **Int** as input and compares it to the value of`Index: value`, returning true or false. This could be used, for example, for enabling or disabling features in a *User Interface* based on the output of a function.
 
 ## Attributes
 
