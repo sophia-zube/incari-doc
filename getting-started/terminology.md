@@ -1,6 +1,6 @@
 # Terminology
 
-* [**Scene**](project-objects/scene.md): Collection of **Objects** that constitute what is shown on the user interface.
+* [**Scene**](project-objects/scene.md): Collection of **Objects** that constitute what is shown on the *User Interface*.
 * [**Screen**](project-objects/screen.md): Technical specifications of the physical display of a **Project**.
 * [**Project**](../modules/project-outliner.md): A collection of **Screens** with their corresponding **Scenes**.
 * [**Assets**](attributes/attribute-types/asset-object-attribute.md): Files in the **Project** **Asset** folder. They can be linked to and modify **Objects**. 
