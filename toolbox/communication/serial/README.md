@@ -12,7 +12,7 @@ The **Serial** **Nodes** allow the user to connect with USB and GPS devices such
 
 ## See Also
 
-* [**Project Settings**](../../../modules/project-settings.md)
+* [**Project Settings**]([../../../modules/project-settings.md](https://docs.incari.com/2021.4/modules/project-settings#serial))
 
 ## External Links
 
