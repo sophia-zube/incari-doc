@@ -2,12 +2,13 @@
 
 ![The Serial Start Node.](../../../.gitbook/assets/serialstart.png)
 
-The **Serial Start Node** .
+The **Serial Start Node** starts the **Serial** connection.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Inputs
 
@@ -23,5 +24,6 @@ The **Serial Start Node** .
 
 # See Also
 
-# External Links
+* [**Serial Send Packet**](serialsendpacket.md)
+* [**Serial Stop**](serialstop.md)
 

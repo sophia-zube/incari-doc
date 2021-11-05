@@ -2,12 +2,13 @@
 
 ![The Serial Stop Node.](../../../.gitbook/assets/serialstop.png)
 
-The **Serial Stop Node** .
+The **Serial Stop Node** stops the **Serial** connection.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Inputs
 
@@ -23,5 +24,6 @@ The **Serial Stop Node** .
 
 # See Also
 
-# External Links
+* [**Serial Send Packet**](serialsendpacket.md)
+* [**Serial Start**](serialstart.md)
 
