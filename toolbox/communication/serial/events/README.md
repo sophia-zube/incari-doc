@@ -8,5 +8,5 @@ The **Event Serial Nodes** provide a way to perform certain actions when **Seria
 
 * [**On Serial Start**](onserialstart.md)
 * [**On Serial Stop**](onserialstop.md)
-* [**On Serial Packet Received**](onserialpacketreceive.md)
+* [**On Serial Packet Receive**](onserialpacketreceive.md)
 * [**On Serial Error**](onserialerror.md)
