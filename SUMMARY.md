@@ -124,7 +124,7 @@
     * [Events](toolbox/communication/serial/events/README.md)
       * [On Serial Start](toolbox/communication/serial/events/onserialstart.md)
       * [On Serial Stop](toolbox/communication/serial/events/onserialstop.md)
-      * [On Serial Packet Received](toolbox/communication/serial/events/onserialpacketreceive.md)
+      * [On Serial Packet Receive](toolbox/communication/serial/events/onserialpacketreceive.md)
       * [On Serial Error](toolbox/communication/serial/events/onserialerror.md)
     * [Serial Start](toolbox/communication/serial/serialstart.md)
     * [Serial Stop](toolbox/communication/serial/serialstop.md)
