@@ -8,7 +8,7 @@ The **Serial Send Packet Node** is used to send a data **Packet** after selectin
 
 |Attribute|Type|Description|
 |---|---|---|
-|`IsBinary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
+|`Is Binary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
 |`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Inputs

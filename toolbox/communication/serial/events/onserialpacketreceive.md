@@ -8,7 +8,7 @@ The **On Serial Packet Receive Node** is an **Event Listener Node** that execute
 
 |Attribute|Type|Description|
 |---|---|---|
-|`IsBinary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
+|`Is Binary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
 |`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Outputs
