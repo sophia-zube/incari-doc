@@ -2,18 +2,22 @@
 
 ![The Serial Send Packet Node.](../../../.gitbook/assets/serialsendpacket.png)
 
-The **Serial Send Packet Node** .
+The **Serial Send Packet Node** is used to send a data **Packet** after selecting a **Serial Communication** connection from the **Drop-down Menu**.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+|`IsBinary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
+|`Configuration`|**Drop-down**|The desired **Serial** connection.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Message`|**String**|The **Packet's** `Message`.|
+
 
 # Outputs
 
@@ -22,6 +26,6 @@ The **Serial Send Packet Node** .
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
 # See Also
-
-# External Links
-
+* [**Serial Start**](serialstart.md)
+* [**Serial Stop**](serialstop.md)
+  
