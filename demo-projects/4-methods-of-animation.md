@@ -14,7 +14,7 @@ If you go back to the _My Projects_ section, you will see that the **Project** w
 
 Now you will see a variety of controls for each of the 4 animation methods.
 
-1. **Animation Editor** - Spins the **Incari** logo 360°. Note that this kind of animation in **Incari** is _relative,_ meaning that if you hit the X \(stop\) button while the **Sprite** is partially rotated, then hit play again, the logo will rotate to the same _rotation_ as it was when you hit the button. These animations are achieved using a **Keyframe**-based approach. 
+1. **Animation Editor** - Spins the **Incari** logo 360°. Note that this kind of animation in **Incari** is _relative,_ meaning that if you hit the X \(stop\) button while the **Sprite** is partially rotated, then hit play again, the logo will rotate to the same _rotation_ as it was when you hit the button. These animations are achieved using a **Keyframe**-based animation. 
 2. **Interpolation** - This fades the opacity of the graphic. **Interpolation** is without a doubt the most programmatic way of approaching animation. It is an entirely **Node**-based method which naturally favors a more parametric way of thinking.
 3. **Image Sequence** - This animates the logo itself using a pre-rendered sequence of `.png` files. This allows you to use any 3rd-party animation tool to create animations and then bring them into **Incari Studio** where you can attach functionality.
 4. **Actions** - This simply moves the logo from left to right with an easing effect. **Actions** are **Node**-based. However, unlike the **Interpolation** approach, these are specifically for animation and are much more akin to tween libraries like [_TweenLite by GreenSock_](https://greensock.com/tweenlite).
