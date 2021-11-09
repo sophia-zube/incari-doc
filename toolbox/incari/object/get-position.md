@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector3** | A 3-dimensional _vector_ that contains X, Y, and Z _positions_ of the target **Object**. |
+| `Position` | **Vector3** | A 3-dimensional **Vector** that contains X, Y, and Z _positions_ of the target **Object**. |
 
 ## See Also
 
