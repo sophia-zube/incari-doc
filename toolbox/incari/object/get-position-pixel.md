@@ -10,14 +10,14 @@ The **Get Position Pixel Node** returns the X and Y values of a **2D Object's** 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object** whose _osition_ you wish to return, if one is not provided in the `Object ID` **Socket**. |
+| `Object` | **ObjectID** | The target **Object** whose `Position` you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose _position_ you wish to return. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to return. |
 
 ## Outputs
 
