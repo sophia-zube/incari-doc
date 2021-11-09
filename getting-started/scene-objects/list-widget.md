@@ -18,7 +18,7 @@ This is the optional text that you wish to appear as a header for your list. It 
 
 ### List Entry File
 
-This takes a local `.html` file, which defines a template for how each list item is displayed. You can create one by _right-clicking_ in the **Asset Manager** and selecting `Create asset` &gt; `List Entry`. This method will create a new `.html` file, containing some example HTML text.
+This takes a local `.html` file, which defines a template for how each list item is displayed. You can create one by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `List Entry`. This method will create a new `.html` file, containing some example HTML text.
 
 The way that we populate our list with content from our **Model** file is by creating placeholders, with the name of the corresponding **Field**, surrounded by double curly braces.
 
