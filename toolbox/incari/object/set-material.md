@@ -11,7 +11,7 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The **Mesh Object**, to which the **Material** is to be applied to, if one is not provided in the `Object ID` **Socket**. |
-| `Default Material` | **MaterialID** | The default value of the `Material` **Socket**, if no value is provided. |
+| `Default Material` | **MaterialID** | The default value of the `Material ID` **Socket**, if no value is provided. |
 
 ## Inputs
 
