@@ -17,7 +17,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose _rotation_ value you wish to return. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Rotation` value you wish to return. |
 
 ## Outputs
 
