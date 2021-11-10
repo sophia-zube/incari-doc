@@ -4,7 +4,7 @@
 
 ![The Get Size Pixel Node.](../../../.gitbook/assets/getsizepixel.png)
 
-The **Get Size Pixel Node** returns the _X_ and _Y values_ of a **2D Object's** `Size`.
+The **Get Size Pixel Node** returns the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
 
