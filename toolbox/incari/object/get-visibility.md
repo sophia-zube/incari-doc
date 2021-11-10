@@ -24,7 +24,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Is Visible` | **Bool** | A boolean value that is `true` if the target **Object** is _visible_ in the **Scene** and `false` if it is not. |
+| `Is Visible` | **Bool** | A boolean value that is _true_ if the target **Object** is _visible_ in the **Scene** and _false_ if it is not. |
 
 ## See Also
 
