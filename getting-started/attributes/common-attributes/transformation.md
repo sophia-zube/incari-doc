@@ -1,6 +1,6 @@
 # Transformation
 
-All **Objects** in **Incari** exist in _3D_ space, and have a set of **Attributes** to define their **Transformation** data. **Transformation** is divided into three **Vector3** type **Attributes**: `Position`, `Rotation` and `Scale`.
+All **Objects** in **Incari** exist in _3D_ space, and have a set of **Attributes** to define their **Transformation** data. **Transformation** is divided into three **Vector3** type **Attributes**: `Position`, `Rotation`, and `Scale`.
 
 ## Position
 
@@ -16,7 +16,7 @@ Any point in space can be determined by these `x`, `y` and `z` values.
 
 ## Rotation
 
-The `Rotation` **Attribute** represents the Euler angle of rotation of an **Object** along each of its axes. The **Object** is rotated in _local space_, meaning that any adjustments will be made along its _own_ axes, not the axes of the **Scene** itself. Axes can be thought of as being like three skewers, going through the **Object** and intersecting at the **Object**'s **Pivot Point**.
+The `Rotation` **Attribute** represents the Euler angle of rotation of an **Object** along each of its axes. The **Object** is rotated in _local space_, meaning that any adjustments will be made along its _own_ axes, not the axes of the **Scene** itself. Axes can be thought of as being like three skewers, going through the **Object** and intersecting at the **Object's** **Pivot Point**.
 
 ![](../../../.gitbook/assets/rotation.gif)
 
