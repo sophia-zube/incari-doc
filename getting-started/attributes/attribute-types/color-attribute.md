@@ -24,5 +24,5 @@ Additionally, the first two digits of the code represent the _alpha_ value, not 
 
 ## Red, Green, Blue and Alpha
 
-**RGBA** are all within the range of 0 - 255. This is a fairly common convention, however there are some cases where _alpha values_ are given as a percentage, or within the range 0 - 1. As with **HSB**, values may need to be converted beforehand.
+**RGBA** are all within the range of 0 - 255. This is a fairly common convention, however there are some cases where alpha values are given as a percentage, or within the range 0 - 1. As with **HSB**, values may need to be converted beforehand.
 
