@@ -4,7 +4,7 @@
 
 ![The Set Position Pixel Node.](../../../.gitbook/assets/setpositionpixel.png)
 
-**Set Position Pixel Node** sets the _X_ and _Y values_ of a **2D Object's** `Position`.
+**Set Position Pixel Node** sets the X and Y values of a **2D Object's** `Position`.
 
 ## Attributes
 
@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector2** | A 2-dimensional **Vector** that contains _X_ and _Y_ `Position` _values_ of the target **Object**. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains X and Y `Position` values of the target **Object**. |
 
 ## Outputs
 
