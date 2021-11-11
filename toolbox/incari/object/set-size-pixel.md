@@ -4,7 +4,7 @@
 
 ![The Set Size Pixel Node.](../../../.gitbook/assets/setsizepixel.png)
 
-The **Set Size Pixel Node** sets the _X_ and _Y values_ of a **2D Object's** `Size`.
+The **Set Size Pixel Node** sets the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
 
