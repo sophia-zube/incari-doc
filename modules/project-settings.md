@@ -12,7 +12,7 @@ The **CAN Attributes** cover the necessary data to provide functionality to the 
 
 `Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
 
-`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the `External Links` section.
+`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
 `Channel Name` is the USB port that _CAN_ is connected to on _Windows_.
 
