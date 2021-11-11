@@ -10,7 +10,7 @@ The **Scene Outliner** contains the list of every **Object** in the currently se
 
 New **Objects** can be created in the following ways:
 
-* _Click_ on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2846%29.PNG) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
+* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2846%29.PNG) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
 
 ![](../.gitbook/assets/scene-outliner-create-add-icon.png)
 
