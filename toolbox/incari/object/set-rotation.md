@@ -4,7 +4,7 @@
 
 ![The Set Rotation Node.](../../../.gitbook/assets/set-rotation.PNG)
 
-**Set Rotation** sets the value of a given **Object**'s `Rotation` **Attribute**.
+**Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
 
 ## Attributes
 
@@ -18,7 +18,7 @@
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose _rotation_ value you wish to set. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Rotation` value you wish to set. |
 | `Rotation` | **Vector3** | A 3-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Object**. |
 
 ## Outputs
