@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down menu on the top panel of **Incari**, or by _right-clicking_ on the menu bar in **Incari** and _clicking_ on **Animation Editor** from the drop-down list, or simply by _double-clicking_ an **Animation** **Asset** in the **Asset Manager**.
+The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down Menu on the top panel of **Incari**, or by right-clicking on the Menu bar in **Incari** and clicking on **Animation Editor** from the drop-down list, or simply by double-clicking an **Animation** **Asset** in the **Asset Manager**.
 
 ![](../.gitbook/assets/animation-editor2.png)
 
@@ -29,7 +29,7 @@ A **Keyframe** consists of two parts:
 * The **Keyframe** itself, which holds a value at a specific time.
 * The curve handles, which control the easing and interpolation between frames.
 
-To add a **Keyframe**, simply right click an **Attribute** and select `Add Keyframe` from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. The curve handles can then be adjusted to fine-tune the intermediate frames.
+To add a **Keyframe**, simply right-click an **Attribute** and select `Add Keyframe` from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. The curve handles can then be adjusted to fine-tune the intermediate frames.
 
 When a **Keyframe** is selected, its corresponding Bézier curve is shown in the **Animation Timeline**.
 
