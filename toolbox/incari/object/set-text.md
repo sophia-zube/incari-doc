@@ -19,7 +19,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the **Text** **Object**. |
-| `Text` | **String** | The desired value of the **Text Object**'s `Text` **Attribute**. |
+| `Text` | **String** | The desired value of the **Text Object's** `Text` **Attribute**. |
 
 ## Outputs
 
