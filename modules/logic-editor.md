@@ -40,11 +40,11 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/topPanelImage.PNG)
 
-The _top panel_ represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the _top panel_.
+The top panel represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel.
 
 ## 4 - Left Panel
 
-The _left panel_ contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These are the **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
+The left panel contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These are the **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
 
 Each section is described below:
 
