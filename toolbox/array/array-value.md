@@ -15,7 +15,7 @@ The **Array Value** **Node** defines an **Array** by setting its elements.
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Data Type` | **Drop-down** | The `Data Type` of the `Value` that you wish to add to the **Array Value** **Node**. |
-| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | A `Value` that you wish to add to the **Array Value** **node**, if no value is provided in the input **Socket**. |
+| `Value` | _Defined in the_ `Data Type` _**Attribute**_. | A `Value` that you wish to add to the **Array Value** **Node**, if no value is provided in the input **Socket**. |
 
 ## Inputs
 
