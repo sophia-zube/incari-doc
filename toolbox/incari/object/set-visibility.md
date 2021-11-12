@@ -11,7 +11,7 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The **Object**, whose _visibility_ you wish to set, if one is not provided in the `Object ID` **Socket**. |
-| `Is Visible` | **Bool** | A **Boolean** indicating whether a desired **Object** is set to _visible_ or not. The default value is `true`. |
+| `Is Visible` | **Bool** | A **Boolean** indicating whether a desired **Object** is set to _visible_ or not. The default value is _true_. |
 
 ## Inputs
 
