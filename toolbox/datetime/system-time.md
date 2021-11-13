@@ -25,7 +25,7 @@ When `Smooth float value` is enabled, the output values won't be rounded down, s
 
 | Output | Type                | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the _logic branch_, once this **Node** has finished its execution. |
+| _Pulse Output_ \(►\) | **Pulse** | A standard output **Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Hour` | **Int**, **Float**, or **Vector3** \(_Determined by the_ `Mode` _**Attribute**_\). | The hour according to the system's current time. |
 | `Minute` | **Int**, **Float**, or **Vector3**  \(_Determined by the_ `Mode` _**Attribute**_\). | The minute according to the system's current time. |
 | `Second` | **Int**, **Float**, or **Vector3**  \(_Determined by the_ `Mode` _**Attribute**_\). | The second according to the system's current time. |
