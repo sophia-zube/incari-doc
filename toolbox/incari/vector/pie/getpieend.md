@@ -4,7 +4,7 @@
 
 ![The Get PieEnd Node.](../../../../.gitbook/assets/getpieend.png)
 
-The **Get PieEnd Node** returns the ending _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under _Vector_.
+The **Get PieEnd Node** returns the ending _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
 
