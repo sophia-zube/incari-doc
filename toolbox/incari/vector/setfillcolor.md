@@ -4,7 +4,7 @@
 
 ![The Set FillColor Node.](../../../.gitbook/assets/setfillcolor.png)
 
-The **Set FillColor Node** sets the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under _Vector_.
+The **Set FillColor Node** sets the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
 
