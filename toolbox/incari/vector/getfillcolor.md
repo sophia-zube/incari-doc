@@ -4,7 +4,7 @@
 
 ![The Get FillColor Node.](../../../.gitbook/assets/getfillcolor.png)
 
-The **Get FillColor Node** returns the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under _Vector_.
+The **Get FillColor Node** returns the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
 

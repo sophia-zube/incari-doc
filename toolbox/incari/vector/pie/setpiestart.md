@@ -4,7 +4,7 @@
 
 ![The Set PieStart Node.](../../../../.gitbook/assets/setpiestart.png)
 
-The **Set PieStart Node** sets the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under _Vector_.
+The **Set PieStart Node** sets the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
 
