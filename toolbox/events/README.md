@@ -6,7 +6,7 @@ Although many branches of **Logic** can be defined in **Incari's** **Logic Edito
 
 _Triggers_ can be thought of as being like announcements. A real-world example of a _trigger_ is a school teacher announcing that an exam's time limit has been reached. The other staff members and students are the _listeners_ in this case, whereby the **Event** occurring prompts the staff members to begin collecting exam papers, while students stop writing and put down their pencils.
 
-**Events** in **Incari** can be directly triggered by the user's input, as is the case with **Keyboard** and **Mouse Events**, or triggered automatically when something happens relating to an **Object**, **Variable**, **Scene**, or **Screen**. One of the most powerful aspects of **Incari's** **Events** is that you can can define your own custom _triggers_ and _listeners_, to establish the criteria under which one part of your **Logic** causes the execution of others.
+**Events** in **Incari** can be directly triggered by the user's input, as is the case with **Keyboard** and **Mouse Events**, or triggered automatically when something happens relating to an **Object**, **Variable**, **Scene**, or **Screen**. One of the most powerful aspects of **Incari's** **Events** is that you can even define your own custom _triggers_ and _listeners_, to establish the criteria under which one part of your **Logic** causes the execution of others.
 
 ## External Links
 
