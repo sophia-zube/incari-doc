@@ -78,7 +78,7 @@ The **Logic** in here is shared across the whole **Project**, as you might expec
 
 The chain starts with the **On Initialize** **Event** which fires when the **Incari** **Project** is run. Two functions are pulsed here: '**updateTimeVariables**' and '**initializeTime**'.
 
-'**updateTimeVariables**' **Functions**
+'**updateTimeVariables**' **Function**
 
 This **Function** gets the current time and sets the time **Variables** to the current system time. The seconds are saved as **Integer** values, while the minutes and hours are saved as **Float** values.
 
@@ -96,4 +96,16 @@ The '**initializeTime**' **Function** checks to see if the time has been initial
 
 ### 'Ticking Animation' Logic
 
-The '**Ticking Animation**' Logic is divided into several parts. The **Logic** Updates the Time Variables every 1s, Creates the Second Hand Ticking Movement, Converts Time Value to a Rotation Value for all Hands, and then finally Rotates the Clock Hand Images.  We will go into detail about how each of these parts works.  
+The '**Ticking Animation**' Logic is divided into several parts. The **Logic** updates the time **Variables** every 1s, creates the second hand ticking movement, converts time value to a _rotation_ value for all hands, and then finally rotates the clock hand images.  We will go into detail about how each of these parts works.  
+
+![]()
+
+**Update Time Variables**
+
+This part of the **Logic** runs only when the time has first been initialized.  Then, an **Interval** **Node** is triggered.  Every 1 second, the function '**updateTimeVariables**' will run, which will update the current '**Second**', '**Minute**', and '**Hour**' **Variables**.
+
+![]()
+
+**Create Second Hand Ticking Movement**
+
+![]()
