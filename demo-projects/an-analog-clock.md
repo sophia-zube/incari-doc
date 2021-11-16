@@ -2,7 +2,9 @@
 
 Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari**.
 
+
 Load up the '**AnalogClock**' project file from **Incari Hub**. The included **Scenes** are a version with a ticking animation and a basic one.
+
 
 Basic Version           |  Ticking Version
 :-------------------------:|:-------------------------:
@@ -10,15 +12,17 @@ Basic Version           |  Ticking Version
 
 ## 1. The Basic Version
 
+
 Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the **Project Outliner** look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the **Scene** looks.
+
 
 ![The **Project Outliner** with an active visibility toggle for the '**Basic Scene**'. ](../.gitbook/assets/clockoutliner.png)
 
-Now we can dive into how it works. In the top Menu bar, go to **View** -> **Logic Editor** if it isn't already visible. Double click '**Basic**' in the **Project Outliner** to load up the **Scene** **Logic**. Make sure the '**Basic**' tab is selected in the **Logic Editor** module- the **Project** **Logic** is explained later.
+Now we can dive into how it works. In the top Menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../getting-started/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module- the **Project** **Logic** is explained later.
 
 ![All **Logic** from the '**Basic**' tab in the **Logic Editor**.](../.gitbook/assets/clockbasiclogic.png)
 
-You'll see two major groups of **Nodes**, which don't appear to be connected. The left side handles the _data_ gathering part of our **Scene**. The right side takes this _data_ and updates the _User Interface_ (the clock face).
+You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../getting-started/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
 
 It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible. It makes things much easier to reason about in the long run!
 
@@ -28,17 +32,17 @@ Let's look a bit closer at how we've done this.
 
 ![Model **Logic** from the 'Basic' tab.](../.gitbook/assets/clock-modellogicbasic.png)
 
-When the **Scene** is displayed, we trigger a **Start Interval** **Node**. This takes a single **Pulse (►) Input** and creates a recurring **Pulse Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
+When the [**Scene**](../getting-started/project-objects/scene.md) is displayed, we trigger a [**Start Interval**](../toolbox/utilities/interval/startinterva.md) **Node**. This takes a single [**Pulse**](../modules/logic-editor.md#pulse) **(►) Input** and creates a recurring [**Pulse**](../modules/logic-editor.md#pulse) **Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
 
-In this case, we have set the **Interval** to retrigger _System Time_ every `0.1` seconds (see the `Timeout` **Attribute**).
+In this case, we have set [**Start Interval**](../toolbox/utilities/interval/startinterva.md) to retrigger _System Time_ every `0.1` seconds (see the `Timeout` **Attribute**).
 
 ![Start Interval Node and Attributes](../.gitbook/assets/clock-startinterval.png)
 
-The **System Time** **Node** outputs hour, minute, second, and millisecond values separately in a variety of formats. By default, it will just give the current time in whole-number values. We have chosen the built-in _degree_ values in this case, which will handily convert the time value to a _rotation_ value that we can use to drive the _interface_.
+The [**System Time**](../toolbox/datetime/system-time.md) **Node** outputs hour, minute, second, and millisecond values separately in a variety of formats. By default, it will just give the current time in whole-number values. We have chosen the built-in _degree_ values in this case, which will handily convert the time value to a _rotation_ value that we can use to drive the _interface_.
 
 ![System Time Node and Attributes](../.gitbook/assets/clock-systemtimenode.png)
 
-Every time it is triggered, it will update the values stored in its **Outputs** (square green Sockets). We read these values sequentially and store them in separate **Variables** using three **Set Variable** **Nodes**, one for each clock hand.
+Every time it is triggered, it will update the values stored in its **Outputs** (square green Sockets). We read these values sequentially and store them in separate **Variables** using three **Variable Setter** **Nodes**, one for each clock hand.
 
 ![Setting the time Variables.](../.gitbook/assets/clock-timevariablestimesetting.png)
 
