@@ -109,3 +109,47 @@ This part of the **Logic** runs only when the time has first been initialized.  
 **Create Second Hand Ticking Movement**
 
 ![]()
+
+Whenever the '**currentSecond**' **Variable** changes, that new value is used to calculate the starting and ending position of the second hand when it ticks.  The starting position of the hand is the current time, and the ending position is the current time `+ 1`. The **Interpolate** **Node** is used to output a smooth transition from one number to the next across a period of time.  This is what will animate the hand to make it “tick".
+
+The **Interpolate** **Node** has a few different **Attributes** that we can tweak to achieve a certain look.
+
+`Duration` - how long the interpolation takes.
+
+`Interval Time` - how long each sub-unit of time is. For example, if we have a duration of 10 seconds and an interval time of 1 second, then **Interpolate** will output 10 values across 10 seconds:
+
+`1, 2, 3, 4, 5, 6, 7, 8, 9, 10.`
+
+Half the interval time outputs twice as many numbers in the same duration:
+
+`1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0.`
+
+`From` - the value we start from. In this case the current second - 1 (the previous second).
+
+`To` - the value we end at (the current time).
+
+There is also the `Interpolation Type`, which will give you the option for _non-linear easing_. For example you might want the hand to start slow and speed up. The best way to understand the difference is to experiment with the settings.
+
+![]()
+
+**Convert Time Value to a Rotation Value for all Hands**
+
+![]()
+
+For each, the seconds, minutes, and hours, the time value is remapped to a _Rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This **Function** takes the time value, remaps the value using a **Range Mapper** **Node**, and converts those values to a **Vector3** value.
+
+![]()
+
+The **Range Mapper** **Node** needs a maximum value of the time, meaning the number that equals 1 full revolution around the clockface.  (seconds = 60;  minutes = 60;  hours = 12).  It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle).  This gives the degree of rotation for the current time.
+
+![]()
+
+**Rotates the Clock Hand Images**
+
+![]()
+
+Now that the time values have been converted to _Rotation_ values, we can use those values to set the _Rotation_ of each clock hand image using a **Set Rotation** **Node**.  
+
+Save and run the **Project** to see the ticking clock!
+
+![]()
