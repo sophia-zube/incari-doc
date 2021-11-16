@@ -2,7 +2,7 @@
 
 Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari**.
 
-Load up the '**Analog Clock**' project file from **Incari Hub**. The included **Scenes** are a version with a ticking animation and a basic one.
+Load up the '**AnalogClock**' project file from **Incari Hub**. The included **Scenes** are a version with a ticking animation and a basic one.
 
 Basic Version           |  Ticking Version
 :-------------------------:|:-------------------------:
@@ -10,7 +10,7 @@ Basic Version           |  Ticking Version
 
 ## 1. The Basic Version
 
-Open the '**AnalogueClock**' project from the **Incari Hub** _Remote Projects_ tab. In the **Project Outliner** look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the **Scene** looks.
+Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the **Project Outliner** look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the **Scene** looks.
 
 ![The **Project Outliner** with an active visibility toggle for the '**Basic Scene**'. ](../.gitbook/assets/clockoutliner.png)
 
@@ -112,23 +112,23 @@ This part of the **Logic** runs only when the time has first been initialized.  
 
 Whenever the '**currentSecond**' **Variable** changes, that new value is used to calculate the starting and ending position of the second hand when it ticks.  The starting position of the hand is the current time, and the ending position is the current time `+ 1`. The **Interpolate** **Node** is used to output a smooth transition from one number to the next across a period of time.  This is what will animate the hand to make it “tick".
 
-The **Interpolate** **Node** has a few different **Attributes** that we can tweak to achieve a certain look.
+The **Interpolate** **Node** has a few different **Attributes** that we can tweak to achieve a certain look:
 
-`Duration` - how long the interpolation takes.
+* `Duration` - how long the interpolation takes.
 
-`Interval Time` - how long each sub-unit of time is. For example, if we have a duration of 10 seconds and an interval time of 1 second, then **Interpolate** will output 10 values across 10 seconds:
+* `Interval Time` - how long each sub-unit of time is. For example, if we have a duration of 10 seconds and an interval time of 1 second, then **Interpolate** will output 10 values across 10 seconds:
 
-`1, 2, 3, 4, 5, 6, 7, 8, 9, 10.`
+    `1, 2, 3, 4, 5, 6, 7, 8, 9, 10.`
 
-Half the interval time outputs twice as many numbers in the same duration:
+    Half the interval time outputs twice as many numbers in the same duration:
 
-`1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0.`
+    `1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0.`
 
-`From` - the value we start from. In this case the current second - 1 (the previous second).
+* `From` - the value we start from. In this case the current second - 1 (the previous second).
 
-`To` - the value we end at (the current time).
+* `To` - the value we end at (the current time).
 
-There is also the `Interpolation Type`, which will give you the option for _non-linear easing_. For example you might want the hand to start slow and speed up. The best way to understand the difference is to experiment with the settings.
+* There is also the `Interpolation Type`, which will give you the option for _non-linear easing_. For example you might want the hand to start slow and speed up. The best way to understand the difference is to experiment with the settings.
 
 ![](../.gitbook/assets/clock-interpolation.png)
 
