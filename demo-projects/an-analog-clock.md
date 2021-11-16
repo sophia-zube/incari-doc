@@ -138,7 +138,7 @@ There is also the `Interpolation Type`, which will give you the option for _non-
 
 For each, the seconds, minutes, and hours, the time value is remapped to a _Rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This **Function** takes the time value, remaps the value using a **Range Mapper** **Node**, and converts those values to a **Vector3** value.
 
-![convertTimetoRotation Function.](../.gitbook/assets/clock-clock-converttimefunction.png)
+![convertTimetoRotation Function.](../.gitbook/assets/clock-converttimefunction.png)
 
 The **Range Mapper** **Node** needs a maximum value of the time, meaning the number that equals 1 full revolution around the clockface.  (seconds = 60;  minutes = 60;  hours = 12).  It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle).  This gives the degree of rotation for the current time.
 
