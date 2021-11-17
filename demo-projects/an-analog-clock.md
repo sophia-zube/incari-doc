@@ -3,7 +3,7 @@
 Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari**.
 
 
-Load up the '**AnalogClock**' project file from **Incari Hub**. The included **Scenes** are a version with a ticking animation and a basic one.
+Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**Scenes**](../getting-started/project-objects/scene.md) are a version with a ticking animation and a basic one.
 
 
 Basic Version           |  Ticking Version
@@ -13,7 +13,7 @@ Basic Version           |  Ticking Version
 ## 1. The Basic Version
 
 
-Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the **Project Outliner** look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the **Scene** looks.
+Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the [**Project Outliner**](../modules/project-outliner.md) look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the [**Scene**](../getting-started/project-objects/scene.md) looks.
 
 
 ![The **Project Outliner** with an active visibility toggle for the '**Basic Scene**'. ](../.gitbook/assets/clockoutliner.png)
