@@ -29,5 +29,5 @@ The **Get Position Pixel Node** returns the X and Y values of a **2D Object's** 
 ## See Also
 
 * [**Get Rotation 2D**](get-rotation-pixel.md)
-* [**Get Size Pixel_**](get-size-pixel.md)
+* [**Get Size Pixel**](get-size-pixel.md)
 
