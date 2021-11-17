@@ -36,7 +36,7 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 
 ## See Also
 
-* [**4 Methods of Animation**](https://docs.incari.com/incari-studio/v/2021.4/demo-projects/4-methods-of-animation)
+* [**4 Methods of Animation**](https://docs.incari.com/incari-studio/v/2021.4/demo-projects/4-methods-of-animation#3.-image-sequence)
 * [**Pause ImageSequence**](pauseimagesequence.md)
 * [**Stop ImageSequence**](stopimagesequence.md)
 * [**Resume ImageSequence**](resumeimagesequence.md)
