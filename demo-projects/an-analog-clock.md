@@ -50,11 +50,11 @@ By storing into these **Variables**, we can achieve the decoupling between _data
 
 ### View Logic
 
-Using an **On Change Event** **Node** for each **Variable** will allow us to trigger an update on each clock hand only when needed. 
+Using an [**On Change Event**](../toolbox/events/variables/on-variable-change.md) **Node** for each **Variable** will allow us to trigger an update on each clock hand only when needed. 
 
 ![](../.gitbook/assets/clock-basicviewlogic.png)
 
-Finally, we pass the **Variable** value and the trigger from the **On Change** **Nodes** to three **Set Rotation** **Nodes** configured to point to each clock hand image layer.
+Finally, we pass the **Variable** value and the trigger from the [**On Change**](../toolbox/events/variables/on-variable-change.md) **Nodes** to three [**Set Rotation**](../toolbox/incari/object/set-rotation.md) **Nodes** configured to point to each clock hand image layer.
 
 That's it for how the basic example works under the hood.
 
@@ -64,15 +64,15 @@ Save and run the project to see the basic clock!
 
 ## 2. The Ticking Version
 
-But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be tweaked to our needs. In order to manage this complexity, we'll also introduce the concept of **Functions** in **Incari**.
+But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be tweaked to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/README.md) in **Incari**.
 
 ![](../.gitbook/assets/clock-tickingversion.gif)
 
-From the **Project Outliner**, double click the **Scene** named ‘**Ticking Animation**'.
+From the [**Project Outliner**](../modules/project-outliner.md), double click the [**Scene**](../getting-started/project-objects/scene.md) named ‘**Ticking Animation**'.
 
 ![](../.gitbook/assets/clocl-outlinerticking.png)
 
-This **Scene** is split across two tabs on the **Logic Editor**: The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
+This [**Scene**](../getting-started/project-objects/scene.md) is split across two tabs on the [**Logic Editor**](../modules/logic-editor.md): The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
 
 ### 'Project' tab Logic
 
@@ -84,17 +84,17 @@ The chain starts with the **On Initialize** **Event** which fires when the **Inc
 
 '**updateTimeVariables**' **Function**
 
-This **Function** gets the current time and sets the time **Variables** to the current system time. The seconds are saved as **Integer** values, while the minutes and hours are saved as **Float** values.
+This [**Function**](../toolbox/functions/README.md) gets the current time and sets the time **Variables** to the current _system time_. The seconds are saved as [**Integer**](../getting-started/data-types/int.md) values, while the minutes and hours are saved as [**Float**](../getting-started/data-types/float.md) values.
 
 ![updateTimeVariables Function.](../.gitbook/assets/clock-updatetimevariables.png)
 
-We also check the option to output the values for the hours and minutes as smooth **Float** values. This is because the hours and minutes will be positioned in between the positions on the clockface, as they do on a real clock.
+We also check the option to output the values for the hours and minutes as smooth [**Float**](../getting-started/data-types/float.md) values. This is because the hours and minutes will be positioned in between the positions on the clockface, as they do on a real clock.
 
 ![](../.gitbook/assets/clock-systemtimenode2.png)
 
 '**initializeTime**' **Function**
 
-The '**initializeTime**' **Function** checks to see if the time has been initialized and sets the '**timeInitialized**' boolean value to _true_.  
+The '**initializeTime**' **Function** checks to see if the time has been initialized and sets the '**timeInitialized**' [**Boolean**](../getting-started/data-types/bool.md) value to _true_.  
 
 ![](../.gitbook/assets/clock-initializetimefunction.png)
 
@@ -106,7 +106,7 @@ The '**Ticking Animation**' Logic is divided into several parts. The **Logic** u
 
 **Update Time Variables**
 
-This part of the **Logic** runs only when the time has first been initialized.  Then, an **Interval** **Node** is triggered.  Every 1 second, the function '**updateTimeVariables**' will run, which will update the current '**Second**', '**Minute**', and '**Hour**' **Variables**.
+This part of the **Logic** runs only when the time has first been initialized.  Then, a [**Start Interval**](../toolbox/utilities/interval/startinterval.md) **Node** is triggered.  Every 1 second, the **Function** '**updateTimeVariables**' will run, which will update the current '**Second**', '**Minute**', and '**Hour**' **Variables**.
 
 ![](../.gitbook/assets/clock-updatetime2.png)
 
