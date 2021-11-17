@@ -42,7 +42,7 @@ The [**System Time**](../toolbox/datetime/system-time.md) **Node** outputs hour,
 
 ![System Time Node and Attributes](../.gitbook/assets/clock-systemtimenode.png)
 
-Every time it is triggered, it will update the values stored in its **Outputs** (square green Sockets). We read these values sequentially and store them in separate **Variables** using three **Variable Setter** **Nodes**, one for each clock hand.
+Every time it is triggered, it will update the values stored in its **Outputs** (square green Sockets). We read these values sequentially and store them in separate **Variables** using three [**Variable Setter**](../toolbox/variables/variable-setter.md) **Nodes**, one for each clock hand.
 
 ![Setting the time Variables.](../.gitbook/assets/clock-timevariablestimesetting.png)
 
