@@ -29,7 +29,7 @@ The **Conversion Node** allows the user to convert one **Data Type** into anothe
 
 ## See Also
 
-* [**Data Types**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/data-types)
-* [**Attribute Types**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/attributes/attribute-types)
-* [**Common Attributes**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/getting-started/attributes/common-attributes)
+* [**Data Types**](../../getting-started/data-types/README.md)
+* [**Attribute Types**](../../getting-started/attributes/attribute-types/README.md)
+* [**Common Attributes**](../../getting-started/attributes/common-attributes/README.md)
 
