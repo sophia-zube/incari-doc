@@ -30,6 +30,6 @@ The **Conversion Node** allows the user to convert one **Data Type** into anothe
 ## See Also
 
 * [**Data Types**](https://docs.incari.com/incari-studio/getting-started/data-types)
-* [**Attribute Types**](https://docs.incari.com/incari-studio/getting-started/attributes)
+* [**Attribute Types**](https://docs.incari.com/incari-studio/getting-started/attributes/attribute-types)
 * [**Common Attributes**](https://docs.incari.com/incari-studio/getting-started/attributes/common-attributes)
 
