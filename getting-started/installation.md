@@ -34,7 +34,7 @@ For installation and licensing, please follow these steps:
 
 * Use the license key to activate your subscription in **Incari Hub**.
 
-![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license.png)
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license2.png)
 
 At the moment **Incari** relies on the Windows SDK that comes with Visual Studio (free version).
 So the user also needs to install the Visual Studio 2019 Community Edition (Desktop Development C++ setup), start it once and create a profile.
