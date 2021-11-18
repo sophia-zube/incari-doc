@@ -20,11 +20,11 @@ For installation and licensing, please follow these steps:
 
 ![](../.gitbook/assets/incari-install1.png)
 
-* Press on `Install New`. Here you will see the available versions of **Incari Studio** to install.
+* Press on "Install New". Then you will see the available versions of **Incari Studio** to install.
 
 ![](../.gitbook/assets/incari-install2.png)
 
-* To install **Incari Studio** 2021.4, press on the plus (\(+\)) sign and the download will start.
+* To install **Incari Studio** 2021.4, press on the plus \(+\) sign and the download will start.
 
 * After the download is finished, the install window for **Incari Studio** 2021.4 will open. Click "Next" to proceed and go through the installation process.
 
