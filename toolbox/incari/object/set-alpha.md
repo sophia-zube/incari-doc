@@ -4,7 +4,7 @@
 
 ![The Set Alpha Node.](../../../.gitbook/assets/set-alpha.PNG)
 
-**Set Alpha** sets the value of a specified **Object**'s `Alpha` **Attribute** .
+**Set Alpha** sets the value of a specified **Object's** `Alpha` **Attribute** .
 
 The **Set Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md), and [**Text**](../../../getting-started/scene-objects/text.md).
 
@@ -21,7 +21,7 @@ The **Set Alpha** **Node** only works with **Objects** that have **Attributes** 
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the **Object** whose `Alpha` value you would like to set. |
-| `Alpha` | **Float** | The desired value of the **Object**'s `Alpha` **Attribute**. |
+| `Alpha` | **Float** | The desired value of the **Object's** `Alpha` **Attribute**. |
 
 ## Outputs
 
