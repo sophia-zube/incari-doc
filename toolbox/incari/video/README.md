@@ -7,8 +7,9 @@ The **Video Nodes** provide a way to incorporate video files in the **Logic Edit
 ## Contents
 
 * [**Is Video Playing**](isvideoplaying.md)
+* [**Pause Video**](pausevideo.md)
 * [**Play Video**](playvideo.md)
 * [**Seek Video**](seekvideo.md)
 * [**Stop Video**](stopvideo.md)
-* [**Pause Video**](pausevideo.md)
+
 
