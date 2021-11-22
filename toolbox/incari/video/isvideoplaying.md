@@ -4,7 +4,7 @@
 
 ![The Is Video Playing Node.](../../../.gitbook/assets/isvideoplaying.png)
 
-**Is Video Playing** is a _video_ **Node** returning a boolean value, depending on whether the selected video is playing or not.
+**Is Video Playing** is a video **Node** returning a **Boolean** value, depending on whether the selected video is playing or not.
 
 ## Attributes
 
