@@ -284,7 +284,7 @@
     * [Pause Video](toolbox/incari/video/pausevideo.md)
     * [Play Video](toolbox/incari/video/playvideo.md)
     * [Seek Video](toolbox/incari/video/seekvideo.md)
-    * [Pause Video](toolbox/incari/video/pausevideo.md)
+    * [Stop Video](toolbox/incari/video/stopvideo.md)
 * [IO](toolbox/io/README.md)
   * [Load File](toolbox/io/loadfile.md)
   * [Save File](toolbox/io/savefile.md)
