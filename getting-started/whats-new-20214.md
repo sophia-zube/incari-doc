@@ -4,25 +4,19 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
 
 * **New Incari Hub**
   
-    The updated **Incari Hub** now serves as a central access point to install the latest **Incari** software.
-
-* **Integration with Third-Party Software**
-  
-    **Incari** now lets users incorporate several third-party software into their **Projects** that encompass different categories. These include math libraries ([*Eigen*](https://eigen.tuxfamily.org/index.php?title=Main_Page) and [*GLM*](https://github.com/g-truc/glm)), an **MQTT** message broker ([*Mosquitto*](http://mosquitto.org/)), **HTTP** clients ([*cpp-httplib*](https://github.com/yhirose/cpp-httplib) and [*civetweb*](http://civetweb.github.io/civetweb/)), an **HTTP** server ([*civetweb*](http://civetweb.github.io/civetweb/)), *websocket* ([*civetweb*](http://civetweb.github.io/civetweb/)), and a *Javascript* library for web applications ([*SocketIO*](https://socket.io/)). These integrations improve the capabilities of **Incari Projects** and provide further functionality with a little boost from other software. 
+    The updated **Incari Hub** now serves as a central access point to all **Incari** products. It allows to install the latest versions of **Incari** software and obtain [**Demo Projects**](../demo-projects/overview.md) to get started with **Incari**. 
 
 * **Performance Improvements**
   
-    A few simple performance improvements have been added to the newest version of **Incari**. The user can now export a **Project** as a single `.zip` file, binarize a **Project** to export, as well as take advantage of the enhanced rendering engine performance. These will help strengthen the **Incari** experience. 
-
-* **Compiler in Command Line Interface \(version 2\)**
-
-    In the previous version, the **Logic** of a **Project** could be compiled directly from the command line. This allowed to then directly run a **Project** in **Incari Player** without having to open the **Project** in **Incari Studio**. This remains the same, except now it is also possible to generate code on save. 
-
-    To reiterate, the command to compile the **Logic** of a **Project** is: `IncariCLI.exe /p="<project-path>"`.
+    A few simple performance improvements have been added to the newest version of **Incari**. The user can now binarize a **Project** to export, as well as take advantage of the enhanced rendering engine performance. These will help strengthen the **Incari** experience. 
 
 * **Serial Communication**
   
-    **Incari** now allows communication through a channel or bus with USB and GPS devices such as a GPS mouse. The **Serial Communication Settings** can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). Additionally, there are new **Serial Communication Nodes**:
+    Communication via serial interfaces has been introduced for this new version. **Incari** can now receive and process all data that is received serial bus. This allows to directly use GPS mice, IR controllers, proximity sensors, temperature sensors, etc.
+    
+    In **Incari**, the **Serial Communication Settings** can be found in the **Project Settings** after clicking the **Project** Menu at the top. More information can be found [here](https://docs.incari.com/2021.4/modules/project-settings#serial). 
+    
+    Additionally, there are new **Serial Communication Nodes**:
 
     * [**On Serial Error**](../toolbox/communication/serial/events/onserialerror.md)
     * [**On Serial Packet Receive**](../toolbox/communication/serial/events/onserialpacketreceive.md) 
@@ -64,4 +58,4 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
     * [**On-Screen Keyboard Clear Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardclearinput.md)
     * [**On-Screen Keyboard Get Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardgetinput.md)
     * [**On-Screen Keyboard Move Selection**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardmoveselection.md)
-    *  [**On-Screen Keyboard Press Button**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardpressbutton.md)
+    * [**On-Screen Keyboard Press Button**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardpressbutton.md)
