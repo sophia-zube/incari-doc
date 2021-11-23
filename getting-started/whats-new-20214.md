@@ -58,4 +58,4 @@ Many new features have been added to the release of **Incari Studio** 2021.4. He
     * [**On-Screen Keyboard Clear Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardclearinput.md)
     * [**On-Screen Keyboard Get Input**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardgetinput.md)
     * [**On-Screen Keyboard Move Selection**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardmoveselection.md)
-    *  [**On-Screen Keyboard Press Button**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardpressbutton.md)
+    * [**On-Screen Keyboard Press Button**](../toolbox/incari/on-screenkeyboard/onscreenkeyboardpressbutton.md)
