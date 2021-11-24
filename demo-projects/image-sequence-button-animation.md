@@ -4,11 +4,11 @@
 
 This simple button animation uses the **Image Sequence** feature to create an interactive, animated button. When the mouse hovers over the button, the button animates to a half-pressed state.  When the mouse moves off of the button, the button returns to the original unpressed state.  When the mouse is pressed, the button animates to a fully pressed state and returns to the original unpressed state upon release.
 
-![Unpressed state (frame 0).]()
+![Unpressed state (frame 0).](../.gitbook/assets/demoimgsq-unpressed.png)
 
-![Half-pressed state (frame 5).]()
+![Half-pressed state (frame 5).](../.gitbook/assets/demoimgsq-halfpressed.png)
 
-![Fully pressed state (frame 10).]()
+![Fully pressed state (frame 10).](../.gitbook/assets/demoimgsq-fullypressed.png)
 
 ## Image Sequences
 
@@ -18,13 +18,13 @@ Files of the `.incseq` type are **Image Sequences**. To open the file, simply do
 
 To create this type of file, simply right-click in the **Asset Manager** and select "Create Asset > Image Sequence". Then double-click it to open the **Image Sequence Editor**, drag the images into it directly from the **Asset Manager**, and then click the save icon to save it.
 
-![Image Sequence Editor.]()
+![Image Sequence Editor.](../.gitbook/assets/demoimgsq-imagesequenceeditor.png)
 
 ## Logic
 
-![Root Logic.]()
+![Root Logic.](../.gitbook/assets/demoimgsq-rootlogic.png)
 
-![Stop Image Sequence Custom Function.]()
+![Stop Image Sequence Custom Function.](../.gitbook/assets/demoimgsq-stopimagefunction.png)
 
 
 ## All Nodes
@@ -55,17 +55,17 @@ We will use the green Group **'On Mouse Enter'** to explain how the **Logic** of
 
 ## 'On Mouse Enter' Group
 
-![On Mouse Enter.]()
+![On Mouse Enter.](../.gitbook/assets/demoimgsq-onmouseenter.png)
 
 ## On Mouse Enter Event Node
 
 The first **Node** in the **Logic** is the **On Mouse Enter Event** **Node**. This means that when the mouse enters the area of the designated **Object**, the **Pulse** is fired.  In this case, the **Object** designated in the **Node** **Attributes** is the **Button ImageSequence Sprite** **Object**.  You can designate an **Object** by dragging the **Object** from the **Scene Editor** into the **Node Attributes** of the **Event Node**.
 
-![]()
+![](../.gitbook/assets/demoimgsq-onmouseenterattr.png)
 
 ## Custom Function Node
 
-![]()
+![](../.gitbook/assets/demoimgsq-customfunctionnode.png)
 
 The next **Node** in the **Logic** is the **Custom Function** **Node**. This **Function** takes the input of the **Image Sequence Sprite** **Object** (**'Button'**) as an **Object ID**, gets the current frame of the **Image Sequenc**e with the **Get Current ImageSequence Frame** **Node**, stops the **Image Sequence** with a **Stop ImageSequence** **Node**, and outputs the last shown frame of the **Image Sequence** before it was stopped.
 
@@ -73,7 +73,7 @@ It is important to save the last shown frame of the **Image Sequence** before th
 
 Without using the last shown frame as the new starting frame, the **Image Sequence** always plays from the beginning (the original starting frame set in the **Play imageSequence** **Node**).  This is not ideal if the button has been clicked too fast or the mouse has gone in and out of the object area faster than the time it takes for the **Image Sequence** animation to play through fully.  Without this **Custom Function**, the animation may jump instead of always smoothly moving through the frames in the correct order.
 
-![Play ImageSequence Node Attributes]()
+![Play ImageSequence Node Attributes](../.gitbook/assets/demoimgsq-playimageattr.png)
 
 ## Play ImageSequence Node
 
@@ -83,19 +83,21 @@ For the **On Mouse Enter** event, we want the button to go from an unpressed but
 
 ## 'On Mouse Leave' Group
 
+![](../.gitbook/assets/demoimgsq-onmouseleave.png)
+
 For the **'On Mouse Exit'** group, we trigger the **Logic** with the **On Mouse Leave Event** **Node**. Here, the **Image Sequence** will show the button returning to the unpressed state from the half-pressed state it is currently in.  The same start and end frame from the **'On Mouse Enter'** group are used, but this time the `PlayDirection` is set to Backward so it plays in descending order (5,4,3,2,1,0).
 
-![Play ImageSequence Node for Mouse Leave]()
+![Play ImageSequence Node for Mouse Leave](../.gitbook/assets/demoimgsq-playonmouseleave.png)
 
 ## 'On Mouse Press' Group
 
-![]()
+![](../.gitbook/assets/demoimgsq-onmousepress.png)
 
 For the **'On Mouse Down'** group, we trigger the **Logic** with the **On Mouse Button Down** **Event Node**. Here, the **Image Sequence** will show the button going to the fully pressed state when the mouse button is pressed down. This time, the starting frame is set to 0 (unpressed state) and the end frame is set to 10 (fully pressed state). The `PlayDirection` is set to Forward.  Remember that the start frame will not actually start at 0 and will always start from the last current frame.  Since the mouse must enter the area of the button to click it, the starting frame will likely be set to 5 by the logic while the project is playing.
 
 ## 'On Mouse Release' Group
 
-![]()
+![](../.gitbook/assets/demoimgsq-onmouserelease.png)
 
 For the **'On Mouse Up'** group, we trigger the **Logic** with the **On Mouse Button Up** **Event Node**. Here, the **Image Sequence** will show the button going fully back up to the unpressed state when the mouse button is released back up. The starting frame is also set to 0 and the end frame is set to 10, but this time the `PlayDirection` is set to Backward. Remember that the start frame will not actually reach the last frame of 0 if the mouse is still hovering over the button.
 
