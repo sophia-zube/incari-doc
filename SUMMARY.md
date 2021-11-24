@@ -8,6 +8,7 @@
 * [4 Methods of Animation](demo-projects/4-methods-of-animation.md)
 * [Using APIs to Pull Dynamic Data](demo-projects/using-apis-to-pull-dynamic-data.md)
 * [An Analog Clock](demo-projects/an-analog-clock.md)
+* [Image Sequence Button Animation](demo-projects/image-sequence-button-animation.md)
 
 ## Getting Started
 
