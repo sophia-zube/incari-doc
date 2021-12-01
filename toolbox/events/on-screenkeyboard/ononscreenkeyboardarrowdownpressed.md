@@ -2,18 +2,13 @@
 
 ![The On On-Screen Keyboard Arrow Down Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardarrowdownpressed.png)
 
-**On On-Screen Keyboard Arrow Down Pressed** .
+The **On On-Screen Keyboard Arrow Down Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the `Down` key on the **On-Screen Keyboard** is pressed.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object` | **ObjectID** | The desired **On-Screen Keyboard**. |
 
 # Outputs
 
@@ -23,5 +18,7 @@
 
 # See Also
 
-# External Links
-
+* [**On On-Screen Keyboard Enter Pressed**](on-onscreen-keyboard-enter-pressed.md)
+* [**On On-Screen Keyboard Input Changed**](on-onscreen-keyboard-input-changed.md)
+* [**On On-Screen Keyboard Arrow Up Pressed**](ononscreenkeyboardarrowuppressed.md)
+* [**On On-Screen Keyboard Key Pressed**](ononscreenkeyboardpressed.md)
