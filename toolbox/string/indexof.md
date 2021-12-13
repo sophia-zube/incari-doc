@@ -2,7 +2,7 @@
 
 ![The Indexof Node.]()
 
-**Indexof** .
+The **Indexof** **Node** returns the index of the first appearance of a *substring* in a **String** .
 
 # Attributes
 
@@ -23,5 +23,8 @@
 
 # See Also
 
+* [**LastIndexOf**](lastindexof.md)
+
 # External Links
 
+* [*Substring*](https://en.wikipedia.org/wiki/Substring) on Wikipedia.

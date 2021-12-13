@@ -2,7 +2,7 @@
 
 ![The LastIndexOf Node.]()
 
-**LastIndexOf** .
+The **LastIndexOf** **Node** returns the index of the last appearance .
 
 # Attributes
 
@@ -23,5 +23,8 @@
 
 # See Also
 
+* [**IndexOf**](indexof.md)
+
 # External Links
 
+* [*Substring*](https://en.wikipedia.org/wiki/Substring) on Wikipedia.
