@@ -1,8 +1,8 @@
 # Overview
 
-![The Trimright Node.]()
+![The TrimRight Node.]()
 
-**Trimright** .
+The **TrimRight** **Node** trims a chosen number of characters from the right side of a **String**. It receives the **String** to trim and outputs the trimmed **String**.
 
 # Attributes
 
@@ -22,6 +22,9 @@
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
 # See Also
+
+* [**TrimLeft**](trimleft.md)
+* [**Trim**](trim.md)
 
 # External Links
 
