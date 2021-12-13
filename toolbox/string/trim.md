@@ -2,7 +2,7 @@
 
 ![The Trim Node.]()
 
-**Trim** .
+The **Trim** **Node** trims a **String** from both the left and right sides.
 
 # Attributes
 
@@ -22,6 +22,9 @@
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
 # See Also
+
+* [**TrimLeft**](trimleft.md)
+* [**TrimRight**](trimright.md)
 
 # External Links
 
