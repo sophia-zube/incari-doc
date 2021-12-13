@@ -9,6 +9,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Compare**](compare.md)
 * [**Concat Strings**](concatstrings.md)
 * [**Contains**](contains.md)
+* [**Ends With**](endswith.md)
 * [**JSON Parse**](jsonparse.md)
 * [**JSON Stringify**](jsonstringify.md)
 * [**Length**](length.md)
@@ -16,6 +17,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**ReplaceRegex**](replaceregex.md)
 * [**Replace**](replace.md)
 * [**Split**](split.md)
+* [**Starts With**](startswith.md)
 * [**String Value**](stringvalue.md)
 * [**Upper**](upper.md)
 
