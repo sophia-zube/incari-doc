@@ -1,8 +1,8 @@
 # Overview
 
-![The Islower Node.]()
+![The IsLower Node.](need image)
 
-**Islower** .
+The **IsLower Node** checks if a **String** is lowercase and returns a **Bool** of either *True* or *False*.
 
 # Attributes
 
