@@ -20,6 +20,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**LastIndexOf**](lastindexof.md)
 * [**Length**](length.md)
 * [**Lower**](lower.md)
+* [**IsLower**](islower.md)
 * [**Match Regex**](match-regex.md)
 * [**PaddingLeft**](paddingleft.md)
 * [**PaddingRight**](paddingright.md)
@@ -33,4 +34,5 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**TrimRight**](trimright.md)
 * [**Trim**](trim.md)
 * [**Upper**](upper.md)
+* [**IsUpper**](isupper.md)
 
