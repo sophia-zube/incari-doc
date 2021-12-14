@@ -1,8 +1,8 @@
 # Overview
 
-![The Isupper Node.]()
+![The IsUpper Node.](need photo)
 
-**Isupper** .
+The **Is Upper Node** checks if a **String** is uppercase and returns a **Bool** of either *True* or *False*.
 
 # Attributes
 
