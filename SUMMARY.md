@@ -389,6 +389,7 @@
   * [Conversion](toolbox/utilities/conversion.md)
   * [Create CustomID](toolbox/utilities/createcustomid.md)
   * [Create Object](toolbox/utilities/create-object.md)
+  * [Get Command Line Option](toolbox/utilities/get-command-line-option.md)
   * [Group](toolbox/utilities/group.md)
   * [Interval](toolbox/utilities/interval/README.md)
     * [Reset Interval](toolbox/utilities/interval/resetinterval.md)
