@@ -4,6 +4,8 @@
 
 The **Create Object** **Node** creates [**Scene Objects**](../../getting-started/scene-objects/README.md) of a chosen **Object Type**.
 
+In the **Attributes** it can be chosen the **Object Type** to create and the output is the **ObjectID** of the newly created **Object** and a **Bool** value indicating wheter the creation of the **Object** was successful or not.
+
 # Attributes
 
 ## Object Type
@@ -17,7 +19,7 @@ The **Create Object** **Node** creates [**Scene Objects**](../../getting-started
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Parent ID` | **ObjectID** | |
+| `Parent ID` | **ObjectID** | **ObjectID** of a **Group** that the newly created **Object** will be part of. |
 | `is 2D` | **Bool** | Wheter the newly created **Object** will be *2D* or *3D*. |
 
 # Outputs
