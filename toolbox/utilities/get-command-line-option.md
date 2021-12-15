@@ -30,6 +30,6 @@ The **Get Command Line Option** **Node** allows to obtain the command-line argum
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Option Value` | _Defined in the `Option Type` **Attribute**_ | |
+| `Option Value` | _Defined in the `Option Type` **Attribute**_ | The value of the option given in the command-line. |
 | `OnError` (►) | **Pulse** | A **Pulse** that will be triggered if there is an error in retrieving the arguments from the command-line. |
 
