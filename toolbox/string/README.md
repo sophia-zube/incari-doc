@@ -6,6 +6,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 
 ## Contents
 
+* [**Capitalize**](capitalize.md)
 * [**CharCodeAt**](charcodeat.md)
 * [**Compare**](compare.md)
 * [**Concat Strings**](concatstrings.md)
@@ -15,6 +16,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Flatten**](flatten.md)
 * [**Format**](format.md)
 * [**IndexOf**](indexof.md)
+* [**Join**](join.md)
 * [**JSON Parse**](jsonparse.md)
 * [**JSON Stringify**](jsonstringify.md)
 * [**LastIndexOf**](lastindexof.md)
@@ -25,6 +27,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**PaddingLeft**](paddingleft.md)
 * [**PaddingRight**](paddingright.md)
 * [**ReplaceRegex**](replaceregex.md)
+* [**Random**](random.md)
 * [**Replace**](replace.md)
 * [**Reverse**](reverse.md)
 * [**Split**](split.md)
