@@ -2,7 +2,7 @@
 
 ![The Capitalize Node.]()
 
-**Capitalize** .
+The **Capitalize Node** capitalizes a **String**, converting the first character to uppercase.
 
 # Attributes
 
