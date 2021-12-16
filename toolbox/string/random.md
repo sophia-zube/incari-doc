@@ -2,7 +2,7 @@
 
 ![The Random Node.]()
 
-**Random** .
+**Random Node** returns a random **String**. The length can be specified by the user.
 
 # Attributes
 
