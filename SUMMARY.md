@@ -372,7 +372,7 @@
   * [Length](toolbox/string/length.md)
   * [Lower](toolbox/string/lower.md)
   * [IsLower](toolbox/string/islower.md)
-  * [Match Regex](toolbox/string/match-regex.md)
+  * [MatchRegex](toolbox/string/match-regex.md)
   * [PaddingLeft](toolbox/string/paddingleft.md)
   * [PaddingRight](toolbox/string/paddingright.md)
   * [Random](toolbox/string/random.md)
