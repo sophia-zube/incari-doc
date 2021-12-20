@@ -23,7 +23,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Length**](length.md)
 * [**Lower**](lower.md)
 * [**IsLower**](islower.md)
-* [**Match Regex**](match-regex.md)
+* [**MatchRegex**](match-regex.md)
 * [**PaddingLeft**](paddingleft.md)
 * [**PaddingRight**](paddingright.md)
 * [**ReplaceRegex**](replaceregex.md)
