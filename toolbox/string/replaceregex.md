@@ -33,6 +33,7 @@ The **ReplaceRegex** **Node** allows to replace parts of a **String** using regu
 # See Also
 
 * [**Replace**](replace.md)
+* [**MatchRegex**](match-regex.md)
 
 # External Links
 
