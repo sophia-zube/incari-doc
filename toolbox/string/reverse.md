@@ -4,6 +4,8 @@
 
 The **Reverse** **Node** takes a **String** and reverses it.
 
+For example, if the **Input** is "dog", the **Output** will be "god".
+
 # Attributes
 
 ## Inputs
