@@ -28,5 +28,5 @@ The **StartsWith Node** checks if a **String** starts with a substring, or `Patt
 
 # See Also
 
-# External Links
+* [**EndsWith**](endswith.md)
 
