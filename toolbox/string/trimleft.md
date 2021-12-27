@@ -10,28 +10,27 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 
 |Attribute|Type|Description|
 |---|---|---|
-| `String`| **String** | |
-| `Characters` | **String** | |
+| `String`| **String** | The **String** to be trimmed from the left, if none is given in the **Input** **Socket**. |
+| `Characters` | **String** | The characters to be trimmed out of `String`, if none is given in the **Input Socket**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `String` | **String** | |
-| `Characters` | **String** | |
+| `String` | **String** | The **String** to be trimmed from the left.|
+| `Characters` | **String** | The characters to be trimmed out of `String`. |
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Trimmed` | **String** | |
+| `Trimmed` | **String** | The trimmed **String**. |
 
 # See Also
 
 * [**TrimRight**](trimright.md)
 * [**Trim**](trim.md)
 
-# External Links
 
