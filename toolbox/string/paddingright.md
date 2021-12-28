@@ -6,7 +6,7 @@ The **PaddingLeft** **Node** adds a character a chosen number of times to the ri
 
 For example, padding the character "a" 6 times to the **String** "bbbbbbcccccc" gives as result "bbbbbbccccccaaaaaa".
 
-The `Padding character` **Attribute** and **Input** can receive a **String** but it only uses the first character.
+The `Padding character` **Attribute** and **Input** can receive a **String** but they only use the first character.
 
 # Attributes
 
