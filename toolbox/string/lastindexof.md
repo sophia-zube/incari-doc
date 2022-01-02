@@ -1,25 +1,37 @@
 # Overview
 
-![The LastIndexOf Node.]()
+![The LastIndexOf Node.](../../.gitbook/assets/node-lastindexof.png)
 
-The **LastIndexOf** **Node** returns the index of the last appearance .
+The **LastIndexOf** **Node** returns the index of the last occurrence of a *substring* in a **String** and a **Bool** indicating whether it was found or not.
+
+The range in which the *substring* will be searched can be customized via the `StartIndex` and `EndIndex` **Attributes**.
+
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
+| `String` | **String** | The **String** in which the search will be performed. |
+| `Pattern` | **String** | The *substring* that will be searched for. |
+| `StartIndex` | **Int** | *Index* of `String` in which the search will start. |
+| `EndIndex` | **Int** | *Index* of `String` in which the search will end. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-
+| `String` | **String** | The **String** in which the search will be performed. |
+| `Pattern` | **String** | The *substring* that will be searched for. |
+| `StartIndex` | **Int** | *Index* of `String` in which the search will start. |
+| `EndIndex` | **Int** | *Index* of `String` in which the search will end. |
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `LastIndexOf` | **Int** | The *index* of the last occurrence of `Pattern` in `String`.  |
+| `Found` | **Bool** | Whether `Pattern` was found in `String` or not. |
 
 # See Also
 
