@@ -25,6 +25,7 @@ The range in which the *substring* will be searched can be customized via the `S
 | `Pattern` | **String** | The *substring* that will be searched for. |
 | `StartIndex` | **Int** | *Index* of `String` in which the search will start. |
 | `EndIndex` | **Int** | *Index* of `String` in which the search will end. |
+
 # Outputs
 
 |Output|Type|Description|
