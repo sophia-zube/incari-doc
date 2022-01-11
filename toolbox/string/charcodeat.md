@@ -2,11 +2,11 @@
 
 ![The CharCodeAt Node.](../../.gitbook/assets/node-charcodeat.png)
 
-The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given index in a **String**. It takes as inputs a **String** and the index of the character whose code is to be obtained, and it ouputs the _ASCII_ code if said character.
+The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given index in a **String**. It takes as inputs a **String** and the index of the character whose code is to be obtained, and it ouputs the _ASCII_ code of said character.
 
-The indices of the characters in the **String** start from zero.
+The characters indices in the **String** start from zero.
 
-If the index given is greater than the length of the **String**, the output is `-1`.
+If the index given is greater than the **String** length, the output is `-1`.
 
 # Attributes
 
