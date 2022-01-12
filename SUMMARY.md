@@ -361,7 +361,7 @@
   * [Concat Strings](toolbox/string/concatstrings.md)
   * [Contains](toolbox/string/contains.md)
   * [EndsWith](toolbox/string/endswith.md)
-  * [Create Hash](toolbox/string/create-hash.md)
+  * [CryptoHash](toolbox/string/create-hash.md)
   * [Flatten](toolbox/string/flatten.md)
   * [Format](toolbox/string/format.md)
   * [IndexOf](toolbox/string/indexof.md)
