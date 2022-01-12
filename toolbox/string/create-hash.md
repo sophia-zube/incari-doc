@@ -17,7 +17,7 @@ The **CryptoHash** **Node** takes a **String** and encrypts it as a _hash_ using
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | The **String** that will be encrypted. |
-| `Algorithm` | **String** | The algorithm that will be used for the encryption. |
+| `Algorithm` | **String** | The algorithm that will be used for the encryption. It should be one of the available options: `MD5`, `SHA-1`, or `SHA-256`. |
 
 # Outputs
 
