@@ -11,7 +11,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Compare**](compare.md)
 * [**Concat Strings**](concatstrings.md)
 * [**Contains**](contains.md)
-* [**Create Hash**](create-hash.md)
+* [**CryptoHash**](create-hash.md)
 * [**EndsWith**](endswith.md)
 * [**Flatten**](flatten.md)
 * [**Format**](format.md)
