@@ -30,7 +30,7 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
     * [**Capitalize**](../toolbox/string/capitalize.md)
     * [**CharCodeAt**](../toolbox/string/charcodeat.md)    
     * [**EndsWith**](../toolbox/string/endswith.md)
-    * [**Create Hash**](../toolbox/string/create-hash.md)
+    * [**CryptoHash**](../toolbox/string/create-hash.md)
     * [**Flatten**](../toolbox/string/flatten.md)
     * [**Format**](../toolbox/string/format.md)
     * [**IndexOf**](../toolbox/string/indexof.md)
