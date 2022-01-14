@@ -8,6 +8,8 @@ The characters indices in the **String** start from zero.
 
 If the index given is greater than the **String** length, the output is `-1`.
 
+This is a test.
+
 # Attributes
 
 |Attribute|Type|Description|
