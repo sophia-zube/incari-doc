@@ -2,7 +2,9 @@
 
 ![The RemoveCharacters Node.](../../.gitbook/assets/node-removecharacters.png)
 
-The **RemoveCharacters** **Node** removes from a **String** characters chosen by the user. It takes as inputs a **String** and the characters to remove and it outputs the **String** with the characters removed.
+The **RemoveCharacters** **Node** removes characters from a **String**. It takes as inputs a **String** and the characters to remove and it outputs the **String** with the characters removed.
+
+It removes all occurrences of each of the characters specified. For instance, giving as inputs `The dogs and the foxes go towards that house` for the **String** and `os` for the characters to be removed will result in the output: `The dg and the fxe g tward that hue`.
 
 # Attributes
 
