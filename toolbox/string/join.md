@@ -2,6 +2,7 @@
 
 ![The Join Node.]()
 
+bla bla 
 The **Join Node** joins an **Array** to a **String**.
 
 # Attributes
