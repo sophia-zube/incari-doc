@@ -1,6 +1,6 @@
 # Overview
 
-![The Join Node.](../../.vscode/join.png)
+![The Join Node.](../../.gitbook/assets/join.png)
 
 The **Join Node** joins the elements of an **Array** populated with **Strings**. 
 
