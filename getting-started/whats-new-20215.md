@@ -16,7 +16,7 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
 * **Materials Improvements**
 
-  New features for working with Materials have been introduced. A Material can be created by simply dropping a texture **Asset** on a **Mesh**. Moreover, a preview of the Material on a **Mesh** is shown when dragging over it.
+    New features for working with Materials have been introduced. A Material can be created by simply dropping a texture **Asset** on a [**Mesh**](scene-objects/mesh.md). Moreover, a preview of the Material on a [**Mesh**](scene-objects/mesh.md) is shown when dragging over it.
 
 * **Render to Texture**
 
