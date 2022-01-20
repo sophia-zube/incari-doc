@@ -18,6 +18,8 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
     New features for working with Materials have been introduced. A Material can be created by simply dropping a texture **Asset** on a [**Mesh**](scene-objects/mesh.md). Moreover, a preview of the Material on a [**Mesh**](scene-objects/mesh.md) is shown when dragging the texture **Asset** over.
 
+    ![Creating a Material by dropping a texture **Asset** on a **Mesh**.](../.gitbook/assets/material-drag.gif)
+
 * **Render to Texture**
 
   A **Scene** can be rendered to **Sprite** from the same **Scene** or any other. This gives the possibility to create an image **Object** of the current state of a **Scene**.
