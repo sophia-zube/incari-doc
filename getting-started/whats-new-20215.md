@@ -57,5 +57,5 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
   * **Runtime Object creation Node**
     * [**Create Object**](../toolbox/utilities/create-object.md)
   * **Binary manipulation**
-    * **Binary to Int**
+     * [**Binary to Int**](../toolbox/utilities/conversion.md), an update to the **Conversion Node**. Please note that one must use a **Binary (Hex) Value Node** rather than a **Binary Variable** for this to work.
 
