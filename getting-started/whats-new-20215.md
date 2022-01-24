@@ -4,11 +4,11 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
 * **Asset Database**
 
-  The new **Asset Database** allows the user to easily access internal resources and reuse them. With this, it is possible to keep track of which **Assets** are being used and where in the **Project**.
+  The new **Asset Database** allows the user to easily access internal resources and reuse them. With this, it is possible to keep track of which **Assets** are being used and where in the **Project** they are.
 
 * **Camera Input for Video Objects**
 
-  Now it is possible to directly control cameras and virtual cameras. New **Nodes** for controlling the playback have been introduced. Thus, this allows, for example, to control from **Incari** a rear-view camera and the video that is being obtained from it.
+  Now it is possible to directly control cameras and virtual cameras. New **Nodes** for controlling the playback have been introduced. Thus, this allows, for example, for the user to control a rear-view camera in **Incari** and the video that is being obtained from it.
 
 * **Masking**
 
@@ -16,7 +16,7 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
 * **Materials Improvements**
 
-    New features for working with Materials have been introduced. A Material can be created by simply dropping a texture **Asset** on a [**Mesh**](scene-objects/mesh.md). Moreover, a preview of the Material on a [**Mesh**](scene-objects/mesh.md) is shown when dragging the texture **Asset** over.
+    New features for working with **Materials** have been introduced. A **Material** can be created by simply dropping a texture **Asset** on a [**Mesh**](scene-objects/mesh.md). Moreover, a preview of the Material on a [**Mesh**](scene-objects/mesh.md) is shown when dragging the texture **Asset** over.
 
 
 ![Creating a Material by dropping a texture **Asset** on a **Mesh**.](../.gitbook/assets/material-drag.gif)
@@ -24,7 +24,7 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
 * **Render to Texture**
 
-  A **Scene** can be rendered to **Sprite** from the same **Scene** or any other. This gives the possibility to create an image **Object** of the current state of a **Scene**.
+  A **Scene** can be rendered to a **Sprite** from the same **Scene** or another. This gives the possibility to create an image **Object** of the current state of a **Scene**.
 
 * **New Nodes**
 
@@ -57,5 +57,5 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
   * **Runtime Object creation Node**
     * [**Create Object**](../toolbox/utilities/create-object.md)
   * **Binary manipulation**
-     * [**Binary to Int**](../toolbox/utilities/conversion.md), an update to the **Conversion Node**. Please note that one must use a **Binary (Hex) Value Node** rather than a **Binary Variable** for this to work.
+     * [**Binary to Int**](../toolbox/utilities/conversion.md) (an update to the **Conversion Node**. Please note that one must use a **Binary (Hex) Value Node** rather than a **Binary Variable** for this to work.)
 
