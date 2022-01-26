@@ -24,7 +24,7 @@ Many new features have been added to the release of **Incari Studio** 2021.5. He
 
 * **Render to Texture**
 
-  A **Scene** can be rendered to a **Sprite** from the same **Scene** or another. This gives the possibility to create an image **Object** of the current state of a **Scene**.
+  A [**Scene**](project-objects/scene.md) can be rendered to a [**Sprite**](scene-objects/sprite.md) from the same [**Scene**](project-objects/scene.md) or another. This gives the possibility to create an image [**Object**](scene-objects/README.md) of the current state of a [**Scene**](project-objects/scene.md).
 
 * **New Nodes**
 
