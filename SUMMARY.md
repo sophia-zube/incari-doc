@@ -9,6 +9,11 @@
 * [Using APIs to Pull Dynamic Data](demo-projects/using-apis-to-pull-dynamic-data.md)
 * [An Analog Clock](demo-projects/an-analog-clock.md)
 * [Image Sequence Button Animation](demo-projects/image-sequence-button-animation.md)
+  
+## Training
+
+* [Overview](training/overview.md)
+* [Basic level](training/basic.md)
 
 ## Getting Started
 
