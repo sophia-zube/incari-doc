@@ -10,10 +10,10 @@
 * [An Analog Clock](demo-projects/an-analog-clock.md)
 * [Image Sequence Button Animation](demo-projects/image-sequence-button-animation.md)
   
-## Training
+<!-- ## Training
 
 * [Overview](training/overview.md)
-* [Basic level](training/basic.md)
+* [Basic level](training/basic.md) -->
 
 ## Getting Started
 
