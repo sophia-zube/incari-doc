@@ -2,7 +2,7 @@
 
 This **Basic Level Training** is aimed at users who do not have any previous experience in programming. It starts with exposing all the basic components of **Incari Studio** and then guides the user in building a simple **Project** for them to see what can be achieved in **Incari**.
 
-The objective of this **Training** is to get familiarized with **Incari** and all its components, and then put this knowledge into use by building **Project**.
+The objective of this **Training** is to get familiarized with **Incari** and all its components, and then put this knowledge into use by building a **Project**.
 
 ## Introduction
 
@@ -51,6 +51,10 @@ For a quick overview of the general interface in **Incari Studio**, we will use 
 ### Project Creation
 
 ### Basic Concepts
+
+* Screen and Scene
+* Coordinate system
+* Visual programming
 
 ## Modules
 
