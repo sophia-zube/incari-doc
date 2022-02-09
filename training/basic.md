@@ -43,6 +43,42 @@ The main features of **Incari Studio** are:
 
 ## Modules
 
+There are several **Modules** that subset the available functionality within **Incari**. These **Modules** provide tools and organizational abilities to the user. 
+### Project Outliner
+
+The **Project Outliner** contains a structured list of every **Scene** and **Screen** in a **Project** and can be used to organize, manage, create, and delete them. It is located in the bottom left corner on start.
+
+![](../.gitbook/assets/projectoutlinerlocation.png)
+
+Adding a **Screen** is simple.
+
+![](../.gitbook/assets/projectoutlineraddscreen.png)
+
+The user can either:
+* Click on the plus, then click the `Screen` button (shown in the image above).
+* Or right-click inside the **Project Outliner** and select `Create` &gt; `Screen` from the pop-up.
+* Or select `File` &gt; `New Screen` from the drop-down **Menu**.
+* Or pressing `Ctrl`+`N` while the **Project Outliner** is active.
+
+The user can customize the **Screen** in the **Attribute Editor** (which will be covered soon). For now, it's enough to know that it is possibel to alter the screen in terms of `Transformation`, `Camera`, `Background Color`, and more. 
+
+![](../.gitbook/assets/projectoutlinercustomizingscreen2.png)
+
+Adding a **Scene** is the same, except `Scene` is selected instead of `Screen`.
+
+![](../.gitbook/assets/projectoutlineraddscene.png)
+
+It is possible to move a **Scene** from one **Screen** to another by clicking and dragging. 
+
+![](../.gitbook/assets/projectoutlinermovingscenes.gif)
+
+Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned Scenes` and will be excluded from the **Simulation**. When a **Scene** is created it is unassigned by default -- unless a **Screen** was selected when it was created, then it will be assigned to that **Screen**.
+
+![](../.gitbook/assets/projectoutlinerunassignedscene.png)
+
+Playing a **Screen** requires selecting a root **Scene**, if there is more than one. The user can play two **Screens** at once and two **Players** will show on the computer screen. The image below gives an example of this and the red boxes enclose the respective root **Scenes**, which are the **Scenes** that are displayed. 
+
+![](../.gitbook/assets/projectoutlinerplayingtwoscreens.png)
 
 
 ## Project
