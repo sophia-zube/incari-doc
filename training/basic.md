@@ -28,14 +28,25 @@ In the usual development, there is a separation between design and
 
 The main features of **Incari Studio** are:
 
-    * It is easy to import and use designs from tools such as _Sketch_, _Figma_ or _Photoshop_.
-    * The **Animation Editor** incorporated in **Incari** allows to create advanced animations of UI elements.
-    * Features implementation can be easily reused, thus speeding up **Project** production.
-    * It supports any input source, be it haptic, auditory, visual, or external from CAN, MQTT, HTTP.
+   * It is easy to import and use designs from tools such as _Sketch_, _Figma_ or _Photoshop_.
+   * The **Animation Editor** incorporated in **Incari** allows to create advanced animations of UI elements.
+   * Features implementation can be easily reused, thus speeding up **Project** production.
+   * It supports any input source, be it haptic, auditory, visual, or external from CAN, MQTT, HTTP.
 
 ### Incari Player
 
+**Incari Player** is the component that displays **Projects** created in **Incari Studio**. It runs as a stand-alone application in which **Incari** **Projects** can be loaded and played.
+
+It can receive external communication from sources such as HTTP, Bluetooth, CAN bus, MQTT, NAV.
+
+**Incari Player** is focused on performance and stability. For example, it does not waste GPU time in calculating elements that are not visible for the user. 
+
+It supports multiple screens and out-of-the-box data synchronization between scenes, thus making it easy to have synchronized multi-screen animations or interaction between elements in differents screens.
+
+
 ### User Interface Overview
+
+For a quick overview of the general interface in **Incari Studio**, we will use one of the **Demo Projects**.
 
 ### Project Creation
 
