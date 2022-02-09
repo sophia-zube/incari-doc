@@ -8,8 +8,6 @@ The objective of this **Training** is to get familiarized with **Incari** and al
 
 ### Getting Started
 
-### Installation and Licensing
-
 ### Incari Hub
 
 **Incari Hub** serves as a central access point to all **Incari** products. It allows to install the latest version of **Incari**, manage your **Projects**, and obtain **Demo Projects**.
@@ -23,6 +21,17 @@ Under *Applications*, **Incari Applications** can be accessed and managed. For e
 As seen in the previous section, **Incari Hub** also allows to manage the license and user account.
 
 ### Incari Studio
+
+**Incari Studio** is an all-in-one tool for the streamlined work of HMI (Human-Machine Interface) creation. It allows for quick UI (User Interface) prototyping and deployment.
+
+In the usual development, there is a separation between design and 
+
+The main features of **Incari Studio** are:
+
+    * It is easy to import and use designs from tools such as _Sketch_, _Figma_ or _Photoshop_.
+    * The **Animation Editor** incorporated in **Incari** allows to create advanced animations of UI elements.
+    * Features implementation can be easily reused, thus speeding up **Project** production.
+    * It supports any input source, be it haptic, auditory, visual, or external from CAN, MQTT, HTTP.
 
 ### Incari Player
 
