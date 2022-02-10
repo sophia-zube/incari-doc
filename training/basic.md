@@ -8,6 +8,46 @@ The objective of this **Training** is to get familiarized with **Incari** and al
 
 ### Getting Started
 
+The first step to get started with **Incari** is installation and licensing. For this, follow these steps:
+
+* Register in the **Incari** [website](https://www.incari.com/my-account/) and then activate your account from your e-mail.
+
+![Registration page in incari.com](../.gitbook/assets/website-register.png)
+
+* After activating your account, log-in and go to Downloads. Here you can download **Incari Hub**.
+
+![Account dashboard in incari.com](../.gitbook/assets/website-dashboard.png)
+
+* Install and then start **Incari Hub**. 
+
+![The Incari Hub welcome screen.](../.gitbook/assets/incar-hub-login.png)
+
+* Log-in into **Incari Hub** with your **Incari** credentials.
+
+* In **Incari Hub**, go to the **Incari Studio** tab, under _Applications_. Here you can manage your installed versions of **Incari Studio** and install new ones.
+
+![](../.gitbook/assets/incari-install1.png)
+
+* Press on "Install New". Then you will see the available versions of **Incari Studio** to install.
+
+![](../.gitbook/assets/incari-install2.png)
+
+* To install **Incari Studio** 2021.4, press on the plus \(+\) sign and the download will start.
+
+* After the download is finished, the install window for **Incari Studio** 2021.4 will open. Click "Next" to proceed and go through the installation process.
+
+![The Incari Studio welcome screen.](../.gitbook/assets/incaristudio20214_installer.png)
+
+*  Go to the **Incari** [website](https://www.incari.com/my-account/), where you can manage your subscriptions and obtain the license key.
+
+* Use the license key to activate your subscription in **Incari Hub**.
+
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license2.png)
+
+
+At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
+So the user also needs to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once and create a profile.
+
 ### Incari Hub
 
 **Incari Hub** serves as a central access point to all **Incari** products. It allows to install the latest version of **Incari**, manage your **Projects**, and obtain **Demo Projects**.
@@ -16,7 +56,13 @@ On the left-side Menu, there are two sections: *Projects* and *Applications*.
 
 Under *Projects*, the tab *My Projects* allows the user to access, create, and manage their local **Projects**. The tab *Remote Projects* gives access to **Demo Projects** created by the **Incari** team, these can be downloaded and then opened locally. **Demo Projects** are useful to see how certain functionalities can be implemented in **Incari**.
 
+![](../.gitbook/assets/incari-hub-myprojects.png)
+
+![](../.gitbook/assets/incari-hub-remoteprojects.png)
+
 Under *Applications*, **Incari Applications** can be accessed and managed. For each **Application**, it is possible to get the latest version, install it, and check for updates.
+
+![](../.gitbook/assets/incari-hub-applications.png)
 
 As seen in the previous section, **Incari Hub** also allows to manage the license and user account.
 
