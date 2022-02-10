@@ -70,7 +70,9 @@ As seen in the previous section, **Incari Hub** also allows to manage the licens
 
 **Incari Studio** is an all-in-one tool for the streamlined work of HMI (Human-Machine Interface) creation. It allows for quick UI (User Interface) prototyping and deployment.
 
-In the usual development, there is a separation between design and 
+![](../.gitbook/assets/incari-studio-initial.png)
+
+In the usual case, there is a separation between design and development. On one side, developers have to implement the entire interface from source code, and then spend a lot of time reviewing results, adjusting animations, requesting new assets, and iterating the entire process. On the other side, designers may not be aware of software limitations such as animation types or others. With **Incari**, all necessary tools for building UI are available from the beginning. Designers can focus on the interface layout or the creation of animation while developers work on the logic and providing data sources, then both parts can be easily connected thus implementing the entire UI.
 
 The main features of **Incari Studio** are:
 
