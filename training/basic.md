@@ -60,6 +60,8 @@ Under *Projects*, the tab *My Projects* allows the user to access, create, and m
 
 ![](../.gitbook/assets/incari-hub-remoteprojects.png)
 
+![](../.gitbook/assets/incari-hub-remoteprojectslist.png)
+
 Under *Applications*, **Incari Applications** can be accessed and managed. For each **Application**, it is possible to get the latest version, install it, and check for updates.
 
 ![](../.gitbook/assets/incari-hub-applications.png)
@@ -81,6 +83,8 @@ The main features of **Incari Studio** are:
    * Features implementation can be easily reused, thus speeding up **Project** production.
    * It supports any input source, be it haptic, auditory, visual, or external from CAN, MQTT, HTTP.
 
+![](../.gitbook/assets/incari-studio-end.png)
+
 ### Incari Player
 
 **Incari Player** is the component that displays **Projects** created in **Incari Studio**. It runs as a stand-alone application in which **Incari** **Projects** can be loaded and played.
@@ -95,6 +99,16 @@ It supports multiple screens and out-of-the-box data synchronization between sce
 ### User Interface Overview
 
 For a quick overview of the general interface in **Incari Studio**, we will use one of the **Demo Projects**.
+
+First, we have to download it from the *Remote Projects* tab in **Incari Hub**, and then we can load it from the *My Projects* tab.
+
+We choose the `methodsofanimation` **Project**. In the *Remote Projects* tab, we find it and click on the cloud to download it.
+
+![](../.gitbook/assets/incari-hub-animationmethodschoice.png)
+
+Then, the **Project** should appear in the *My Projects* tab, where we can load it by clicking on the play button that appears when we hover over the **Project**.
+
+![](../.gitbook/assets/incari-hub-animationmethodsmyproj.png)
 
 ### Project Creation
 
