@@ -175,12 +175,6 @@ top left of the **Asset Manager**, selecting `Import Assets`, and finding the fi
 For creating an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
  ![](../.gitbook/assets/create-asset.png)
 
-
-The **Asset Manager** offers different views of the files in the **Assets** folder. The general view can be switched on the top left between flat 
-and folder tree view and the files can be seen as either icons or in a list, which is chosen in the bottom right corner.
-
-![](../.gitbook/assets/asset-manager-view.gif)
-
 **Assets** can be deleted in the following ways:
 
 * Right-click the **Asset** and select the `Delete` button from the pop-up.
@@ -192,6 +186,13 @@ and folder tree view and the files can be seen as either icons or in a list, whi
 **Assets** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
 ![](../.gitbook/assets/asset-rename.png)
+
+
+The **Asset Manager** offers different views of the files in the **Assets** folder. The general view can be switched on the top left between flat 
+and folder tree view and the files can be seen as either icons or in a list, which is chosen in the bottom right corner.
+
+![](../.gitbook/assets/assetmanagericons.png)
+![](../.gitbook/assets/assetmanagerlist.png)
 
 ## Project
 
