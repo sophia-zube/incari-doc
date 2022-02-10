@@ -157,6 +157,41 @@ Playing a **Screen** requires selecting a root **Scene**, if there is more than 
 
 ![](../.gitbook/assets/projectoutlinerplayingtwoscreens.png)
 
+### Asset Manager
+
+This is the place where all project **Assets** are managed. **Assets** are the files in the **Project Asset** folder. The user can organize resources into folders, search for **Assets** by name,
+ or use a view filter to display only specific types of **Objects**.
+
+It is also a place where the user can create new **Assets** like Animations, ImageSequences, Materials, Models, and a couple of others. 
+
+When the user wishes to use **Assets** in a **Project** they have to drag and drop them into a **Scene**, which will add that **Asset** to **Scene Outliner**. 
+
+
+**Assets** can be imported by clicking on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%288%29.PNG) icon at the 
+top left of the **Asset Manager**, selecting `Import Assets`, and finding the files to import to the **Asset Manager**.
+
+![](../.gitbook/assets/import-asset.png)
+
+For creating an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
+ ![](../.gitbook/assets/create-asset.png)
+
+
+The **Asset Manager** offers different views of the files in the **Assets** folder. The general view can be switched on the top left between flat 
+and folder tree view and the files can be seen as either icons or in a list, which is chosen in the bottom right corner.
+
+![](../.gitbook/assets/asset-manager-view.gif)
+
+**Assets** can be deleted in the following ways:
+
+* Right-click the **Asset** and select the `Delete` button from the pop-up.
+* Select an **Asset** and press `del`.
+
+![](../.gitbook/assets/asset-delete.png)
+
+
+**Assets** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
+
+![](../.gitbook/assets/asset-rename.png)
 
 ## Project
 
