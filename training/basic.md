@@ -110,6 +110,17 @@ Then, the **Project** should appear in the *My Projects* tab, where we can load 
 
 ![](../.gitbook/assets/incari-hub-animationmethodsmyproj.png)
 
+Now with the **Demo Project** loaded we can have a quick overview of the interface.
+
+![](../.gitbook/assets/animationmethods-project.png)
+
+The components of the interface in **Incari** are called **Modules**. Each one has a different purpose, in the next section we give an overview of their functionalities. **Modules** can be either visible or hidden. Choosing which ones are visible can be done by right-clicking the top bar and selecting or deselecting them. Moreover, **Modules** can also made visible from the `View` menu in the top bar and they can be hidden by clicking the `X` at the top right of each of them.
+
+![](../.gitbook/assets/modulesmenu.png)
+
+![](../.gitbook/assets/modulesviewmenu.png)
+
+
 ### Project Creation
 
 ### Basic Concepts
