@@ -261,6 +261,25 @@ An example of the usefuleness of the **Attribute Editor**:
 
 Here, the categories of possible properties are highlighted with red boxes. The user can change the **Cube's** `Position`, `Rotation`, `Scale`, `Position` of the `Rotation Pivot`, `Axis Division` of the **Cube**, toggle `Normals` on and off, and select a **Material** by either dragging and dropping, or searching within the pop-up upon clicking. 
 
+### Image Sequence Editor
+
+The **Image Sequence Editor** allows the user to create and edit **Image Sequences**, which have the extension `.incseq` in the **Asset Manager**. 
+It’s a flexible tool to create custom **Animations** depending on project needs.
+
+Once an **Image Sequence** is open in the **Image Sequence Editor**, images can be added or removed from the sequence and their order can be changed.
+
+The top panel gives the options to save or clear the **Image Sequence**.
+
+![](../.gitbook/assets/image-seq-editor.png)
+
+To add an image to the **Image Sequence**, drag it from the **Asset Manager**.
+
+![](../.gitbook/assets/image-seq-add.gif)
+
+Additionally, to remove an image from the sequence, select it and either right-click it and choose `delete` or press `del`. To move an image within the sequence, drag it and drop it in the desired position.
+
+
+
 ## Project
 
 ### Create New Project
