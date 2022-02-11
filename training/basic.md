@@ -245,6 +245,22 @@ The user can customize a **Group** by renaming it, duplicating it, copying and p
 
 This gives a general idea of the extensive library of objects that can be placed in an **Incari Scene**. 
 
+### Attribute Editor 
+
+To open the **Attribute Editor**, right-click on the Menu bar in **Incari** and click on **Attribute Editor** from the drop-down list. This can be seen in the illustration below:
+
+![](../.gitbook/assets/attribute-editor.PNG)
+
+The **Attribute Editor** is responsible for changing properties of a selected **Object**. For example, when a **Rectangle** is selected, the user can change its **Position**, **Rotation**, **Size**,  **Color**, and more, within the **Scene**.  
+Depending on the type of **Object**, properties may vary. However basic ones, like `Transformation`, `Opacity`, and `Name`, remain the same among all **Objects**. 
+All property changes have an immediate effect in the preview window, allowing the user to quickly visualize the changes made.
+
+An example of the usefuleness of the **Attribute Editor**:
+
+![](../.gitbook/assets/attributeeditorexample.png)
+
+Here, the categories of possible properties are highlighted with red boxes. The user can change the **Cube's** `Position`, `Rotation`, `Scale`, `Position` of the `Rotation Pivot`, `Axis Division` of the **Cube**, toggle `Normals` on and off, and select a **Material** by either dragging and dropping, or searching within the pop-up upon clicking. 
+
 ## Project
 
 ### Create New Project
