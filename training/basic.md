@@ -205,6 +205,46 @@ and folder tree view and the files can be seen as either icons or in a list, whi
 ![](../.gitbook/assets/assetmanagericons.png)
 ![](../.gitbook/assets/assetmanagerlist.png)
 
+
+### Scene Outliner
+
+The **Scene Outliner** contains the list of **Assets** related to the current **Scene**. It is used to organize **Assets** within a **Scene**, create new **Assets** or delete them. 
+
+It is possible to group **Assets** by clicking the plus and locating `Groups` or right-clicking in the **Scene Outliner** and selecting `Groups`. 
+
+![](../.gitbook/assets/sceneoutlinercreategroup.png)
+
+The user can customize a **Group** by renaming it, duplicating it, copying and pasting, and more. 
+
+**Incari** offers several types of **Objects** for the user to add in a **Scene** by way of the **Scene Outliner**. These are:
+
+* **Vectors** (in both 2D and 3D),
+
+![](../.gitbook/assets/sceneoutlinervector3dand2d.png)
+
+* **Camera** (seen in the above image under the **Vector2D** category),
+
+
+* three-dimensional objects called **Primitives**,
+
+![](../.gitbook/assets/sceneoutlinerprimitives.png)
+
+
+* **Lights**,
+
+![](../.gitbook/assets/sceneoutlinerlights.png)
+
+
+* **3D** and **2D** **Objects**, 
+
+![](../.gitbook/assets/sceneoutliner3dand2dobjects.png)
+
+
+* and **Mesh**. 
+
+
+This gives a general idea of the extensive library of objects that can be placed in an **Incari Scene**. 
+
 ## Project
 
 ### Create New Project
