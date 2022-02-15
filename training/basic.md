@@ -120,6 +120,29 @@ The components of the interface in **Incari** are called **Modules**. Each one h
 
 ![](../.gitbook/assets/modulesviewmenu.png)
 
+These **Modules** can be docked in the **Incari Studio** interface as the user prefers, thus allowing for a complete customization of the positions and sizes of the visible **Modules**. 
+
+![]()
+
+Moreover, **Modules** can be docked together and the accessed via the tabs that are automatically created.
+
+![]()
+
+locking the window
+
+![]()
+
+moving independent Windows
+
+![]()
+
+
+
+
+Moreover, two or more **Modules**
+
+
+
 
 ### Project Creation
 
