@@ -122,24 +122,21 @@ The components of the interface in **Incari** are called **Modules**. Each one h
 
 These **Modules** can be docked in the **Incari Studio** interface as the user prefers, thus allowing for a complete customization of the positions and sizes of the visible **Modules**. 
 
-![]()
+![](../.gitbook/assets/dockingmodules1.gif)
 
-Moreover, **Modules** can be docked together and the accessed via the tabs that are automatically created.
+Moreover, **Modules** can be docked together and then accessed via the tabs that are automatically created.
 
-![]()
+![](../.gitbook/assets/dockingmodules2.gif)
 
-locking the window
+**Modules** can be also used as independent windows, which can be very useful when working with more than one screen.
 
-![]()
+![](../.gitbook/assets/moduleindep.gif)
 
-moving independent Windows
+**Modules** that are individual windows can be locked so they do not dock on the main **Incari Studio** interface. This is done by clicking on the lock icon that appears on the top-right of a module that is being seen as an independent window.
 
-![]()
-
-
+![](../.gitbook/assets/dockingenable.png)
 
 
-Moreover, two or more **Modules**
 
 
 
