@@ -137,17 +137,41 @@ Moreover, **Modules** can be docked together and then accessed via the tabs that
 ![](../.gitbook/assets/dockingenable.png)
 
 
+The **Viewport** shows what will be displayed when the **Project** is run and its look can be customized. For this, go to `Edit > Global Preferences > Viewport`.
 
+![](../.gitbook/assets/viewport2.png)
 
+![](../.gitbook/assets/viewport.png)
 
 
 ### Project Creation
 
+Creating a new **Project** can be done in **Incari Hub**. Under the tab *My Projects*, press on the big plus sign.
+
+![](../.gitbook/assets/create-projects.png)
+
+Then, the name, location and **Incari Studio** version of the **Project** can be chosen and the size for the default **Scene** and **Screen** set.
+
+![](.././gitbook/assets/create-projects2.png)
+
+After clicking on `Create`, the new empty **Project** is created and we can start working on it.
+
+![](../.gitbook/assets/empty-project.png)
+
 ### Basic Concepts
 
-* Screen and Scene
+To finalize this introductory section, we shall review a few basic concepts that will prove to be useful in this first approach to **Incari Studio**.
+
+* **Screen** and **Scene**
+
+- **Screen**: The **Screen Object** in **Incari** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on.
+- **Scene**: A collection of **Objects** that represent different unique places within your *User Interface*, such as Menus, maps and media players. Each **Scene** has its own _3D_ space, with the **Size** and **Resolution** being determined by the **Attributes** of the **Screen** that it is assigned to.
+
 * Coordinate system
+  
 * Visual programming
+
+
 
 ## Modules
 
