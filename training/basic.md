@@ -164,10 +164,24 @@ To finalize this introductory section, we shall review a few basic concepts that
 
 * **Screen** and **Scene**
 
-- **Screen**: The **Screen Object** in **Incari** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on.
-- **Scene**: A collection of **Objects** that represent different unique places within your *User Interface*, such as Menus, maps and media players. Each **Scene** has its own _3D_ space, with the **Size** and **Resolution** being determined by the **Attributes** of the **Screen** that it is assigned to.
+  - **Screen**: The **Screen Object** in **Incari** contains the technical specifications of the physical display that the **Project** will ultimately be displayed on.
+  - **Scene**: A collection of **Objects** that represent different unique places within your *User Interface*, such as Menus, maps and media players. Each **Scene** has its own _3D_ space, with the **Size** and **Resolution** being determined by the **Attributes** of the **Screen** that it is assigned to.
 
 * Coordinate system
+  
+  A coordinate system is a system that uses numbers to uniquely determined the position of points in space. In the case of **Incari** it is used to determine the position of **Objects** in a **Scene**.
+
+  **Incari** uses cartesian coordinates in *2D* and *3D*, this means that the position is determined by the distance along 2 or 3 axes from an arbitrary point that is the origin. The unit used for these distances is pixels (px). Let us take a look at the two cases (*2D* and *3D*) separately.
+
+  We start with the simpler *2D* case. To illustrate this, let us use an example of two squares, one red and one black, positioned over a white background.
+
+  ![](../.gitbook/assets/2d-positioning.png)
+
+  The position of these squares is determined by two numbers, the x-coordinate and the y-coordinate. These two numbers are the distances along the X and Y-axes, respectively, in pixels. For each object, these are set in the **Transformation Attributes**.
+
+  The red square is positioned in `(250, 300)`, which means that its top-left corner is 250 pixels away from the origin along the X-axis and 300 pixels away along the Y-axis.
+
+  ![](../.gitbook/assets/2d-coordinate.png)
   
 * Visual programming
 
