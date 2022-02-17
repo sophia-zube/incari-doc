@@ -171,7 +171,7 @@ To finalize this introductory section, we shall review a few basic concepts that
   
   A coordinate system is a system that uses numbers to uniquely determined the position of points in space. In the case of **Incari** it is used to determine the position of **Objects** in a **Scene**.
 
-  **Incari** uses cartesian coordinates in *2D* and *3D*, this means that the position is determined by the distance along 2 or 3 axes from an arbitrary point that is the origin. The unit used for these distances is pixels (px). Let us take a look at the two cases (*2D* and *3D*) separately.
+  **Incari** uses cartesian coordinates in *2D* and *3D*, this means that the position is determined by the distance along 2 or 3 axes from an arbitrary point that is the origin. The unit used in *2D* for these distances is pixels (px). Let us take a look at the two cases (*2D* and *3D*) separately.
 
   We start with the simpler *2D* case. To illustrate this, let us use an example of two squares, one red and one black, positioned over a white background.
 
@@ -182,9 +182,20 @@ To finalize this introductory section, we shall review a few basic concepts that
   The red square is positioned in `(250, 300)`, which means that its top-left corner is 250 pixels away from the origin along the X-axis and 300 pixels away along the Y-axis.
 
   ![](../.gitbook/assets/2d-coordinate.png)
+
+  The black square position is `(10, 10)`.
+
+  ![](../.gitbook/assets/2d-positionblack.png)
+
+  One case that is worth looking into before moving onto *3D* is that of **Groups**. In the case of **Groups**, the position of the **Objects** in the **Group** is relative to the position of the **Group** and not that of the origin. For this to be clearer, let us continue using our example of the two squares.
+
+  In *3D*...
   
 * Visual programming
 
+   Traditional programming languages are text-based. This means that programs are written as lines of code, with the use of a particular syntax, functions, declaration of variables, etc. Opposed to this, there is visual programming, which is the approach used in **Incari**. In visual programming, 
+
+   Pulses and nodes...
 
 
 ## Modules
