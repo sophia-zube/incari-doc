@@ -4,7 +4,25 @@ This **Basic Level Training** is aimed at users who do not have any previous exp
 
 The objective of this **Training** is to get familiarized with **Incari** and all its components, and then put this knowledge into use by building a **Project**.
 
+## Contents
+
+* [**Introduction**](basic.md#introduction)
+  * [**Getting Started**](basic.md#getting-started)
+  * [**Incari Hub**](basic.md#incari-hub)
+  * [**Incari Studio**](basic.md#incari-studio)
+  * [**Incari Player**](basic.md#incari-player)
+  * [**User Interface Overview**](basic.md#user-interface-overview)
+  * [**Project Creation**](basic.md#project-creation)
+  * [**Basic Concepts**](basic.md#basic-concepts)
+* [**Modules**]()
+* [**Assets and Layout**]()
+* [**Logic Editor**]()
+* [**Project**()]
+
+
 ## Introduction
+
+This section describes the first steps to start using **Incari Studio** and gives an overview of its main components and some basic concepts that will be useful in this training.
 
 ### Getting Started
 
