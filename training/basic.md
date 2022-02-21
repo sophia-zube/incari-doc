@@ -399,6 +399,23 @@ The **Logic Editor** consists of a top and left panel. The top panel represents 
 ![](../.gitbook/assets/logicEditorWindow.PNG)
 
 
+### Console
+
+The **Console** displays all messages regarding the status of the software processes and the messages created by the **Nodes** in the **Logic**.
+
+On the top left, there is the option to clear the **Console**.
+
+
+![](../.gitbook/assets/console.png)
+
+
+### Profiler
+
+The Profiler allows the user to analyze the performance of blocks of **Nodes** in the Logic, which are called **Profiler** **Blocks**. These **Profiler** **Blocks** mustbe set in the **Logic** **Editor** by using the **Profiler** **Start** and **Profiler** **Stop** **Nodes**. A more in-depth explanation can be found [here](../modules/profiler-view.md). 
+
+![](../.gitbook/assets/profiler-view.png)
+
+
 ## Project
 
 ### Create New Project
