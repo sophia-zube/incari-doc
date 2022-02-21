@@ -390,6 +390,14 @@ Adjust view on the curve
 Add/Remove keyframes 
 
 
+### Logic Editor
+
+**Logic** in **Incari** is what allows the user to take **2D/3D** **Assets** and turn them into fully interactive *User* *Interfaces*. Traditionally, building this kind of complex system was only achievable by writing a lot of code. However, by utilizing **Incari's** powerful visual scripting tools, anyone can build these systems without writing a single line! 
+
+The **Logic Editor** consists of a top and left panel. The top panel represents **Logic Graphs** that are implemented for different **Incari** items such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. The left panel covers the **Nodes** that can be added to the **Logic Editor** and is divided into five sections: **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**. 
+
+![](../.gitbook/assets/logicEditorWindow.PNG)
+
 
 ## Project
 
