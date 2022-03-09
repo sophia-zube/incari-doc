@@ -32,16 +32,16 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 <!--
 * **Material Editor Update**
   
-   environment, normal maps, occlusion map, new pbr material (extended pbr material)???
+   The **Material Editor** has seen several additions and changes. These include changes to **Environment**, **Normal Maps**, **Occlusion Maps, and the inclusion of a new **PBR Material** **Extended PBR Material**.
 
 !-->
 
 * **Prefabs**
     **Prefabs** are now available in **Incari**. This is a useful feature that allows the user to create multiple individual instances of an interactive **Object** in a user interface and then make changes that are enacted across all instances. For example, to create several buttons that change color when a mouse hovers over it, right-click and select `Make prefab`, and duplicate as many types as necessary. To make edits to the **Prefab**, simply locate it in the **Asset Manager** and double-click to open up a special **Prefab Init** window. These edits will overrride the properties changed, but unique properties will remain. It is easy to share with others or between projects with the `Export prefab` option in the **Asset Manager**. All **Assets** inside a **Prefab** will be put together into a directory on export. 
 
-    Within **Prefab Init**, there are two **Nodes** which allow the user to apply **Logic** to a prefab.
-        * [**Prefab Input**]
-        * [**Prefab Output**]
+    Within **Prefab Init**, there are two **Nodes** which allow the user to apply **Logic** to a **Prefab**.
+  * [**Prefab Input**]
+  * [**Prefab Output**]
 
 
 
@@ -52,13 +52,9 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
 
 
-* [**Format Node**] -
+* [**Format Node**] 
 
 * [**HTTP Client Node Update**]
 
     The **HTTP Client Node** has been overhauled and now uses an external library. In addition, it can now support *HTTPS*. 
-
-
-
-
 
