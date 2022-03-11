@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Local Position Node.]()
+![The Get Local Position Node.](../../../.gitbook/assets/getlocalposition.png)
 
 **Get Local Position** .
 

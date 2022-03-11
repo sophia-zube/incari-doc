@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Global Position Node.]()
+![The Set Global Position Node.](../../../.gitbook/assets/setglobalposition.png)
 
 **Set Global Position** .
 
