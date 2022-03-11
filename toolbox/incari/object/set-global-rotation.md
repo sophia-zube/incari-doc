@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Global Rotation Node.]()
+![The Set Global Rotation Node.](../../../.gitbook/assets/setglobalrotation.png)
 
 **Set Global Rotation** .
 
