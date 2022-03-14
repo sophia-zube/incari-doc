@@ -2,13 +2,13 @@
 
 ![The Get Global Rotation Node.](../../../.gitbook/assets/getglobalrotation.png)
 
-The **Get Global Rotation** returns the global coordinates (in reference to the origin)  for an **3D Object's** *global rotation* in **Vector3** form. 
+The **Get Global Rotation Node** returns the global coordinates (in reference to the origin)  for a **3D Object's** *global rotation* in **Vector3** form. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|'Object'|**ObjectID**|The target **Object** whose `Global Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **Object** whose `Global Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
