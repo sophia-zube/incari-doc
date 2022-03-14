@@ -22,7 +22,7 @@ The **Get Local Rotation Node** returns the local coordinates (in reference to t
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Rotation` | **Vector2** | A 3-dimensional **Vector** that contains the X and Y and Z _local rotation_ values of the target **Object**. |
+| `Rotation` | **Vector3** | A 3-dimensional **Vector** that contains the X and Y and Z _local rotation_ values of the target **Object**. |
 
 # See Also
 
