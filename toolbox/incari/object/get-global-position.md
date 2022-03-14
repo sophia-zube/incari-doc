@@ -2,13 +2,13 @@
 
 ![The Get Global Position Node.](../../../.gitbook/assets/getglobalposition.png)
 
-The **Get Global Position** returns the global coordinates (in reference to the origin)  for an **3D Object's** *global position* in **Vector3** form.
+The **Get Global Position Node** returns the global coordinates (in reference to the origin)  for a **3D Object's** *global position* in **Vector3** form.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|'Object'|**ObjectID**|The target **Object** whose `Global Position` you wish to return, if one is not provided in the `Object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **Object** whose `Global Position` you wish to return, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
