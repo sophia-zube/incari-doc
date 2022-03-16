@@ -8,16 +8,16 @@ The **Set Global Position Node** assigns the global coordinates (in reference to
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** whose `Global Position` you wish to assign, if one is not provided in the `Object ID` **Socket**.|
-|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X and Y and Z _global position_ values for the target **Object**. |
+|`Object`|**ObjectID**|The target **Object** whose global `Position` you wish to assign, if one is not provided in the `Object ID` **Socket**.|
+|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _global position_ values for the target **Object**. |
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Global Position` you wish to assign.|
-|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X and Y and Z _global position_ values for the target **Object**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose global `Position` you wish to assign.|
+|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _global position_ values for the target **Object**. |
 
 
 # Outputs
@@ -28,4 +28,6 @@ The **Set Global Position Node** assigns the global coordinates (in reference to
 
 # See Also
 
-
+[**Set Global Rotation**](set-global-rotation.md)
+[**Get Global Position**](get-global-position.md)
+[**Get Global Rotation**](get-global-rotation.md)

@@ -8,21 +8,24 @@ The **Get Global Rotation Node** returns the global coordinates (in reference to
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** whose `Global Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **Object** whose global `Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Global Rotation` you wish to return. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose global `Rotation` you wish to return. |
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Rotation` | **Vector3** | A 3-dimensional **Vector** that contains the X and Y and Z _global rotation_ values of the target **Object**. |
+| `Rotation` | **Vector3** | A 3-dimensional **Vector** that contains the X, Y, and Z _global rotation_ values of the target **Object**. |
 
 # See Also
 
+* [**Get Global Position**](get-global-position.md)
+* [**Set Global Position**](set-global-position.md)
+* [**Set Global Rotation**](set-global-rotation.md)
