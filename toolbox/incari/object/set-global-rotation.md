@@ -8,7 +8,7 @@ The **Set Global Rotation Node** assigns the global coordinates (in reference to
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The target **Object** whose `Global Rotation` you wish to assign, if one is not provided in the `Object ID` **Socket**.|
+|`Object`|**ObjectID**|The target **Object** whose global `Rotation` you wish to assign, if one is not provided in the `Object ID` **Socket**.|
 |`Rotation`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _global rotation_ values for the target **Object**. |
 
 # Inputs
@@ -16,7 +16,7 @@ The **Set Global Rotation Node** assigns the global coordinates (in reference to
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Global Rotation` you wish to assign.|
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose global `Rotation` you wish to assign.|
 |`Rotation`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _global rotation_ values for the target **Object**. |
 
 # Outputs
@@ -27,3 +27,6 @@ The **Set Global Rotation Node** assigns the global coordinates (in reference to
 
 # See Also
 
+[**Set Global Position**](set-global-position.md)
+[**Get Global Position**](get-global-position.md)
+[**Get Global Rotation**](get-global-rotation.md)
