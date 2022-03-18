@@ -2,7 +2,7 @@
 
 ![The On Local Rotation Change Node.]()
 
-**On Local Rotation Change** .
+The **On Local Rotation Change Node** .
 
 # Attributes
 
