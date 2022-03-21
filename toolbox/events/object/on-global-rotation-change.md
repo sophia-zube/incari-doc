@@ -2,21 +2,22 @@
 
 ![The On Global Rotation Change Node.](../../../.gitbook/assets/onglobalrotationchange.png)
 
-The **On Global Rotation Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the *global rotation* value of an **Object** changes..
+The **On Global Rotation Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the 
+*global rotation* value of an **Object** changes. The **Node** subscribes to
+the changes indefinitely until something external alters it.
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** in which a change of the *global rotation* value triggers the **Logic Branch**.|
+|`Object`|**ObjectID**|The **Object** that has had its *global rotation* changed.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**| The ID of the target **Object** which will trigger the change.|
-|`Subscribe` (►)|**Pulse**|The **Pulse** to be triggered by previous **Logic**.|
+|`Object ID`|**ObjectID**| The ID of the target **Object** that had its *global position* changed.|
+|`Subscribe` (►)|**Pulse**|The **Pulse** to be triggered by a previous action after a *global rotation* change. The resulting output will remain with each execution of the **On Global Position Change Node**.|
 
 # Outputs
 
