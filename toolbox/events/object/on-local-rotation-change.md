@@ -5,13 +5,13 @@
 The **On Local Rotation Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the 
 *local rotation* value of an **Object** changes. The **Node** subscribes to
 the changes indefinitely until something external alters it.
-.
+
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** that has had its *global position* changed.|
+|`Object`|**ObjectID**|The **Object** that has had its *local rotation* changed.|
 
 # Inputs
 
