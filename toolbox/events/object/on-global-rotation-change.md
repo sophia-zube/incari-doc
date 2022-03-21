@@ -16,8 +16,8 @@ the changes indefinitely until something external alters it.
 
 |Input|Type|Description|
 |---|---|---|
-|`Object ID`|**ObjectID**| The ID of the target **Object** that had its *global position* changed.|
-|`Subscribe` (►)|**Pulse**|The **Pulse** to be triggered by a previous action after a *global rotation* change. The resulting output will remain with each execution of the **On Global Position Change Node**.|
+|`Object ID`|**ObjectID**| The ID of the target **Object** that had its *global rotation* changed.|
+|`Subscribe` (►)|**Pulse**|The **Pulse** to be triggered by a previous action after a *global rotation* change. The resulting output will remain with each execution of the **On Global Rotation Change Node**.|
 
 # Outputs
 
