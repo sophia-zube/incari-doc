@@ -256,7 +256,7 @@
     * [Set Current Index](toolbox/incari/list/set-current-index.md)
   * [Object](toolbox/incari/object/README.md)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
-    * [Get Global Position](toolbox/incari/object/get-get-global-position.md)
+    * [Get Global Position](toolbox/incari/object/get-global-position.md)
     * [Get Global Rotation](toolbox/incari/object/get-global-rotation.md)
     * [Get Local Position](toolbox/incari/object/get-local-position.md)
     * [Get Local Rotation](toolbox/incari/object/get-local-rotation.md)
