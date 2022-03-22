@@ -256,8 +256,8 @@
     * [Set Current Index](toolbox/incari/list/set-current-index.md)
   * [Object](toolbox/incari/object/README.md)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
-    * [Get Global Position](toolbox/incari/object/get-global-position.md)
-    * [Get Global Rotation](toolbox/incari/object/get-global-rotation.md)
+    <!-- * [Get Global Position](toolbox/incari/object/get-global-position.md)
+    * [Get Global Rotation](toolbox/incari/object/get-global-rotation.md) -->
     * [Get Local Position](toolbox/incari/object/get-local-position.md)
     * [Get Local Rotation](toolbox/incari/object/get-local-rotation.md)
     * [Get Material](toolbox/incari/object/get-material.md)
@@ -271,8 +271,8 @@
     * [Get Tint](toolbox/incari/object/get-tint.md)
     * [Get Visibility](toolbox/incari/object/get-visibility.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
-    * [Set Global Position](toolbox/incari/object/set-global-position.md)
-    * [Set Global Rotation](toolbox/incari/object/set-global-rotation.md)
+    <!-- * [Set Global Position](toolbox/incari/object/set-global-position.md)
+    * [Set Global Rotation](toolbox/incari/object/set-global-rotation.md) -->
     * [Set Global Rotation](toolbox/incari/object/set-global-rotation.md)
     * [Set Local Position](toolbox/incari/object/set-local-position.md)
     * [Set Local Rotation](toolbox/incari/object/set-local-rotation.md)
