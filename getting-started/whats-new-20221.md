@@ -2,7 +2,7 @@
 
 Many new features have been added to the release of **Incari Studio** 2022.1. Here is a list of the features you need to know.
 
-* **Global and Local Transfrom** 
+* **Global and Local Transforms** 
 
     Originally, it was only possible to make changes in global space (i.e. in relation to the origin). Now it is possible to make object transformations locally in relation to the object itself. For example, if the user wishes to rotate an object around itself, this is now much easier with local transform. Switch the toggle `LocalMode` to enable and disable this feature. There are several **Nodes** attached to this new feature. 
 
