@@ -3,22 +3,20 @@
 ![The On Local Rotation Change Node.](../../../.gitbook/assets/onlocalrotationchange.png)
 
 The **On Local Rotation Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the 
-*local rotation* value of an **Object** changes. The **Node** subscribes to
-the changes indefinitely until something external alters it.
-
+*local rotation* value of an **Object** changes. 
 
 # Attributes
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`|**ObjectID**|The **Object** that has had its *local rotation* changed.|
+|`Object`|**ObjectID**|The **Object** in which a change of *local rotation* values triggers the **Logic Branch**, if none is given in the `Object ID` **Input Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
-|`Object ID`|**ObjectID**|The ID of the target **Object** that had its *local rotation* changed.|
-|`Subscribe` (►)|**Pulse**|The **Pulse** to be triggered by a previous action after a *local rotation* change. The resulting output will remain with each execution of the **On Local Rotation Change Node**.|
+|`Object ID`|**ObjectID**|The **Object** in which a change of *local rotation* values triggers the **Logic Branch**.|
+|`Subscribe` (►)|**Pulse**|An **Input Pulse** that needs to be triggered to start listening to the **Event**.|
 
 # Outputs
 
@@ -30,3 +28,10 @@ the changes indefinitely until something external alters it.
 
 # See Also
 
+* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+* [**Set Local Rotation**](../../incari/object/set-local-rotation.md)
+* [**Get Local Rotation**](../../incari/object/get-local-rotation.md)
+
+# External Links
+
+* [_Rotation_](https://en.wikipedia.org/wiki/Euler_angles) on Wikipedia
