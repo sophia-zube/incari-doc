@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Swipe Node.](../../../.gitbook/assets/node-on-swipe.png)
+![The On Swipe Node.](../../../.gitbook/assets/node-on-swipe2.png)
 
 **On Swipe** is an **Event Listener** **Node** used for executing a **Logic Branch** after a swipe on an **Object**.
 
@@ -12,7 +12,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** in which a swipe triggers the **Logic Branch**. |
+| `Object` | **ObjectID** | The **Object** in which a swipe triggers the **Logic Branch**, if none is given in the **Input Socket**. |
 
 ### Button
 
@@ -26,12 +26,21 @@
 | :--- | :--- | :--- |
 | `Swipe Direction` | **Drop-down** | The direction in which a swipe will trigger the **Logic**. |
 
+## Inputs
+
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Object ID` | **ObjectID** | The **Object** in which a swipe triggers the **Logic Branch**. |
+| `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
+
+
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Distance` | **Vector2** | Length of the swipe in the X and Y directions. |
+| `Object ID` | **ObjectID** | The **Object** received as **Input**. |
 
 ## See Also
 
