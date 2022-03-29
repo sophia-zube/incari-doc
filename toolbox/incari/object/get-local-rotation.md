@@ -2,7 +2,7 @@
 
 ![The Get Local Rotation Node.](../../../.gitbook/assets/getlocalrotation.png)
 
-The **Get Local Rotation Node** returns the local coordinates (in reference to the **Object** itself)  for a **3D Object's** *local rotation* in **Vector3** form. 
+The **Get Local Rotation Node** returns the *local rotation* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 # Attributes
 
@@ -22,10 +22,15 @@ The **Get Local Rotation Node** returns the local coordinates (in reference to t
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Rotation` | **Vector3** | A 3-dimensional **Vector** that contains the X, Y, and Z _local rotation_ values of the target **Object**. |
+| `Rotation` | **Vector3** | A 3-dimensional **Vector** that contains the local `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Object**. |
 
 # See Also
 
+* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
 * [**Get Local Position**](get-local-position.md)
 * [**Set Local Position**](set-local-position.md)
 * [**Set Local Rotation**](set-local-rotation.md)
+
+## External Links
+
+* [_Rotation_](https://en.wikipedia.org/wiki/Euler_angles) on Wikipedia
