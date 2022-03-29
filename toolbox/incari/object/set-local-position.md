@@ -2,7 +2,7 @@
 
 ![The Set Local Position Node.](../../../.gitbook/assets/setlocalposition.png)
 
-The **Set Local Position Node** assigns the local coordinates (in reference to the **Object** itself)  for a **3D Object's** *local position* in **Vector3** form.
+The **Set Local Position Node** sets the *local position* values for a given **Object**.
 
 
 # Attributes
@@ -10,7 +10,7 @@ The **Set Local Position Node** assigns the local coordinates (in reference to t
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|The target **Object** whose local `Position` you wish to assign, if one is not provided in the `Object ID` **Socket**.|
-|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _local position_ values for the target **Object**. |
+|`Position`|**Vector3**| A 3-dimensional **Vector** that provides the X, Y, and Z _local position_ values for the target **Object**, if one is not provided in the `Position` **Socket**. |
 
 # Inputs
 
@@ -28,6 +28,11 @@ The **Set Local Position Node** assigns the local coordinates (in reference to t
 
 # See Also
 
+* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
 * [**Set Local Rotation**](set-local-rotation.md)
 * [**Get Local Position**](get-local-position.md)
 * [**Get Local Rotation**](get-local-rotation.md)
+
+## External Links
+
+* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
