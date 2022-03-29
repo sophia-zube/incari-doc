@@ -2,7 +2,7 @@
 
 ![The Get Local Position Node.](../../../.gitbook/assets/getlocalposition.png)
 
-The **Get Local Position Node** returns the local coordinates (in reference to the **Object** itself)  for a **3D Object's** *local position* in **Vector3** form.
+The **Get Local Position Node** returns the *local position* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 # Attributes
 
@@ -26,6 +26,11 @@ The **Get Local Position Node** returns the local coordinates (in reference to t
 
 # See Also
 
+* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
 * [**Get Local Rotation**](get-local-rotation.md)
 * [**Set Local Position**](set-local-position.md)
 * [**Set Local Rotation**](set-local-rotation.md)
+
+## External Links
+
+* [_Position \(geometry\)_](https://en.wikipedia.org/wiki/Position_%28geometry%29) on Wikipedia.
