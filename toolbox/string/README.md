@@ -15,6 +15,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**EndsWith**](endswith.md)
 * [**Flatten**](flatten.md)
 * [**Format**](format.md)
+* [**Formatarray**](formatarray.md)
 * [**IndexOf**](indexof.md)
 * [**Join**](join.md)
 * [**JSON Parse**](jsonparse.md)
