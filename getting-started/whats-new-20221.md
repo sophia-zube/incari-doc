@@ -53,11 +53,11 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
     The **Plugins Editor** holds the ability to activate or deactivate **Communication** in **Incari**. For example, **Serial Manager Communication** can be toggled on and off from the **Editor**. When deactivated, the **Incari Player** will not load anything related to **Serial Communication** in order to improve performance and stability.  
 
 
-* [**Format Nodes**] 
+* **Format Nodes**
 
     The new [**Format**](../toolbox/string/format.md) and [**Formatarray**](../toolbox/string/formatarray.md) **Nodes** allow to use the [*printf format string*](https://en.wikipedia.org/wiki/Printf_format_string) functionality.
 
-* [**HTTP Client Node Update**]
+* **HTTP Client Node Update**
 
-    The **HTTP Client Node** has been overhauled and now uses an external library. In addition, it can now support *HTTPS*.
+    The [**HTTP Client Node**](../toolbox/communication/http/httpclient.md) has been overhauled and now uses an external library. In addition, it can now support *HTTPS*.
 
