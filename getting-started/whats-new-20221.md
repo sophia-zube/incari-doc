@@ -41,14 +41,14 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
     
 ![](../.gitbook/assets/prefabs1.gif)
     
-  For example, **Prefabs** can be used to create several buttons that change color when a mouse hovers over it. For this, right-click the group of **Objects** and select `Make prefab`, and duplicate as many types as necessary. To make edits to the **Prefab**, simply locate it in the **Asset Manager** and double-click to open up a special **Prefab Init** window. These edits will overrride the properties changed, but unique properties will remain. It is easy to share with others or between projects with the `Export prefab` option in the **Asset Manager**. All **Assets** inside a **Prefab** will be put together into a directory on export. 
+    For example, **Prefabs** can be used to create several buttons that change color when a mouse hovers over it. For this, right-click the group of **Objects** and select `Make prefab`, and duplicate as many types as necessary. To make edits to the **Prefab**, simply locate it in the **Asset Manager** and double-click to open up a special **Prefab Init** window. These edits will overrride the properties changed, but unique properties will remain. It is easy to share with others or between projects with the `Export prefab` option in the **Asset Manager**. All **Assets** inside a **Prefab** will be put together into a directory on export. 
 
-  Within the **Prefab** **Logic** window, there are two **Nodes** which allow the user to apply **Logic** to a **Prefab**:
+    Within the **Prefab** **Logic** window, there are two **Nodes** which allow the user to apply **Logic** to a **Prefab**:
 
-  * **Prefab Input**
-  * **Prefab Output**
+    * **Prefab Input**
+    * **Prefab Output**
 
-  This **Prefab Logic** can then be used in the **Scene Logic** with its correspondent **Prefab Node**.
+    This **Prefab Logic** can then be used in the **Scene Logic** with its correspondent **Prefab Node**.
 
 
 
