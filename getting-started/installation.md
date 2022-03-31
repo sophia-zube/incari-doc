@@ -24,11 +24,11 @@ For installation and licensing, please follow these steps:
 
 ![](../.gitbook/assets/incari-install2.png)
 
-* To install **Incari Studio** 2021.4, press on the plus \(+\) sign and the download will start.
+* To install **Incari Studio** 2022.1, press on the plus \(+\) sign and the download will start.
 
-* After the download is finished, the install window for **Incari Studio** 2021.4 will open. Click "Next" to proceed and go through the installation process.
+* After the download is finished, the install window for **Incari Studio** 2022.1 will open. Click "Next" to proceed and go through the installation process.
 
-![The Incari Studio welcome screen.](../.gitbook/assets/incaristudio20214_installer.png)
+![The Incari Studio setup welcome screen.](../.gitbook/assets/incaristudio20221_installer.png)
 
 *  Go to the **Incari** [website](https://www.incari.com/my-account/), where you can manage your subscriptions and obtain the license key.
 
