@@ -1,8 +1,8 @@
 # Overview
 
-![The Formatarray Node.](../../.gitbook/assets/node-formatarray.png)
+![The FormatArray Node.](../../.gitbook/assets/node-formatarray.png)
 
-The **Formatarray** **Node** receives a **Pattern** **String** that can contain *format specifiers* and an **Array** containing data values. It then outputs the **String** formatted with the data values from the **Array** in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
+The **FormatArray** **Node** receives a **Pattern** **String** that can contain *format specifiers* and an **Array** containing data values. It then outputs the **String** formatted with the data values from the **Array** in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
 
 This **Node** is useful for when data needs to presented within a text. For example, to show the current temperature. For this, we can use the **Pattern** **String** `The current temperature is %f °C`, where `%f` is the _format specifier_ that indicates that a **Float** value will take that place in the final formatted **String**. The value of the current temperature has to be given to the **Node** as a value in an **Array** and then, if the current temperature is, say, `20.3` degrees Celsius, the formatted **String** that the **Node** outputs will be `The current temperature is 20.3°C`.
 
