@@ -20,12 +20,38 @@ The `Used Materials` section has **Materials** that have been previously applied
 
 ![](../.gitbook/assets/open-material-editor.PNG)
 
-Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below. Along with ways to edit **Shadow** and **Texture**, **Incari** now supports the use of _normal mapping_ with the `Normal Maps` **Attribute**. This allows the user to upload a **Normal Map** file that, when applied, can improve the detail and complexity of a **Mesh** which is made up of a low number of polygons \(simply put, less complex\). This also helps streamline the rendering process. With this type of texture mapping, **Meshes** in **Incari** will seem as detailed as complicated ones, while being more efficient.
+Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**, as shown in the images below.  <!-- Along with ways to edit **Shadow** and **Texture**, **Incari** now supports the use of _normal mapping_ with the `Normal Maps` **Attribute**. This allows the user to upload a **Normal Map** file that, when applied, can improve the detail and complexity of a **Mesh** which is made up of a low number of polygons \(simply put, less complex\). This also helps streamline the rendering process. With this type of texture mapping, **Meshes** in **Incari** will seem as detailed as complicated ones, while being more efficient. !-->
 
-![](../.gitbook/assets/material-editor-1.png)
+<!--![](../.gitbook/assets/material-editor-1.png)
 
-![](../.gitbook/assets/material-editor-2.png)
+![](../.gitbook/assets/material-editor-2.png) !-->
 
+There are several **Shading** **Models** available to edit when creating a new **Material**.
+
+## Default Car Paint Model 
+
+![](../.gitbook/assets/defaultcarpaintmodel.png)
+
+This model allows for selecting and editing environment and normal mapping, base coat color and roughness, clear coat color and roughness, as well as metallicness and shadow sensitivity.
+
+## Default Phong Model 
+
+![](../.gitbook/assets/defaultphongmodel.png)
+
+This model allows for selecting and editing diffuse or specular color, texture, and blending; normal mapping; as well as tweaking shininess and emissiveness.
+
+## Default Glass Model
+
+![](../.gitbook/assets/defaultglassmodel.png)
+## Default ExtendendedPBR Model
+
+![](../.gitbook/assets/defaultextendedpbrmodel.png)
+## Default PBR Model
+
+![](../.gitbook/assets/defaultpbrmodel.png)
+## Default Shadeless Model 
+
+![](../.gitbook/assets/defaultshadelessmodel.png)
 ### See Also
 
 * [**Mesh**](../getting-started/scene-objects/mesh.md)
