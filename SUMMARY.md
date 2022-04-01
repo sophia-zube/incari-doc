@@ -380,7 +380,7 @@
   * [CryptoHash](toolbox/string/create-hash.md)
   * [Flatten](toolbox/string/flatten.md)
   * [Format](toolbox/string/format.md)
-  * [Formatarray](toolbox/string/formatarray.md)
+  * [FormatArray](toolbox/string/formatarray.md)
   * [IndexOf](toolbox/string/indexof.md)
   * [Join](toolbox/string/join.md)
   * [JSON Parse](toolbox/string/jsonparse.md)
