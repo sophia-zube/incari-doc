@@ -26,7 +26,7 @@ Once a **Material** has been opened, the **Material** **Editor** allows the user
 
 ![](../.gitbook/assets/material-editor-2.png) !-->
 
-There are several **Shading** **Models** available to edit when creating a new **Material**.
+There are several **Shading** **Models** available to choose from when creating a new **Material**.
 
 ## Default Car Paint Model 
 
@@ -71,4 +71,10 @@ This model represents a material which displays a solid color and offers no resp
 ## External Links
 
 * More on [_normal mapping_](https://en.wikipedia.org/wiki/Normal_mapping) on Wikipedia.
+* More on [*environment mapping*](https://en.wikipedia.org/wiki/Reflection_mapping) on Wikipedia. 
+* More on [*specular reflection*](https://en.wikipedia.org/wiki/Specular_reflection) on Wikipedia.
+* More on [*diffuse reflection*](https://en.wikipedia.org/wiki/Diffuse_reflection) on Wikipedia. 
+* More on [*fresnel shading*](http://kylehalladay.com/blog/tutorial/2014/02/18/Fresnel-Shaders-From-The-Ground-Up.html) on Kyle Halladay's blog. 
+* More on [*albedo shading*](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/diffuse-lambertian-shading#:~:text=albedo%20%3D%20reflect%20light%20incident%20light.%20In%20computer,often%20denoted%20with%20the%20Greek%20letter%20%CF%81%20%28rho%29.) on Scratchapixel. 
+* 
 
