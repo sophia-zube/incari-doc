@@ -76,5 +76,4 @@ This model represents a material which displays a solid color and offers no resp
 * More on [*diffuse reflection*](https://en.wikipedia.org/wiki/Diffuse_reflection) on Wikipedia. 
 * More on [*fresnel shading*](http://kylehalladay.com/blog/tutorial/2014/02/18/Fresnel-Shaders-From-The-Ground-Up.html) on Kyle Halladay's blog. 
 * More on [*albedo shading*](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/diffuse-lambertian-shading#:~:text=albedo%20%3D%20reflect%20light%20incident%20light.%20In%20computer,often%20denoted%20with%20the%20Greek%20letter%20%CF%81%20%28rho%29.) on Scratchapixel. 
-* 
 
