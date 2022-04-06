@@ -2,7 +2,9 @@
 
 ## Overview
 
-**Prefabs** are a feature that allow to create multiple individual instances of a combination of **Objects** in a *User Interface*, and then make changes that are enacted across all instances. This allows one to easily create several **Objects** with the same functionality that retain unique properties via overrides. Moreover, **Prefabs** have their own **Logic** encapsulated within them. Any alterations in the **Prefab** properties or its **Logic** affect all of its instances.
+**Prefabs** are **Objects** that are composed of a combination of **Objects**. They allow the user to create multiple individual instances of this combination and then make changes that are enacted across all of them. Each instance can also retain unique properties via overrides, thus allowing to create several **Objects** with the same functionality but different characteristics. Moreover, **Prefabs** have their own **Logic** encapsulated within them.
+
+The first section shows how to create and use **Prefabs** and the second section gives more details about the **Logic** of **Prefabs**.
 
 ## Creating and Using Prefabs
 
