@@ -1,6 +1,6 @@
 # Exporter
 
-The **Exporter** **Module** allows to export a **Project** to a chosen export folder. Along with exporting the **Project**, **Exporter** creates a copy of **Incari Player** in the same folder.
+The **Exporter** **Module** allows one to export a **Project** to a chosen export folder. Along with exporting the **Project**, **Exporter** creates a copy of **Incari Player** in the same folder. This makes it possible to save and open a **Project** in **Player** format at another time. 
 
 ![](../.gitbook/assets/exporter-module.png)
 
