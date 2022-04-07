@@ -4,7 +4,7 @@ The **Material Editor** allows us to create a **Material** that gives a **Mesh**
 
 To open the **Material Editor**, double-click on a **Material** file in the **Asset Manager** or right-click on the Menu bar and click on **Material Editor** from the drop-down list. The latter option can be seen in the illustration below:
 
-![](../.gitbook/assets/material-editor.PNG)
+![](../../.gitbook/assets/material-editor.PNG)
 
 The sections defined in the **Material Editor** are discussed below. They will not be displayed in the **Material Editor** if a **Material** file has already been opened. 
 
@@ -12,24 +12,24 @@ The `Used Materials` section has **Materials** that have been previously applied
 
 `New Material`, as its name suggests, allows us to create new **Materials**. The illustration below depicts its behavior when clicked.
 
-![](../.gitbook/assets/create-material.gif)
+![](../../.gitbook/assets/create-material.gif)
 
 `Open Material` opens a window that allows us to select an existing **Material** file. An example of the window is shown below:
 
-![](../.gitbook/assets/open-material-editor.PNG)
+![](../../.gitbook/assets/open-material-editor.PNG)
 
 Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**. 
 
-![Shading Models Menu](../.gitbook/assets/materialeditordropdownmenu.png)
+![Shading Models Menu](../../.gitbook/assets/materialeditordropdownmenu.png)
 
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
 
-* [Default Car Paint Model](car-paint-model.md)
-* [Default Extended PBR Model](extended-pbr-model.md)
-* [Default Glass Model](glass-model.md)
-* [Default PBR Model](pbr-model.md)
-* [Default Shadeless Model](shadeless-model.md)
-* [Default Phong Model](phong-model.md)
+* [**Default Car Paint Model**](car-paint-model.md)
+* [**Default Extended PBR Model**](extended-pbr-model.md)
+* [**Default Glass Model**](glass-model.md)
+* [**Default PBR Model**](pbr-model.md)
+* [**Default Shadeless Model**](shadeless-model.md)
+* [**Default Phong Model**](phong-model.md)
 
 
 
@@ -46,16 +46,7 @@ There are several **Shading** **Models** available to choose from when creating 
 
 
 
-
-
-
-
-
-
-
-
-
-### See Also
+## See Also
 
 * [**Mesh**](../getting-started/scene-objects/mesh.md)
 
