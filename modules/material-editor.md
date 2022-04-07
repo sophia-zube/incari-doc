@@ -43,7 +43,7 @@ This model represents a material that provides the visual qualities to a car's p
 
 This model represents the standard Phong model, characterized by a shiny surface marked by pinpointed highlights. It allows for selecting and editing `Diffuse` or `Specular Color`, `Texture`, and `Blending`; `Normal Mapping`; as well as tweaking `Shininess` and `Emissiveness`.
 
-![](../.gitbook/assets/defaultphongmodel.png)
+![](../.gitbook/assets/defaultphongmodel2.png)
 
 
 
