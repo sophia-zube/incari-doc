@@ -1,6 +1,5 @@
 # Prefabs
 
-## Overview
 
 **Prefabs** are **Objects** that are composed of a combination of **Objects**. They allow the user to create multiple individual instances of this combination and then make changes that are enacted across all of them. Each instance can also retain unique properties via overrides, thus allowing to create several **Objects** with the same functionality but different characteristics. Moreover, **Prefabs** have their own **Logic** encapsulated within them.
 
