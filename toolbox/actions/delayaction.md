@@ -8,11 +8,11 @@ The **Delay Action Node** delays the **Action** for the specified duration \(in 
 
 ## Attributes
 
-![The Delay Action Node Attributes](../../.gitbook/assets/node-delay-action-attr.png)
-
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
+
+![The Delay Action Node Attributes](../../.gitbook/assets/node-delay-action-attr.png)
 
 ## Inputs
 
