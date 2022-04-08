@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Delay Action Node.](../../.gitbook/assets/delayaction.png)
+![The Delay Action Node.](../../.gitbook/assets/node-delay-action-node.png.png)
 
 The **Delay Action Node** delays the **Action** for the specified duration \(in seconds\).
 
 ## Attributes
+
+![The Delay Action Node Attributes](../../.gitbook/assets/node-delay-action-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
