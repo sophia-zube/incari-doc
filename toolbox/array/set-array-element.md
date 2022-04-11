@@ -10,6 +10,8 @@ If the `Index` is out of range for the **Array**, it will extend the **Array** u
 
 ## Attributes
 
+![The Set Array Element Node](../../.gitbook/assets/setarrayelementattributes.png)
+
 ### Inputs
 
 `Inputs` - The number of elements you wish to set the value of. Each **Input** element has the following **Attributes**:

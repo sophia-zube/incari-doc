@@ -8,6 +8,8 @@
 
 ## Attributes
 
+![The Get Array Element Node Attributes](../../.gitbook/assets/getarrayelementattributes.png)
+
 ### Miscellaneous
 
 `Inputs/Outputs` - The number of elements you want to get from the **Array**. Each element has the following **Attributes**:
