@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The RotateBy Action Node.](../../.gitbook/assets/rotatebyaction.png)
+![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionnode.png)
 
 The **RotateBy Action Node** rotates an **Animation** by the relative values specified in the `Offset` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The RotateBy Action Node Attributes](../../.gitbook/assets/movebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

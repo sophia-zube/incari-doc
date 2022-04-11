@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The FadeTo Action Node.](../../.gitbook/assets/fadetoaction.png)
+![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionnode.png)
 
 The **FadeTo Action Node** reduces the opacity of an **Animation** to the desired value over a specified time period, in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The FadeTo Action Node Attributes](../../.gitbook/assets/fadetoactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MoveTo Action Node.](../../.gitbook/assets/movetoaction.png)
+![The MoveTo Action Node.](../../.gitbook/assets/movetoactionnode.png)
 
 The **MoveTo Action Node** moves an **Animation** to the absolute coordinates specified in the `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The MoveTo Action Node Attributes](../../.gitbook/assets/movetoactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
