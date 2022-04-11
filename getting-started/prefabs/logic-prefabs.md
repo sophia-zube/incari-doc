@@ -1,4 +1,4 @@
-## Logic
+# Logic
 
 **Prefabs** have their own **Logic** encapsulated within them and it applies to all instances of the **Prefab**. The **Prefab** **Logic** can be incorporated into the **Scene Logic** via a **Prefab Node**.
 
