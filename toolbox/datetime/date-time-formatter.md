@@ -10,7 +10,7 @@ For more information about _formatting strings_, please see the external links a
 
 ## Attributes
 
-![The Date Time Formatter Node Attributes.](../../.gitbook/assets/node-date-time-formatter.png)
+![The Date Time Formatter Node Attributes.](../../.gitbook/assets/node-date-time-formatter-attr.png)
 
 ### Input
 
