@@ -10,6 +10,8 @@ If no **Array** is given as input, the elements are added to a new, empty **Arra
 
 ## Attributes
 
+![The Push Array Element Node Attributes](../../.gitbook/assets/pusharrayelementattributes.png)
+
 ### Inputs
 
 `Inputs` - The number of **Input** elements you wish to add to the **Input** **Array**. Each element has the following **Attributes**:

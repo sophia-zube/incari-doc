@@ -8,6 +8,8 @@
 
 ## Attributes
 
+![The Pop Array Element Node Attributes](../../.gitbook/assets/poparrayelementnodeattributes.png)
+
 ### Outputs
 
 `Outputs` - The number of elements you wish to remove from the **Input** **Array**. Each element has the following **Attributes**:
