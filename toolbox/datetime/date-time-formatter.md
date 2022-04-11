@@ -2,13 +2,15 @@
 
 ## Overview
 
-![](../../.gitbook/assets/node-date-time-formatter.png)
+![The Date Time Formatter Node.](../../.gitbook/assets/node-date-time-formatter.png)
 
 **Date Time Formatter** outputs a _date_ and/or _time_ in a specified format. By using a combination of special _format characters_, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
 
 For more information about _formatting strings_, please see the external links at the [bottom of this page](date-time-formatter.md#external-links).
 
 ## Attributes
+
+![The Date Time Formatter Node Attributes.](../../.gitbook/assets/node-date-time-formatter.png)
 
 ### Input
 

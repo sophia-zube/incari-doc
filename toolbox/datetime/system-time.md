@@ -10,6 +10,8 @@ When `Smooth float value` is enabled, the output values won't be rounded down, s
 
 ## Attributes
 
+![The System Time Node Attributes.](../../.gitbook/assets/node-system-time-attr.png)
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Mode` | **Drop-down** | Determines whether the `Hour` value will be returned in 12-hour, 24-hour or degree format. |
