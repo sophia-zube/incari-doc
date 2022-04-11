@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The RotateTo Action Node.](../../.gitbook/assets/rotatetoaction.png)
+![The RotateTo Action Node.](../../.gitbook/assets/rotatebyactionnode.png)
 
 The **RotateTo Action Node** rotates an **Animation** to the absolute Euler angles along the X, Y, and Z axes specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

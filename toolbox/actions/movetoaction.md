@@ -8,7 +8,7 @@ The **MoveTo Action Node** moves an **Animation** to the absolute coordinates sp
 
 ## Attributes
 
-![The MoveTo Action Node Attributes](../../.gitbook/assets/movetoactionattributes.png)
+![The MoveTo Action Node Attributes.](../../.gitbook/assets/movetoactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

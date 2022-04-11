@@ -8,7 +8,7 @@ The **Delay Action Node** delays the **Action** for the specified duration \(in 
 
 ## Attributes
 
-![The Delay Action Node Attributes](../../.gitbook/assets/node-delay-action-attr.png)
+![The Delay Action Node Attributes.](../../.gitbook/assets/node-delay-action-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -8,7 +8,7 @@ The **RotateFromTo Action Node** rotates an **Animation** from the absolute Eule
 
 ## Attributes
 
-![The RotateFromTo Action Node Attributes](../../.gitbook/assets/rotatefromtoactionattributes.png)
+![The RotateFromTo Action Node Attributes.](../../.gitbook/assets/rotatefromtoactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

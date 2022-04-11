@@ -8,6 +8,8 @@ The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ valu
 
 ## Attributes
 
+![The ScaleTo Node Attributes.](../../.gitbook/assets/scaletoactionattributes.png)
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `To` | **Vector3** | The desired _scale_ values along the X, Y, Z axes. |
