@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleTo Node.](../../.gitbook/assets/scaletoaction.png)
+![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode.png)
 
 The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ values along the X, Y, Z axes specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**. 
 
