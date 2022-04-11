@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The ScaleBy Action Node.](../../.gitbook/assets/scalebyaction.png)
+![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionnode.png)
 
 The **ScaleBy Action Node** scales an **Animation** by the relative values specified in `By` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The ScaleBy Action Node Attributes.](../../.gitbook/assets/scalebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -8,7 +8,7 @@ The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an i
 
 ## Attributes
 
-![The FadeFromTo Action Node Attributes](../../.gitbook/assets/fadefromtoactionattributes.png)
+![The FadeFromTo Action Node Attributes.](../../.gitbook/assets/fadefromtoactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

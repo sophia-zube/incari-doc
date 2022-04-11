@@ -8,7 +8,7 @@ The **MoveBy Action Node** moves an **Animation** by the relative values specifi
 
 ## Attributes
 
-![The MoveBy Action Node Attributes](../../.gitbook/assets/movebyactionattributes.png)
+![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
