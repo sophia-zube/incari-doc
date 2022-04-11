@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MoveBy Action Node.](../../.gitbook/assets/movebyaction.png)
+![The MoveBy Action Node.](../../.gitbook/assets/movebyactionnode.png)
 
 The **MoveBy Action Node** moves an **Animation** by the relative values specified in the `Offset` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
 
 ## Attributes
+
+![The MoveBy Action Node Attributes](../../.gitbook/assets/movebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
