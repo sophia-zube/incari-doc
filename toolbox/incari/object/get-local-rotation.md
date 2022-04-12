@@ -6,6 +6,8 @@ The **Get Local Rotation Node** returns the *local rotation* of an **Object** in
 
 # Attributes
 
+![The Get Local Rotation Node.](../../../.gitbook/assets/node-get-local-rotation-attr.png)
+
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|The target **Object** whose local `Rotation` you wish to return, if one is not provided in the `Object ID` **Socket**.|
