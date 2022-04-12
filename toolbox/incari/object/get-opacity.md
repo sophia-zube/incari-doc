@@ -8,6 +8,8 @@
 
 ## Attributes
 
+![The Get Opacity Node Attributes.](../../../.gitbook/assets/node-get-opacity-attr.png)
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**, whose `Opacity` you wish to return, if one is not provided in the `Object ID` **Socket**. |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Material Node.](../../../.gitbook/assets/node-get-material.PNG)
+![The Get Material Node.](../../../.gitbook/assets/node-get-material.png)
 
 **Get Material** returns the assigned **Material** of a [**Mesh Object**](../../../getting-started/scene-objects/mesh.md).
 
 ## Attributes
+
+![The Get Material Node Attributes.](../../../.gitbook/assets/node-get-material-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
