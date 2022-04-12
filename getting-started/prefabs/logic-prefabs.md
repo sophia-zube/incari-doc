@@ -6,7 +6,7 @@
 
 To open the **Prefab Logic** graph in the **Logic Editor** either double click the **Prefab Node** in the **Logic Editor** or the **Prefab Asset** in the **Asset Manager**.
 
-The **Prefab Logic** has two **Nodes** by default: **Prefab Input** and **Prefab Output**. These represent the **Input** and **Output** of the **Prefab Node**.
+The **Prefab Logic** has two **Nodes** by default: **Prefab Input** and **Prefab Output**. These represent the **Input** and **Output** of the **Prefab Node**, respectively.
 
 ![Prefab Logic](../../.gitbook/assets/prefab-logic.png)
 
