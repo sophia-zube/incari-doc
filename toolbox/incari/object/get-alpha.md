@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Alpha Node.](../../../.gitbook/assets/node-get-alpha.PNG)
+![The Get Alpha Node.](../../../.gitbook/assets/node-get-alpha.png)
 
 **Get Alpha** returns the _alpha_ value of the color space of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
@@ -10,7 +10,7 @@ The **Get Alpha** **Node** only works with **Objects** that have **Attributes** 
 
 ## Attributes
 
-![The Get Alpha Node Attributes.](../../../.gitbook/assets/node-get-alpha-attr.PNG)
+![The Get Alpha Node Attributes.](../../../.gitbook/assets/node-get-alpha-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
