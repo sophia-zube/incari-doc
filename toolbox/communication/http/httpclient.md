@@ -6,11 +6,13 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 ## HTTP GET
 
-![The HTTP GET Node.](../../../.gitbook/assets/httpget.png)
+![The HTTP GET Node.](../../../.gitbook/assets/httpgetnode.png)
 
 **HTTP GET** creates a request and returns the response within the _HTTP_ protocol. This is very useful when dealing with APIs. A more detailed explanation involving APIs can be found in the **See Also** section.
 
 ## Attributes
+
+![The HTTP GET Node Attributes.](../../../.gitbook/assets/httpgetattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -46,11 +48,13 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 ## HTTP POST
 
-![The HTTP POST Node.](../../../.gitbook/assets/httppost.png)
+![The HTTP POST Node.](../../../.gitbook/assets/httppostnode.png)
 
 **HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the differences between **POST** and **GET** can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
 
 ## Attributes
+
+![The HTTP POST Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MQTT Publish Node.](../../../.gitbook/assets/mqttpublish.png)
+![The MQTT Publish Node.](../../../.gitbook/assets/mqttpublishnode.png)
 
 The **MQTT Publish Node** sends a message to a different location.
 
 ## Attributes
+
+![The MQTT Publish Node Attributes.](../../../.gitbook/assets/mqttpublishattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

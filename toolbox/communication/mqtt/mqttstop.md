@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MQTT Stop Node.](../../../.gitbook/assets/mqttstop.png)
+![The MQTT Stop Node.](../../../.gitbook/assets/mqttstopnode.png)
 
 The **MQTT Stop Node** stops the **MQTT** connection.
 
 ## Attributes
+
+![The MQTT Stop Node Attributes.](../../../.gitbook/assets/mqttstopattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

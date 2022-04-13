@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribe.png)
+![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribenode.png)
 
 The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value pair.
 
 ## Attributes
+
+![The MQTT Subscribe Node Attributes.](../../../.gitbook/assets/mqttsubscribeattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
