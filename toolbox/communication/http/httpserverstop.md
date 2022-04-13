@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstop.png)
+![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstopnode.png)
 
 The **HTTP Server Stop Node** terminates the connection with an _HTTP_ server.
 
 ## Attributes
+
+![The HTTP Server Stop Node Attributes.](../../../.gitbook/assets/httpserverstopattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

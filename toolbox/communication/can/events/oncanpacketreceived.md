@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On CAN Packet Received Node.](../../../../.gitbook/assets/oncanpacketreceived.png)
+![The On CAN Packet Received Node.](../../../../.gitbook/assets/oncanpacketreceivednode.png)
 
 **On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu** and a data **Packet** has been received.
 
 ## Attributes
+
+![The On CAN Packet Received Node Attributes.](../../../../.gitbook/assets/oncanpacketreceivedattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

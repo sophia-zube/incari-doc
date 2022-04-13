@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The MQTT Start Node.](../../../.gitbook/assets/mqttstart.png)
+![The MQTT Start Node.](../../../.gitbook/assets/mqttstartnode.png)
 
 The **MQTT Start Node** starts the **MQTT** connection.
 
 ## Attributes
+
+![The MQTT Start Node Attributes.](../../../.gitbook/assets/mqttstartattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

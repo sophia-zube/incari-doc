@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstart.png)
+![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstartnode.png)
 
 The **HTTP Server Start Node** starts communication with a server that has already been set up in **Project Settings**.
 
 ## Attributes
+
+![The HTTP Server Start Node Attributes.](../../../.gitbook/assets/httpserverstartattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
