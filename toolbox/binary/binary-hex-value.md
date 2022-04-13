@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Binary \(Hex\) Value Node.](../../.gitbook/assets/node-binary-hex-value.png)
+![The Binary \(Hex\) Value Node.](../../.gitbook/assets/binaryvaluenode.png)
 
 The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
 
 ## Attributes
+
+![The Binary \(Hex)\ Value Node Attributes.](../../.gitbook/assets/binaryvalueattributes.png)
 
 ### Default
 
