@@ -16,7 +16,7 @@ New instances of the **Prefab** can be created by either duplicating the existin
 
 ## Editing the Prefab Asset
 
-To edit the **Prefab** **Asset**, double-click the **Prefab** in the **Asset Manager**. This will open the **Prefab View** in both the **Scene Outliner** and **Attribute Editor**. The **Prefab** view is indicated by a purple circle. Changes made here affect all instances of the **Prefab**. 
+To edit the **Prefab** **Asset**, double-click the **Prefab** in the **Asset Manager**. This will open the **Prefab View** in both the **Scene Outliner** and **Attribute Editor**. The **Prefab** **View** is indicated by a purple circle. Changes made here affect all instances of the **Prefab**. 
 
 ![Editing the master **Prefab**.](../../.gitbook/assets/editmasterprefab.gif)
 
