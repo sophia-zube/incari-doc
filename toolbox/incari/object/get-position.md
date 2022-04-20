@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Position Node.](../../../.gitbook/assets/get-position.PNG)
+![The Get Position Node.](../../../.gitbook/assets/node-get-position.png)
 
 **Get Position** returns the _position_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 ## Attributes
+
+![The Get Position Node Attributes.](../../../.gitbook/assets/node-get-position-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
