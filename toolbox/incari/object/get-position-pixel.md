@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Position Pixel Node.](../../../.gitbook/assets/getpixelposition.png)
+![The Get Position Pixel Node.](../../../.gitbook/assets/node-get-position-2d.png)
 
 The **Get Position Pixel Node** returns the X and Y values of a **2D Object's** _position_.
 
 ## Attributes
+
+![The Get Position Pixel Node Attributes.](../../../.gitbook/assets/node-get-position-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
