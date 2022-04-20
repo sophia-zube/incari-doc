@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Dictionary Keys Node.](../../.gitbook/assets/get-dictionary-keys.png)
+![The Get Dictionary Keys Node.](../../.gitbook/assets/getdictionaryelementnode.png)
 
 The **Get Dictionary Keys** **Node** takes a **Dictionary** as **Input** and yields its set of `Keys` as an **Array**. It also outputs the received **Dictionary**.
 

@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Merge Dictionaries Node.](../../.gitbook/assets/merge-dictionaries.png)
+![The Merge Dictionaries Node.](../../.gitbook/assets/mergedictionariesnode.png)
 
 The **Merge Dictionaries** **Node** merges two or more **Dictionaries**. It receives the **Dictionaries** to merge \(`Dictionary 1`, `Dictionary 2`, etc\) and outputs the merged **Dictionary** \(`New Dictionary`\).
 
 In the case that two or more of the **Dictionaries** to be merged have the same _key_, it takes the _value_ from the first **Dictionary** \(for instance, if `Dictionary 2` and `Dictionary 3` have the same _key_ with different _values_, the `New Dictionary` will take the _value_ from `Dictionary 2`\).
 
 ## Attributes
+
+![The Merge Dictionaries Node Attributes.](../../.gitbook/assets/mergedictionariesattributes.png)
 
 ### Inputs
 

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Dictionary Element Node.](../../.gitbook/assets/get-dictionary-element.png)
+![The Get Dictionary Element Node.](../../.gitbook/assets/getdictionaryelementnode.png)
 
 **Get Dictionary Element** is used for retrieving elements from a **Dictionary**. It receives as input the **Dictionary** from which the elements will be retrieved and the `Keys` of the desired elements. The outputs are the received **Dictionary** and the `Values` associated to the given `Keys`.
 
 ## Attributes
+
+![The Get Dictionary Element Node Attributes.](../../.gitbook/assets/getdictionaryelementattributes.png)
 
 ### Miscellaneous
 

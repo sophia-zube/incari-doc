@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Erase Dictionary Element Node.](../../.gitbook/assets/erase-dictionary-element.png)
+![The Erase Dictionary Element Node.](../../.gitbook/assets/erasedictionaryelementnode.png)
 
 The **Erase Dictionary Element Node** removes one or more elements from a **Dictionary**. It receives as input the **Dictionary** from which the element/s will be removed and the `Key/s` of the element/s to erase.
 
 ## Attributes
+
+![The Erase Dictionary Element Node Attributes.](../../.gitbook/assets/erasedictionaryelementattributes.png)
 
 ### Inputs
 
