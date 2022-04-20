@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On ImageSequence Pause Node.](../../../.gitbook/assets/node-on-imagesequence-pause2.png)
+![The On ImageSequence Pause Node.](../../../.gitbook/assets/onimagesequencepausenode.png)
 
 **On ImageSequence Pause** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** is paused.
 
 ## Attributes
+
+![The On ImageSequence Pause Node Attributes.](../../../.gitbook/assets/onimagesequencepauseattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
