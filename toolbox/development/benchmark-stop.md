@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Benchmark Stop Node.](../../.gitbook/assets/node-benchmark-stop.png)
+![The Benchmark Stop Node.](../../.gitbook/assets/benchmarkstopnode.png)
 
 The **Benchmark Stop** **Node** stops a timer and prints the time measured on the **Console**.
 
 ## Attributes
+
+![The Benchmark Stop Node Attributes.](../../.gitbook/assets/benchmarkstopattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Assert Node.](../../.gitbook/assets/node-assert.png)
+![The Assert Node.](../../.gitbook/assets/assertnode.png)
 
 The **Assert** **Node** compares two values and outputs the result of the comparison as a **Boolean**. The **Data Type** of the values to be compared can be chosen on the **Attributes**.
 
 ## Attributes
+
+![The Assert Node Attributes.](../../.gitbook/assets/assertattributes.png)
 
 ### Inputs
 
