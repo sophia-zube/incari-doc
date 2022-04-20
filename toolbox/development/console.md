@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Console Node.](../../.gitbook/assets/node-console.png)
+![The Console Node.](../../.gitbook/assets/consolenode.png)
 
 The **Console** **Node** is used for showing a value of any **Data Type** on the **Console**.
 
 ## Attributes
+
+![The Console Node Attributes.](../../.gitbook/assets/consoleattributes.png)
 
 ### Inputs
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Clear Console Node.](../../.gitbook/assets/node-clear-console.png)
+![The Clear Console Node.](../../.gitbook/assets/clearconsolenode.png)
 
 The **Clear Console** **Node** empties the **Console**.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Profiler Stop Node.](../../.gitbook/assets/node-profiler-stop.png)
+![The Profiler Stop Node.](../../.gitbook/assets/profilerstopnode.png)
 
 The **Profiler Stop** **Node** marks the end of a **Profiler Block** that will be analyzed in the **Profiler View**.
 
