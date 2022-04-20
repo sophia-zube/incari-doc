@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Swipe Node.](../../../.gitbook/assets/node-on-swipe2.png)
+![The On Swipe Node.](../../../.gitbook/assets/onswipenode.png)
 
 **On Swipe** is an **Event Listener** **Node** used for executing a **Logic Branch** after a swipe on an **Object**.
 
 ## Attributes
+
+![The On Swipe Node Attributes.](../../../.gitbook/assets/onswipeattributes.png)
 
 ### Object
 
