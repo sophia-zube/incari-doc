@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Dictionary Value Node.](../../.gitbook/assets/dictionary-value.png)
+![The Dictionary Value Node.](../../.gitbook/assets/dictionaryvaluenode.png)
 
 The **Dictionary Value** node defines a **Dictionary** by setting its _\(key, value\)_ pairings.
 
 ## Attributes
+
+![The Dictionary Value Node Attributes.](../../.gitbook/assets/dictionaryvalueattributes.png)
 
 ### Inputs
 

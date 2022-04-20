@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Set Dictionary Element Node.](../../.gitbook/assets/set-dictionary-element.png)
+![The Set Dictionary Element Node.](../../.gitbook/assets/setdictionaryelementnode.png)
 
 **Set Dictionary Element** updates one or more elements in a **Dictionary** to new values. For this, it receives the `Key` of the element to update to and the `Value` to which it will be updated.
 
 If the `Key` does not exist in the **Dictionary**, it creates a new \(`Key`, `Value`\) pair.
 
 ## Attributes
+
+![The Set Dictionary Element Node Attributes.](../../.gitbook/assets/setddictionaryelementattributes.png)
 
 ### Inputs
 
