@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get LabelText Node.](../../../../.gitbook/assets/getlabeltext.png)
+![The Get LabelText Node.](../../../../.gitbook/assets/node-get-labeltext.png)
 
 The **Get LabelText Node** returns the **LabelText** of a **Label Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
+
+![The Get LabelText Node Attributes.](../../../../.gitbook/assets/node-get-labeltext-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

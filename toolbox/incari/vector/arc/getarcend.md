@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get ArcEnd Node.](../../../../.gitbook/assets/getarcend.png)
+![The Get ArcEnd Node.](../../../../.gitbook/assets/node-get-arcend.png)
 
 The **Get ArcEnd Node** returns the ending _arc degree_ of an **Arc Object**.
 
 ## Attributes
+
+![The Get ArcEnd Node Attributes.](../../../../.gitbook/assets/node-get-arcend-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
