@@ -1,10 +1,12 @@
 # Overview
 
-![The On-Screen Keyboard Press Button Node.](../../../.gitbook/assets/onscreenkeyboardpressbutton.png)
+![The On-Screen Keyboard Press Button Node.](../../../.gitbook/assets/node-onscreen-keyboard-press-button.png)
 
 The **On-Screen Keyboard Press Button Node** is a **Node** that provides an action equal to pressing `Enter` on a selected **Keyboard** button.
 
 # Attributes
+
+![The On-Screen Keyboard Press Button Node Attributes.](../../../.gitbook/assets/node-onscreen-keyboard-press-button-attr.png)
 
 |Attribute|Type|Description|
 |---|---|---|
