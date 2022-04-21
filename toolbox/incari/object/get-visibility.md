@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Visibility Node.](../../../.gitbook/assets/get-visibility.PNG)
+![The Get Visibility Node.](../../../.gitbook/assets/node-get-visibility.png)
 
 **Get Visibility** returns a **Boolean** value indicating whether an **Object** is visible in a **Scene** or not.
 
 ## Attributes
+
+![The Get Visibility Node Attributes.](../../../.gitbook/assets/node-get-visibility-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

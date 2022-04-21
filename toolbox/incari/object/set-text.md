@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Text Node.](../../../.gitbook/assets/set-text.PNG)
+![The Set Text Node.](../../../.gitbook/assets/node-set-text.png)
 
 **Set Text** sets the text of a **Text** **Object**.
 
 ## Attributes
+
+![The Set Text Node Attributes.](../../../.gitbook/assets/node-set-text-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

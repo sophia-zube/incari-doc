@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Position Node.](../../../.gitbook/assets/set-position.PNG)
+![The Set Position Node.](../../../.gitbook/assets/node-set-position.png)
 
 **Set Position** sets the value of a given **Object**'s `Position` **Attribute**.
 
 ## Attributes
+
+![The Set Position Node Attributes.](../../../.gitbook/assets/node-set-position-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

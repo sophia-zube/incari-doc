@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Visibility Node.](../../../.gitbook/assets/set-visibility.PNG)
+![The Set Visibility Node.](../../../.gitbook/assets/node-set-visibility.png)
 
 **Set Visibility** makes an **Object** either visible or not visible in a **Scene**.
 
 ## Attributes
+
+![The Set Visibility Node Attributes.](../../../.gitbook/assets/node-set-visibility-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

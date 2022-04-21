@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Size Pixel Node.](../../../.gitbook/assets/getsizepixel.png)
+![The Get Size Pixel Node.](../../../.gitbook/assets/node-get-size-2d.png)
 
 The **Get Size Pixel Node** returns the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
+
+![The Get Size Pixel Node Attributes.](../../../.gitbook/assets/node-get-size-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

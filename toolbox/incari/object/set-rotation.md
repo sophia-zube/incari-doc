@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Rotation Node.](../../../.gitbook/assets/set-rotation.PNG)
+![The Set Rotation Node.](../../../.gitbook/assets/node-set-rotation.png)
 
 **Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
 
 ## Attributes
+
+![The Set Rotation Node Attributes.](../../../.gitbook/assets/node-set-rotation-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
