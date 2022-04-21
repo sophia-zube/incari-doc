@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get BackgroundColor Node.](../../../.gitbook/assets/getbackgroundcolor.png)
+![The Get BackgroundColor Node.](../../../.gitbook/assets/node-get-backgroundcolor.png)
 
 The **Get BackgroundColor Node** returns the **BackgroundColor** of the target **Vector Object**. For example, this could be the **BackgroundColor** of an **Ellipse**, which can be created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
+
+![The Get BackgroundColor Node Attributes.](../../../.gitbook/assets/node-get-backgroundcolor-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

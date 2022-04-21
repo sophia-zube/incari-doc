@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get LineWidth Node.](../../../../.gitbook/assets/getlinewidth.png)
+![The Get LineWidth Node.](../../../../.gitbook/assets/node-getlinewidth.png)
 
 The **Get LineWidth Node** returns the **LineWidth** of a **Line Object** created in the **Scene Outliner Module** under **Vector**.
 
 ## Attributes
+
+![The Get LineWidth Node Attributes.](../../../../.gitbook/assets/node-getlinewidth-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
