@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Set Tint Node.](../../../.gitbook/assets/set-tint.PNG)
+![The Set Tint Node.](../../../.gitbook/assets/node-set-tint.png)
 
 **Set Tint** modifies the `Tint` attribute of an **Object**.
 
 The **Set Tint** **Node** only works with objects that have **Sprite** category as an **Attribute** such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image**, **Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md) and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
+
+![The Set Tint Node Attributes.](../../../.gitbook/assets/node-set-tint-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

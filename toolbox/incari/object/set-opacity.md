@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Opacity Node.](../../../.gitbook/assets/setopacity.png)
+![The Set Opacity Node.](../../../.gitbook/assets/node-set-opacity.png)
 
 **Set Opacity** sets the _opacity_ of an **Object** in a **Scene**. **Object ID** and **Opacity** are given as inputs to the **Node**.
 
 ## Attributes
+
+![The Set Opacity Node Attributes.](../../../.gitbook/assets/node-set-opacity-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

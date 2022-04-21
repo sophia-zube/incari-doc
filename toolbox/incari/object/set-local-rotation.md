@@ -1,10 +1,12 @@
 # Overview
 
-![The Set Local Rotation Node.](../../../.gitbook/assets/setlocalrotation.png)
+![The Set Local Rotation Node.](../../../.gitbook/assets/node-set-local-rotation.png)
 
 The **Set Local Rotation Node** sets the value of a given **Object's** local `Rotation` **Attribute**.
 
 # Attributes
+
+![The Set Local Rotation Node Attributes.](../../../.gitbook/assets/node-set-local-rotation-attr.png)
 
 |Attribute|Type|Description|
 |---|---|---|

@@ -2,13 +2,16 @@
 
 ## Overview
 
-![The Set Alpha Node.](../../../.gitbook/assets/set-alpha.PNG)
+![The Set Alpha Node.](../../../.gitbook/assets/node-set-alpha.png)
 
 **Set Alpha** sets the value of a specified **Object's** `Alpha` **Attribute** .
 
 The **Set Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md), and [**Text**](../../../getting-started/scene-objects/text.md).
 
 ## Attributes
+
+![The Set Alpha Node Attributes.](../../../.gitbook/assets/node-set-alpha-attr.png)
+
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

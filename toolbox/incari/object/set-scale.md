@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Scale Node.](../../../.gitbook/assets/set-scale.PNG)
+![The Set Scale Node.](../../../.gitbook/assets/node-set-scale.png)
 
 **Set Scale** sets the value of a given **Object's** `Scale` **Attribute**.
 
 ## Attributes
+
+![The Set Scale Node Attributes.](../../../.gitbook/assets/node-set-scale-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Scale Node.](../../../.gitbook/assets/get-scale.PNG)
+![The Get Scale Node.](../../../.gitbook/assets/node-get-scale.png)
 
 **Get Scale** returns the _scale_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
 ## Attributes
+
+![The Get Scale Node Attributes.](../../../.gitbook/assets/node-get-scale-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

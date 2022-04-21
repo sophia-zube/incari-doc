@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get Tint Node.](../../../.gitbook/assets/get-tint.PNG)
+![The Get Tint Node.](../../../.gitbook/assets/node-get-tint.png)
 
 **Get Tint** returns the **Color** of the `Tint` **Attribute** of a given **Object**.
 
 ## Attributes
+
+![The Get Tint Node Attributes.](../../../.gitbook/assets/node-get-tint-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

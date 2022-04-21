@@ -1,11 +1,13 @@
 # Overview
 
-![The Set Local Position Node.](../../../.gitbook/assets/setlocalposition.png)
+![The Set Local Position Node.](../../../.gitbook/assets/node-set-local-position.png)
 
 The **Set Local Position Node** sets the *local position* values for a given **Object**.
 
 
 # Attributes
+
+![The Set Local Position Node Attributes.](../../../.gitbook/assets/node-set-local-position-attr.png)
 
 |Attribute|Type|Description|
 |---|---|---|
