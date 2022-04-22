@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On List Load Node.](../../../.gitbook/assets/node-on-list-load2.png)
+![The On List Load Node.](../../../.gitbook/assets/onlistloadnode.png)
 
 **On List Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **List** is loaded.
 
 ## Attributes
+
+![The On List Load Node Attributes.](../../../.gitbook/assets/onlistloadattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

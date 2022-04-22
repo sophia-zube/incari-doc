@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On List Current Index Change Node.](../../../.gitbook/assets/node-on-list-current-index-change2.png)
+![The On List Current Index Change Node.](../../../.gitbook/assets/onlistcurrentindexchangenode.png)
 
 **On List Current Index Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current index of a **List** changes.
 
 ## Attributes
+
+![The On List Current Index Change Node Attributes.](../../../.gitbook/assets/onlistcurrentindexchangeattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

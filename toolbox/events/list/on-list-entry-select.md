@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On List Entry Select Node.](../../../.gitbook/assets/node-on-list-entry-select2.png)
+![The On List Entry Select Node.](../../../.gitbook/assets/onlistentryselectnode.png)
 
 **On List Entry Select** is an **Event Listener** **Node** used for executing a **Logic Branch** when an entry of a **List** is selected.
 
 ## Attributes
+
+![The On List Entry Select Node Attributes.](../../../.gitbook/assets/onlistentryselectattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

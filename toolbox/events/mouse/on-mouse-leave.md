@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Mouse Leave Node.](../../../.gitbook/assets/node-on-mouse-leave2.png)
+![The On Mouse Leave Node.](../../../.gitbook/assets/onmouseleavenode.png)
 
 **On Mouse Leave** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor leaves an **Object**.
 
 ## Attributes
+
+![The On Mouse Leave Node Attributes.](../../../.gitbook/assets/onmouseleaveattributes%20-%20Copy.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

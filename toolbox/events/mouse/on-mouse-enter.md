@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Mouse Enter Node.](../../../.gitbook/assets/node-on-mouse-enter2.png)
+![The On Mouse Enter Node.](../../../.gitbook/assets/onmouseenternode.png)
 
 **On Mouse Enter** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor enters an **Object**.
 
 ## Attributes
+
+![The On Mouse Enter Node Attributes.](../../../.gitbook/assets/onmouseenterattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

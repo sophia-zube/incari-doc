@@ -1,11 +1,13 @@
 # Overview
 
-![The On Local Rotation Change Node.](../../../.gitbook/assets/onlocalrotationchange.png)
+![The On Local Rotation Change Node.](../../../.gitbook/assets/onlocalrotationchangenode.png)
 
 The **On Local Rotation Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the 
 *local rotation* value of an **Object** changes. 
 
 # Attributes
+
+![The On Local Rotation Change Node Attributes.](../../../.gitbook/assets/onlocalrotationchangeattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Key Release Node.](../../../.gitbook/assets/node-on-key-release.png)
+![The On Key Release Node.](../../../.gitbook/assets/onkeyreleasenode.png)
 
 **On Key Release** is an **Event Listener** **Node** used for executing additional **Logic** when a key is released on a computer keyboard.
 
 ## Attributes
+
+![The On Key Release Node Attributes.](../../../.gitbook/assets/onkeyreleaseattributes.png)
 
 ### Event
 

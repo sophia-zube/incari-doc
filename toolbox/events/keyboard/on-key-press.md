@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Key Press Node.](../../../.gitbook/assets/node-on-key-press.png)
+![The On Key Press Node.](../../../.gitbook/assets/onkeypressnode.png)
 
 **On Key Press** is an **Event Listener** **Node** used for executing additional **Logic** when a key is pressed on a computer keyboard.
 
 ## Attributes
+
+![The On Key Press Node Attributes.](../../../.gitbook/assets/onkeypressattributes.png)
 
 ### Miscellaneous
 

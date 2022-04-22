@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Hover Enter Node.](../../../.gitbook/assets/node-on-hover-enter2.png)
+![The On Hover Enter Node.](../../../.gitbook/assets/onhoverenternode.png)
 
 **On Hover Enter** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor starts hovering over an **Object**.
 
 ## Attributes
+
+![The On Hover Enter Node Attributes.](../../../.gitbook/assets/onhoverenterattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
