@@ -1,11 +1,13 @@
 # Overview
 
-![The On Local Position Change Node.](../../../.gitbook/assets/onlocalpositionchange.png)
+![The On Local Position Change Node.](../../../.gitbook/assets/onlocalpositionchangenode.png)
 
 The **On Local Position Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the *local position* value of an **Object** changes.
  
 
 # Attributes
+
+![The On Local Position Change Node Attributes.](../../../.gitbook/assets/onlocalpositionchangeattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Mouse Click Node.](../../../.gitbook/assets/node-on-mouse-click2.png)
+![The On Mouse Click Node.](../../../.gitbook/assets/onmouseclicknode.png)
 
 **On Mouse Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is clicked.
 
 ## Attributes
+
+![The On Mouse Click Node Attributes.](../../../.gitbook/assets/onmouseclickattributes.png)
 
 ### Object
 
