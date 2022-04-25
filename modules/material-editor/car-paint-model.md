@@ -22,7 +22,7 @@ A normal is a line perpendicular to the surface of some object. Normal mapping d
 
 ![Base Coat](../../.gitbook/assets/carpaint-attr-basecoat.png)
 
-`Albedo` is the base diffuse color of the car. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Fesnell`   
+`Albedo` is the base diffuse color of the car. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Fesnell`.   
 
 ![Clear Coat](../../.gitbook/assets/carpaint-attr-clearcoat.png)
 
