@@ -4,7 +4,7 @@ The **Material Editor** allows us to create a **Material** that gives a **Mesh**
 
 To open the **Material Editor**, double-click on a **Material** file in the **Asset Manager** or right-click on the Menu bar and click on **Material Editor** from the drop-down list. The latter option can be seen in the illustration below:
 
-![](../../.gitbook/assets/material-editor.PNG)
+![](../../.gitbook/assets/materialeditornew.png)
 
 The sections defined in the **Material Editor** are discussed below. They will not be displayed in the **Material Editor** if a **Material** file has already been opened. 
 
