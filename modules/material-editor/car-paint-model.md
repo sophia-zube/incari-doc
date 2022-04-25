@@ -18,15 +18,15 @@ The two types of offset allow the beginning of the image on the provided `Textur
 
 ![Normals](../../.gitbook/assets/carpaint-attr-normals.png)
 
-A normal is a line perpendicular to the surface of some object. Normal mapping distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. 
+A normal is a line perpendicular to the surface of some object. Normal mapping distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
 
 ![Base Coat](../../.gitbook/assets/carpaint-attr-basecoat.png)
 
-`Albedo` is the base diffuse color of the car. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Fesnell`.   
+`Albedo` is the base diffuse color of the car. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller.   
 
 ![Clear Coat](../../.gitbook/assets/carpaint-attr-clearcoat.png)
 
-The `Albedo` here is the color of the glossy finish of a car, which sits at the top layer as a color that one can see through. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Fesnell` encompasses the idea that the wider the angle of incidence (the angle between the line of sight of the observer and the object being observed). This impacts how much the surface reflects (in terms of visibility to the observer). A wider angle creates less reflection and a smaller angle creates greater reflection. 
+The `Albedo` here is the color of the glossy finish of a car, which sits at the top layer as a color that one can see through. `Specular` is the point of reflection of the light source. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Fesnell` encompasses the idea of the angle of incidence (the angle between the line of sight of the observer and the object being observed) influencing the perceived reflectivity of a surface. A wider angle creates less reflection and a smaller angle creates greater reflection.
 
 ![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
 
