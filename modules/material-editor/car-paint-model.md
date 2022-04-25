@@ -30,4 +30,4 @@ The `Albedo` here is the color of the glossy finish of a car, which sits at the 
 
 ![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
 
-`Shadow sensitivity` decides the percentage of influence by the shadow. So if 0, the surface will not be influenced by shadow. At 100% the surface would be totally black and at 50%, even if the object's surface stands in a shadow, it will still retain 50% of its own color.
+`Shadow sensitivity` decides the percentage of influence by the shadow. So if 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the object's surface stands in a shadow, it will still retain 50% of its own color.
