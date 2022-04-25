@@ -31,3 +31,7 @@ A normal is a line perpendicular to the surface of some object. Normal mapping d
 ![Occlusion Metallic Roughness](../../.gitbook/assets/extendedpbrmaterial7.png)
 
 `Use Occlusion` toggles occlusion on and off. `Occlusion Texture` sets an image for occlusion. Occlusion itself delivers shadow proprties. Considering the RGB channels, occlusion only uses the red channel (keep this in mind when making `Texture` files). Even without a light source, the `Texture` will show up as a shadow and light on the **Object**, simulating a bright side and dark side. Occlusion makes it possible for one to make a texture for an **Object** that simulates another **Object** throwing a shadow on the first **Object**.
+
+`Use Met. Rough.` toggles metallic roughness on and off. `Met. Rough. Text...` sets an image for metallic roughness to contribute to the overall texture of the metallic material. 
+
+`Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. 

@@ -30,6 +30,6 @@ These **Attributes** simulate a reflective surface. `Roughness` determines how r
 
 ![Tweak](../../.gitbook/assets/glasssmodel6.png)
 
-`Shadow sensitivity` determines the percentage of influence by the shadow. For example, a 1 would set the surface to completely black. 0.5 would mean that even if the **Object** is in shadow, it would still have 50% of its color. 
+`Shadow sensitivity` determines the percentage of influence by the shadow. For example, a 1 would set an **Object's** surface to completely black. 0.5 would mean that even if the **Object** is in shadow, it would still have 50% of its color. 
 
 
