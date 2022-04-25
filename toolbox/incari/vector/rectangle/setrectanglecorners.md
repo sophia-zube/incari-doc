@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set RectangleCorners Node.](../../../../.gitbook/assets/setrectanglecorners.png)
+![The Set RectangleCorners Node.](../../../../.gitbook/assets/node-set-rectanglecorners.png)
 
 The **Set RectangleCorners Node** sets the **Corners** of a **Rectangle Object** created in the **Scene Outliner Module** under **Vector**. **Corners** are **Vector2** type **Variables**.
 
 ## Attributes
+
+![The Set RectangleCorners Node Attributes.](../../../../.gitbook/assets/node-set-rectanglecorners-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
