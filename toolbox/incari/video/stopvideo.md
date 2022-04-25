@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Stop Video Node.](../../../.gitbook/assets/stopvideo.png)
+![The Stop Video Node.](../../../.gitbook/assets/node-stop-video.png)
 
 The **Stop Video** **Node** can be used to stop a video file already playing during the session. This can be specified through the file library to the right, or as an **Object** already in use from a **Scene**.
 
 ## Attributes
+
+![The Stop Video Node Attributes.](../../../.gitbook/assets/node-stop-video-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

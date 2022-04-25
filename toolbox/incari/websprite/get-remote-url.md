@@ -1,10 +1,12 @@
 # Overview
 
-![The Get Remote URL Node.](../../../.gitbook/assets/node-getremoteurl.png)
+![The Get Remote URL Node.](../../../.gitbook/assets/node-get-remote-url.png)
 
 **Get Remote URL** returns the URL of a **Web Sprite** **Object**. The **Object ID** is given as input to the **Node**.
 
 # Attributes
+
+![The Get Remote URL Node Attributes.](../../../.gitbook/assets/node-get-remote-url-attr.png)
 
 ## Object
 

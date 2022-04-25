@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Pause Video Node.](../../../.gitbook/assets/pausevideo.png)
+![The Pause Video Node.](../../../.gitbook/assets/node-pause-video.png)
 
 The **Pause Video** **Node** can be used to pause a video file already playing during the session. This can be specified through the file library to the right, or as an **Object** already in use from a **Scene**.
 
 ## Attributes
+
+![The Pause Video Node Attributes.](../../../.gitbook/assets/node-pause-video-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

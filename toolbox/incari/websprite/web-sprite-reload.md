@@ -1,10 +1,12 @@
 # Overview
 
-![The Web Sprite Reload Node.](../../../.gitbook/assets/node-webspritereload.png)
+![The Web Sprite Reload Node.](../../../.gitbook/assets/node-web-sprite-reload.png)
 
 The **Web Sprite Reload** **Node** reloads a **Web Sprite** **Object** when triggered.
 
 # Attributes
+
+![The Web Sprite Reload Node Attributes.](../../../.gitbook/assets/node-web-sprite-reload-attr.png)
 
 ## Object
 
