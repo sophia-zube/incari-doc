@@ -21,13 +21,13 @@ All these **Attributes** are described in greater detail below.
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
-The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background a nd foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a somewhat see-through quality. 
+The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background and foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a somewhat see-through quality. 
 
 
 ### Environment Map
 ![Environment Map](../../.gitbook/assets/carpaint-attr-enviromentmap.png)
 
-This enables the user to set a `Texture` which reflects the environment around an object, meaning that the object reflects the surface surrounding it (whether that be the background, another object, or both combined.). 
+This enables the user to set a `Texture` which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
 The two types of offset allow the beginning of the image on the provided `Texture` to be "delayed" in either the x or y direction. The resulting "cut off" piece wraps around to the start of the image. 
 
@@ -37,7 +37,7 @@ The two types of offset allow the beginning of the image on the provided `Textur
 ### Normals
 ![Normals](../../.gitbook/assets/carpaint-attr-normals.png)
 
-A normal is a line perpendicular to the surface of some object. Normal mapping distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
+A normal is a line perpendicular to the surface of some object. *Normal mapping* distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
 
 
 ### Base Coat
@@ -69,4 +69,4 @@ The `Albedo` here is the color of the glossy finish of a car, which sits at the 
 ### Tweak
 ![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
 
-`Shadow sensitivity` decides the percentage of influence by the shadow. So if 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the object's surface stands in a shadow, it will still retain 50% of its own color.
+`Shadow sensitivity` decides the percentage of influence by the shadow. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.
