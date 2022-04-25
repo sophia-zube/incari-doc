@@ -18,7 +18,7 @@ The two types of offset allow the beginning of the image on the provided `Textur
 
 ![Normals](../../.gitbook/assets/extendedpbrmaterial4.png)
 
-A normal is a line perpendicular to the surface of some object. Normal mapping distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source.
+A normal is a line perpendicular to the surface of some object. Normal mapping distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
 
 ![Albedo](../../.gitbook/assets/extendedpbrmaterial5.png)
 
