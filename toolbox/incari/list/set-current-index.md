@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Set Current Index Node.](../../../.gitbook/assets/set-current-index.PNG)
+![The Set Current Index Node.](../../../.gitbook/assets/node-set-current-index.png)
 
 **Set Current Index** selects an entry item by using its index. It accepts a **List** **Object** and an `Index` value and selects an entry item corresponding to the `Index` value.
 
 The index count starts from zero, which means that the `Index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one \("sum of entries" - 1\). This follows from array-based indexing where the index of the first entry is 0.
 
 ## Attributes
+
+![The Set Current Index Node Attributes.](../../../.gitbook/assets/node-set-current-index-attr.png)
 
 ### Object
 

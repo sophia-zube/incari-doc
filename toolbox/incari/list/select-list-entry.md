@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Select List Entry Node.](../../../.gitbook/assets/select-list-entry.PNG)
+![The Select List Entry Node.](../../../.gitbook/assets/node-select-list-entry.png)
 
 **Select List Entry** selects an entry item in a **List** **Object**.
 
 ## Attributes
+
+![The Select List Entry Node Attributes.](../../../.gitbook/assets/node-select-list-entry-attr.png)
 
 ### Object
 
