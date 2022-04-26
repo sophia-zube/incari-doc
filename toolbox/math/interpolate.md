@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Interpolate Node.](../../.gitbook/assets/node-interpolate.png)
+![The Interpolate Node.](../../.gitbook/assets/node-interpolate2.png)
 
 The **Interpolate** **Node** calculates intermediate values between an initial and a target value over a set amount of time. It is particularly useful for animations.
 
 ## Attributes
+
+![The Interpolate Node Attributes.](../../.gitbook/assets/node-interpolate2-attr.png)
 
 ### Inputs
 

@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Average Node.](../../.gitbook/assets/node-average.png)
+![The Average Node.](../../.gitbook/assets/node-average2.png)
 
 **Average** calculates and returns the _arithmetic mean_ of all of its inputs.
 
 The _arithmetic mean_ is the _sum_ of all values in a set, divided by the total amount of numbers in that set.
 
 ## Attributes
+
+![The Average Node Attributes.](../../.gitbook/assets/node-average2-attr.png)
 
 ### Inputs
 

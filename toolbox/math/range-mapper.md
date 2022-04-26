@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Range Mapper Node.](../../.gitbook/assets/node-range-mapper.png)
+![The Range Mapper Node.](../../.gitbook/assets/node-range-mapper2.png)
 
 **Range Mapper** transforms a single numerical value, from its relative position in a given reference range, to a new value within a second target range.
 
@@ -16,6 +16,8 @@ In the event that `Input` is outside of the reference \(input\) range, `Clamp` d
 | 1.5 | 0-1 | 0-360 | ✖ | 540 |
 
 ## Attributes
+
+![The Range Mapper Node Attributes.](../../.gitbook/assets/node-range-mapper2-attr.png)
 
 ### Inputs
 

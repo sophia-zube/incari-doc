@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Modulo Node.](../../.gitbook/assets/node-modulo.png)
+![The Modulo Node.](../../.gitbook/assets/node-modulo2.png)
 
 **Modulo** is a _modular arithmetic_ **Node**, which divides one number \(_dividend_\) by a second number \(_divisor_\) and outputs the _remainder_ of the _Euclidean division_ operation.
 
@@ -16,6 +16,8 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 | 15 | 12 | 1 | 3 |
 
 ## Attributes
+
+![The Modulo Node Attributes.](../../.gitbook/assets/node-modulo2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

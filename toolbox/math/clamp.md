@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Clamp Node.](../../.gitbook/assets/node-clamp.png)
+![The Clamp Node.](../../.gitbook/assets/node-clamp2.png)
 
 **Clamp** limits a _numerical value_ to a given range, so that it isn't lower than the lower boundary, or higher than the upper boundary.
 
@@ -15,6 +15,8 @@
 | \(-20, 1100\) | \(0, 0\) | \(1920, 1080\) | \(0, 1080\) |
 
 ## Attributes
+
+![The Clamp Node Attributes.](../../.gitbook/assets/node-clamp2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

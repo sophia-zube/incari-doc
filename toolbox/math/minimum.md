@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Minimum Node.](../../.gitbook/assets/node-minimum.png)
+![The Minimum Node.](../../.gitbook/assets/node-minimum2.png)
 
 **Minimum** compares a set of numerical inputs and returns the lower bound \(minimum value\) in the set.
 
 In case of **Vectors**, it compares the values by component and returns them separately.
 
 ## Attributes
+
+![The Minimum Node Attributes.](../../.gitbook/assets/node-minimum2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
