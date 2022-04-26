@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Logarithm Node.](../../.gitbook/assets/node-logarithm.png)
+![The Logarithm Node.](../../.gitbook/assets/node-logarithm2.png)
 
 **Logarithm** calculates the _logarithm_ of a number in a chosen base.
 
 This is the inverse function of the [**Power Node**](power.md). Rather than taking a _base_ value, raising it to the power of an _exponent_, and returning the _power_, it takes the _base_ value, along with the _power_, and returns the _exponent_.
 
 ## Attributes
+
+![The Logarithm Node Attributes.](../../.gitbook/assets/node-logarithm2-attr.png)
 
 ### Inputs
 

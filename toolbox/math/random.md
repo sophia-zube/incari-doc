@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Random Node.](../../.gitbook/assets/node-random.png)
+![The Random Node.](../../.gitbook/assets/node-random2.png)
 
 The **Random** **Node** generates a random outcome, usually a number.
 
 This **Node** can be set to three different `Modes` \(**Advanced**, **Expert**, and **Standard**\). Each of these `Modes` offers a different set of **Attributes** that are explained below.
 
 ## Attributes
+
+![The Random Node Attributes.](../../.gitbook/assets/node-random2-attr.png)
 
 Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced**](random.md#advanced), [**Expert**](random.md#expert), and [**Standard**](random.md#standard).
 

@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Maximum Node.](../../.gitbook/assets/node-maximum.png)
+![The Maximum Node.](../../.gitbook/assets/node-maximum2.png)
 
 **Maximum** compares a set of numerical inputs and returns the upper bound \(maximum value\) in the set.
 
 In case of **Vectors**, it compares the values by component and returns them separately.
 
 ## Attributes
+
+![The Maximum Node Attributes.](../../.gitbook/assets/node-maximum2-attr.png)
 
 ### Inputs
 

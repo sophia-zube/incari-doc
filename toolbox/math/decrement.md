@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Decrement Node.](../../.gitbook/assets/node-decrement.png)
+![The Decrement Node.](../../.gitbook/assets/node-decrement2.png)
 
 **Decrement** decreases a value by a given step and outputs the new value.
 
 It is comparable to the `--` operator in computer science, except for the fact that the _decrement step_ varies, instead of being fixed at 1.
 
 ## Attributes
+
+![The Decrement Node Attributes.](../../.gitbook/assets/node-decrement2-attr.png)
 
 ### Inputs
 

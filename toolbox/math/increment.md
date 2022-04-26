@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Increment Node.](../../.gitbook/assets/node-increment.png)
+![The Increment Node.](../../.gitbook/assets/node-increment2.png)
 
 **Increment** increases a value by a given step and outputs the new value.
 
 It is comparable to the `++` operator in computer science, except for the fact that the _increment step_ varies, instead of being fixed at 1.
 
 ## Attributes
+
+![The Increment Node Attributes.](../../.gitbook/assets/node-increment2-attr.png)
 
 ### Inputs
 

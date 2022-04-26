@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Absolute Node.](../../.gitbook/assets/node-absolute.png)
+![The Absolute Node.](../../.gitbook/assets/node-absolute2.png)
 
 **Absolute** takes a single numerical value and converts any negative value \(per component\) to its absolute/non-negative equivalent.
 
 ## Attributes
+
+![The Absolute Node Attributes.](../../.gitbook/assets/node-absolute2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
