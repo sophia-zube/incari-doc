@@ -1,10 +1,12 @@
 # Overview
 
-![The Length Node.](../../.gitbook/assets/node-length.png)
+![The Length Node.](../../.gitbook/assets/lengthnode.png)
 
 **Length** returns the length of a **String**.
 
 # Attributes
+
+![The Length Node Attributes.](../../.gitbook/assets/lengthattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
