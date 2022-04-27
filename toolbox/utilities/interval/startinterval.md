@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Start Interval Node.](../../../.gitbook/assets/startinterval.png)
+![The Start Interval Node.](../../../.gitbook/assets/node-start-interval2.png)
 
 The **Start Interval Node** sets an **Interval**, which occurs every _X_ seconds, as specified in `Seconds` or `Timeout (sec)`.
 
 ## Attributes
+
+![The Start Interval Node Attributes.](../../../.gitbook/assets/node-start-interval2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

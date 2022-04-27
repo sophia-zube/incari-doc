@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The SystemCall Node.](../../.gitbook/assets/systemcall1.png)
+![The SystemCall Node.](../../.gitbook/assets/node-systemcall2.png)
 
 The **SystemCall Node** allows the user to use any commands provided by the operating system \(i.e. _Windows_, _Linux_, etc.\).
 
 ## Attributes
+
+![The SystemCall Node Attributes.](../../.gitbook/assets/node-systemcall2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

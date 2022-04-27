@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Cancel Timeout Node.](../../../.gitbook/assets/canceltimeout.png)
+![The Cancel Timeout Node.](../../../.gitbook/assets/node-cancel-timeout2.png)
 
 The **Cancel Timeout Node** cancels an existing **Timeout** and allows the user to decide how to proceed.
 

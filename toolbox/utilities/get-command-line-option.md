@@ -1,10 +1,12 @@
 # Overview
 
-![The Get Command Line Option Node.](../../.gitbook/assets/node-get-command-line-option.png)
+![The Get Command Line Option Node.](../../.gitbook/assets/node-get-command-line-option2.png)
 
 The **Get Command Line Option** **Node** allows to obtain the command-line arguments, named options, that were given when the **Project** was initiated and then use them in the **Logic**. 
 
 # Attributes
+
+![The Get Command Line Option Node Attributes.](../../.gitbook/assets/node-get-command-line-option2-attr.png)
 
 ## Miscellaneous
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Create CustomID Node.](../../.gitbook/assets/createcustomid.png)
+![The Create CustomID Node.](../../.gitbook/assets/node-create-customid2.png)
 
 The **Create CustomID Node** allows the user to create a unique identifier in order to combine all their **Objects** and **Scenes**.
 
