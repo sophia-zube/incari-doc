@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Or Node.](../../../.gitbook/assets/node-or.png)
+![The Or Node.](../../../.gitbook/assets/node-or2.png)
 
 **OR** is a _logical operator_ **Node**, which combines two or more **Boolean** expressions to yield a **Boolean** value, based on the inputs' logical relationship to one another. The **Node** outputs a _true_ value if _at least one_ of its inputs is _true_. Otherwise, it outputs _false_.
 
@@ -16,6 +16,8 @@ This is the equivalent of the `||` operator in computer programming.
 | False | False | False |
 
 ## Attributes
+
+![The Or Node Attributes.](../../../.gitbook/assets/node-or2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

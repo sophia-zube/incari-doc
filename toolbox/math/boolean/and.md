@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The And Node.](../../../.gitbook/assets/node-and.png)
+![The And Node.](../../../.gitbook/assets/node-and2.png)
 
 **AND** is a _logical operator_ **Node**, which combines two or more **Boolean** expressions to yield a **Boolean** value, based on the inputs' logical relationship to one another. The **Node** outputs a _true_ value if _all_ of its inputs are also _true_. This is the equivalent of the `&&` operator in computer programming.
 
@@ -14,6 +14,8 @@
 | False | False | False |
 
 ## Attributes
+
+![The And Node Attributes.](../../../.gitbook/assets/node-and2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
