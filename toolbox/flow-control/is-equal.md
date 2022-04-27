@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Equal Node.](../../.gitbook/assets/node-is-equal.png)
+![The Is Equal Node.](../../.gitbook/assets/isequalnode.png)
 
 **Is Equal** is a _**Relational Expression**_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _equality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
@@ -12,6 +12,8 @@
 _Relational expressions_ are frequently used in combination with **Branch Nodes** and _logical operator_ **Nodes** \([**AND**](../math/boolean/and.md), [**OR**](../math/boolean/or.md), and [**Negate**](../math/boolean/negate.md)\) to create _conditional logic_, and are essential for building complex systems.
 
 ## Attributes
+
+![The Is Equal Node Attributes.](../../.gitbook/assets/isequalattributes.png)
 
 ### Inputs
 

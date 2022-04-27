@@ -2,12 +2,13 @@
 
 ## Overview
 
-![The Switch Node.](../../.gitbook/assets/node-switch.png)
+![The Switch Node.](../../.gitbook/assets/switchattributes.png)
 
 **Switch** takes an input value and triggers one of several output **Pulses**, based on whether or not the input matches a pre-defined value. These pre-defined values, referred to as _cases_ in computer programming, can be defined as a list in the `Cases` **Attribute**. Each value added to the **Node** also creates a corresponding output **Pulse**. If the value of the `Input` **Socket** matches a value defined in the `Cases` **Attribute**, its corresponding **Pulse** is triggered. If no match is found, then the `Default` **Pulse** is triggered instead.
 
 ## Attributes
 
+![The Switch Node Attributes.](../../.gitbook/assets/switchattributesactual.png)
 ### Inputs
 
 | Attribute | Type | Description |

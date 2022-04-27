@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The For Loop Node.](../../.gitbook/assets/forloop.png)
+![The For Loop Node.](../../.gitbook/assets/forloopnode.png)
 
 The **For Loop Node** triggers an iterative process that steps through the provided **Int** inputs. The output can then, for example, be printed to the **Console** or affect the next **Node** in the **Logic Branch**.
 
 ## Attributes
+
+![The For Loop Node Attributes.](../../.gitbook/assets/forloopattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
