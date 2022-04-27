@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Position Change Node.](../../../.gitbook/assets/node-on-position-change2.png)
+![The On Position Change Node.](../../../.gitbook/assets/onpositionchangenode.png)
 
 **On Position Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Position** of an **Object** changes.
 
 ## Attributes
+
+![The On Position Change Node Attributes.](../../../.gitbook/assets/onpositionchangeattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
