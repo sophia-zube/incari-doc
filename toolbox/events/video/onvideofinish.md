@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Video Finish Node.](../../../.gitbook/assets/node-on-video-finish2.png)
+![The On Video Finish Node.](../../../.gitbook/assets/onvideofinishnode.png)
 
 **On Video Finish** is an **Event Listener Node** that gives the user a way to perform an action once a video ends, such as repeating the video when it is finished. The video can be added through the file library to the right.
 
 ## Attributes
+
+![The On Video Finish Node Attributes.](../../../.gitbook/assets/onvideofinishattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
