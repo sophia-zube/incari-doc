@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Visibility Change Node.](../../../.gitbook/assets/node-on-visibility-change2.png)
+![The On Visibility Change Node.](../../../.gitbook/assets/onvisibilitychangenode.png)
 
 **On Visibility Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Visibility** of an **Object** changes.
 
 ## Attributes
+
+![The On Visibility Change Node Attributes.](../../../.gitbook/assets/onvisibilitychangeattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -1,10 +1,12 @@
 # Overview
 
-![The On On-Screen Keyboard Input Changed Node.](../../../.gitbook/assets/node-on-onscreen-keyboard-input-changed2.png)
+![The On On-Screen Keyboard Input Changed Node.](../../../.gitbook/assets/ononscreenkeyboardinputchangednode.png)
 
 The **On On-Screen Keyboard Enter Pressed** **Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the input of an **On-Screen Keyboard** is changed.
 
 # Attributes
+
+![The On On-Screen Keyboard Input Changed Node Attributes.](../../../.gitbook/assets/ononscreenkeyboardinputchangedattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

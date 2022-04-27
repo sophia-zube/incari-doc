@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The On Scale Change Node.](../../../.gitbook/assets/node-on-scale-change2.png)
+![The On Scale Change Node.](../../../.gitbook/assets/onscalechangenode.png)
 
 **On Scale Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Scale** of an **Object** changes.
 
 ## Attributes
+
+![The On Scale Change Node Attributes.](../../../.gitbook/assets/onscalechangeattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
