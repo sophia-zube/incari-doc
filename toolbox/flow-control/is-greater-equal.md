@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Greater Equal Node.](../../.gitbook/assets/node-is-greater-equal.png)
+![The Is Greater Equal Node.](../../.gitbook/assets/isgreaterequalnode.png)
 
 **Is Greater Equal** is a _**Relational Expression**_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _inequality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
@@ -14,6 +14,8 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
 Due to their nature, _inequality_ operations only work for _numerical data types_.
 
 ## Attributes
+
+![The Is Greater Equal Node Attributes.](../../.gitbook/assets/isgreaterequalattributes.png)
 
 ### Inputs
 
