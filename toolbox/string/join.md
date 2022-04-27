@@ -1,10 +1,12 @@
 # Overview
 
-![The Join Node.](../../.gitbook/assets/join.png)
+![The Join Node.](../../.gitbook/assets/joinnode.png)
 
 The **Join Node** joins the elements of an **Array** populated with **Strings**. 
 
 # Attributes
+!
+[The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

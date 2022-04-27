@@ -1,10 +1,12 @@
 # Overview
 
-![The Compare Node.](../../.gitbook/assets/node-compare.png)
+![The Compare Node.](../../.gitbook/assets/comparenode.png)
 
 The **Compare** **Node** compares two **Strings** and outputs the result indicating whether they are equal or not in two forms: an **Int** and a **Bool**.
 
 # Attributes
+
+![The Compare Node Attributes.](../../.gitbook/assets/compareattributes.png)
 
 ## Inputs
 

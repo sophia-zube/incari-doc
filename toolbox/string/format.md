@@ -1,6 +1,6 @@
 # Overview
 
-![The Format Node.](../../.gitbook/assets/node-format.png)
+![The Format Node.](../../.gitbook/assets/formatnode.png)
 
 The **Format** **Node** receives a **Pattern** **String** that can contain *format specifiers* and data as a chosen number of parameters. It then outputs the **String** formatted with the parameters in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
 
@@ -24,6 +24,8 @@ The possible *format specifiers* are shown in the table below.
 
 
 # Attributes
+
+![The Format Node Attributes.](../../.gitbook/assets/formatattributes.png)
 
 ## Inputs
 
