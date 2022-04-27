@@ -1,6 +1,6 @@
 # Overview
 
-![The PaddingRight Node.](../../.gitbook/assets/node-paddingright.png)
+![The PaddingRight Node.](../../.gitbook/assets/paddingrightnode.png)
 
 The **PaddingLeft** **Node** adds a character a chosen number of times to the right of a **String**.
 
@@ -9,6 +9,8 @@ For example, padding the character "a" 6 times to the **String** "bbbbbbcccccc" 
 The `Padding character` **Attribute** and **Input** can receive a **String** but they only use the first character.
 
 # Attributes
+
+![The PaddingRight Node Attributes.](../../.gitbook/assets/paddingrightattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

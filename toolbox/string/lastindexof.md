@@ -1,6 +1,6 @@
 # Overview
 
-![The LastIndexOf Node.](../../.gitbook/assets/node-lastindexof.png)
+![The LastIndexOf Node.](../../.gitbook/assets/lastindexofnode.png)
 
 The **LastIndexOf** **Node** returns the index of the last occurrence of a *substring* in a **String** and a **Bool** indicating whether it was found or not.
 
@@ -8,6 +8,8 @@ The range in which the *substring* will be searched can be customized via the `S
 
 
 # Attributes
+
+![The LastIndexOf Node Attributes.](../../.gitbook/assets/lastindexofattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

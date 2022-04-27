@@ -1,6 +1,6 @@
 # Overview
 
-![The Replace Node.](../../.gitbook/assets/node-replace.png)
+![The Replace Node.](../../.gitbook/assets/replacenode.png)
 
 The **Replace** **Node** replaces a *substring* of a **String** with another given **String**. It receives three inputs:
 
@@ -11,6 +11,8 @@ The **Replace** **Node** replaces a *substring* of a **String** with another giv
 For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the output will be `Result`=`CbCbCb`.
 
 # Attributes
+
+![The Replace Node Attributes.](../../.gitbook/assets/replaceattributes.png)
 
 ## Inputs
 
