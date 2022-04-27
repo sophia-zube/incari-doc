@@ -1,10 +1,12 @@
 # Overview
 
-![The IsUpper Node.](../../.gitbook/assets/isupper.png)
+![The IsUpper Node.](.../../.gitbook/assets/isuppernode.png)
 
 The **Is Upper Node** checks if a **String** is all uppercase and returns a **Bool** of either *True* or *False*. 
 
 # Attributes
+
+![The IsUpper Node Attributes.](../../.gitbook/assets/isupperattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

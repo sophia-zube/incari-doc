@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Concat Strings Node.](../../.gitbook/assets/concatstrings.png)
+![The Concat Strings Node.](../../.gitbook/assets/concatstringsnode.png)
 
 **Concat Strings** joins two or more **Strings** into one new **String**.
 
 ## Attributes
+
+![The Concat Strings Node Attributes.](../../.gitbook/assets/concatstringsattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

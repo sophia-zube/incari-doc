@@ -1,6 +1,6 @@
 # Overview
 
-![The CharCodeAt Node.](../../.gitbook/assets/node-charcodeat.png)
+![The CharCodeAt Node.](../../.gitbook/assets/charcodeatnode.png)
 
 The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given index in a **String**. It takes as inputs a **String** and the index of the character whose code is to be obtained, and it ouputs the _ASCII_ code of said character.
 
@@ -9,6 +9,8 @@ The characters indices in the **String** start from zero.
 If the index given is greater than the **String** length, the output is `-1`.
 
 # Attributes
+
+![The CharCodeAt Node Attributes.](../../.gitbook/assets/charcodeatattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

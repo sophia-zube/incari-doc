@@ -1,6 +1,6 @@
 # Overview
 
-![The FormatArray Node.](../../.gitbook/assets/node-formatarray.png)
+![The FormatArray Node.](../../.gitbook/assets/formatarraynode.png)
 
 The **FormatArray** **Node** receives a **Pattern** **String** that can contain *format specifiers* and an **Array** containing data values. It then outputs the **String** formatted with the data values from the **Array** in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
 
@@ -24,6 +24,8 @@ The possible *format specifiers* are shown in the table below.
 
 
 # Attributes
+
+![The FormatArray Node Attributes.](../../.gitbook/assets/formatarrayattributes.png)
 
 ## Inputs
 
