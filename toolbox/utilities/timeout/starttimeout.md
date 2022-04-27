@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Start Timeout Node.](../../../.gitbook/assets/starttimeout.png)
+![The Start Timeout Node.](../../../.gitbook/assets/node-start-timeout2.png)
 
 The **Start Timeout Node** delays the execution of a **Node**.
 
 ## Attributes
+
+![The Start Timeout Node Attributes.](../../../.gitbook/assets/node-start-timeout2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
