@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Event Listener Node.](../../../.gitbook/assets/node-event-listener.png)
+![The Event Listener Node.](../../../.gitbook/assets/oneventnode.png)
 
 **Event Listener** is an **Event Listener** **Node** associated with a **Custom Event** and used for executing a **Logic Branch** when the corresponding **Custom Event Trigger Node** is activated.
 
