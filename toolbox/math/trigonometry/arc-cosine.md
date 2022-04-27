@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Arc Cosine Node](../../../.gitbook/assets/node-arc-cosine.png)
+![The Arc Cosine Node.](../../../.gitbook/assets/node-arc-cosine2.png)
 
 The **Arc Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arccosine_.
 
 ## Attributes
+
+![The Arc Cosine Node Attributes.](../../../.gitbook/assets/node-arc-cosine2-attr.png)
 
 ### Miscellanous
 

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Tangent Node](../../../.gitbook/assets/node-tangent.png)
+![The Tangent Node.](../../../.gitbook/assets/node-tangent2.png)
 
 The **Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _tangent_.
 
 ## Attributes
+
+![The Tangent Node Attributes.](../../../.gitbook/assets/node-tangent2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

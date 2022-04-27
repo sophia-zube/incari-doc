@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Radian-Degree Converter Node](../../../.gitbook/assets/radian-degree-converter-node.png)
+![The Radian-Degree Converter Node.](../../../.gitbook/assets/node-radian-degree-convertor2.png)
 
 **Radian-Degree Converter** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and converts it from one unit to the other.
 
@@ -14,6 +14,8 @@ The equation used by the **Node** is determined by the `Mode` **Attribute**. The
 where _R_ is an angle in radians \(rad\) and _D_ is an angle in degrees \(°\).
 
 ## Attributes
+
+![The Radian-Degree Converter Node Attributes.](../../../.gitbook/assets/node-radian-degree-convertor2-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
