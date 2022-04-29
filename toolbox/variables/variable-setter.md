@@ -1,6 +1,6 @@
 # Overview
 
-![The Variable Setter Node.](../../.gitbook/assets/node-variablesetter.png)
+![The Variable Setter Node.](../../.gitbook/assets/variablesetter.png)
 
 The **Variable Setter** **Node** allows to set the value of a **Variable**.
 
