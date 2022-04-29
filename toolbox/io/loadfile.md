@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Load File Node.](../../.gitbook/assets/Loadfile.jpg)
+![The Load File Node.](../../.gitbook/assets/loadfilenode.png)
 
 **Load File** is an _io_ **Node**, which allows one to load a specified file, such as a previously saved **Variable** or a **Dictionary**. In the latter case, the **JSON Parser** must be used first.
 
 ## Attributes
+
+![The Load File Node Attributes.](../../.gitbook/assets/loadfileattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
