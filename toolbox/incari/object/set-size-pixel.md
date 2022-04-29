@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Size 2D (px) Node.](../../../.gitbook/assets/setsizepixel.png)
+![The Set Size 2D (px) Node.](../../../.gitbook/assets/node-set-size-2d.png)
 
 The **Set Size 2D (px) Node** sets the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
+
+![The Set Size 2D (px) Node Attributes.](../../../.gitbook/assets/node-set-size-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

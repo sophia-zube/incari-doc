@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Rotation 2D Node.](../../../.gitbook/assets/setrotationpixel.png)
+![The Set Rotation 2D Node.](../../../.gitbook/assets/node-set-rotation-2d.png)
 
 The **Set Rotation 2D Node** sets the _degree of rotation_ of a **2D Object**.
 
 ## Attributes
+
+![The Set Rotation 2D Node Attributes.](../../../.gitbook/assets/node-set-rotation-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
