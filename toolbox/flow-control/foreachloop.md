@@ -2,13 +2,13 @@
 
 ## Overview
 
-![The For Each Loop Node.](../../.gitbook/assets/forloopnode.png)
+![The For Each Loop Node.](../../.gitbook/assets/foreachloopnode.png)
 
 The **For Each Loop Node** triggers an iterative process that steps through the provided **Array** input. The output can then, for example, be printed to the **Console** or affect the next **Node** in the **Logic Branch**.
 
 ## Attributes
 
-![The For Each Loop Node Attributes.](../../.gitbook/assets/forloopattributes.png)
+![The For Each Loop Node Attributes.](../../.gitbook/assets/foreachloopattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -8,7 +8,7 @@ The **RotateBy Action Node** rotates an **Animation** by the relative values spe
 
 ## Attributes
 
-![The RotateBy Action Node Attributes.](../../.gitbook/assets/movebyactionattributes.png)
+![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
