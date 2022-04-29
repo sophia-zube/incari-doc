@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Set Position 2D (px) Node.](../../../.gitbook/assets/setpositionpixel.png)
+![The Set Position 2D (px) Node.](../../../.gitbook/assets/node-set-position-2d.png)
 
 **Set Position 2D (px) Node** sets the X and Y values of a **2D Object's** `Position`.
 
 ## Attributes
+
+![The Set Position 2D (px) Node Attributes.](../../../.gitbook/assets/node-set-position-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
