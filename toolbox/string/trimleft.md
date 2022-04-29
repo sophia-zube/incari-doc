@@ -1,12 +1,14 @@
 # Overview
 
-![The TrimLeft Node.](../../.gitbook/assets/node-trimleft.png)
+![The TrimLeft Node.](../../.gitbook/assets/trimleft.png)
 
 The **TrimLeft** **Node** trims certain chosen characters from the left side of a **String**, until a different character is found. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" gives as result the trimmed **String** "cababa".
 
 # Attributes
+
+![The TrimLeft Node Attributes.](../../.gitbook/assets/trimleftattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

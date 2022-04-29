@@ -1,10 +1,12 @@
 # Overview
 
-![The ReplaceRegex Node.](../../.gitbook/assets/node-replaceregex.png)
+![The ReplaceRegex Node.](../../.gitbook/assets/replaceregexnode.png)
 
 The **ReplaceRegex** **Node** allows to replace parts of a **String** using regular expressions to search for the pattern to replace. 
 
 # Attributes
+
+![The ReplaceRegex Node Attributes.](../../.gitbook/assets/replaceregexattributes.png)
 
 ## Inputs
 

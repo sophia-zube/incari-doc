@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The String Value Node.](../../.gitbook/assets/stringvalue.png)
+![The String Value Node.](../../.gitbook/assets/stringvaluenode.png)
 
 The **String Value Node** returns the `Value`, or contents, of a **String**.
 
 ## Attributes
+
+![The String Value Node Attributes.](../../.gitbook/assets/stringvalueattributes.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

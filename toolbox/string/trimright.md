@@ -1,12 +1,14 @@
 # Overview
 
-![The TrimRight Node.](../../.gitbook/assets/node-trimright.png)
+![The TrimRight Node.](../../.gitbook/assets/trimrightnode.png)
 
 The **TrimRight** **Node** trims certain chosen characters from the right side of a **String**, until a different character is found. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" gives as result the trimmed **String** "babbaac".
 
 # Attributes
+
+![The TrimRight Node Attributes.](../../.gitbook/assets/trimrightattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
