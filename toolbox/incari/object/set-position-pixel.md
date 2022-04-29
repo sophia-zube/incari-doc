@@ -1,10 +1,10 @@
-# Set Position Pixel
+# Set Position 2D (px)
 
 ## Overview
 
-![The Set Position Pixel Node.](../../../.gitbook/assets/setpositionpixel.png)
+![The Set Position 2D (px) Node.](../../../.gitbook/assets/setpositionpixel.png)
 
-**Set Position Pixel Node** sets the X and Y values of a **2D Object's** `Position`.
+**Set Position 2D (px) Node** sets the X and Y values of a **2D Object's** `Position`.
 
 ## Attributes
 
@@ -30,5 +30,5 @@
 ## See Also
 
 * [**Set Rotation 2D**](set-rotation-pixel.md)
-* [**Set Size Pixel**](set-size-pixel.md)
+* [**Set Size 2D (px)**](set-size-pixel.md)
 

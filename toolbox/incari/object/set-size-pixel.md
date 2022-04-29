@@ -1,10 +1,10 @@
-# Set Size Pixel
+# Set Size 2D (px)
 
 ## Overview
 
-![The Set Size Pixel Node.](../../../.gitbook/assets/setsizepixel.png)
+![The Set Size 2D (px) Node.](../../../.gitbook/assets/setsizepixel.png)
 
-The **Set Size Pixel Node** sets the X and Y values of a **2D Object's** `Size`.
+The **Set Size 2D (px) Node** sets the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
 
@@ -29,6 +29,6 @@ The **Set Size Pixel Node** sets the X and Y values of a **2D Object's** `Size`.
 
 ## See Also
 
-* [**Set Position Pixel**](set-position-pixel.md)
+* [**Set Position 2D (px)**](set-position-pixel.md)
 * [**Set Rotation 2D**](set-rotation-pixel.md)
 
