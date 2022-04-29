@@ -13,7 +13,6 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Contains**](contains.md)
 * [**CryptoHash**](create-hash.md)
 * [**EndsWith**](endswith.md)
-* [**Flatten**](flatten.md)
 * [**Format**](format.md)
 * [**FormatArray**](formatarray.md)
 * [**IndexOf**](indexof.md)

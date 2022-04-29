@@ -29,6 +29,6 @@ The **Set Rotation 2D Node** sets the _degree of rotation_ of a **2D Object**.
 
 ## See Also
 
-* [**Set Position Pixel**](set-position-pixel.md)
-* [**Set Size Pixel**](set-size-pixel.md)
+* [**Set Position 2D (px)**](set-position-pixel.md)
+* [**Set Size 2D (px)**](set-size-pixel.md)
 

@@ -1,14 +1,14 @@
-# Get Position Pixel
+# Get Position 2D (px)
 
 ## Overview
 
-![The Get Position Pixel Node.](../../../.gitbook/assets/node-get-position-2d.png)
+![The Get Position 2D (px) Node.](../../../.gitbook/assets/node-get-position-2d.png)
 
-The **Get Position Pixel Node** returns the X and Y values of a **2D Object's** _position_.
+The **Get Position 2D (px) Node** returns the X and Y values of a **2D Object's** _position_.
 
 ## Attributes
 
-![The Get Position Pixel Node Attributes.](../../../.gitbook/assets/node-get-position-2d-attr.png)
+![The Get Position 2D (px) Node Attributes.](../../../.gitbook/assets/node-get-position-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -31,5 +31,5 @@ The **Get Position Pixel Node** returns the X and Y values of a **2D Object's** 
 ## See Also
 
 * [**Get Rotation 2D**](get-rotation-pixel.md)
-* [**Get Size Pixel**](get-size-pixel.md)
+* [**Get Size 2D (px)**](get-size-pixel.md)
 

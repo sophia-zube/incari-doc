@@ -83,12 +83,12 @@ These **Nodes** work for **2D Objects**. The **Vector Nodes** are still usable f
 The **2D Nodes** fall under three groups and include the following:
 
 * Position
-  * [**Set Position Pixel**](../../toolbox/incari/object/set-position-pixel.md)
-  * [**Get Position Pixel**](../../toolbox/incari/object/get-position-pixel.md)
+  * [**Set Position 2D (px)**](../../toolbox/incari/object/set-position-pixel.md)
+  * [**Get Position 2D (px)**](../../toolbox/incari/object/get-position-pixel.md)
 * Rotation
   * [**Set Rotation 2D**](../../toolbox/incari/object/set-rotation-pixel.md)
   * [**Get Rotation 2D**](../../toolbox/incari/object/get-rotation-pixel.md)
 * Size
-  * [**Set Size Pixel**](../../toolbox/incari/object/set-size-pixel.md)
-  * [**Get Size Pixel**](../../toolbox/incari/object/get-size-pixel.md)
+  * [**Set Size 2D (px)**](../../toolbox/incari/object/set-size-pixel.md)
+  * [**Get Size 2D (px)**](../../toolbox/incari/object/get-size-pixel.md)
 

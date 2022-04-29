@@ -1,14 +1,14 @@
-# Get Size Pixel
+# Get Size 2D (px)
 
 ## Overview
 
-![The Get Size Pixel Node.](../../../.gitbook/assets/node-get-size-2d.png)
+![The Get Size 2D (px) Node.](../../../.gitbook/assets/node-get-size-2d.png)
 
-The **Get Size Pixel Node** returns the X and Y values of a **2D Object's** `Size`.
+The **Get Size 2D (px) Node** returns the X and Y values of a **2D Object's** `Size`.
 
 ## Attributes
 
-![The Get Size Pixel Node Attributes.](../../../.gitbook/assets/node-get-size-2d-attr.png)
+![The Get Size 2D (px) Node Attributes.](../../../.gitbook/assets/node-get-size-2d-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -30,6 +30,6 @@ The **Get Size Pixel Node** returns the X and Y values of a **2D Object's** `Siz
 
 ## See Also
 
-* [**Get Position Pixel**](get-position-pixel.md)
+* [**Get Position 2D (px)**](get-position-pixel.md)
 * [**Get Rotation 2D**](get-rotation-pixel.md)
 
