@@ -1,6 +1,6 @@
 # Overview
 
-![The Variable Getter Node.](../../.gitbook/assets/node-variablegetter.png)
+![The Variable Getter Node.](../../.gitbook/assets/variablegetternode.png)
 
 The **Variable Getter** **Node** allows to obtain the value of a **Variable**.
 
