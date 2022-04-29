@@ -1,12 +1,14 @@
 # Overview
 
-![The Trim Node.](../../.gitbook/assets/node-trim.png)
+![The Trim Node.](../../.gitbook/assets/trimnode.png)
 
 The **Trim** **Node** trims certain chosen characters from a **String**. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" gives as result the trimmed **String** "c".
 
 # Attributes
+
+![The Trim Node Attributes.](../../.gitbook/assets/trimattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

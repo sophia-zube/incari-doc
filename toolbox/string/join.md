@@ -5,8 +5,7 @@
 The **Join Node** joins the elements of an **Array** populated with **Strings**. 
 
 # Attributes
-!
-[The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)
+![The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

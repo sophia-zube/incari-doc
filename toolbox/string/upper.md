@@ -1,10 +1,12 @@
 # Overview
 
-![The Upper Node.](../../.gitbook/assets/node-upper.png)
+![The Upper Node.](../../.gitbook/assets/uppernode.png)
 
 The **Upper** **Node** converts a **String** to uppercase letters.
 
 # Attributes
+
+![The Upper Node Attributes.](../../.gitbook/assets/upperattributes.png)
 
 ## Inputs
 

@@ -6,7 +6,7 @@ The **Lower** **Node** converts a **String** to lowercase letters.
 
 # Attributes
 
-![The Lower Node Attributes.](../../.gitbook/assets/lowernode.png)
+![The Lower Node Attributes.](../../.gitbook/assets/lowerattributes.png)
 
 ## Inputs
 

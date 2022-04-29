@@ -1,10 +1,12 @@
 # Overview
 
-![The StartsWith Node.](../../.gitbook/assets/startswith.png)
+![The StartsWith Node.](../../.gitbook/assets/startswithnode.png)
 
 The **StartsWith Node** checks if a **String** starts with a substring, or `Pattern`, and returns a **Bool** of either *True* or *False*.
 
 # Attributes
+
+![The StartsWith Node Attributes.](../../.gitbook/assets/startswithattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

@@ -1,12 +1,14 @@
 # Overview
 
-![The Reverse Node.](../../.gitbook/assets/node-reverse.png)
+![The Reverse Node.](../../.gitbook/assets/reversenode.png)
 
 The **Reverse** **Node** takes a **String** and reverses it.
 
 For example, if the **Input** is "dog", the **Output** will be "god".
 
 # Attributes
+
+![The Reverse Node Attributes.](../../.gitbook/assets/reverseattributes.png)
 
 ## Inputs
 
