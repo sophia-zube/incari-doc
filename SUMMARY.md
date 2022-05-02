@@ -280,6 +280,8 @@
     * [Get Size 2D (px)](toolbox/incari/object/get-size-pixel.md)
     * [Get Tint](toolbox/incari/object/get-tint.md)
     * [Get Visibility](toolbox/incari/object/get-visibility.md)
+    * [Is Object 2D](toolbox/incari/object/is-object-2d.md)
+    * [Is Object 3D](toolbox/incari/object/is-object-3d.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
     * [Set Local Position](toolbox/incari/object/set-local-position.md)
     * [Set Local Rotation](toolbox/incari/object/set-local-rotation.md)

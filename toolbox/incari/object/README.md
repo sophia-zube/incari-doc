@@ -19,6 +19,8 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Size 2D (px)**](get-size-pixel.md)
 * [**Get Tint**](get-tint.md)
 * [**Get Visibility**](get-visibility.md)
+* [**Is Object 2D**](is-object-2d.md)
+* [**Is Object 3D**](is-object-3d.md)
 * [**Set Alpha**](set-alpha.md)
 * [**Set Local Position**](set-local-position.md)
 * [**Set Local Rotation**](set-local-rotation.md)
