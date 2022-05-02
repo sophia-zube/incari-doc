@@ -2,7 +2,7 @@
 
 ![The Is Object 3D Node.](../../../.gitbook/assets/isobject3dnode.png)
 
-The **Is Object 3D Nosw** returns a **Bool** of either *true* or *false*, depending on if the input **Object** is 3D or not. .
+The **Is Object 3D Nosw** returns a **Bool** of either *true* or *false*, depending on if the input **Object** is 3D or not. 
 
 # Attributes
 
