@@ -8,6 +8,8 @@ The **Get Current ImageSequence Frame Node** returns the current frame number of
 
 ## Attributes
 
+![The Get Current ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-get-current-imagesequence-frame-attr.png)
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |

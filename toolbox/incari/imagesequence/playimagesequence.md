@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Play ImageSequence Node.](../../../.gitbook/assets/playimagesequence.png)
+![The Play ImageSequence Node.](../../../.gitbook/assets/node-play-imagesequence.png)
 
 The **Play ImageSequence Node** starts and plays through an **ImageSequence** at the specified time frames.
 
 ## Attributes
+
+![The Play ImageSequence Node Attributes.](../../../.gitbook/assets/node-play-imagesequence-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

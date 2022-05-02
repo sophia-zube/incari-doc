@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Stop ImageSequence Node.](../../../.gitbook/assets/stopimagesequence.png)
+![The Stop ImageSequence Node.](../../../.gitbook/assets/node-stop-imagesequence.png)
 
 The **Stop ImageSequence Node** ends an **ImageSequence** already playing during a session.
 
 ## Attributes
+
+![The Stop ImageSequence Node Attributes.](../../../.gitbook/assets/node-stop-imagesequence-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,14 @@
 
 ## Overview
 
-![The Go To Previous ImageSequence Frame Node.](../../../.gitbook/assets/gotopreviousimagesequenceframe.png)
+![The Go To Previous ImageSequence Frame Node.](../../../.gitbook/assets/node-go-to-previous-imagesequence-frame.png)
 
 The **Go To Previous ImageSequence Frame Node** moves backwards to the previous frame of the **ImageSequence**.
 
 ## Attributes
+
+![The Go To Previous ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-go-to-previous-imagesequence-frame-attr.png)
+
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get ImageSequence FPS Node.](../../../.gitbook/assets/getimagesequencefps.png)
+![The Get ImageSequence FPS Node.](../../../.gitbook/assets/node-get-imagesequence-fps.png)
 
 The **Get ImageSequence FPS Node** returns the frame rate of the **ImageSequence**.
 
 ## Attributes
+
+![The Get ImageSequence FPS Node Attributes.](../../../.gitbook/assets/node-get-imagesequence-fps-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

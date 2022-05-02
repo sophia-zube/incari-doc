@@ -8,6 +8,8 @@ The **Get ImageSequence Duration Node** returns the total runtime \(in seconds\)
 
 ## Attributes
 
+![The Get ImageSequence Duration Node Attributes.](../../../.gitbook/assets/node-get-imagesequence-duration-attr.png)
+
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Object` | **ObjectID** | The target **Object**. |
