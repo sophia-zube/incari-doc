@@ -31,7 +31,7 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
 * **New PBR material**
   
-     The **Material Editor** now offers a new **PBR Material**, the **Extended PBR Material**. This **Material** offers more customizable options than in previous versions. These new options include two texture maps – one for occlusion and one for metallic roughness; optional overlay of metallic and roughness values; and a more advanced shading model that generates more accurate results.
+     The **Material Editor** now offers a new **PBR Material**, the **Extended PBR Material**. This **Material** offers more customizable options than in previous versions. These new options include: two texture maps – one for occlusion and one for metallic roughness; optional overlay of metallic and roughness values; and a more advanced shading model that generates more accurate results.
 
 
 * **Prefabs**
