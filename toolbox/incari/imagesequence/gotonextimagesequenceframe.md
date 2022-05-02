@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Go To Next ImageSequence Frame Node.](../../../.gitbook/assets/gotonextimagesequenceframe.png)
+![The Go To Next ImageSequence Frame Node.](../../../.gitbook/assets/node-go-to-next-imagesequence-frame.png)
 
 The **Go To Next ImageSequence Frame Node** moves forward to the next frame of the **ImageSequence**.
 
 ## Attributes
+
+![The Go To Next ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-go-to-next-imagesequence-frame-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

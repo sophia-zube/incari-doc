@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Get ImageSequence Total Frames Node.](../../../.gitbook/assets/getimagesequencetotalframes.png)
+![The Get ImageSequence Total Frames Node.](../../../.gitbook/assets/node-get-imagesequence-total-frames.png)
 
 The **Get ImageSequence Total Frames Node** returns the total number of frames in the **ImageSequence**.
 
 ## Attributes
+
+![The Get ImageSequence Total Frames Node Attributes.](../../../.gitbook/assets/node-get-imagesequence-total-frames-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

@@ -2,11 +2,13 @@
 
 ## Overview
 
-![The Show ImageSequence Frame Node.](../../../.gitbook/assets/showimagesequenceframe.png)
+![The Show ImageSequence Frame Node.](../../../.gitbook/assets/node-show-imagesequence-frame.png)
 
 **Show ImageSequence Frame** displays the frame at the selected index.
 
 ## Attributes
+
+![The Show ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-show-imagesequence-frame-attr.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
