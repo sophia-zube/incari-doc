@@ -34,7 +34,7 @@ For installation and licensing, please follow these steps:
 
 * Use the license key to activate your subscription in **Incari Hub**.
 
-![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license2.png)
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license-green.png)
 
 
 At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
