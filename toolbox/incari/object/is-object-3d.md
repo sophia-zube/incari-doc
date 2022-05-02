@@ -2,7 +2,7 @@
 
 ![The Is Object 3D Node.](../../../.gitbook/assets/isobject3dnode.png)
 
-The **Is Object 3D Nosw** returns a **Bool** of either *true* or *false*, depending on if the input **Object** is 3D or not. 
+The **Is Object 3D Node** returns a **Bool**, depending on whether the input **Object** is *3D* or not. 
 
 # Attributes
 
@@ -24,9 +24,10 @@ The **Is Object 3D Nosw** returns a **Bool** of either *true* or *false*, depend
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`3D`|**Bool**|Returns *true* if the **Object** is 3D, *false* otherwise.| 
+|`3D`|**Bool**|Returns *true* if the **Object** is *3D*, *false* otherwise.| 
 
 # See Also
 
+* [**Bool**](../../../getting-started/data-types/bool.md)
 * [**Is Object 2D**](is-object-2d.md)
 
