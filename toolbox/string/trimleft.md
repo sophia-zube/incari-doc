@@ -13,7 +13,7 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 |Attribute|Type|Description|
 |---|---|---|
 | `String`| **String** | The **String** to be trimmed from the left, if none is given in the **Input** **Socket**. |
-| `Characters` | **String** | The characters to be trimmed out of `String`, if none is given in the **Input Socket**. |
+| `Characters` | **String** | The characters to be trimmed out of `String`, if none are given in the **Input Socket**. |
 
 # Inputs
 

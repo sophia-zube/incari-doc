@@ -2,7 +2,7 @@
 
 ![The IsUpper Node.](../../.gitbook/assets/isuppernode.png)
 
-The **Is Upper Node** checks if a **String** is all uppercase and returns a **Bool** of either *True* or *False*. 
+The **IsUpper Node** checks if a **String** is all uppercase and returns a **Bool** of either *True* or *False*. 
 
 # Attributes
 
@@ -24,5 +24,5 @@ The **Is Upper Node** checks if a **String** is all uppercase and returns a **Bo
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`IsLower`|**Bool**|Returns *True* or *False* depending on if the **String** is uppercase or not.|
+|`IsUpper`|**Bool**|Returns *True* or *False* depending on if the **String** is uppercase or not.|
 
