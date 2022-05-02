@@ -2,7 +2,7 @@
 
 ![The Is Object 2D Node.](../../../.gitbook/assets/isobject2dnode.png)
 
-The **Is Object 2D Node** returns a **Bool** of either *true* or *false*, depending on if the input **Object** is 2D or not. 
+The **Is Object 2D Node** returns a **Bool**, depending on whether the input **Object** is *2D* or not. 
 
 # Attributes
 
@@ -24,10 +24,11 @@ The **Is Object 2D Node** returns a **Bool** of either *true* or *false*, depend
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`2D`|**Bool**|Returns *true* if the **Object** is 2D, *false* otherwise.| 
+|`2D`|**Bool**|Returns *true* if the **Object** is *2D*, *false* otherwise.| 
 
 # See Also
 
+* [**Bool**](../../../getting-started/data-types/bool.md)
 * [**Is Object 3D**](is-object-3d.md)
 
 
