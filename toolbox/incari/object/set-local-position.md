@@ -30,7 +30,7 @@ The **Set Local Position Node** sets the *local position* values for a given **O
 
 # See Also
 
-* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+<!-- * [**Global and Local Transforms**]() -->
 * [**Set Local Rotation**](set-local-rotation.md)
 * [**Get Local Position**](get-local-position.md)
 * [**Get Local Rotation**](get-local-rotation.md)

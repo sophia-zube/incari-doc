@@ -30,7 +30,7 @@ The **On Local Rotation Change Node** is an **Event Listener** **Node** used for
 
 # See Also
 
-* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+<!-- * [**Global and Local Transforms**]() -->
 * [**Set Local Rotation**](../../incari/object/set-local-rotation.md)
 * [**Get Local Rotation**](../../incari/object/get-local-rotation.md)
 

@@ -28,7 +28,7 @@ The **Get Local Position Node** returns the *local position* of an **Object** in
 
 # See Also
 
-* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+<!-- * [**Global and Local Transforms**]() -->
 * [**Get Local Rotation**](get-local-rotation.md)
 * [**Set Local Position**](set-local-position.md)
 * [**Set Local Rotation**](set-local-rotation.md)
