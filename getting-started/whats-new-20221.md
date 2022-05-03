@@ -21,14 +21,15 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
 * **Flip Normals** 
   
-    ![](../.gitbook/assets/flip_normals.png)
-    
-    To aid in providing a more immersive experience, `Flip Normals`, located under `Normals` for an **Object** in the **Attribute Editor**, can help. When the toggle is switched on, it is possible to see an applied **Material** from within an **Object**. The user can rotate, move, and scale as usual.    
+      
+    To aid in providing a more immersive experience, `Flip Normals`, located under `Normals` for an **Object** in the **Attribute Editor**, can help. When the toggle is switched on, it is possible to see an applied **Material** from within an **Object**. The user can rotate, move, and scale as usual.
+
+![](../.gitbook/assets/flip_normals.png)   
 
 
 * **glTF files**
 
-    **Incari** now supports glTF files, which can be imported and rendered. glTF is a file format for efficient transmission and loading of _3D_ scenes and models. It packages all features, such as geometry, textures and shaders, into one file. The preferred version in **Incari** is glTF 2.0.  <br />
+    **Incari** now supports glTF files, which can be imported and rendered. glTF is a file format for efficient transmission and loading of _3D_ scenes and models. It packages all features, such as geometry, textures and shaders, into one file. The preferred version in **Incari** is glTF 2.0.
 
     This new supported file type makes it easier to incorporate external _3D_ designs that are ready to use without retouching them.
 
