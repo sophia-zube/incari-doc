@@ -31,7 +31,7 @@ The **On Local Position Change Node** is an **Event Listener** **Node** used for
 
 # See Also
 
-* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+<!-- * [**Global and Local Transforms**]() -->
 * [**Set Local Position**](../../incari/object/set-local-position.md)
 * [**Get Local Position**](../../incari/object/get-local-position.md)
 

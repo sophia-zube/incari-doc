@@ -29,7 +29,7 @@ The **Set Local Rotation Node** sets the value of a given **Object's** local `Ro
 
 # See Also
 
-* [**Global and Local Transforms**](../../../getting-started/whats-new-20221.md#global-and-local-transforms)
+<!-- * [**Global and Local Transforms**]() -->
 * [**Set Local Position**](set-local-position.md)
 * [**Get Local Position**](get-local-position.md)
 * [**Get Local Rotation**](get-local-rotation.md)
