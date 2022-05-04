@@ -10,8 +10,8 @@ The **Capitalize Node** capitalizes a **String**, converting the first character
 
 |Attribute|Type|Description|
 |---|---|---|
-|`String`|**String**|The **String** to be capitalized.|
-|`Capitalize all words`|**Bool**|Toggled on or off depending on if the user wishes to capitalize every word in the **String** or not.|
+|`String`|**String**|The **String** to be capitalized, if none is given in the **Input** **Socket**.|
+|`Capitalize all words`|**Bool**|Toggled on or off depending on if the user wishes to capitalize every word in the **String** or not, if none is given in the **Input** **Socket**.|
 
 # Inputs
 

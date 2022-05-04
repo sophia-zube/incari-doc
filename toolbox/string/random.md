@@ -10,8 +10,8 @@ The **RandomString Node** returns a random **String**. The length can be specifi
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Length`|**Int**|The length of the random **String** to be generated.|
-|`Characters`|**String**|A set of characters to be used to generate a random **String**.|
+|`Length`|**Int**|The length of the random **String** to be generated, if none is given in the **Input** **Socket**.|
+|`Characters`|**String**|A set of characters to be used to generate a random **String**, if none is given in the **Input** **Socket**.|
 
 # Inputs
 

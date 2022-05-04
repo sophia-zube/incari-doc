@@ -2,14 +2,14 @@
 
 ![The Join Node.](../../.gitbook/assets/joinnode.png)
 
-The **Join Node** joins the elements of an **Array** populated with **Strings**. 
+The **Join Node** joins the elements of an **Array** populated with **Strings** into a generated **String**, separated by a separator given by the user.
 
 # Attributes
 ![The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Default separator`|**String**|The separator that will divide the parts of the joined **String**, such as a *space* or *comma*.
+|`Default separator`|**String**|The separator that will divide the parts of the joined **String**, such as a *space* or *comma*, if none is given in the **Input** **Socket**.|
 
 # Inputs
 
