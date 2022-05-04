@@ -2,7 +2,7 @@
 
 ![The EndsWith Node.](../../.gitbook/assets/endswithnode.png)
 
-**The EndsWith Node** checks if a **String** ends with a substring, or `Pattern`, and returns a **Bool** of either *True* or *False*.
+**The EndsWith Node** checks if a **String** ends with a *substring*, or `Pattern`, and returns a **Bool** of either *True* or *False*.
 
 # Attributes
 
@@ -11,7 +11,7 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`String`|**String**|The **String** to be checked.|
-|`Pattern`|**String**|The substring that will be compared to the end of the aforementioned **String**.|
+|`Pattern`|**String**|The *substring* that will be compared to the end of the aforementioned **String**, if none is given in the **Input** **Socket**.|
 
 # Inputs
 
@@ -19,7 +19,7 @@
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`String`|**String**|The **String** to be checked.|
-|`Pattern`|**String**|The substring that will be compared to the end of the aforementioned **String**.|
+|`Pattern`|**String**|The *substring* that will be compared to the end of the aforementioned **String**.|
 
 # Outputs
 
@@ -31,3 +31,7 @@
 # See Also
 
 * [**StartsWith**](startswith.md)
+
+# External Links
+
+* More on *substrings* on [Wikipedia](https://en.wikipedia.org/wiki/Substring).

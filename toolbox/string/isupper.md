@@ -10,7 +10,7 @@ The **IsUpper Node** checks if a **String** is all uppercase and returns a **Boo
 
 |Attribute|Type|Description|
 |---|---|---|
-|`String`|**String**|The **String** to be checked.|
+|`String`|**String**|The **String** to be checked, if none is given in the **Input** *Socket*.|
 
 # Inputs
 
@@ -26,3 +26,6 @@ The **IsUpper Node** checks if a **String** is all uppercase and returns a **Boo
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`IsUpper`|**Bool**|Returns *True* or *False* depending on if the **String** is uppercase or not.|
 
+# See Also
+
+* [**IsLower**](islower.md)
