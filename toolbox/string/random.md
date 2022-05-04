@@ -2,7 +2,7 @@
 
 ![The RandomString Node.](../../.gitbook/assets/randomstringnode.png)
 
-The **RandomString Node** returns a random **String**. The length can be specified by the user.
+The **RandomString Node** returns a random **String**. The length and characters can be specified by the user.
 
 # Attributes
 
