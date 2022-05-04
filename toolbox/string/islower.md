@@ -26,4 +26,6 @@ The **IsLower Node** checks if a **String** is all lowercase and returns a **Boo
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`IsLower`|**Bool**|Returns *True* or *False* depending on if the **String** is lowercase or not.|
 
+# See Also
+
 * [**IsUpper**](isupper.md)

@@ -10,7 +10,7 @@ The **IsUpper Node** checks if a **String** is all uppercase and returns a **Boo
 
 |Attribute|Type|Description|
 |---|---|---|
-|`String`|**String**|The **String** to be checked, if none is given in the **Input** *Socket*.|
+|`String`|**String**|The **String** to be checked, if none is given in the **Input** **Socket**.|
 
 # Inputs
 
