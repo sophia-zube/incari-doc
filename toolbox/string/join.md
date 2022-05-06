@@ -4,9 +4,9 @@
 
 <!-- The **Join Node** joins the elements of an **Array** populated with **Strings** into a generated **String**, separated by a separator given by the user. -->
 
-The **Join Node** joins several **Strings** into one. For this, it receives as input an **Array** populated with the **Strings** to be joined and a separator. The output is a **String** composed of the **Strings** in the input **Array** separated by the given separator.
+The **Join Node** joins several **Strings** into one. For this, it receives an **Array** populated with the **Strings** to be joined and a separator as inputs. The output is a **String** composed of the **Strings** in the input **Array** separated by the given separator.
 
-For instance, having as **Inputs** the **Array** "[uno, dos, tres, cuatro, cinco]" and a semicolon (";") as the separator generates the **String** "uno;dos;tres;cuatro;cinco". 
+For instance, having the **Array** "[uno, dos, tres, cuatro, cinco]" and a semicolon (";") as the separator generates the **String** "uno;dos;tres;cuatro;cinco". 
 
 # Attributes
 ![The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)
