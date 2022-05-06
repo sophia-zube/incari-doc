@@ -4,7 +4,7 @@
 
 The **PaddingRight** **Node** adds a character a chosen number of times to the right of a **String**.
 
-For example, padding the character "a" 6 times to the **String** "bbbbbbcccccc" gives "bbbbbbccccccaaaaaa" as result.
+For example, padding the character "a" 6 times to the **String** "bbbbbbcccccc" gives "bbbbbbccccccaaaaaa" as the result.
 
 The `Padding character` **Attribute** and **Input** can receive a **String** but they only use the first character.
 
