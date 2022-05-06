@@ -4,7 +4,7 @@
 
 The **Create Object** **Node** creates [**Scene Objects**](../../getting-started/scene-objects/README.md) of a chosen **Object Type**.
 
-In the **Attributes** it can be chosen the **Object Type** to create and the output is the **ObjectID** of the newly created **Object** and a **Bool** value indicating whether the creation of the **Object** was successful or not.
+In the **Attributes**, the **Object Type** for the new **Object** can be chosen. The outputs are the **ObjectID** of the newly created **Object** and a **Bool** value indicating whether the creation of the **Object** was successful or not.
 
 # Attributes
 
