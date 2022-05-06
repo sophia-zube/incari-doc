@@ -4,7 +4,7 @@
 
 The **TrimLeft** **Node** trims certain chosen characters from the left side of a **String**, until a different character is found. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 
-For example, trimming the characters "ab" from the **String** "babbaacababa" gives as result the trimmed **String** "cababa".
+For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "cababa".
 
 # Attributes
 
@@ -13,7 +13,7 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 |Attribute|Type|Description|
 |---|---|---|
 | `String`| **String** | The **String** to be trimmed from the left, if none is given in the **Input** **Socket**. |
-| `Characters` | **String** | The characters to be trimmed out of `String`, if none are given in the **Input Socket**. |
+| `Characters` | **String** | The characters to be trimmed from `String`, if none are given in the **Input Socket**. |
 
 # Inputs
 
@@ -21,7 +21,7 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | The **String** to be trimmed from the left.|
-| `Characters` | **String** | The characters to be trimmed out of `String`. |
+| `Characters` | **String** | The characters to be trimmed from `String`. |
 
 # Outputs
 

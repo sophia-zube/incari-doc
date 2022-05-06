@@ -15,8 +15,8 @@ The range in which the *substring* will be searched can be customized via the `S
 |---|---|---|
 | `String` | **String** | The **String** in which the search will be performed, if none is given in the **Input Socket**. |
 | `Pattern` | **String** | The *substring* that will be searched for, if none is given in the **Input Socket**. |
-| `StartIndex` | **Int** | *Index* of `String` in which the search will start, if none is given in the **Input Socket**. |
-| `EndIndex` | **Int** | *Index* of `String` in which the search will end, if none is given in the **Input Socket**. |
+| `StartIndex` | **Int** | The *index* of `String` in which the search will start, if none is given in the **Input Socket**. |
+| `EndIndex` | **Int** | The *index* of `String` in which the search will end, if none is given in the **Input Socket**. |
 
 # Inputs
 
@@ -25,8 +25,8 @@ The range in which the *substring* will be searched can be customized via the `S
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | The **String** in which the search will be performed. |
 | `Pattern` | **String** | The *substring* that will be searched for. |
-| `StartIndex` | **Int** | *Index* of `String` in which the search will start. |
-| `EndIndex` | **Int** | *Index* of `String` in which the search will end. |
+| `StartIndex` | **Int** | The *index* of `String` in which the search will start. |
+| `EndIndex` | **Int** | The *index* of `String` in which the search will end. |
 
 # Outputs
 

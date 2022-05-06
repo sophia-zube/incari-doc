@@ -14,8 +14,8 @@ The **MatchRegex** **Node** allows one to search a **String** for a certain patt
 |---|---|---|
 | `String` | **String** | The **String** in which the search will be performed, if none is given in the **Input Socket**. |
 | `Pattern` | **String** | The pattern that will be searched for using regular expressions, if none is given in the `Regex` **Input Socket**. |
-| `From` | **Int** | The index of `String` from which the search will begin, if none is given in the **Input Socket**. |
-| `To` | **Int** | The index of `String` until which the search will be performed, if none is given in the **Input Socket**. |
+| `From` | **Int** | The *index* of `String` from which the search will begin, if none is given in the **Input Socket**. |
+| `To` | **Int** | The *index* of `String` until which the search will be performed, if none is given in the **Input Socket**. |
 | `Count all matches` | **Bool** | Whether all the matches of `Pattern` in `String` will be counted or not, if no **Bool** value is given in the **Input Socket**. |
 
 # Inputs
@@ -25,8 +25,8 @@ The **MatchRegex** **Node** allows one to search a **String** for a certain patt
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | The **String** in which the search will be performed.  |
 | `Regex` | **String** | The pattern that will be searched for using regular expressions. |
-| `From` | **Int** | The index of `String` from which the search will begin. |
-| `To` | **Int** | The index of `String` until which the search will be performed.|
+| `From` | **Int** | The *index* of `String` from which the search will begin. |
+| `To` | **Int** | The *index* of `String` until which the search will be performed.|
 | `Count all matches` | **Bool** | Whether all the matches of `Regex` in `String` will be counted or not.|
 
 # Outputs

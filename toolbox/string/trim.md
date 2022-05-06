@@ -4,7 +4,7 @@
 
 The **Trim** **Node** trims certain chosen characters from a **String**. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 
-For example, trimming the characters "ab" from the **String** "babbaacababa" gives as result the trimmed **String** "c".
+For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "c".
 
 # Attributes
 
@@ -13,7 +13,7 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 |Attribute|Type|Description|
 |---|---|---|
 | `String`| **String** | The **String** to be trimmed, if none is given in the **Input** **Socket**. |
-| `Characters` | **String** | The characters to be trimmed out of `String`, if none is given in the **Input Socket**. |
+| `Characters` | **String** | The characters to be trimmed from `String`, if none is given in the **Input Socket**. |
 
 # Inputs
 
@@ -21,7 +21,7 @@ For example, trimming the characters "ab" from the **String** "babbaacababa" giv
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `String` | **String** | The **String** to be trimmed.|
-| `Characters` | **String** | The characters to be trimmed out of `String`. |
+| `Characters` | **String** | The characters to be trimmed from `String`. |
 
 # Outputs
 
