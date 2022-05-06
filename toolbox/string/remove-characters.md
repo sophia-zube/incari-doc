@@ -4,7 +4,7 @@
 
 The **RemoveCharacters** **Node** removes characters from a **String**. It takes as inputs a **String** and the characters to remove and it outputs the **String** with the characters removed.
 
-It removes all occurrences of each of the characters specified. For instance, giving as inputs `The dogs and the foxes go towards that house` for the **String** and `os` for the characters to be removed will result in the output: `The dg and the fxe g tward that hue`.
+It removes all occurrences of each of the characters specified. For instance, giving `The dogs and the foxes go towards that house` for the **String** input and `os` for the characters to be removed will result in the output: `The dg and the fxe g tward that hue`.
 
 # Attributes
 
