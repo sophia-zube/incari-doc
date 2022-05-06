@@ -2,9 +2,9 @@
 
 ![The CharCodeAt Node.](../../.gitbook/assets/charcodeatnode.png)
 
-The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given index in a **String**. It takes as inputs a **String** and the index of the character whose code is to be obtained, and it ouputs the _ASCII_ code of said character.
+The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given *index* in a **String**. It takes as inputs a **String** and the *index* of the character whose code is to be obtained, and it ouputs the _ASCII_ code of said character.
 
-The characters indices in the **String** start from zero.
+The characters' *indices* in the **String** start from zero.
 
 If the index given is greater than the **String** length, the output is `-1`.
 
@@ -14,7 +14,7 @@ If the index given is greater than the **String** length, the output is `-1`.
 
 |Attribute|Type|Description|
 |---|---|---|
-| `String` | **String** | The **String** from which the characters codes are to be obtained, if none is given in the **Input Socket**.  |
+| `String` | **String** | The **String** from which the characters' codes are to be obtained, if none is given in the **Input Socket**.  |
 | `At` | **Int** | The index of the character whose _ASCII_ code is to be obtained, if none is given in the **Input Socket**.  |
 
 # Inputs
@@ -22,7 +22,7 @@ If the index given is greater than the **String** length, the output is `-1`.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `String` | **String** | The **String** from which the characters codes are to be obtained. |
+| `String` | **String** | The **String** from which the characters' codes are to be obtained. |
 | `At` | **Int** | The index of the character whose _ASCII_ code is to be obtained. |
 
 # Outputs
