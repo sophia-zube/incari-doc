@@ -4,21 +4,9 @@
 
 The **FormatArray** **Node** receives a **Pattern** **String** that can contain *format specifiers* and an **Array** containing data values. It then outputs the **String** formatted with the data values from the **Array** in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
 
-This **Node** is useful for when data needs to presented within a text. For example, to show the current temperature. For this, we can use the **Pattern** **String** `The current temperature is %f °C`, where `%f` is the _format specifier_ that indicates that a **Float** value will take that place in the final formatted **String**. The value of the current temperature has to be given to the **Node** as a value in an **Array** and then, if the current temperature is, say, `20.3` degrees Celsius, the formatted **String** that the **Node** outputs will be `The current temperature is 20.3°C`.
+This **Node** is useful for when data needs to presented within a text. For example, to show the current temperature. For this, we can use the **Pattern** **String** `The current temperature is %.1f °C`, where `%.1f` is the _format specifier_ that indicates that a **Float** value with one decimal place will take that position in the final formatted **String**. The value of the current temperature has to be given to the **Node** as a value in an **Array** and then, if the current temperature is, say, `20.3` degrees Celsius, the formatted **String** that the **Node** outputs will be `The current temperature is 20.3°C`.
 
-The possible *format specifiers* are shown in the table below.
-
-| *Format specifier* | **Type**|
-|---|---|
-| %c | Character |
-| %d | Signed decimal integer |
-| %e | Scientific notation |
-| %f | Float |
-| %i| Integer|
-| %o | Unsigned octal |
-| %s | String |
-| %u | Unsigned decimal integer |
-| %x | Unsigned decimal integer |
+See more about [*format specifiers*](format.md#format-specifiers) and [*usage examples*](format.md#usage-examples).
 
 
 
