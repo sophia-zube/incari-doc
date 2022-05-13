@@ -4,7 +4,9 @@
 
 ![The Delay Action Node.](../../.gitbook/assets/node-delay-action-node.png)
 
-The **Delay Action Node** delays the **Action** for the specified duration \(in seconds\).
+The **Delay Action Node** performs a delay of the **Pulse Flow** for the specified duration \(in seconds\). 
+
+
 
 ## Attributes
 
@@ -12,22 +14,22 @@ The **Delay Action Node** delays the **Action** for the specified duration \(in 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
+| `Duration (sec)` | **Float** | The time of the delay. |
 
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
+| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**.  |
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Duration` | **Float** | The total time \(in seconds\). |
+| `Duration` | **Float** | The time of the delay \(in seconds\). |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
-| `OnStart` \(►\) | **Pulse** | Flows to additional actions following **Delay Action** when the **Action** starts. |
-| `OnEnd` \(►\) | **Pulse** | Flows to additional actions following **Delay Action** when the **Action** stops. |
+| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. |
+| `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **Delay Action** when the **Action** starts. |
+| `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **Delay Action** when the **Action** stops. |
 
