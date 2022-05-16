@@ -2,13 +2,36 @@
 
 ## Introduction
 
-The **Actions Nodes** perform a set of **Actions**, usually over an **Object**, and allow to continue the **Pulse Flow** when the corresponding **Action** begins and ends.
+The **Actions Nodes** can be used for performing a set of different **Actions**, usually a continuous modification of the **Transformation Attributes** of an **Object** thus generating an **Animation**. They have two **Output Pulses**:
 
-These **Nodes** allow the user to create an animation by modifying an **Attribute** of a determined **Object** over a specified amount of time.
+  *  `OnStart` \(►\): It gets triggered when the **Action** begins.
+  *  `OnEnd` \(►\): It gets triggered when the **Action** finishes.
 
-The **Node** name shows which **Attribute** is modified and which values are set by the user.
+These **Nodes** take as inputs the **Object ID** of the **Object** to be modified, the duration of the **Action** (in seconds), and values to generate the **Animation**, such as the target value.
 
-Each **Action** has an **Instance ID**, which is an unique identifier that can be set with the [**Create CustomID Node**](). The default **Instance ID** for **Actions** is 0.
+The **Node** name shows which **Attribute** is modified and which values are set by the user:
+
+  * `Fade` modifies `Opacity`
+  * `Move` modifies `Position`
+  * `Rotate` modifies `Rotation`
+  * `Scale` modifies `Scale`
+
+  * `FromTo`: The start and end values of the **Attribute** are set by the user.
+  * `To`: Only the target value of the **Attribute** is set by the user.
+  * `By`: The values to be added to the current value of the **Attribute** is set by the user.
+
+Then, for instance, the **MoveTo Action** **Node** modifies continuosly, creating an **Animation**, the `Position` **Attributes** of an **Object** until reaching the target value set.
+
+Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. The default **Instance ID** for **Actions** is 0.
+
+The method of *interpolation* used for generating the intermediate values of the modified **Object Attribute** can be chosen in the **Node Attributes**. The options are:
+
+  * [Linear](https://en.wikipedia.org/wiki/Linear_interpolation)
+  * [Sine Ease In](https://easings.net/#easeInSine)
+  * [Sine Ease In Out](https://easings.net/#easeInOutSine)
+  * [Sine Ease Out](https://easings.net/#easeOutSine) 
+
+
 
 ## Contents
 
