@@ -4,7 +4,7 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionnode.png)
 
-The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an initial value to a final one over a specified period of time, in either **Attributes** or **Inputs**.
+The **FadeFromTo Action Node** continuosly modifies the `opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the opacity are chosen by the user.
 
 ## Attributes
 
@@ -21,7 +21,7 @@ The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an i
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
+| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
@@ -33,10 +33,9 @@ The **FadeFromTo Action Node** reduces the opacity of an **Animation** from an i
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
-| `OnStart` \(►\) | **Pulse** | Flows to additional actions following **FadeFromTo Action** when the **Action** starts. |
-| `OnEnd` \(►\) | **Pulse** | Flows to additional actions following **FadeFromTo Action** when the **Action** stops. |
-
+| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. |
+| `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** starts. |
+| `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** stops. |
 ## See Also
 
 * [**FadeTo Action**](fadetoaction.md)
