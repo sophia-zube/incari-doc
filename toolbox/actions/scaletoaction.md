@@ -4,7 +4,7 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode.png)
 
-The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ values along the X, Y, Z axes specified in `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**. 
+The **ScaleTo Action Node** continuously scales an **Object** to the absolute `Scale` values along the X, Y, Z axes specified in `To` for a given period of time, thus creating an **Animation**. 
 
 ## Attributes
 
@@ -12,27 +12,27 @@ The **ScaleTo Action Node** scales an **Animation** to the absolute _scale_ valu
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `To` | **Vector3** | The desired _scale_ values along the X, Y, Z axes. |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `To` | **Vector3** | The desired final `Scale` values along the X, Y, Z axes, if none are given in the `To` **Input Socket**. |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is given in the `Duration` **Input Socket**. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
-| `To` | **Vector3** | The desired _scale_ values along the X, Y, Z axes. |
+| `To` | **Vector3** | The desired final `Scale` values along the X, Y, Z axes. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
-| `OnStart` \(►\) | **Pulse** | Flows to additional actions following **ScaleTo Action** when the **Action** starts. |
-| `OnEnd` \(►\) | **Pulse** | Flows to additional actions following **ScaleTo Action** when the **Action** stops. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**.  |
+| `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **ScaleTo Action** when the **Action** starts. |
+| `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **ScaleTo Action** when the **Action** stops. |
 
 ## See Also
 

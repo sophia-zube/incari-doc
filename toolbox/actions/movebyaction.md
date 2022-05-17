@@ -4,7 +4,7 @@
 
 ![The MoveBy Action Node.](../../.gitbook/assets/movebyactionnode.png)
 
-The **MoveBy Action Node** continuosly modifies the `position` of an **Object** by the relative values specified in the `Offset` for the `Duration` \(in seconds\), thus creating an **Animation**.
+The **MoveBy Action Node** continuously modifies the `Position` of an **Object** by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
 
 ## Attributes
@@ -13,8 +13,8 @@ The **MoveBy Action Node** continuosly modifies the `position` of an **Object** 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Offset` | **Vector3** | The amount to modify the `position` of an **Object** along the X, Y, Z axes. |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
+| `Offset` | **Vector3** | The amount to modify the `Position` of an **Object** along the X, Y, Z axes, if none is given in the `Offset` **Input Socket**. |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is given in the `Duration` **Input Socket**. |
 | `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
@@ -25,7 +25,7 @@ The **MoveBy Action Node** continuosly modifies the `position` of an **Object** 
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
-| `Offset` | **Vector3** | The amount to move the `position` of an **Object** along the X, Y, Z axes. |
+| `Offset` | **Vector3** | The amount to move the `Position` of an **Object** along the X, Y, Z axes. |
 
 ## Outputs
 

@@ -4,7 +4,7 @@
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoactionnode.png)
 
-The **MoveTo Action Node** moves an **Animation** to the absolute coordinates specified in the `To` for the `Duration` \(in seconds\), in either **Attributes** or **Inputs**.
+The **MoveBy Action Node** continuously modifies the `Position` of an **Object** by the relative values specified in the `Offset` for a given period of time, thus creating an **Animation**.
 
 ## Attributes
 
@@ -12,27 +12,28 @@ The **MoveTo Action Node** moves an **Animation** to the absolute coordinates sp
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `To` | **Vector3** | The desired _position_ along the X, Y, Z axes. |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `To` | **Vector3** | The desired `Position` along the X, Y, Z axes, if none is received in the `To` **Input Socket**. |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
-| `To` | **Vector3** | The desired _position_ along the X, Y, Z axes. |
+| `To` | **Vector3** | The desired final `Position` along the X, Y, Z axes. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
-| `OnStart` \(►\) | **Pulse** | Flows to additional actions following **MoveTo Action** when the **Action** starts. |
-| `OnEnd` \(►\) | **Pulse** | Flows to additional actions following **MoveTo Action** when the **Action** stops. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. |
+| `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **MoveTo Action** when the **Action** starts. |
+| `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **MoveTo Action** when the **Action** stops. |
+
 
 ## See Also
 
