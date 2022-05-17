@@ -22,7 +22,7 @@ And the second part of the name says which values are specified by the user:
   * `To`: Only the target value of the **Attribute** is set by the user.
   * `By`: The values to be added to the current value of the **Attribute** is set by the user.
 
-Then, for instance, the **MoveTo Action** **Node** modifies continuosly, creating an **Animation**, the `Position` **Attributes** of an **Object** until reaching the target value set.
+Then, for instance, the **MoveTo Action** **Node** continuously modifies the `Position` **Attributes** of an **Object** until reaching the target value set, creating an **Animation** in which the **Object** moves from its current *position* to the one set in the **Node**.
 
 ### Instance ID
 
