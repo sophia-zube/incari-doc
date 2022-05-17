@@ -9,12 +9,14 @@ The **Actions Nodes** can be used for performing a set of different **Actions**,
 
 These **Nodes** take as inputs the **Object ID** of the **Object** to be modified, the duration of the **Action** (in seconds), and values to generate the **Animation**, such as the target value.
 
-The **Node** name shows which **Attribute** is modified and which values are set by the user:
+The **Node** name shows which **Attribute** is modified and which values are set by the user. The first part of the name says which **Attribute** the **Node** modifies:
 
   * `Fade` modifies `Opacity`
   * `Move` modifies `Position`
   * `Rotate` modifies `Rotation`
   * `Scale` modifies `Scale`
+
+And the second part of the name says which values are specified by the user:
 
   * `FromTo`: The start and end values of the **Attribute** are set by the user.
   * `To`: Only the target value of the **Attribute** is set by the user.
