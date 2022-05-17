@@ -4,7 +4,7 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionnode.png)
 
-The **FadeFromTo Action Node** continuously modifies the `opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `opacity` are chosen by the user.
+The **FadeFromTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user.
 
 ## Attributes
 
@@ -12,10 +12,10 @@ The **FadeFromTo Action Node** continuously modifies the `opacity` of an **Objec
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `From` | **Float** | The desired initial value of the `opacity`. |
-| `To` | **Float** | The desired final value of the `opacity`. |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
+| `From` | **Float** | The desired initial value of the `Opacity`, if none is received in the `From` **Input Socket**. |
+| `To` | **Float** | The desired final value of the `Opacity`, if none is received in the `To` **Input Socket**. |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 
@@ -25,8 +25,8 @@ The **FadeFromTo Action Node** continuously modifies the `opacity` of an **Objec
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
-| `From` | **Float** | The initial value of the desired _opacity_. |
-| `To` | **Float** | The final value of the desired _opacity_. |
+| `From` | **Float** | The initial value of the desired `Opacity`. |
+| `To` | **Float** | The final value of the desired `Opacity`. |
 
 ## Outputs
 

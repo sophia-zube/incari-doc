@@ -4,7 +4,7 @@
 
 ![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionnode.png)
 
-The **FadeTo Action Node** continuously modifies the `opacity` of an **Object** over a specified period of time, thus creating an **Animation**. The final value of the `opacity` is set by the user.
+The **FadeTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user.
 
 ## Attributes
 
@@ -12,9 +12,9 @@ The **FadeTo Action Node** continuously modifies the `opacity` of an **Object** 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `To` | **Float** | The desired `opacity` value at the end of the **Action**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
+| `To` | **Float** | The desired `Opacity` value at the end of the **Action**, if none is received in the `To` **Input Socket**. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 
@@ -24,7 +24,7 @@ The **FadeTo Action Node** continuously modifies the `opacity` of an **Object** 
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
-| `To` | **Float** | The desired `opacity` value at the end of the **Action**. |
+| `To` | **Float** | The desired `Opacity` value at the end of the **Action**. |
 
 ## Outputs
 
