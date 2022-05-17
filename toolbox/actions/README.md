@@ -22,14 +22,18 @@ The **Node** name shows which **Attribute** is modified and which values are set
 
 Then, for instance, the **MoveTo Action** **Node** modifies continuosly, creating an **Animation**, the `Position` **Attributes** of an **Object** until reaching the target value set.
 
-Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. The default **Instance ID** for **Actions** is 0.
+### Instance ID
+
+Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. It is also possible to use an **Object ID** as **Instance ID**.The default **Instance ID** for **Actions** is 0.
+
+### Interpolation
 
 The method of *interpolation* used for generating the intermediate values of the modified **Object Attribute** can be chosen in the **Node Attributes**. The options are:
 
-  * [Linear](https://en.wikipedia.org/wiki/Linear_interpolation)
-  * [Sine Ease In](https://easings.net/#easeInSine)
-  * [Sine Ease In Out](https://easings.net/#easeInOutSine)
-  * [Sine Ease Out](https://easings.net/#easeOutSine) 
+  * [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation)
+  * [*Sine Ease In*](https://easings.net/#easeInSine)
+  * [*Sine Ease In Out*](https://easings.net/#easeInOutSine)
+  * [*Sine Ease Out*](https://easings.net/#easeOutSine) 
 
 
 

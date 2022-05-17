@@ -4,7 +4,7 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionnode.png)
 
-The **FadeFromTo Action Node** continuosly modifies the `opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the opacity are chosen by the user.
+The **FadeFromTo Action Node** continuously modifies the `opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `opacity` are chosen by the user.
 
 ## Attributes
 
@@ -12,16 +12,16 @@ The **FadeFromTo Action Node** continuosly modifies the `opacity` of an **Object
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `From` | **Float** | The initial value of the desired _opacity_. |
-| `To` | **Float** | The final value of the desired _opacity_. |
+| `From` | **Float** | The desired initial value of the `opacity`. |
+| `To` | **Float** | The desired final value of the `opacity`. |
 | `Duration (sec)` | **Float** | The total time of the **Action**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` type. Can be Linear, Sine Ease In, Sine Ease Out, or Sine Ease In Out. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
 | \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
 | `Duration` | **Float** | The total time \(in seconds\). |
@@ -33,9 +33,10 @@ The **FadeFromTo Action Node** continuosly modifies the `opacity` of an **Object
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Instance ID` | **InstanceID** | The assigned **Instance ID** of the **Action**. |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. |
 | `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** starts. |
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** stops. |
+
 ## See Also
 
 * [**FadeTo Action**](fadetoaction.md)
