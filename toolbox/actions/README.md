@@ -2,10 +2,10 @@
 
 ## Introduction
 
-The **Actions Nodes** can be used for performing a set of different **Actions**, usually a continuous modification of the **Transformation Attributes** of an **Object** thus generating an **Animation**. They have two **Output Pulses**:
+The **Actions Nodes** can be used for performing a set of different **Actions**, usually a continuous modification of the **Transformation Attributes** of an **Object**, thus generating an **Animation**. They have two **Output Pulses**:
 
-  *  `OnStart` \(►\): It gets triggered when the **Action** begins.
-  *  `OnEnd` \(►\): It gets triggered when the **Action** finishes.
+  *  `OnStart` \(►\) gets triggered when the **Action** begins.
+  *  `OnEnd` \(►\) gets triggered when the **Action** finishes.
 
 These **Nodes** take as inputs the **Object ID** of the **Object** to be modified, the duration of the **Action** (in seconds), and values to generate the **Animation**, such as the target value.
 
@@ -20,7 +20,7 @@ And the second part of the name says which values are specified by the user:
 
   * `FromTo`: The start and end values of the **Attribute** are set by the user.
   * `To`: Only the target value of the **Attribute** is set by the user.
-  * `By`: The values to be added to the current value of the **Attribute** is set by the user.
+  * `By`: The values to be added to the current value of the **Attribute** are set by the user.
 
 Then, for instance, the **MoveTo Action** **Node** continuously modifies the `Position` **Attribute** of an **Object** until reaching the target value set, creating an **Animation** in which the **Object** moves from its current *position* to the one set in the **Node**.
 

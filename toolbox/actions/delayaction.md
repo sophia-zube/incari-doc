@@ -4,7 +4,7 @@
 
 ![The Delay Action Node.](../../.gitbook/assets/node-delay-action-node.png)
 
-The **Delay Action Node** performs a delay of the **Pulse Flow** for the specified duration \(in seconds\). 
+The **Delay Action Node** delays the **Pulse Flow** for the specified duration \(in seconds\). 
 
 
 
