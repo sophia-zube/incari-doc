@@ -4,7 +4,7 @@
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionnode.png)
 
-The **RotateTo Action Node** continuously rotates an **Object** to the *Euler angles* along the X, Y, and Z axes specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateTo Action Node** continuously rotates an **Object** to the *Euler angles* specified in `To` for a given period of time, thus creating an **Animation**.
 
 ## Attributes
 
