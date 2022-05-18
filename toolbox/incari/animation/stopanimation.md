@@ -4,20 +4,16 @@
 
 ![The Stop Animation Node.](../../../.gitbook/assets/node-stop-animation.png)
 
-**Stop Animation** is an _animation_ **Node** used to stop an **Animation** already playing.
+**Stop Animation** is an **Animation** **Node** used to stop an **Animation** already playing. It receives as input the [**Instance ID**](README.md#instance-id) of the **Animation** to be stopped.
 
-## Attributes
 
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Enabled` | **Bool** | A toggle switch that allows the **Node** to be turned on or off. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
+| `Instance ID` | **InstanceID** | The [**Instance ID**](README.md#instance-id) of the **Animation** to be stopped.   |
 
 ## Outputs
 
