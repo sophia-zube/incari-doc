@@ -26,7 +26,7 @@ Then, for instance, the **MoveTo Action** **Node** continuously modifies the `Po
 
 ### Instance ID
 
-Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. It is also possible to use an **Object ID** as **Instance ID**.The default **Instance ID** for **Actions** is 0.
+Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. It is also possible to use an **Object ID** as **Instance ID**. The default **Instance ID** for **Actions** is 0.
 
 ### Interpolation
 
