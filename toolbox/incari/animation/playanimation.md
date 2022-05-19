@@ -36,6 +36,12 @@ When an **Animation** starts playing, an [**Instance ID**](README.md#instance-id
 | `OnPause` | **Pulse** | Flows to additional **Nodes** following **Play Animation** if the **Animation** pauses. |
 | `OnStop` | **Pulse** | Flows to additional **Nodes** following **Play Animation** if the **Animation** stops. |
 
+### Reusing an Animation
+
+![The Play Animation Node with an Animation Block assigned]()
+
+When an **Animation Block** is assigned to the **Play Animation** **Node**, **Input Sockets** of **ObjectID** are created in the **Node**. These **Input Sockets** can be used to reuse the **Animation** for a different **Object**. Then, a **Play Animation** **Node** with an **Object** connected to the **ObjectID** **Sockets** will animate that **Object** instead of the one defined in the **Animation Block**.
+
 ## See Also
 
 * [**Pause Animation**](pauseanimation.md)
