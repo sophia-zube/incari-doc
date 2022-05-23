@@ -1,10 +1,12 @@
 # Overview
 
-![The On Serial Packet Receive Node.](../../../../.gitbook/assets/onserialpacketreceive.png)
+![The On Serial Packet Receive Node.](../../../../.gitbook/assets/onserialpacketreceivenode.png)
 
 The **On Serial Packet Receive Node** is an **Event Listener Node** that executes when a data **Packet** is received and returns its `Message`.
 
 # Attributes
+
+![The On Serial Packet Receive Node Attributes.](../../../../.gitbook/assets/onserialpacketreceiveattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
