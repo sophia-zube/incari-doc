@@ -1,10 +1,12 @@
 # Overview
 
-![The Serial Stop Node.](../../../.gitbook/assets/serialstop.png)
+![The Serial Stop Node.](../../../.gitbook/assets/serialstopnode.png)
 
 The **Serial Stop Node** stops the **Serial** connection.
 
 # Attributes
+
+![The Serial Stop Node Attributes.](../../../.gitbook/assets/serialstopattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

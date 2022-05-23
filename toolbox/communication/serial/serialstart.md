@@ -1,10 +1,12 @@
 # Overview
 
-![The Serial Start Node.](../../../.gitbook/assets/serialstart.png)
+![The Serial Start Node.](../../../.gitbook/assets/serialstartnode.png)
 
 The **Serial Start Node** starts the **Serial** connection.
 
 # Attributes
+
+![The Serial Start Node Attributes.](../../../.gitbook/assets/serialstartattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

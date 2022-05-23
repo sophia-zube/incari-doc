@@ -1,10 +1,12 @@
 # Overview
 
-![The On Serial Stop Node.](../../../../.gitbook/assets/onserialstop.png)
+![The On Serial Stop Node.](../../../../.gitbook/assets/onserialstopnode.png)
 
 The **On Serial Stop Node** is an **Event Listener Node** that gives the user a way to perform an action once a **Serial** connection has been terminated.
 
 # Attributes
+
+![The On Serial Stop Node Attributes.](../../../../.gitbook/assets/onserialstopattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
