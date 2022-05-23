@@ -10,6 +10,8 @@
 
 When an **Animation** starts playing, an [**Instance ID**](README.md#instance-id) gets assigned to it, which is then used to control the **Animation** with the [**Pause Animation**](pauseanimation.md) or [**Stop Animation**](stopanimation.md) **Nodes**. This [**Instance ID**](README.md#instance-id) can be set with the [**Create CustomID Node**](../../utilities/createcustomid.md) connected to the `Instance ID` **Input Socket**. If nothing is connected, the default value 42 is used.
 
+It is also possible to [reuse an **Animation** with a different **Object**](#reusing-an-animation).
+
 ### Attributes
 
 ![The Play Animation Node Attributes.](../../../.gitbook/assets/node-play-animation-attr.png)
@@ -38,9 +40,17 @@ When an **Animation** starts playing, an [**Instance ID**](README.md#instance-id
 
 ### Reusing an Animation
 
-![The Play Animation Node with an Animation Block assigned]()
+![The Play Animation Node with an Animation Block assigned](../../../.gitbook/assets/node-play-animation-block.png)
 
-When an **Animation Block** is assigned to the **Play Animation** **Node**, **Input Sockets** of **ObjectID** are created in the **Node**. These **Input Sockets** can be used to reuse the **Animation** for a different **Object**. Then, a **Play Animation** **Node** with an **Object** connected to the **ObjectID** **Sockets** will animate that **Object** instead of the one defined in the **Animation Block**.
+Using the **Play Animation Node**, it is possible to reuse an **Animation** for a different **Object** than the one used in the `.incani` file. For this, the **ObjectID** **Input Sockets** must be used.
+
+When an **Animation Block** is assigned to the **Play Animation Node** in the **Attributes**, new **ObjectID** **Input Sockets** are created, one for each **Object** in the **Animation Block**. These **Input Socket** can be used to animate a different **Object**.
+
+Thus, a **Play Animation** **Node** with an **Object** connected to the **ObjectID** **Sockets** will animate that **Object** instead of the one defined in the **Animation Block**. In the example below, `Object2` will be animated instead of `Object1`, which was the **Object** originally used in the **Animation**.
+
+![The Play Animation Node with an Animation Block assigned and an Object connected](../../../.gitbook/assets/node-play-animation-block2.png)
+
+
 
 ## See Also
 
