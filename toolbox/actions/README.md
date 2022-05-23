@@ -28,6 +28,30 @@ Then, for instance, the **MoveTo Action** **Node** continuously modifies the `Po
 
 Each **Action** has an **Instance ID**, which is a unique identifier that can be set with the [**Create CustomID Node**](../utilities/createcustomid.md) in the `Instance ID` **Input Socket**. It is also possible to use an **Object ID** as **Instance ID**. The default **Instance ID** for **Actions** is 0.
 
+There is one usage example that shows how useful it is to use the **Object ID** as the **Instance ID** for an **Action**: performing a chain of **Actions** over a set of **Objects**. In this case, having the **Object ID** as **Instance ID** allows the user to distinguish over which **Object** an **Action** is being performed.
+
+Let us go over a quick example of this:
+
+Consider three **Objects** (a rectangle, an ellipse, and an arc) and a chain of two **Actions** (**MoveBy** and **RotateBy**) we would like to perform over these **Objects**. We construct the **Logic** in the following way:
+
+  * Build an **Array** containing the **Object IDs** of the three **Objects**.
+  * Use a **For Each Loop** to go over the three elements of the **Array**.
+  * Take the values of the **Array** outputted by the **For Each Loop Node** and give them to a sequence of **Action Nodes** as both the **Object ID** and **Instance ID**.
+
+With this, after the **Actions** have being performed, we are able to use the **Object IDs** of the **Objects**. In this case, we print them to the **Console**.
+
+The **Logic** for this example is the following:
+
+![](../../.gitbook/assets/chainaction1.png)
+
+![](../../.gitbook/assets/chainaction2.png)
+
+And the played example:
+
+![](../../.gitbook/assets/ActionExample2.gif)
+
+
+
 ### Interpolation
 
 The method of *interpolation* used for generating the intermediate values of the modified **Object Attribute** can be chosen in the **Node Attributes**. The options are:
