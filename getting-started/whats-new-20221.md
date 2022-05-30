@@ -4,7 +4,7 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
 * **Global and Local Transforms** 
 
-    In previous versions of Incari, object transformations could only be made in global space – that is, with respect to a global origin. This new release adds a new mode for transformations: local. With local transformations, it is possible to rotate and translate objects with respect to their own local origin. For example, if the user wishes to rotate an object around itself, this is now much easier with local transforms. 
+    <!-- In previous versions of Incari, object transformations could only be made in global space – that is, with respect to a global origin. This new release adds a new mode for transformations: local. With local transformations, it is possible to rotate and translate objects with respect to their own local origin. For example, if the user wishes to rotate an object around itself, this is now much easier with local transforms. 
     
     Switch the toggle `LocalMode` to enable and disable this feature. 
     
@@ -15,7 +15,7 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
     * [**Set Local Rotation**](../toolbox/incari/object/set-local-rotation.md)
     * [**Get Local Rotation**](../toolbox/incari/object/get-local-rotation.md)
     * [**On Local Position Change**](../toolbox/events/object/on-local-position-change.md)
-    * [**On Local Rotation Change**](../toolbox/events/object/on-local-rotation-change.md)
+    * [**On Local Rotation Change**](../toolbox/events/object/on-local-rotation-change.md) -->
   
 
 
