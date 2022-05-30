@@ -51,6 +51,8 @@
     * [Rotation Pivot](getting-started/attributes/common-attributes/rotation-pivot.md)
     * [Sprite](getting-started/attributes/common-attributes/sprite.md)
     * [Transformation](getting-started/attributes/common-attributes/transformation.md)
+      * [Global](getting-started/attributes/common-attributes/transformation/transformation.md)
+      * [Local](getting-started/attributes/common-attributes/transformation/localglobal.md)
 * [Data Types](getting-started/data-types/README.md)
   * [Bool](getting-started/data-types/bool.md)
   * [Byte](getting-started/data-types/byte.md)
