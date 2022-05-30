@@ -4,9 +4,9 @@
 
 The **Format** **Node** receives a **Pattern** **String** that can contain *format specifiers* and data as a chosen number of parameters. It then outputs the **String** formatted with the parameters in place of the *format specifiers*. The *format specifiers* define the type of data that will fill them and the format the data will be shown in.
 
-This **Node** is useful for when data needs to presented within a text. For example, to show the current temperature. For this, we can use the **Pattern** **String** `The current temperature is %.1f °C`, where `%.1f` is the _format specifier_ that indicates that a **Float** value with one decimal place will take that position in the final formatted **String**. The value of the current temperature has to be given to the **Node** as a **Float** value in the corresponding parameter **Input Socket** and then, if the current temperature is, say, `20.3` degrees Celsius, the formatted **String** that the **Node** outputs will be `The current temperature is 20.3°C`.
+This **Node** is useful for when data needs to be presented within a text. For example, it can be utilized to show the current temperature. For this, we can use the **Pattern** **String** `The current temperature is %.1f °C`, where `%.1f` is the _format specifier_ that indicates that a **Float** value with one decimal place will take that position in the final formatted **String**. The value of the current temperature has to be given to the **Node** as a **Float** value in the corresponding parameter **Input Socket** and then, if the current temperature is, say, `20.3` degrees Celsius, the formatted **String** that the **Node** outputs will be `The current temperature is 20.3°C`.
 
-Find below a more detailed description of [format specifiers](#format-specifiers) and [usage examples of the **Node**](#usage-examples).
+A more detailed description of [format specifiers](#format-specifiers) and [usage examples of the **Node**](#usage-examples) can be found below.
 
 
 # Attributes
@@ -47,7 +47,7 @@ Find below a more detailed description of [format specifiers](#format-specifiers
 
 They are written in the form `%[width][.precision]type`, where *width* and *precision* are optional and *type* is mandatory:
 
-* *Width* indicates the minimum number of characters to output, filling with blank spaces at the beginning when the data uses less characters. This is useful, for example, for when the number of digits in the input data can vary and we need to keep the data field aligned.
+* *Width* indicates the minimum number of characters to output, filling with blank spaces at the beginning when the data uses fewer characters. This is useful, for example, for when the number of digits in the input data can vary and we need to keep the data field aligned.
 * *Precision* indicates a maximum number of characters to output, depending on the type that is used. For **Floats**, it indicates the maximum number of digits right of the decimal point to use; for **Strings**, it limits the number of characters to output, truncating the input **String** if it exceeds this number.
 * *Type* indicates the **Data Type** with which the *format specifier* will be filled. The possible *types* are shown in the following table:  
 
@@ -82,9 +82,9 @@ The following table shows several examples on how to use the **Format Node**, sp
 
 # See Also
 
-* [**Formatarray**](formatarray.md)
+* [**FormatArray**](formatarray.md)
 
 # External Links
 
 * [_Printf Format String_](https://en.wikipedia.org/wiki/Printf_format_string) on Wikipedia.
-* [_Printf](https://www.cplusplus.com/reference/cstdio/printf/) on cplusplus.com.
+* [_Printf_](https://www.cplusplus.com/reference/cstdio/printf/) on cplusplus.com.
