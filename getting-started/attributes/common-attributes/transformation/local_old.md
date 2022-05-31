@@ -2,6 +2,11 @@
 
 All **Objects** in **Incari** have a set of **Transformation** **Attributes** that define their location in *3D* space. For any **Object**, these **Attributes** can be modified either in the **Attribute Editor** or directly on the **Viewport**. This entry covers how **Transformation** **Attributes** can be controlled in the **Viewport** and particularly how to work with **Global** and **Local** **Transformations**.
 
+
+
+
+
+
 ## Local and Global
 
 The difference between **Global** and **Local** **Transformations** is the set of axes along which the **Transformation** is performed. **Global** **Transformations** are done along the **Scene** axes and **Local** **Transformations** are done along the *principal axes* of the **Object**.
@@ -35,11 +40,11 @@ The **Rotation Pivot** is the point with respect to all rotations are performed.
 
 ![](../.gitbook/assets/LocalGlobal_Pivot.gif)
 
-## Scale
+<!-- ## Scale
 
 ![](../.gitbook/assets/LocalGlobal_Scale.gif)
 
-![](../.gitbook/assets/LocalGlobal_Scale2.gif)
+![](../.gitbook/assets/LocalGlobal_Scale2.gif) -->
 
 ## Several **Objects**
 
