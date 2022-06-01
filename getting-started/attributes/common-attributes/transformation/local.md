@@ -18,7 +18,7 @@ The **Local** mode allows one to change the [`Position`](#position), [`Rotation`
 
 To modify an **Object's** **Position**, click on the `Translate` icon, second from the left on the top Menu. This will make a *gizmo* appear, showing the axes along which the **Object's** **Position** can be modified. In **Local** mode, the **Object's** **Local** axes are shown.
 
-To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the center of the *gizmo*.
+To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the center of the *gizmo* or in a plane by dragging the square between two axes.
 
 The example below shows an **Object** being moved along its **Local** axes.
 
