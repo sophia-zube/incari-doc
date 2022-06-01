@@ -8,11 +8,11 @@ As an example, the **Local** axes for a cube, a cylinder, and a dome are:
 
 ![Local Axes for a cube, cylinder, and dome.](../../../../.gitbook/assets/Local_PpalAxes.gif)
 
-**Local** **Transformations** are done directly in the **Scene Viewport** in **Local** mode. To switch to **Local** mode simply click on the `Local Global` icon on the top Menu of the **Viewport**.
+**Local** **Transformations** for `Position` and `Rotation` are done directly in the **Scene Viewport** in **Local** mode. To switch to **Local** mode simply click on the `Local Global` icon on the top Menu of the **Viewport**.
 
 ![Local mode view.](../../../../.gitbook/assets/TransformLocalMode_1.png)
 
-The **Local** mode allows one to change the [`Position`](#position) and [`Rotation`](#rotation) of an **Object**. It can also be used for [several **Objects**](#several-objects) and [**Groups**](#groups).
+The **Local** mode allows one to change the [`Position`](#position), [`Rotation`](#rotation), and [`Scale`](#scale) of an **Object**. It can also be used for [several **Objects**](#several-objects) and [**Groups**](#groups).
 
 ## Position
 
@@ -32,6 +32,23 @@ The example below shows an **Object** being locally rotated. Note that as the **
 
 ![](../../../../.gitbook/assets/Local_Rotation.gif)
 
+
+## Scale
+
+Scaling an **Object** can be done either in the **Scene Viewport** or in the **Object's** **Attributes**.
+
+To scale an **Object** in the **Viewport**, simply locate the `Scale` icon fourth from the left on the top Menu. This will make the *scale gizmo* appear. Each axis ends in a small cube and pulling on these axes, after clicking with the mouse, will change the shape of the **Object**, as if molding it like clay. The **Object** is always scaled with respect to its **Local** axes. 
+
+The example below shows a cube being scaled in the **Viewport**.
+
+![](../../../../.gitbook/assets/Local_Scale.gif)
+
+It is also possible to scale an **Object** from its **Attributes**. For this, modify the `Scale` values under `Transformation` in the **Attribute Editor**.
+
+The following example shows the modification of the `Scale` values for a cube.
+
+
+![](../../../../.gitbook/assets/Local_ScaleAttri.gif)
 
 ## Several Objects
 
