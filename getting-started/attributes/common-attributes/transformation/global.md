@@ -12,7 +12,7 @@ The following example shows the **Global** axes for several **Objects**:
 
 ![Global mode view.](../../../../.gitbook/assets/globalmode.png)
 
-The **Global** mode allows one to change the [`Position`](#position), [`Rotation`](#rotation), and [`Scale`](#scale) of an **Object**. It can also be used for [**Groups**](#groups).
+The **Global** mode allows one to change the [`Position`](#position) and [`Rotation`](#rotation) of an **Object**. It can also be used for [**Groups**](#groups).
 
 ## Position
 
@@ -30,10 +30,6 @@ To be able to rotate an **Object**, click on the `Rotate` icon, third from the l
 
 ![](../../../../.gitbook/assets/globalrotation.gif)
 
-## Scale
 
-To scale an **Object**, simply locate the `Scale` icon fourth from the left on the top Menu. This will make the *scale gizmo* appear. Each axis ends in a small cube and pulling on these axes, after clicking with the mouse, will change the shape of the **Object**, as if molding it like clay. In **Global** mode, the **Object** is scaled with respect to to the axes of the origin. 
-
-![](../../../../.gitbook/assets/globalscale.gif)
 
 ## Groups
