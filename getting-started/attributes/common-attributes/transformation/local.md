@@ -6,9 +6,9 @@
 
 As an example, the **Local** axes for a cube, a cylinder, and a dome are:
 
-![Local Axes for a cube, cilinder, and dome.](../../../../.gitbook/assets/Local_PpalAxes.gif)
+![Local Axes for a cube, cylinder, and dome.](../../../../.gitbook/assets/Local_PpalAxes.gif)
 
-**Local** **Transformations** are done directly in the **Scene Viewport** in **Local** mode. To switch to **Local** view simply click on the `Local Global` icon on the top Menu of the **Viewport**.
+**Local** **Transformations** are done directly in the **Scene Viewport** in **Local** mode. To switch to **Local** mode simply click on the `Local Global` icon on the top Menu of the **Viewport**.
 
 ![Local mode view.](../../../../.gitbook/assets/TransformLocalMode_1.png)
 
@@ -16,9 +16,9 @@ The **Local** mode allows one to change the [`Position`](#position) and [`Rotati
 
 ## Position
 
-To modify an **Object's** **Position**, click on the `Translate` icon, second from the left on the top Menu. This will show the axes along which the **Object's** **Position** can be modified. In **Local** mode, the **Object's** **Local** axes are shown.
+To modify an **Object's** **Position**, click on the `Translate` icon, second from the left on the top Menu. This will make a *gizmo* appear, showing the axes along which the **Object's** **Position** can be modified. In **Local** mode, the **Object's** **Local** axes are shown.
 
-To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the origin of the shown axes.
+To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the center of the *gizmo*.
 
 The example below shows an **Object** being moved along its **Local** axes.
 
@@ -26,9 +26,9 @@ The example below shows an **Object** being moved along its **Local** axes.
 
 ## Rotation
 
-To be able to rotate an **Object**, click on the `Rotate` icon, third from the left on the top Menu. This will make the *rotation gizmo* appear for the **Object**. Each circle represents an axis along which a rotation can be performed. For rotating the **Object**, click on a circle of the gizmo and drag towards the direction in which to perform the rotation. In **Local** mode, the **Object** is rotated with respect to its own **Local** axes.
+To be able to rotate an **Object**, click on the `Rotate` icon, third from the left on the top Menu. This will make the *rotation gizmo* appear for the **Object**. Each circle represents an axis along which a rotation can be performed. For rotating the **Object**, click on a circle of the *gizmo* and drag towards the direction in which to perform the rotation. In **Local** mode, the **Object** is rotated with respect to its own **Local** axes.
 
-The example below shows an **Object** being rotated with respect to its own **Local** axes. Note that as the **Object** is rotated, its **Local** axes also rotate.
+The example below shows an **Object** being locally rotated. Note that as the **Object** is rotated, its **Local** axes also rotate.
 
 ![](../../../../.gitbook/assets/Local_Rotation.gif)
 
@@ -39,7 +39,7 @@ It is also possible to perform **Local** **Transformations** on several **Object
 
 **Transformations** will then apply to all selected **Objects**.
 
-The first example shows first the **Transformation** gizmo of each individual **Object** and then how it looks when they are all selected.
+The first example shows the **Transformation** *gizmo* of each individual **Object** and then how it looks when they are all selected.
 
 ![](../../../../.gitbook/assets/LocalGlobal_SeveralObj1.gif)
 
@@ -56,7 +56,7 @@ The next two examples show the translation of two cubes and the rotation of two 
 
 Another way of performing **Transformations** over several **Objects** is by putting them into a **Group**. Then, performing **Transformations** over the **Group** will **Transform** the **Objects** that compose it as if they all were just parts of only one **Object**.
 
-The example below shows a **Local** rotations and translation of a **Group** composed of two cilinders and a cube.
+The example below shows a **Local** rotation and translation of a **Group** composed of two cylinders and a cube.
 
 ![](../../../../.gitbook/assets/Local_Group.gif)
 
