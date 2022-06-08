@@ -4,7 +4,7 @@
 
 ![The Start Interval Node.](../../../.gitbook/assets/node-start-interval2.png)
 
-The **Start Interval Node** sets an **Interval**, which occurs every _X_ `Seconds` (or `Timeout (sec)`). When the **Node** is first triggered, **OnStart** fires immediately. An **Instance ID** will be created, thus serving as an input for the **Reset Interval Node**. If **Reset Interval** -- connected by the **Instance ID** -- is triggered, **OnReset** fires. 
+The **Start Interval Node** sets an **Interval**, which occurs every _X_ `Seconds` (or `Timeout (sec)`). When the **Start Interval Node** fires, the **Logic** connected to the **Output Pulse Socket** will be repeated every *X* seconds. At the same time, **OnStart** is triggered immediately. An **Instance ID** will be created, thus serving as an input for the **Reset Interval Node**. If **Reset Interval** -- connected by the **Instance ID** -- is triggered, **OnReset** fires. 
 
 Important to note is that an **Interval** will continue firing until a **Reset Interval Node** is triggered. Without resetting it, it will run forever.
 
