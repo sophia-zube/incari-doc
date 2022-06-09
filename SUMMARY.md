@@ -38,7 +38,6 @@
   * [Creating and Using Prefabs](getting-started/prefabs/creating-and-using-prefabs.md)
   * [Logic in Prefabs](getting-started/prefabs/logic-prefabs.md)
   * [Nested Prefabs](getting-started/prefabs/nested-prefabs.md)
-* [Local and Global Transformations](getting-started/localglobal.md)
 * [Attributes](getting-started/attributes/README.md)
   * [Attribute Types](getting-started/attributes/attribute-types/README.md)
     * [Asset/Object Attribute](getting-started/attributes/attribute-types/asset-object-attribute.md)

@@ -32,7 +32,7 @@ The example below shows an **Object** being moved along its **Global** axes.
 
 ![](../../../../.gitbook/assets/Global_Position.gif)
 
-It is also possible to change an **Object's** **Position** from its **Attributes**. For this, modify the `Position` values under `Transformation` in the **Attribute Editor**.
+It is also possible to change an **Object's** **Position** from its **Attributes**. For this, modify the `Position` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
 The following example shows the modification of the `Position` values for a cube.
 
@@ -48,11 +48,13 @@ The example below shows an **Object** being rotated with respect to the **Scene*
 
 ![](../../../../.gitbook/assets/Global_Rotation.gif)
 
-It is also possible to rotate an **Object** from its **Attributes**. For this, modify the `Rotation` values under `Transformation` in the **Attribute Editor**.
+It is also possible to rotate an **Object** from its **Attributes**. For this, modify the `Rotation` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value.
 
 The following example shows the modification of the `Rotation` values for a cube.
 
-![]()
+When modifying a `Rotation` value, it is possible that the other two values get automatically changed. This is just a recalculation of the rotation angles required to successfully perform the desired transformation.
+
+![](../../../../.gitbook/assets/Global_RotationAttri.gif)
 
 
 ## Groups
@@ -63,6 +65,6 @@ The example below shows a **Global** rotation and translation of a **Group** com
 
 ![](../../../../.gitbook/assets/Global_Group.gif)
 
-The following example shows the same **Group** being translated and rotated by modifying its **Attributes** in the **Attribute Editor**.
+The following example shows the same **Group** being translated and rotated by modifying its **Attributes** in the **Attribute Editor**. To set the step, right-click the input box, and then modify the value by either scrolling or using the up and down arrows on the right.
 
-![]()
+![](../../../../.gitbook/assets/Global_GroupAttri.gif)
