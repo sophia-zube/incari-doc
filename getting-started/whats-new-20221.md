@@ -2,9 +2,11 @@
 
 Many new features have been added to the release of **Incari Studio** 2022.1. Here is a list of the features you need to know.
 
-* **Local Transforms** 
+* [**Local Transforms**](attributes/common-attributes/transformation/local.md) 
 
-    In previous versions of **Incari**, **Object** transformations could only be made in **Global space** – that is, with respect to a global origin. This new release adds a new mode for transformations: **Local**. With **Local** transformations, it is possible to rotate and translate objects with respect to their own axes. 
+    In previous versions of **Incari**, **Object** transformations could only be made in **Global space** – that is, with respect to a global origin. This new release adds a new mode for transformations: **Local**. With **Local** transformations, it is possible to rotate and translate objects with respect to their own axes.
+
+    This new feature gives the user more freedom and control over the positioning and rotation of **Objects**. It is particularly useful in large **Projects**, where it is easier to compartmentalize and work in smaller scopes than having to deal with transformations with respect to the entire **Project**.
     
     
     <!-- 
