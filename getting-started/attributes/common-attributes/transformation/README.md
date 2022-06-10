@@ -24,9 +24,9 @@ Any point in space can be determined by these `x`, `y`, and `z` values.
 
 ## Rotation
 
-The `Rotation` **Attribute** represents the Euler angle of rotation of an **Object** along each of the rotation axes. An **Object** can be rotated in either **Local space** or **Global space**. In **Local space**, any adjustments will be made along its _own_ axes, not the axes of the **Scene** itself. On the other hand, rotations in **Global space** are performed with respect to the **Scene** axes. 
+The `Rotation` **Attribute** represents the Euler angle of rotation of an **Object** along each of the rotation axes. An **Object** can be rotated in either **Local** or **Global space**. In **Local space**, any adjustments will be made along its _own_ axes, not the axes of the **Scene** itself. On the other hand, rotations in **Global space** are performed with respect to the **Scene** axes. 
 
-Axes can be thought of as being like three skewers, going through the **Object** and intersecting at the **Object's** [**Pivot Point**](../rotation-pivot.md).
+Axes can be thought of as being like three skewers going through the **Object** and intersecting at the **Object's** [**Pivot Point**](../rotation-pivot.md).
 
 For more detail, see:
 
@@ -47,14 +47,14 @@ There is one special case that is worth noting, that of **Objects** that are par
 
 For this to be clearer, let us see two examples, one for the `Position` **Attribute** and one for the `Rotation` one.
 
-Consider a **Group** containing one **Object**, a cube. Setting the `Position` of the **Group** to `x=100` and the `Position` of the cube to `x=100` will result in the cube being located at `x=200` in the **Scene** space.
+Consider a **Group** containing one **Object**, a **Cube**. Setting the `Position` of the **Group** to `x=100` and the `Position` of the **Cube** to `x=100` will result in the **Cube** being located at `x=200` in the **Scene** space.
 
-For an illustration of this, see the following example, in which there are two cubes: one with `Position` `x=100` in a **Group** with `Position` `x=100` and another one that is not part of a **Group** and has `Position` `x=200`. For visualization purposes, the two cubes have been set at different heights along the Y axis.
+For an illustration of this, see the following example, in which there are two **Cubes**: one with `Position` `x=100` in a **Group** with `Position` `x=100` and another one that is not part of a **Group** and has `Position` `x=200`. For visualization purposes, the two **Cubes** have been set at different heights along the Y axis.
 
 ![](../../../../.gitbook/assets/Groups_Position.gif)
 
-The same applies to rotations. Consider again a **Group** containing one **Object**, a cube. Setting the `Rotation` of the **Group** to `x=30` and the `Rotation` of the cube to `x=30` will result in the cube being rotated 60 degrees with respect to the **Scene** coordinate system.
+The same applies to rotations. Consider again a **Group** containing one **Object**, a **Cube**. Setting the `Rotation` of the **Group** to `x=30` and the `Rotation` of the **Cube** to `x=30` will result in the **Cube** being rotated 60 degrees with respect to the **Scene** coordinate system.
 
-For an illustration of this, see the following example, in which there are two cubes: one with `Rotation` `x=30` in a **Group** with `Rotation` `x=30` and another one that is not part of a **Group** and has its `Rotation` set to `x=60`. For visualization purposes, the two cubes have been set at different heights along the Y axis.
+For an illustration of this, see the following example, in which there are two **Cubes**: one with `Rotation` `x=30` in a **Group** with `Rotation` `x=30` and another one that is not part of a **Group** and has its `Rotation` set to `x=60`. For visualization purposes, the two **Cubes** have been set at different heights along the Y axis.
 
 ![](../../../../.gitbook/assets/Groups_Rotation.gif)

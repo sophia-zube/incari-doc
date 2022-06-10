@@ -14,7 +14,7 @@ To switch to **Global** view simply click on the `Local Global` icon on the top 
 
 ![Global mode view.](../../../../.gitbook/assets/globalmode2.png)
 
-To be able to modify the **Attributes** of an **Object**, select it and its **Attributes** will appear in the **Attribute Editor**, where they can be modified.
+The **Attributes** of an **Object** can be modified in the **Attribute Editor**. They will appear there when the **Object** is selected.
 
 ![Attribute Editor for a cube.](../../../../.gitbook/assets/Global_AttriEdit.gif)
 
@@ -34,7 +34,7 @@ The example below shows an **Object** being moved along its **Global** axes.
 
 It is also possible to change an **Object's** **Position** from its **Attributes**. For this, modify the `Position` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
-The following example shows the modification of the `Position` values for a cube.
+The following example shows the modification of the `Position` values for a **Cube**.
 
 ![](../../../../.gitbook/assets/Global_PositionAttri.gif)
 
@@ -42,15 +42,15 @@ The following example shows the modification of the `Position` values for a cube
 
 Rotating an **Object** can be done either in the **Scene Viewport** or in the **Object's** **Attributes**.
 
-To be able to rotate an **Object** in the **Viewport**, click on the `Rotate` icon, third from the left on the top Menu. This will make the *rotation gizmo* appear for the **Object**. Each circle represents an axis along which a rotation can be performed. For rotating the **Object**, click on a circle of the *gizmo* and drag towards the direction in which to perform the rotation. In **Global** mode, the **Object** is rotated with respect to the **Scene** axes.
+In order to rotate an **Object** in the **Viewport**, click on the `Rotate` icon, third from the left on the top Menu. This will make the *rotation gizmo* appear for the **Object**. Each circle represents an axis along which a rotation can be performed. For rotating the **Object**, click on a circle of the *gizmo* and drag towards the direction in which to perform the rotation. In **Global** mode, the **Object** is rotated with respect to the **Scene** axes.
 
-The example below shows an **Object** being rotated with respect to the **Scene** axes.
+The example below shows a **Global** rotation of an **Object**.
 
 ![](../../../../.gitbook/assets/Global_Rotation.gif)
 
 It is also possible to rotate an **Object** from its **Attributes**. For this, modify the `Rotation` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value.
 
-The following example shows the modification of the `Rotation` values for a cube.
+The following example shows the modification of the `Rotation` values for a **Cube**.
 
 When modifying a `Rotation` value, it is possible that the other two values get automatically changed. This is just a recalculation of the rotation angles required to successfully perform the desired transformation.
 
@@ -59,7 +59,7 @@ When modifying a `Rotation` value, it is possible that the other two values get 
 
 ## Groups
 
-It is possible to perform **Transformations** over several **Objects** as if they were parts of one **Object** by putting them into a **Group**. This can be done directly on the **Viewport** or in the **Attribute Editor**.
+It is possible to perform **Transformations** over several **Objects** as if they were parts of one **Object** by putting them into a **Group**. This can be done directly in the **Viewport** or in the **Attribute Editor**.
 
 The example below shows a **Global** rotation and translation of a **Group** composed of two cylinders and a cube.
 
