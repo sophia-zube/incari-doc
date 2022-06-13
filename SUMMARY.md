@@ -82,6 +82,7 @@
   * [Default Shadeless Model](modules/material-editor/shadeless-model.md)
   * [Default Phong Model](modules/material-editor/phong-model.md)
 * [Model Editor](modules/model-editor.md)
+* [Plugins Editor](modules/plugins-editor.md)
 * [Profiler View](modules/profiler-view.md)
 * [Project Outliner](modules/project-outliner.md)
 * [Project Settings](modules/project-settings.md)
