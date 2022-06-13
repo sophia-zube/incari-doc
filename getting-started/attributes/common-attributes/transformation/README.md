@@ -39,7 +39,7 @@ For more detail, see:
 
 `Scale` multiplies the size of an **Object** along its axes, relative to its **Origin**. By default, `Scale` is set to `x=1`, `y=1`, `z=1`, meaning that it is at 100% of its size on all axes.
 
-![](../../../../.gitbook/assets/scale.gif)
+![](../../../../.gitbook/assets/Scale_Intro.gif)
 
 ## Groups
 

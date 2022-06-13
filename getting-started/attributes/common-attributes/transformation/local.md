@@ -43,12 +43,12 @@ The example below shows a cube being scaled in the **Viewport**.
 
 ![](../../../../.gitbook/assets/Local_Scale.gif)
 
-It is also possible to scale an **Object** from its **Attributes**. For this, modify the `Scale` values under `Transformation` in the **Attribute Editor**.
+It is also possible to scale an **Object** from its **Attributes**. For this, modify the `Scale` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
-The following example shows the modification of the `Scale` values for a cube.
+The following example shows the modification of the `Scale` values for a **Cube**.
 
 
-![](../../../../.gitbook/assets/Local_ScaleAttri.gif)
+![](../../../../.gitbook/assets/Local_ScaleAttri2.gif)
 
 ## Several Objects
 

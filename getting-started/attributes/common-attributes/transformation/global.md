@@ -26,11 +26,15 @@ Translating an **Object** can be done either in the **Scene Viewport** or in the
 
 To modify an **Object's** **Position** in the **Viewport**, click on the `Translate` icon, second from the left on the top Menu. This will make a *gizmo* appear, showing the axes along which the **Object's** **Position** can be modified. In **Global** mode, the **Scene** axes are shown.
 
-To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the center of the *gizmo* or in a plane by dragging the square between two axes.
+To move an **Object** along an axis, click on the preferred axis and drag the **Object**. It can also be moved in any direction by dragging the center of the *gizmo* or on a plane by dragging the square between two axes.
 
 The example below shows an **Object** being moved along its **Global** axes.
 
 ![](../../../../.gitbook/assets/Global_Position.gif)
+
+The following example shows an **Object** being moved freely by dragging the center of the *gizmo*, first, and then on a plane by dragging the square between two axes.
+
+![](../../../../.gitbook/assets/Global_Position2.gif)
 
 It is also possible to change an **Object's** **Position** from its **Attributes**. For this, modify the `Position` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
