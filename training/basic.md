@@ -170,7 +170,7 @@ Creating a new **Project** can be done in **Incari Hub**. Under the tab *My Proj
 
 Then, the name, location and **Incari Studio** version of the **Project** can be chosen and the size for the default **Scene** and **Screen** set.
 
-![](.././gitbook/assets/create-projects2.png)
+![](../.gitbook/assets/create-projects2.png)
 
 After clicking on `Create`, the new empty **Project** is created and we can start working on it.
 
