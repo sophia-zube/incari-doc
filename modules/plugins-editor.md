@@ -1,6 +1,6 @@
 # Plugins Editor
 
-The **Plugins Editor** allows one to activate or deactivate **Modules** within **Incari**. This provides the user with the foundation for a self-scalable structure, combining creativity and functionality by making **Incari** support the individual needs of each user. At the moment, this is specific to **Serial Communication**, but keep an eye out for more on the way. 
+The **Plugins Editor** allows one to activate or deactivate **Modules** within **Incari**. This provides the user with the foundation for a self-scalable structure, combining creativity and functionality by making **Incari** support the individual needs of each user. At the moment, this is specific to **Serial Communication**.
 
 The **Plugins Editor** looks like this when it is opened: 
 
