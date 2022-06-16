@@ -1,6 +1,9 @@
 # Installation
 
-For installation and licensing, please follow these steps:
+At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
+Then, the first step is to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once and create a profile.
+
+For installation and licensing of **Incari Studio**, please follow these steps:
 
 * Register in the **Incari** [website](https://www.incari.com/my-account/) and then activate your account from your e-mail.
 
@@ -12,19 +15,21 @@ For installation and licensing, please follow these steps:
 
 * Install and then start **Incari Hub**. 
 
-![The Incari Hub welcome screen.](../.gitbook/assets/incar-hub-login.png)
+![The Incari Hub setup screen.](../.gitbook/assets/incari-hub-setup.png)
+
+![The Incari Hub welcome screen.](../.gitbook/assets/incari-hub-login2.png)
 
 * Log-in into **Incari Hub** with your **Incari** credentials.
 
 * In **Incari Hub**, go to the **Incari Studio** tab, under _Applications_. Here you can manage your installed versions of **Incari Studio** and install new ones.
 
-![](../.gitbook/assets/incari-install1.png)
+![](../.gitbook/assets/incari-install1_v2.png)
 
 * Press on "Install New". Then you will see the available versions of **Incari Studio** to install.
 
 ![](../.gitbook/assets/incari-install2.png)
 
-* To install **Incari Studio** 2022.1, press on the plus \(+\) sign and the download will start.
+* To install **Incari Studio** 2022.1, press on the "Install" button and the download will start.
 
 * After the download is finished, the install window for **Incari Studio** 2022.1 will open. Click "Next" to proceed and go through the installation process.
 
@@ -34,11 +39,10 @@ For installation and licensing, please follow these steps:
 
 * Use the license key to activate your subscription in **Incari Hub**.
 
-![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license-green.png)
+![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license2-green.png)
 
+* After installation, the first step to start using **Incari Studio** is to [create a **Project**](creating-a-project2.md).
 
-At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
-So the user also needs to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once and create a profile.
 
 
 

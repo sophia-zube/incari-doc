@@ -20,6 +20,7 @@
 * [Requirements](getting-started/requirements.md)
 * [What's New](getting-started/whats-new-20221.md)
 * [Installation](getting-started/installation.md)
+* [Creating a Project](getting-started/creating-a-project2.md)
 * [Project Objects](getting-started/project-objects/README.md)
   * [Scene](getting-started/project-objects/scene.md)
   * [Screen](getting-started/project-objects/screen.md)
