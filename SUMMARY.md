@@ -16,8 +16,8 @@
 * [Installation](getting-started/installation.md)
 * [First Steps](getting-started/first-steps/README.md)
   * [Creating a Project](getting-started/first-steps/creating-a-project2.md)
-  * [Incari Hub](getting-started/first-steps/incari-hub.md)
-  * [Incari Studio](getting-started/first-steps/incari-studio.md)
+  <!--* [Incari Hub](getting-started/first-steps/incari-hub.md)
+  * [Incari Studio](getting-started/first-steps/incari-studio.md)-->
   
 ## Objects and Types
 
@@ -43,7 +43,7 @@
   * [Attribute Types](objects-and-types/attributes/attribute-types/README.md)
     * [Asset/Object Attribute](objects-and-types/attributes/attribute-types/asset-object-attribute.md)
     * [Boolean Attribute](objects-and-types/attributes/attribute-types/boolean-attribute.md)
-    * [Color Attribute](objects-and-symptoms/attributes/attribute-types/color-attribute.md)
+    * [Color Attribute](objects-and-types/attributes/attribute-types/color-attribute.md)
     * [Numerical Attribute](objects-and-types/attributes/attribute-types/numerical-attribute.md)
   * [Common Attributes](objects-and-types/attributes/common-attributes/README.md)
     * [Object](objects-and-types/attributes/common-attributes/object.md)
