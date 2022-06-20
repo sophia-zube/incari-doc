@@ -10,7 +10,7 @@ This is the best place to start your journey with **Incari Studio**. It presents
 
 ## Demo projects
 
-**Incari Hub** provides **Demo Projects**, which are available under the _Remote Projects_ tab. They are a great source of knowledge to see what can be achieved and how.
+**Incari Hub** provides **Demo Projects**, which are available under the _Remote Projects_ tab. They are an important source of knowledge showcasing the range of application and detailing its use.
 
 ## Modules
 
