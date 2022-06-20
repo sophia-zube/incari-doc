@@ -12,4 +12,4 @@ The **WebSprite** **Nodes** allow to set and obtain the URL **Attribute** of **W
 
 ## See Also
 
-* [**Web Sprite Objects**](../../../getting-started/scene-objects/web-sprite.md)
+* [**Web Sprite Objects**](../../../objects-and-types/scene-objects/web-sprite.md)

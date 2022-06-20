@@ -41,7 +41,7 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 ![The Incari Hub license screen.](../.gitbook/assets/incari-hub-license2-green.png)
 
-* After installation, the first step to start using **Incari Studio** is to [create a **Project**](creating-a-project2.md).
+* After installation, the first step to start using **Incari Studio** is to [create a **Project**](first-steps/creating-a-project2.md).
 
 
 

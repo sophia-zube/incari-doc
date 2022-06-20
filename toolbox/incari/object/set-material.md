@@ -4,7 +4,7 @@
 
 ![The Set Material Node.](../../../.gitbook/assets/node-set-material.png)
 
-**Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../getting-started/scene-objects/mesh.md).
+**Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../objects-and-types/scene-objects/mesh.md).
 
 ## Attributes
 
@@ -32,5 +32,5 @@
 ## See Also
 
 * [**Get Material**](get-material.md)
-* [**Mesh**](../../../getting-started/scene-objects/mesh.md)
+* [**Mesh**](../../../objects-and-types/scene-objects/mesh.md)
 

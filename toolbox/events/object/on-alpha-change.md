@@ -34,5 +34,5 @@
 
 * [**Events**](../)
 * [**Object**](./)
-* [**Alpha**](../../../getting-started/attributes/common-attributes/sprite.md#alpha)
+* [**Alpha**](../../../objects-and-types/attributes/common-attributes/sprite.md#alpha)
 

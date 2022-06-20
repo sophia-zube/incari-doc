@@ -38,7 +38,7 @@ The **Numerical Value** **Node** generates a number, which can either be an **In
 
 ## See Also
 
-* [**Byte**](../../getting-started/data-types/byte.md)
-* [**Float**](../../getting-started/data-types/float.md)
-* [**Int**](../../getting-started/data-types/int.md)
+* [**Byte**](../../objects-and-types/data-types/byte.md)
+* [**Float**](../../objects-and-types/data-types/float.md)
+* [**Int**](../../objects-and-types/data-types/int.md)
 

@@ -40,7 +40,7 @@ The index count starts from zero, which means that the `Index` of the last entry
 
 ## See Also
 
-* [**List**](../../../getting-started/scene-objects/list-widget.md)
+* [**List**](../../../objects-and-types/scene-objects/list-widget.md)
 * [**Generate List**](generate-list.md)
 
 ## External Links

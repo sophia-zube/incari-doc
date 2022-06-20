@@ -15,5 +15,5 @@ The **List** **Nodes** allow to generate and handle **Lists**.
 
 ## See Also
 
-* [**List**](../../../getting-started/scene-objects/list-widget.md)
+* [**List**](../../../objects-and-types/scene-objects/list-widget.md)
 

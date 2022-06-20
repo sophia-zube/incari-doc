@@ -45,6 +45,6 @@ And to show a hidden **Object**, click on the crossed eye icon at the right of i
 
 ## See Also
 
-* [**Scene**](../getting-started/project-objects/scene.md)
-* [**Scene Objects**](../getting-started/scene-objects/)
+* [**Scene**](../objects-and-types/project-objects/scene.md)
+* [**Scene Objects**](../objects-and-types/scene-objects/)
 

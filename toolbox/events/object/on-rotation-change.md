@@ -33,5 +33,5 @@
 
 * [**Events**](../)
 * [**Object**](./)
-* [**Rotation**](../../../getting-started/attributes/common-attributes/transformation.md#rotation)
+* [**Rotation**](../../../objects-and-types/attributes/common-attributes/transformation.md#rotation)
 

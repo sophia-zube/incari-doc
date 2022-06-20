@@ -33,5 +33,5 @@
 
 * [**Events**](../)
 * [**Object**](./)
-* [**Scale**](../../../getting-started/attributes/common-attributes/transformation.md#scale)
+* [**Scale**](../../../objects-and-types/attributes/common-attributes/transformation.md#scale)
 

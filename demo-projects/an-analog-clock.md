@@ -3,7 +3,7 @@
 Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari**.
 
 
-Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**Scenes**](../getting-started/project-objects/scene.md) are a version with a ticking animation and a basic one.
+Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**Scenes**](../objects-and-types/project-objects/scene.md) are a version with a ticking animation and a basic one.
 
 
 Basic Version           |  Ticking Version
@@ -13,16 +13,16 @@ Basic Version           |  Ticking Version
 ## 1. The Basic Version
 
 
-Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the [**Project Outliner**](../modules/project-outliner.md) look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the [**Scene**](../getting-started/project-objects/scene.md) looks.
+Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab. In the [**Project Outliner**](../modules/project-outliner.md) look for '**Basic**' and make sure its visibility toggle is active. You can press **Run** (`Ctrl+R`) to preview how the [**Scene**](../objects-and-types/project-objects/scene.md) looks.
 
 
 ![The **Project Outliner** with an active visibility toggle for the '**Basic Scene**'. ](../.gitbook/assets/clockoutliner.png)
 
-Now we can dive into how it works. In the top Menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../getting-started/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module- the **Project** **Logic** is explained later.
+Now we can dive into how it works. In the top Menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../objects-and-types/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module- the **Project** **Logic** is explained later.
 
 ![All **Logic** from the '**Basic**' tab in the **Logic Editor**.](../.gitbook/assets/clockbasiclogic.png)
 
-You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../getting-started/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
+You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../objects-and-types/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
 
 It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible. It makes things much easier to reason about in the long run!
 
@@ -32,7 +32,7 @@ Let's look a bit closer at how we've done this.
 
 ![Model **Logic** from the 'Basic' tab.](../.gitbook/assets/clock-modellogicbasic.png)
 
-When the [**Scene**](../getting-started/project-objects/scene.md) is displayed, we trigger a [**Start Interval**](../toolbox/utilities/interval/startinterva.md) **Node**. This takes a single [**Pulse**](../modules/logic-editor.md#pulse) **(►) Input** and creates a recurring [**Pulse**](../modules/logic-editor.md#pulse) **Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
+When the [**Scene**](../objects-and-types/project-objects/scene.md) is displayed, we trigger a [**Start Interval**](../toolbox/utilities/interval/startinterva.md) **Node**. This takes a single [**Pulse**](../modules/logic-editor.md#pulse) **(►) Input** and creates a recurring [**Pulse**](../modules/logic-editor.md#pulse) **Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
 
 In this case, we have set [**Start Interval**](../toolbox/utilities/interval/startinterva.md) to retrigger _System Time_ every `0.1` seconds (see the `Timeout` **Attribute**).
 
@@ -68,11 +68,11 @@ But what if we want our second hand to “tick” like an analog clock? By addin
 
 ![](../.gitbook/assets/clock-tickingversion.gif)
 
-From the [**Project Outliner**](../modules/project-outliner.md), double click the [**Scene**](../getting-started/project-objects/scene.md) named ‘**Ticking Animation**'.
+From the [**Project Outliner**](../modules/project-outliner.md), double click the [**Scene**](../objects-and-types/project-objects/scene.md) named ‘**Ticking Animation**'.
 
 ![](../.gitbook/assets/clocl-outlinerticking.png)
 
-This [**Scene**](../getting-started/project-objects/scene.md) is split across two tabs on the [**Logic Editor**](../modules/logic-editor.md): The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
+This [**Scene**](../objects-and-types/project-objects/scene.md) is split across two tabs on the [**Logic Editor**](../modules/logic-editor.md): The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
 
 ### 'Project' tab Logic
 
@@ -84,17 +84,17 @@ The chain starts with the **On Initialize** **Event** which fires when the **Inc
 
 '**updateTimeVariables**' **Function**
 
-This [**Function**](../toolbox/functions/README.md) gets the current time and sets the time **Variables** to the current _system time_. The seconds are saved as [**Integer**](../getting-started/data-types/int.md) values, while the minutes and hours are saved as [**Float**](../getting-started/data-types/float.md) values.
+This [**Function**](../toolbox/functions/README.md) gets the current time and sets the time **Variables** to the current _system time_. The seconds are saved as [**Integer**](../objects-and-types/data-types/int.md) values, while the minutes and hours are saved as [**Float**](../objects-and-types/data-types/float.md) values.
 
 ![updateTimeVariables Function.](../.gitbook/assets/clock-updatetimevariables.png)
 
-We also check the option to output the values for the hours and minutes as smooth [**Float**](../getting-started/data-types/float.md) values. This is because the hours and minutes will be positioned in between the positions on the clockface, as they do on a real clock.
+We also check the option to output the values for the hours and minutes as smooth [**Float**](../objects-and-types/data-types/float.md) values. This is because the hours and minutes will be positioned in between the positions on the clockface, as they do on a real clock.
 
 ![](../.gitbook/assets/clock-systemtimenode2.png)
 
 '**initializeTime**' **Function**
 
-The '**initializeTime**' **Function** checks to see if the time has been initialized and sets the '**timeInitialized**' [**Boolean**](../getting-started/data-types/bool.md) value to _true_.  
+The '**initializeTime**' **Function** checks to see if the time has been initialized and sets the '**timeInitialized**' [**Boolean**](../objects-and-types/data-types/bool.md) value to _true_.  
 
 ![](../.gitbook/assets/clock-initializetimefunction.png)
 
@@ -140,7 +140,7 @@ The [**Interpolate**](../toolbox/math/interpolate.md) **Node** has a few differe
 
 ![](../.gitbook/assets/clock-timetorotation.png)
 
-For each, the seconds, minutes, and hours, the time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../getting-started/data-types/vector3.md) value.
+For each, the seconds, minutes, and hours, the time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../objects-and-types/data-types/vector3.md) value.
 
 ![convertTimetoRotation Function.](../.gitbook/assets/clock-converttimefunction.png)
 
