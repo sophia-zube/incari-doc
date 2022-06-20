@@ -6,7 +6,7 @@
 
 **Set Alpha** sets the value of a specified **Object's** `Alpha` **Attribute** .
 
-The **Set Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../getting-started/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../getting-started/scene-objects/sprite.md), and [**Text**](../../../getting-started/scene-objects/text.md).
+The **Set Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../objects-and-types/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../objects-and-types/scene-objects/sprite.md), and [**Text**](../../../objects-and-types/scene-objects/text.md).
 
 ## Attributes
 

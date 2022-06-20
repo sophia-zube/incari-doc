@@ -48,7 +48,7 @@ There are several **Shading** **Models** available to choose from when creating 
 
 ## See Also
 
-* [**Mesh**](../getting-started/scene-objects/mesh.md)
+* [**Mesh**](../objects-and-types/scene-objects/mesh.md)
 
 ## External Links
 

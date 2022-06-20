@@ -34,5 +34,5 @@
 
 * [**Events**](../)
 * [**Object**](./)
-* [**Position**](../../../getting-started/attributes/common-attributes/transformation.md#position)
+* [**Position**](../../../objects-and-types/attributes/common-attributes/transformation.md#position)
 

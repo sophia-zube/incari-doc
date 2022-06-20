@@ -2,7 +2,7 @@
 
 ![The Create Object Node.](../../.gitbook/assets/node-create-object2.png)
 
-The **Create Object** **Node** creates [**Scene Objects**](../../getting-started/scene-objects/README.md) of a chosen **Object Type**.
+The **Create Object** **Node** creates [**Scene Objects**](../../objects-and-types/scene-objects/README.md) of a chosen **Object Type**.
 
 In the **Attributes**, the **Object Type** for the new **Object** can be chosen. The outputs are the **ObjectID** of the newly created **Object** and a **Bool** value indicating whether the creation of the **Object** was successful or not.
 
@@ -34,7 +34,7 @@ In the **Attributes**, the **Object Type** for the new **Object** can be chosen.
 
 # See Also
 
-* [**Scene Objects**](../../getting-started/scene-objects/README.md)
+* [**Scene Objects**](../../objects-and-types/scene-objects/README.md)
 
 
 

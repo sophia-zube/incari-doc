@@ -32,5 +32,5 @@
 ## See Also
 
 * [**List Events**](./)
-* [**List Object**](../../../getting-started/scene-objects/list-widget.md)
+* [**List Object**](../../../objects-and-types/scene-objects/list-widget.md)
 

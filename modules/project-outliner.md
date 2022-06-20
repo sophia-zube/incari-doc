@@ -52,6 +52,6 @@ Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned
 
 ## See Also
 
-* [**Scene**](../getting-started/project-objects/scene.md)
-* [**Screen**](../getting-started/project-objects/screen.md)
+* [**Scene**](../objects-and-types/project-objects/scene.md)
+* [**Screen**](../objects-and-types/project-objects/screen.md)
 

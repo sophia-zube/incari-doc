@@ -4,7 +4,7 @@
 
 ![The Get Material Node.](../../../.gitbook/assets/node-get-material.png)
 
-**Get Material** returns the assigned **Material** of a [**Mesh Object**](../../../getting-started/scene-objects/mesh.md).
+**Get Material** returns the assigned **Material** of a [**Mesh Object**](../../../objects-and-types/scene-objects/mesh.md).
 
 ## Attributes
 
@@ -31,5 +31,5 @@
 ## See Also
 
 * [**Set Material**](set-material.md)
-* [**Mesh**](../../../getting-started/scene-objects/mesh.md)
+* [**Mesh**](../../../objects-and-types/scene-objects/mesh.md)
 

@@ -49,7 +49,7 @@ This **Demo Project** uses a combination of [**Event Nodes**](../toolbox/events/
 
 There are four groups of **Logic** in the **Project**, each triggered by one of the four [**Event Nodes**](../toolbox/events/README.md) used: [**On Mouse Enter**](../toolbox/events/mouse/on-mouse-enter.md), [**On Mouse Leave**](../toolbox/events/mouse/on-mouse-leave.md), [**On Mouse Button Down**](../toolbox/events/mouse/on-mouse-button-down.md), and [**On Mouse Button Up**](../toolbox/events/mouse/on-mouse-button-up.md).
 
-The only difference between the groups is the [**Event Node**](../toolbox/events/README.md) that triggers them and the [**Attributes**](../getting-started/attributes/README.md) of the [**Play ImageSequence Node**](../toolbox/incari/imagesequence/playimagesequence.md) at the end.
+The only difference between the groups is the [**Event Node**](../toolbox/events/README.md) that triggers them and the [**Attributes**](../objects-and-types/attributes/README.md) of the [**Play ImageSequence Node**](../toolbox/incari/imagesequence/playimagesequence.md) at the end.
 
 We will use the green Group **'On Mouse Enter'** to explain how the **Logic** of each group functions.
 
@@ -59,7 +59,7 @@ We will use the green Group **'On Mouse Enter'** to explain how the **Logic** of
 
 ## On Mouse Enter Event Node
 
-The first **Node** in the **Logic** is the [**On Mouse Enter Event** **Node**](../toolbox/events/mouse/on-mouse-enter.md). This means that when the mouse enters the area of the designated **Object**, the [**Pulse**](../modules/logic-editor.md#pulse) is fired.  In this case, the **Object** designated in the **Node** [**Attributes**](../getting-started/attributes/README.md) is the **Button ImageSequence Sprite** **Object**.  You can designate an **Object** by dragging the **Object** from the [**Scene Outliner**](../modules/scene-outliner.md) into the **Node Attributes** of the **Event Node**.
+The first **Node** in the **Logic** is the [**On Mouse Enter Event** **Node**](../toolbox/events/mouse/on-mouse-enter.md). This means that when the mouse enters the area of the designated **Object**, the [**Pulse**](../modules/logic-editor.md#pulse) is fired.  In this case, the **Object** designated in the **Node** [**Attributes**](../objects-and-types/attributes/README.md) is the **Button ImageSequence Sprite** **Object**.  You can designate an **Object** by dragging the **Object** from the [**Scene Outliner**](../modules/scene-outliner.md) into the **Node Attributes** of the **Event Node**.
 
 ![](../.gitbook/assets/demoimgsq-onmouseenterattr.png)
 
@@ -77,9 +77,9 @@ Without using the last shown frame as the new starting frame, the **Image Sequen
 
 ## Play ImageSequence Node
 
-The last **Node** in each of the groups is the [**Play ImageSequence** **Node**](../toolbox/incari/imagesequence/playimagesequence.md).  While the same **Node** is used in each group, the [**Attributes**](../getting-started/attributes/README.md) are set differently for each event, because a different section and direction of the **Image Sequence** will be designated for each event.
+The last **Node** in each of the groups is the [**Play ImageSequence** **Node**](../toolbox/incari/imagesequence/playimagesequence.md).  While the same **Node** is used in each group, the [**Attributes**](../objects-and-types/attributes/README.md) are set differently for each event, because a different section and direction of the **Image Sequence** will be designated for each event.
 
-For the [**On Mouse Enter**](../toolbox/events/mouse/on-mouse-enter.md) event, we want the button to go from an unpressed button to a half-pressed button.  This means that in the [**Attributes**](../getting-started/attributes/README.md) of the [**Play ImageSequence** **Node**](../toolbox/incari/imagesequence/playimagesequence.md), we should set the starting frame to be `0` (unpressed state) and the end frame to be `5` (half-pressed state).  Since we have `11` total frames in the **Image Sequence**, frame `5` is half-way through the frames.  The `PlayDirection` should be set to `Forward` so the frames show in ascending order: `(0,1,2,3,4,5)`.
+For the [**On Mouse Enter**](../toolbox/events/mouse/on-mouse-enter.md) event, we want the button to go from an unpressed button to a half-pressed button.  This means that in the [**Attributes**](../objects-and-types/attributes/README.md) of the [**Play ImageSequence** **Node**](../toolbox/incari/imagesequence/playimagesequence.md), we should set the starting frame to be `0` (unpressed state) and the end frame to be `5` (half-pressed state).  Since we have `11` total frames in the **Image Sequence**, frame `5` is half-way through the frames.  The `PlayDirection` should be set to `Forward` so the frames show in ascending order: `(0,1,2,3,4,5)`.
 
 ## 'On Mouse Leave' Group
 

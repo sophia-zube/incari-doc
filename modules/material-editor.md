@@ -70,7 +70,7 @@ This model represents a material which displays a solid color and offers no resp
 ![](../.gitbook/assets/defaultshadelessmodel.png)
 ### See Also
 
-* [**Mesh**](../getting-started/scene-objects/mesh.md)
+* [**Mesh**](../objects-and-types/scene-objects/mesh.md)
 
 ## External Links
 

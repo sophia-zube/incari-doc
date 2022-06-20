@@ -28,7 +28,7 @@ The **Is Object 2D Node** returns a **Bool**, depending on whether the input **O
 
 # See Also
 
-* [**Bool**](../../../getting-started/data-types/bool.md)
+* [**Bool**](../../../objects-and-types/data-types/bool.md)
 * [**Is Object 3D**](is-object-3d.md)
 
 

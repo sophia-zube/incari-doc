@@ -31,7 +31,7 @@
 
 ## See Also
 
-* [**Text**](../../../getting-started/scene-objects/text.md)
+* [**Text**](../../../objects-and-types/scene-objects/text.md)
 
 ## External Links
 

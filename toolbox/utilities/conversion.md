@@ -31,7 +31,7 @@ The **Conversion Node** allows the user to convert one **Data Type** into anothe
 
 ## See Also
 
-* [**Data Types**](../../getting-started/data-types/README.md)
-* [**Attribute Types**](../../getting-started/attributes/attribute-types/README.md)
-* [**Common Attributes**](../../getting-started/attributes/common-attributes/README.md)
+* [**Data Types**](../../objects-and-types/data-types/README.md)
+* [**Attribute Types**](../../objects-and-types/attributes/attribute-types/README.md)
+* [**Common Attributes**](../../objects-and-types/attributes/common-attributes/README.md)
 
