@@ -1,6 +1,6 @@
 # Plugins Editor
 
-The **Plugins Editor** allows one to activate or deactivate **Modules** within **Incari**. This provides the user with the foundation for a self-scalable structure, combining creativity and functionality by making **Incari** support the individual needs of each user. At the moment, this is specific to **Serial Communication**.
+The **Plugins Editor** allows one to activate or deactivate different components within **Incari**. This provides the user with the foundation for a self-scalable structure, combining creativity and functionality by making **Incari** support the individual needs of each user. At the moment, this is specific to **Serial Communication**.
 
 The **Plugins Editor** looks like this when it is opened: 
 
@@ -14,7 +14,7 @@ After clicking the arrow, **Communication** options are revealed. The checkmark 
 
 After clicking on **SerialManager**, its options will show. All **Serial Communication** related components are encompassed by the **SerialManager**. 
 
-To refresh, **Seral Communication** is a form of data transmission where data is sent bit by bit. More information can be found [here](https://en.wikipedia.org/wiki/Serial_communication). Within **Incari**, this is done by using the [**Serial Nodes**](../toolbox/communication/serial/README.md). They add the necessary functionality to a **Project** that requires this type of communication. However, a user may decide they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **Serial Communication** is a form of data transmission where data is sent bit by bit. More information can be found [here](https://en.wikipedia.org/wiki/Serial_communication). Within **Incari**, this is done by using the [**Serial Nodes**](../toolbox/communication/serial/README.md). They add the necessary functionality to a **Project** that requires this type of communication. However, a user may decide they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, one needs to simply locate the toggle labeled `Activated` and click it once.  
 
