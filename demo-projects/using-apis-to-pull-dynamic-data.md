@@ -1,6 +1,6 @@
 # Using APIs to Pull Dynamic Data
 
-### Introduction
+### Introduction 2
 
 _Application programming interfaces_ \(APIs\) allow developers to retrieve data from various services, based on some queries and parameters. _What_ and _how_ data can be accessed is decided by the API provider and this information is usually made available in the form of documentation.
 
