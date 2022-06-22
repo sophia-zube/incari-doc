@@ -1,7 +1,7 @@
 # An Analog Clock
 
 Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari**.
-test
+
 
 Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**Scenes**](../objects-and-types/project-objects/scene.md) are a version with a ticking animation and a basic one.
 
