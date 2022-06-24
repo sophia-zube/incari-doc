@@ -23,7 +23,7 @@ On the left-side Menu, there are several sections. We will go through each, one 
 
 ![My Projects](../../.gitbook/assets/projectsmyprojects.png)
 
-Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allow the user to open the **Project**, play the **Project** in **Incari Player**, show **Project** in the user's local file library, and the **Project's** settings. It is also possible to delete the **Project** from here, in addition to simply deleting the **Project** folder in the user's local directory. 
+Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allow the user to open the **Project**, play the **Project** in **Incari Player**, show **Project** in the user's local file library, and the **Project's** settings. It is also possible to delete the **Project** from here, either by removing it from the hub or deleting it completely from the local disk. 
 
 ![My Projects Drop-down](../../.gitbook/assets/projectsmyprojectsdropdown.png)
 
