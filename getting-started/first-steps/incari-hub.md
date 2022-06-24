@@ -4,6 +4,11 @@
 
 On the left-side Menu, there are several sections. We will go through each, one by one: 
 
+* [**Projects**](#projects)
+  * [**My Projects**](#myprojects)
+  * [**Remote Projects**](#remoteprojects)
+* [**Applications**](#applications)  
+
 ## Projects
 
 ### My Projects
