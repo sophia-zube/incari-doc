@@ -4,16 +4,16 @@
 
 On the left-side Menu, there are several sections. We will go through each, one by one. Feel free to jump to the section you are most interested in: 
 
-- [Incari Hub](#incari-hub)
-  - [Projects](#projects)
-    - [My Projects](#my-projects)
-    - [Remote Projects](#remote-projects)
-  - [Applications](#applications)
-    - [Incari Studio](#incari-studio)
-  - [Community](#community)
-    - [Documentation](#documentation)
-    - [Forum](#forum)
-    - [Support](#support)
+<!-- no toc -->
+* [Projects](#projects)
+  * [My Projects](#my-projects)
+  * [Remote Projects](#remote-projects)
+* [Applications](#applications)
+  * [Incari Studio](#incari-studio)
+* [Community](#community)
+  * [Documentation](#documentation)
+  * [Forum](#forum)
+  * [Support](#support)
 
 ## Projects
 
