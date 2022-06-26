@@ -21,11 +21,11 @@ On the left-side Menu, there are several sections. We will go through each, one 
 
 *My Projects* allows the user to access, create, and manage their local **Projects**. Here there are two existing **Projects** called *test* and *test2*. The leftmost square with the plus icon is used to [create a new **Project**.](creating-a-project2.md) 
 
-![My Projects](../../.gitbook/assets/projectsmyprojects.png)
+![My Projects.](../../.gitbook/assets/projectsmyprojects.png)
 
 Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allow the user to open the **Project**, play the **Project** in **Incari Player**, show **Project** in the user's local file library, and the **Project's** settings. It is also possible to delete the **Project** from here, either by removing it from the hub or deleting it completely from the local disk. 
 
-![My Projects Drop-down](../../.gitbook/assets/projectsmyprojectsdropdown.png)
+![My Projects Drop-down.](../../.gitbook/assets/projectsmyprojectsdropdown.png)
 
 ### Remote Projects
 
@@ -33,7 +33,7 @@ Each **Project** displays the username and **Incari Studio** version at the bott
  
  **Demo Projects** allow one to see how certain functionalities can be implemented in **Incari**. These range from a simple button to examples of the several methods of **Animation** available to the user. Discover more in the [**Demo Projects**](demo-../../demo-projects/overview.md) documentation. 
 
- ![Remote Projects](../../.gitbook/assets/projectsremoteprojects.png)
+ ![Remote Projects.](../../.gitbook/assets/projectsremoteprojects.png)
 
  ## Applications
 
@@ -54,15 +54,15 @@ Please note that if an existing **Project** was made with a previous version of 
 
 The **Documentation** takes you straight to the instructional texts that teach the user the ins and out of **Incari**, which you are at right now! It gives a run down of the basics of getting started, explains each component of **Incari Studio**, and provides more information on a few **Demo Projects**. There's a lot to discover in the **Documentation**, written with care by the talented **Documentation** team. 
 
-![Documentation](../../.gitbook/assets/documentation.png)
+![Documentation.](../../.gitbook/assets/documentation.png)
 
 ### Forum
 
 The **Forum** is where the **Incari** community can come together to discuss issues and ideas, feedback and features.
 
-![Forum](../../.gitbook/assets/communityforum.png)
+![Forum.](../../.gitbook/assets/communityforum.png)
 
 ### Support
 
 Clicking on *Support* takes you to the **Support** channel. It may ask you to log in at first, so don't forget your **Incari Account** password! Here the user can create *tickets* to report bugs or suggest new features and improvement. We are always aiming to improve **Incari**, so we are excited to receive *tickets* from you. 
-![Support](../../.gitbook/assets/communitysupportactual.png)
+![Support.](../../.gitbook/assets/communitysupportactual.png)
