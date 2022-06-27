@@ -31,11 +31,11 @@ Moreover, **Modules** can be docked together and then accessed via the tabs that
 
 ![Docking Modules together.](../../.gitbook/assets/Studio_TabsModules.gif)
 
-**Modules** can be also used as independent windows, which can be very useful when working with more than one screen.
+**Modules** can also be used as independent windows, which can be very useful when working with more than one computer screen.
 
 ![Module as an independent window.](../../.gitbook/assets/Studio_IndependentModule.gif)
 
-**Modules** that are individual windows can be locked so they do not dock on the main Incari Studio interface. This is done by clicking on the lock icon that appears on the top-right of a **Module** that is being seen as an independent window.
+**Modules** that are individual windows can be locked so they do not dock on the main **Incari Studio** *Interface*. This is done by clicking on the lock icon that appears on the top-right of a **Module** that is displayed as an independent window.
 
 ![Locked Module.](../../.gitbook/assets/Studio_LockedModule.gif)
 

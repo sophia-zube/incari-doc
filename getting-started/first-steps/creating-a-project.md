@@ -1,62 +1,39 @@
 # Creating a Project
 
-## Project Manager
+The first step to start using **Incari Studio** is to create a new **Project**. This is done from **Incari Hub**.
 
-When first running **Incari Studio**, you will be met with the **Project Manager** window.
+To create a new **Incari Studio** **Project**, go to *My Projects* under *Projects* on the left Menu and press on the large plus icon.
 
-![](../.gitbook/assets/project-manager.png)
+![](../.gitbook/assets/create-projects_v2_green.png)
 
-From here you can **Open**, **Run**, **Edit**, **Remove** and **Import** projects or create a **New Project**.
+## New Project
 
-### Projects
+Then, the *New Project* screen will appear. Here it is possible to choose the name and location of the new **Project** as well as the size of the default **Screen**.
 
-{% tabs %}
-{% tab title="Open" %}
-* Opens the currently selected project.
-* You can also simply **double-click** the project's thumbnail to open a project.
-* All previous projects will be available to access via the **Project Manager** so that you can quickly jump back in to your recent projects.
-{% endtab %}
+![](../.gitbook/assets/create-projects2_v2.png) 
 
-{% tab title="Run" %}
+The options to customize the new **Project** are the following:
 
-{% endtab %}
+**Project**
 
-{% tab title="Edit" %}
-Allows you to edit the **Project**'s `Project Name`, `Project Location` and `Category`.
-{% endtab %}
+ * Name: A relevant title for the **Project**. It will also be used for creating the **Project's** folder structure.
+ * Location: The location in your computer where the **Project** will be saved.
+ * Open with version: The **Incari Studio** version with which the **Project** will be created. It offers a drop-down Menu of all the installed versions.
+ * Create default Screen & Scene: Whether the **Project** will be created with default **Screen** and **Scene** or not. When this is enabled, the following options appear.
+  
+**Screen**
 
-{% tab title="Remove" %}
-Completely removes the selected **Project** from the **Project Manager** _and_ your local file system.
+ * Name: Name of the default **Screen**.
+ * Resolution x (px): Width resolution of the targeted display device in pixels.
+ * Resolution y (px): Height resolution of the targeted display device in pixels.
+ * Width (unit): Width of the area in *3D* space that will be mapped to the targeted display device.
+ * Height (unit): Height of the area in *3D* space that will be mapped to the targeted display device.
 
-![WARNING: Deleting a project in the Project Manager will also delete all related files and assets from your hard drive.](../.gitbook/assets/deleteprojectwarning.png)
-{% endtab %}
+**Scene**
 
-{% tab title="Import" %}
-Allows you to import a previously unopened **Project** from another location. This is useful for exchanging files between team members and opening templates.
-{% endtab %}
-{% endtabs %}
+ * Name: Name of the default **Scene**.
 
-### New Project
 
-![](../.gitbook/assets/new-project.png)
+After clicking on `Create`, **Incari Studio** starts with a new empty **Project**.
 
-{% tabs %}
-{% tab title="General" %}
-* `Project name` - A relevant title for your project. The name will also be used when creating the project's folder structure.
-* `Project location` - The location that want to store your project in. By default, this will be the project path defined in **Preferences**.
-* `Category` - Here you can choose from one of four categories; **Project**, **Template**, **Scene** or **Widget**. These help differentiate between full-blown projects and smaller-scale components. The category type is displayed on the project's thumbnail when you first open Incari.
-{% endtab %}
-
-{% tab title="Screen" %}
-* `Name` - This is the identifying name given to the target **Screen**.
-* `Resolution (px)` - This defines the _pixel_ resolution of the targeted display.
-* `Dimensions (unit)` - This defines the dimensions of the screen in _3D units_.
-{% endtab %}
-
-{% tab title="Scene" %}
-* `Name` - The name given to the initial scene, when the project is created. This will most likely be your root scene or main menu.
-{% endtab %}
-{% endtabs %}
-
-\*\*\*\*
-
+![](../.gitbook/assets/empty-project.png)
