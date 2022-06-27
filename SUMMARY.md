@@ -16,7 +16,7 @@
 * [Installation](getting-started/installation.md)
 * [First Steps](getting-started/first-steps/README.md)
   * [Incari Hub](getting-started/first-steps/incari-hub.md)
-  * [Creating a Project](getting-started/first-steps/creating-a-project2.md)
+  * [Creating a Project](getting-started/first-steps/creating-a-project.md)
   * [Incari Studio](getting-started/first-steps/incari-studio.md)
   
 ## Objects and Types
