@@ -48,7 +48,7 @@
   * [Common Attributes](objects-and-types/attributes/common-attributes/README.md)
     * [Object](objects-and-types/attributes/common-attributes/object.md)
     * [Camera](objects-and-types/attributes/common-attributes/camera.md)
-    * [Rotation Pivot](objects-and-types/attributes/common-attributes/rotation-pivot.md)
+    <!-- * [Rotation Pivot](objects-and-types/attributes/common-attributes/rotation-pivot.md) -->
     * [Sprite](objects-and-types/attributes/common-attributes/sprite.md)
     * [Transformation](objects-and-types/attributes/common-attributes/transformation/README.md)
       * [Global Transformations](objects-and-types/attributes/common-attributes/transformation/global.md)
@@ -83,7 +83,7 @@
   * [Default Shadeless Model](modules/material-editor/shadeless-model.md)
   * [Default Phong Model](modules/material-editor/phong-model.md)
 * [Model Editor](modules/model-editor.md)
-* [Plugins Editor](modules/plugins-editor.md)
+* [Plugins](modules/plugins-editor.md)
 * [Profiler View](modules/profiler-view.md)
 * [Project Outliner](modules/project-outliner.md)
 * [Project Settings](modules/project-settings.md)
