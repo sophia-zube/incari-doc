@@ -14,11 +14,13 @@ As part of this **Project** you will:
 
 **What is a Prefab?**
 
-Glad you asked. A **Prefab** in **Incari Studio** is a reusable component that encompasses its own **Logic**, design, and behavior independently from the rest of the **Project**. This means they can be transferred between **Projects** and take many shapes. For more information, see [**Prefabs**](../objects-and-types/prefabs/README.md).
+| :information_source: | Glad you asked. A **Prefab** in **Incari Studio** is a reusable component that encompasses its own **Logic**, design, and behavior independently from the rest of the **Project**. This means they can be transferred between **Projects** and take many shapes. For more information, see [**Prefabs**](../objects-and-types/prefabs/README.md).|
+|----------|:----------------|
 
-**Before you Start**
+<!--**Before you Start**-->
 
-In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link]().
+| :warning: |In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link]().|
+|----------|:-------------------------------|
 
 
 ## 1. Creating a Simple button
@@ -107,8 +109,8 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 ![]()
 
-| :warning: After all is done, do not forget to initialize your **Prefabs**!|
-|---------------------------------------------------------------------------|
+| :warning:| After all is done, do not forget to initialize your **Prefabs**!|
+|---------|:------------------------------------------------------------------|
 
 ![Prefab Initialization]()
 
@@ -122,8 +124,8 @@ Let’s see it in action!
 
 ![]()
 
-| :grey_exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker!|
-|---------------------------------------------------|
+| :grey_exclamation:| Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker!|
+|------------------|:---------------------------------|
 
 
 
