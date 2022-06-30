@@ -25,9 +25,9 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 ![](../.gitbook/assets/incari-install1_v2.png)
 
-* Press on "Install New". Then you will see the available versions of **Incari Studio** to install.
+* Press on "Install". Then you will see the available versions of **Incari Studio** to install.
 
-![](../.gitbook/assets/incari-install2.png)
+![](../.gitbook/assets/incari-install2_new.png)
 
 * To install **Incari Studio** 2022.1, press on the "Install" button and the download will start.
 
