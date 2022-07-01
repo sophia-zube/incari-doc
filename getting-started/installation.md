@@ -1,7 +1,7 @@
 # Installation
 
 At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
-Then, the first step is to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once and create a profile.
+Therefore, the first step is to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once, and create a profile.
 
 For installation and licensing of **Incari Studio**, please follow these steps:
 
@@ -9,7 +9,7 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 ![Registration page in incari.com](../.gitbook/assets/website-register.png)
 
-* After activating your account, log-in and go to Downloads. Here you can download **Incari Hub**.
+* After activating your account, log-in, and go to Downloads. Here you can download **Incari Hub**.
 
 ![Account dashboard in incari.com](../.gitbook/assets/website-dashboard.png)
 
@@ -23,21 +23,21 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 * In **Incari Hub**, go to the **Incari Studio** tab, under _Applications_. Here you can manage your installed versions of **Incari Studio** and install new ones.
 
-![](../.gitbook/assets/incari-install1_v2.png)
+![Incari Hub with no version of Incari Studio installed.](../.gitbook/assets/incari-install1_v2.png)
 
 * Press on "Install". Then you will see the available versions of **Incari Studio** to install.
 
-![](../.gitbook/assets/incari-install2_new.png)
+![Incari Studio versions available for installation.](../.gitbook/assets/incari-install2_new.png)
 
 * To install **Incari Studio** 2022.1, press on the "Install" button and the following message will appear:
 
-![](../.gitbook/assets/incari-install-terms.png)
+![Install location and terms in the license agreement.](../.gitbook/assets/incari-install-terms.png)
 
-* Choose the Install Location, accept the terms in the license agreement and click on "Install", then the installation will start.
+* Choose the Install Location, accept the terms in the license agreement, and click on "Install", then the installation will start.
 
 * After the installation is completed, **Incari Studio** 2022.1 will appear in "Incari Studio installed versions":
 
-![](../.gitbook/assets/incari-install-installed.png)
+![Incari Hub with Incari Studio 2022.1 installed.](../.gitbook/assets/incari-install-installed.png)
 
 <!-- * After the download is finished, the install window for **Incari Studio** 2022.1 will open. Click "Next" to proceed and go through the installation process.
 
