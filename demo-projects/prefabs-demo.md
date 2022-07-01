@@ -12,20 +12,23 @@ As part of this **Project** you will:
 
 3. Use **Prefabs** to build a complex **Project** with just a few clicks.
 
-**What is a Prefab?**
+| :information_source: | **What is a Prefab?** |
+| -- |:---|
 
-| :information_source: | Glad you asked. A **Prefab** in **Incari Studio** is a reusable component that encompasses its own **Logic**, design, and behavior independently from the rest of the **Project**. This means they can be transferred between **Projects** and take many shapes. For more information, see [**Prefabs**](../objects-and-types/prefabs/README.md).|
-|----------|:----------------|
+ A **Prefab** in **Incari Studio** is a reusable component that encompasses its own **Logic**, design, and behavior independently from the rest of the **Project**. This means they can be transferred between **Projects** and take many shapes. For more information, see [**Prefabs**](../objects-and-types/prefabs/README.md).
+
 
 <!--**Before you Start**-->
 
-| :warning: |In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link]().|
-|----------|:-------------------------------|
+| :warning: | **Before you start** |
+| -- |:---|
+
+In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link](https://repo.incari.com/incari/prefabs/-/archive/master/prefabs-master.zip?path=Assets).
 
 
 ## 1. Creating a Simple button
 
-Let’s imagine a generic, rounded rectangle button that can have multiple different icons in the middle -- something you would see in a lot of HMI systems. This can even be used to build a custom keyboard -- though we already have a customizable **On-Screen-Keyboard** **Node** in **Incari**, so you don’t have to!
+Let’s imagine a generic, rounded rectangle button that can have multiple different icons in the middle —something you would see in a lot of HMI systems. This can even be used to build a custom keyboard —although there is already a customizable **On-Screen-Keyboard** **Node** in **Incari**, so there is no need.
 
 Our button will have three states: resting, hover, and pressed.
 
@@ -50,7 +53,7 @@ After exporting the files you downloaded, go to the **Asset Manager** to import 
 
 ### 3) Creating Image Sequences
 
-One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project** folder, you will find them pre-created -- and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
+One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project** folder, you will find them pre-created —and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
 
 ![](../.gitbook/assets/demoprefabs_createsequence.gif)
 
@@ -114,7 +117,7 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 ![Prefab Initialization](../.gitbook/assets/demoprefabs_prefabinitialize.png)
 
-Finally, let’s add a slide-in animation for the taskbar - and we’re done!
+Finally, let’s add a slide-in animation for the taskbar —and we’re done!
 
 ![Current Group Structure](../.gitbook/assets/demoprefabs_currentstructure.png)
 
