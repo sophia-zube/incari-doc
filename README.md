@@ -1,6 +1,6 @@
 # Incari HMI Development Platform
 
-**Incari Studio** is the authoring tool for creating _User Interfaces_ \(UIs\) for all target and hardware platforms. It offers all the functions of a development environment for designers and engineers. :)
+**Incari Studio** is the authoring tool for creating _User Interfaces_ \(UIs\) for all target and hardware platforms. It offers all the functions of a development environment for designers and engineers.
 
 Process optimization can significantly reduce development time and greatly improve the quality of the results.
 
