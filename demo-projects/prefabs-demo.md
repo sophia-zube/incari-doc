@@ -6,11 +6,11 @@ In most *HMI* **Projects** you will create, the likelihood of having different v
 
 As part of this **Project** you will:
 
-1. [Create a simple button in **Incari Studio**.](#1.-creating-a-simple-button)
+1. [Create a simple button in **Incari Studio**.](#1-creating-a-simple-button)
 
-2. [Turn your basic button into a customizable **Prefab** with **Logic**.](#2.-building-your-prefab)
+2. [Turn your basic button into a customizable **Prefab** with **Logic**.](#2-building-your-prefab)
 
-3. [Use **Prefabs** to build a complex **Project** with just a few clicks.](#3.-using-prefabs-to-build-complex-projects)
+3. [Use **Prefabs** to build a complex **Project** with just a few clicks.](#3-using-prefabs-to-build-complex-projects)
 
 | :information_source: | **What is a Prefab?** |
 | -- |:---|
