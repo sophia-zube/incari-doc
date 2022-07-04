@@ -6,11 +6,11 @@ In most *HMI* **Projects** you will create, the likelihood of having different v
 
 As part of this **Project** you will:
 
-1. Create a simple button in **Incari Studio**.
+1. [Create a simple button in **Incari Studio**.](#creating-a-simple-button)
 
-2. Turn your basic button into a customizable **Prefab** with **Logic**.
+2. [Turn your basic button into a customizable **Prefab** with **Logic**.](#building-your-prefab)
 
-3. Use **Prefabs** to build a complex **Project** with just a few clicks.
+3. [Use **Prefabs** to build a complex **Project** with just a few clicks.](#using-prefabs-to-build-complex-projects)
 
 | :information_source: | **What is a Prefab?** |
 | -- |:---|
@@ -26,17 +26,19 @@ As part of this **Project** you will:
 In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link](https://repo.incari.com/incari/prefabs/-/archive/master/prefabs-master.zip?path=Assets).
 
 
+The fully functional **Project** is available in **Incari Hub** under *Remote Projects*. To start from scratch, keep following from here. 
 ## 1. Creating a Simple Button
 
 Imagine a generic, rounded rectangle button that can have multiple different icons in the middle—something you would see in a lot of *HMI* systems. This can even be used to build a custom keyboard—although there is already a customizable [**On-Screen-Keyboard** **Object**](..) in **Incari**, so there is no need.
 
-Our button will have three states: **'Resting'**, **'Over'**, and **'Pressed'**.
+Our button will have three states: **'Resting'**, **'Hover'**, and **'Pressed'**.
 
 ![Button states.](../.gitbook/assets/demoprefabs_buttonstates.png)
 
 For this **Demo**, we need 5 different buttons: *Wi-Fi*, *Bluetooth*, *Cellular*, *GPS*, and *Mic*. This is a common layout that you might see everywhere from your phone to your car. These are the final buttons we want to have:
 
 ![](../.gitbook/assets/demoprefabs_allbuttons.png)
+
 
 
 ### 1) Creating the Project
