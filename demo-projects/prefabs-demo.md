@@ -26,22 +26,22 @@ As part of this **Project** you will:
 In order to follow along with this guide, you will need to be running **Incari** **Studio** version 2022.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download the **Assets** folder for this project using this [link](https://repo.incari.com/incari/prefabs/-/archive/master/prefabs-master.zip?path=Assets).
 
 
-## 1. Creating a Simple button
+## 1. Creating a Simple Button
 
-Let’s imagine a generic, rounded rectangle button that can have multiple different icons in the middle —something you would see in a lot of HMI systems. This can even be used to build a custom keyboard —although there is already a customizable **On-Screen-Keyboard** **Node** in **Incari**, so there is no need.
+Imagine a generic, rounded rectangle button that can have multiple different icons in the middle—something you would see in a lot of *HMI* systems. This can even be used to build a custom keyboard—although there is already a customizable [**On-Screen-Keyboard** **Object**](..) in **Incari**, so there is no need.
 
-Our button will have three states: resting, hover, and pressed.
+Our button will have three states: **'Resting'**, **'Over'**, and **'Pressed'**.
 
 ![Button states.](../.gitbook/assets/demoprefabs_buttonstates.png)
 
-Also, for this **Demo**, let’s say we need 5 <!--5????--> different buttons: *Wi-Fi*, *Bluetooth*, *Cellular*, *GPS* and *Mic*. This is a common layout that you might see everywhere from your phone to your car. So, these are the final buttons we want to have:
+For this **Demo**, we need 5 different buttons: *Wi-Fi*, *Bluetooth*, *Cellular*, *GPS*, and *Mic*. This is a common layout that you might see everywhere from your phone to your car. These are the final buttons we want to have:
 
 ![](../.gitbook/assets/demoprefabs_allbuttons.png)
 
 
 ### 1) Creating the Project
 
-Let’s open **Incari Hub** and create a **Project** using the default parameters. After all is complete, you should be presented with the **Incari Studio** start screen.
+Open **Incari Hub** and [create a **Project**](../getting-started/first-steps/creating-a-project.md) using the default parameters. After all is complete, you should be presented with the **Incari Studio** start screen.
 
 ![](../.gitbook/assets/demoprefabs_createproject.png)
 
@@ -53,20 +53,20 @@ After exporting the files you downloaded, go to the **Asset Manager** to import 
 
 ### 3) Creating Image Sequences
 
-One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project** folder, you will find them pre-created —and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
+One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project's** **Assets** folder, you will find them pre-created —and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
 
 ![](../.gitbook/assets/demoprefabs_createsequence.gif)
 
 ### 4) Creating a Prefab
-To create a new **Prefab**, in this case one called “Button”, simply right-click on the **Asset Manager** and select `Create Prefab`.
+To create a new **Prefab**, in this case one called **'Button'**, simply right-click on the **Asset Manager** and select `Create Asset > Prefab`.
 
 ![](../.gitbook/assets/demoprefabs_createprefab.gif)
 
 ### 5) Creating our Button
 
-After creating your **Prefab**, double-click on it to open the editor. To add **Assets** to the **Scene**, simply slide them from the **Asset Manager** to the **Scene**. First, we will add the button backgrounds **Image Sequence**. This way, we can later modify its state on hover.
+After creating your **Prefab**, double-click on it to open the editor. To add **Assets** to the **Scene**, simply drag them from the **Asset Manager** to the **Scene**. First, we will add the button backgrounds **Image Sequence** ('Button.incseq'). This way, we can later modify its state on hover.
 
-Lastly, add an icon (let’s use Wi-Fi for the first one) and set its `sort index` to 3, so that it’s on top of everything else. Changing its name to Icon from **Scene Outliner** is also a good way to make sure it stays common.
+Lastly, add an icon (let’s use Wi-Fi for the first one) and set its `sort index` to 3, so that it’s on top of everything else. Changing its name to Icon from the **Scene Outliner** is also a good way to make sure it stays common.
 
 ![](../.gitbook/assets/demoprefabs_createbutton.gif)
 
@@ -76,7 +76,7 @@ Lastly, add an icon (let’s use Wi-Fi for the first one) and set its `sort inde
 
 Open the **Logic Editor** through `View > Logic Editor`.
 
-Let’s start by creating the **Logic** for the hover and leave states.
+Let’s start by creating the **Logic** for the **'Hover'** and **'Resting'** states.
 
 ![Hover Logic](../.gitbook/assets/demoprefabs_hoverlogic.png)
 
@@ -104,11 +104,11 @@ The real power of **Prefabs** lies in that you can use them again and again in d
 
 ![Dashboard with Map in the Background](../.gitbook/assets/demoprefabs_dashboardmap.png)
 
-This **Project** uses the **Assets** from in the *Dashboard* folder of the provided files. After adding our map and taskbar backgrounds, let’s slide our **Prefabs** from the **Asset Manager** to the **Scene**.
+This **Project** uses the **Assets** from the *Dashboard* folder of the provided files. After adding our map and taskbar backgrounds, we can drag our **Prefabs** from the **Asset Manager** to the **Scene**.
 
 ![](../.gitbook/assets/demoprefabs_addprefab.gif)
 
-After adding all **Prefabs** to the **Scene** and placing them in their respective locations, let’s add the appropriate icons for each of them from our *Sequences* folder.
+After adding all **Prefabs** to the **Scene** and placing them in their respective locations, add the appropriate icons for each of them from the **'Sequences'** folder.
 
 ![](../.gitbook/assets/demoprefabs_addsequence.gif)
 
