@@ -2,7 +2,7 @@
 
 ![The Get Screen Keyboard Layout Node.](../../../.gitbook/assets/node-getscreenkeyboardlayout.png)
 
-The **Get Screen Keyboard Layout** **Node** outputs the *layout* of an **On-Screen Keyboard**, which has to be given as in input either in the **Input Socket** or the **Attributes**.
+The **Get Screen Keyboard Layout** **Node** outputs the *layout* of an **On-Screen Keyboard**, which has to be given as an input either in the **Input Socket** or the **Attributes**.
 
 # Attributes
 
@@ -24,6 +24,6 @@ The **Get Screen Keyboard Layout** **Node** outputs the *layout* of an **On-Scre
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Layout` | **String** | *Layout* of the **On-Screen Keyboard**.|
+| `Layout` | **String** | *Layout* of the **On-Screen Keyboard** received as input.|
 
 

@@ -300,6 +300,7 @@
     * [Set Visibility](toolbox/incari/object/set-visibility.md)
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
   * [On-Screen Keyboard](toolbox/incari/on-screenkeyboard/README.md)
+    * [Get Screen Keyboard Layout](toolbox/incari/on-screenkeyboard/getscreenkeyboardlayout.md)
     * [On-Screen Keyboard Clear Input](toolbox/incari/on-screenkeyboard/onscreenkeyboardclearinput.md)
     * [On-Screen Keyboard Get Input](toolbox/incari/on-screenkeyboard/onscreenkeyboardgetinput.md)
     * [On-Screen Keyboard Move Selection](toolbox/incari/on-screenkeyboard/onscreenkeyboardmoveselection.md)
