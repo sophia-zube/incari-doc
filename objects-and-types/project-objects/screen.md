@@ -10,7 +10,7 @@ A **Screen's Attributes** can be edited by selecting it in the **Project Outline
 
 ### Transformation
 
-Each **Scene** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**,should have the same **Transformation** as the **Screen** and sit on the same plane.
+Each **Scene** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
 
 ### Camera
 
@@ -20,7 +20,7 @@ Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. 
 
 `Position` defines the offset position, in pixels, that the **Simulation** will be displayed on your monitor. This means that when you are working on a multi-display system, you can preview **Screens** on separate parts of your monitor.
 
-By default, the **Simulation** will be shown in the left-hand corner of your monitor \(0, 0\), with `x` representing the number of pixels between the left-hand side of the **Simulation** window and the left hand side of your monitor, and `y` representing the number between the top of the window and top of your monitor.
+By default, the **Simulation** will be shown in the left-hand corner of your monitor \(0, 0\), with `x` representing the number of pixels between the left-hand side of the **Simulation** window and the left hand side of your monitor, and `y` representing the number of pixels between the top of the window and top of your monitor.
 
 ### Background
 
@@ -28,11 +28,11 @@ The `Color` **Attribute** defines the background color of the **Simulation** and
 
 ### FXAA
 
-**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how *2D* and *3D* **Objects** are displayed. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
+**Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how *2D* and *3D* **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider *3D* geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
 
-`Mode` changes the way the effect is calculated, so you can choose between speed (`fast`) and image crispness (`accurate`), to obtain the optimal results.
+`Mode` changes the way the effect is calculated, so you can choose between speed (`fast`) and image crispness (`accurate`), the latter of which may give better results at the expense of some calculation speed.
 
-`Enabled` enables/disables the effect entirely. Disabling the **FXAA** effect will have the most impact on performance speed. The **FXAA** doesn't consider movement at all, and may produce undesirable results in cases where you have fast moving objects.
+`Enabled` enables/disables the effect entirely. Disabling the effect is the most performant option, and should be considered if it isn't necessary or you are having performance issues. The **FXAA** doesn't consider movement at all, and may produce undesirable results in cases where you have fast moving objects.
 
 ![](../../.gitbook/assets/fxaa.gif)
 
