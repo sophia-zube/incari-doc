@@ -52,7 +52,7 @@ A **Model File** is where you define all the data for your list. Physically, a b
 
 How to write CSS won't be discussed here, but there is an abundance of information online, such as [_Learn to style HTML using CSS_](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
 
-Here are the pre-defined classes and IDs, to be used for styling **Lists** in **Incari**. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box etc.
+Here are the pre-defined classes and IDs, to be used for styling **Lists** in **Incari**. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box, etc.
 
 * `body` - The tag which encompasses all of the elements.
 * `#list` - The ID for the container that contains the list elements, excluding the title.
@@ -171,7 +171,7 @@ The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, there
 
 ### Size
 
-`Size` determines the dimensions of the rendered **List** in the **Scene**. **List** are two-dimensional, therefore, the `z` **Value** doesn't have any effect.
+`Size` determines the dimensions of the rendered **List** in the **Scene**. **Lists** are two-dimensional, therefore the `z` **Value** doesn't have any effect.
 
 ## Sprite
 
