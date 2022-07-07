@@ -24,9 +24,9 @@ The `Flip U` and `Flip V` **Attributes** simply invert the direction of the corr
 
 ## Sort Index
 
-Because **Incari** works in _3D_, it has no way of automatically discerning which elements should be shown on top of which, when they occupy the same area in _3D_ space. It is therefore necessary to manually define the _sort order_ of **Sprites** to ensure that they are layered correctly.
+Because **Incari** works in _3D_, it has no way of automatically discerning the layering order of different elements that occupy the same area in _3D_ space. It is therefore necessary to manually define the _sort order_ of **Sprites** to ensure that they are layered correctly.
 
-This is done by manipulating the `Sort Index`. **Sprites** with higher values being rendered above lower values. If **Sprites** have the same `Sort Index` **Value**, then there is no guarantee that they will be shown correctly, and it is therefore recommend that you assign a unique **Value** to each **Sprite** unless you are certain that they will never overlap one another.
+This is done by manipulating the `Sort Index`. **Sprites** with higher values will be rendered above lower values. If **Sprites** have the same `Sort Index` **Value**, then there is no guarantee that they will be shown correctly, and it is therefore recommended that you assign a unique **Value** to each **Sprite** unless you are certain that they will never overlap one another.
 
 ![](../../../.gitbook/assets/sprite-sort-index.gif)
 
