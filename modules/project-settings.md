@@ -4,6 +4,9 @@
 
 The **Project Settings Module** is used to choose and customize settings for different functionalities within **Incari**, such as **Communications**, the **Profiler Module**, *fonts*, or *layouts* for **On-Screen Keyboards**.
 
+
+{% tabs %}
+{% tab title="CAN" %}
 ## CAN
 
 ![The CAN Settings.](../.gitbook/assets/projectsettings-can.png)
@@ -20,6 +23,8 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 
 `Autostart` can be enabled or disabled and dictates when the channel is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
+{% endtab %}
+{% tab title="Fonts" %}
 ## Fonts
 
 ![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-font.png)
@@ -32,6 +37,9 @@ In the **Font Manager**, the user can manage their *fonts*: using the `+` button
 
 `Font Asset` is the **Font** file that is uploaded and selected for use. The **Font** file needs to be in the **Project's** **Asset Folder**.
 
+{% endtab %}
+
+{% tab title="HTTP" %}
 ## HTTP
 
 ![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http.png)
@@ -46,6 +54,10 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 
 `Is auto start` can be enabled or disabled and dictates when the server is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
+{% endtab %}
+
+{% tab title="Keyboard" %}
+
 ## Keyboard
 
 ![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard.png)
@@ -57,6 +69,10 @@ In the **Layout Manager**, the user can manage all their custom *layouts*: using
 To create a new *layout*, a **Keyboard Layout** **Asset** is necessary. One can be created either in the **Asset Manager** or directly in the **Layout Manager** by clicking on the `Layout Asset` slot. The default for a newly created **Keyboard Layout** **Asset** is the English keyboard, which can be further modified in the **Code Editor**.
 
 The `Layout Name` is also defined in the **Layout Manager**. This is the name with which custom *layouts* defined in the **Layout Manager** will appear in the `Layout` **Attribute** for **On-Screen Keyboards**.
+
+{% endtab %}
+
+{% tab title="MQTT" %}
 
 ## MQTT
 
@@ -74,6 +90,10 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 
 `Is auto start` can be enabled or disabled and dictates when the connection is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
+{% endtab %}
+
+{% tab title="Profiler" %}
+
 ## Profiler
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler.png)
@@ -83,6 +103,11 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 `Enable` enables or disables the **Profiler**, which can be edited in the **Profiler View Module**.
 
 `Port` is the port number to which the **Profiler Module** has to connect.
+
+
+{% endtab %}
+
+{% tab title="Serial" %}
 
 ## Serial
 
@@ -100,6 +125,8 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 `Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 
+{% endtab %}
+{% endtabs %}
 
 ## See Also
 
