@@ -26,4 +26,7 @@ The **Get Screen Keyboard Layout** **Node** outputs the *layout* of an **On-Scre
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Layout` | **String** | *Layout* of the **On-Screen Keyboard** received as input.|
 
+# See Also
+
+* [**Set Screen Keyboard Layout**](setscreenkeyboardlayout.md)
 
