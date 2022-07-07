@@ -2,11 +2,11 @@
 
 ## Overview
 
-The **Project Settings Module** is used to set up **Projects** that involve the different methods of **Communication** available in **Incari**, **Fonts**, or the **Profiler**.
+The **Project Settings Module** is used to choose and customize settings for different functionalities within **Incari**, such as **Communications**, the **Profiler Module**, *fonts*, or *layouts* for **On-Screen Keyboards**.
 
 ## CAN
 
-![The Project Settings CAN Attributes.](../.gitbook/assets/can20214.png)
+![The Project Settings CAN Attributes.](../.gitbook/assets/projectsettings-can.png)
 
 The **CAN Attributes** cover the necessary data to provide functionality to the **CAN Nodes**.
 
@@ -22,9 +22,9 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 
 ## Fonts
 
-![The Project Settings Fonts Attributes.](../.gitbook/assets/font20214.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-font.png)
 
-The **Fonts Attributes** let the user upload different types of **Fonts** to add personalized style to texts.
+The **Fonts Settings** let the user define different types of **Fonts** to add personalized style to texts.
 
 `Family Name` is automatically filled in with the **Font's** name when a **Font** file is chosen. The text can also be edited manually.
 
@@ -32,7 +32,7 @@ The **Fonts Attributes** let the user upload different types of **Fonts** to add
 
 ## HTTP
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/http20214.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http.png)
 
 The **HTTP Attributes** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -44,9 +44,21 @@ The **HTTP Attributes** cover the necessary data to provide functionality to the
 
 `Is auto start` can be enabled or disabled and dictates when the server is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
+## Keyboard
+
+![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard.png)
+
+The **Keyboard Settings** let the user define new *layouts* that can then be used for **On-Screen Keyboard** **Objects**.
+
+In the **Layout Manager**, the user can manage all their custom *layouts*, using the `+` button to add a new one and the `x` to delete all existing custom *layouts*. Furthermore, each *layout* can be individually deleted with the `x` button next to it.
+
+To create a new *layout*, a **Keyboard Layout** **Asset** is necessary. One can be created either in the **Asset Manager** or directly in the **Layout Manager** by clicking on the `Layout Asset` slot. The default for a newly created **Keyboard Layout** **Asset** is the English keyboard, which can be further modified in the **Code Editor**.
+
+The `Layout Name` is also defined in the **Layout Manager**. This is the name with which custom *layouts* defined in the **Layout Manager** will appear in the `Layout` **Attribute** for **On-Screen Keyboards**.
+
 ## MQTT
 
-![The Project Settings MQTT Attributes.](../.gitbook/assets/mqtt20214.png)
+![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettings-mqtt.png)
 
 The **MQTT Attributes** cover the necessary data to provide functionality to the **MQTT Nodes**.
 
@@ -62,7 +74,7 @@ The **MQTT Attributes** cover the necessary data to provide functionality to the
 
 ## Profiler
 
-![The Project Settings Profiler Attributes.](../.gitbook/assets/profiler20214.png)
+![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler.png)
 
 The **Profiler Attributes** cover the necessary data to provide functionality to the **Profiler** **Module**.
 
@@ -72,9 +84,9 @@ The **Profiler Attributes** cover the necessary data to provide functionality to
 
 ## Serial
 
-![The Project Settings Serial Attributes.](../.gitbook/assets/serial20214.png)
+![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial.png)
 
-The **Serial Attributes** cover the necessary data to provide functionality to the **Serial** **Nodes**.
+The **Serial Settings** allow to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
@@ -90,6 +102,7 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 ## See Also
 
 * [**Communication Nodes**](../toolbox/communication/)
+* [**Profiler View**](profiler-view.md)
 
 ## External Links
 
