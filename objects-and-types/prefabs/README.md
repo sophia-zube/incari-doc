@@ -10,3 +10,7 @@ The first section shows how to create and use **Prefabs**, the second section gi
 * [**Creating and Using Prefabs**](creating-and-using-prefabs.md)
 * [**Logic in Prefabs**](logic-prefabs.md)
 * [**Nested Prefabs**](nested-prefabs.md)
+
+## See also
+
+* [**Prefabs Demo Project**](../../demo-projects/prefabs-demo.md)
