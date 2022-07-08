@@ -16,9 +16,8 @@ The **Point** **Light** is _omnidirectional_, meaning that light is emitted equa
 
 `Color` determines the color of the light being emitted.
 
-Please note that the `Color` **Attribute's** _brightness_ level will affect the brightness of the light itself. It is recommended that you always have the brightness level set to 1 and use the actual `Brightness` **Attribute** to alter the intensity of the light.
+Please note that the `Color` **Attribute's** _brightness_ level will affect the *brightness* of the light itself. It is recommended that you always have the brightness level set to 1 and use the actual `Brightness` **Attribute** to alter the intensity of the light.
 
-`Color's` _alpha_ level has no effect.
 
 ### Brightness
 

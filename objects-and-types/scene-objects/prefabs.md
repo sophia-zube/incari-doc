@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Prefabs** are are composed of a combination of **Objects**. They allow the user to create multiple individual instances of this combination and then make changes that are enacted across all of them. Each instance can also retain unique properties via overrides, thus allowing to create several **Objects** with the same functionality but different characteristics. Moreover, **Prefabs** have their own **Logic**.
+**Prefabs** are **Objects** composed of a combination of **Objects**. They allow the user to create multiple individual instances of this combination and then make changes that are enacted across all of them. Each instance can also retain unique properties via overrides, thus allowing to create several **Objects** with the same functionality but different characteristics. Moreover, **Prefabs** contain their own **Logic**.
 
 The first section shows how to create and use **Prefabs** and the second section gives more details about the **Logic** of **Prefabs**.
 
@@ -31,7 +31,7 @@ Each instance of a **Prefab** can be modified on its own and this overrides the 
 
 ## Logic
 
-**Prefabs** have their own **Logic** and it applies to all instances of the **Prefab**. The **Prefab** **Logic** can be incorporated into the **Scene Logic** via a **Prefab Node**.
+**Prefabs** contain their own **Logic** and it applies to all instances of the **Prefab**. The **Prefab** **Logic** can be incorporated into the **Scene Logic** via a **Prefab Node**.
 
 ![Prefab Node.](../../.gitbook/assets/prefab-node.png)
 
