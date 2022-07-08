@@ -11,6 +11,7 @@ The **Set Text Color Node** sets, or changes, the **Color** of a **Text Object**
 |Attribute|Type|Description|
 |---|---|---|
 |`Object`|**ObjectID**|The **Text** **Object** whose **Color** will be set, if one is not provided in the `Object ID` **Socket**.|
+|`Color`|**Color**|The **Color** to be set, if one is not provided in the `Color` **Socket**. 
 
 # Inputs
 
@@ -28,7 +29,5 @@ The **Set Text Color Node** sets, or changes, the **Color** of a **Text Object**
 
 # See Also
 
-
-
-# External Links
+* [**Get Text Color**](get-text-color.md)
 
