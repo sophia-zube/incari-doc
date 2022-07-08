@@ -28,5 +28,5 @@ The **Set Text Color Node** gets, or returns, the **Color** of a **Text Object**
 
 # See Also
 
-# External Links
+* [**Set Text Color**](set-text-color.md)
 
