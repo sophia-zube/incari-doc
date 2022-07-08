@@ -129,10 +129,9 @@ Let’s see it in action!
 
 ![](../.gitbook/assets/demoprefabs_final.gif)
 
-| :grey_exclamation:| |
-|------------------|:---------------------------------|
 
-Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker!
+
+:exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker!
 
 
 
