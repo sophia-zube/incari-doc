@@ -4,7 +4,7 @@
 
 ## Adjusting Numerical Attributes
 
-Their **Values** can be increased/decreased by clicking the arrow buttons of a **Numerical Attribute Field**. This can also be done by hovering your mouse pointer over the **Field** and using your mouse's scroll wheel.
+**Values** of **Numerical Attributes** can be increased/decreased by clicking the arrow buttons of a **Numerical Attribute Field**. This can also be done by hovering your mouse pointer over the **Field** and using your mouse's scroll wheel.
 
 We can change the _step_ \(the amount to increment by\), by right-clicking the **Field**, and selecting an amount from the menu.
 

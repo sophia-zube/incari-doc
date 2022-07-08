@@ -6,13 +6,13 @@ There are two ways to create a **Nested Prefab**. One is creating a new **Prefab
 
 ## Using a new Prefab
 
-To create a **Nested Prefab** using a new **Prefab**, go to the **Prefab View** of the **Prefab** in which you wish to include another **Prefab**, select the **Objects** that will compose the **Nested Prefab**, right-click and click on `Make prefab`. Then, save the **Prefab** and the change will take effect on all of its **Instances**. Additionally, the newly created **Prefab** will generate its **Prefab Asset** and can be also used as any other **Prefab**.
+To create a **Nested Prefab** using a new **Prefab**, go to the **Prefab View** of the **Prefab** in which you wish to include another **Prefab**. Select the **Objects** that will compose the **Nested Prefab**, right-click and click on `Make prefab`. Then, save the **Prefab** and the change will take effect on all of its **Instances**. Additionally, the newly created **Prefab** will generate its **Prefab Asset** and can also be used as any other **Prefab**.
 
 ![](../../.gitbook/assets/prefabnested1.gif)
 
 ## Using an existing Prefab
 
-To create a **Nested Prefab** using an existing **Prefab**, go to the **Prefab View** of the **Prefab** in which you wish to include another **Prefab**. Then, select the **Prefab** you wish to add from the **Asset Manager** and drag it to either the **Viewport** or the **Scene Outliner**. Finally, save the **Prefab** and the change will take effect on all of its **Instances**. 
+To create a **Nested Prefab** using an existing **Prefab**, go to the **Prefab View** of the **Prefab**. Then, select the **Prefab** you wish to add from the **Asset Manager** and drag it to either the **Viewport** or the **Scene Outliner**. Finally, save the **Prefab** and the change will take effect on all of its **Instances**. 
 
 ![](../../.gitbook/assets/prefabnested2.gif)
 
