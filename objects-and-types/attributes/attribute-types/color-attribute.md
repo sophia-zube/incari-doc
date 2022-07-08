@@ -2,7 +2,7 @@
 
 **Color Attributes** are used to set the color and opacity of several **Objects** in **Incari**. They can be set in a variety of ways:
 
-* Selecting for the _saturation_/_brightness_ picker.
+* Using the _saturation_/_brightness_ picker.
 * Using the _hue_ and _alpha_ sliders.
 * Setting an 8-digit **ARGB** _hex code_.
 * Manually setting _hue_, _saturation brightness_ \(**HSB**\) levels.
