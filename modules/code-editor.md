@@ -1,8 +1,8 @@
 # Code Editor
 
-The **Code Editor** allows to edit the code of `.html`, `.css` and `.js` files. The top panel has the options of saving and reloading the file.
+The **Code Editor** allows you to edit the code of `.html`, `.css` and `.js` files. The top panel has the options of saving and reloading the file.
 
-When first opened, it offers the options of selecting a file used in the **Scene**, creating a new file, or selecting an existing file from the **Assets** folder.
+When first opened, the top panel offers the options of selecting a file used in the **Scene**, creating a new file, or selecting an existing file from the **Assets** folder.
 
 ![](../.gitbook/assets/code-editor.png)
 

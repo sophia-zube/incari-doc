@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Assets** are the files in the **Project Asset** folder. They can be used for creating or modifying **Objects**. The **Asset Manager** shows all the available **Assets** and allows to organize, manage, and create them.
+**Assets** are the files in the **Project Asset** folder. They can be used for creating or modifying **Objects**. The **Asset Manager** shows all the available **Assets** and allows you to organize, manage, and create them.
 
 ![](../.gitbook/assets/asset-manager.png)
 
@@ -14,7 +14,7 @@
 
 ## Creating
 
-For creating an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
+To create an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
 
 ![](../.gitbook/assets/create-asset.png)
 

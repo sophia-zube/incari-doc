@@ -34,7 +34,7 @@ There are several **Shading** **Models** available to choose from when creating 
 
 ## Default Car Paint Model 
 
-This model represents a material that provides the visual qualities to a car's paint job. It allows for selecting and editing `Environment` and `Normal Mapping`, `Base Coat Color` and `Roughness`, `Clear Coat Color` and `Roughness`, as well as `Metallicness` and `Shadow` `Sensitivity`.
+This model represents a material that provides the visual qualities to a car's paint features. It allows for selecting and editing `Environment` and `Normal Mapping`, `Base Coat Color` and `Roughness`, `Clear Coat Color` and `Roughness`, as well as `Metallicness` and `Shadow` `Sensitivity`.
 
 ![](../.gitbook/assets/defaulcarpaintmodel2.png)
 
@@ -49,7 +49,7 @@ This model represents the standard Phong model, characterized by a shiny surface
 
 ## Default Glass Model
 
-This model represents materials with a glass-like quality. It allows for selecting and editing `Environment` and `Normal Mapping`; `Base Texture`, `Color`, and `Blending`; `Reflection Color`, `Roughness`, and `Fresnel`; as well as tweaking `Shadow Sensitivity`. 
+This model represents materials with a glass-like quality. It allows for selecting and editing `Environment` and `Normal Mapping`; `Base Texture`, `Color`, and `Blending`; `Reflection Color`, `Roughness`, and `Fresnel`; as well as adjusting `Shadow Sensitivity`. 
 
 ![](../.gitbook/assets/defaultglassmodel.png)
 ## Default ExtendendedPBR Model
@@ -60,7 +60,7 @@ This model offers more attributes than the **Default PBR Model**. It allows for 
 ![](../.gitbook/assets/defaultextendedpbrmodel.png)
 ## Default PBR Model
 
-This model represents a material that provides a more realistic quality to objects, using physically based rendering. It allows for selecting and editing `Environment` and `Normal Mapping`; `Albedo Texture`, `Color`, and `Blending`; `Specular Color`; as well as tweaking `Metalicness`, `Shadow Senstivity`, and `Roughness`. 
+This model represents a material that provides a more realistic quality to objects, using physically based rendering. It allows for selecting and editing `Environment` and `Normal Mapping`; `Albedo Texture`, `Color`, and `Blending`; `Specular Color`; as well as adjusting `Metalicness`, `Shadow Senstivity`, and `Roughness`. 
 
 ![](../.gitbook/assets/defaultpbrmodel.png)
 ## Default Shadeless Model 

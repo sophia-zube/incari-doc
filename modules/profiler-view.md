@@ -2,13 +2,13 @@
 
 ## Overview
 
-The **Profiler** allows to analyze the performance of blocks of **Nodes** in the **Logic**, which we call **Profiler Blocks**. These **Profiler Blocks** have to be set in the **Logic Editor** by using the **Profiler Start** and **Profiler Stop** **Nodes**.
+The **Profiler** allows you to analyze the performance of blocks of **Nodes** in the **Logic**, which we call **Profiler Blocks**. These **Profiler Blocks** have to be set in the **Logic Editor** by using the **Profiler Start** and **Profiler Stop** **Nodes**.
 
 ![](../.gitbook/assets/profiler-view.png)
 
 For capturing with the **Profiler**, the **Project** simulation must be playing and the **Profiler** has to be connected with it via the port that has been set in the **Project Settings**.
 
-Once the **Profiler** is connected, it allows to start and stop capturing with the buttons on the **Form** toolbar. After a capture has ended, its timeline is shown on the **Diagram** and there the **Profiler Blocks** can be selected. Their data will then appear on the **Stats** panel.
+Once the **Profiler** is connected, it allows you to start and stop capturing with the buttons on the **Form** toolbar. After a capture has ended, its timeline is shown on the **Diagram** and there the **Profiler Blocks** can be selected. Their data will then appear on the **Stats** panel.
 
 ![](../.gitbook/assets/profiler-view-connected.png)
 
@@ -22,11 +22,11 @@ The **Form** toolbar has buttons for configuring the connection of the **Profile
 
 ## Diagram
 
-The **Diagram** shows the timeline with the capture. It is possible to zoom in and out by scrolling and move through the timeline by clicking and dragging.
+The **Diagram** shows the timeline with the capture. It is possible to zoom in and out by scrolling and to move through the timeline by clicking and dragging.
 
 ![](../.gitbook/assets/profiler-diagram.png)
 
-For selecting a **Block** or a time range to learns its statistics, use the right-click button. For a time range, right-click somewhere in the timeline and drag over the desired range.
+To select a **Block** or a time range to learn its statistics, use the right-click button. For a time range, right-click somewhere in the timeline and drag over the desired range.
 
 After a selection has been made, the statistics of the included **Blocks** appear in the **Stats** panel.
 
@@ -38,7 +38,7 @@ The **Stats** panel shows the data collected for the blocks selected in the **Di
 
 ![](../.gitbook/assets/profiler-stats.png)
 
-Right-clicking on a block opens a drop-down Menu with the viewing options, including `Select Columns`, which allows to select which columns are shown on the stats table.
+Right-clicking on a block opens a drop-down menu with the viewing options, including `Select Columns`, which allows you to select which columns are shown on the stats table.
 
 ![](../.gitbook/assets/profiler-stats-menu.png)
 
