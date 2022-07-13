@@ -1,6 +1,6 @@
 # Model Editor
 
-The **Model Editor** allows the user to set up data in **Fields** \(columns\) and **Records** \(rows\) that will be used later with a **List Object**. The **Model** files have `.incmod` as their filename extension.
+The **Model Editor** allows you to set up data in **Fields** \(columns\) and **Records** \(rows\) that will be used later with a **List Object**. The **Model** files have `.incmod` as their filename extension.
 
 To open the **Model Editor**, double-click on a **Model** file in the **Asset Manager** or right-click on the Menu bar in **Incari** and click on **Model Editor** from the drop-down list. This can be seen in the illustration below:
 

@@ -21,7 +21,7 @@ All these **Attributes** are described in greater detail below.
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
-The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background and foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a somewhat see-through quality. 
+The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background and foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a semi-translucent quality. 
 
 
 ### Environment Map
@@ -69,4 +69,4 @@ The `Albedo` here is the color of the glossy finish of a car, which sits at the 
 ### Tweak
 ![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
 
-`Shadow sensitivity` decides the percentage of influence by the shadow. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.
+`Shadow sensitivity` decides the percentage of influence of the shadow. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.
