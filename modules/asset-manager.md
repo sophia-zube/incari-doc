@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Assets** are the files in the **Project Asset** folder. They can be used for creating or modifying **Objects**. The **Asset Manager** shows all the available **Assets** and allows you to organize, manage, and create them.
+**Assets** are the files in the **Project Asset** folder. They can be used for creating or modifying **Objects**. The **Asset Manager** shows all the available **Assets** and allows the user to organize, manage, and create them.
 
 ![](../.gitbook/assets/asset-manager.png)
 

@@ -1,6 +1,6 @@
 # Default Car Paint Model
 
-This model represents a material that provides the visual qualities to a car's paint job. It allows for selecting and editing: 
+This model represents a material that provides the visual qualities to a car's paint features. It allows for selecting and editing: 
 
 * `Environment Mapping`
 * `Normal Mapping`
@@ -69,4 +69,4 @@ The `Albedo` here is the color of the glossy finish of a car, which sits at the 
 ### Tweak
 ![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
 
-`Shadow sensitivity` decides the percentage of influence of the shadow. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.
+`Shadow sensitivity` decides the percentage of the shadow's influence. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.

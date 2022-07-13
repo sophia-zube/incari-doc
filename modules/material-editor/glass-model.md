@@ -6,7 +6,7 @@ This model represents materials with a glass-like quality. It allows for selecti
 * `Normal Mapping`
 * `Base Texture`, `Color`, and `Blending`
 * `Reflection Color`, `Roughness`, and `Fresnel`
-* as well as tweaking `Shadow Sensitivity`. 
+* as well as adjusting `Shadow Sensitivity`. 
 
 All these **Attributes** are described in greater detail below. 
 

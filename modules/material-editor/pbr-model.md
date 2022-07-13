@@ -6,7 +6,7 @@ This model represents a material that provides a more realistic quality to objec
 * `Normal Mapping` 
 * `Albedo Texture`, `Color`, and `Blending`
 * `Specular Color` 
-* as well as tweaking `Metalicness`, `Shadow Senstivity`, and `Roughness`. 
+* as well as adjusting `Metalicness`, `Shadow Senstivity`, and `Roughness`. 
 
 All these **Attributes** are described in greater detail below.
 
