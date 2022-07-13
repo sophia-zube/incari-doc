@@ -4,7 +4,7 @@
 
 The **Set Screen Keyboard Layout** **Node** sets, or changes, the *layout* of an **On-Screen Keyboard**.
 
-The default options are: `English` and `German`. More *layouts* can be added in the [**Project Settings**](../../../modules/project-settings.md#keyboard).
+The default options are `English` and `German`. More *layouts* can be added in the [**Project Settings**](../../../modules/project-settings.md#keyboard).
 
 # Attributes
 
