@@ -7,8 +7,6 @@ The **Object** **Nodes** are **Event Listener** **Nodes** that allow a **Logic B
 ## Contents
 
 * [**On Alpha Change**](on-alpha-change.md)
-* [**On Local Position Change**](on-local-position-change.md)
-* [**On Local Rotation Change**](on-local-rotation-change.md)
 * [**On Opacity Change**](on-opacity-change.md)
 * [**On Position Change**](on-position-change.md)
 * [**On Rotation Change**](on-rotation-change.md)
