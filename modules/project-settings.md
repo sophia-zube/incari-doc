@@ -50,7 +50,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Local port` is the port you choose to use for your _HTTP_ server. More information on ports and port forwarding can be found in the **External Links** section.
+`Local port` is the port the user chooses to use for their _HTTP_ server. More information on ports and port forwarding can be found in the **External Links** section.
 
 `Is auto start` can be enabled or disabled and dictates when the server is run \(from the beginning of an application's life cycle or when the appropriate **Nodes** are used\).
 
@@ -113,9 +113,9 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 
 ![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial.png)
 
-The **Serial Settings** allow you to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
+The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
-`Name` is an identifying name of a _Serial_ connection chosen at your discretion.
+`Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
 `ChannelName (Linux)` is the USB port that a _Serial_ set-up is connected to on _Linux_. 
 

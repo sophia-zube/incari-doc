@@ -59,7 +59,7 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 `Use Occlusion` toggles occlusion on and off. 
 
-`Occlusion Texture` sets an image for occlusion. *Occlusion* itself delivers shadow properties. Considering the RGB channels, *Occlusion* only uses the red channel (keep this in mind when making `Texture` files). Even without a light source, the `Texture` will show up as a shadow and light on the **Object**, simulating a bright side and dark side. *Occlusion* makes it possible for you to make a texture for an **Object** that simulates another **Object** throwing a shadow on the first **Object**.
+`Occlusion Texture` sets an image for occlusion. *Occlusion* itself delivers shadow properties. Considering the RGB channels, *Occlusion* only uses the red channel (keep this in mind when making `Texture` files). Even without a light source, the `Texture` will show up as a shadow and light on the **Object**, simulating a bright side and dark side. *Occlusion* makes it possible for the user to make a texture for an **Object** that simulates another **Object** throwing a shadow on the first **Object**.
 
 `Use Met. Rough.` toggles metallic roughness on and off. 
 

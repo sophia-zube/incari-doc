@@ -44,7 +44,7 @@ The top panel represents **Logic Graphs** that are implemented for different **I
 
 ## 4 - Left Panel
 
-The left panel contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These sections are **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
+The left panel contains **Nodes** that can be added to the **Logic Editor** and is divided into five sections. These are **Explorer**, **Toolbox**, **Events**, **Functions**, and **Variables**.
 
 Each section is described below:
 

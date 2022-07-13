@@ -29,7 +29,7 @@ A **Keyframe** consists of two parts:
 * The **Keyframe** itself, which holds a value at a specific time.
 * The curve handles, which control the easing and interpolation between frames.
 
-To add a **Keyframe**, simply right-click an **Attribute** and select `Add Keyframe` from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. The curve handles can then be adjusted to fine tune the intermediate frames.
+To add a **Keyframe**, simply right-click an **Attribute** and select `Add Keyframe` from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. The curve handles can then be adjusted to fine-tune the intermediate frames.
 
 When a **Keyframe** is selected, its corresponding Bézier curve is shown in the **Animation Timeline**.
 
