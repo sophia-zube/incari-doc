@@ -10,7 +10,7 @@ The way that the **Nodes** function may seem quite technical, with certain conve
 
 ### UTC
 
-[Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) \(UTC\), is a standard time basis around the world. The universal time standard was formerly Greenwich Meantime \(GMT\), but in order to create a differentiation between a time-_zone_ and a time _standard_, UTC was adopted.
+[Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) \(UTC\), is a standard time basis around the world. The universal time standard was formerly Greenwich Mean Time \(GMT\), but in order to create a differentiation between a time-_zone_ and a time _standard_, UTC was adopted.
 
 ### Timezones
 

@@ -18,7 +18,7 @@ Each `Mode` has a different set of **Attributes**. The `Modes` are: [**Advanced*
 
 #### Generator
 
-This `Mode` allows to choose whether the random generator is deterministic or not, and for the deterministic case, the seed to use.
+This `Mode` allows the user to choose whether the random generator is deterministic or not, and for the deterministic case, the seed to use.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -139,7 +139,7 @@ _Probability distribution_ of a sum of the squares of a number of independent no
 
 * [Exponential](https://en.wikipedia.org/wiki/Exponential_distribution)
 
-_Probability distribution_ of the time between events in a [Poisson process](https://en.wikipedia.org/wiki/Poisson_point_process). Its parameter is the rate at which the events in the Poison process occur.
+_Probability distribution_ of the time between events in a [Poisson process](https://en.wikipedia.org/wiki/Poisson_point_process). Its parameter is the rate at which the events in the Poisson process occur.
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

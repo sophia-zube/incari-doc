@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Variables** **Nodes** allow to set and obtain the values of **Variables**. They are specific for each **Variable**.
+The **Variables** **Nodes** allow the user to set and obtain the values of **Variables**. They are specific for each **Variable**.
 
 ## Contents
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Incari** has several **Nodes** for perfoming _mathematical operations_. These **Nodes** allow to generate numbers, **Boolean** values, and **Vectors** and perform the usual operations on them.
+**Incari** has several **Nodes** for perfoming _mathematical operations_. These **Nodes** allow the user to generate numbers, **Boolean** values, and **Vectors** and perform the usual operations on them.
 
 ## Contents
 
