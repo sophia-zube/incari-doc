@@ -7,8 +7,6 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 ## Contents
 
 * [**Get Alpha**](get-alpha.md)
-* [**Get Local Position**](get-local-position.md)
-* [**Get Local Rotation**](get-local-rotation.md)
 * [**Get Material**](get-material.md)
 * [**Get Opacity**](get-opacity.md)
 * [**Get Position**](get-position.md)
@@ -23,8 +21,6 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Is Object 2D**](is-object-2d.md)
 * [**Is Object 3D**](is-object-3d.md)
 * [**Set Alpha**](set-alpha.md)
-* [**Set Local Position**](set-local-position.md)
-* [**Set Local Rotation**](set-local-rotation.md)
 * [**Set Material**](set-material.md)
 * [**Set Opacity**](set-opacity.md)
 * [**Set Position**](set-position.md)
