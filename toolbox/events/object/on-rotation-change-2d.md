@@ -29,9 +29,8 @@
 | `Rotation` | **Vector2"** | The new **Rotation** of the **Object**. |
 | `Object ID` | **ObjectID** | The **Object** received as **Input**. |
 
-
 ## See Also
 
 * [**Events**](../)
 * [**Object**](./)
-* [**Rotation_**](../../../objects-and-types/attributes/common-attributes/transformation.md#rotation)
+* [**Rotation**](../../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation)
