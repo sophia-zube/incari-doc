@@ -4,7 +4,7 @@
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoactionnode.png)
 
-The **MoveBy Action Node** continuously modifies the `Position` of an **Object** by the relative values specified in the `Offset` for a given period of time, thus creating an **Animation**.
+The **MoveTo Action Node** continuously modifies the `Position` of an **Object** to the values specified in `To` for a given period of time, thus creating an **Animation**.
 
 ## Attributes
 
