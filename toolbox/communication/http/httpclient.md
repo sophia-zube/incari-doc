@@ -23,7 +23,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 | `Authentication` | **Drop-down** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
 | `Default Headers` | **Add Elements** | _HTTP_ headers in the form of key/value pairs. |
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
-| `Response` | **Bool** | The user chooses true or false depending on if the response body is binary or not. Currently, the **Node** only supports **Strings**. |
+| `Response` | **Bool** | The user chooses true or false depending on whether the response body is binary or not. Currently, the **Node** only supports **Strings**. |
 
 ## Inputs
 

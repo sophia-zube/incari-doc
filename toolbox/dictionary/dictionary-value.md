@@ -4,7 +4,7 @@
 
 ![The Dictionary Value Node.](../../.gitbook/assets/dictionaryvaluenode.png)
 
-The **Dictionary Value** node defines a **Dictionary** by setting its _\(key, value\)_ pairings.
+The **Dictionary Value Node** defines a **Dictionary** by setting its _\(key, value\)_ pairings.
 
 ## Attributes
 

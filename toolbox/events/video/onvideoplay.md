@@ -4,7 +4,7 @@
 
 ![The On Video Play Node.](../../../.gitbook/assets/onvideoplaynode.png)
 
-**On Video Play** is an **Event Listener Node** that gives the user a way to perform an action once a video begins, such as fading to black once the video has started. The video can be added through the file library to the right.
+**On Video Play** is an **Event Listener Node** that gives the user a way to perform an action once a video begins, such as fading to black. The video can be added through the file library to the right.
 
 ## Attributes
 

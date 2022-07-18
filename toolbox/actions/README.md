@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Actions Nodes** can be used for performing a set of different **Actions**, usually a continuous modification of the **Transformation Attributes** of an **Object**, thus generating an **Animation**. They have two **Output Pulses**:
+The **Actions Nodes** are primarily used for generating an **Animation**, through a continuous modification of the **Transformation Attributes** of an **Object**. They have two **Output Pulses**:
 
   *  `OnStart` \(►\) gets triggered when the **Action** begins.
   *  `OnEnd` \(►\) gets triggered when the **Action** finishes.

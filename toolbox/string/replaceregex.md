@@ -2,7 +2,7 @@
 
 ![The ReplaceRegex Node.](../../.gitbook/assets/replaceregexnode.png)
 
-The **ReplaceRegex** **Node** allows to replace parts of a **String** using regular expressions to search for the pattern to replace. 
+The **ReplaceRegex** **Node** allows the user to replace parts of a **String** using regular expressions to search for the pattern to replace. 
 
 # Attributes
 

@@ -4,7 +4,7 @@
 
 ![The Function Node.](../../../.gitbook/assets/functionnode%20-%20Copy.png)
 
-The **Function** **Node** is customized by the user. The number and **Data Types** of the **Input** and **Output** **Sockets** and the functionality are defined in the **Node's** own **Logic**, which is accessed by either double clicking the **Node's** or the **Function** on the **Function's** list.
+The **Function** **Node** is customized by the user. The number and **Data Types** of the **Input** and **Output** **Sockets** and the functionality are defined in the **Node's** own **Logic**, which is accessed by either double clicking the **Node** or the **Function** on the **Function's** list.
 
 The **Node's** **Logic** has two special **Nodes**: [**Function Input**](function-input.md) and [**Function Output**](function-output.md).
 

@@ -2,7 +2,7 @@
 
 ![The Variable Getter Node.](../../.gitbook/assets/variablegetternode.png)
 
-The **Variable Getter** **Node** allows to obtain the value of a **Variable**.
+The **Variable Getter** **Node** allows the user to obtain the value of a **Variable**.
 
 
 
