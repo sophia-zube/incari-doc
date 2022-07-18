@@ -4,7 +4,7 @@
 
 ![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionnode.png)
 
-The **FadeTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Only the final value of the `Opacity` is set by the user.
+The **FadeTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user.
 
 ## Attributes
 
