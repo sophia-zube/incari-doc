@@ -18,13 +18,13 @@ Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab
 
 ![The **Project Outliner** with an active visibility toggle for the '**Basic Scene**'. ](../.gitbook/assets/clockoutliner.png)
 
-Now we can dive into how it works. In the top Menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../objects-and-types/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module- the **Project** **Logic** is explained later.
+Now we can dive into how it works. In the top menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double-click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../objects-and-types/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module; the **Project** **Logic** is explained later.
 
 ![All **Logic** from the '**Basic**' tab in the **Logic Editor**.](../.gitbook/assets/clockbasiclogic.png)
 
 You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../objects-and-types/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
 
-It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible. It makes things much easier to reason about in the long run!
+It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible.
 
 Let's look a bit closer at how we've done this.
 
@@ -56,19 +56,17 @@ Using an [**On Change Event**](../toolbox/events/variables/on-variable-change.md
 
 Finally, we pass the **Variable** value and the trigger from the [**On Change**](../toolbox/events/variables/on-variable-change.md) **Nodes** to three [**Set Rotation**](../toolbox/incari/object/set-rotation.md) **Nodes** configured to point to each clock hand image layer.
 
-That's it for how the basic example works under the hood.
-
 Save and run the project to see the basic clock!
 
 ![](../.gitbook/assets/clock-basicfinal.gif)
 
 ## 2. The Ticking Version
 
-But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be tweaked to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/README.md) in **Incari**.
+But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be adjusted to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/README.md) in **Incari**.
 
 ![](../.gitbook/assets/clock-tickingversion.gif)
 
-From the [**Project Outliner**](../modules/project-outliner.md), double click the [**Scene**](../objects-and-types/project-objects/scene.md) named ‘**Ticking Animation**'.
+From the [**Project Outliner**](../modules/project-outliner.md), double-click the [**Scene**](../objects-and-types/project-objects/scene.md) named ‘**Ticking Animation**'.
 
 ![](../.gitbook/assets/clocl-outlinerticking.png)
 
@@ -100,7 +98,7 @@ The '**initializeTime**' **Function** checks to see if the time has been initial
 
 ### 'Ticking Animation' Logic
 
-The '**Ticking Animation**' Logic is divided into several parts. The **Logic** updates the time **Variables** every 1s, creates the second hand ticking movement, converts time value to a _rotation_ value for all hands, and then finally rotates the clock hand images.  We will go into detail about how each of these parts works.  
+The '**Ticking Animation**' Logic is divided into several parts. The **Logic** updates the time **Variables** every 1 second, creates the second hand ticking movement, converts time value to a _rotation_ value for all hands, and then finally rotates the clock hand images.  We will go into detail about how each of these parts works.  
 
 ![All logic in the ‘Ticking Animation’ tab.](../.gitbook/assets/clock-alllogicticking.png)
 
@@ -140,11 +138,11 @@ The [**Interpolate**](../toolbox/math/interpolate.md) **Node** has a few differe
 
 ![](../.gitbook/assets/clock-timetorotation.png)
 
-For each, the seconds, minutes, and hours, the time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../objects-and-types/data-types/vector3.md) value.
+For each second, minute, and hour, the time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../objects-and-types/data-types/vector3.md) value.
 
 ![convertTimetoRotation Function.](../.gitbook/assets/clock-converttimefunction.png)
 
-The [**Range Mapper**](../toolbox/math/range-mapper.md) **Node** needs a maximum value of the time, meaning the number that equals one full revolution around the clockface.  (seconds = 60;  minutes = 60;  hours = 12).  It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle).  This gives the _degree of rotation_ for the current time.
+The [**Range Mapper**](../toolbox/math/range-mapper.md) **Node** needs a maximum value of the time, meaning the number that equals one full revolution around the clockface  (seconds = 60;  minutes = 60;  hours = 12).  It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle).  This gives the _degree of rotation_ for the current time.
 
 ![](../.gitbook/assets/clock-mapnode.png)
 
@@ -154,6 +152,6 @@ The [**Range Mapper**](../toolbox/math/range-mapper.md) **Node** needs a maximum
 
 Now that the time values have been converted to _rotation_ values, we can use those values to set the _rotation_ of each clock hand image using a [**Set Rotation**](../toolbox/incari/object/set-rotation.md) **Node**.  
 
-Save and run the **Project** to see the ticking clock!
+Save and run the **Project** to see the ticking clock.
 
 ![](../.gitbook/assets/clock-ticking2.gif)

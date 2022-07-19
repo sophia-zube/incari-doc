@@ -1,10 +1,10 @@
 # 4 Methods of Animation
 
-Animation is a key component of creating engaging UI experiences. Adding flare with motion and color can transform an HMI from something dull and lifeless into something polished and appealing. The term "animation" covers an extremely broad spectrum of disciplines and mediums. Not only that but the way that two animators approach a task may be very different while yielding similar results. In developing **Incari**, we have been very mindful of this fact and have supplied a variety of different methods for breathing life and character into static assets.
+Animation is a key component of creating engaging UI experiences. Adding flare with motion and color can transform an HMI from something dull and lifeless into something polished and appealing. The term "animation" covers an extremely broad spectrum of disciplines and mediums. Moreover, the way that two animators approach a task may be very different while yielding similar results. In developing **Incari**, we have been very mindful of these facts and have supplied a variety of different methods for breathing life into static assets.
 
 ## See For Yourself
 
-Using the new _Remote Projects_ section of **Incari Hub**, we can now provide downloadable projects, which you can play around with to see how certain functionality is implemented in **Incari Studio**. The first of these mini-projects focuses on the 4 different approaches to animation, which can all be combined together based on the **Project** requirements.
+Using the new _Remote Projects_ section of **Incari Hub**, there are now downloadable projects, which you can play around with to see how certain functionality is implemented in **Incari Studio**. The first of these mini-projects focuses on the 4 different approaches to animation, which can all be combined together based on the **Project** requirements.
 
 To download the **Project**, open **Incari Hub** and download the "Animations" **Project** from the _Remote Projects_ section.
 
@@ -40,7 +40,7 @@ A **Keyframe** consists of two parts:
 1. The **Keyframe** itself, which holds a value at a specific time.
 2. The curve handles, which control the easing and interpolation between frames.
 
-To add a **Keyframe**, simply right click an **Attribute** and select "Add Keyframe" from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. You can then adjust the curve handles to fine-tune the intermediate frames.
+To add a **Keyframe**, simply right-click an **Attribute** and select "Add Keyframe" from the context menu. This will create a **Keyframe** at whatever time the playhead is currently on. You can then adjust the curve handles to fine-tune the intermediate frames.
 
 ![Animation Nodes.](../.gitbook/assets/2020-09-28_11h50_20.png)
 
@@ -90,7 +90,7 @@ Controlling **Image Sequences** from the **Logic** is fairly straightforward. If
 
 ![Play ImageSequence Node Example.](../.gitbook/assets/2020-09-28_13h59_44.png)
 
-While the **Pause ImageSequence** and **Stop ImageSequence** are quite self-explanatory, the **Play ImageSequence Node** has quite a few **Attributes**, which we will go through now:
+While the **Pause ImageSequence** and **Stop ImageSequence** are self-explanatory, the **Play ImageSequence Node** has quite a few **Attributes**, which we will go through now:
 
 * `Start Frame` / `End Frame` - This is the frame index that the animation will start and finish on. Setting these to -1 will tell **Incari** to start at the first frame and end at the last frame.
 * `Object` - The **Image Sequence Sprite Object**, which can be dragged from the **Scene Outliner** onto the **Node**.
