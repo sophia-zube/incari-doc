@@ -426,6 +426,8 @@
   * [TrimRight](toolbox/string/trimright.md)
   * [Upper](toolbox/string/upper.md)
   * [IsUpper](toolbox/string/isupper.md)
+<!-- * [Transition](toolbox/transition/README.md)
+  * [CrossFade](toolbox/transition/crossfade.md)  -->
 * [Utilities](toolbox/utilities/README.md)
   * [Color Value](toolbox/utilities/colorvalue.md)
   * [Conversion](toolbox/utilities/conversion.md)
