@@ -1,16 +1,16 @@
 # Using APIs to Pull Dynamic Data
 
-### Introduction 2
+### Introduction
 
-_Application programming interfaces_ \(APIs\) allow developers to retrieve data from various services, based on some queries and parameters. _What_ and _how_ data can be accessed is decided by the API provider and this information is usually made available in the form of documentation.
+_Application programming interfaces_ \(APIs\) allow developers to retrieve data from various services, based on some queries and parameters. The API providor decides _what_ and _how_ data can be accessed, and this information is usually made available in the form of documentation.
 
-There are thousands of paid and free API services that exist on the Internet, ranging from grabbing random ["facts" about Chuck Norris](https://api.chucknorris.io/) to retrieving detailed information about what the weather is like... [on Mars](https://api.nasa.gov/)!
+There are thousands of paid and free API services that exist on the Internet, ranging from sources as diverse as ["facts" about Chuck Norris](https://api.chucknorris.io/) to retrieving detailed information about what the weather is like... [on Mars](https://api.nasa.gov/).
 
-For our latest demo though, we will be looking at the weather much closer to home and the basic workflow of working with APIs.
+For our latest demo, we will be looking at the weather much closer to home and the basic workflow of working with APIs.
 
 #### OpenWeatherMap
 
-[*OpenWeatherMap*](https://openweathermap.org/) provides a free API, capable of getting detailed weather information from over 200,000 cities. To be able to use the service in our **Incari** demo, you will first need to [create an account](https://home.openweathermap.org/users/sign_up) and [generate an API Key](https://home.openweathermap.org/api_keys). An API Key is a 32-character code, unique to your account, which will be used every time you make an API request.
+[*OpenWeatherMap*](https://openweathermap.org/) provides a free API, capable of getting detailed weather information from over 200,000 cities. To use the service in our **Incari** demo, you will first need to [create an account](https://home.openweathermap.org/users/sign_up) and [generate an API Key](https://home.openweathermap.org/api_keys). An API Key is a 32-character code, unique to your account, which will be used every time you make an API request.
 
 #### Getting the Demo
 
@@ -34,7 +34,7 @@ Once these **Variables** are changed you can press play to start the simulation.
 
 **Incari's** **HTTP GET Node** is what makes this kind of functionality possible. It takes some information, based on the documentation of the API provider, constructs and calls an API request, and asynchronously returns the response as a string.
 
-If you take a look at the documentation at [*OpenWeatherMaps's API documentation*](https://openweathermap.org/current), you will see that one of the examples of an API call that it provides, is the following:
+If you take a look at the documentation at [*OpenWeatherMaps's API documentation*](https://openweathermap.org/current), you will see that one of the examples of an API call that it provides is the following:
 
 ```text
 http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
@@ -60,9 +60,9 @@ http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 
 A query is a selection of key-value pairs, which form the parameters of the API call. One of these pairs almost always relates to the API key. In the case of OpenWeatherMap, this parameter is called `appid` and needs to be used whenever attempting to retrieve data.
 
-In the example call above, you will see that part of the string says `q=London`. By looking at the [documentation](https://openweathermap.org/current), you will see that the parameter `q` is the "City name, state code and country code divided by comma".
+In the above example, you will see that part of the string says `q=London`. By looking at the [documentation](https://openweathermap.org/current), you will see that the parameter `q` is the "City name, state code and country code divided by comma".
 
-Also, for localization purposes, there is one more query, which determines the temperature format. By default, the SI unit, Kelvin, is used when making API calls on OpenWeatherMap. To change this to degrees Celsius \(°C\) or degrees Fahrenheit \(°F\), the `units` parameter should be set to "metric" or "imperial".
+Also, for localization purposes, there is one more query which determines the temperature format. By default, the SI unit, Kelvin, is used when making API calls on OpenWeatherMap. To change this to degrees Celsius \(°C\) or degrees Fahrenheit \(°F\), the `units` parameter should be set to "metric" or "imperial".
 
 If we were to put this information directly into the **Attributes** of the **Node**, it would look something like the image here:
 
@@ -100,15 +100,15 @@ For example, if you look at the image above, you will see that from the main `Re
 
 ### On Set
 
-In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn4941x4Q&ab_channel=IncariHMIDevelopmentPlatform), I discussed the advantages of _decoupling_ **Logic**.
+In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn4941x4Q&ab_channel=IncariHMIDevelopmentPlatform), we discussed the advantages of _decoupling_ **Logic**.
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable (called `Response` in this case), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them so that the text and images of the weather app change to reflect the API response.
+By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable (called `Response` in this case), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs. Following this, the text and images of the weather app should change to reflect the API response.
 
 ### Conclusion
 
-Although we have focused primarily on weather information for this example, there are thousands of different APIs which can be applied in an infinite amount of ways. The core functionality in **Incari**, however, will remain the same:
+Although we have focused primarily on weather information in this example, there are thousands of different APIs which can be applied in infinite ways The core functionality in **Incari**, however, will remain the same:
 
 1. You use the **HTTP Get Node** to make an API call, parse the data into a **Dictionary** using the **JSON Parse Node**
 2. You then use that data to change aspects of your application.

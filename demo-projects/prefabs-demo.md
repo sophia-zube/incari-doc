@@ -29,7 +29,7 @@ In order to follow along with this guide, you will need to be running **Incari**
 The fully functional **Project** is available in **Incari Hub** under *Remote Projects*. To start from scratch, keep following from here. 
 ## 1. Creating a Simple Button
 
-Imagine a generic, rounded rectangle button that can have multiple different icons in the middle—something you would see in a lot of *HMI* systems. This can even be used to build a custom keyboard—although there is already a customizable [**On-Screen-Keyboard** **Object**](..) in **Incari**, so there is no need.
+Imagine a generic, rounded rectangle button that can have multiple different icons in the middle, something you would see in a lot of *HMI* systems. This can even be used to build a custom keyboard, although there is already a customizable [**On-Screen-Keyboard** **Object**](..) in **Incari**, so there is no need.
 
 Our button will have three states: **'Resting'**, **'Hover'**, and **'Pressed'**.
 
@@ -49,13 +49,13 @@ Open **Incari Hub** and [create a **Project**](../getting-started/first-steps/cr
 
 ### 2) Importing the Assets
 
-After exporting the files you downloaded, go to the **Asset Manager** to import them into your **Project**.
+Go to the **Asset Manager** to import your downloaded files into your **Project**.
 
 ![](../.gitbook/assets/demoprefabs_importassets.gif)
 
 ### 3) Creating Image Sequences
 
-One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project's** **Assets** folder, you will find them pre-created —and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
+One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project's** **Assets** folder, you will find them pre-created, and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
 
 ![](../.gitbook/assets/demoprefabs_createsequence.gif)
 
@@ -102,7 +102,7 @@ Now, in order to use it in different **Projects** and to collaborate with others
 
 ## 3. Using Prefabs to Build Complex Projects
 
-The real power of **Prefabs** lies in that you can use them again and again in different contexts. Using the **Prefab** we have just created, let’s build a simple control panel. It should take only a few drag and drops to build this fairly generic dashboard:
+The real power of **Prefabs** is that you can use them again and again in different contexts. Using the **Prefab** we have just created, let’s build a simple control panel. It should take only a few drag and drops to build this fairly generic dashboard:
 
 ![Dashboard with Map in the Background](../.gitbook/assets/demoprefabs_dashboardmap.png)
 
@@ -119,19 +119,19 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 ![Prefab Initialization](../.gitbook/assets/demoprefabs_prefabinitialize.png)
 
-Finally, let’s add a slide-in animation for the taskbar —and we’re done!
+Finally, we add a slide-in animation for the taskbar
 
 ![Current Group Structure](../.gitbook/assets/demoprefabs_currentstructure.png)
 
 ![Slide-In Animation](../.gitbook/assets/demoprefabs_slideinanimation.png)
 
-Let’s see it in action!
+To see it in action:
 
 ![](../.gitbook/assets/demoprefabs_final.gif)
 
 
 
-:exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker!
+:exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker
 
 
 
