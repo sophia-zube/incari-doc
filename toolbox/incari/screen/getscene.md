@@ -29,4 +29,4 @@ The **Get Scene Node** returns the **Scene** of a chosen **Screen**.
 
 # See Also
 
-* [**Set Scene](setscene.md)
+* [**Set Scene**](setscene.md)
