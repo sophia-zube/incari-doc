@@ -6,6 +6,7 @@ The **Line Nodes** provide a means for a user to perform a couple of adjustments
 
 ## Contents
 
-* [**Set LineWidth**](setlinewidth.md)
 * [**Get LineWidth**](getlinewidth.md)
+* [**Set LineWidth**](setlinewidth.md)
+
 
