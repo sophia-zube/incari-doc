@@ -24,7 +24,7 @@ Now we can dive into how it works. In the top menu bar, go to **View** -> [**Log
 
 You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../objects-and-types/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
 
-It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible.
+It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible. This makes it easier to work with larger **Pfojects**.
 
 Let's look a bit closer at how we've done this.
 
@@ -138,11 +138,11 @@ The [**Interpolate**](../toolbox/math/interpolate.md) **Node** has a few differe
 
 ![](../.gitbook/assets/clock-timetorotation.png)
 
-For each second, minute, and hour, the time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../objects-and-types/data-types/vector3.md) value.
+The time value is remapped to a _rotation_ value (_degrees_) using a custom '**convertTimeToRotation**' **Function**; this is done for seconds, minutes and hours.  This [**Function**](../toolbox/functions/README.md) takes the time value, remaps the value using a [**Range Mapper**](../toolbox/math/range-mapper.md) **Node**, and converts those values to a [**Vector3**](../objects-and-types/data-types/vector3.md) value.
 
 ![convertTimetoRotation Function.](../.gitbook/assets/clock-converttimefunction.png)
 
-The [**Range Mapper**](../toolbox/math/range-mapper.md) **Node** needs a maximum value of the time, meaning the number that equals one full revolution around the clockface  (seconds = 60;  minutes = 60;  hours = 12).  It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle).  This gives the _degree of rotation_ for the current time.
+The [**Range Mapper**](../toolbox/math/range-mapper.md) **Node** needs a maximum value of the time, meaning the number that equals one full revolution around the clockface (seconds = 60;  minutes = 60;  hours = 12). It then uses that maximum and remaps the value to a new maximum of 360 (for 360 degrees in a circle). This gives the _degree of rotation_ for the current time.
 
 ![](../.gitbook/assets/clock-mapnode.png)
 

@@ -1,10 +1,10 @@
 # 4 Methods of Animation
 
-Animation is a key component of creating engaging UI experiences. Adding flare with motion and color can transform an HMI from something dull and lifeless into something polished and appealing. The term "animation" covers an extremely broad spectrum of disciplines and mediums. Moreover, the way that two animators approach a task may be very different while yielding similar results. In developing **Incari**, we have been very mindful of these facts and have supplied a variety of different methods for breathing life into static assets.
+Animation is a key component of creating engaging UI experiences. Adding flare with motion and color can transform an HMI from something dull and lifeless into something polished and appealing. The term "animation" covers an extremely broad spectrum of disciplines and mediums. Moreover, the way that two animators approach a task may be very different while yielding similar results. In developing **Incari**, we have been very mindful of this fact and have supplied a variety of different methods for breathing life into static assets.
 
 ## See For Yourself
 
-Using the new _Remote Projects_ section of **Incari Hub**, there are now downloadable projects, which you can play around with to see how certain functionality is implemented in **Incari Studio**. The first of these mini-projects focuses on the 4 different approaches to animation, which can all be combined together based on the **Project** requirements.
+Using the new _Remote Projects_ section of **Incari Hub**, there are now downloadable **Projects**, which you can play around with to see how certain functionality is implemented in **Incari Studio**. This **Project** focuses on the four different approaches to animation, which can all be combined together based on the **Project** requirements.
 
 To download the **Project**, open **Incari Hub** and download the "Animations" **Project** from the _Remote Projects_ section.
 
