@@ -29,4 +29,6 @@ The **Set Scene Node** sets the chosen **Scene** for a **Screen**.
 |`Scene ID`|**Scene**|The returned **Scene** ID.|
 
 
+# See Also
 
+* [**Get Scene**](getscene.md)
