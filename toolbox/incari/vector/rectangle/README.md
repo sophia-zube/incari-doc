@@ -6,6 +6,7 @@ The **Rectangle Nodes** provide a means for a user to perform a couple of adjust
 
 ## Contents
 
-* [**Set RectangleCorners**](setrectanglecorners.md)
 * [**Get RectangleCorners**](getrectanglecorners.md)
+* [**Set RectangleCorners**](setrectanglecorners.md)
+
 

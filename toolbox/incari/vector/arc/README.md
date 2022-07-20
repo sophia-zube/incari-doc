@@ -6,8 +6,10 @@ The **Arc Nodes** provide a means for a user to perform several adjustments on a
 
 ## Contents
 
-* [**Set ArcStart**](setarcstart.md)
+* [**Get ArcEnd**](getarcend.md)
 * [**Get ArcStart**](getarcstart.md)
 * [**Set ArcEnd**](setarcend.md)
-* [**Get ArcEnd**](getarcend.md)
+* [**Set ArcStart**](setarcstart.md)
+
+
 

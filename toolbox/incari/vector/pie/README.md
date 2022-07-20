@@ -6,8 +6,11 @@ The **Pie Nodes** provide a means for a user to perform several adjustments on a
 
 ## Contents
 
-* [**Set PieStart**](setpiestart.md)
-* [**Set PieEnd**](setpieend.md)
-* [**Get PieStart**](getpiestart.md)
 * [**Get PieEnd**](getpieend.md)
+* [**Get PieStart**](getpiestart.md)
+* [**Set PieEnd**](setpieend.md)
+* [**Set PieStart**](setpiestart.md)
+
+
+
 
