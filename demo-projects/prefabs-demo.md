@@ -49,13 +49,13 @@ Open **Incari Hub** and [create a **Project**](../getting-started/first-steps/cr
 
 ### 2) Importing the Assets
 
-Go to the **Asset Manager** to import your downloaded files into your **Project**.
+Go to the **Asset Manager** to import the unzipped files into your **Project** which you downloaded by the above.
 
 ![](../.gitbook/assets/demoprefabs_importassets.gif)
 
 ### 3) Creating Image Sequences
 
-One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project's** **Assets** folder, you will find them pre-created, and should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
+One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/README.md). In your **Project's** **Assets** folder, you will find them pre-created. Should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
 
 ![](../.gitbook/assets/demoprefabs_createsequence.gif)
 
@@ -119,7 +119,7 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 ![Prefab Initialization](../.gitbook/assets/demoprefabs_prefabinitialize.png)
 
-Finally, we add a slide-in animation for the taskbar
+Finally, we add a slide-in animation for the taskbar.
 
 ![Current Group Structure](../.gitbook/assets/demoprefabs_currentstructure.png)
 
@@ -131,7 +131,7 @@ To see it in action:
 
 
 
-:exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker
+:exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker.
 
 
 
