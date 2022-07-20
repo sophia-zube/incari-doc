@@ -12,12 +12,6 @@ The **On Screen Scene Change Node** is an **Event Listener** **Node** used for e
 |---|---|---|
 |`OnScreenSceneChange`|**Screen**|The **Screen** whose **Scene** change prompts additional **Logic** to fire.
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-
 # Outputs
 
 |Output|Type|Description|
