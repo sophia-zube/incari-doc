@@ -2,7 +2,7 @@
 
 ![The MoveInFromLeft Node.](../../.gitbook/assets/moveinfromleftnode.png)
 
-The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the left of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**.  
+The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the left of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
 
 # Attributes
 
@@ -32,5 +32,5 @@ The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starti
 
 # See Also
 
-* [**MoveinFromRight**]()
+* [**MoveinFromRight**](moveinfromright.md)
 
