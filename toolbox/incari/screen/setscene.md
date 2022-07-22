@@ -10,16 +10,16 @@ The **Set Scene Node** sets the chosen **Scene** for a **Screen**.
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Screen`|**Screen**|The ID of the desired **Screen**, if one is not already indicated in the **Input Socket**.|
-|`Scene`|**Scene**|The ID of the desired **Scene**, if one is not already indicated in the **Input Socket**.|
+|`Screen`|**Screen**|The ID of the **Screen** the user wishes to set the **Scene** for, if one is not already indicated in the **Input Socket**.|
+|`Scene`|**Scene**|The ID of the chosen **Scene**, if one is not already indicated in the **Input Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Screen ID`|**Screen**|The ID of the desired **Screen**.|
-|`Scene ID`|**Scene**|The ID of the desired **Scene**.|
+|`Screen ID`|**Screen**|The ID of the **Screen** the user wishes to se the **Scene** for.|
+|`Scene ID`|**Scene**|The ID of the chosen **Scene**.|
 
 # Outputs
 

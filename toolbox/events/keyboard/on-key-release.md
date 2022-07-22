@@ -4,7 +4,7 @@
 
 ![The On Key Release Node.](../../../.gitbook/assets/onkeyreleasenode.png)
 
-**On Key Release** is an **Event Listener** **Node** used for executing additional **Logic** when a key is released on a computer keyboard.
+**On Key Release** is an **Event Listener** **Node** used for executing a **Logic Branch** when a key is released on a computer keyboard.
 
 ## Attributes
 
