@@ -2,7 +2,7 @@
 
 ![The Set Scene Node.](../../../.gitbook/assets/setscenenode.png)
 
-The **Set Scene Node** sets the chosen **Scene** for a **Screen**.
+The **Set Scene Node** sets the chosen **Scene** for a **Screen**. The user simply needs to choose a **Screen** and any of its **Scenes** (other than the current **Scene**) as inputs. The output will be the ID of the final **Scene**. 
 
 # Attributes
 
