@@ -2,7 +2,7 @@
 
 ![The MoveInFromLeft Node.](../../.gitbook/assets/moveinfromleftnode.png)
 
-The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the left of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
+The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the left of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
 
 # Attributes
 
@@ -10,7 +10,7 @@ The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starti
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Duration (sec)`|**Float**|The duration, in seconds, of the transition, if none is given in the **Input Socket**. |
+|`Duration (sec)`|**Float**| The duration, in seconds, of the **Transition**, if none is given in the **Input Socket**. |
 
 
 # Inputs
@@ -18,19 +18,20 @@ The **MoveInFromLeft Node** applies a transition to the chosen **Scene**. Starti
 |Input|Type|Description|
 |---|---|---|
 |`Start` (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `In Scene` | **SceneID** | The **Scene** to which the current **Scene** will transition to. |
+| `In Scene` | **SceneID** | The **Scene** to which the current **Scene** will **Transition** to. |
 | `Screen` | **ScreenID** | The **Screen** that contains the initial and final **Scenes**. |
-| `Duration` | **Float** | The duration, in seconds, of the transition. |
+| `Duration` | **Float** | The duration, in seconds, of the **Transition**. |
 
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the transition starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the transition ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the **Transition** ends.  |
 
 # See Also
 
+* [**MoveInFromTop**](moveinfromtop.md)
 * [**MoveinFromRight**](moveinfromright.md)
-
+* [**MoveInFromBottom**](moveinfrombottom.md)

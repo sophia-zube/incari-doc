@@ -1,16 +1,17 @@
 # Overview
 
-![The CrossFade Node.](../../.gitbook/assets/node-crossfade.png)
+![The Fade Node.](../../.gitbook/assets/node-fade.png)
 
-The **CrossFade** **Node** creates a **Transition** between **Scenes** with a cross-fade. It receives as inputs the **Scene** to **Transition** to, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
+The **Fade** **Node** creates a **Transition** between **Scenes** in which the initial **Scene** fades out and then the final **Scene** fades in. It receives as inputs the final **Scene**, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
 
 # Attributes
 
-![The CrossFade Node Attributes.](../../.gitbook/assets/node-crossfade-attri.png)
+![The Fade Node Attributes.](../../.gitbook/assets/node-fade-attri.png)
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Duration (sec)` | **Float** | The duration, in seconds, of the cross-fade, if none is given in the **Input Socket**. |
+| `Duration (sec)` | **Float** | The duration, in seconds, of the **Transition**, if none is given in the **Input Socket**. |
+
 
 # Inputs
 
@@ -19,7 +20,7 @@ The **CrossFade** **Node** creates a **Transition** between **Scenes** with a cr
 |(►) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `In Scene` | **SceneID** | The **Scene** to which the current **Scene** will **Transition** to. |
 | `Screen` | **ScreenID** | The **Screen** that contains the initial and final **Scenes**. |
-| `Duration` | **Float** | The duration, in seconds, of the cross-fade. |
+| `Duration` | **Float** | The duration, in seconds, of the **Transition**. |
 
 # Outputs
 
@@ -31,5 +32,5 @@ The **CrossFade** **Node** creates a **Transition** between **Scenes** with a cr
 
 # See Also
 
-* [**Fade**](fade.md)
+* [**CrossFade**](crossfade.md)
 
