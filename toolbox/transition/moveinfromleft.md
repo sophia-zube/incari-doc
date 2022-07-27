@@ -27,11 +27,11 @@ The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. St
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromLeft** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromLeft** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromLeft** when the **Transition** ends.  |
 
 # See Also
 
 * [**MoveInFromTop**](moveinfromtop.md)
-* [**MoveinFromRight**](moveinfromright.md)
+* [**MoveInFromRight**](moveinfromright.md)
 * [**MoveInFromBottom**](moveinfrombottom.md)

@@ -26,8 +26,8 @@ The **MoveInFromRight Node** applies a **Transition** to the chosen **Scene**. S
 
 |Output|Type|Description|
 |---|---|---|
-|`OnStart` (►)|**Pulse**|Flows to the next **Node** following **MoveinFromRight** when the **Transition** starts. |
-|`OnEnd` (►)|**Pulse**|Flows to the next **Node** following **MoveinFromRight** when the **Transition** ends. |
+|`OnStart` (►)|**Pulse**|Flows to the next **Node** following **MoveInFromRight** when the **Transition** starts. |
+|`OnEnd` (►)|**Pulse**|Flows to the next **Node** following **MoveInFromRight** when the **Transition** ends. |
 
 # See Also
 
