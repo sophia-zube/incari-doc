@@ -26,10 +26,11 @@ The **MoveInFromRight Node** applies a **Transition** to the chosen **Scene**. S
 
 |Output|Type|Description|
 |---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`OnStart` (►)|**Pulse**|Flows to the next **Node** following **MoveinFromRight** when the **Transition** starts. |
+|`OnEnd` (►)|**Pulse**|Flows to the next **Node** following **MoveinFromRight** when the **Transition** ends. |
 
 # See Also
 
-* [***MoveInFromLeft**](moveinfromleft.md)
+* [**MoveInFromLeft**](moveinfromleft.md)
 * [**MoveInFromTop**](moveinfromtop.md)
 * [**MoveInFromBottom**](moveinfrombottom.md)
