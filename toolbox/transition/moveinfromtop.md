@@ -6,7 +6,7 @@ The **MoveInFromTop** **Node** creates a **Transition** from the current **Scene
 
 # Attributes
 
-![The MoveInFromTop Node Attributes**](../../.gitbook/assets/node-moveinfrombottom-attri.png)
+![The MoveInFromTop Node Attributes**](../../.gitbook/assets/node-moveinfromtop-attri.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -26,8 +26,8 @@ The **MoveInFromTop** **Node** creates a **Transition** from the current **Scene
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromTop** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromTop** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromTop** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromTop** when the **Transition** ends.  |
 
 # See Also
 

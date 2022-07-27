@@ -26,8 +26,8 @@ The **MoveInFromBottom** **Node** creates a **Transition** from the current **Sc
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromBottom** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveinFromBottom** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromBottom** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **MoveInFromBottom** when the **Transition** ends.  |
 
 # See Also
 
