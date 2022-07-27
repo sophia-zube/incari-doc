@@ -26,7 +26,7 @@ The **Set Scene Node** sets the chosen **Scene** for a **Screen**. The user simp
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Scene ID`|**Scene**|The returned **Scene** ID.|
+|`Scene ID`|**Scene**|The ID of the chosen **Scene**.|
 
 
 # See Also
