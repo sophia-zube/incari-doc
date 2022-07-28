@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Transition** **Nodes** are used for creating **Transitions** between [**Scenes**](../../objects-and-types/project-objects/scene.md) in a [**Screen**](../../objects-and-types/project-objects/screen.md). A **Transition** is the process of going from showing one **Scene** to showing another.
+The **Transition** **Nodes** are used for creating **Transitions** between [**Scenes**](../../objects-and-types/project-objects/scene.md) in a [**Screen**](../../objects-and-types/project-objects/screen.md). A **Transition** is the process of changing the displayed **Scene** on a **Screen**.
 
 There are three types of **Transitions** that can be created: 
 
