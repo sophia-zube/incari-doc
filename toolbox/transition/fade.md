@@ -26,8 +26,8 @@ The **Fade** **Node** creates a **Transition** between **Scenes** in which the i
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **CrossFade** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **CrossFade** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **Fade** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **Fade** when the **Transition** ends.  |
 
 
 # See Also

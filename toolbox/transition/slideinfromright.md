@@ -2,7 +2,7 @@
 
 ![The SlideInFromRight Node.](../../.gitbook/assets/slideinfromrightnode.png)
 
-The **SlideInFromFight Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the right of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the left, the latter of which disappears from view as the **Transition** ends and is replaced by the former. 
+The **SlideInFromFight Node** applies a **Transition** from the current **Scene** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the right of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the left, the latter of which disappears from view as the **Transition** ends and is replaced by the former. 
 
 # Attributes
 
@@ -25,12 +25,12 @@ The **SlideInFromFight Node** applies a **Transition** to the chosen **Scene**. 
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **SlideinFromRight** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **SlideinFromRight** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **SlideInFromRight** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **SlideInFromRight** when the **Transition** ends.  |
 
 # See Also
 
-* [**SlideInFromLeft**]()
-* [**SlideInFromTop**]()
-* [**SlideInFromBottom**]()
+* [**SlideInFromLeft**](slideinfromleft.md)
+* [**SlideInFromTop**](slideinfromtop.md)
+* [**SlideInFromBottom**](slideinfrombottom.md)
 

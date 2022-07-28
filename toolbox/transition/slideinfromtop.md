@@ -2,7 +2,7 @@
 
 ![The SlideInFromTop Node.](../../.gitbook/assets/slideinfromtopnode.png)
 
-The **SlideInFromTop Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the top of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the bottom, the latter of which disappears from view as the **Transition** ends and is replaced by the former.  
+The **SlideInFromTop Node** applies a **Transition** from the current **Scene** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the top of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the bottom, the latter of which disappears from view as the **Transition** ends and is replaced by the former.  
 
 # Attributes
 
@@ -26,12 +26,12 @@ The **SlideInFromTop Node** applies a **Transition** to the chosen **Scene**. St
 
 |Output|Type|Description|
 |---|---|---|
-| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **SlideinFromTop** when the **Transition** starts. |
-| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **SlideinFromTop** when the **Transition** ends.  |
+| `OnStart` (►) | **Pulse** | Flows to the next **Node** following **SlideInFromTop** when the **Transition** starts. |
+| `OnEnd` (►) | **Pulse** | Flows to the next **Node** following **SlideInFromTop** when the **Transition** ends.  |
 
 # See Also
 
-* [**SlideInFromBottom**]()
-* [**SlideInFromRight**]()
-* [**SlideInFromLeft**]()
+* [**SlideInFromBottom**](slideinfrombottom.md)
+* [**SlideInFromRight**](slideinfromright.md)
+* [**SlideInFromLeft**](slideinfromleft.md)
 
