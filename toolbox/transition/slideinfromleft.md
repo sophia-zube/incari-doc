@@ -11,7 +11,7 @@ The **SlideInFromLeft Node** applies a **Transition** from the current **Scene**
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Duration`|**Float**|The duration, in seconds, of the **Transition**, if none is given in the **Input Socket**.|
+|`Duration (sec)`|**Float**|The duration, in seconds, of the **Transition**, if none is given in the **Input Socket**.|
 
 # Inputs
 
