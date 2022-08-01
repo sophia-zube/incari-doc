@@ -10,6 +10,8 @@ The **Replace** **Node** replaces a *substring* of a **String** with another giv
 
 For example, if the inputs are: `String`=`ababab`, `From`=`a`, and `To`=`C`; the output will be `Result`=`CbCbCb`.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Replace Node Attributes.](../../.gitbook/assets/replaceattributes.png)

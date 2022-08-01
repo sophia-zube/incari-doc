@@ -4,6 +4,8 @@
 
 The **Upper** **Node** converts a **String** to uppercase letters.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Upper Node Attributes.](../../.gitbook/assets/upperattributes.png)

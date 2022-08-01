@@ -6,6 +6,8 @@
 
 The **JSON Stringify Node** converts a **Data Type** like a **Dictionary** into one **String**. This can be useful when the user wants to save something like a **Dictionary** into a file.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ### Attributes
 
 ![The JSON Stringify Node Attributes.](../../.gitbook/assets/jsonstringifyattributes.png)

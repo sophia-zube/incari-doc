@@ -4,6 +4,8 @@
 
 The **Variable Getter** **Node** allows the user to obtain the value of a **Variable**.
 
+*Scope*: **Project**, **Scene**, **Function**
+
 
 
 # Outputs

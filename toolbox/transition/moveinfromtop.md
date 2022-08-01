@@ -4,6 +4,8 @@
 
 The **MoveInFromTop** **Node** creates a **Transition** from the current **Scene** to a chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the top of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static. 
 
+*Scope*: **Project**
+
 # Attributes
 
 ![The MoveInFromTop Node Attributes**](../../.gitbook/assets/node-moveinfromtop-attri.png)

@@ -6,6 +6,8 @@ The **LastIndexOf** **Node** returns the index of the last occurrence of a *subs
 
 The range in which the *substring* will be searched can be customized via the `StartIndex` and `EndIndex` **Attributes**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 
 # Attributes
 

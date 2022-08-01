@@ -8,6 +8,8 @@ The characters' *indices* in the **String** start from zero.
 
 If the index given is greater than the **String** length, the output is `-1`.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The CharCodeAt Node Attributes.](../../.gitbook/assets/charcodeatattributes.png)

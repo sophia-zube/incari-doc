@@ -6,6 +6,8 @@ The **Create Object** **Node** creates [**Scene Objects**](../../objects-and-typ
 
 In the **Attributes**, the **Object Type** for the new **Object** can be chosen. The outputs are the **ObjectID** of the newly created **Object** and a **Bool** value indicating whether the creation of the **Object** was successful or not.
 
+*Scope*: **Project**, **Scene**, **Function**
+
 # Attributes
 
 ![The Create Object Node Attributes.](../../.gitbook/assets/node-create-object2-attr.png)
