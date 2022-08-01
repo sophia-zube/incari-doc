@@ -6,6 +6,8 @@
 
 **On Javascript Callback** is an **Event Listener** **Node** used for executing a **Logic Branch** when a Javascript function is called. This function needs to be defined in the **Web Sprite** that is given as **Object** **Attribute**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Javascript Callback Node.](../../../.gitbook/assets/javascriptcallbackattributes%20-%20Copy.png)

@@ -6,6 +6,8 @@
 
 **On Scale Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Scale** of an **Object** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Scale Change Node Attributes.](../../../.gitbook/assets/onscalechangeattributes.png)

@@ -6,6 +6,8 @@
 
 **On Visibility Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Visibility** of an **Object** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Visibility Change Node Attributes.](../../../.gitbook/assets/onvisibilitychangeattributes.png)

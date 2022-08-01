@@ -6,6 +6,8 @@
 
 **On Swipe** is an **Event Listener** **Node** used for executing a **Logic Branch** after a swipe on an **Object**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Swipe Node Attributes.](../../../.gitbook/assets/onswipeattributes.png)

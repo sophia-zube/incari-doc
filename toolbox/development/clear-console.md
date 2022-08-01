@@ -6,6 +6,8 @@
 
 The **Clear Console** **Node** empties the **Console**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Inputs
 
 | Input | Type | Description |

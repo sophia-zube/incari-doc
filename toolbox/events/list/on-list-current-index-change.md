@@ -6,6 +6,8 @@
 
 **On List Current Index Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current index of a **List** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On List Current Index Change Node Attributes.](../../../.gitbook/assets/onlistcurrentindexchangeattributes.png)

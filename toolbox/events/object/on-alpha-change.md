@@ -6,6 +6,8 @@
 
 **On Alpha Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Alpha** value of an **Object** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Alpha Change Node Attributes.](../../../.gitbook/assets/onalphachangeattributes.png)

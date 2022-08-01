@@ -5,6 +5,8 @@
 
 **On WebSprite Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **Web Sprite** **Object** is loaded.
 
+*Scope*: **Scene**, **Prefab**
+
 # Attributes
 
 ![The On WebSprite Load Node Attributes.](../../../.gitbook/assets/onwebspriteloadattributes%20-%20Copy.png)

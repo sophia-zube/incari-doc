@@ -6,6 +6,8 @@
 
 **On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves within an **Object**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Mouse Move Node Attributes.](../../../.gitbook/assets/onmousemoveattributes.png)

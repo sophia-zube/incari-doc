@@ -6,6 +6,8 @@
 
 **On Mouse Button Up** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is released on an **Object**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Mouse Button Up Node Attributes.](../../../.gitbook/assets/onmousebuttonupattributes.png)

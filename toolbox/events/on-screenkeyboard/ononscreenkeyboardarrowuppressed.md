@@ -4,6 +4,8 @@
 
 The **On On-Screen Keyboard Arrow Up Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the `Up` key on the **On-Screen Keyboard** is pressed. 
 
+*Scope*: **Scene**, **Prefab**
+
 # Attributes
 
 ![The On On-Screen Keyboard Arrow Up Pressed Node Attributes.](../../../.gitbook/assets/ononscreenkeyboardarrowuppressedattributes.png)

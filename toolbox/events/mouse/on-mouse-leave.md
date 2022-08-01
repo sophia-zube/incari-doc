@@ -6,6 +6,8 @@
 
 **On Mouse Leave** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor leaves an **Object**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Mouse Leave Node Attributes.](../../../.gitbook/assets/onmouseleaveattributes%20-%20Copy.png)
