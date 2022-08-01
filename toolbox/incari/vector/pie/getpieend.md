@@ -6,6 +6,8 @@
 
 The **Get PieEnd Node** returns the ending _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get PieEnd Node Attributes.](../../../../.gitbook/assets/node-get-pieend-attr.png)

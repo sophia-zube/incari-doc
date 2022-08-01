@@ -8,6 +8,8 @@
 
 This is the equivalent of the multiplication \(`*` or `x`\) operation in computer science and mathematics.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Multiply Node Attributes.](../../.gitbook/assets/node-multiply2-attr.png)

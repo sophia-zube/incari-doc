@@ -6,6 +6,8 @@
 
 The **Set ArcStart Node** sets the starting _arc degree_ of an **Arc Object** created in the **Scene Outliner Module** under **Vector**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set ArcStart Node Attributes.](../../../../.gitbook/assets/node-set-arcstart-attr.png)

@@ -6,6 +6,8 @@
 
 The **This Scene Node** provides the ID of the current **Scene** being worked on.
 
+*Scope*: **Scene**
+
 ## Outputs
 
 | Output | Type | Description |

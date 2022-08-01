@@ -6,6 +6,8 @@
 
 The **Interpolate** **Node** calculates intermediate values between an initial and a target value over a set amount of time. It is particularly useful for animations.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Interpolate Node Attributes.](../../.gitbook/assets/node-interpolate2-attr.png)

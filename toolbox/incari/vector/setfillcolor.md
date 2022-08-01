@@ -6,6 +6,8 @@
 
 The **Set FillColor Node** sets the **FillColor**, visualized as the inside color, of a **Vector Object** created in the **Scene Outliner Module** under **Vector**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 | Attribute | Type | Description |

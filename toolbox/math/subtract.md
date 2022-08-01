@@ -8,6 +8,8 @@
 
 This is the equivalent of the subtraction \(`-`\) operation in computer science and mathematics.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Subtract Node Attributes.](../../.gitbook/assets/node-subtract2-attr.png)

@@ -6,6 +6,8 @@ The **Screen** **Node** gives the **Screen ID** of its corresponding **Screen**.
 
 For each **Screen** in the **Project**, there is a **Screen** **Node** with the **Screen** name. 
 
+*Scope*: **Project**
+
 # Attributes
 
 ![The Scene Node Attributes.](../../../.gitbook/assets/node-screen-attri.png)
