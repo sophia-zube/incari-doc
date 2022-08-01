@@ -4,6 +4,8 @@
 
 The **Set Local Position Node** sets the *local position* values for a given **Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 
 # Attributes
 

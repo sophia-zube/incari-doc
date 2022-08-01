@@ -6,6 +6,8 @@
 
 The **Stop ImageSequence Node** ends an **ImageSequence** already playing during a session.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Stop ImageSequence Node Attributes.](../../../.gitbook/assets/node-stop-imagesequence-attr.png)

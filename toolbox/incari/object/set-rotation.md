@@ -6,6 +6,8 @@
 
 **Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set Rotation Node Attributes.](../../../.gitbook/assets/node-set-rotation-attr.png)

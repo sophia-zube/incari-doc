@@ -6,6 +6,8 @@
 
 **Set Position** sets the value of a given **Object**'s `Position` **Attribute**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set Position Node Attributes.](../../../.gitbook/assets/node-set-position-attr.png)

@@ -6,6 +6,8 @@
 
 The **Get ImageSequence Duration Node** returns the total runtime \(in seconds\) of the **ImageSequence**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get ImageSequence Duration Node Attributes.](../../../.gitbook/assets/node-get-imagesequence-duration-attr.png)

@@ -4,6 +4,8 @@
 
 The **Set Global Position Node** assigns the global coordinates (in reference to the origin)  for a **3D Object's** *global position* in **Vector3** form.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 |Attribute|Type|Description|

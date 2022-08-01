@@ -4,6 +4,8 @@
 
 The **Set Text Color Node** sets, or changes, the **Color** of a **Text Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Set Text Color Node Attributes.](../../../.gitbook/assets/settextcolorattributes.png)

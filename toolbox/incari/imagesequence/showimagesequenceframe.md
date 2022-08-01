@@ -6,6 +6,8 @@
 
 **Show ImageSequence Frame** displays the frame at the selected index.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Show ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-show-imagesequence-frame-attr.png)

@@ -6,6 +6,8 @@
 
 **Pause ImageSequence** pauses an **ImageSequence** already playing during the session.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Pause ImageSequence Node Attributes.](../../../.gitbook/assets/node-pause-imagesequence-attr.png)

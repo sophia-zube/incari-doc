@@ -6,6 +6,8 @@
 
 **Select List Entry** selects an entry item in a **List** **Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Select List Entry Node Attributes.](../../../.gitbook/assets/node-select-list-entry-attr.png)

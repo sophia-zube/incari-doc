@@ -6,6 +6,8 @@
 
 The **Play ImageSequence Node** starts and plays through an **ImageSequence** at the specified time frames.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Play ImageSequence Node Attributes.](../../../.gitbook/assets/node-play-imagesequence-attr.png)
