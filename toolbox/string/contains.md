@@ -4,6 +4,8 @@
 
 The **Contains** **Node** receives two **Strings** and checks whether one is a *substring* of the other. It outputs the result as a **Boolean**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Contains Node Attributes.](../../.gitbook/assets/containsattributes.png)

@@ -6,6 +6,8 @@
 
 The **Is Object Type Node** returns *true* or *false* depending on whether or not the input **Object** matches the `Object Type`.
 
+*Scope*: **Project**, **Scene**, **Function**
+
 ## Attributes
 
 ![The Is Object Type Node Attributes.](../../.gitbook/assets/node-is-object-type2-attr.png)

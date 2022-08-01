@@ -6,6 +6,8 @@
 
 The **Call JavaScript Function** **Node** executes a JavaScript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as its **Object** **Attribute**.
 
+*Scope*: **Scene**
+
 ## Attributes
 
 ![The Call JavaScript Function Node Attributes.](../../.gitbook/assets/javascriptcallbackattributesactual.png)

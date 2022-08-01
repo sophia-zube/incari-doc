@@ -4,6 +4,8 @@
 
 The **IsLower Node** checks if a **String** is all lowercase and returns a **Bool** of either *True* or *False*. 
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The IsLower Node Attributes.](../../.gitbook/assets/islowerattributes.png)

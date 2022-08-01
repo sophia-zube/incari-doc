@@ -4,6 +4,8 @@
 
 The **RandomString Node** returns a random **String**. The length and characters to be used are specified by the user.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The RandomString Node Attributes.](../../.gitbook/assets/randomstringattributes.png)

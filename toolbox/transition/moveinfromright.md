@@ -4,6 +4,8 @@
 
 The **MoveInFromRight Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the right of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.
 
+*Scope*: **Project**
+
 # Attributes
 
 ![The MoveInfFromRight Node Attributes](../../.gitbook/assets/moveinfromrightattributes.png)

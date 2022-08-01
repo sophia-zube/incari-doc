@@ -4,6 +4,8 @@
 
 The **SlideInFromBottom Node** applies a **Transition** from the current **Scene** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the bottom of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the top, the latter of which disappears from view as the **Transition** ends and is replaced by the former. 
 
+*Scope*: **Project**
+
 # Attributes
 
 ![The SlideInFromBottomNode Attributes](../../.gitbook/assets/slideinfrombottomattributes.png)

@@ -6,6 +6,8 @@ The **TrimRight** **Node** trims certain chosen characters from the right side o
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "babbaac".
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The TrimRight Node Attributes.](../../.gitbook/assets/trimrightattributes.png)

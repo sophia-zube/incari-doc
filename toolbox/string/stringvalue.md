@@ -6,6 +6,8 @@
 
 The **String Value Node** returns the `Value`, or contents, of a **String**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The String Value Node Attributes.](../../.gitbook/assets/stringvalueattributes.png)

@@ -8,6 +8,8 @@ For example, padding the character "a" 6 times to the **String** "bbbbbbcccccc" 
 
 The `Padding character` **Attribute** and **Input** can receive a **String** but they only use the first character.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The PaddingLeft Node Attributes.](../../.gitbook/assets/paddingleftattributes.png)

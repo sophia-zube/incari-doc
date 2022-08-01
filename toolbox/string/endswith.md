@@ -4,6 +4,8 @@
 
 **The EndsWith Node** checks if a **String** ends with a *substring*, or `Pattern`, and returns a **Bool** of either *True* or *False*.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The EndsWith Node Attributes.](../../.gitbook/assets/endswithattributes.png)
