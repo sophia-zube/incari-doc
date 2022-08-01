@@ -6,6 +6,8 @@
 
 **On Key Press** is an **Event Listener** **Node** used for executing a **Logic Branch** when a key is pressed on a computer keyboard.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Key Press Node Attributes.](../../../.gitbook/assets/onkeypressattributes.png)

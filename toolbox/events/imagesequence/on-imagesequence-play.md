@@ -6,6 +6,8 @@
 
 **On ImageSequence Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** starts playing.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On ImageSequence Play Node Attributes.](../../../.gitbook/assets/onimagesequenceplayattributes.png)

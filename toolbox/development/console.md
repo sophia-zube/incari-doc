@@ -6,6 +6,8 @@
 
 The **Console** **Node** is used for showing a value of any **Data Type** on the **Console**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Console Node Attributes.](../../.gitbook/assets/consoleattributes.png)

@@ -6,6 +6,8 @@
 
 **On Position Change 2D** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Position** of a **2D Object** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Position Change 2D Node Attributes.](../../../.gitbook/assets/node-onpositionchange2d-attri.png)

@@ -6,6 +6,8 @@
 
 The **Dictionary Value Node** defines a **Dictionary** by setting its _\(key, value\)_ pairings.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Dictionary Value Node Attributes.](../../.gitbook/assets/dictionaryvalueattributes.png)

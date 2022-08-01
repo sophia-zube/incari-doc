@@ -6,6 +6,8 @@
 
 **On Mouse Enter** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor enters an **Object**.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Mouse Enter Node Attributes.](../../../.gitbook/assets/onmouseenterattributes.png)

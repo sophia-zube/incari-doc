@@ -6,6 +6,8 @@
 
 **On Opacity Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Opacity** value of an **Object** changes.
 
+*Scope*: **Scene**, **Prefab**
+
 ## Attributes
 
 ![The On Opacity Change Node Attributes.](../../../.gitbook/assets/onopacitychangeattributes.png)
