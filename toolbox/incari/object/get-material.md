@@ -6,6 +6,8 @@
 
 **Get Material** returns the assigned **Material** of a [**Mesh Object**](../../../objects-and-types/scene-objects/mesh.md).
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get Material Node Attributes.](../../../.gitbook/assets/node-get-material-attr.png)

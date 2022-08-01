@@ -6,6 +6,8 @@
 
 **Get Tint** returns the **Color** of the `Tint` **Attribute** of a given **Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get Tint Node Attributes.](../../../.gitbook/assets/node-get-tint-attr.png)

@@ -6,6 +6,8 @@
 
 **Get Visibility** returns a **Boolean** value indicating whether an **Object** is visible in a **Scene** or not.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get Visibility Node Attributes.](../../../.gitbook/assets/node-get-visibility-attr.png)

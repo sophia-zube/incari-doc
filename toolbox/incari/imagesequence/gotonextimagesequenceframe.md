@@ -6,6 +6,8 @@
 
 The **Go To Next ImageSequence Frame Node** moves forward to the next frame of the **ImageSequence**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Go To Next ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-go-to-next-imagesequence-frame-attr.png)

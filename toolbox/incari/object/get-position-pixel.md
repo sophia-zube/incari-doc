@@ -6,6 +6,8 @@
 
 The **Get Position 2D (px) Node** returns the X and Y values of a **2D Object's** _position_.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get Position 2D (px) Node Attributes.](../../../.gitbook/assets/node-get-position-2d-attr.png)

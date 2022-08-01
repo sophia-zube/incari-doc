@@ -6,6 +6,8 @@
 
 The **Get Current ImageSequence Frame Node** returns the current frame number of the selected **ImageSequence**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get Current ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-get-current-imagesequence-frame-attr.png)

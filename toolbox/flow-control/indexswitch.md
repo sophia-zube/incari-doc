@@ -6,6 +6,8 @@
 
 The **Index Switch Node** takes an **Int** as input and compares it to the value of`Index: value`, returning *true* or *false*. This could be used, for example, for enabling or disabling features in a *User Interface* based on the output of a function.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Index Switch Node Attributes.](../../.gitbook/assets/indexswitchattributes.png)

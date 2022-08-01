@@ -6,6 +6,8 @@
 
 **Previous List Entry** selects the previous entry item in a **List** **Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Previous List Entry Node Attributes.](../../../.gitbook/assets/node-previous-list-entry-attr.png)

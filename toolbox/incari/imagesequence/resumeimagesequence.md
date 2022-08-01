@@ -6,6 +6,8 @@
 
 The **Resume ImageSequence Node** restarts an **ImageSequence** after it has been paused or stopped.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Resume ImageSequence Node Attributes.](../../../.gitbook/assets/node-resume-imagesequence-attr.png)

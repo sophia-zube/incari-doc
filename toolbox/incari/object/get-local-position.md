@@ -4,6 +4,8 @@
 
 The **Get Local Position Node** returns the *local position* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Get Local Position Node Attributes.](../../../.gitbook/assets/node-get-local-position-attr.png)

@@ -6,6 +6,8 @@
 
 **Set Text** sets the text of a **Text** **Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set Text Node Attributes.](../../../.gitbook/assets/node-set-text-attr.png)

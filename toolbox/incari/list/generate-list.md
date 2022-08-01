@@ -6,6 +6,8 @@
 
 **Generate List** accepts a **List** **Object** and renders it to a **Scene**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Generate List Node Attributes.](../../../.gitbook/assets/node-generate-list-attr.png)

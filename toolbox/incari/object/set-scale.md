@@ -6,6 +6,8 @@
 
 **Set Scale** sets the value of a given **Object's** `Scale` **Attribute**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set Scale Node Attributes.](../../../.gitbook/assets/node-set-scale-attr.png)

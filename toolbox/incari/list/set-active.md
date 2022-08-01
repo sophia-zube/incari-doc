@@ -6,6 +6,8 @@
 
 **Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and a **Boolean** value `Is Active`. If `Is Active` is _true_, then the **List** **Object** is activated otherwise, it is deactivated.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Set Active Node Attributes.](../../../.gitbook/assets/node-set-active-attr.png)
