@@ -6,6 +6,8 @@
 
 **On MQTT Topic** is an **Event Listener Node** that executes when it receives a `Topic`.
 
+*Scope*: **Project**, **Scene**
+
 ## Attributes
 
 ![The On MQTT Topic Node Attributes.](../../../../.gitbook/assets/onmqtttopicattributes.png)

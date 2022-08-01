@@ -6,6 +6,8 @@
 
 The **CAN Start Node** starts communication with a **CAN** network.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Inputs
 
 | Input | Type | Description |
