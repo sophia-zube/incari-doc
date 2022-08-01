@@ -6,6 +6,8 @@
 
 The **MQTT Start Node** starts the **MQTT** connection.
 
+*Scope*: **Project**, **Scene**
+
 ## Attributes
 
 ![The MQTT Start Node Attributes.](../../../.gitbook/assets/mqttstartattributes.png)

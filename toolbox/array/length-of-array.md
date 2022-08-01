@@ -6,6 +6,8 @@
 
 **Length Of Array** returns the total number of elements in an **Array**.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Inputs
 
 | Input | Type | Description |

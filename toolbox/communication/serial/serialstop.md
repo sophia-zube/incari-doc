@@ -4,6 +4,8 @@
 
 The **Serial Stop Node** stops the **Serial** connection.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 # Attributes
 
 ![The Serial Stop Node Attributes.](../../../.gitbook/assets/serialstopattributes.png)

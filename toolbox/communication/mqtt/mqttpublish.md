@@ -6,6 +6,8 @@
 
 The **MQTT Publish Node** sends a message to a different location.
 
+*Scope*: **Project**, **Scene**
+
 ## Attributes
 
 ![The MQTT Publish Node Attributes.](../../../.gitbook/assets/mqttpublishattributes.png)

@@ -6,6 +6,8 @@
 
 The **CAN Stop Node** halts communication with a **CAN** network.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Inputs
 
 | Input | Type | Description |

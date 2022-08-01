@@ -6,6 +6,8 @@
 
 The **HTTP Server Stop Node** terminates the connection with an _HTTP_ server.
 
+*Scope*: **Project**, **Scene**
+
 ## Attributes
 
 ![The HTTP Server Stop Node Attributes.](../../../.gitbook/assets/httpserverstopattributes.png)

@@ -6,6 +6,8 @@
 
 **On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu** and a data **Packet** has been received.
 
+*Scope*: **Project**, **Scene**
+
 ## Attributes
 
 ![The On CAN Packet Received Node Attributes.](../../../../.gitbook/assets/oncanpacketreceivedattributes.png)

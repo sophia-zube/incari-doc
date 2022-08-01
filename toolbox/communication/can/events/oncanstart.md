@@ -6,6 +6,8 @@
 
 **On CAN Start** is an **Event Listener Node** allowing the user to perform an action once a **CAN** process has begun.
 
+*Scope*: **Project**, **Scene**
+
 ## Outputs
 
 | Output | Type | Description |

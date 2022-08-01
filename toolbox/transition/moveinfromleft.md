@@ -33,5 +33,5 @@ The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. St
 # See Also
 
 * [**MoveInFromTop**](moveinfromtop.md)
-* [**MoveInFromRight**](moveinfromright.md)
+* [**MoveinFromRight**](moveinfromright.md)
 * [**MoveInFromBottom**](moveinfrombottom.md)
