@@ -11,7 +11,7 @@ Installing **Incari Studio** is not scary or difficult. The process is explained
 Once all the preliminaries are out of the way, it's time to create! Head over to the [**First Steps**](first-steps/README.md) Section for more information on: [**Incari Hub**](first-steps/incari-hub.md), a necessary component of the **Incari** experience that organizes and maintains
 your projects; [**creating a Project**](first-steps/creating-a-project.md) for the first time; and a quick guide of the [**Incari Studio**](first-steps/incari-studio.md) *Interface*. 
 
-We wish you well on your journey using **Incari Studio**
+We wish you well on your journey using **Incari Studio**.
 
 # Contents
 
