@@ -6,6 +6,8 @@
 
 The **Arc Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arctangent_.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Arc Tangent Node Attributes.](../../../.gitbook/assets/node-arc-tangent2-attr.png)

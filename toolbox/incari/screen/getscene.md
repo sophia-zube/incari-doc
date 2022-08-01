@@ -4,6 +4,8 @@
 
 The **Get Scene Node** returns the current **Scene** of a chosen **Screen**.
 
+*Scope*: **Project**
+
 # Attributes
 
 ![The Get Scene Node Attributes](../../../.gitbook/assets/getscenenodeattributes.png)

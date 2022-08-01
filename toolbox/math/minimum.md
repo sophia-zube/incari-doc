@@ -8,6 +8,8 @@
 
 In case of **Vectors**, it compares the values by component and returns them separately.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Minimum Node Attributes.](../../.gitbook/assets/node-minimum2-attr.png)

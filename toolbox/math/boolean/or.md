@@ -15,6 +15,8 @@ This is the equivalent of the `||` operator in computer programming.
 | False | True | True |
 | False | False | False |
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Or Node Attributes.](../../../.gitbook/assets/node-or2-attr.png)

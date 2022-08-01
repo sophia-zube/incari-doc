@@ -6,6 +6,8 @@
 
 The **Bool Value** **Node** stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and retrieved at runtime.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Bool Value Node Attributes.](../../../.gitbook/assets/node-bool-value2-attr.png)

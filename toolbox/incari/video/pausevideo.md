@@ -6,6 +6,8 @@
 
 The **Pause Video** **Node** can be used to pause a video file already playing during the session. This can be specified through the file library to the right, or as an **Object** already in use from a **Scene**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Pause Video Node Attributes.](../../../.gitbook/assets/node-pause-video-attr.png)

@@ -15,6 +15,8 @@ This is the equivalent of the modulo \(`%`\) operation in computer science.
 | 540 | 360 | 1 | 180 |
 | 15 | 12 | 1 | 3 |
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Modulo Node Attributes.](../../.gitbook/assets/node-modulo2-attr.png)

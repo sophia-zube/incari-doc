@@ -6,6 +6,8 @@
 
 The **Get ArcStart Node** returns the starting _arc degree_ of an **Arc Object**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get ArcStart Node Attributes.](../../../../.gitbook/assets/node-get-arcstart-attr.png)

@@ -15,6 +15,8 @@ In the event that `Input` is outside of the reference \(input\) range, `Clamp` d
 | 1.5 | 0-1 | 0-360 | ✔ | 360 |
 | 1.5 | 0-1 | 0-360 | ✖ | 540 |
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Range Mapper Node Attributes.](../../.gitbook/assets/node-range-mapper2-attr.png)

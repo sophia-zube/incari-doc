@@ -13,6 +13,8 @@ This is used to mean _NOT_ and is the equivalent of the `!` operator in computer
 | True | False |
 | False | True |
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Inputs
 
 | Input | Type | Description |

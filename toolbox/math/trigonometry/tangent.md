@@ -6,6 +6,8 @@
 
 The **Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _tangent_.
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Tangent Node Attributes.](../../../.gitbook/assets/node-tangent2-attr.png)

@@ -6,6 +6,8 @@
 
 The **Get LineWidth Node** returns the **LineWidth** of a **Line Object** created in the **Scene Outliner Module** under **Vector**.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Get LineWidth Node Attributes.](../../../../.gitbook/assets/node-getlinewidth-attr.png)

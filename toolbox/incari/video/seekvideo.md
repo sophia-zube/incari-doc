@@ -6,6 +6,8 @@
 
 The **Seek Video** **Node** can be used to move to a certain timeframe of a specified video by providing a variable for the `Frame Number`.
 
+*Scope*: **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The Seek Video Node Attributes.](../../../.gitbook/assets/node-seek-video-attr.png)
