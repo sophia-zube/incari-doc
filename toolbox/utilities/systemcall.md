@@ -6,6 +6,8 @@
 
 The **SystemCall Node** allows the user to use any commands provided by the operating system \(i.e. _Windows_, _Linux_, etc.\).
 
+*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+
 ## Attributes
 
 ![The SystemCall Node Attributes.](../../.gitbook/assets/node-systemcall2-attr.png)
