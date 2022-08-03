@@ -2,7 +2,7 @@
 
 **Modules** compartmentalize the critical components of **Incari Studio**; these make up its *Interface*. They can be found under the `View` tab of the top menu. 
 
-The usefulness of **Modules** is apparent, as they keep **Incari Studio** organized and customizable. It is possible to change the types of **Modules** visible in the *Interface* and to alter their placement based on personal preference. Check out the *Table of Contents* for further information on each **Module**. 
+The usefulness of **Modules** is evident, as they keep **Incari Studio** organized and customizable. It is possible to change the types of **Modules** visible in the *Interface* and to alter their placement based on personal preference. Check out the *Table of Contents* for further information on each **Module**. 
 
 # Contents
 

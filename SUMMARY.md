@@ -68,6 +68,7 @@
 
 ## Modules
 
+* [Overview](modules/overview.md)
 * [Asset Manager](modules/asset-manager.md)
 * [Animation Editor](modules/animation-editor.md)
 * [Attribute Editor](modules/attribute-editor.md)
