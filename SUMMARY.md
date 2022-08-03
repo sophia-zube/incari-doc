@@ -22,6 +22,7 @@
   
 ## Objects and Types
 
+* [Overview](objects-and-types/overview.md)
 * [Project Objects](objects-and-types/project-objects/README.md)
   * [Scene](objects-and-types/project-objects/scene.md)
   * [Screen](objects-and-types/project-objects/screen.md)
