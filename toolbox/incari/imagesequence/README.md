@@ -6,17 +6,17 @@ The **ImageSequence Nodes** provide a means for the user to perform certain acti
 
 ## Contents
 
-* [Get Current ImageSequence Frame](getcurrentimagesequenceframe.md)
-* [Get ImageSequence Duration](getimagesequenceduration.md)
-* [Get ImageSequence FPS](getimagesequencefps.md)
-* [Get ImageSequence Total Frames](getimagesequencetotalframes.md)
-* [Go To Next ImageSequence Frame](gotonextimagesequenceframe.md)
-* [Go To Previous ImageSequence Frame](gotopreviousimagesequenceframe.md)
-* [Pause ImageSequence](pauseimagesequence.md)
-* [Play ImageSequence](playimagesequence.md)
-* [Resume ImageSequence](resumeimagesequence.md)
-* [Show ImageSequence Frame](showimagesequenceframe.md)
-* [Stop ImageSequence](stopimagesequence.md)    
+* [**Get Current ImageSequence Frame**](getcurrentimagesequenceframe.md)
+* [**Get ImageSequence Duration**](getimagesequenceduration.md)
+* [**Get ImageSequence FPS**](getimagesequencefps.md)
+* [**Get ImageSequence Total Frames**](getimagesequencetotalframes.md)
+* [**Go To Next ImageSequence Frame**](gotonextimagesequenceframe.md)
+* [**Go To Previous ImageSequence Frame**](gotopreviousimagesequenceframe.md)
+* [**Pause ImageSequence**](pauseimagesequence.md)
+* [**Play ImageSequence**](playimagesequence.md)
+* [**Resume ImageSequence**](resumeimagesequence.md)
+* [**Show ImageSequence Frame**](showimagesequenceframe.md)
+* [**Stop ImageSequence**](stopimagesequence.md)    
 
 ## See Also
 
