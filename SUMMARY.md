@@ -233,7 +233,7 @@
     * [On Javascript Callback](toolbox/events/web/on-javascript-callback.md)
   * [WebSprite](toolbox/events/websprite/README.md)
     * [On WebSprite Load](toolbox/events/websprite/on-websprite-load.md)
-    * [On WebSprite Remote URL Changed](toolbox/events/websprite/on-websprite-remote-url-changed.md)
+    * [On WebSprite Remote URL Change](toolbox/events/websprite/on-websprite-remote-url-changed.md)
 * [Flow Control](toolbox/flow-control/README.md)
   * [Branch](toolbox/flow-control/branch.md)
   * [For Each Loop](toolbox/flow-control/foreachloop.md)
