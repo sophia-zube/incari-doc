@@ -5,10 +5,14 @@ The **Serial** **Nodes** allow the user to connect with USB and GPS devices such
 
 # Contents
 
+* [**Events**](events/)
+  * [**On Serial Error**](events/onserialerror.md)
+  * [**On Serial Packet Receive**](events/onserialpacketreceive.md)
+  * [**On Serial Start**](events/onserialstart.md)
+  * [**On Serial Stop**](events/onserialstop.md)
+* [**Serial Send Packet**](serialsendpacket.md)
 * [**Serial Start**](serialstart.md)
 * [**Serial Stop**](serialstop.md)
-* [**Serial Send Packet**](serialsendpacket.md)
-* [**Events**](events/)
 
 
 # External Links

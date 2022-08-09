@@ -7,10 +7,13 @@ The **CAN Nodes** provide a means for the user to perform several actions within
 
 ## Contents
 
-* [**Events**](events/)
+* [**CAN Send Packet**](cansendpacket.md)
 * [**CAN Start**](canstart.md)
 * [**CAN Stop**](canstop.md)
-* [**CAN Send Packet**](cansendpacket.md)
+* [**Events**](events/)
+  * [**On CAN Packet Received**](events/oncanpacketreceived.md)
+  * [**On Can Start**](events/oncanstart.md)
+  * [**On Can Stop**](events/oncanstop.md)
 
 ## External Links
 
