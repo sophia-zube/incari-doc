@@ -6,7 +6,8 @@
 
 **On HTTP Route** is an **Event Listener Node** that executes when a `Route` is received and returns the data defined by the outputs.
 
-*Scope*: **Project**, **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**
 
 ## Attributes
 

@@ -6,7 +6,8 @@
 
 The **RotateBy Action Node** continuously rotates an **Object** by the *Euler angles* values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

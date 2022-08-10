@@ -8,7 +8,8 @@
 
 The number, type, and default value of the **Input** parameters can be set in the **Event** **Attributes**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Inputs
 

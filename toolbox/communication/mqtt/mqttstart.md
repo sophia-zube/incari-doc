@@ -6,7 +6,8 @@
 
 The **MQTT Start Node** starts the **MQTT** connection.
 
-*Scope*: **Project**, **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**
 
 ## Attributes
 

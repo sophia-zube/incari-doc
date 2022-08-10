@@ -6,7 +6,8 @@
 
 **On Variable Change** is an **Event Listener Node** used for executing a **Logic Branch** when the value of the corresponding **Variable** changes.
 
-*Scope*: **Project**, **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Prefab**
 
 ## Outputs
 

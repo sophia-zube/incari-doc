@@ -6,7 +6,8 @@
 
 **Get Array Element** is used for accessing elements in an **Array**. The **Node** accepts an **Array** and the _index/indices_ of the desired element/s in the **Array** and returns the desired element/s and the **Array** itself.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

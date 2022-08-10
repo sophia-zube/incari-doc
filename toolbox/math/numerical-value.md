@@ -6,7 +6,8 @@
 
 The **Numerical Value** **Node** generates a number, which can either be an **Int**, **Float**, or **Byte**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

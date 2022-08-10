@@ -4,7 +4,8 @@
 
 The **Set Local Rotation Node** sets the value of a given **Object's** local `Rotation` **Attribute**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 # Attributes
 

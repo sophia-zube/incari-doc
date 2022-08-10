@@ -4,7 +4,8 @@
 
 The **Is Object 3D Node** returns a **Bool**, depending on whether the input **Object** is *3D* or not. 
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 # Attributes
 

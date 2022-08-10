@@ -4,7 +4,8 @@
 
 The **Capitalize Node** capitalizes a **String**, converting the first character to uppercase. If the **Bool** `All words` is set to *True*, the **Node** capitalizes every word in the **String**. 
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

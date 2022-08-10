@@ -6,7 +6,8 @@
 
 The **MoveBy Action Node** continuously modifies the `Position` of an **Object** by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

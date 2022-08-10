@@ -6,7 +6,8 @@ The **Reverse** **Node** takes a **String** and reverses it.
 
 For example, if the **Input** is "dog", the **Output** will be "god".
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

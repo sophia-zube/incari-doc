@@ -8,7 +8,8 @@
 
 This is the equivalent of the division \(`÷` or `/`\) operation in computer science and mathematics.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

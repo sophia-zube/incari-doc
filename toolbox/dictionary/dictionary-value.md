@@ -6,7 +6,8 @@
 
 The **Dictionary Value Node** defines a **Dictionary** by setting its _\(key, value\)_ pairings.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

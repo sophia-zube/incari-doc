@@ -4,7 +4,8 @@
 
 The **MoveInFromBottom** **Node** creates a **Transition** from the current **Scene** to a chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the bottom of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
 
-*Scope*: **Project**
+[**Scope**](../overview.md#scopes):
+*  **Project**
 
 # Attributes
 

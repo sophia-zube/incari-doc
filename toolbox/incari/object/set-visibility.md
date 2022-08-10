@@ -6,7 +6,8 @@
 
 **Set Visibility** makes an **Object** either visible or not visible in a **Scene**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

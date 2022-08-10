@@ -6,7 +6,8 @@
 
 The **Is Data Type Node** returns *true* or *false* depending on whether or not the input matches the `Data Type`.
 
-*Scope*: **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**
 
 ## Attributes
 

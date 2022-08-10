@@ -6,7 +6,8 @@
 
 **On List Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **List** is loaded.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

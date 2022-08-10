@@ -6,7 +6,8 @@
 
 **On Rotation Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Rotation** of a **2D Object** changes.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

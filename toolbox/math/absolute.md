@@ -6,7 +6,8 @@
 
 **Absolute** takes a single numerical value and converts any negative value \(per component\) to its absolute/non-negative equivalent.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

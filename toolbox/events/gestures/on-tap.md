@@ -6,7 +6,8 @@
 
 **On Tap** is an **Event Listener** **Node** used for executing a **Logic Branch** after a tap on an **Object**.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

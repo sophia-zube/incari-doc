@@ -6,7 +6,8 @@
 
 The **Play ImageSequence Node** starts and plays through an **ImageSequence** at the specified time frames.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

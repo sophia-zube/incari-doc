@@ -6,7 +6,8 @@
 
 **On Key Release** is an **Event Listener** **Node** used for executing a **Logic Branch** when a key is released on a computer keyboard.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

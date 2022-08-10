@@ -4,7 +4,8 @@
 
 The **On On-Screen Keyboard Key Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when any key on the **On-Screen Keyboard** is pressed.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 # Attributes
 

@@ -6,7 +6,8 @@
 
 The **MQTT Publish Node** sends a message to a different location.
 
-*Scope*: **Project**, **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**
 
 ## Attributes
 

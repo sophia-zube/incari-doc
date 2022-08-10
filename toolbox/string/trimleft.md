@@ -6,7 +6,8 @@ The **TrimLeft** **Node** trims certain chosen characters from the left side of 
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "cababa".
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

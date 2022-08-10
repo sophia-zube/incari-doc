@@ -8,7 +8,8 @@
 
 Note that the **Arrays** that are to be merged by this **Node** are not sorted.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

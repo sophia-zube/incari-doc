@@ -6,7 +6,8 @@
 
 The **Profiler Start** **Node** marks the start of a **Profiler Block** that will be analyzed in the **Profiler View**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

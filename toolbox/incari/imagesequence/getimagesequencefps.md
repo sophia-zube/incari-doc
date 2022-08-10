@@ -6,7 +6,8 @@
 
 The **Get ImageSequence FPS Node** returns the frame rate of the **ImageSequence**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

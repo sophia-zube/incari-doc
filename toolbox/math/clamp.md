@@ -14,7 +14,8 @@
 | -270 | -180 | 180 | -180 |
 | \(-20, 1100\) | \(0, 0\) | \(1920, 1080\) | \(0, 1080\) |
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

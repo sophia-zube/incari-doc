@@ -6,7 +6,8 @@
 
 **Clear Array** accepts an input **Array** and proceeds to remove and delete all elements contained in it. After that the **Node** outputs the emptied **Array** with a size of 0.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Inputs
 

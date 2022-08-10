@@ -6,7 +6,8 @@
 
 **On Video Finish** is an **Event Listener Node** that gives the user a way to perform an action once a video ends, such as repeating the video. The video can be added through the file library to the right.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

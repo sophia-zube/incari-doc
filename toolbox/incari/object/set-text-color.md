@@ -4,7 +4,8 @@
 
 The **Set Text Color Node** sets, or changes, the **Color** of a **Text Object**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 # Attributes
 

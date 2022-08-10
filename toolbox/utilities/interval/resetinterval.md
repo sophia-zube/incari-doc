@@ -8,7 +8,8 @@ The **Reset Interval Node** resets an existing **Interval** by taking the **Inst
 
 For example, if an **Interval** was started twice -- where *A* is printed to the **Console** every 5 seconds -- *A* will keep printing until the **Reset Interval** is triggered twice as well. Simply put, triggering it only once will not stop the second **Interval**.  
 
-*Scope*: **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**
 
 ## Inputs
 

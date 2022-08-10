@@ -6,7 +6,8 @@
 
 The **Array Value** **Node** defines an **Array** by setting its elements.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

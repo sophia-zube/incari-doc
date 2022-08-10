@@ -6,7 +6,8 @@
 
 The **HTTP Response Node** allows the user to define a response to be sent after a request is made.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

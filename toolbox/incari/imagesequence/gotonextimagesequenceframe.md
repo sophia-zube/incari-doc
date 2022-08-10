@@ -6,7 +6,8 @@
 
 The **Go To Next ImageSequence Frame Node** moves forward to the next frame of the **ImageSequence**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

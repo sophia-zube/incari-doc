@@ -6,7 +6,8 @@
 
 The **Benchmark Start** **Node** starts a timer with a name given in the **Attributes**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

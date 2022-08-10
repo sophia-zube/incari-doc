@@ -6,7 +6,8 @@
 
 **Power** performs an _exponentiation operation_, meaning that it multiplies the `Base` value against itself _n_ times, with _n_ being defined by `Exponent`.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 
