@@ -6,7 +6,8 @@
 
 The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

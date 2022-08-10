@@ -6,7 +6,8 @@
 
 The **Console** **Node** is used for showing a value of any **Data Type** on the **Console**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

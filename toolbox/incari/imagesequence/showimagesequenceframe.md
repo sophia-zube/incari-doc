@@ -6,7 +6,8 @@
 
 **Show ImageSequence Frame** displays the frame at the selected index.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

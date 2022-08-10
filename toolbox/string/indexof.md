@@ -6,7 +6,8 @@ The **IndexOf** **Node** returns the index of the first occurrence of a *substri
 
 The range in which the *substring* will be searched can be customized via the `StartIndex` and `EndIndex` **Attributes**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 
 # Attributes

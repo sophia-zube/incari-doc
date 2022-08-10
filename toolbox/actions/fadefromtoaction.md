@@ -6,7 +6,8 @@
 
 The **FadeFromTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 ## Attributes
 
 ![The FadeFromTo Action Node Attributes.](../../.gitbook/assets/fadefromtoactionattributes.png)

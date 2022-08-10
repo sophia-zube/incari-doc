@@ -6,7 +6,8 @@
 
 The **Set RectangleCorners Node** sets the **Corners** of a **Rectangle Object** created in the **Scene Outliner Module** under **Vector**. **Corners** are **Vector2** type **Variables**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

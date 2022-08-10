@@ -6,7 +6,8 @@
 
 **Set Scale** sets the value of a given **Object's** `Scale` **Attribute**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

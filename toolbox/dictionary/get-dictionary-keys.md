@@ -6,7 +6,8 @@
 
 The **Get Dictionary Keys** **Node** takes a **Dictionary** as **Input** and yields its set of `Keys` as an **Array**. It also outputs the received **Dictionary**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Inputs
 

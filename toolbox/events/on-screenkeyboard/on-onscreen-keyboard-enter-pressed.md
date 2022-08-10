@@ -4,7 +4,8 @@
 
 The **On On-Screen Keyboard Enter Pressed** **Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when `Enter` is pressed on an **On-Screen Keyboard**.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 # Attributes
 

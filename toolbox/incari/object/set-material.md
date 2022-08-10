@@ -6,7 +6,8 @@
 
 **Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../objects-and-types/scene-objects/mesh.md).
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

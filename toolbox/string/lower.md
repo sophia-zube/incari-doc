@@ -4,7 +4,8 @@
 
 The **Lower** **Node** converts a **String** to lowercase letters.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

@@ -8,7 +8,8 @@ This **Node** is useful for when data needs to be presented within a text. For e
 
 A more detailed description of [format specifiers](#format-specifiers) and [usage examples of the **Node**](#usage-examples) can be found below.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 
 # Attributes

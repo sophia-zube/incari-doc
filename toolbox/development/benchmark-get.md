@@ -6,7 +6,8 @@
 
 The **Benchmark Get** **Node** retrieves the time on a timer. When it is executed, it prints the time on the **Console** and outputs the value in milliseconds as a **String**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

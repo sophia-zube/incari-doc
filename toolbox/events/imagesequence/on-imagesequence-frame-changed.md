@@ -6,7 +6,8 @@
 
 **On ImageSequence Frame Changed** is an **Event Listener** **Node** used for executing a **Logic Branch** when the frame of an **Image Sequence** changes.
 
-*Scope*: **Scene**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Prefab**
 
 ## Attributes
 

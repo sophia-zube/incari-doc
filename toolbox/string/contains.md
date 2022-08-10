@@ -4,7 +4,8 @@
 
 The **Contains** **Node** receives two **Strings** and checks whether one is a *substring* of the other. It outputs the result as a **Boolean**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

@@ -8,7 +8,8 @@
 
 It is comparable to the `++` operator in computer science, except for the fact that the _increment step_ varies, instead of being fixed at 1.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

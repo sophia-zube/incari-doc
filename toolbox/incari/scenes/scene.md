@@ -6,7 +6,8 @@ The **Scene** **Node** gives the **Scene ID** of its corresponding **Scene**.
 
 For each **Scene** in the **Project**, there is a **Scene** **Node** with the **Scene** name. 
 
-*Scope*: **Project**
+[**Scope**](../overview.md#scopes):
+*  **Project**
 
 # Attributes
 

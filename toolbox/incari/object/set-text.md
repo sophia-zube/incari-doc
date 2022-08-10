@@ -6,7 +6,8 @@
 
 **Set Text** sets the text of a **Text** **Object**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

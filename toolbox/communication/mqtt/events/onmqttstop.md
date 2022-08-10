@@ -6,7 +6,8 @@
 
 **On MQTT Stop** is an **Event Listener Node** that gives the user a way to perform an action once a **MQTT** connection is disconnected.
 
-*Scope*: **Project**, **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**
 
 ## Attributes
 

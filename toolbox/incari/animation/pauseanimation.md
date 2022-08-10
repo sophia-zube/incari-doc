@@ -6,7 +6,8 @@
 
 **Pause Animation** is an **Animation** **Node** used to pause an **Animation** already playing. It receives as input the [**Instance ID**](README.md#instance-id) of the **Animation** to be paused.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 
 ## Inputs

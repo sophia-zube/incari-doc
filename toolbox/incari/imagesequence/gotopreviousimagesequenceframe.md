@@ -6,7 +6,8 @@
 
 The **Go To Previous ImageSequence Frame Node** moves backwards to the previous frame of the **ImageSequence**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 ## Attributes
 
 ![The Go To Previous ImageSequence Frame Node Attributes.](../../../.gitbook/assets/node-go-to-previous-imagesequence-frame-attr.png)

@@ -4,7 +4,8 @@
 
 The **Upper** **Node** converts a **String** to uppercase letters.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 

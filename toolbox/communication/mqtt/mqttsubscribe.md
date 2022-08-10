@@ -6,7 +6,8 @@
 
 The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value pair.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

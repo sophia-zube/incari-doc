@@ -6,7 +6,8 @@
 
 The **Start Timeout Node** delays the execution of a **Node**.
 
-*Scope*: **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**
 
 ## Attributes
 

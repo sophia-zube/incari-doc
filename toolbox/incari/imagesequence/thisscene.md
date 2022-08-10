@@ -6,7 +6,8 @@
 
 The **This Scene Node** provides the ID of the current **Scene** being worked on.
 
-*Scope*: **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Scene**
 
 ## Outputs
 

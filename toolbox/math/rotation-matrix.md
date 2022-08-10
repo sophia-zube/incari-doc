@@ -6,7 +6,8 @@
 
 The **Rotation Matrix** **Node** receives three angles as inputs and generates a **Matrix4x4** that represents a _rotation_ along the X, Y, and Z axes in the received angles.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

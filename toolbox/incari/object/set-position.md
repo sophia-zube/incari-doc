@@ -6,7 +6,8 @@
 
 **Set Position** sets the value of a given **Object**'s `Position` **Attribute**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

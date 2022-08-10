@@ -6,7 +6,8 @@
 
 The **HTTP Server Stop Node** terminates the connection with an _HTTP_ server.
 
-*Scope*: **Project**, **Scene**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**
 
 ## Attributes
 

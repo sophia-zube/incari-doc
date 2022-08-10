@@ -6,7 +6,8 @@
 
 The **Vector Value** **Node** generates a **Vector**. It can either be a **Vector2**, **Vector3**, or **Vector4**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

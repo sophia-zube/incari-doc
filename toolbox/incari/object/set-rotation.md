@@ -6,7 +6,8 @@
 
 **Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

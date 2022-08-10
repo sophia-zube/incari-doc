@@ -6,7 +6,8 @@
 
 The **Set BackgroundColor Node** sets the **BackgroundColor** of the target **Vector Object**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

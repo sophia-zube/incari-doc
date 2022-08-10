@@ -6,7 +6,8 @@
 
 **Get Visibility** returns a **Boolean** value indicating whether an **Object** is visible in a **Scene** or not.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

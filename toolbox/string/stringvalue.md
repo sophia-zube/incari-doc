@@ -6,7 +6,8 @@
 
 The **String Value Node** returns the `Value`, or contents, of a **String**.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

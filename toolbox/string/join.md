@@ -8,7 +8,8 @@ The **Join Node** joins several **Strings** into one. For this, it receives an *
 
 For instance, having the **Array** `[uno, dos, tres, cuatro, cinco]` and a semicolon separator (`;`) as inputs generates the **String** `uno;dos;tres;cuatro;cinco`. 
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 # Attributes
 ![The Join Node Attributes.](../../.gitbook/assets/joinattributes.png)

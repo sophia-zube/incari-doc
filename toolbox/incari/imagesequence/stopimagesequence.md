@@ -6,7 +6,8 @@
 
 The **Stop ImageSequence Node** ends an **ImageSequence** already playing during a session.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

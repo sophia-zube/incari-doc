@@ -6,7 +6,8 @@
 
 The **Is Object Type Node** returns *true* or *false* depending on whether or not the input **Object** matches the `Object Type`.
 
-*Scope*: **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**
 
 ## Attributes
 

@@ -6,7 +6,8 @@
 
 **Generate List** accepts a **List** **Object** and renders it to a **Scene**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

@@ -8,7 +8,8 @@
 
 This is the equivalent of the multiplication \(`*` or `x`\) operation in computer science and mathematics.
 
-*Scope*: **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**, **Prefab**
 
 ## Attributes
 

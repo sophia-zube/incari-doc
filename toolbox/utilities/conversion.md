@@ -6,7 +6,8 @@
 
 The **Conversion Node** allows the user to convert one **Data Type** into another. With certain **Nodes** the **Conversion Node** appears automatically when two **Nodes** are connected.
 
-*Scope*: **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes):
+*  **Project**, **Scene**, **Function**
 
 ## Attributes
 

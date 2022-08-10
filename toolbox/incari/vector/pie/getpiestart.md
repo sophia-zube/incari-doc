@@ -6,7 +6,8 @@
 
 The **Get PieStart Node** returns the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
-*Scope*: **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes):
+*  **Scene**, **Function**, **Prefab**
 
 ## Attributes
 
