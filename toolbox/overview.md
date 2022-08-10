@@ -1,11 +1,11 @@
-# Toolbox
+# Overview
 
-## Introduction
 
-The **Toolbox** in **Incari** holds all the possible **Nodes** a user can implement. These **Nodes** are the driving force of any **Incari Project** as they provide the necessary **Logic** to make **Projects** perform. They can all be found in the [**Logic Editor**](../modules/logic-editor.md). Here, there are a few things to specify.
+The **Toolbox** in **Incari** holds all the possible **Nodes** a user can implement. These [**Nodes**](../modules/logic-editor.md#nodes) are the driving force of any **Incari Project** as they provide the necessary **Logic** to make **Projects** perform. They can all be found in the [**Logic Editor**](../modules/logic-editor.md). Here, there are a few things to specify.
+
 ### Scopes
 
-The **Logic Editor** can have several tabs. On start, it will show a **Project** tab and a tab with the name of the current **Scene**. It is also possible to have a tab for **Functions** or **Prefabs**. These tabs decide what **Nodes** are available within that specific interface, or scope. The *Table of Contents* below is broken down into these four tab types and gives all the **Nodes** available in each with links to their documentation.
+The **Logic Editor** can have several tabs. On start, it will show a [**Project**](../modules/project-outliner.md) tab and a tab with the name of the current [**Scene**](../objects-and-types/project-objects/scene.md). It is also possible to have a tab for **Functions** or [**Prefabs**](../objects-and-types/prefabs/README.md). These tabs decide what **Nodes** are available within that specific _Interface_, or **Scope**. The *Table of Contents* below is broken down into these four tab types and gives all the **Nodes** available in each with links to their documentation.
 
 ## Contents
 
