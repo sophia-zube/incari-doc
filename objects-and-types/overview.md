@@ -1,10 +1,10 @@
 # Overview
 
-Without **Objects** and **Types** in **Incari**, users would not be able to create the dynamic and scalable **Projects** that are currently possible. They are the bread and butter of *User Interfaces* in **Incari**. 
+**Objects** and **Types** in **Incari** are the tools available for users to create the dynamic and scalable **Projects** that are currently possible. They are the bread and butter of *User Interfaces* in **Incari**. 
 
 These include **Objects** such as **Lights**, **Texts**, different **2D** and **3D** shapes, and more. They are explained in more detail on their own respective pages, the *Table of Contents* of which can be found below. Applying a mixture of the **Objects** available in **Incari** amplifies the functionality of a **Project**; these **Objects** have been created in order to anticipate the needs of the user when developing *HMIs*.
 
-Similary, **Objects** have different **Attributes**, which allow one to customize them. These **Attributes** cover a variety of properties and one of them encompasses another class of items in **Incari**: **Data Types**. These **Data Types** enable one to pass information from an **Object** to its **Logic** and can be read into more detail in its own section. 
+Similarly, **Objects** have different **Attributes**, which allow one to customize them. These **Attributes** cover a variety of properties and one of them encompasses another class of items in **Incari**: **Data Types**. These **Data Types** enable one to pass information from an **Object** to its **Logic** and can be read into more detail in its own section. 
 
 All **Objects** can be turned into **Prefabs**. A **Prefab** is made up of several **Objects** that can be instantiated multiple times. Each of these **Instances** acts like a single **Object** and can retain unique properties via overrides. Find out more in the **Prefab** section. 
 

@@ -6,7 +6,8 @@
 
 The **Delay Action Node** delays the **Pulse Flow** for the specified duration \(in seconds\). 
 
-*Scope*: **Scene**, **Function**, **Prefab**
+|[**Scopes**](../overview.md#scopes)| **Scene**, **Function**, **Prefab**. |
+| :--- | :---|
 
 ## Attributes
 
