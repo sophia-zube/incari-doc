@@ -4,8 +4,7 @@
 
 The **Get Local Rotation Node** returns the *local rotation* of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

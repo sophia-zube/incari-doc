@@ -12,8 +12,7 @@ When an **Animation** starts playing, an [**Instance ID**](README.md#instance-id
 
 It is also possible to [reuse an **Animation** with a different **Object**](#reusing-an-animation).
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ### Attributes
 

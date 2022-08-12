@@ -8,8 +8,7 @@ The **Sequential Node** generates a user-defined number of **Output Pulses**, an
 
 They are used primarily as a means of grouping and organizing blocks of **Logic** with a similar or combined purpose into a more visually readable way.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

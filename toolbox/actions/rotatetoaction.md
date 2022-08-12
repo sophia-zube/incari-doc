@@ -6,8 +6,7 @@
 
 The **RotateTo Action Node** continuously rotates an **Object** to the *Euler angles* specified in `To` for a given period of time, thus creating an **Animation**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

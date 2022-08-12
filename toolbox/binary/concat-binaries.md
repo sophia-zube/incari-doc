@@ -6,8 +6,7 @@
 
 **Concat Binaries** merges two or more **Binary** numbers into a new one. The numbers to be merged are given as input to the **Node**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

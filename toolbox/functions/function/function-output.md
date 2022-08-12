@@ -6,6 +6,8 @@
 
 In the **Function's** **Logic Graph**, the **Function Output** **Node** finishes the **Logic Branch** and receives the parameter that the **Function** **Node** will return.
 
+[**Scope**](../../overview.md#scopes): **Function**. 
+
 ## Attributes
 
 ![The Function Output Node Attributes.](../../../.gitbook/assets/functionoutputattributes.png)

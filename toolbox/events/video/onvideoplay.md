@@ -6,8 +6,7 @@
 
 **On Video Play** is an **Event Listener Node** that gives the user a way to perform an action once a video begins, such as fading to black. The video can be added through the file library to the right.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 

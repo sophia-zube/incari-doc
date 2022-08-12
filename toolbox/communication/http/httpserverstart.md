@@ -6,8 +6,7 @@
 
 The **HTTP Server Start Node** starts communication with a server that has already been set up in **Project Settings**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
 

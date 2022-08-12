@@ -6,8 +6,7 @@
 
 **On List Entry Select** is an **Event Listener** **Node** used for executing a **Logic Branch** when an entry of a **List** is selected.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 

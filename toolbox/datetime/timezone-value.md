@@ -6,8 +6,7 @@
 
 **Timezone Value** returns the offset of a timezone, relative to [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) \(UTC\).
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

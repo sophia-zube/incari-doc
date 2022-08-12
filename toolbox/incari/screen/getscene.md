@@ -4,8 +4,7 @@
 
 The **Get Scene Node** returns the current **Scene** of a chosen **Screen**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**
+[**Scope**](../../overview.md#scopes): **Project**.
 
 # Attributes
 

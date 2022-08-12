@@ -6,8 +6,7 @@
 
 **On ImageSequence Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** is stopped.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 

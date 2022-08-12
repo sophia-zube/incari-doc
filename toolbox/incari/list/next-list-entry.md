@@ -6,8 +6,7 @@
 
 **Next List Entry** selects the next entry item in a **List** **Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

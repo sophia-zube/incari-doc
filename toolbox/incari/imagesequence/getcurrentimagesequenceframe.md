@@ -6,8 +6,7 @@
 
 The **Get Current ImageSequence Frame Node** returns the current frame number of the selected **ImageSequence**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

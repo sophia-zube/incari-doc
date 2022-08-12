@@ -6,8 +6,7 @@
 
 **Previous List Entry** selects the previous entry item in a **List** **Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

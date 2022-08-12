@@ -6,8 +6,7 @@
 
 The **Resume ImageSequence Node** restarts an **ImageSequence** after it has been paused or stopped.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

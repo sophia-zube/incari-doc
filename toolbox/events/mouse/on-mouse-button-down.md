@@ -6,8 +6,7 @@
 
 **On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed on an **Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 

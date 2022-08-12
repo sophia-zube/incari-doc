@@ -6,8 +6,7 @@
 
 **On HTTP Server Stop** is an **Event Listener Node** allowing the user to perform an action once a connection to an **HTTP** server has been terminated.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
 

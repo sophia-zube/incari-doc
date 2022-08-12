@@ -4,8 +4,7 @@
 
 The **Get Global Position Node** returns the global coordinates (in reference to the origin)  for a **3D Object's** *global position* in **Vector3** form.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

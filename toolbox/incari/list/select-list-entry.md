@@ -6,8 +6,7 @@
 
 **Select List Entry** selects an entry item in a **List** **Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

@@ -6,8 +6,7 @@
 
 The **Get ImageSequence Duration Node** returns the total runtime \(in seconds\) of the **ImageSequence**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

@@ -4,6 +4,8 @@
 
 The **On-Screen Keyboard Clear Input Node** clears whatever was previously inputted into the **On-Screen Keyboard**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The On-Screen Keyboard Clear Input Node Attributes.](../../../.gitbook/assets/node-onscreen-keyboard-clear-input-attr.png)

@@ -6,8 +6,7 @@
 
 The **Get Dictionary Values** **Node** takes a **Dictionary** as **Input** and yields its set of `Values`. It also outputs the received **Dictionary**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Inputs
 

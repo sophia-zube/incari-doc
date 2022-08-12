@@ -4,8 +4,7 @@
 
 The **Serial Send Packet Node** is used to send a data **Packet** after selecting a **Serial Communication** connection from the **Drop-down Menu**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

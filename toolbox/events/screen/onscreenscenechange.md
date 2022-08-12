@@ -4,8 +4,7 @@
 
 The **On Screen Scene Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Scene** of a **Screen** is changed. The returned ID is that of the final **Scene**. 
 
-[**Scope**](../overview.md#scopes):
-*  **Project**
+[**Scope**](../../overview.md#scopes): **Project**.
 
 # Attributes
 

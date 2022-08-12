@@ -8,8 +8,7 @@
 
 For more information about _formatting strings_, please see the external links at the [bottom of this page](date-time-formatter.md#external-links).
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 
