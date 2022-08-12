@@ -6,8 +6,7 @@
 
 The **Get LabelText Node** returns the **LabelText** of a **Label Object** created in the **Scene Outliner Module** under **Vector**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

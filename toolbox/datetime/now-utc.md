@@ -6,8 +6,7 @@
 
 **Now \(UTC\)** is used for getting the current [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) in Unix Time.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Inputs
 

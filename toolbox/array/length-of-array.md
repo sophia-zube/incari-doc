@@ -6,8 +6,7 @@
 
 **Length Of Array** returns the total number of elements in an **Array**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Inputs
 

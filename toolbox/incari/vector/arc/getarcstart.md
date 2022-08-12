@@ -6,8 +6,7 @@
 
 The **Get ArcStart Node** returns the starting _arc degree_ of an **Arc Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

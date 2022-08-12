@@ -8,8 +8,7 @@
 
 If no **Array** is given as input, the elements are added to a new, empty **Array**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

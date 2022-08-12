@@ -6,8 +6,7 @@
 
 **Get Dictionary Element** is used for retrieving elements from a **Dictionary**. It receives as input the **Dictionary** from which the elements will be retrieved and the `Keys` of the desired elements. The outputs are the received **Dictionary** and the `Values` associated with the given `Keys`.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

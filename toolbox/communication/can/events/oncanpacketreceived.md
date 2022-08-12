@@ -6,8 +6,7 @@
 
 **On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu** and a data **Packet** has been received.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
 

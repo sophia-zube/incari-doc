@@ -6,8 +6,7 @@
 
 **Get Tint** returns the **Color** of the `Tint` **Attribute** of a given **Object**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

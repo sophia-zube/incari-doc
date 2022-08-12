@@ -8,8 +8,7 @@
 
 The index count starts from zero, which means that the `Index` of the last entry item of the **List** **Object** is equal to the total number of entry items minus one \("sum of entries" - 1\). This follows from array-based indexing where the index of the first entry is 0.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

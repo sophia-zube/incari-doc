@@ -6,8 +6,7 @@
 
 **On Position Change 2D** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Position** of a **2D Object** changes.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 

@@ -6,8 +6,7 @@
 
 **Set Position 2D (px) Node** sets the X and Y values of a **2D Object's** `Position`.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

@@ -4,8 +4,7 @@
 
 The **Serial Stop Node** stops the **Serial** connection.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

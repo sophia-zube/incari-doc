@@ -6,8 +6,7 @@
 
 **On CAN Start** is an **Event Listener Node** allowing the user to perform an action once a **CAN** process has begun.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 ## Outputs
 

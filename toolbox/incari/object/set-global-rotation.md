@@ -4,8 +4,7 @@
 
 The **Set Global Rotation Node** assigns the global coordinates (in reference to the origin)  for a **3D Object's** *global rotation* in **Vector3** form.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

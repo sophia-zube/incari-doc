@@ -4,6 +4,8 @@
 
 **On WebSprite Remote URL Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the URL of a **WebSprite** changes.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
+
 # Attributes
 
 ![The On WebSprite Remote URL Change Node Attributes.](../../../.gitbook/assets/node-onwebspriteremoteurlchanged-attri.png)

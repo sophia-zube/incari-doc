@@ -6,8 +6,7 @@
 
 **Pause ImageSequence** pauses an **ImageSequence** already playing during the session.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

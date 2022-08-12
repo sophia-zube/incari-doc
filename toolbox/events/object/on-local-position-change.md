@@ -4,8 +4,7 @@
 
 The **On Local Position Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the *local position* value of an **Object** changes.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
  
 
 # Attributes

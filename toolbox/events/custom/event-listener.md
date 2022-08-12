@@ -6,8 +6,7 @@
 
 **Event Listener** is an **Event Listener** **Node** associated with a **Custom Event** and used for executing a **Logic Branch** when the corresponding **Custom Event Trigger Node** is activated.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 ## Outputs
 

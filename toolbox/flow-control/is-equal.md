@@ -11,8 +11,7 @@
 
 _Relational expressions_ are frequently used in combination with **Branch Nodes** and _logical operator_ **Nodes** \([**AND**](../math/boolean/and.md), [**OR**](../math/boolean/or.md), and [**Negate**](../math/boolean/negate.md)\) to create _conditional logic_, and are essential for building complex systems.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 
