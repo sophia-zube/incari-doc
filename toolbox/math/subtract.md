@@ -8,8 +8,7 @@
 
 This is the equivalent of the subtraction \(`-`\) operation in computer science and mathematics.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

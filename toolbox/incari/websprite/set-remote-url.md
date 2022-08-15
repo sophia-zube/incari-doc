@@ -4,6 +4,8 @@
 
 **Set Remote URL** sets the URL **Attribute** of a **Web Sprite** **Object**. It receives as inputs the **Object ID** of the **Web Sprite** **Object** and the URL.
 
+[**Scope**](../../overview.md#scopes):**Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Set Remote URL Node Attributes.](../../../.gitbook/assets/node-set-remote-url-attr.png)

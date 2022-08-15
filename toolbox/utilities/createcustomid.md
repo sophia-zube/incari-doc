@@ -12,8 +12,7 @@ Furthermore, it is possible for the same **Animation** to have multiple *instanc
 
 All of this also applies to **Actions**. For **Actions**, the default ID is 0. Refer to the links below to read more on **Animations** and **Actions** in **Incari**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
 
 
 ## Inputs

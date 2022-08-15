@@ -4,8 +4,7 @@
 
 The **Variable Setter** **Node** allows the user to set the value of a **Variable**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
 
 
 # Inputs

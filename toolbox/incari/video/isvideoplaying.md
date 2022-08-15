@@ -6,8 +6,7 @@
 
 **Is Video Playing** is a video **Node** returning a **Boolean** value, depending on whether the selected video is playing or not.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

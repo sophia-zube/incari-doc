@@ -13,8 +13,7 @@ The equation used by the **Node** is determined by the `Mode` **Attribute**. The
 
 where _R_ is an angle in radians \(rad\) and _D_ is an angle in degrees \(°\).
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

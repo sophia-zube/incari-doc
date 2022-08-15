@@ -4,8 +4,7 @@
 
 The **RandomString Node** returns a random **String**. The length and characters to be used are specified by the user.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

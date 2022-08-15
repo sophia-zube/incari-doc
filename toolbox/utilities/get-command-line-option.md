@@ -4,8 +4,7 @@
 
 The **Get Command Line Option** **Node** allows the user to obtain the command-line arguments, named options, that were given when the **Project** was initiated and then use them in the **Logic**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
 
 # Attributes
 

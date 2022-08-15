@@ -12,8 +12,7 @@ Another advantage of the **Group Node** is that by changing the `Name` **Attribu
 
 ![](../../.gitbook/assets/node-group-example.png)
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
 
 ## Attributes
 

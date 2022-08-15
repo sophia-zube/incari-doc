@@ -6,8 +6,7 @@
 
 **Ceil** takes a numerical value and rounds it _up_ to the nearest whole number. This will affect each _component_ separately with **Data Types** that are comprised of multiple components \(**Vectors** and **Matrices**\).
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

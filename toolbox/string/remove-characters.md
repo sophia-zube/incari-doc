@@ -6,8 +6,7 @@ The **RemoveCharacters** **Node** removes characters from a **String**. It takes
 
 It removes all occurrences of each of the characters specified. For instance, giving `The dogs and the foxes go towards that house` for the **String** input and `os` for the characters to be removed will result in the output: `The dg and the fxe g tward that hue`.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 
