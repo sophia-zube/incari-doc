@@ -4,8 +4,7 @@
 
 The **Fade** **Node** creates a **Transition** between **Scenes** in which the initial **Scene** fades out and then the final **Scene** fades in. It receives as inputs the final **Scene**, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**
+[**Scope**](../overview.md#scopes): **Project**.
 
 # Attributes
 

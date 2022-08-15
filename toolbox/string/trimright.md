@@ -6,8 +6,7 @@ The **TrimRight** **Node** trims certain chosen characters from the right side o
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "babbaac".
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

@@ -8,8 +8,7 @@
 
 This is the inverse function of the [**Power Node**](power.md). Rather than taking a _base_ value, raising it to the power of an _exponent_, and returning the _power_, it takes the _base_ value, along with the _power_, and returns the _exponent_.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

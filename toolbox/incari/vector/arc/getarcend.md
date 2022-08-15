@@ -6,7 +6,7 @@
 
 The **Get ArcEnd Node** returns the ending _arc degree_ of an **Arc Object**.
 
-[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+[**Scope**](../../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

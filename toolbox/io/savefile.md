@@ -6,8 +6,7 @@
 
 **Save File** is an _io_ **Node**, which allows one to store a specified file containing relevant data from the current project, such as the value of a variable. Providing a location gives a future point of access for the user, which can then be loaded using **Load File**. When saving a **Dictionary**, **JSON Stringify** must be used. This allows for persistent data between sessions.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

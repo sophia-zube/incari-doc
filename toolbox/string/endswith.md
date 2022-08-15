@@ -4,8 +4,7 @@
 
 **The EndsWith Node** checks if a **String** ends with a *substring*, or `Pattern`, and returns a **Bool** of either *True* or *False*.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

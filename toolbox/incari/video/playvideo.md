@@ -6,8 +6,7 @@
 
 The **Play Video** **Node** can be used to play a specified video file during the session. This can be added through the file library to the right or as a **Scene Object** by means of an `ObjectID`.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

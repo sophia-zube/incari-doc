@@ -4,8 +4,7 @@
 
 The **CryptoHash** **Node** takes a **String** and encrypts it as a _hash_ using an algorithm chosen by the user.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

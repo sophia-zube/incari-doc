@@ -6,8 +6,7 @@
 
 The **Set PieEnd Node** sets the ending _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
-[**Scope**](../overview.md#scopes):
-*  **Scene**, **Function**, **Prefab**
+[**Scope**](../../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

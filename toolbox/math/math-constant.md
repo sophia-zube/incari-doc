@@ -6,8 +6,7 @@
 
 The **Math Constant** **Node** outputs a mathematical constant chosen out of three options: Pi, e \(Euler's number\), and Douglas-Adams Constant \(42\).
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 

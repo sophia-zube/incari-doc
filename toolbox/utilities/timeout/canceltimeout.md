@@ -6,8 +6,7 @@
 
 The **Cancel Timeout Node** cancels an existing **Timeout** and allows the user to decide how to proceed.
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**.
 
 ## Inputs
 

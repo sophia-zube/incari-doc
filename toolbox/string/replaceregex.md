@@ -4,8 +4,7 @@
 
 The **ReplaceRegex** **Node** allows the user to replace parts of a **String** using regular expressions to search for the pattern to replace. 
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

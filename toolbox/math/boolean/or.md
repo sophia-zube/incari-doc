@@ -15,8 +15,7 @@ This is the equivalent of the `||` operator in computer programming.
 | False | True | True |
 | False | False | False |
 
-[**Scope**](../overview.md#scopes):
-*  **Project**, **Scene**, **Function**, **Prefab**
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 
