@@ -4,7 +4,7 @@
 
 The usefulness of **Modules** is evident, as they keep **Incari Studio** organized and customizable. It is possible to change the types of **Modules** visible in the *Interface* and to alter their placement based on personal preference. Check out the *Table of Contents* for further information on each **Module**. 
 
-# Contents
+## Contents
 
 * [**Asset Manager**](asset-manager.md)
 * [**Animation Editor**](animation-editor.md)
