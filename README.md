@@ -1,37 +1,37 @@
 # Incari HMI Development Platform
 
-**Incari Studio** is the authoring tool for creating _User Interfaces_ \(UIs\) for all target and hardware platforms. It offers all the functions of a development environment for designers and engineers.
+## Incari Studio
 
-Process optimization can significantly reduce development time and greatly improve the quality of the results.
+**Incari Studio** is a development platform for creating *Human Machine Interaction* (HMI) complex systems. It offers all the necessary tools to construct fully working *User Interfaces* (UIs), bringing together the design and engineering stages.
 
-## Getting started
+Among the main features, there are:
 
-This is the best place to start your journey with **Incari Studio**. It presents the requirements and installation process, and describes the concepts and terminology used in **Incari**.
+* No-code approach: **Incari Studio** uses a visual programming structure for the creation of its **Logic**, giving the user an easy way to create and visualize the functionality of their **Project**.
+* Connectivity: **Incari Studio** can be very easily connected to external data sources. It supports the protocols: HTTP, CAN, MQTT.
+* Rendering: 
 
-## Demo projects
+## Documentation
 
-**Incari Hub** provides **Demo Projects**, which are available under the _Remote Projects_ tab. They are an important source of knowledge showcasing the range of application and detailing its use.
+The **Incari Studio** **Documentation** offers a detailed description of all the elements in **Incari Studio** and how to use them. It is divided into four sections, which are the following:
 
-## Modules
+### [Getting Started](getting-started/overview.md)
 
-This section presents all the built-in tools, which are useful for various tasks, such as importing **Assets**, creating custom animations or visual programming with the **Logic Editor**.
+The **Getting Started** section describes everything necessary to get started with **Incari Studio**, from the system requirements to creating a first **Project**, including an installation guide and introductions to **Incari Hub** and **Incari Studio** itself.
 
-## Toolbox
+### [Objects and Types](objects-and-types/overview.md)
 
-Programming in **Incari** is accomplished visually in the **Logic Editor** using **Nodes**. This section offers detailed descriptions of all the **Nodes** available in **Incari** and their use.
+The elements used to design *UIs* in **Incari** are called **Objects**. They come in several forms, can be customized via **Attributes** and use different **Data Types**. This section describes the types of **Objects**, their **Attributes**, and the **Data Types** used in **Incari**. 
 
-## Rich documentation and community
+### [Modules](modules/overview.md)
 
-This documentation provides an in-depth description of all **Incari Studio** elements, short animations showing how to use particular features, videos, examples and tutorials. There is also a community forum where **Incari** employees can answer your questions.
+**Incari's** *Interface** is divided into **Modules**, each with their own specific function within **Incari**. This section describes in detail every **Module** and its use. 
 
-## 2D/3D Engine
+### [Toolbox](toolbox/overview.md)
 
-The latest *3D* graphics engine provides new possibilities for _User Interface_ creation in **Incari**. This is especially designed for modern embedded systems and allows highly scalable performance and interactivity.
+One of the most important **Modules** in **Incari** is the [**Logic Editor**](modules/logic-editor.md), where the **Logic** of the **Project** is built. The **Logic** determines how the **Objects** in the created *Interface* interact and change. The **Toolbox** in the **Logic Editor** contains the [**Nodes**](modules/logic-editor.md#nodes), which are the building bricks of the **Logic** and in this section every **Node** is described in depth.
 
-**Incari Studio** also fully supports _HTML5_ and _JavaScript_ for interactive *2D* content
+### [Demo Projects](demo-projects/overview.md)
 
-## Clustering
-
-It provides clustering capabilities for using all existing hardware in a connected car system dynamically to ensure best performance at any time. Creating dynamic interfaces across displays has never been easier.
+**Demo Projects** are downloadable **Projects** that allow the user to see how certain functionalities are implemented in **Incari Studio**. This section describes all available **Demo Projects**.
 
 

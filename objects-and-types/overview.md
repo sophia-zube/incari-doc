@@ -10,7 +10,7 @@ All **Objects** can be turned into **Prefabs**. A **Prefab** is made up of sever
 
 With better understanding on **Objects** and **Types**, it will be possible for the user to build more seamlessly from concept to implementation. 
 
-# Table of Contents
+## Contents
 
 * [**Project Objects**](project-objects/README.md)
   * [**Scene**](project-objects/scene.md)
