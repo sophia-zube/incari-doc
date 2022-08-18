@@ -17,7 +17,7 @@ your **Projects**.
 
 We wish you well on your journey using **Incari Studio**.
 
-# Contents
+## Contents
 
 * [**Requirements**](requirements.md)
 * [**What's New**](whats-new-20221.md)
