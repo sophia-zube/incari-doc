@@ -4,10 +4,10 @@
 
 **Incari Studio** is a development platform for creating *Human Machine Interaction* (HMI) complex systems. It offers all the necessary tools to construct fully working *User Interfaces* (UIs), bringing together the design and engineering stages.
 
-Among the main features, there are the following:
+Among the main features **Incari** offers:
 
 * No-code approach: **Incari Studio** uses a visual programming structure for the creation of its **Logic**, giving the user an easy way to create and visualize the functionality of their **Project**.
-* Connectivity: **Incari Studio** can be very easily connected to external data sources. It supports several widely used protocols: HTTP, CAN, MQTT.
+* Connectivity: **Incari Studio** can be very easily connected to external data sources. It supports several widely used protocols, such as HTTP, CAN, and MQTT.
 * Rendering: The powerful *3D* rendering engine permits an easy-to-use and straight-forward visualization and construction of a *User Interface*.
 
 ## Documentation
@@ -16,7 +16,7 @@ The **Incari Studio** **Documentation** offers a detailed description of all the
 
 ### * [Getting Started](getting-started/overview.md)
 
-The **Getting Started** section describes everything necessary to get started with **Incari Studio**, from the system requirements to creating a first **Project**, including an installation guide and introductions to **Incari Hub** and **Incari Studio** itself.
+This section describes everything necessary to get started with **Incari Studio**, from the system requirements to creating a first **Project**, including an installation guide and introductions to **Incari Hub** and **Incari Studio** itself.
 
 ### * [Objects and Types](objects-and-types/overview.md)
 
@@ -24,7 +24,7 @@ The elements used to design *UIs* in **Incari** are called **Objects**. They com
 
 ### * [Modules](modules/overview.md)
 
-**Incari's** *Interface* is divided into **Modules**, each with their own specific function within **Incari**. This section describes in detail every **Module** and its use. 
+**Incari's** *Interface* is divided into **Modules**, each with their own specific function. This section describes in detail every **Module** and its use. 
 
 ### * [Toolbox](toolbox/overview.md)
 
@@ -32,6 +32,6 @@ One of the most important **Modules** in **Incari** is the [**Logic Editor**](mo
 
 ### * [Demo Projects](demo-projects/overview.md)
 
-**Demo Projects** are downloadable **Projects** that allow the user to see how certain functionalities are implemented in **Incari Studio**. This section describes all available **Demo Projects**.
+**Demo Projects** are downloadable **Projects** that allow the user to see how certain functionalities are implemented in **Incari Studio**. This section describes every **Demo Project** available.
 
 
