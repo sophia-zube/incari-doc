@@ -18,7 +18,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
 
-![](../.gitbook/assets/group_logic.gif)
+![](../.gitbook/assets/group_logic3.gif)
 
 ![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
