@@ -4,7 +4,7 @@
 
 ## 1 - Logic Editor Window
 
-![](../.gitbook/assets/logicEditorWindow2.PNG)
+![](../.gitbook/assets/logicEditorWindow2.png)
 
 **Logic Editor** - The main window which contains all things **Logic**-related. It is compartmentalized into several different sections discussed below.
 
