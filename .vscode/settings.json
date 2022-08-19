@@ -6,7 +6,10 @@
 			"comments": true,
 			"strings": true
 		}
-	}
+	},
+	"githubPullRequests.ignoredPullRequestBranches": [
+		"2022.1"
+	]
 }
 
 
