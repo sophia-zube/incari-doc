@@ -20,12 +20,12 @@ There are many **Modules** available in **Incari Studio**. The user can show or 
 
 * **Modules** can be hidden by clicking the `x` in the top right corner of each of them.
 
-![Closing Modules.](../../.gitbook/assets/Studio_ClosingModules3.gif)
+![Closing Modules.](../../.gitbook/assets/Studio_ClosingModules_3.gif)
 
 
 Besides giving the option to choose which **Modules** are visible, **Incari Studio** gives the user total freedom to customize how the visible **Modules** are organized. Particularly, their position and size can be set by the user.
 
-![Docking Modules.](../../.gitbook/assets/Studio_DockingModules3.gif)
+![Docking Modules.](../../.gitbook/assets/Studio_DockingModules_3.gif)
 
 Moreover, **Modules** can be docked together and then accessed via the tabs that are automatically created.
 
