@@ -20,23 +20,23 @@ There are many **Modules** available in **Incari Studio**. The user can show or 
 
 * **Modules** can be hidden by clicking the `x` in the top right corner of each of them.
 
-![Closing Modules.](../../.gitbook/assets/Studio_ClosingModules.gif)
+![Closing Modules.](../../.gitbook/assets/Studio_ClosingModules3.gif)
 
 
 Besides giving the option to choose which **Modules** are visible, **Incari Studio** gives the user total freedom to customize how the visible **Modules** are organized. Particularly, their position and size can be set by the user.
 
-![Docking Modules.](../../.gitbook/assets/Studio_DockingModules.gif)
+![Docking Modules.](../../.gitbook/assets/Studio_DockingModules3.gif)
 
 Moreover, **Modules** can be docked together and then accessed via the tabs that are automatically created.
 
-![Docking Modules together.](../../.gitbook/assets/Studio_TabsModules.gif)
+![Docking Modules together.](../../.gitbook/assets/Studio_TabsModules3.gif)
 
 **Modules** can also be used as independent windows, which can be very useful when working with more than one computer screen.
 
-![Module as an independent window.](../../.gitbook/assets/Studio_IndependentModule.gif)
+![Module as an independent window.](../../.gitbook/assets/Studio_IndependentModule3.gif)
 
 **Modules** that are individual windows can be locked so they do not dock on the main **Incari Studio** *Interface*. This is done by clicking on the lock icon that appears on the top-right of a **Module** that is displayed as an independent window.
 
-![Locked Module.](../../.gitbook/assets/Studio_LockedModule.gif)
+![Locked Module.](../../.gitbook/assets/Studio_LockedModule3.gif)
 
 This way, the *Interface* of **Incari Studio** can be customized in the way that best suits the user and their work.
