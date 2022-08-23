@@ -56,7 +56,7 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
     This **Prefab Logic** can then be used in the **Scene Logic** with its corresponding **Prefab Node**. -->
 
-![](../.gitbook/assets/prefabs1.gif)
+![](../.gitbook/assets/prefabs1_3.gif)
 
 * **Plugins** 
   
