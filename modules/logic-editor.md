@@ -38,7 +38,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ## 3 - Top Panel
 
-![](../.gitbook/assets/topPanelImage.png)
+![](../.gitbook/assets/topPanelImage.PNG)
 
 The top panel represents **Logic Graphs** that are implemented for different **Incari** items, such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel.
 
