@@ -1,7 +1,7 @@
 # Overview
 
 
-The **Toolbox** in **Incari** holds all the possible **Nodes** a user can implement. These [**Nodes**](../modules/logic-editor.md#nodes) are the driving force of any **Incari Project** as they provide the necessary **Logic** to make **Projects** perform. They can all be found in the [**Logic Editor**](../modules/logic-editor.md). Each **Node** has different **Input Sockets**, **Output Sockets**, and **Attributes**. These are all described in detail in the **Node's** page. 
+The **Toolbox** in **Incari** holds all the possible [**Nodes**](../modules/logic-editor.md#nodes) a user can implement. These **Nodes** are the driving force of any **Incari Project** as they provide the necessary **Logic** to make **Projects** perform. They can all be found in the [**Logic Editor**](../modules/logic-editor.md). Each **Node** has different **Input Sockets**, **Output Sockets**, and **Attributes**. These are all described in detail in the **Node's** page. 
 
 ### Scopes
 
