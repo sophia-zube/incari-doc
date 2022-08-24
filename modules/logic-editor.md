@@ -38,7 +38,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ## 3 - Top Panel
 
-![](../.gitbook/assets/topPanelImage.PNG)
+![](../.gitbook/assets/topPanelImage.png)
 
 The top panel represents **Logic Graphs** that are implemented for different **Incari** items, such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel.
 
@@ -50,19 +50,19 @@ Each section is described below:
 
 {% tabs %}
 {% tab title="Explorer" %}
-![](../.gitbook/assets/leftPanelExplorer.PNG)
+![](../.gitbook/assets/leftPanelExplorer_3.png)
 
 All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding **Node** is selected in the **Logic Graph**.
 {% endtab %}
 
 {% tab title="Toolbox" %}
-![](../.gitbook/assets/leftPanelToolbox.PNG)
+![](../.gitbook/assets/leftPanelToolbox_3.png)
 
 The **Toolbox** contains all of the individual tools you will need to create your **Logic**. The function and purpose of all **Nodes** are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it to understand how each **Node** functions. In short, the **Toolbox** contains a categorized list of all **Nodes** available at your disposal, which can be added to your **Logic** by double-clicking or dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
 {% tab title="Events" %}
-![](../.gitbook/assets/leftPanelEvents.PNG)
+![](../.gitbook/assets/leftPanelEvents_3.png)
 
 An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2816%29.PNG) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
 
@@ -70,7 +70,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 {% endtab %}
 
 {% tab title="Functions" %}
-![](../.gitbook/assets/leftPanelFunctions.PNG)
+![](../.gitbook/assets/leftPanelFunctions_3.png)
 
 Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
 
@@ -78,7 +78,7 @@ Custom-built **Node Graphs** can be packaged as a **Function** and added to your
 {% endtab %}
 
 {% tab title="Variables" %}
-![](../.gitbook/assets/leftPanelVariables.PNG)
+![](../.gitbook/assets/leftPanelVariables_3.png)
 
 The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
 
