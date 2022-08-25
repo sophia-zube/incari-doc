@@ -5,7 +5,7 @@ The **Toolbox** in **Incari** holds all the possible [**Nodes**](../modules/logi
 
 ### Scopes
 
-The **Logic Editor** can have several tabs. On start, it will show a [**Project**](../modules/project-outliner.md) tab and a tab with the name of the current [**Scene**](../objects-and-types/project-objects/scene.md). It is also possible to have a tab for **Functions** or [**Prefabs**](../objects-and-types/prefabs/README.md). These tabs decide what **Nodes** are available within that specific _Interface_, this is the **Scope** of each **Node**. The *Table of Contents* below is broken down into these four tab types and gives all the **Nodes** available in each with links to their documentation.
+The **Logic Editor** can have several tabs, determining at which level this **Logic** will be applied. On start, it will show a [**Project**](../modules/project-outliner.md) tab and a tab with the name of the current [**Scene**](../objects-and-types/project-objects/scene.md). It is also possible to have a tab for **Functions** or [**Prefabs**](../objects-and-types/prefabs/README.md). On each **Logic** level, represented by these tabs, different **Nodes** are available in the **Toolbox**. This is the **Scope** of each **Node**. In other words, the **Scope** of a **Node** determines on which of the tabs said **Node** will be available. The *Table of Contents* below is broken down into these four tab types and gives all the **Nodes** available in each with links to their documentation.
 
 ## Contents
 
