@@ -8,7 +8,7 @@ Similarly, **Objects** have different **Attributes**, which allow one to customi
 
 All **Objects** can be turned into **Prefabs**. A **Prefab** is made up of several **Objects** that can be instantiated multiple times. Each of these **Instances** acts like a single **Object** and can retain unique properties via overrides. Find out more in the **Prefab** section.
 
-Data values within **Incari** can be one of several of the usual **Data Types**. See the corresponding page for a list of the available **Data Types** and their descriptions.
+Data values within **Incari** can be of one of several of the usual **Data Types**. See the corresponding page for a list of the available **Data Types** and their descriptions.
 
 With better understanding on **Objects** and **Types**, it will be possible for the user to build more seamlessly from concept to implementation. 
 
