@@ -6,6 +6,8 @@
 
 The **Array Value** **Node** defines an **Array** by setting its elements.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Array Value Node Attributes](../../.gitbook/assets/arrayvalueattributes.png)

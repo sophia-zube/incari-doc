@@ -6,6 +6,8 @@
 
 The **Get ImageSequence Total Frames Node** returns the total number of frames in the **ImageSequence**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Get ImageSequence Total Frames Node Attributes.](../../../.gitbook/assets/node-get-imagesequence-total-frames-attr.png)

@@ -6,6 +6,8 @@
 
 **Set Opacity** sets the _opacity_ of an **Object** in a **Scene**. **Object ID** and **Opacity** are given as inputs to the **Node**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Opacity Node Attributes.](../../../.gitbook/assets/node-set-opacity-attr.png)

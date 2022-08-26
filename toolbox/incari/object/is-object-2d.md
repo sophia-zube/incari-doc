@@ -4,6 +4,8 @@
 
 The **Is Object 2D Node** returns a **Bool**, depending on whether the input **Object** is *2D* or not. 
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Is Object 2D Node Attributes.](../../../.gitbook/assets/isobject2dattributes.png)

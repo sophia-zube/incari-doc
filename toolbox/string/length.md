@@ -4,6 +4,8 @@
 
 **Length** returns the length of a **String**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Length Node Attributes.](../../.gitbook/assets/lengthattributes.png)

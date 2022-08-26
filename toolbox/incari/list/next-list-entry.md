@@ -6,6 +6,8 @@
 
 **Next List Entry** selects the next entry item in a **List** **Object**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Next List Entry Node Attributes.](../../../.gitbook/assets/node-next-list-entry-attr.png)

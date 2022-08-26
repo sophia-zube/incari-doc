@@ -6,6 +6,8 @@
 
 The **Is Data Type Node** returns *true* or *false* depending on whether or not the input matches the `Data Type`.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
+
 ## Attributes
 
 ![The Is Data Type Node Attributes.](../../.gitbook/assets/node-is-float-type2-attr.png)

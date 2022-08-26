@@ -8,6 +8,8 @@
 
 This is the equivalent of the division \(`÷` or `/`\) operation in computer science and mathematics.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Divide Node Attributes.](../../.gitbook/assets/node-divide2-attr.png)

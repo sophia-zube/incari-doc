@@ -8,6 +8,8 @@
 
 Note that the **Arrays** that are to be merged by this **Node** are not sorted.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Concat Arrays Node Attributes](../../.gitbook/assets/concatarrayattributes.png)

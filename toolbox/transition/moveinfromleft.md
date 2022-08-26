@@ -4,6 +4,8 @@
 
 The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the left of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
 
+[**Scope**](../overview.md#scopes): **Project**.
+
 # Attributes
 
 ![The MoveInFromLeft Node Attributes**](../../.gitbook/assets/moveinfromleftattributes.png)
@@ -33,5 +35,5 @@ The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. St
 # See Also
 
 * [**MoveInFromTop**](moveinfromtop.md)
-* [**MoveInFromRight**](moveinfromright.md)
+* [**MoveinFromRight**](moveinfromright.md)
 * [**MoveInFromBottom**](moveinfrombottom.md)

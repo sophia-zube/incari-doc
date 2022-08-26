@@ -4,6 +4,8 @@
 
 The **Compare** **Node** compares two **Strings** and outputs the result indicating whether they are equal or not in two forms: an **Int** and a **Bool**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Compare Node Attributes.](../../.gitbook/assets/compareattributes.png)

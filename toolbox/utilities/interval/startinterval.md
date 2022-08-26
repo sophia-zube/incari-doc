@@ -8,6 +8,8 @@ The **Start Interval Node** sets an **Interval**, which occurs every _X_ `Second
 
 Important to note is that an **Interval** will continue firing until a **Reset Interval Node** is triggered. Without resetting it, it will run forever.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**.
+
 ## Attributes
 
 ![The Start Interval Node Attributes.](../../../.gitbook/assets/node-start-interval2-attr.png)

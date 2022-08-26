@@ -6,6 +6,8 @@ The **Trim** **Node** trims certain chosen characters from a **String**. It rece
 
 For example, trimming the characters "ab" from the **String** "babbaacababa" results in the trimmed **String** "c".
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Trim Node Attributes.](../../.gitbook/assets/trimattributes.png)

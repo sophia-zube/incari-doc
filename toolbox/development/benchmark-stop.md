@@ -6,6 +6,8 @@
 
 The **Benchmark Stop** **Node** stops a timer and prints the time measured on the **Console**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Benchmark Stop Node Attributes.](../../.gitbook/assets/benchmarkstopattributes.png)

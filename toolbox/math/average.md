@@ -8,6 +8,8 @@
 
 The _arithmetic mean_ is the _sum_ of all values in a set, divided by the total amount of numbers in that set.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Average Node Attributes.](../../.gitbook/assets/node-average2-attr.png)

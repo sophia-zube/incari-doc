@@ -6,6 +6,8 @@
 
 The **Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _cosine_.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Cosine Node Attributes.](../../../.gitbook/assets/node-cosine2-attr.png)

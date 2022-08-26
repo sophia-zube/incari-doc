@@ -4,6 +4,8 @@
 
 The **IsUpper Node** checks if a **String** is all uppercase and returns a **Bool** of either *True* or *False*. 
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The IsUpper Node Attributes.](../../.gitbook/assets/isupperattributes.png)

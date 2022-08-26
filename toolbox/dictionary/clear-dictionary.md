@@ -6,6 +6,8 @@
 
 **Clear Dictionary** takes as input a **Dictionary**, removes every element in it, and outputs an empty **Dictionary**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Inputs
 
 | Input | Type | Description |

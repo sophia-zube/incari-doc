@@ -8,6 +8,8 @@
 
 This is the equivalent of the addition \(`+`\) operation in computer science and mathematics.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Add Node Attributes.](../../.gitbook/assets/node-add2-attr.png)

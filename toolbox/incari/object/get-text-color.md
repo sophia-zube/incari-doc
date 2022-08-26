@@ -4,6 +4,8 @@
 
 The **Set Text Color Node** gets, or returns, the **Color** of a **Text Object**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Get Text Color Node Attributes.](../../../.gitbook/assets/gettextcolorattributes.png)

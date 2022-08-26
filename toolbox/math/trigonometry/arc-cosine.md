@@ -6,6 +6,8 @@
 
 The **Arc Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arccosine_.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Arc Cosine Node Attributes.](../../../.gitbook/assets/node-arc-cosine2-attr.png)

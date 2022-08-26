@@ -6,6 +6,8 @@
 
 **Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../objects-and-types/scene-objects/mesh.md).
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Material Node Attributes.](../../../.gitbook/assets/node-set-material-attr.png)

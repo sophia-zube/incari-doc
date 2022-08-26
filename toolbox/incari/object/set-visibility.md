@@ -6,6 +6,8 @@
 
 **Set Visibility** makes an **Object** either visible or not visible in a **Scene**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Visibility Node Attributes.](../../../.gitbook/assets/node-set-visibility-attr.png)

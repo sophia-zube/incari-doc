@@ -6,6 +6,8 @@
 
 The **Assert** **Node** compares two values and outputs the result of the comparison as a **Boolean**. The **Data Type** of the values to be compared can be chosen on the **Attributes**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Assert Node Attributes.](../../.gitbook/assets/assertattributes.png)

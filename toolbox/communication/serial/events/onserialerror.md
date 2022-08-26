@@ -4,6 +4,8 @@
 
 The **On Serial Error Node** is an **Event Listener Node** that executes when an **Error** is received and returns the **Error** `Message`.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
+
 # Attributes
 
 ![The On Serial Error Node Attributes.](../../../../.gitbook/assets/onserialerrorattributes.png)

@@ -6,6 +6,8 @@
 
 The **MoveTo Action Node** continuously modifies the `Position` of an **Object** to the values specified in `To` for a given period of time, thus creating an **Animation**.
 
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The MoveTo Action Node Attributes.](../../.gitbook/assets/movetoactionattributes.png)

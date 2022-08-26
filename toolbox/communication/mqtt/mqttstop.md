@@ -6,6 +6,8 @@
 
 The **MQTT Stop Node** stops the **MQTT** connection.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+
 ## Attributes
 
 ![The MQTT Stop Node Attributes.](../../../.gitbook/assets/mqttstopattributes.png)

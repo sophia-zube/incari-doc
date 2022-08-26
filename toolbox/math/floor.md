@@ -6,6 +6,8 @@
 
 **Floor** takes a numerical value and rounds it _down_ to the nearest whole number. This will affect each _component_ separately with **Data Types** that are comprised of multiple components \(**Vectors** and **Matrices**\).
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Floor Node Attributes.](../../.gitbook/assets/node-floor2-attr.png)

@@ -4,6 +4,8 @@
 
 The **Lower** **Node** converts a **String** to lowercase letters.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Lower Node Attributes.](../../.gitbook/assets/lowerattributes.png)

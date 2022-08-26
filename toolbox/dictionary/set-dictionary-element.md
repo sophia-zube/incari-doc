@@ -8,6 +8,8 @@
 
 If the `Key` does not exist in the **Dictionary**, it creates a new \(`Key`, `Value`\) pair.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Dictionary Element Node Attributes.](../../.gitbook/assets/setddictionaryelementattributes.png)

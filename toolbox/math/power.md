@@ -6,6 +6,8 @@
 
 **Power** performs an _exponentiation operation_, meaning that it multiplies the `Base` value against itself _n_ times, with _n_ being defined by `Exponent`.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Power Node Attributes.](../../.gitbook/assets/node-power2-attr.png)

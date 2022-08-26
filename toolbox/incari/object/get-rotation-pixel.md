@@ -6,6 +6,8 @@
 
 The **Get Rotation 2D Node** returns the _degree of rotation_ of a **2D Object**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Get Rotation 2D Node Attributes.](../../../.gitbook/assets/node-get-rotation-2d-attr.png)

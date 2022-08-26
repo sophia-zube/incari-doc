@@ -4,6 +4,8 @@
 
 The **CrossFade** **Node** creates a **Transition** between **Scenes** with a cross-fade. It receives as inputs the **Scene** to **Transition** to, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
 
+[**Scope**](../overview.md#scopes): **Project**.
+
 # Attributes
 
 ![The CrossFade Node Attributes.](../../.gitbook/assets/node-crossfade-attri.png)

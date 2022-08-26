@@ -13,6 +13,8 @@ _Relational expressions_ are frequently used in combination with **Branch Nodes*
 
 Due to their nature, _inequality_ operations only work for _numerical data types_.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Is Greater Equal Node Attributes.](../../.gitbook/assets/isgreaterequalattributes.png)
