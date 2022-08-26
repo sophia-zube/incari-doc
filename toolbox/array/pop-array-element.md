@@ -6,6 +6,8 @@
 
 **Pop Array Element** removes element/s from an **Array** supplied to the **Node** and returns the resulting **Array** and the removed element/s. The element/s can be removed from either the front or back of the **Array**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Pop Array Element Node Attributes](../../.gitbook/assets/poparrayelementnodeattributes.png)

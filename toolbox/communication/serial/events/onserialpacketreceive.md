@@ -4,6 +4,8 @@
 
 The **On Serial Packet Receive Node** is an **Event Listener Node** that executes when a data **Packet** is received and returns its `Message`.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
+
 # Attributes
 
 ![The On Serial Packet Receive Node Attributes.](../../../../.gitbook/assets/onserialpacketreceiveattributes.png)

@@ -8,6 +8,8 @@
 
 If the `Index` is out of range for the **Array**, it will extend the **Array** up to the `Index` and fill the newly created element/s with empty element/s of the data type **Any**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Array Element Node](../../.gitbook/assets/setarrayelementattributes.png)

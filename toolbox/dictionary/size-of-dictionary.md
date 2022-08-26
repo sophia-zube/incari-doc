@@ -6,6 +6,8 @@
 
 **Size Of Dictionary** returns the total number of elements in a **Dictionary**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Inputs
 
 | Input | Type | Description |

@@ -6,6 +6,8 @@
 
 The **Color Value Node** returns the `Value` of a **Color Variable** or the **Default** `Value` set in the **Attributes**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.
+
 ## Attributes
 
 ![The Color Value Node Attributes.](../../.gitbook/assets/node-color-value2-attr.png)

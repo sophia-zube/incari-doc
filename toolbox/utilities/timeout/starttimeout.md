@@ -6,6 +6,8 @@
 
 The **Start Timeout Node** delays the execution of a **Node**.
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**.
+
 ## Attributes
 
 ![The Start Timeout Node Attributes.](../../../.gitbook/assets/node-start-timeout2-attr.png)

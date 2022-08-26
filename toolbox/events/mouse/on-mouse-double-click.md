@@ -6,6 +6,8 @@
 
 **On Mouse Double Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is double-clicked.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
+
 ## Attributes
 
 ![The On Mouse Double Click Node Attributes.](../../../.gitbook/assets/onmousedoubleclickattributes.png)

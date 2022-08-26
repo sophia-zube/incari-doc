@@ -4,6 +4,8 @@
 
 The **On-Screen Keyboard Get Input Node** returns the input from the **On-Screen Keyboard**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The On-Screen Keyboard Get Input Node Attributes.](../../../.gitbook/assets/node-onscreen-keyboard-get-input-attr.png)

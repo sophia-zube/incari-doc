@@ -6,6 +6,8 @@
 
 The **HTTP Server Start Node** starts communication with a server that has already been set up in **Project Settings**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+
 ## Attributes
 
 ![The HTTP Server Start Node Attributes.](../../../.gitbook/assets/httpserverstartattributes.png)

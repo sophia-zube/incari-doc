@@ -13,6 +13,8 @@
 | False | True | False |
 | False | False | False |
 
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The And Node Attributes.](../../../.gitbook/assets/node-and2-attr.png)

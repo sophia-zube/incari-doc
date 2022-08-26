@@ -8,6 +8,8 @@ The **Random** **Node** generates a random outcome, usually a number.
 
 This **Node** can be set to three different `Modes` \(**Advanced**, **Expert**, and **Standard**\). Each of these `Modes` offers a different set of **Attributes** that are explained below.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Random Node Attributes.](../../.gitbook/assets/node-random2-attr.png)

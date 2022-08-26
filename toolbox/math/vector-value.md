@@ -6,6 +6,8 @@
 
 The **Vector Value** **Node** generates a **Vector**. It can either be a **Vector2**, **Vector3**, or **Vector4**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Vector Value Node Attributes.](../../.gitbook/assets/node-vector-value2-attr.png)

@@ -6,6 +6,8 @@
 
 The **Set Size 2D (px) Node** sets the X and Y values of a **2D Object's** `Size`.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Size 2D (px) Node Attributes.](../../../.gitbook/assets/node-set-size-2d-attr.png)

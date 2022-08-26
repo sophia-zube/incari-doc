@@ -4,6 +4,8 @@
 
 The **Web Sprite Reload** **Node** reloads a **Web Sprite** **Object** when triggered.
 
+[**Scope**](../../overview.md#scopes):**Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Web Sprite Reload Node Attributes.](../../../.gitbook/assets/node-web-sprite-reload-attr.png)

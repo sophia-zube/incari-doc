@@ -6,6 +6,8 @@
 
 **Concat Strings** joins two or more **Strings** into one new **String**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Concat Strings Node Attributes.](../../.gitbook/assets/concatstringsattributes.png)

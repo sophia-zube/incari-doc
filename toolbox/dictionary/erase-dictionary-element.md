@@ -6,6 +6,8 @@
 
 The **Erase Dictionary Element Node** removes one or more elements from a **Dictionary**. It receives as input the **Dictionary** from which the element/s will be removed and the `Key/s` of the element/s to erase.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Erase Dictionary Element Node Attributes.](../../.gitbook/assets/erasedictionaryelementattributes.png)

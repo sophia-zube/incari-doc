@@ -6,6 +6,8 @@
 
 The **Toggle Node** holds a **Boolean** _state_, which alternates between _true_ and _false_ every time the input **Pulse** is triggered. This can be thought of as a light switch, which alternates a light bulb's state between being _on_ and _off_.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Toggle Node Attributes.](../../.gitbook/assets/toggleattributes.png)

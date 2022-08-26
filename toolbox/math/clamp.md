@@ -14,6 +14,8 @@
 | -270 | -180 | 180 | -180 |
 | \(-20, 1100\) | \(0, 0\) | \(1920, 1080\) | \(0, 1080\) |
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Clamp Node Attributes.](../../.gitbook/assets/node-clamp2-attr.png)

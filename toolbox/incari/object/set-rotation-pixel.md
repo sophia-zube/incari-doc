@@ -6,6 +6,8 @@
 
 The **Set Rotation 2D Node** sets the _degree of rotation_ of a **2D Object**.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set Rotation 2D Node Attributes.](../../../.gitbook/assets/node-set-rotation-2d-attr.png)

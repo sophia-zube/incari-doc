@@ -6,6 +6,8 @@
 
 **Absolute** takes a single numerical value and converts any negative value \(per component\) to its absolute/non-negative equivalent.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Absolute Node Attributes.](../../.gitbook/assets/node-absolute2-attr.png)

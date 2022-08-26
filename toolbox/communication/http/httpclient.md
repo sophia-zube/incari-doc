@@ -4,6 +4,8 @@
 
 The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **HTTP POST**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## HTTP GET
 
 ![The HTTP GET Node.](../../../.gitbook/assets/httpgetnode.png)

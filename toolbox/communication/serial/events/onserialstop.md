@@ -4,6 +4,8 @@
 
 The **On Serial Stop Node** is an **Event Listener Node** that gives the user a way to perform an action once a **Serial** connection has been terminated.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+
 # Attributes
 
 ![The On Serial Stop Node Attributes.](../../../../.gitbook/assets/onserialstopattributes.png)

@@ -6,6 +6,8 @@
 
 **On ImageSequence Pause** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** is paused.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
+
 ## Attributes
 
 ![The On ImageSequence Pause Node Attributes.](../../../.gitbook/assets/onimagesequencepauseattributes.png)

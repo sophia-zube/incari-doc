@@ -15,6 +15,8 @@ The most common example of **Root** operations is finding the _square_ \(degree 
 | 160000 | 4 | 20 |
 | 1024 | 10 | 2 |
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Root Node Attributes.](../../.gitbook/assets/node-root2-attr.png)

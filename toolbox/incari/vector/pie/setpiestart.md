@@ -6,6 +6,8 @@
 
 The **Set PieStart Node** sets the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 
+[**Scope**](../../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set PieStart Node Attributes.](../../../../.gitbook/assets/node-set-piestart-attr.png)

@@ -12,6 +12,8 @@ When an **Animation** starts playing, an [**Instance ID**](README.md#instance-id
 
 It is also possible to [reuse an **Animation** with a different **Object**](#reusing-an-animation).
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ### Attributes
 
 ![The Play Animation Node Attributes.](../../../.gitbook/assets/node-play-animation-attr.png)
@@ -50,6 +52,8 @@ Thus, a **Play Animation** **Node** with an **Object** connected to the **Object
 
 ![The Play Animation Node with an Animation Block assigned and an Object connected](../../../.gitbook/assets/node-play-animation-block2.png)
 
+
+The behavior of the **Animation** as it plays may change depending on the **Attribute** being animated, and whether it is stopped or paused. For `Position` and `Rotation`, the **Animation** will continue at the state it was paused but start at the beginning when played again. For `Scale` and `Opacity`,  
 
 
 ## See Also

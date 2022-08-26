@@ -6,6 +6,8 @@
 
 The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Binary \(Hex)\ Value Node Attributes.](../../.gitbook/assets/binaryvalueattributes.png)

@@ -8,6 +8,8 @@ The resulting **Strings** are outputted in an **Array**.
 
 In the case that the delimiter is not contained in the **String** to separate, the output is an **Array** containing just the original **String**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Split Node Attributes.](../../.gitbook/assets/splitattributes.png)

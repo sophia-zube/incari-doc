@@ -4,6 +4,8 @@
 
 The **Serial Start Node** starts the **Serial** connection.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Serial Start Node Attributes.](../../../.gitbook/assets/serialstartattributes.png)

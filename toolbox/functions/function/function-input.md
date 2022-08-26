@@ -6,6 +6,8 @@
 
 In the **Function's** **Logic Graph**, the **Function Input** **Node** starts the **Logic Branch** and outputs the parameter received by the **Function** **Node**.
 
+[**Scope**](../../overview.md#scopes): **Function**. 
+
 ## Attributes
 
 ![The Function Input Node Attributes.](../../../.gitbook/assets/functioninputattributes.png)

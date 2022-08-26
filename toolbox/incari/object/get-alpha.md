@@ -8,6 +8,8 @@
 
 The **Get Alpha** **Node** only works with **Objects** that have **Attributes** from the **Sprite** category, such as [**List**](../../../objects-and-types/scene-objects/list-widget.md), **Image Sequence**, **Web Sprite**, [**Sprite**](../../../objects-and-types/scene-objects/sprite.md), and [**Text**](../../../objects-and-types/scene-objects/text.md).
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Get Alpha Node Attributes.](../../../.gitbook/assets/node-get-alpha-attr.png)

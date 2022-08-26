@@ -6,6 +6,8 @@
 
 **On Mouse Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Object** is clicked.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
+
 ## Attributes
 
 ![The On Mouse Click Node Attributes.](../../../.gitbook/assets/onmouseclickattributes.png)

@@ -6,6 +6,8 @@
 
 The **Profiler Stop** **Node** marks the end of a **Profiler Block** that will be analyzed in the **Profiler View**.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Inputs
 
 | Input | Type | Description |

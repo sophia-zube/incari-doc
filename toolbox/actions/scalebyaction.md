@@ -6,6 +6,8 @@
 
 The **ScaleBy Action Node** continuously modifies the `Scale` **Attribute** of an **Object** by the values specified in `By` for a given period of time, thus creating an **Animation**.
 
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The ScaleBy Action Node Attributes.](../../.gitbook/assets/scalebyactionattributes.png)

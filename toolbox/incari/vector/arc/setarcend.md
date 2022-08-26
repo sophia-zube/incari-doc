@@ -6,6 +6,8 @@
 
 The **Set ArcEnd Node** sets the ending _arc degree_ of an **Arc Object** created in the **Scene Outliner Module** under **Vector**.
 
+[**Scope**](../../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Set ArcEnd Node Attributes.](../../../../.gitbook/assets/node-set-arcend-attr.png)

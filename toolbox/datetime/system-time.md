@@ -8,6 +8,8 @@
 
 When `Smooth float value` is enabled, the output values won't be rounded down, so if the current time is 1:45, the `Hour` output will be ~1.75.
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The System Time Node Attributes.](../../.gitbook/assets/node-system-time-attr.png)

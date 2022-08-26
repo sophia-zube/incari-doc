@@ -6,6 +6,8 @@
 
 The **Get Size 2D (px) Node** returns the X and Y values of a **2D Object's** `Size`.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Get Size 2D (px) Node Attributes.](../../../.gitbook/assets/node-get-size-2d-attr.png)

@@ -8,6 +8,8 @@
 
 For more information about _formatting strings_, please see the external links at the [bottom of this page](date-time-formatter.md#external-links).
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 ## Attributes
 
 ![The Date Time Formatter Node Attributes.](../../.gitbook/assets/node-date-time-formatter-attr.png)
