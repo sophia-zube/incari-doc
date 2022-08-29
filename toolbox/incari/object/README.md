@@ -7,8 +7,10 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 ## Contents
 
 * [**Get Alpha**](get-alpha.md)
+* [**Get Children**](get-children.md)
 * [**Get Material**](get-material.md)
 * [**Get Opacity**](get-opacity.md)
+* [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
 * [**Get Position 2D (px)**](get-position-pixel.md)
 * [**Get Rotation**](get-rotation.md)
@@ -18,6 +20,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Text Color**](get-text-color.md)
 * [**Get Tint**](get-tint.md)
 * [**Get Visibility**](get-visibility.md)
+* [**Has Children**](has-children.md)
 * [**Is Object 2D**](is-object-2d.md)
 * [**Is Object 3D**](is-object-3d.md)
 * [**Set Alpha**](set-alpha.md)
