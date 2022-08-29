@@ -4,7 +4,7 @@
 
 ![The Arc Tangent Node.](../../../.gitbook/assets/node-arc-tangent2.png)
 
-The **Arc Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arctangent_.
+The **Arc Tangent Node** takes a single **Float** value and returns its _arctangent_, in degrees \(°\) or radians \(rad\).
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -16,7 +16,7 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Is Degree` | **Bool** | Determines whether the `Input` value is given in degrees \(°\) or radians \(rad\). |
+| `Is Degree` | **Bool** | Determines whether the `Output` value is given in degrees \(°\) or radians \(rad\). |
 
 ### Inputs
 
@@ -29,14 +29,14 @@ The **Arc Tangent Node** takes a single **Float** value, representing an angle, 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Float** | The angle to calculate the _arctangent_ of. |
+| `Input` | **Float** | The value to calculate the _arctangent_ of. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | **Float** | The _arctangent_ of `Input`. |
+| `Output` | **Float** | The $arctangent$ of `Input`. |
 
 ## See Also
 
