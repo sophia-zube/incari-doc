@@ -4,7 +4,7 @@
 
 ![The Arc Cosine Node.](../../../.gitbook/assets/node-arc-cosine2.png)
 
-The **Arc Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _arccosine_.
+The **Arc Cosine Node** takes a single **Float** value and returns its _arccosine_, in degrees \(°\) or radians \(rad\)
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -16,7 +16,7 @@ The **Arc Cosine Node** takes a single **Float** value, representing an angle, i
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Is Degree` | **Bool** | Determines whether the `Input` value is given in degrees \(°\) or radians \(rad\). |
+| `Is Degree` | **Bool** | Determines whether the `Output` value is given in degrees \(°\) or radians \(rad\). |
 
 ### Inputs
 
@@ -29,7 +29,7 @@ The **Arc Cosine Node** takes a single **Float** value, representing an angle, i
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Float** | The angle to calculate the _arccosine_ of. |
+| `Input` | **Float** | The value to calculate the _arccosine_ of. |
 
 ## Outputs
 
