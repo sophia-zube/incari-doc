@@ -33,6 +33,7 @@
 * [**Range Mapper**](range-mapper.md)
 * [**Root**](root.md)
 * [**Rotation Matrix**](rotation-matrix.md)
+* [**Round**](round.md)
 * [**Subtract**](subtract.md)
 * [**Trigonometry**](trigonometry/)
   * [**Arc Cosine**](trigonometry/arc-cosine.md)

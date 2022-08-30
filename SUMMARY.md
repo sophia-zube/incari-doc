@@ -394,6 +394,7 @@
   * [Range Mapper](toolbox/math/range-mapper.md)
   * [Root](toolbox/math/root.md)
   * [Rotation Matrix](toolbox/math/rotation-matrix.md)
+  * [Round](toolbox/math/round.md)
   * [Subtract](toolbox/math/subtract.md)
   * [Trigonometry](toolbox/math/trigonometry/README.md)
     * [Arc Cosine](toolbox/math/trigonometry/arc-cosine.md)
