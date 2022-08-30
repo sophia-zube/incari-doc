@@ -1,5 +1,5 @@
 ---
-description: Available from 2022.1.2
+description: Available since 2022.1.2
 ---
 
 # Overview
