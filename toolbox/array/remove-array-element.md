@@ -1,10 +1,16 @@
+---
+description: Available from 2022.1.2
+---
+
 # Overview
 
 ![The Remove Array Element Node.]()
 
-The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indeces. 
+The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indices. 
 
-For example, an **Array** is populated as follows: [0,3,6,9,12]. If the `Indices` 1 and 3 are given, the elements at those indeces are deleted and the user is left with a new **Array** [0,6,12]. 
+For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indices` $1$ and $3$ are given, the elements at those indices are deleted and the user is left with a new **Array**: $[0,6,12]$. 
+
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 <!---# Attributes
 
