@@ -38,6 +38,7 @@
   * [**Arc Cosine**](trigonometry/arc-cosine.md)
   * [**Arc Sine**](trigonometry/arc-sine.md)
   * [**Arc Tangent**](trigonometry/arc-tangent.md)
+  * [**Arc Tangent**](trigonometry/arc-tangent2.md)
   * [**Cosine**](trigonometry/cosine.md)
   * [**Radian-Degree Converter**](trigonometry/radian-degree-converter.md)
   * [**Sine**](trigonometry/sine.md)
