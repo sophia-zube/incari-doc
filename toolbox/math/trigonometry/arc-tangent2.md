@@ -1,6 +1,5 @@
 ---
-description: [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**. 
-**Version**: From 2022.1.2
+description: Available from 2022.1.2
 ---
 
 # Arc Tangent 2
@@ -18,7 +17,7 @@ The function $atan2(y,x)$ is of common use in computer science and can be equiva
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
-**Version**: **Node** available from **Incari Studio 2022.1.2**.
+
 
 ## Attributes
 
