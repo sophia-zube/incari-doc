@@ -1,7 +1,3 @@
----
-description: this is the page description
----
-
 # Absolute
 
 ## Overview
