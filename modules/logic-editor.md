@@ -1,6 +1,6 @@
 # Logic Editor
 
-**Logic** in **Incari** is what allows us to take our **2D/3D** **Assets** and turn them into fully interactive *User* *Interfaces*. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing **Incari's** powerful visual scripting tools, we can build these systems without writing a single line. This section introduces you to some of the core concepts and terminologies of **Incari's** **Logic Editor**.
+**Logic** in **Incari** is what allows us to take our **2D/3D** **Assets** and turn them into fully interactive _User_ _Interfaces_. Traditionally, building this kind of complex system was only achievable by writing _a lot_ of code. However, by utilizing **Incari's** powerful visual scripting tools, we can build these systems without writing a single line. This section introduces you to some of the core concepts and terminologies of **Incari's** **Logic Editor**.
 
 ## 1 - Logic Editor Window
 
@@ -18,7 +18,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
 
-![](../.gitbook/assets/group_logic3.gif)
+![](../.gitbook/assets/group\_logic3.gif)
 
 ![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
@@ -50,37 +50,37 @@ Each section is described below:
 
 {% tabs %}
 {% tab title="Explorer" %}
-![](../.gitbook/assets/leftPanelExplorer_3.png)
+![](../.gitbook/assets/leftPanelExplorer\_3.png)
 
 All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding **Node** is selected in the **Logic Graph**.
 {% endtab %}
 
 {% tab title="Toolbox" %}
-![](../.gitbook/assets/leftPanelToolbox_3.png)
+![](../.gitbook/assets/leftPanelToolbox\_3.png)
 
 The **Toolbox** contains all of the individual tools you will need to create your **Logic**. The function and purpose of all **Nodes** are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it to understand how each **Node** functions. In short, the **Toolbox** contains a categorized list of all **Nodes** available at your disposal, which can be added to your **Logic** by double-clicking or dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
 {% tab title="Events" %}
-![](../.gitbook/assets/leftPanelEvents_3.png)
+![](../.gitbook/assets/leftPanelEvents\_3.png)
 
-An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%2816%29.PNG) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
+An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10) (7).PNG>) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
 
 ![](../.gitbook/assets/addEvent3.gif)
 {% endtab %}
 
 {% tab title="Functions" %}
-![](../.gitbook/assets/leftPanelFunctions_3.png)
+![](../.gitbook/assets/leftPanelFunctions\_3.png)
 
-Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
+Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10) (18).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
 
 ![](../.gitbook/assets/addFunctions3.gif)
 {% endtab %}
 
 {% tab title="Variables" %}
-![](../.gitbook/assets/leftPanelVariables_3.png)
+![](../.gitbook/assets/leftPanelVariables\_3.png)
 
-The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
+The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10) (17).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
 
 ![](../.gitbook/assets/addVariables.gif)
 {% endtab %}
@@ -104,26 +104,26 @@ Fundamentally, it is comprised of a combination of two entities: **Nodes** and *
 
 **Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In **Incari**, **Sockets** are either:
 
-* **Input** \(receiving an instruction or data value\). **Sockets** on the left-hand side of a **Node** are **Input Sockets.**
-* **Output** \(sending an instruction or data value\). **Sockets** on the right-hand side of a **Node** are **Output Sockets**.
+* **Input** (receiving an instruction or data value). **Sockets** on the left-hand side of a **Node** are **Input Sockets.**
+* **Output** (sending an instruction or data value). **Sockets** on the right-hand side of a **Node** are **Output Sockets**.
 
-Beyond that, we have **Pulse** and **Data Sockets** denoted by white triangles \(►\) and colored squares \(■\), respectively. For example, when we refer to an "Input Pulse Socket", we are normally referring to the white triangle in the top-left-hand side of a **Node**.
+Beyond that, we have **Pulse** and **Data Sockets** denoted by white triangles (►) and colored squares (■), respectively. For example, when we refer to an "Input Pulse Socket", we are normally referring to the white triangle in the top-left-hand side of a **Node**.
 
 The concept of **Sockets** makes much more sense in the context of **Connections**.
 
 #### **Connections**
 
-![Nodes are linked to each other via Connections.](../.gitbook/assets/connections%20%281%29.png)
+![Nodes are linked to each other via Connections.](<../.gitbook/assets/connections (1).png>)
 
 **Connections** are the "wires" that link our components together. This is how we pass data between **Nodes** and how we determine the execution order of our **Logic**. **Connections** come in two categories and are related to the type of **Socket** they are plugged into. The two categories are **Pulse** and **Data**.
 
 #### Pulse
 
-These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to execute. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse Connection** will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles \(►\). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
+These **Connections** do not carry any data between **Nodes**. What they _do_ is tell **Nodes** that it is time for them to execute. Once a **Node** has finished its execution and its purpose has been fulfilled, the next **Node** connected via the **Pulse Connection** will then begin _its_ task. **Pulse Connections** are represented by a white "wire" linking two **Pulse Sockets**, represented by white triangles (►). Multiple **Connections** can be plugged into a single **Pulse Input Socket**, however only one **Connection** can come out of a **Pulse Output Socket**. **Pulse Connections** are also referred to as **Pulses**.
 
 #### Data
 
-These **Connections** pass data values between **Nodes**. We do this by connecting the **Data Output Socket** of one **Node** into a **Data Input Socket** of another **Node**. Both the input and output **Sockets** must be of the same **Data Type**. **Data Sockets** are represented by a colored square \(⬛\), the color of which corresponds to the **Data Type**. Conversely to **Pulse Connections**, **Data Input Sockets** can take only one **Input Connection**, whereas **Data Output Sockets** can have multiple **Output Connections**. Unlike **Pulse Connections**, **Data Connections** do not initiate the execution of a **Node**.
+These **Connections** pass data values between **Nodes**. We do this by connecting the **Data Output Socket** of one **Node** into a **Data Input Socket** of another **Node**. Both the input and output **Sockets** must be of the same **Data Type**. **Data Sockets** are represented by a colored square (⬛), the color of which corresponds to the **Data Type**. Conversely to **Pulse Connections**, **Data Input Sockets** can take only one **Input Connection**, whereas **Data Output Sockets** can have multiple **Output Connections**. Unlike **Pulse Connections**, **Data Connections** do not initiate the execution of a **Node**.
 
 ## 6 & 7 - Node Attribute Editor
 
@@ -133,7 +133,7 @@ These **Connections** pass data values between **Nodes**. We do this by connecti
 
 ![The Node Attribute Editor Outputs](../.gitbook/assets/rangeMapperOutputsImg.PNG)
 
-The **Node Attribute Editor** \(referred to simply as **Editor** from here on\) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Oftentimes, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions, however, where **Attributes** can be set only in the **Editor** and there is no equivalent **Socket** available. These are discussed below in the **Node-Specific Attributes** section.
+The **Node Attribute Editor** (referred to simply as **Editor** from here on) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Oftentimes, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions, however, where **Attributes** can be set only in the **Editor** and there is no equivalent **Socket** available. These are discussed below in the **Node-Specific Attributes** section.
 
 ### General Attributes
 
@@ -157,7 +157,7 @@ As stated above, most **Node Attributes** are an alternative to **Data Input Con
 
 ![](../.gitbook/assets/datatypedropdown.gif)
 
-Some **Nodes** work with different **Data Types**. However, these need to be explicitly defined in the **Editor**, so that the **Node** knows which **Type** it will receive \(**Input**\) and/or the **Type** of data it will return \(**Output**\). Where multiple **Data Types** are available, there will be a drop-down Menu in the **Editor**. Changing the **Type** will also change the color of the corresponding **Socket**.
+Some **Nodes** work with different **Data Types**. However, these need to be explicitly defined in the **Editor**, so that the **Node** knows which **Type** it will receive (**Input**) and/or the **Type** of data it will return (**Output**). Where multiple **Data Types** are available, there will be a drop-down Menu in the **Editor**. Changing the **Type** will also change the color of the corresponding **Socket**.
 
 #### Linked Objects
 
@@ -171,9 +171,8 @@ Some **Node Attributes** correspond to something outside of the **Logic Editor**
 
 There are a few **Nodes** in **Incari** that allow you to customize the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
-By clicking the plus button \(**+**\) you can add additional elements, which will be added to the bottom of the list.
+By clicking the plus button (**+**) you can add additional elements, which will be added to the bottom of the list.
 
-By clicking the cross button \(**x**\) you can remove elements. If you click the cross on the list _header_, it will remove _all_ of the elements, whereas if you click the cross on a list _item_, you only remove that _single_ element.
+By clicking the cross button (**x**) you can remove elements. If you click the cross on the list _header_, it will remove _all_ of the elements, whereas if you click the cross on a list _item_, you only remove that _single_ element.
 
-You can also rearrange the order of the elements by clicking and dragging elements using the rearrange button \(**⠿**\).
-
+You can also rearrange the order of the elements by clicking and dragging elements using the rearrange button (**⠿**).

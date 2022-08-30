@@ -30,7 +30,7 @@ With **Camera**, `Resolution` relates to the the resolution of a _physical_ piec
 
 ## Font Family
 
-`Font Family` allows you to select a generic font family \(`monospace`, `serif`, `sans-serif`\) or add your own custom font.
+`Font Family` allows you to select a generic font family (`monospace`, `serif`, `sans-serif`) or add your own custom font.
 
 To add a custom font, simply drag it into the **Asset Manager** from your OS file explorer. To use that font, drag it from the **Asset Manager** onto the `Font File` **Attribute** of a **Text Object** in the **Attribute Editor**.
 
@@ -48,7 +48,7 @@ Alignment works like any other word processor. You can align your text to be lef
 
 ## Font Color / Background Color
 
-**Colors** can be set in various ways in **Incari** and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
+**Colors** can be set in various ways in **Incari** and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](broken-reference).
 
 ## Sprite
 
@@ -57,4 +57,3 @@ Additionally, **Text** also shares **Common Attributes** of the **Sprite** categ
 * `Alpha`
 * `Flip U` and `Flip V`
 * `Sort Index`
-

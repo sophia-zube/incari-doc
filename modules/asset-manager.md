@@ -8,7 +8,7 @@
 
 ## Importing
 
-**Assets** can be imported by clicking on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%288%29.PNG) icon at the top left of the **Asset Manager**, selecting `Import Assets`, and finding the files to import to the **Asset Manager**.
+**Assets** can be imported by clicking on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10).PNG>) icon at the top left of the **Asset Manager**, selecting `Import Assets`, and finding the files to import to the **Asset Manager**.
 
 ![](../.gitbook/assets/import-asset.png)
 
@@ -38,4 +38,3 @@ The **Asset Manager** offers different views of the files in the **Assets** fold
 **Assets** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
 ![](../.gitbook/assets/asset-rename.png)
-

@@ -18,13 +18,12 @@ Another advantage of the **Group Node** is that by changing the `Name` **Attribu
 
 ### Color
 
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Color` | **Color** | The **Color** of the **Group Node**. |
-| `ZIndex` | **Int** | The `ZIndex` determines the stack order of the **Group** **Node**. Therefore a **Group** **Node** with a higher `ZIndex` will be stacked in front of a **Group** **Node** with a lower `ZIndex` in the **Logic Editor**. |
-| `Content Alpha` | **Int** | The _alpha_ value of the **Group** **Node**'s color space. |
+| Attribute       | Type      | Description                                                                                                                                                                                                              |
+| --------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Color`         | **Color** | The **Color** of the **Group Node**.                                                                                                                                                                                     |
+| `ZIndex`        | **Int**   | The `ZIndex` determines the stack order of the **Group** **Node**. Therefore a **Group** **Node** with a higher `ZIndex` will be stacked in front of a **Group** **Node** with a lower `ZIndex` in the **Logic Editor**. |
+| `Content Alpha` | **Int**   | The _alpha_ value of the **Group** **Node**'s color space.                                                                                                                                                               |
 
 ## Usage
 
-![Group Node Usage](../../.gitbook/assets/group%20%283%29%20%284%29%20%284%29%20%284%29%20%281%29%20%2811%29.gif)
-
+![Group Node Usage](<../../.gitbook/assets/group (3) (4) (4) (4) (1) (1) (6).gif>)

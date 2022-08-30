@@ -35,7 +35,7 @@ When a **Keyframe** is selected, its corresponding Bézier curve is shown in the
 
 When the **Animation** is run, the **Left Panel** shows the evolving values of the **Transformation Attributes**.
 
-![](../.gitbook/assets/anim-editor-run_3.gif)
+![](broken-reference)
 
 ## Animation Timeline
 
@@ -49,5 +49,4 @@ The **Animation Timeline** shows a graph with the Bézier curves of the **Transf
 
 ## External Link
 
-* [_Bézier Curve_](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) on Wikipedia.
-
+* [_Bézier Curve_](https://en.wikipedia.org/wiki/B%C3%A9zier\_curve) on Wikipedia.

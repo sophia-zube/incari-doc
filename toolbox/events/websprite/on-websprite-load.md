@@ -1,39 +1,38 @@
-# Overview
+# On WebSprite Load
 
-![The On WebSprite Load Node.](../../../.gitbook/assets/onwebspriteloadnode.png)
+## Overview
 
+![The On WebSprite Load Node.](<../../../.gitbook/assets/onwebspriteloadnode - Copy.png>)
 
 **On WebSprite Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **Web Sprite** **Object** is loaded.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
-# Attributes
+## Attributes
 
-![The On WebSprite Load Node Attributes.](../../../.gitbook/assets/onwebspriteloadattributes%20-%20Copy.png)
+![The On WebSprite Load Node Attributes.](../../../.gitbook/assets/onwebspriteloadattributes.png)
 
-## Object
+### Object
 
-|Attribute|Type|Description|
-|---|---|---|
-| `Object` | **ObjectID** | The **Web Sprite** **Object** that triggers the **Logic Branch** on loading, if none is given in the `Object ID` **Input Socket**. |
+| Attribute | Type         | Description                                                                                                                        |
+| --------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `Object`  | **ObjectID** | The **Web Sprite** **Object** that triggers the **Logic Branch** on loading, if none is given in the `Object ID` **Input Socket**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|`Object ID` | **ObjectID** | The **Web Sprite** **Object** that triggers the **Logic Branch** on loading. |
-| `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
+| Input           | Type         | Description                                                                        |
+| --------------- | ------------ | ---------------------------------------------------------------------------------- |
+| `Object ID`     | **ObjectID** | The **Web Sprite** **Object** that triggers the **Logic Branch** on loading.       |
+| `Subscribe` (►) | **Pulse**    | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Object ID` | **ObjectID** | The **Web Sprite** **Object** received as **Input**. |
+| Output             | Type         | Description                                                                                                                            |
+| ------------------ | ------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| _Pulse Output_ (►) | **Pulse**    | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Object ID`        | **ObjectID** | The **Web Sprite** **Object** received as **Input**.                                                                                   |
 
-
-# See Also
+## See Also
 
 * [**Web Sprite Objects**](../../../objects-and-types/scene-objects/web-sprite.md)
-* [**WebSprite Nodes**](../../incari/websprite/README.md)
-
+* [**WebSprite Nodes**](../../incari/websprite/)
