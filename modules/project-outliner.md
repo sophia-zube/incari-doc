@@ -10,9 +10,9 @@ The **Project Outliner** contains a structured list of every **Scene** and **Scr
 
 New **Screens** and **Scenes** can be created in the following ways:
 
-* Click on the plus ![](../.gitbook/assets/plusIcon%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29.PNG) icon located at the top left corner of the **Project Outliner**. After that, click the `Scene` button.
-* Right-click inside the **Project Outliner** and select `Create` &gt; `Scene` from the pop-up.
-* Select `File` &gt; `New Screen` or `New Scene` from the drop-down **Menu**.
+* Click on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1).PNG>) icon located at the top left corner of the **Project Outliner**. After that, click the `Scene` button.
+* Right-click inside the **Project Outliner** and select `Create` > `Scene` from the pop-up.
+* Select `File` > `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.
 
 ![](../.gitbook/assets/right-click-scene.PNG)
@@ -36,7 +36,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 When you **Start** the **Simulation** of a **Project** in **Incari**, all **Screens** will initialize in separate windows. By disabling a **Scene** in the **Project Outliner**, you can prevent a **Screen** from being included in the **Simulation**.
 
-To disable a **Screen**, simply click the eye \(👁\) icon.
+To disable a **Screen**, simply click the eye (👁) icon.
 
 ![](../.gitbook/assets/disablingScreen.gif)
 
@@ -54,4 +54,3 @@ Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned
 
 * [**Scene**](../objects-and-types/project-objects/scene.md)
 * [**Screen**](../objects-and-types/project-objects/screen.md)
-
