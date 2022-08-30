@@ -1,5 +1,6 @@
 ---
-description: Available from 2022.1.2
+description: [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**. 
+**Version**: From 2022.1.2
 ---
 
 # Arc Tangent 2
