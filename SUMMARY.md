@@ -399,6 +399,7 @@
     * [Arc Cosine](toolbox/math/trigonometry/arc-cosine.md)
     * [Arc Sine](toolbox/math/trigonometry/arc-sine.md)
     * [Arc Tangent](toolbox/math/trigonometry/arc-tangent.md)
+    * [Arc Tangent 2](toolbox/math/trigonometry/arc-tangent2.md)
     * [Cosine](toolbox/math/trigonometry/cosine.md)
     * [Radian-Degree Converter](toolbox/math/trigonometry/radian-degree-converter.md)
     * [Sine](toolbox/math/trigonometry/sine.md)
