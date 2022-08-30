@@ -1,8 +1,14 @@
+---
+description: Available from 2022.1.2
+---
+
 # Overview
 
 ![The Insert Array Element Node.]()
 
 The **Insert Array Element Node** adds an element at a specified index.
+
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 <!---# Attributes
 
