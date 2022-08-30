@@ -1,10 +1,10 @@
 ---
-description: Available from 2022.1.2
+description: Available since 2022.1.2
 ---
 
 # Overview
 
-![The Arc Tangent 2 Node.]()
+![The Arc Tangent 2 Node.](../../../.gitbook/assets/node-atan2.png)
 
 The **Arc Tangent 2** **Node** takes two **Float** values, $y$ and $x$, and returns $atan2(y,x)$. The result can be obtained in degrees \(°\) or radians \(rad\).
 
@@ -20,20 +20,15 @@ The function $atan2(y,x)$ is of common use in computer science and can be equiva
 
 # Attributes
 
-![The Arc Tangent 2 Node Attributes.]()
+![The Arc Tangent 2 Node Attributes.](../../../.gitbook/assets/node-atan2-attri.png)
 
 ### Miscellaneous
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Is Degree` | **Bool** | Determines whether the `Output` value is given in degrees \(°\) or radians \(rad\). |
-
-### Inputs
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Default Value Y` | **Float** | The default value of `Input Y`, if no value is provided in the **Input** **Socket**. |
-| `Default Value X` | **Float** | The default value of `Input X`, if no value is provided in the **Input Socket**. |
+| `Default Value y` | **Float** | The default value of `Input Y`, if no value is provided in the **Input** **Socket**. |
+| `Default Value x` | **Float** | The default value of `Input X`, if no value is provided in the **Input Socket**. |
 
 
 # Inputs
@@ -41,15 +36,15 @@ The function $atan2(y,x)$ is of common use in computer science and can be equiva
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Input Y` | **Float** | The $y$ input value. |
-| `Input X` | **Float** | The $x$ input value. |
+| `y` | **Float** | The $y$ input value. |
+| `x` | **Float** | The $x$ input value. |
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Output` | **Float** | The value of $atan2(y,x)$. |
+| `Output` | **Float** | The value of $atan2(y,x)$, either in degrees \(°\) or radians \(rad\) according to the `Is Degree` **Attribute**. |
 
 
 # See Also
