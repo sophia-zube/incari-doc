@@ -15,6 +15,7 @@ _Trigonometric functions_ are used to calculate the acute angles and side length
 * [**Arc Sine**](arc-sine.md) - Returns the _arcsine_ of an input value.
 * [**Arc Cosine**](arc-cosine.md) - Returns the _arccosine_ of an input value.
 * [**Arc Tangent**](arc-tangent.md) - Returns the _arctangent_ of an input value.
+* [**Arc Tangent 2**](arc-tangent2.md) - Returns the _two-argument arctangent_ of two input values.
 
 ## Converters
 
