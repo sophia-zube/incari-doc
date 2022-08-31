@@ -14,6 +14,8 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 
 <!---# Attributes
 
+![The Remove Array Element Node Attributes.]()
+
 |Attribute|Type|Description|
 |---|---|---|
 --->
@@ -23,7 +25,7 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The **Array** whose element(s) will be removed.|
-|`Indices`|**Int**|The index, or indeces, of the element(s) to be removed.|
+|`Index (0)`|**Int**|The index, or indeces, of the element(s) to be removed.|
 
 
 # Outputs
