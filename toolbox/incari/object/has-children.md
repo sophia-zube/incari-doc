@@ -2,7 +2,9 @@
 
 ![The Has Children Node.](../../../.gitbook/assets/haschildrennode.png)
 
-The **Has Children Node** returns a **Boolean** of either *true* or *false*, reflecting whether a *parent* **Object** has *children* or not.
+The **Has Children Node** returns a **Boolean** of either *true* or *false*, reflecting whether an **Object** has *children* or not.
+
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 
@@ -24,7 +26,7 @@ The **Has Children Node** returns a **Boolean** of either *true* or *false*, ref
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Has Children`|**Boolean**|Returns *true* if the *parent* **Object** has *children*, *false* if not. 
+|`Has Children`|**Boolean**|Returns *true* if the **Object** has *children*, *false* if not. 
 
 # See Also
 

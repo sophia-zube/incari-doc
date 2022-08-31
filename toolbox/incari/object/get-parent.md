@@ -4,6 +4,8 @@
 
 The **Get Parent Node** returns the **Object ID** of a *child* **Object's** *parent*.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Get Parent Node Attributes.](../../../.gitbook/assets/getparentattributes.png)
