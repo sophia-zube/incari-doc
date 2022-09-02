@@ -4,7 +4,7 @@ description: Available since 2022.1.2
 
 # Overview
 
-![The Remove Array Element Node.]()
+![The Remove Array Element Node.](../../.gitbook/assets/removearrayelementnode.png)
 
 The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indices. 
 
@@ -12,20 +12,20 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
-<!---# Attributes
+# Attributes
 
-![The Remove Array Element Node Attributes.]()
+![The Remove Array Element Node Attributes.](../../.gitbook/assets/removearrayelementattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
---->
+|`Inputs`|**Drop-down**|The index, or indices, of the element(s) to be removed, if one is not provided in the **Input Socket**.|
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The **Array** whose element(s) will be removed.|
-|`Index (0)`|**Int**|The index, or indeces, of the element(s) to be removed.|
+|`Index (0)`|**Int**|The index, or indices, of the element(s) to be removed.|
 
 
 # Outputs
