@@ -10,6 +10,7 @@ The **Array Nodes** are used for creating and handling **Arrays**. An **Array** 
 * [**Clear Array**](clear-array.md)
 * [**Concat Arrays**](concat-arrays.md)
 * [**Get Array Element**](get-array-element.md)
+* [**Insert Array Element**](insert-array-element.md)
 * [**Length of Array**](length-of-array.md)
 * [**Pop Array Element**](pop-array-element.md)
 * [**Push Array Element**](push-array-element.md)
