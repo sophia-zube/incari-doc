@@ -111,6 +111,7 @@
   * [Clear Array](toolbox/array/clear-array.md)
   * [Concat Arrays](toolbox/array/concat-arrays.md)
   * [Get Array Element](toolbox/array/get-array-element.md)
+  * [Insert Array Element](toolbox/array/insert-array-element.md)
   * [Length of Array](toolbox/array/length-of-array.md)
   * [Pop Array Element](toolbox/array/pop-array-element.md)
   * [Push Array Element](toolbox/array/push-array-element.md)
