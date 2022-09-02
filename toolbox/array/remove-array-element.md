@@ -1,11 +1,10 @@
-
 # Overview
 
 ![The Remove Array Element Node.](../../.gitbook/assets/removearrayelementnode.png)
 
 The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indices. 
 
-For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indices` $1$ and $3$ are given, the elements at those indices are deleted and the user is left with a new **Array**: $[0,6,12]$. 
+For example, an **Array** is populated as follows: $$[0,3,6,9,12]$$. If the `Indices` $$1$$ and $$3$$ are given, the elements at those indices are deleted and the user is left with a new **Array**: $$[0,6,12]$$. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -15,7 +14,8 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Inputs`|**Drop-down**|Specifies each new element's `Index` in the **Array**, `Data Type`, and `Value`, if none are provided in the **Input Socket**.|
+|`Inputs`|**Drop-down**|The index, or indices, of the element(s) to be removed, if one is not provided in the **Input Socket**.|
+
 
 # Inputs
 
@@ -23,7 +23,7 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The **Array** whose element(s) will be removed.|
-|`Index (0)`|**Int**|The index, or indeces, of the element(s) to be removed.|
+|`Index (0)`|**Int**|The index, or indices, of the element(s) to be removed.|
 
 
 # Outputs
