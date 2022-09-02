@@ -115,6 +115,7 @@
   * [Length of Array](toolbox/array/length-of-array.md)
   * [Pop Array Element](toolbox/array/pop-array-element.md)
   * [Push Array Element](toolbox/array/push-array-element.md)
+  * [Remove Array Element](toolbox/array/remove-array-element.md)
   * [Set Array Element](toolbox/array/set-array-element.md)
 * [Binary](toolbox/binary/README.md)
   * [Binary \(Hex\) Value](toolbox/binary/binary-hex-value.md)
