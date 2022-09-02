@@ -14,6 +14,7 @@ The **Array Nodes** are used for creating and handling **Arrays**. An **Array** 
 * [**Length of Array**](length-of-array.md)
 * [**Pop Array Element**](pop-array-element.md)
 * [**Push Array Element**](push-array-element.md)
+* [**Remove Array Element**](remove-array-element.md)
 * [**Set Array Element**](set-array-element.md)
 
 ## External Links
