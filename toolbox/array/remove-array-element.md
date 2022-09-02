@@ -8,7 +8,7 @@ description: Available since 2022.1.2
 
 The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indices. 
 
-For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indices` $1$ and $3$ are given, the elements at those indices are deleted and the user is left with a new **Array**: $[0,6,12]$. 
+For example, an **Array** is populated as follows: $$[0,3,6,9,12]$$. If the `Indices` $$1$$ and $$3$$ are given, the elements at those indices are deleted and the user is left with a new **Array**: $$[0,6,12]$$. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -19,6 +19,8 @@ For example, an **Array** is populated as follows: $[0,3,6,9,12]$. If the `Indic
 |Attribute|Type|Description|
 |---|---|---|
 |`Inputs`|**Drop-down**|The index, or indices, of the element(s) to be removed, if one is not provided in the **Input Socket**.|
+
+
 # Inputs
 
 |Input|Type|Description|
