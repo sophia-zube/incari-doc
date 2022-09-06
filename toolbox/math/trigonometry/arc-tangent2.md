@@ -22,8 +22,8 @@ The function $$atan2(y,x)$$ is of common use in computer science and can be equi
 | Attribute         | Type      | Description                                                                          |
 | ----------------- | --------- | ------------------------------------------------------------------------------------ |
 | `Is Degree`       | **Bool**  | Determines whether the `Output` value is given in degrees (°) or radians (rad).      |
-| `Default Value y` | **Float** | The default value of `Input Y`, if no value is provided in the **Input** **Socket**. |
-| `Default Value x` | **Float** | The default value of `Input X`, if no value is provided in the **Input Socket**.     |
+| `Default Value y` | **Float** | The default value of `y`, if no value is provided in the **Input** **Socket**. |
+| `Default Value x` | **Float** | The default value of `x`, if no value is provided in the **Input Socket**.     |
 
 ## Inputs
 
@@ -38,7 +38,7 @@ The function $$atan2(y,x)$$ is of common use in computer science and can be equi
 | Output             | Type      | Description                                                                                                                            |
 | ------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | _Pulse Output_ (►) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output`           | **Float** | The value of $$atan2(y,x)$$, either in degrees (°) or radians (rad) according to the `Is Degree` **Attribute**.                          |
+| `Output`           | **Float** | The value of $$atan2(y,x)$$, either in degrees (°) or radians (rad), according to the `Is Degree` **Attribute**.                          |
 
 ## See Also
 
