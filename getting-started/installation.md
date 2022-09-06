@@ -1,7 +1,7 @@
 # Installation
 
-At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/downloads/) (free version).
-Therefore, the first step is to install the Visual Studio 2022 Community Edition (Desktop Development C++ setup), start it once, and create a profile.
+At the moment **Incari** relies on the Windows SDK that comes with [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products)<!-- (https://visualstudio.microsoft.com/downloads/) --> (free version).
+Therefore, the first step is to install the Visual Studio 2019 Community Edition (Desktop Development C++ setup), start it once, and create a profile.
 
 For installation and licensing of **Incari Studio**, please follow these steps:
 
