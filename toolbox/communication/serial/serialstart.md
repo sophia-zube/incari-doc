@@ -4,6 +4,13 @@
 
 The **Serial Start Node** starts the **Serial** connection.
 
+It is important to note that while the **Serial Start Node** starts a **Serial** connection, it may not completely finish establishing
+said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
+to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use 
+the [**On Serial Start Node**](events/onserialstart.md) instead. This way, the **Logic** will only execute once the **CAN** connection has definitely been established. 
+
+Again, the user must first use the **Serial Start Node** to open the connection. Separately, the **On Serial Start Node** can be used to execute the desired **Communication Logic**.
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
