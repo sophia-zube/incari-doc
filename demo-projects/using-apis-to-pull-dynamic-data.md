@@ -18,17 +18,21 @@ As an example of how to use an API and how the data retrieved can be used in **I
 
 ### Project Overview
 
-![](../.gitbook/assets/image%20%283%29.png)
+<!-- ![](../.gitbook/assets/image%20%283%29.png) -->
+
+![](../.gitbook/assets/demoweatherapp_overview.png)
 
 If you open up the **Project** and look inside the **Logic Editor**, under the **'Root'** **Scene** tab, you will see the top-level **Logic** for the demo. To get things working, you will first need to change a few variables, which can be seen in the **Variables** tab of the **Logic Editor**. The **Variables** are:
 
 1. `apiKey` - The 32-character API key, unique to your OpenWeatherMap account.
-2. `city` - The city which you want to retrieve the weather for. To reduce ambiguity problems with city names, it is better to use the city name _and_ country. "San Francisco" could be 1 of 5 locations, so "San Francisco, US" will give much more specific results. To see the search results beforehand, you can check them [here](https://openweathermap.org/find).
-3. `isMetric` - Whether or not the temperature should be in metric \(°C\) or imperial \(°F\) units.
+2. `locationsList` - A list of four locations for which you want to retrieve the weather. To avoid ambiguity issues with location names, it is preferred to use both the city name _and_ country. "San Francisco" could be 1 of 5 locations, but "San Francisco, US" yields only one result. To see the search results beforehand, you can check them [here](https://openweathermap.org/find).
+3. `isMetric` - Whether the temperature should be in metric \(°C\) or imperial \(°F\) units.
 
-![](../.gitbook/assets/servers-01.gif)
+<!-- ![](../.gitbook/assets/servers-01.gif) -->
 
-Once these **Variables** are changed you can press play to start the simulation. You should now be able to see current weather information for the city whose name you provided in the `city` variable.
+![](../.gitbook/assets/demoweatherapp_differentLocations.gif)
+
+Once these **Variables** are changed you can press play to start the simulation. You should now be able to see current weather information for the locations listed in `locationsList`.
 
 ### HTTP GET
 
@@ -68,13 +72,22 @@ If we were to put this information directly into the **Attributes** of the **Nod
 
 #### The Request Query as a Variable
 
-![](../.gitbook/assets/2020-10-13_08h57_34.png)
+<!-- ![](../.gitbook/assets/2020-10-13_08h57_34.png) -->
 
-Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place (the **Variable** tab of the **Logic Editor**) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form our `query` **Variable**.
+![](../.gitbook/assets/demoweatherapi_queryinitial)
 
-![](../.gitbook/assets/2020-10-13_09h08_59.png)
+Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place (the **Variable** tab of the **Logic Editor**) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form a query for each location in the `locationsList` **Array** and put it into the `queryList` **Array**.
 
-This **Variable** is then passed into the `Query` input socket of the **HTTP GET Node**, overriding any information in its `Request Query` **Attribute**.
+<!-- ![](../.gitbook/assets/2020-10-13_09h08_59.png) -->
+
+![](../.gitbook/assets/demoweatherapi_inputSetResponse1.png)
+
+Each element of the `queryList` **Array** is then used as a `Query` input parameter for the `SetResponse` **Function**.
+
+![](../.gitbook/assets/demoweatherapi_setresponsefunction.png)
+
+This parameter is passed into the `HTTP GET` **Node** `Query` **Input Socket**, overriding any information in the **Node's** `Request Query` **Attribute**. The `SetResponse` **Function** outputs a `Response` parameter that is used to set different `WeatherScreen` **Attributes** 
+
 
 ### JSON
 
@@ -100,11 +113,30 @@ For example, if you look at the image above, you will see that from the main `Re
 
 ### On Set
 
+For each location, after generating a `Response` **Dictionary**-type **Variable** with the `SetResponse` **Function**, this output is passed to the `SetWeatherScreenValues` **Function** and fed into a number of custom **Functions** to get the relevant *key-value pairs* and process them.
+
+![](../.gitbook/assets/demoweatherapp_setWeatherScreenValues.png)
+
+![](../.gitbook/assets/demoweatherapp_setWeatherScreenValuesLogic.png)
+
+This **Function** outputs a set of **Strings** and **Int** values which is then passed to the `WeatherScreen` **Prefab** **Node**.
+
+![](../.gitbook/assets/demoweatherapp_prefabLogic_01.png)
+
+Inside the **Prefab** **Logic**, every input parameter is passed on to a local **Variable**.
+
 In [Part 8 of our Tutorial for Beginners](https://www.youtube.com/watch?v=odtn4941x4Q&ab_channel=IncariHMIDevelopmentPlatform), we discussed the advantages of _decoupling_ **Logic**.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/demoweatherapp_prefabLogic_02.png)
 
-By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable (called `Response` in this case), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them. Following this, the text and images of the weather app should change to reflect the API response.
+![](../.gitbook/assets/demoweatherapp_prefabLogic_03.png)
+
+By putting input parameters into local **Variables**, it is possible to trigger a **Logic Branch** only in the case that a **Variable** is changed at runtime.
+
+
+<!-- ![](../.gitbook/assets/image%20%284%29.png)
+
+By plugging the`Output`of the **JSON Parse Node** into the `Value` input of a **Dictionary**-type variable (called `Response` in this case), it is possible to trigger **Logic** in several places whenever the value of that **Variable** is set. This **Variable** is then fed into a number of custom **Functions** to get the relevant key-value pairs and process them. Following this, the text and images of the weather app should change to reflect the API response. -->
 
 ### Conclusion
 
