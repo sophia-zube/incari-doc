@@ -115,7 +115,7 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 Finally, we add a slide-in animation for the taskbar.
 
-![Current Group Structure](../.gitbook/assets/demoprefabs/demoprefabs_currentstructure.png)
+![Current Group Structure](../.gitbook/assets/demoprefabs_currentstructure.png)
 
 ![Slide-In Animation](../.gitbook/assets/demoprefabs/demoprefabs_slideinanimation.png)
 

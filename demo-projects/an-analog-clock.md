@@ -6,11 +6,7 @@ Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**
 
 |                 Basic Version                |                  Ticking Version                 |
 | :------------------------------------------: | :----------------------------------------------: |
-<<<<<<< HEAD
-| ![](../.gitbook/assets/clock-basicfinal.gif) | ![](<../.gitbook/assets/clock-ticking2 (2).gif>) |
-=======
-| ![](../.gitbook/assets/democlock/democlock_basic.gif.gif) | ![](../.gitbook/assets/democlock/democlock_ticking.gif) |
->>>>>>> 4489e702 (update for demo projects)
+| ![](../.gitbook/assets/democlock/democlock_basic.gif) | ![](../.gitbook/assets/democlock/democlock_ticking.gif) |
 
 ## 1. The Basic Version
 
