@@ -74,7 +74,7 @@ If we were to put this information directly into the **Attributes** of the **Nod
 
 <!-- ![](../.gitbook/assets/2020-10-13_08h57_34.png) -->
 
-![](../.gitbook/assets/demoweatherapi_queryinitial)
+![](../.gitbook/assets/demoweatherapi_queryinitial.png)
 
 Although building the query directly in the **Attribute Editor** may work correctly, it is much better practice to break this up into **Variables**, so that all settings of our application can be changed in one place (the **Variable** tab of the **Logic Editor**) and can be dynamically adjusted on-the-fly. If you look at the initialization **Logic** above, we are using the variables `isMetric`, `apiKey`, and `city` to build a **Dictionary**, which will form a query for each location in the `locationsList` **Array** and put it into the `queryList` **Array**.
 
