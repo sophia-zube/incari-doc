@@ -2,7 +2,7 @@
 
 ![The Serial Start Node.](../../../.gitbook/assets/serialstartnode.png)
 
-The **Serial Start Node** starts the **Serial** connection.
+The **Serial Start Node** starts a **Serial** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
