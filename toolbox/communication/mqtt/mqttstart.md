@@ -4,7 +4,7 @@
 
 ![The MQTT Start Node.](../../../.gitbook/assets/mqttstartnode.png)
 
-The **MQTT Start Node** starts the **MQTT** connection.
+The **MQTT Start Node** starts a **MQTT** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#mqtt).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 

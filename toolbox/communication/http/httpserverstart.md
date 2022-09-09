@@ -4,7 +4,7 @@
 
 ![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstartnode.png)
 
-The **HTTP Server Start Node** starts communication with a server that has already been set up in **Project Settings**.
+The **HTTP Server Start Node** starts communication with a server that has already been set up in [**Project Settings**](../../../modules/project-settings.md#http).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
