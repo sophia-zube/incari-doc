@@ -15,7 +15,7 @@ For example, an **Array** is populated as follows: $$[0,3,6,9,12]$$. If the *ind
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Input [n]`|**Drop-down**|The index, or indices, of the element(s) to be removed, if one is not provided in the **Input Socket**.|
+|`Index [n]`|**Drop-down**|The index, or indices, of the element(s) to be removed, if one is not provided in the **Input Socket**.|
 
 
 
@@ -25,7 +25,7 @@ For example, an **Array** is populated as follows: $$[0,3,6,9,12]$$. If the *ind
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The **Array** whose element(s) will be removed.|
-|`Index (i)[n]`|**Int**|The index, or indices, of the element(s) to be removed. The index `i`, or indices, where the element(s) will be removed. `n` describes the number of elements to be removed.|
+|`Index (i)[n]`|**Int**|The index `i` where the element(s) will be removed. `n` describes the number of elements to be removed.|
 
 
 
