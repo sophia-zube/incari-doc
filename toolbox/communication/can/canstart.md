@@ -4,7 +4,7 @@
 
 ![The CAN Start Node.](../../../.gitbook/assets/canstartnode.png)
 
-The **CAN Start Node** starts communication with a **CAN** with a connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#can).
+The **CAN Start Node** starts communication with a **CAN** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#can).
 
 It is important to note that while the **CAN Start Node** starts a **CAN** connection, it may not completely finish establishing
 said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
