@@ -306,6 +306,7 @@
     <!-- * [Set Local Position](toolbox/incari/object/set-local-position.md)
     * [Set Local Rotation](toolbox/incari/object/set-local-rotation.md) -->
     * [Set Material](toolbox/incari/object/set-material.md)
+    * [Get Name](toolbox/incari/object/get-name.md)
     * [Set Position](toolbox/incari/object/set-position.md)
     * [Set Position 2D (px)](toolbox/incari/object/set-position-pixel.md)
     * [Set Rotation](toolbox/incari/object/set-rotation.md)
