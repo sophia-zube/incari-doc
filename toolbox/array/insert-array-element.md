@@ -6,9 +6,9 @@ description: Available since 2022.1.2
 
 ![The Insert Array Element Node.](../../.gitbook/assets/insertarrayelementnode.png)
 
-The **Insert Array Element Node** adds an element, or elements, to an **Array**. These are inserted at a speficied index and given a specified value.  
+The **Insert Array Element Node** adds an element, or elements, to an **Array**. These are inserted at a specified index and given a specified value.  
 
-For example, an **Array** is populated as follows: $$[0,6,12]$$. If the `Indices` $$1$$ and $$3$$ are given and the values $$3$$ and $$9$$ are defined, the elements at those indices are inserted and the user is left with a new **Array**: $$[0,3,6,9,12]$$. 
+For example, an **Array** is populated as follows: $$[0,6,12]$$. If the *indices* $$1$$ and $$3$$ are given and the values $$3$$ and $$9$$ are defined, the elements at those *indices* are inserted and the user is left with a new **Array**: $$[0,3,6,9,12]$$. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -18,9 +18,9 @@ For example, an **Array** is populated as follows: $$[0,6,12]$$. If the `Indices
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Index`|**Drop-down**|Specifies each new element's `Index` in the **Array**, if one is not provided in the **Input Socket**.|
-|`Data Type`|**Drop-down**|Specifies each new element's `Data Type`, if one is not provided in the **Input Socket**.|
-|`Value`|**Drop-down**| Specifies each new element's `Value`, if one is not provided in the **Input Socket**.|
+|`Index [n]`|**Drop-down**|Specifies each new element's `Index` in the **Array**, if one is not provided in the **Input Socket**.|
+|`Data Type [n]`|**Drop-down**|Specifies each new element's `Data Type`, if one is not provided in the **Input Socket**.|
+|`Value [n]`|**Drop-down**| Specifies each new element's `Value`, if one is not provided in the **Input Socket**.|
 
 # Inputs
 
@@ -28,7 +28,7 @@ For example, an **Array** is populated as follows: $$[0,6,12]$$. If the `Indices
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The starting **Array** to have element(s) added.|
-|`Index (i)[n]`|**Int**|The index `i`, or indices, where the element(s) will be inserted. `n` describes the number of elements to be inserted.|
+|`Index (i)[n]`|**Int**|The index `i` where the element(s) will be inserted. `n` describes the number of elements to be inserted.|
 |`Value`|**Int**|The value(s) of the element(s) to be added.|
 
 # Outputs
