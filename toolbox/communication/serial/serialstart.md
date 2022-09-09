@@ -2,7 +2,7 @@
 
 ![The Serial Start Node.](../../../.gitbook/assets/serialstartnode.png)
 
-The **Serial Start Node** starts the **Serial** connection.
+The **Serial Start Node** starts a **Serial** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
 
 It is important to note that while the **Serial Start Node** starts a **Serial** connection, it may not completely finish establishing
 said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
