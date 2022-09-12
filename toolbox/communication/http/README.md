@@ -6,15 +6,13 @@ The **HTTP Nodes** provide a means for the user to perform several actions withi
 
 ## HTTP Guideline
 
+These are the guidelines for incorporating **HTTP Communication** into a **Project**.
+
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
-* These **Nodes** cover important functions of **HTTP Communication**.
-  * **On HTTP Route** executes when an **HTTP Route** is received.
-  * **On HTTP Server Start** executes once a connection to an **HTTP Server** is completely established.
-  * **On HTTP Server Stop** executes once a connection to an **HTTP Server** is completely disconnected from. 
-  * **HTTP Client** implements the *post* and *get* functions of the **HTTP** protocol. 
-  * **HTTP Response** defines a response for a particular request.
-  * **HTTP Server Start** starts the connection with an **HTTP Server**. 
-  * **HTTP Server Stop** stops the connection with an **HTTP Server**.
+* Once the connection has been established, there are several **Nodes** that cover important functions of **HTTP Communication**.
+  * [**On HTTP Route**](events/onhttproute.md) executes when an **HTTP Route** is received.
+  * [**HTTP Client**](httpclient.md) implements the *post* and *get* functions of the **HTTP** protocol. 
+  * [**HTTP Response**](httpresponse.md) defines a response for a particular request.
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 
 ## Contents
