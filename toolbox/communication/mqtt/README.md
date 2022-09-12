@@ -4,6 +4,17 @@
 
 The **MQTT Nodes** provide a means for the user to perform several actions within the _MQTT_ messaging protocol. _MQTT_, or _Message Queuing Telemetry Transport_, allows the communication among devices and is commonly used in _IoT_ applications. To use the **MQTT Nodes** in **Incari**, the user needs to locate the [**MQTT Attributes**](../../../modules/project-settings.md#mqtt) in **Project Settings** and add a `Connection`.
 
+## MQTT Guideline
+
+These are the guidelines for incorporating **MQTT Communication** into a **Project**.
+
+* To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
+* Once the connection has been established, there are several **Nodes** that cover important functions of **MQTT Communication**.
+  * [**On MQTT Topic**](events/onmqtttopic.md) executes when an **MQTT Topic** is received.
+  * [**MQTT Publish**](mqttpublish.md) sends an **MQTT Message**.
+  * [**MQTT Subscribe**](mqttsubscribe.md) listens for an **MQTT Topic** 
+* To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
+
 ## Contents
 
 * [**Events**](events/)
