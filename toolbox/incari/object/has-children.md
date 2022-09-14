@@ -19,7 +19,7 @@ The **Has Children Node** returns a **Boolean** of either *true* or *false*, ref
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The **Object** to be checked for *children* **Objects**.|
+|`Object ID`|**ObjectID**|The **Object** to be checked for *children* **Objects**.|
 
 # Outputs
 

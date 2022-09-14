@@ -2,7 +2,7 @@
 
 ![The Get Children Node.](../../../.gitbook/assets/getchildrennode.png)
 
-The **Get Children Node** returns an **Array** of *children* **Object IDs** of a *parent* **Object**.
+The **Get Children Node** returns an **Array** of all the *children* **Object IDs** of a *parent* **Object**, the latter of which is given as **Input**. If an **Object** has no children, an empty **Array** is returned. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
