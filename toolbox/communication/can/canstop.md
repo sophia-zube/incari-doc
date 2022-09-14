@@ -4,11 +4,11 @@
 
 ![The CAN Stop Node.](../../../.gitbook/assets/canstopnode.png)
 
-The **CAN Stop Node** halts communication with a **CAN** network.
+The **CAN Stop Node** halts communication with a **CAN** connection.
 
 It is important to note that while the **CAN Stop Node** stops a **CAN** connection, it may not completely finish disconnecting from said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
 to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use 
-the [**On CAN Stop Node**](events/oncanstop.md) instead. This way, the **Logic** will only execute once the **CAN** connection has definitely been disconnected from. 
+the [**On CAN Stop Node**](events/oncanstop.md) instead. This way, it is assured that the **Logic** will execute once the connection to the **CAN** connection has been terminated.
 
 Again, the user must first use the **CAN Stop Node** to close the connection. Separately, the **On CAN Stop Node** can be used to execute the desired **Communication Logic**. 
 

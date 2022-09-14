@@ -6,7 +6,7 @@
 
 The **HTTP Server Stop Node** terminates the connection with an **HTTP Server**.
 
-It is important to note that while the **HTTP Server Stop Node** stops the connection to an **HTTP Server**, it may not completely finish disconnecting from said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On HTTP Server Stop Node**](events/onhttpserverstop.md) instead. This way, the **Logic** will only execute once the **HTTP Server** has definitely been disconnected from. 
+It is important to note that while the **HTTP Server Stop Node** stops the connection to an **HTTP Server**, it may not completely finish disconnecting from said server when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On HTTP Server Stop Node**](events/onhttpserverstop.md) instead. This way, it is assured that the **Logic** will execute once the connection to the **HTTP** **Server** has been terminated.
 
 Again, the user must first use the **HTTP Server Stop Node** to close the connection. Separately, the **On HTTP Server Stop Node** can be used to execute the desired **Communication Logic**. 
 
