@@ -10,6 +10,8 @@ It is important to note that while the **HTTP Server Stop Node** stops the conne
 
 Again, the user must first use the **HTTP Server Stop Node** to close the connection. Separately, the **On HTTP Server Stop Node** can be used to execute the desired **Communication Logic**. 
 
+![HTTP Server Stop and On HTTP Server Stop Configuration.](../../../.gitbook/assets/httpstopvsonhttpstop.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes

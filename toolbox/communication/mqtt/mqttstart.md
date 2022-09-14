@@ -13,6 +13,8 @@ the [**On MQTT Start Node**](events/onmqttstart.md) instead. This way, the **Log
 
 Again, the user must first use the **MQTT Start Node** to open the connection. Separately, the **On MQTT Start Node** can be used to execute the desired **Communication Logic**.
 
+![MQTT Start and On MQTT Start Configuration.](../../../.gitbook/assets/mqttstartvsonmqttstart.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes

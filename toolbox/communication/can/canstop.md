@@ -13,6 +13,8 @@ the [**On CAN Stop Node**](events/oncanstop.md) instead. This way, the **Logic**
 Again, the user must first use the **CAN Stop Node** to close the connection. Separately, the **On CAN Stop Node** can be used to execute the desired **Communication Logic**. 
 
 
+![CAN Stop and On CAN Stop Configuration.](../../../.gitbook/assets/canstopvsoncanstop.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Inputs

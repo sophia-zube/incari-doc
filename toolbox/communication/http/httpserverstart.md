@@ -10,6 +10,8 @@ It is important to note that while the **HTTP Server Start Node** starts a conne
 
 Again, the user must first use the **HTTP Server Start Node** to open the connection. Separately, the **On HTTP Server Start Node** can be used to execute the desired **Communication Logic**.
 
+![HTTP Server Start and On HTTP Server Start Configuration.](../../../.gitbook/assets/httpstartvsonhttpstart.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
