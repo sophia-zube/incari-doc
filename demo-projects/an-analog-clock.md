@@ -54,13 +54,17 @@ Finally, we pass the **Variable** value and the trigger from the [**On Change**]
 
 Save and run the project to see the basic clock!
 
-![](../.gitbook/assets/basicclock.gif)
+![](../.gitbook/assets/democlock/democlock_basic.gif)
 
 ## 2. The Ticking Version
 
 But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be adjusted to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/) in **Incari**.
 
+<<<<<<< HEAD
 ![](<../.gitbook/assets/clock-ticking2 (1).gif>)
+=======
+![](../.gitbook/assets/democlock/democlock_ticking.gif)
+>>>>>>> 971c7d68 (updating images in demo projects)
 
 From the [**Project Outliner**](../modules/project-outliner.md), double-click the [**Scene**](../objects-and-types/project-objects/scene.md) named ‘**Ticking Animation**'.
 
@@ -146,4 +150,8 @@ Now that the time values have been converted to _rotation_ values, we can use th
 
 Save and run the **Project** to see the ticking clock.
 
+<<<<<<< HEAD
 ![](../.gitbook/assets/clock-tickingversion.gif)
+=======
+![](../.gitbook/assets/democlock/democlock_ticking.gif)
+>>>>>>> 971c7d68 (updating images in demo projects)
