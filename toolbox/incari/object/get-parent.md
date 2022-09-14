@@ -2,7 +2,7 @@
 
 ![The Get Parent Node.](../../../.gitbook/assets/getparentnode.png)
 
-The **Get Parent Node** returns the **Object ID** of a *child* **Object's** *parent*, if it has one. If an **Object** has no *childern*, an empty **Array** is returned.
+The **Get Parent Node** returns the **Object ID** of an **Object's** *parent*, if it has one. If an **Object** has no *parent*, an empty **Array** is returned.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
