@@ -38,7 +38,7 @@ For this **Demo**, we need 5 different buttons: _Wi-Fi_, _Bluetooth_, _Cellular_
 
 Open **Incari Hub** and [create a **Project**](../getting-started/first-steps/creating-a-project.md) using the default parameters. After all is complete, you should be presented with the **Incari Studio** start screen.
 
-![](../.gitbook/assets/demoprefabs_createproject2.png)
+![](../.gitbook/assets/demoprefabs/demoprefabs_createproject2.png)
 
 ### 2) Importing the Assets
 
