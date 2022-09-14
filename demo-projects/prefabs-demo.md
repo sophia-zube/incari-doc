@@ -38,7 +38,7 @@ For this **Demo**, we need 5 different buttons: _Wi-Fi_, _Bluetooth_, _Cellular_
 
 Open **Incari Hub** and [create a **Project**](../getting-started/first-steps/creating-a-project.md) using the default parameters. After all is complete, you should be presented with the **Incari Studio** start screen.
 
-![](../.gitbook/assets/demoprefabs_createproject.png)
+![](../.gitbook/assets/demoprefabs_createproject2.png)
 
 ### 2) Importing the Assets
 
@@ -50,7 +50,7 @@ Go to the **Asset Manager** to import the unzipped files into your **Project** w
 
 One of the simplest ways of creating different states for an image is using [**Image Sequences**](../toolbox/events/imagesequence/). In your **Project's** **Assets** folder, you will find them pre-created. Should you wish, you can skip this step. But just to demonstrate how easy it is to create them, let’s make one for the Wi-Fi icon.
 
-![](../.gitbook/assets/demoprefabs_createsequence.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_createImageSequence.gif)
 
 ### 4) Creating a Prefab
 
@@ -102,11 +102,11 @@ The real power of **Prefabs** is that you can use them again and again in differ
 
 This **Project** uses the **Assets** from the _Dashboard_ folder of the provided files. After adding our map and taskbar backgrounds, we can drag our **Prefabs** from the **Asset Manager** to the **Scene**.
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_addprefab.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_addprefab2.gif)
 
 After adding all **Prefabs** to the **Scene** and placing them in their respective locations, add the appropriate icons for each of them from the **'Sequences'** folder.
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_addsequence.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_addsequence2.gif)
 
 | :warning: | After all is done, do not forget to initialize your **Prefabs**! |
 | --------- | ---------------------------------------------------------------- |
@@ -115,7 +115,7 @@ After adding all **Prefabs** to the **Scene** and placing them in their respecti
 
 Finally, we add a slide-in animation for the taskbar.
 
-![Current Group Structure](../.gitbook/assets/demoprefabs_currentstructure.png)
+![Current Group Structure](../.gitbook/assets/demoprefabs/demoprefabs_currentstructure.png)
 
 ![Slide-In Animation](../.gitbook/assets/demoprefabs/demoprefabs_slideinanimation.png)
 
