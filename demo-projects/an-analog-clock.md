@@ -61,7 +61,11 @@ Save and run the project to see the basic clock!
 But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be adjusted to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/) in **Incari**.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![](<../.gitbook/assets/clock-ticking2 (1).gif>)
+=======
+![](../.gitbook/assets/democlock/democlock_ticking.gif)
+>>>>>>> 971c7d68 (updating images in demo projects)
 =======
 ![](../.gitbook/assets/democlock/democlock_ticking.gif)
 >>>>>>> 971c7d68 (updating images in demo projects)
@@ -151,7 +155,11 @@ Now that the time values have been converted to _rotation_ values, we can use th
 Save and run the **Project** to see the ticking clock.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![](../.gitbook/assets/clock-tickingversion.gif)
+=======
+![](../.gitbook/assets/democlock/democlock_ticking.gif)
+>>>>>>> 971c7d68 (updating images in demo projects)
 =======
 ![](../.gitbook/assets/democlock/democlock_ticking.gif)
 >>>>>>> 971c7d68 (updating images in demo projects)
