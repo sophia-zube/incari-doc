@@ -25,7 +25,7 @@ For example, an **Array** is populated as follows: $$[0,6,12]$$. If the *indices
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Array`|**Array**|The starting **Array** to have element(s) added.|
-|`Index (i)[n]`|**Int**|The index `i` where the element(s) will be inserted. `n` describes the number of elements to be inserted.|
+|`Index (i)[n]`|**Int**|The index `i` where the element will be inserted. `n` determines the number of **Input Sockets** available.|
 |`Value`|**Int**|The value(s) of the element(s) to be added.|
 
 
