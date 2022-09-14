@@ -102,11 +102,11 @@ The real power of **Prefabs** is that you can use them again and again in differ
 
 This **Project** uses the **Assets** from the _Dashboard_ folder of the provided files. After adding our map and taskbar backgrounds, we can drag our **Prefabs** from the **Asset Manager** to the **Scene**.
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_addprefab2.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_addprefab2_cropped.gif)
 
 After adding all **Prefabs** to the **Scene** and placing them in their respective locations, add the appropriate icons for each of them from the **'Sequences'** folder.
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_addsequence2.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_addsequence2_cropped.gif)
 
 | :warning: | After all is done, do not forget to initialize your **Prefabs**! |
 | --------- | ---------------------------------------------------------------- |
