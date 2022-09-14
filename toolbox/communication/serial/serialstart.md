@@ -11,6 +11,8 @@ the [**On Serial Start Node**](events/onserialstart.md) instead. This way, the *
 
 Again, the user must first use the **Serial Start Node** to open the connection. Separately, the **On Serial Start Node** can be used to execute the desired **Communication Logic**.
 
+![Serial Start and On Serial Start Configuration](../../../.gitbook/assets/serialstartvsonserialstart.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes

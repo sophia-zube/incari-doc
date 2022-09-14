@@ -12,6 +12,8 @@ the [**On MQTT Stop Node**](events/onmqttstop.md) instead. This way, the **Logic
 
 Again, the user must first use the **MQTT Stop Node** to close the connection. Separately, the **On MQTT Stop Node** can be used to execute the desired **Communication Logic**. 
 
+![MQTT Stop and On MQTT Stop Configuration.](../../../.gitbook/assets/mqttstopvsonmqttstop.png)
+
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
