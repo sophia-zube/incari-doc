@@ -10,7 +10,7 @@ the [**On Serial Stop Node**](events/onserialstop.md) instead. This way, the **L
 
 Again, the user must first use the **Serial Stop Node** to close the connection. Separately, the **On Serial Stop Node** can be used to execute the desired **Communication Logic**.  
 
-![Serial Stop and On Serial Stop Configuration.](../../../.gitbook/assets/serialstartvsonserialstart.png)
+![Serial Stop and On Serial Stop Configuration.](../../../.gitbook/assets/serialstopvsonserialstop.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
