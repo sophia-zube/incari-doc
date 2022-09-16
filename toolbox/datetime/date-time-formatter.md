@@ -4,7 +4,7 @@
 
 ![The Date Time Formatter Node.](../../.gitbook/assets/node-date-time-formatter.png)
 
-**Date Time Formatter** outputs a _date_ and/or _time_ in a specified format. By using a combination of special _format characters_, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
+The **Date Time Formatter** **Node** outputs a _date_ and/or _time_ in a specified format. By using a combination of special _format characters_, many different date/time formats can be created. This is used mostly for localization, however, it could also be used for formatting based on user preferences.
 
 For generating customized formats for the _date_ and _time_, _format strings_ are used. For more information about _format strings_, please see the [_format strings_ section](#format-strings) below.
 
@@ -49,7 +49,7 @@ For generating customized formats for the _date_ and _time_, _format strings_ ar
 
 ## Format Strings
 
-_Format strings_ are used for generating customized formats for the _date_ and _time_. To use this, the `Custom` option has to be chosen in the `Format Examples` **Attributes** and then the _format string_ is either given in the `Custom Format` **Attribute** or in the `Format` **Input Socket**.
+_Format strings_ are used for generating customized formats for the _date_ and _time_. To use this, the `Custom` option has to be chosen in the `Format Examples` **Attribute** and then the _format string_ is either given in the `Custom Format` **Attribute** or in the `Format` **Input Socket**.
 
 This section shows first an example of a customized _format string_ and its corresponding output, and then it gives a list of the _format characters_, which are the characters that compose a _format string_.
 
