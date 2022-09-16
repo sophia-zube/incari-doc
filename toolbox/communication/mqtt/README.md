@@ -12,7 +12,7 @@ These are the guidelines for incorporating **MQTT Communication** into a **Proje
 * Once the connection has been established, there are several **Nodes** that cover important functions of **MQTT Communication**.
   * [**On MQTT Topic**](events/onmqtttopic.md) executes when an **MQTT Topic** is received.
   * [**MQTT Publish**](mqttpublish.md) sends an **MQTT Message**.
-  * [**MQTT Subscribe**](mqttsubscribe.md) listens for an **MQTT Topic** 
+  * [**MQTT Subscribe**](mqttsubscribe.md) starts listening for an **MQTT Topic**. 
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 
 ## Contents
