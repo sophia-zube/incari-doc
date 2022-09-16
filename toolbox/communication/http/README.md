@@ -10,7 +10,7 @@ These are the guidelines for incorporating **HTTP Communication** into a **Proje
 
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 * Once the connection has been established, there are several **Nodes** that cover important functions of **HTTP Communication**.
-  * [**On HTTP Route**](events/onhttproute.md) executes when an **HTTP Route** is received.
+  * [**On HTTP Route**](events/onhttproute.md) executes when an **HTTP Request** from a specified **Route** is received.
   * [**HTTP Client**](httpclient.md) implements the *post* and *get* methods of the **HTTP** protocol. 
   * [**HTTP Response**](httpresponse.md) defines a response for a particular request.
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
