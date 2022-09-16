@@ -28,11 +28,11 @@ Imagine a generic, rounded rectangle button that can have multiple different ico
 
 Our button will have three states: **'Resting'**, **'Hover'**, and **'Pressed'**.
 
-![Button states.](../.gitbook/assets/demoprefabs/demoprefabs_buttonstates.png)
+![Button states.](../.gitbook/assets/demoprefabs/demoprefabs_buttonstatesv2.png)
 
 For this **Demo**, we need 5 different buttons: _Wi-Fi_, _Bluetooth_, _Cellular_, _GPS_, and _Mic_. This is a common layout that you might see everywhere from your phone to your car. These are the final buttons we want to have:
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_allbuttons.png)
+![](../.gitbook/assets/demoprefabs/demoprefabs_allbuttonsv2.png)
 
 ### 1) Creating the Project
 
@@ -98,7 +98,7 @@ Now, in order to use it in different **Projects** and to collaborate with others
 
 The real power of **Prefabs** is that you can use them again and again in different contexts. Using the **Prefab** we have just created, let’s build a simple control panel. It should take only a few drag and drops to build this fairly generic dashboard:
 
-![Dashboard with Map in the Background](../.gitbook/assets/demoprefabs/demoprefabs_dashboardmap.png)
+![Dashboard with Map in the Background](../.gitbook/assets/demoprefabs/demoprefabs_dashboardmapv2.png)
 
 This **Project** uses the **Assets** from the _Dashboard_ folder of the provided files. After adding our map and taskbar backgrounds, we can drag our **Prefabs** from the **Asset Manager** to the **Scene**.
 
@@ -121,6 +121,6 @@ Finally, we add a slide-in animation for the taskbar.
 
 To see it in action:
 
-![](../.gitbook/assets/demoprefabs/demoprefabs_final.gif)
+![](../.gitbook/assets/demoprefabs/demoprefabs_finalv2.gif)
 
 :exclamation: Using our Prefabs, we managed to create a dashboard in mere minutes using **Incari Studio**. As your **Prefab** library grows, building complex projects for any need will only get quicker.
