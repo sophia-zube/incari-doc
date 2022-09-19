@@ -2,7 +2,7 @@
 
 Many new features have been added to the release of **Incari Studio** 2022.1. Here is a list of the features you need to know.
 
-* [**Local Transformations**](attributes/common-attributes/transformation/local.md) 
+* [**Local Transformations**](../objects-and-types/attributes/common-attributes/transformation/local.md) 
 
     In previous versions of **Incari**, **Object** transformations could only be made in **Global space** – that is, with respect to a **Global** origin. This new release adds a new mode of transformations: **Local**. With **Local** transformations, it is possible to rotate and translate **Objects** with respect to their own axes, where previously this was only possible with respect to the **Global** axis.
 
@@ -43,9 +43,9 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
      The [**Material Editor**](../modules/material-editor/README.md) now offers a new **PBR Material**, the [**Extended PBR Material**](../modules/material-editor/extended-pbr-model.md). This **Material** offers more customizable options than in previous versions. These new options include: two texture maps – one for occlusion and one for metallic roughness; optional overlay of metallic and roughness values; and a more advanced shading model that generates results with greater accuracy.
 
 
-* [**Prefabs**](prefabs/README.md)
+* [**Prefabs**](../objects-and-types/prefabs/README.md)
 
-    [**Prefabs**](prefabs/README.md) are now available in **Incari**. This feature is useful in allowing the user to create multiple instances of combination of **Objects** in a *User Interface*. Users can make changes to and choose characteristics for either all instances or each one separately. As such, one can easily create several **Objects** with the same functionality that also retain unique properties via overrides. Moreover, **Prefabs** have their own [**Logic**](../modules/logic-editor.md) encapsulated within them. Any alterations in the **Prefab** properties or its **Logic** affect them across all of their instances.
+    [**Prefabs**](../objects-and-types/prefabs/README.md) are now available in **Incari**. This feature is useful in allowing the user to create multiple instances of combination of **Objects** in a *User Interface*. Users can make changes to and choose characteristics for either all instances or each one separately. As such, one can easily create several **Objects** with the same functionality that also retain unique properties via overrides. Moreover, **Prefabs** have their own [**Logic**](../modules/logic-editor.md) encapsulated within them. Any alterations in the **Prefab** properties or its **Logic** affect them across all of their instances.
 
     <!-- For example, **Prefabs** can be used to create several buttons that change color when a mouse hovers over it. For this, right-click the group of **Objects** and select `Make prefab`, and duplicate as many types as necessary. To make edits to the **Prefab**, simply locate it in the **Asset Manager** and double-click to open up a special **Prefab** window. These edits will override the properties changed, but unique properties will remain. It is easy to share with others or between projects with the `Export prefab` option in the **Asset Manager**. All **Assets** inside a **Prefab** will be put together into a directory on export.
 
