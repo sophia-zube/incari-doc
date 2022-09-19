@@ -6,7 +6,9 @@
 
 ## Contents
 
+* [**Get Current Directory**](getcurrentdirectory.md)
 * [**Load File**](loadfile.md) 
-* [**Save File**](savefile.md) 
+* [**Save File**](savefile.md)
+* [**Set Current Directory**](setcurrentdirectory.md) 
 
 
