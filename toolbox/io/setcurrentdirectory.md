@@ -4,6 +4,8 @@
 
 The **Set Current Directory Node** allows the user to change the current *directory*. It returns a **Boolean** of *true* or *false*, depending on if this setting was successful or not. 
 
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+
 
 # Inputs
 
