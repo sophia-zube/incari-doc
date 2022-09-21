@@ -2,7 +2,7 @@
 
 ![The Get Current Directory Node.](../../.gitbook/assets/getcurrentdirectorynode.png)
 
-The **Get Current Directory Node**  returns the current *directory* that is currently is use. If no *directory* has been explicitly set, it returns the default, which is the `Assets` folder of the current **Project**. 
+The **Get Current Directory Node**  returns the *directory* that is currently in use. If no *directory* has been explicitly set, it returns the default, which is the `Assets` folder of the current **Project**. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
