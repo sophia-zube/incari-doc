@@ -1,32 +1,34 @@
 # Overview
 
-![The Add Tag Node.]()
+![The Add Tag Node.](../../../.gitbook/assets/addtagnode.png)
 
-**Add Tag** .
+The **Add Tag Node** attaches a *tag* to an **Object**. This *tag* acts as *metadata* and can be used later to identify many **Objects** by a shared *tag*. 
+
+It is important to note that when a *tag* is added with the **Add Tag Node**, the *tag* is only added once executed in the **Incari Player** and does not interact in any way with the *tags* added in the `Attributes` of an **Object** in **Incari Studio**. For example, this **Node** could be used for an **Object** created on run time. 
 
 # Attributes
 
-![The Add Tag Node Attributes.]()
+![The Add Tag Node Attributes.](../../../.gitbook/assets/addtagattributes.png)
 
 ## Object
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`| **ObjectID** | |
+|`Object`| **ObjectID** |The **Object** that the *tag* will be added to, if one is not provided in the **Input Socket**.|
 
 ## Input
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Tag` | **String** | |
+| `Tag` | **String** |The *tag* to be added to the selected **Object**, if one is not provided in the **Input Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | |
-| `Tag` | **String** | |
+| `Object ID` | **ObjectID** |The **Object** that the *tag* will be added to.|
+| `Tag` | **String** |The *tag* to be added to the selected **Object**.|
 
 # Outputs
 
