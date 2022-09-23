@@ -1,24 +1,24 @@
 # Overview
 
-![The Remove Tag Node.]()
+![The Remove Tag Node.](../../../.gitbook/assets/removetagnode.png)
 
-**Remove Tag** .
+The **Remove Tag Node** deletes a *tag* from an **Object**. This *tag* acts as *metadata* and removing it means the **Object** is no longer associated with that *tag*.
 
 # Attributes
 
-![The Remove Tag Node Attributes.]()
+![The Remove Tag Node Attributes.](../../../.gitbook/assets/removetagattributes.png)
 
 ## Object
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Object` | **ObjectID** | |
+| `Object` | **ObjectID** |The **Object** from which the *tag* will be removed, if none is provided in the **Input Socket**.|
 
 ## Input
 
 |Attribute|Type|Description|
 |---|---|---|
-| `Tag` | **String** | |
+| `Tag` | **String** |The *tag* to be removed, if none is provided in the **Input Socket**.|
 
 
 # Inputs
@@ -26,8 +26,8 @@
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | |
-| `Tag` | **String** | |
+| `Object ID` | **ObjectID** |The **Object** from which the *tag* will be removed.|
+| `Tag` | **String** |The *tag* to be removed.|
 
 # Outputs
 
