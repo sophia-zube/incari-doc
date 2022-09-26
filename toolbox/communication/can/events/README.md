@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Event CAN Nodes** provide a way to perform certain actions when **CAN** processes start, halt, or when a `Message` of a _DBC_ file has been selected.
+The **Event CAN Nodes** provide a way to perform certain actions when **CAN** processes start, halt, or when the selected `Message` of a _DBC_ file has been received.
 
 ## Contents
 
