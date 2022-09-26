@@ -1,6 +1,8 @@
 # Project Initialization
 
-This **Demo Project** guide is broken up into two parts, with their corresponding subsections:
+This **Demo Project** takes the user first through how to correctly run a small **Project** that outputs **Array** elements to the console by making sure all *asynchronous* **Logic** is completed. Then it demonstrates how one might do this with multiple files, using a **Boolean** check.
+
+The **Demo Project** guide is broken up into two parts, with their corresponding subsections:
 
 * [**Part One**](project-initialization.md#part-one)
   * [**Part One Overview**](project-initialization.md#part-one-overview)
@@ -19,11 +21,11 @@ This **Demo Project** guide is broken up into two parts, with their correspondin
 
 In traditional, text-based programming languages, there is a clear order of execution. Lines of code are generally executed from top-to-bottom.
 
-As **Incari** is has *non-linear* execution of **Logic**, there is no implicit way to guarantee that certain entities will be initialized *before* you try and do something with them. This is especially problematic when:
+As **Incari** has a *non-linear* execution of **Logic**, there is no implicit way to guarantee that certain entities will be initialized *before* you try and do something with them. This is especially problematic when:
 
 * **Working with Events** - Because **Incari** is event-driven and multiple **Branches** of **Logic** can *listen* for the same event. This means that you can’t know for sure which branch will be fired in what order.
 
-* **Working with Asynchronous Nodes** - For most cases, **Incari** waits for **Nodes** to be evaluated *before* moving on to the next operation. It also waits for an entire **Branch** of **Logic** to finish before moving to the next **Branch**. This is referred to as *synchronous*. There are some **Nodes** however, that take a little bit longer than normal, and **Incari** will start executing other parts of the **Logic**, while waiting for these *asynchronous* **Nodes** to finish what they’re doing.
+* **Working with Asynchronous Nodes** - For most cases, **Incari** waits for **Nodes** to be evaluated *before* moving on to the next operation. It also waits for an entire **Branch** of **Logic** to finish before moving to the next **Branch**. This is referred to as *synchronous*. There are some **Nodes**, however, that take longer than normal, and **Incari** will start executing other parts of the **Logic** while waiting for these *asynchronous* **Nodes** to finish what they’re doing.
 
 To ensure that things like **Variables** are initialized via the **Logic**, before trying to access them, you need to create some additional **Logic**. This involves creating some additional checks to verify that the **Project** is in the state that you want it to be in, before trying to work with its data.
 
@@ -57,11 +59,11 @@ To demonstrate this issue, we have a simple **Project**, which loads a *JSON* fi
 
 There are 3 blocks in the `Project` tab of the **Logic** **Editor**:
 
-1. **“Project Init”** - Uses the built-in **On Initialize Event** in combination with a **Custom Event**, called “Project Init”.
+1. **“Project Init”** - Uses the built-in **On Initialize Event** in combination with a **Custom Event**, called `Project Init`.
 
-2. **“Load fruits.json”** - Loads our `fruits.json` file, uses **JSON Parse** to convert it to a **Dictionary**, gets the **Array** of fruit names, and then saves it to a **Variable**, called “Fruits”.
+2. **“Load fruits.json”** - Loads our `fruits.json` file, uses **JSON Parse** to convert it to a **Dictionary**, gets the **Array** of fruit names, and then saves it to a **Variable**, called `Fruits`.
 
-3. **“Get a fruit name”** - Attempts to get the fruit name with the index 10 from the “Fruits” **Variable** and print it’s name to the **Console**.
+3. **“Get a fruit name”** - Attempts to get the fruit name with the index 10 from the `Fruits` **Variable** and print it’s name to the **Console**.
 
 ### The Problem
 
@@ -152,13 +154,13 @@ To load the *JSON*, we do the same as before, but change the:
 
 2. `Key` **Attribute** of the **Get Dictionary Element Node**.
 
-3. The **Array Variable** that is set, to a new one named `isVegetablesLoaded`.
+3. The **Array Variable** that is set to a new one named `isVegetablesLoaded`.
 
 ![The Other File Logic.](../.gitbook/assets/theotherfileimage1.png)
 
 ### Checking if ALL JSON Files are loaded
 
-Because, we now need to check that both the `Vegetables` and `Fruits` **Arrays** are loaded, we need to do things a little bit differently. Before, we could plug the **onChange Events** directly into our other **Logic**. Now, however, we need an additional **Boolean**, which we will call `isJSONLoaded`. We then need to utilize the **AND Node**, which returns *true* if all of its inputs are also *true*.
+Because we now need to check that both the `Vegetables` and `Fruits` **Arrays** are loaded, we need to do things a little bit differently. Before, we could plug the **onChange Events** directly into our other **Logic**. Now, however, we need an additional **Boolean**, which we will call `isJSONLoaded`. We then need to utilize the **AND Node**, which returns *true* if all of its inputs are also *true*.
 
 ![Check if JSON Files are Loaded Logic.](../.gitbook/assets/allfilesloadedimage1.png)
 

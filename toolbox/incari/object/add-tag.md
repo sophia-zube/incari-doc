@@ -4,7 +4,7 @@
 
 The **Add Tag Node** attaches a *tag* to an **Object**. This *tag* acts as *metadata* and can be used later to identify many **Objects** by a shared *tag*. 
 
-It is important to note that when a *tag* is added with the **Add Tag Node**, the *tag* is only added once executed in the **Incari Player** and does not interact in any way with the *tags* added in the `Attributes` of an **Object** in **Incari Studio**. For example, this **Node** could be used for an **Object** created on run time. 
+It is important to note that when a *tag* is added with the **Add Tag Node**, the *tag* is only added once executed in the **Incari Player** and does not interact in any way with the *tags* added in the `Attributes` of an **Object** in **Incari Studio**. For example, this **Node** could be used for an **Object** created on runtime. 
 
 # Attributes
 
