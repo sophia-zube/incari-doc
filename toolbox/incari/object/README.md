@@ -6,9 +6,11 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 
 ## Contents
 
+* [**Add Tag**](add-tag.md)
 * [**Get Alpha**](get-alpha.md)
 * [**Get Children**](get-children.md)
 * [**Get Material**](get-material.md)
+* [**Get Name**](get-name.md)
 * [**Get Opacity**](get-opacity.md)
 * [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
@@ -23,9 +25,9 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Has Children**](has-children.md)
 * [**Is Object 2D**](is-object-2d.md)
 * [**Is Object 3D**](is-object-3d.md)
+* [**Remove Tag**](remove-tag.md)
 * [**Set Alpha**](set-alpha.md)
 * [**Set Material**](set-material.md)
-* [**Get Name**](get-name.md)
 * [**Set Opacity**](set-opacity.md)
 * [**Set Position**](set-position.md)
 * [**Set Position 2D (px)**](set-position-pixel.md)
