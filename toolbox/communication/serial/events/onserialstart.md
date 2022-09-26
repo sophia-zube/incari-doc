@@ -2,7 +2,7 @@
 
 ![The On Serial Start Node.](../../../../.gitbook/assets/onserialstartnode.png)
 
-The **On Serial Start Node** is an **Event Listener Node** that gives the user a way to perform an action once a **Serial** connection is established.
+The **On Serial Start Node** is an **Event Listener Node** notifying that the **Serial** connection was successfully established, therefore enabling the user to perform actions on said connection.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 

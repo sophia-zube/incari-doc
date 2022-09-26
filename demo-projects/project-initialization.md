@@ -5,19 +5,15 @@ This **Demo Project** takes the user first through how to correctly run a small 
 The **Demo Project** guide is broken up into two parts, with their corresponding subsections:
 
 * [**Part One**](project-initialization.md#part-one)
-  * [**Part One Overview**](project-initialization.md#part-one-overview)
   * [**The Project**](project-initialization.md#the-project)
   * [**The Problem**](project-initialization.md#the-problem)
   * [**The Solution**](project-initialization.md#the-solution)
 * [**Part Two**](project-initialization.md#part-two)
-  * [**Part Two Overview**](project-initialization.md#part-two-overview)
   * [**The Other File**](project-initialization.md#the-other-file)
   * [**Checking if ALL JSON Files are Loaded**](project-initialization.md#checking-if-all-json-files-are-loaded)
   * [**The Event Listener**](project-initialization.md#the-event-listener)
 
 ## Part One
-
-### Part One Overview
 
 In traditional, text-based programming languages, there is a clear order of execution. Lines of code are generally executed from top-to-bottom.
 
@@ -95,8 +91,6 @@ Now, when we run the **Project**, we get the expected output:
 
 
 ## Part Two
-
-### Part Two Overview
 
 In the previous [example](project-initialization.md#part-one), we discussed how to manually check that a specific branch of asynchronous **Logic** has been completed, before trying to use any data generated or loaded by it. There are often cases, though, where you need to ensure that multiple criteria are met before the **Project** is classified as “initialized”.
 

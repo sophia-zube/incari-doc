@@ -12,11 +12,13 @@ The **Project Settings Module** is used to choose and customize settings for dif
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
-`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
-
 `Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
+`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
+
 `Channel Name` is the USB port that _CAN_ is connected to on _Windows_.
+
+Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in.
 
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
@@ -48,7 +50,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Local port` is the port the user chooses to use for their _HTTP_ server. More information on ports and port forwarding can be found in the **External Links** section.
+`Local port` is the port the user chooses to use for their _HTTP_ server. For _HTTP_, the standard is 80 or 8080 and for *HTTPS*, the standard is 443. More information on ports and port forwarding can be found in the **External Links** section.
 
 `Is auto start` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
@@ -80,7 +82,7 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 
 `Remote ip address` is the IP address from which the connection originates.
 
-`Remote port` is the port number of the connection.
+`Remote port` is the port number of the connection. For *MQTT*, the standard is 1883.
 
 `Is auto start` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
@@ -106,9 +108,9 @@ The **Serial Settings** allow the user to manage the **Serial Connections** and 
 
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
-`ChannelName (Linux)` is the USB port that a _Serial_ set-up is connected to on _Linux_.
+`ChannelName (Linux)` is the serial or USB port that a _Serial_ set-up is connected to on _Linux_. Naming conventions for serial ports in *Linux* look like: /dev/ttyUSB0, /dev/ttyS0, /dev/ttyS1, etc.
 
-`ChannelName (Windows)` is the USB port that a _Serial_ set-up is connected to on _Windows_.
+`ChannelName (Windows)` is the serial or USB port that a _Serial_ set-up is connected to on _Windows_. In *Windows*, serial ports are known as *COM* ports. Naming convention for *COM* ports in *Windows* look like: COM1, COM2, COM3, etc. 
 
 Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in.
 

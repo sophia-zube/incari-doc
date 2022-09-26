@@ -4,7 +4,7 @@
 
 ![The On CAN Start Node.](../../../../.gitbook/assets/oncanstartnode.png)
 
-**On CAN Start** is an **Event Listener Node** allowing the user to perform an action once a **CAN** process has begun.
+**On CAN Start** is an **Event Listener Node** notifying that the **CAN** connection was successfully established, therefore enabling the user to perform actions on said connection.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
