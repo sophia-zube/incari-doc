@@ -10,7 +10,7 @@ For example, an **Array** is populated as follows: $$[0,6,12]$$. If the *indices
 
 # Attributes
 
-![The Insert Array Element Node Attributes.](../../.gitbook/insertarrayelementattributes.png)
+![The Insert Array Element Node Attributes.](../../.gitbook/assets/insertarrayelementattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
