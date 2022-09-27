@@ -2,9 +2,9 @@
 
 ![The Remove Node.](../../.gitbook/assets/node-remove.png)
 
-The **Remove** **Node** deletes a file specified by the user. The file _path_ has to be given as input and the output is a _boolean_ indicating whether the operation was successful.
+The **Remove** **Node** deletes a file specified by the user. The file _path_ has to be given as input and the output is a **Boolean** indicating whether the operation was successful.
 
-
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
