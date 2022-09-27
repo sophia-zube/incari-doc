@@ -7,7 +7,8 @@
 ## Contents
 
 * [**Get Current Directory**](getcurrentdirectory.md)
-* [**Load File**](loadfile.md) 
+* [**Load File**](loadfile.md)
+* [**Remove**](remove.md)
 * [**Save File**](savefile.md)
 * [**Set Current Directory**](setcurrentdirectory.md) 
 

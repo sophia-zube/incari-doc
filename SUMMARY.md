@@ -259,6 +259,7 @@
 * [IO](toolbox/io/README.md)
   * [Get Current Directory](toolbox/io/getcurrentdirectory.md)
   * [Load File](toolbox/io/loadfile.md)
+  * [Remove](toolbox/io/remove.md)
   * [Save File](toolbox/io/savefile.md)
   * [Set Current Directory](toolbox/io/setcurrentdirectory.md)
 * [Incari](toolbox/incari/README.md)
