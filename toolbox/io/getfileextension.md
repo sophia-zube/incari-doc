@@ -11,7 +11,7 @@ The **Get File Extension** **Node** outputs the file _extension_ of a file whose
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Path` | **String** | The _path_ of the file whose extension is to be obtained. |
+| `Path` | **String** | The _path_ of the file whose _extension_ is to be obtained. |
 
 # Outputs
 
