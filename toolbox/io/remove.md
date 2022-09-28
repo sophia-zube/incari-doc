@@ -20,7 +20,9 @@ The **Remove** **Node** deletes a file specified by the user. The file _path_ ha
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Success` | **Bool** | Returns _true_ or _false_, depending on whether the file removal was successful. |
 
+# See Also
 
+* [**List Directory Contents**](listdirectorycontents.md)
 
 
 
