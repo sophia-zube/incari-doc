@@ -14,9 +14,9 @@ The **CAN Settings** cover the necessary data to provide functionality to the **
 
 `Baudrate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
-`Interface Name (Linux - SocketCAN` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
+`Interface Name (Linux - SocketCAN)` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
 
-`Channel Name (Windows - PCAN` is the USB port that _CAN_ is connected to on _Windows_.
+`Channel Name (Windows - PCAN)` is the USB port that _CAN_ is connected to on _Windows_.
 
 Furthermore, the `ChannelName` and `Interface Name` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
 
