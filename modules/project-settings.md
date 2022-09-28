@@ -12,11 +12,11 @@ The **Project Settings Module** is used to choose and customize settings for dif
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
-`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
+`Interface Name (Linux - SocketCAN)` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**.
 
-`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
+`Baudrate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
-`Channel Name` is the USB port that _CAN_ is connected to on _Windows_.
+`Channel Name (Windows - PCAN)` is the USB port that _CAN_ is connected to on _Windows_.
 
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
