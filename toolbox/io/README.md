@@ -8,6 +8,7 @@
 
 * [**Get Current Directory**](getcurrentdirectory.md)
 * [**Get File Extension**](getfileextension.md)
+* [**List Directory Content**](listdirectorycontents.md)
 * [**Load File**](loadfile.md)
 * [**Remove**](remove.md)
 * [**Save File**](savefile.md)

@@ -259,6 +259,7 @@
 * [IO](toolbox/io/README.md)
   * [Get Current Directory](toolbox/io/getcurrentdirectory.md)
   * [Get File Extension](toolbox/io/getfileextension.md)
+  * [List Directory Content](toolbox/io/listdirectorycontents.md)
   * [Load File](toolbox/io/loadfile.md)
   * [Remove](toolbox/io/remove.md)
   * [Save File](toolbox/io/savefile.md)
