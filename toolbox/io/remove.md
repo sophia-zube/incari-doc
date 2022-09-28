@@ -22,7 +22,7 @@ The **Remove** **Node** deletes a file specified by the user. The file _path_ ha
 
 # See Also
 
-* [**List Directory Contents**](listdirectorycontents.md)
+* [**List Directory Content**](listdirectorycontent.md)
 
 
 
