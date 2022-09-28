@@ -30,3 +30,6 @@
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
+## See Also
+
+* [**Load File**](loadfile.md)
