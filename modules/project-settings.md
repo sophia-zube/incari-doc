@@ -8,17 +8,17 @@ The **Project Settings Module** is used to choose and customize settings for dif
 {% tab title="CAN" %}
 ### CAN
 
-![The CAN Settings.](../.gitbook/assets/projectsettings-can.png)
+![The CAN Settings.](../.gitbook/assets/can20222.png)
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
-`Baudrate` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
+`Baudrate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
-`Interface Name` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
+`Interface Name (Linux - SocketCAN` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
 
-`Channel Name` is the USB port that _CAN_ is connected to on _Windows_.
+`Channel Name (Windows - PCAN` is the USB port that _CAN_ is connected to on _Windows_.
 
-Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in.
+Furthermore, the `ChannelName` and `Interface Name` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
 
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
@@ -106,6 +106,8 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../../../modules/plugins-editor.md) to find out more information.
+
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
 `ChannelName (Linux)` is the serial or USB port that a _Serial_ set-up is connected to on _Linux_. Naming conventions for serial ports in *Linux* look like: /dev/ttyUSB0, /dev/ttyS0, /dev/ttyS1, etc.
@@ -114,7 +116,8 @@ The **Serial Settings** allow the user to manage the **Serial Connections** and 
 
 Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in.
 
-`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
+`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links**
+ section. 
 {% endtab %}
 {% endtabs %}
 

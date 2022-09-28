@@ -4,6 +4,8 @@
 
 The **Serial Start Node** starts a **Serial** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
 
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../../../modules/plugins-editor.md) to find out more information.
+
 It is important to note that while the **Serial Start Node** starts a **Serial** connection, it may not completely finish establishing
 said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
 to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use 

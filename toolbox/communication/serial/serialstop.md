@@ -4,6 +4,8 @@
 
 The **Serial Stop Node** stops the **Serial** connection.
 
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../../../modules/plugins-editor.md) to find out more information.
+
 It is important to note that while the **Serial Stop Node** stops a **Serial** connection, it may not completely finish disconnecting from said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
 to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use 
 the [**On Serial Stop Node**](events/onserialstop.md) instead. This way, the **Logic** will only execute once the **Serial** connection has definitely been disconnected from. This way, it is assured that the **Logic** will execute once the connection to the **Serial** connection has been terminated.
