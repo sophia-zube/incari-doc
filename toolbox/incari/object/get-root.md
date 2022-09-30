@@ -1,15 +1,14 @@
 # Overview
 
-![The Get Root Object Node.]()
+![The Get Root Node.](../../../.gitbook/assets/getrootnode.png)
 
-The **Get Root Object** **Node** outputs the **Root Object ID** of the current **Scene**.
+The **Get Root** **Node** outputs the **Object ID** of the **Root Object** of the corresponding **Scene**.
 
-[**Scope**](../../overview.md#scopes): **Scene**, 
+The **Root Object**...
 
-# Attributes
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-|Attribute|Type|Description|
-|---|---|---|
+
 
 # Inputs
 
@@ -22,7 +21,7 @@ The **Get Root Object** **Node** outputs the **Root Object ID** of the current *
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Root Object ID` | **ObjectID** | The **Object ID** of the **Root Object** of the current **Scene**. |
+| `Root` | **ObjectID** | The **Object ID** of the **Root Object** of the corresponding **Scene**. |
 
 # See Also
 
