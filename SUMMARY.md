@@ -301,6 +301,7 @@
     * [Get Parent](toolbox/incari/object/get-parent.md)
     * [Get Position](toolbox/incari/object/get-position.md)
     * [Get Position 2D (px)](toolbox/incari/object/get-position-pixel.md)
+    * [Get Root](toolbox/incari/object/get-root.md)
     * [Get Rotation](toolbox/incari/object/get-rotation.md)
     * [Get Rotation 2D](toolbox/incari/object/get-rotation-pixel.md)
     * [Get Scale](toolbox/incari/object/get-scale.md)
