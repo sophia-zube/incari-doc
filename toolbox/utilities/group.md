@@ -26,4 +26,4 @@ Another advantage of the **Group Node** is that by changing the `Name` **Attribu
 
 ## Usage
 
-![Group Node Usage](<../../.gitbook/assets/group (3) (4) (4) (4) (1) (1) (3).gif>)
+![Group Node Usage](<../../.gitbook/assets/group (3) (4) (4) (4) (1) (1) (2).gif>)

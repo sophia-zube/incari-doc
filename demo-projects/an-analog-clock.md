@@ -4,9 +4,9 @@ Clocks show up everywhere in HMIs, and happen to be simple to create in **Incari
 
 Load up the '**AnalogClock**' project file from **Incari Hub**. The included [**Scenes**](../objects-and-types/project-objects/scene.md) are a version with a ticking animation and a basic one.
 
-|                 Basic Version                |                  Ticking Version                 |
-| :------------------------------------------: | :----------------------------------------------: |
-| ![](../.gitbook/assets/democlock/democlock_basic.gif) | ![](../.gitbook/assets/democlock/democlock_ticking.gif) |
+|                      Basic Version                     |                      Ticking Version                     |
+| :----------------------------------------------------: | :------------------------------------------------------: |
+| ![](../.gitbook/assets/democlock/democlock\_basic.gif) | ![](../.gitbook/assets/democlock/democlock\_ticking.gif) |
 
 ## 1. The Basic Version
 
@@ -54,16 +54,13 @@ Finally, we pass the **Variable** value and the trigger from the [**On Change**]
 
 Save and run the project to see the basic clock!
 
-![](../.gitbook/assets/democlock/democlock_basic.gif)
+![](../.gitbook/assets/democlock/democlock\_basic.gif)
 
 ## 2. The Ticking Version
 
 But what if we want our second hand to “tick” like an analog clock? By adding a little more complexity, we can allow for the visual look to be adjusted to our needs. In order to manage this complexity, we'll also introduce the concept of [**Functions**](../toolbox/functions/) in **Incari**.
 
-
-![](../.gitbook/assets/democlock/democlock_ticking.gif)
-
-
+![](../.gitbook/assets/democlock/democlock\_ticking.gif)
 
 From the [**Project Outliner**](../modules/project-outliner.md), double-click the [**Scene**](../objects-and-types/project-objects/scene.md) named ‘**Ticking Animation**'.
 
@@ -127,7 +124,7 @@ The [**Interpolate**](../toolbox/math/interpolate.md) **Node** has a few differe
 * `To` - the value we end at (the current time).
 * There is also the `Interpolation Type`, which will give you the option for _non-linear easing_. For example you might want the hand to start slow and speed up. The best way to understand the difference is to experiment with the settings.
 
-![](../.gitbook/assets/clock-interpolation.jfif)
+![](../.gitbook/assets/clock-interpolation.png)
 
 **Convert Time Value to a Rotation Value for all Hands**
 
@@ -149,6 +146,4 @@ Now that the time values have been converted to _rotation_ values, we can use th
 
 Save and run the **Project** to see the ticking clock.
 
-
-![](../.gitbook/assets/democlock/democlock_ticking.gif)
-
+![](../.gitbook/assets/democlock/democlock\_ticking.gif)

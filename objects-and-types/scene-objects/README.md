@@ -10,18 +10,28 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 
 ## Attributes
 
-**Attributes** define specific characteristics of entities in **Incari** and can be modified in the **Attribute Editor**. Particularly, there are several sets of **Attributes** that are shared throughout **Objects**. These are explained in detail in the [**Common Attributes**](../attributes/common-attributes/README.md) section:
+**Attributes** define specific characteristics of entities in **Incari** and can be modified in the **Attribute Editor**. Particularly, there are several sets of **Attributes** that are shared throughout **Objects**. These are explained in detail in the [**Common Attributes**](../attributes/common-attributes/) section:
 
 * [`Object`](../attributes/common-attributes/object.md): The name and type of an **Object** is shown here.
 * [`Tag`](../attributes/common-attributes/tag.md): _Metadata_ that serves as an identifier for an **Object** or several of them.
 * [`Sprite`](../attributes/common-attributes/sprite.md):
-* [`Transformation`]: They define the _position_ and _rotation_ of an **Object** in a **Scene**.
+* \[`Transformation`]: They define the _position_ and _rotation_ of an **Object** in a **Scene**.
 
-![Attributes example]()
+<div>
+
+<figure><img src="../../.gitbook/assets/attri-editor-example-1.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/attri-editor-example-2.png" alt=""><figcaption><p>Object Attributes.</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/attri-editor-example-3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Prefabs
-
-
 
 ## Objects in Logic
 
@@ -30,8 +40,6 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 **Objects** in a **Scene** are organized in a _tree_
 
 ### Root Object
-
-
 
 ## Contents
 
@@ -45,4 +53,3 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 * [**Web Sprite**](web-sprite.md)
 * [**Primitives**](primitives.md)
 * [**Screen Space Elements**](screen-space-elements.md)
-

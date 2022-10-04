@@ -6,7 +6,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 
 {% tabs %}
 {% tab title="CAN" %}
-### CAN
+#### CAN
 
 ![The CAN Settings.](../.gitbook/assets/can20222.png)
 
@@ -26,7 +26,7 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 {% endtab %}
 
 {% tab title="Fonts" %}
-### Fonts
+#### Fonts
 
 ![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-font.png)
 
@@ -40,7 +40,7 @@ In the **Font Manager**, the user can manage their _fonts_: using the `+` button
 {% endtab %}
 
 {% tab title="HTTP" %}
-### HTTP
+#### HTTP
 
 ![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http.png)
 
@@ -50,13 +50,13 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Local port` is the port the user chooses to use for their _HTTP_ server. For _HTTP_, the standard is 80 or 8080 and for *HTTPS*, the standard is 443. More information on ports and port forwarding can be found in the **External Links** section.
+`Local port` is the port the user chooses to use for their _HTTP_ server. For _HTTP_, the standard is 80 or 8080 and for _HTTPS_, the standard is 443. More information on ports and port forwarding can be found in the **External Links** section.
 
 `Is auto start` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
 
 {% tab title="Keyboard" %}
-### Keyboard
+#### Keyboard
 
 ![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard.png)
 
@@ -70,7 +70,7 @@ The `Layout Name` is also defined in the **Layout Manager**. This is the name wi
 {% endtab %}
 
 {% tab title="MQTT" %}
-### MQTT
+#### MQTT
 
 ![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettings-mqtt.png)
 
@@ -82,13 +82,13 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 
 `Remote ip address` is the IP address from which the connection originates.
 
-`Remote port` is the port number of the connection. For *MQTT*, the standard is 1883.
+`Remote port` is the port number of the connection. For _MQTT_, the standard is 1883.
 
 `Is auto start` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
 
 {% tab title="Profiler" %}
-### Profiler
+#### Profiler
 
 ![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler.png)
 
@@ -100,24 +100,23 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 {% endtab %}
 
 {% tab title="Serial" %}
-### Serial
+#### Serial
 
 ![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial.png)
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
-**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../../../modules/plugins-editor.md) to find out more information.
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins-editor.md) to find out more information.
 
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
-`ChannelName (Linux)` is the serial or USB port that a _Serial_ set-up is connected to on _Linux_. Naming conventions for serial ports in *Linux* look like: /dev/ttyUSB0, /dev/ttyS0, /dev/ttyS1, etc.
+`ChannelName (Linux)` is the serial or USB port that a _Serial_ set-up is connected to on _Linux_. Naming conventions for serial ports in _Linux_ look like: /dev/ttyUSB0, /dev/ttyS0, /dev/ttyS1, etc.
 
-`ChannelName (Windows)` is the serial or USB port that a _Serial_ set-up is connected to on _Windows_. In *Windows*, serial ports are known as *COM* ports. Naming convention for *COM* ports in *Windows* look like: COM1, COM2, COM3, etc. 
+`ChannelName (Windows)` is the serial or USB port that a _Serial_ set-up is connected to on _Windows_. In _Windows_, serial ports are known as _COM_ ports. Naming convention for _COM_ ports in _Windows_ look like: COM1, COM2, COM3, etc.
 
 Furthermore, the `ChannelNames` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one `ChannelName` needs to be filled in.
 
-`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links**
- section. 
+`Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 {% endtab %}
 {% endtabs %}
 

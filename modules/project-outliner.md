@@ -10,7 +10,7 @@ The **Project Outliner** contains a structured list of every **Scene** and **Scr
 
 New **Screens** and **Scenes** can be created in the following ways:
 
-* Click on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1).PNG>) icon located at the top left corner of the **Project Outliner**. After that, click the `Scene` button.
+* Click on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (3).PNG>) icon located at the top left corner of the **Project Outliner**. After that, click the `Scene` button.
 * Right-click inside the **Project Outliner** and select `Create` > `Scene` from the pop-up.
 * Select `File` > `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.

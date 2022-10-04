@@ -18,7 +18,7 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
 
-![](<../.gitbook/assets/group (3) (4) (4) (4) (1) (10).gif>)
+![](<../.gitbook/assets/group (3) (4) (4) (4) (1) (1) (2) (3).gif>)
 
 ![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
@@ -64,7 +64,7 @@ The **Toolbox** contains all of the individual tools you will need to create you
 {% tab title="Events" %}
 ![](../.gitbook/assets/leftPanelEvents.PNG)
 
-An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10).PNG>) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
+An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (6).PNG>) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
 
 ![](../.gitbook/assets/addEvent.gif)
 {% endtab %}
@@ -72,7 +72,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 {% tab title="Functions" %}
 ![](../.gitbook/assets/leftPanelFunctions.PNG)
 
-Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10) (1).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
+Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (5).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
 
 ![](../.gitbook/assets/addFunctions.gif)
 {% endtab %}
@@ -80,7 +80,7 @@ Custom-built **Node Graphs** can be packaged as a **Function** and added to your
 {% tab title="Variables" %}
 ![](../.gitbook/assets/leftPanelVariables.PNG)
 
-The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (10) (3).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
+The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (7).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
 
 ![](../.gitbook/assets/addVariables.gif)
 {% endtab %}
