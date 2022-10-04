@@ -2,11 +2,36 @@
 
 An **Object** in **Incari** is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviors and characteristics.
 
-All **Objects** in a **Scene** appear in the **Scene Outliner**, exist in 3D space, and therefore, have **Transformation Attributes.**
+## Managing Objects
 
-## Creating an Object
+**Objects** in a **Scene** are managed in the **Scene Outliner**. Here they can be created, deleted, managed, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section.
 
-To create an **Object**, go to the **Scene Outliner**, click the plus sign on the top left and select the **Object** to create.
+![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/scene-outliner.png)
+
+## Attributes
+
+**Attributes** define specific characteristics of entities in **Incari** and can be modified in the **Attribute Editor**. Particularly, there are several sets of **Attributes** that are shared throughout **Objects**. These are explained in detail in the [**Common Attributes**](../attributes/common-attributes/README.md) section:
+
+* [`Object`](../attributes/common-attributes/object.md): The name and type of an **Object** is shown here.
+* [`Tag`](../attributes/common-attributes/tag.md): _Metadata_ that serves as an identifier for an **Object** or several of them.
+* [`Sprite`](../attributes/common-attributes/sprite.md):
+* [`Transformation`]: They define the _position_ and _rotation_ of an **Object** in a **Scene**.
+
+![Attributes example]()
+
+## Prefabs
+
+
+
+## Objects in Logic
+
+## Structure
+
+**Objects** in a **Scene** are organized in a _tree_
+
+### Root Object
+
+
 
 ## Contents
 
