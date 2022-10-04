@@ -25,11 +25,17 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 
 ## Prefabs
 
+**Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
+
+![](../../.gitbook/assets/prefabs1.gif)
+
 ## Objects in Logic
+
+![](../../.gitbook/assets/ObjLogic2.gif)
 
 ## Structure
 
-**Objects** in a **Scene** are organized in a _tree_
+**Objects** in a **Scene** are organized in a _tree_...
 
 ![](../../.gitbook/assets/TreeStructure.png)
 
