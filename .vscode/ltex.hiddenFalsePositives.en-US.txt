@@ -2,3 +2,6 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFlip Normals\\E$"}
 {"rule":"DT_PRP","sentence":"^\\QThe My Projects section allows the user to access, create, and manage their local Projects.\\E$"}
 {"rule":"POSSESSIVE_APOSTROPHE","sentence":"^\\QThe My Projects section allows the user to access, create, and manage their local Projects.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QObjects in a Scene are managed in the Scene Outliner.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor more detail, see the Scene Outliner section.\\E$"}
+{"rule":"KIND_OF_A","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q: The name and type of an Object is shown here.\\E$"}
