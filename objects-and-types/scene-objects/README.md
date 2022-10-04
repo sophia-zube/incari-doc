@@ -15,20 +15,12 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 * [`Object`](../attributes/common-attributes/object.md): The name and type of an **Object** is shown here.
 * [`Tag`](../attributes/common-attributes/tag.md): _Metadata_ that serves as an identifier for an **Object** or several of them.
 * [`Sprite`](../attributes/common-attributes/sprite.md):
-* \[`Transformation`]: They define the _position_ and _rotation_ of an **Object** in a **Scene**.
+* [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene**.
 
 <div>
-
 <figure><img src="../../.gitbook/assets/attri-editor-example-1.png" alt=""><figcaption></figcaption></figure>
-
- 
-
 <figure><img src="../../.gitbook/assets/attri-editor-example-2.png" alt=""><figcaption><p>Object Attributes.</p></figcaption></figure>
-
- 
-
 <figure><img src="../../.gitbook/assets/attri-editor-example-3.png" alt=""><figcaption></figcaption></figure>
-
 </div>
 
 ## Prefabs
@@ -38,6 +30,8 @@ An **Object** in **Incari** is any entity which can be added to a **Scene**. "**
 ## Structure
 
 **Objects** in a **Scene** are organized in a _tree_
+
+![](../../.gitbook/assets/TreeStructure.png)
 
 ### Root Object
 
