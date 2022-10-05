@@ -23,7 +23,7 @@ The **HTTP Response Node** allows the user to define a response to be sent after
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Request ID` | **CustomID** | The unique ID of the request. |
+| `Request ID` | **CustomID** | The unique ID of the request, which can be used to identify issues in log statements. |
 | `StatusCode` | **Int** | A standard status code within the _HTTP_ protocol. For example, 404 is when a page is not found. |
 | `Headers` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 | `Body` | **String** | The body of the response, usually including _HTML_ text. |
