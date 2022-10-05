@@ -9,7 +9,7 @@ The **HTTP Nodes** provide a means for the user to perform several actions withi
 These are the guidelines for incorporating **HTTP Communication** into a **Project**.
 
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
-* Once the connection has been established, there are a couple of **Nodes** that cover important functions of **HTTP Communication**. The other **Nodes** are strictly server **Nodes**
+* Once the connection has been established, there are a couple of **Nodes** that cover important functions of **HTTP Communication**.
   * [**On HTTP Route**](events/onhttproute.md) executes when an **HTTP Request** from a specified **Route** is received. 
   * [**HTTP Response**](httpresponse.md) defines a response for a particular request.
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
