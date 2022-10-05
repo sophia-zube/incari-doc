@@ -14,7 +14,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `On Change` | **Bool** | Returns true or false depending on whether or not the user wants to modify the `Message Name`. |
+| `On Change` | **Bool** | Specifies whether the **Node** executes when a **Packet**'s `Message` changes or simply when a **Packet**'s `Message` is received. |
 | `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
 
 ## Outputs
