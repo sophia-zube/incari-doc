@@ -6,7 +6,7 @@ The **Get Root** **Node** outputs the **Object ID** of the **Root Object** of th
 
 The **Root Object** is the _parent_ of all **Objects** on the first hierarchy level in a **Scene**, thus making all **Objects** in the **Scene** its _descendants_. 
 
-See the [**Scene Objects**](../../../objects-and-types/scene-objects/README.md) page for more details about the [**Root Object**](../../../objects-and-types/scene-objects/README.md#root-object), the [**Objects Structure in a Scene**](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene), and how [**Objects** are referenced in the **Logic**](../../../objects-and-types/scene-objects/README.md#objects-in-logic).
+See the [**Scene Objects**](../../../objects-and-types/scene-objects/README.md) page for more details about the [**Root Object**](../../../objects-and-types/scene-objects/README.md#root-object), the [**Objects Structure in a Scene**](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene), and how [**Objects** are referenced in the **Logic**](../../../objects-and-types/scene-objects/README.md#objects-in-the-logic).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -29,7 +29,7 @@ See the [**Scene Objects**](../../../objects-and-types/scene-objects/README.md) 
 
 * [**Root Object**](../../../objects-and-types/scene-objects/README.md#root-object)
 * [**Objects Structure in a Scene**](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene)
-* [**Objects** in the **Logic**](../../../objects-and-types/scene-objects/README.md#objects-in-logic)
+* [**Objects** in the **Logic**](../../../objects-and-types/scene-objects/README.md#objects-in-the-logic)
 
 
 
