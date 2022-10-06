@@ -4,7 +4,7 @@
 
 The **Get Root** **Node** outputs the **Object ID** of the **Root Object** of the corresponding **Scene**.
 
-The **Root Object**...
+The **Root Object** is the _parent_ of all **Objects** on the first hierarchy level in a scene, thus making all **Objects** in the **Scene** its _descendants_. See the [**Scene Objects**](../../../objects-and-types/scene-objects/README.md) page for more details about the [**Root Object**](../../../objects-and-types/scene-objects/README.md#root-object) and the [**Objects Structure in a Scene**](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -25,7 +25,8 @@ The **Root Object**...
 
 # See Also
 
-* [link to root object stuff in objects section]()
+* [**Root Object**](../../../objects-and-types/scene-objects/README.md#root-object)
+* [**Objects Structure in a Scene**](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene)
 
 
 
