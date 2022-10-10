@@ -44,11 +44,11 @@ The pop-up menu that appears by right-clicking on the **Scene Outliner** offers 
 
 <div>
 <figure><img src="../../.gitbook/assets/scene-outliner-makeprefab.gif" alt=""><figcaption><p>Creating a <b>Prefab</b> from <b>Objects</b> in the <b>Scene</b>.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/scene-outliner-unpackprefab.gif" alt=""><figcaption><p>Unpacking a <b<Prefab</b>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/scene-outliner-unpackprefab.gif" alt=""><figcaption><p>Unpacking a <b>Prefab</b>.</p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/scene-outliner-editprefab.gif" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
 </div>
 
-For more details, see the [**Prefabs**]() section.
+For more details, see the [**Prefabs**](../objects-and-types/prefabs/README.md) section.
 
 ## Duplicate
 
