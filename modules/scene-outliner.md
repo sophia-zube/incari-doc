@@ -30,8 +30,8 @@ New **Objects** can be created in the following ways:
 * Right-click inside the **Scene Outliner**, select `Create` from the pop-up, and click on the **Object**.
 
 <div>
-<figure><img src="../../.gitbook/assets/scene-outliner-create-add-icon2.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/scene-outliner-create-right-click2.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/scene-outliner-create-add-icon-new.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/scene-outliner-create-right-click-new.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
 </div>
 
 ## Prefabs
@@ -43,7 +43,7 @@ The pop-up menu that appears by right-clicking on the **Scene Outliner** offers 
 * `Edit prefab`: This will open the **Prefab View**, where the [**Prefab Asset**](../objects-and-types/prefabs/creating-and-using-prefabs.md#editing-the-prefab-asset) can be edited 
 
 <div>
-<figure><img src="../../.gitbook/assets/scene-outliner-makeprefabs.gif" alt=""><figcaption><p>Creating a <b>Prefab</b> from <b>Objects</b> in the <b>Scene</b>.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/scene-outliner-makeprefab.gif" alt=""><figcaption><p>Creating a <b>Prefab</b> from <b>Objects</b> in the <b>Scene</b>.</p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/scene-outliner-unpackprefab.gif" alt=""><figcaption><p>Unpacking a <b<Prefab</b>.</p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/scene-outliner-editprefab.gif" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
 </div>
