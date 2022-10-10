@@ -4,7 +4,7 @@
 
 ![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribenode.png)
 
-The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value pair.
+The **MQTT Subscribe** subscribes to all specified `Topics` which **On MQTT Topic** is able to receive, based on the chosen configuration in **Project Settings**.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
