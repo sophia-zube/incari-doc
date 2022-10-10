@@ -19,6 +19,12 @@ In order to use this **Node**, the user must have already subscribed to the spec
 | `Configuration` | **Drop-down** | The connection, or signal name, that will be used. |
 | `Topic` | **User Input** | The key in the **MQTT** key/value pair. |
 
+## Example
+
+![On MQTT Topic Example.](../../../../.gitbook/assets/onmqtttopicexample.png)
+
+The above image shows what happens when an **MQTT** connection has been made in the **Project Settings**. The connection's name will appear under `Configuration`. One or more `Topic Names` can be added, which appear as **Output Pulses** on the **Node**. It is possible to specify if they are binary or not. Each of these `Topics` have a corresponding `Body` **String**, which is the value in the **MQTT** key/value pair. 
+
 ## See Also
 
 * [**On MQTT Start**](onmqttstart.md)
