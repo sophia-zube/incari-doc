@@ -52,7 +52,15 @@ For more details, see the [**Prefabs**](../objects-and-types/prefabs/README.md) 
 
 ## Duplicate
 
+An **Object** in the current **Scene** can be duplicated by right-clicking it on the **Scene Outliner** and selecting `Duplicate`.
+
+![Duplicating an **Object**.](../.gitbook/assets/scene-outliner-duplicate.gif)
+
 ## Copy, Cut, and Paste
+
+**Objects** can be cut or copied and then pasted in another **Scene**.
+
+![Cutting, copying, and pasting **Objects**.](../.gitbook/assets/scene-outliner-cutcopypaste.gif)
 
 ## Rename
 
@@ -67,7 +75,7 @@ For more details, see the [**Prefabs**](../objects-and-types/prefabs/README.md) 
 * Right-click on an item and select the `Delete` button from the pop-up.
 * Select an item and press `del`.
 
-![](../.gitbook/assets/scene-outliner-delete-obj.png)
+![](../.gitbook/assets/scene-outliner-delete.gif)
 
 ## Show and Hide
 
@@ -77,7 +85,7 @@ To hide an **Object**, click on the eye icon at the right of it.
 
 And to show a hidden **Object**, click on the crossed eye icon at the right of it.
 
-![](../.gitbook/assets/show-and-hide-objects.gif)
+![](../.gitbook/assets/show-and-hide-cropped.gif)
 
 ## Search
 
