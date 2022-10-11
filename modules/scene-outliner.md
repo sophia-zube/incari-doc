@@ -11,15 +11,15 @@ The **Scene Outliner** contains the list of every [**Object**](../objects-and-ty
 This page describes all the options available in the **Scene Outliner** for managing **Objects** in a **Scene**:
 
 <!-- no toc -->
-* [Create](#create)
-* [Prefabs](#prefabs)
-* [Duplicate](#duplicate)
-* [Copy, Cut, and Paste](#copy-cut-and-paste)
-* [Rename](#rename)
-* [Delete](#delete)
-* [Show and Hide](#show-and-hide)
-* [Search](#search)
-* [Filter](#filter)
+* [**Create**](#create)
+* [**Prefabs**](#prefabs)
+* [**Duplicate**](#duplicate)
+* [**Copy, Cut, and Paste**](#copy-cut-and-paste)
+* [**Rename**](#rename)
+* [**Delete**](#delete)
+* [**Show and Hide**](#show-and-hide)
+* [**Search**](#search)
+* [**Filter**](#filter)
 
 ## Create
 
