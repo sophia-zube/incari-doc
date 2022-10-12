@@ -22,6 +22,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+|`Signal [n]`|**Float**|The *Signal* or *Signals* of a *Message* from the specified *DBC* file.|
 
 
 ## Example
@@ -33,13 +34,6 @@ To visualize how the **Node** works a bit better, refer to the images below. The
 When the connection has been added in **Project Settings** and those changes are saved, the user can select the desired `Message Name` -- here Message1 -- which will make an output appear called `Signal1`. If a *Message* has multiple *Signals* -- for example if Message1 had two *Signals* called Signal1a and Signal1b -- all appear as outputs of the **Node**. 
 
 ![On CAN Packet Received Node with Connection.](../../../../.gitbook/assets/canpacketreceivedmessagesignal.png)
-
-## Outputs
-
-| Output | Type | Description |
-| :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-|`Signal [n]`|**Float**|The *Signal* or *Signals* of a *Message* from the specified *DBC* file.|
 
 ## See Also
 
