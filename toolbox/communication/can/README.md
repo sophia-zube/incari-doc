@@ -8,7 +8,7 @@ The **CAN Nodes** provide a means for the user to perform several actions within
 
 These are the guidelines for incorporating **CAN Communication** into a **Project**.
 
-* To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
+* To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communication Introduction page.
 * Once the connection has been established, there are several **Nodes** that cover important functions of **CAN Communication**.
   * [**CAN Send Packet**](cansendpacket.md) sends a **CAN** data **Packet** when a signal is received. 
   * [**On CAN Packet Received**](events/oncanpacketreceived.md) executes once a **Packet** is received.

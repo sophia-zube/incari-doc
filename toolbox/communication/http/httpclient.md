@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **HTTP POST**.
+The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](httpclient#http-get) and [**HTTP POST**](httpclient#http-post).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -60,7 +60,7 @@ The **HTTP Client Node** has two `Methods` of use. These are **HTTP GET** and **
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Request Body` | **User Input** | The body of the _HTTP_ request. |
+| `Default Body` | **String** | The body of the _HTTP_ request, if none is provided in the **Input Socket**. |
 
 ## Inputs
 

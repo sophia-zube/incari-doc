@@ -4,7 +4,7 @@
 
 ![The On CAN Packet Received Node.](../../../../.gitbook/assets/oncanpacketreceivednode.png)
 
-**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu** and a data **Packet** has been received.
+**On CAN Packet Received** is an **Event Listener Node** allowing the user to perform an action once a **CAN** `Message` is selected from the **Drop-down Menu**.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
@@ -16,6 +16,12 @@
 | :--- | :--- | :--- |
 | `On Change` | **Bool** | Specifies whether the **Node** executes when a **Packet**'s `Message` changes or simply when a **Packet**'s `Message` is received. |
 | `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
+
+## Outputs
+
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 
 
 ## Example
@@ -33,6 +39,7 @@ When the connection has been added in **Project Settings** and those changes are
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+|`Signal [n]`|**Float**|The *Signal* or *Signals* of a *Message* from the specified *DBC* file.|
 
 ## See Also
 

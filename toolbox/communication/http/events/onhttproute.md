@@ -14,7 +14,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Drop-down** | The desired _HTTP_ server. |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings.md). |
 | `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either **GET** or **POST**\) and its URL. |
 
 ## Outputs
