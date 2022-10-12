@@ -4,7 +4,7 @@
 
 ![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribenode.png)
 
-The **MQTT Subscribe** subscribes to all specified `Topics` which **On MQTT Topic** is able to receive, based on the chosen configuration in **Project Settings**. `Topics` are *strings* that act as filters for *Messages* and are hierarchical, meaning there are different levels. Remember, they are case sensitive.
+The **MQTT Subscribe** subscribes to all specified `Topics`, which [**On MQTT Topic**](events/onmqtttopic.md) is then able to receive, based on the chosen configuration in [**Project Settings**](../../../modules/project-settings.md). `Topics` are *strings* that act as filters for *Messages* and are hierarchical, meaning there are different levels. Remember, they are case sensitive.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 

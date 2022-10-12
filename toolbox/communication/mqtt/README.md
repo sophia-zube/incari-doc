@@ -6,7 +6,7 @@ The **MQTT Nodes** provide a means for the user to perform several actions withi
 
 ## MQTT Guideline
 
-These are the guidelines for incorporating **MQTT Communication** into a **Project**. It is important to note that an *MQTT* server, either local or remote, has to be already running for **Incari** to connect to it.
+These are the guidelines for incorporating **MQTT Communication** into a **Project** to form an **MQTT** *Client*. It is important to note that an *MQTT* server, either local or remote, has to be already running for **Incari** to connect to it.
 
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 * Once the connection has been established, there are several **Nodes** that cover important functions of **MQTT Communication**.
