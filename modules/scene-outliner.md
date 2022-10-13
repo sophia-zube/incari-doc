@@ -66,7 +66,7 @@ An **Object** in the current **Scene** can be duplicated by right-clicking it on
 
 **Objects** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
-![](../.gitbook/assets/scene-outliner-rename2.gif)
+![Renaming an **Object**.](../.gitbook/assets/scene-outliner-rename2.gif)
 
 ## Delete
 
@@ -75,7 +75,7 @@ An **Object** in the current **Scene** can be duplicated by right-clicking it on
 * Right-click on an item and select the `Delete` button from the pop-up.
 * Select an item and press `del`.
 
-![](../.gitbook/assets/scene-outliner-delete.gif)
+![Deleting an **Object**.](../.gitbook/assets/scene-outliner-delete.gif)
 
 ## Show and Hide
 
@@ -89,7 +89,15 @@ And to show a hidden **Object**, click on the crossed eye icon at the right of i
 
 ## Search
 
+The `Search` option allows the user to search **Objects** in a **Scene** by name. To perform a search, click the magnifying glass icon on the top right, and write the name of the **Object** to search.
+
+![Searching **Objects** by name.](../.gitbook/assets/scene-outliner-search.gif)
+
 ## Filter
+
+The `Filter` option allows the user to filter **Objects** in a **Scene** by type. To apply a filter, click the filter icon on the top right, and select the types to filter from the drop-down menu. After a filter has been applied, it can be removed with the `Reset` button.
+
+![Filtering **Objects** by type.](../.gitbook/assets/scene-outliner-filter.gif)
 
 ## See Also
 
