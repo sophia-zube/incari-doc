@@ -1,10 +1,12 @@
 # Overview
 
-![The Destroy Node.]()
+![The Destroy Object Node.](../../../.gitbook/assets/destroyobjectid.png)
 
-The **Destroy Node** deletes an **Object** or **Prefab Instance**, meaning that the **Prefab** in the **Asset Manager** remains. 
+The **Destroy Node** deletes an **Object** or **Prefab Instance**, the latter of which means that the **Prefab** in the **Asset Manager** remains. 
 
 # Attributes
+
+![The Destroy Object Node Attributes.](../../../.gitbook/assets/destroyobjectattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -22,4 +24,8 @@ The **Destroy Node** deletes an **Object** or **Prefab Instance**, meaning that 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Success`|**Bool**|Returns true or false, depending on if the **Object** was successfully deleted or not.|
 
+# See Also
+
+* [**Instantiate**](instantiate.md)

@@ -1,15 +1,16 @@
 # Overview
 
-![The Instantiate Node.]()
+![The Instantiate Object Node.](../../../.gitbook/assets/instantiatenode.png)
 
-The **Instantiate Node** can be used to copy an **Object**, including all its *children*, or a **Prefab**. 
+The **Instantiate Object Node** can be used to copy an **Object**, including all its *children*, or a **Prefab**. 
 
 # Attributes
 
+![The Instantiate Object Node Attributes.](../../../.gitbook/assets/instantiateobjectattributes.png)
+
 |Attribute|Type|Description|
 |---|---|---|
-|`Instantiation ID`|**ObjectID**|The **Object** or **Prefab** to be copied, if one is not provided in the **Input Socket**.|
-|`Parent ID`|**ObjectID**|The *parent* of the **Object** or **Prefab** to be copied, if one is not provided in the **Input Socket**.|
+|`Object`|**ObjectID**|The **Object** or **Prefab** to be copied, if one is not provided in the **Input Socket**.|
 
 # Inputs
 
@@ -26,3 +27,6 @@ The **Instantiate Node** can be used to copy an **Object**, including all its *c
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Object ID`|**ObjectID**|The ID of the **Object** copy.|
 
+# See Also
+
+* [**Destroy**](destroy.md)
