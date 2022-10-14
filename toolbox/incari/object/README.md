@@ -7,6 +7,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 ## Contents
 
 * [**Add Tag**](add-tag.md)
+* [**Destroy Object**](destroy.md)
 * [**Get Alpha**](get-alpha.md)
 * [**Get Children**](get-children.md)
 * [**Get Material**](get-material.md)
@@ -24,6 +25,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Tint**](get-tint.md)
 * [**Get Visibility**](get-visibility.md)
 * [**Has Children**](has-children.md)
+* [**Instantiate Object**](instantiate.md)
 * [**Is Object 2D**](is-object-2d.md)
 * [**Is Object 3D**](is-object-3d.md)
 * [**Remove Tag**](remove-tag.md)
