@@ -4,7 +4,7 @@
 
 ![The CAN Send Packet Node.](../../../.gitbook/assets/cansendpacketnode.png)
 
-The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN** network, once a **CAN** `Message` is selected from the **Drop-down Menu** and a **Signal** has been received.
+The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN** network, once a **CAN** `Message` is selected from the **Drop-down Menu**.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -45,3 +45,6 @@ When the connection has been added in **Project Settings** and those changes are
 * [**CAN Start**](canstart.md)
 * [**CAN Stop**](canstop.md)
 
+## External Links
+
+* The example [*DBC* file.](https://www.csselectronics.com/pages/can-dbc-file-database-intro)

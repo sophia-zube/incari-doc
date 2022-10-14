@@ -40,3 +40,7 @@ When the connection has been added in **Project Settings** and those changes are
 * [**On CAN Start**](oncanstart.md)
 * [**On CAN Stop**](oncanstop.md)
 
+## External Links
+
+* The example [*DBC* file.](https://www.csselectronics.com/pages/can-dbc-file-database-intro)
+
