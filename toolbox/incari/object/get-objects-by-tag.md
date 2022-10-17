@@ -2,7 +2,9 @@
 
 ![The Get Objects By Tag Node.](../../../.gitbook/assets/getobjectsbytagnode.png)
 
-The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specifically their **IDs**, which are associated with the given *tag*.
+The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specifically their **IDs**, which are associated with the given *tag* and fall under a given *parent* **Object**. If an **Object** has no explicit *parent* given by the user, the *parent* defaults to the **Root Object**, thus requiring the [**Get Root Node**](get-root.md). 
+
+To learn more about the **Root Object** and **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene) 
 
 ![The Get Objects By Tag Node Attributes.](../../../.gitbook/assets/getobjectsbytagattributes.png)
 
@@ -14,7 +16,7 @@ The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specif
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object`| **ObjectID** |An **Object** with the associated *tag*, if one is not provided in the **Input Socket**.|
+|`Object`| **ObjectID** |The *parent* **Object**, or upper bound, if one is not provided in the **Input Socket**.|
 
 ## Input
 
@@ -27,7 +29,7 @@ The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specif
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|An **Object** with the associated *tag*.|
+|`Object ID`|**ObjectID**|An *parent* **Object**, or upper bound.|
 |`Tag`|**String**|The *tag* of interest.|
 
 # Outputs
