@@ -10,8 +10,6 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 
 # Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
 ## Object
 
 |Attribute|Type|Description|
