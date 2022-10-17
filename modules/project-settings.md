@@ -42,7 +42,7 @@ In the **Font Manager**, the user can manage their _fonts_: using the `+` button
 {% tab title="HTTP" %}
 #### HTTP
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttpnew.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -52,7 +52,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 
 `Local port` is the port the user chooses to use for their _HTTP_ server. For _HTTP_, the standard is 80 or 8080 and for _HTTPS_, the standard is 443. More information on ports and port forwarding can be found in the **External Links** section.
 
-`Is auto start` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+`Autostart` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
 
 {% tab title="Keyboard" %}
@@ -72,7 +72,7 @@ The `Layout Name` is also defined in the **Layout Manager**. This is the name wi
 {% tab title="MQTT" %}
 #### MQTT
 
-![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettings-mqtt.png)
+![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettingsmqttnew.png)
 
 The **MQTT Settings** allow to manage the **MQTT Connections** and cover the necessary data to provide functionality to the **MQTT Nodes**.
 
@@ -84,7 +84,7 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 
 `Remote port` is the port number of the connection. For _MQTT_, the standard is 1883.
 
-`Is auto start` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
+`Autostart` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 {% endtab %}
 
 {% tab title="Profiler" %}
