@@ -14,7 +14,7 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Object ID`|**ObjectID**|Sets the *child* **Object** whose *parent* **Object ID** will be returned, if one is not provided in the **Input Socket**. 
+|`Object ID`|**ObjectID**|Sets the *child* **Object** whose *parent* **Object ID** will be returned, if one is not provided in the **Input Socket**. |
 
 # Inputs
 
