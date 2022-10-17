@@ -83,7 +83,7 @@ An **Object** in the current **Scene** can be duplicated by right-clicking it on
 
 To hide an **Object**, click on the eye icon at the right of it.
 
-And to show a hidden **Object**, click on the crossed eye icon at the right of it.
+And to show a hidden **Object**, click on the crossed out eye icon at the right of it.
 
 ![](../.gitbook/assets/show-and-hide-cropped.gif)
 
