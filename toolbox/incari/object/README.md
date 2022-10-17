@@ -12,6 +12,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Children**](get-children.md)
 * [**Get Material**](get-material.md)
 * [**Get Name**](get-name.md)
+* [**Get Objects By Tag**](get-objects-by-tag.md)
 * [**Get Opacity**](get-opacity.md)
 * [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
