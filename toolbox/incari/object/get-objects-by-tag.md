@@ -6,9 +6,11 @@ The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specif
 
 To learn more about the **Root Object** and **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene) 
 
-![The Get Objects By Tag Node Attributes.](../../../.gitbook/assets/getobjectsbytagattributes.png)
 
 # Attributes
+
+![The Get Objects By Tag Node Attributes.](../../../.gitbook/assets/getobjectsbytagattributes.png)
+
 
 ## Object
 

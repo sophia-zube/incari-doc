@@ -80,7 +80,7 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Remote ip address` is the IP address from which the connection originates.
+`Remote IP address` is the IP address from which the connection originates.
 
 `Remote port` is the port number of the connection. For _MQTT_, the standard is 1883.
 
