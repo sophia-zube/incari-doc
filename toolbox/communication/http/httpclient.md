@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](httpclient#http-get) and [**HTTP POST**](httpclient#http-post).
+The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](httpclient#http-get), [**HTTP POST**](httpclient#http-post), [**HTTP PUT**]().
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -12,7 +12,7 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 
 **HTTP GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section.
 
-## Attributes
+### Attributes
 
 ![The HTTP GET Node Attributes.](../../../.gitbook/assets/httpgetattributes.png)
 
@@ -27,7 +27,7 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
 | `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether the response body is binary or not. Currently, the **Node** only supports **Strings**. |
 
-## Inputs
+### Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -38,7 +38,7 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | `Headers` | **Dictionary** | _HTTP_ headers in the form of key/value pairs. |
 | `Query` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 
-## Outputs
+### Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
@@ -52,9 +52,9 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 
 ![The HTTP POST Node.](../../../.gitbook/assets/httppostnode.png)
 
-**HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the differences between **POST** and **GET** can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
+**HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
 
-## Attributes
+### Attributes
 
 ![The HTTP POST Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
 
@@ -62,11 +62,29 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | :--- | :--- | :--- |
 | `Default Body` | **String** | The body of the _HTTP_ request, if none is provided in the **Input Socket**. |
 
-## Inputs
+### Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | `Body` | **String** | The body of the _HTTP_ request. |
+
+
+## HTTP DELETE
+
+![The HTTP DELETE Node.](../../../.gitbook/assets/httpdeletenode.png)
+
+**HTTP DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are teh same as those for **HTTP POST**. 
+## HTTP PUT
+
+![The HTTP PUT Node.](../../../.gitbook/assets/httpputnode.png)
+
+**HTTP PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP POST**. 
+
+## HTTP HEAD
+
+![The HTTP HEAD Node.](../../../.gitbook/assets/httpheadnode.png)
+
+**HTTP HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET**. 
 
 ## See Also
 
@@ -74,5 +92,5 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 
 ## External Links
 
-* [_GET vs POST_](https://www.w3schools.com/tags/ref_httpmethods.asp) on W3Schools.
+* [Different *HTTP* Methods](https://www.w3schools.com/tags/ref_httpmethods.asp) on W3Schools.
 
