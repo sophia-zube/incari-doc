@@ -26,7 +26,7 @@ Without CSS
 
 Although you may already be familiar with the `Size` and `Resolution` **Attributes** of the **Camera Object**, things work slightly differently with **Text** and **Web Sprite Objects**.
 
-With **Camera**, `Resolution` relates to the the resolution of a _physical_ piece of hardware ,i.e., a display. With **Text** and **Web Sprite**, however, both `Size` and `Resolution` relate to something which exists in _virtual_ 3D space. So although, like **Camera**, the `Size` **Attribute** defines the **Object's** size in 3D space, the `Resolution` **Attribute** defines the resolution of the content that will be stretched to fit that space.
+With **Camera**, `Resolution` relates to the resolution of a _physical_ piece of hardware ,i.e., a display. With **Text** and **Web Sprite**, however, both `Size` and `Resolution` relate to something which exists in _virtual_ 3D space. So although, like **Camera**, the `Size` **Attribute** defines the **Object's** size in 3D space, the `Resolution` **Attribute** defines the resolution of the content that will be stretched to fit that space.
 
 ## Font Family
 
@@ -48,7 +48,7 @@ Alignment works like any other word processor. You can align your text to be lef
 
 ## Font Color / Background Color
 
-**Colors** can be set in various ways in **Incari** and work very much like they do in other software. You can manually adjust the the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](broken-reference).
+**Colors** can be set in various ways in **Incari** and work very much like they do in other software. You can manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](broken-reference).
 
 ## Sprite
 

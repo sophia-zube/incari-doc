@@ -2,13 +2,15 @@
 
 ## Overview
 
-![The Set BackgroundColor Node.](../../../.gitbook/assets/setbackgroundcolor.png)
+![The Set BackgroundColor Node.](../../../.gitbook/assets/node-set-backgroundcolor.png)
 
 The **Set BackgroundColor Node** sets the **BackgroundColor** of the target **Vector Object**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
+
+![The Set BackgroundColor Node Attributes.](../../../.gitbook/assets/node-set-backgroundcolor-attri.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

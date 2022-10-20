@@ -20,7 +20,7 @@ The **Set Scene Node** sets the chosen **Scene** for a **Screen**. The user simp
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Screen ID`|**Screen**|The ID of the **Screen** the user wishes to se the **Scene** for.|
+|`Screen ID`|**Screen**|The ID of the **Screen** the user wishes to set the **Scene** for.|
 |`Scene ID`|**Scene**|The ID of the chosen **Scene**.|
 
 # Outputs

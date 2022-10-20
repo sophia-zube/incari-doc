@@ -2,7 +2,7 @@
 
 ![The MatchRegex Node.](../../.gitbook/assets/matchregex.png)
 
-The **MatchRegex** **Node** allows one to search a **String** for a certain pattern, which can be given as a *regular expression*. The part of the **String** in which the search is performed can be customized with the indices of the beginning and end of the search, which are given to the **Node** either as **Attributes** or **Inputs**. The **Node** outputs the result as a **Boolean**, together with the index of the first appearance of the searched pattern and the number of matches. 
+The **MatchRegex** **Node** allows the user to search a **String** for a certain pattern, which can be given as a *regular expression*. The part of the **String** in which the search is performed can be customized with the indices of the beginning and end of the search, which are given to the **Node** either as **Attributes** or **Inputs**. The **Node** outputs the result as a **Boolean**, together with the index of the first appearance of the searched pattern and the number of matches. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -38,7 +38,7 @@ The **MatchRegex** **Node** allows one to search a **String** for a certain patt
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Found` | **Bool** | Whether `Regex` was found between the given indices of `String` or not. |
 | `Position` | **Int** | The index of the first apparition of `Regex` in `String`. |
-| `Match count` | **Int** | The number of matches of `Regex` in the searched part of `String`.|
+| `Match count` | **Int** | The number of matches of `Regex` in the searched part of `String`. If `Count all matches` is set to *false*, the output is $$1$$.|
 
 # See Also
 
