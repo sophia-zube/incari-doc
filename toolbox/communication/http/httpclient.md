@@ -2,28 +2,18 @@
 
 ## Overview
 
-<div>
-<figure><img src="../../../.gitbook/assets/httpgetnode.png" alt=""><figcaption><p>GET.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/httppostnode.png" alt=""><figcaption><p>POST.</p></figcaption></figure>
-</div>
-
-<div>
-<figure><img src="../../../.gitbook/assets/httpputnode.png" alt=""><figcaption><p>PUT.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/httpheadnode.png" alt=""><figcaption><p>HEAD.</p></figcaption></figure>
-<figure><img src="../../../.gitbook/assets/httpdeletenode.png" alt=""><figcaption><p>DELETE.</p></figcaption></figure>
-</div>
-
-The **HTTP Client Node** has several `Methods` which allow the user to send requests to a selected server. These are [**GET**](), [**POST**](), [**PUT**](), [**HEAD**](), and [**DELETE**]().
+The **HTTP Client Node** allows the user to send *HTTP* requests to a selected *HTTP* server. All configurations are made in the **Node** or in the **Attributes** section. There are several methods that the user can select from to perform different *HTTP* requests. These are: [**GET**](httpclient.md#get), [**POST**](httpclient.md#post), [**PUT**](httpclient.md#put), [**HEAD**](httpclient.md#head), and [**DELETE**](httpclient.md#delete).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
+![HTTP Client Methods.](../../../.gitbook/assets/httpclientmethod.png)
 
-### Common Attributes, Inputs, and Outputs
-#### Attributes
+## Common Attributes, Inputs, and Outputs
+### Common Attributes
 
-Depending on the `Method` selected, the **Attributes** and **Inputs** might change. However, there are several common **Attributes**, **Inputs**, and **Outputs** between the many **HTTP** `Methods`.
+Depending on the `Method` selected, the **Attributes** and **Inputs** might change. However, there are several common [**Attributes**](httpclient.md#common-attributes), [**Inputs**](httpclient.md#common-inputs), and [**Outputs**](httpclient.md#common-outputs) between the many **HTTP** `Methods`.
 
-![HTTP Shared Attributes.](../../../.gitbook/assets/httpgetattributes.png)
+![HTTP Shared Attributes.](../../../.gitbook/assets/httpclientattributes.png)
  
 
 | Attribute | Type | Description |
@@ -37,7 +27,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
 | `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether the `Response Body` is binary or not. Currently, the **Node** only supports **Strings**. |
 
-#### Inputs
+### Common Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -48,7 +38,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | `Headers` | **Dictionary** | _HTTP_ headers in the form of key/value pairs. |
 | `Query` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 
-#### Outputs
+### Common Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
@@ -62,19 +52,19 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 ## Methods
 ### GET
 
-![The HTTP GET Node.](../../../.gitbook/assets/httpgetnode.png)
+![The HTTP Client Node using Method GET.](../../../.gitbook/assets/httpgetnode.png)
 
-**HTTP GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section. Additional information on the different *HTTP* methods can be found in the **External Links** section.
+**GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section. Additional information on the different *HTTP* methods can be found in the **External Links** section.
 
 ### POST
 
-![The HTTP POST Node.](../../../.gitbook/assets/httppostnode.png)
+![The HTTP Client Node using Method POST.](../../../.gitbook/assets/httppostnode.png)
 
 **POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
 #### Attributes
 
-![The HTTP POST Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
+![The HTTP Client Node Attributes using Method POST.](../../../.gitbook/assets/httppostattributesreal.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -87,15 +77,16 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | `Body` | **String** | The body of the _HTTP_ request. |
 
 
-### HTTP DELETE
 
-![The HTTP DELETE Node.](../../../.gitbook/assets/httpdeletenode.png)
+### PUT
 
-**HTTP DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
+![The HTTP Client Node using Method PUT.](../../../.gitbook/assets/httpputnode.png)
+
+**PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
 #### Attributes
 
-![The HTTP DELETE Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
+![The HTTP Client Node Attributes using Method PUT.](../../../.gitbook/assets/httppostattributesreal.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -106,15 +97,22 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | `Body` | **String** | The body of the _HTTP_ request. |
-### HTTP PUT
 
-![The HTTP PUT Node.](../../../.gitbook/assets/httpputnode.png)
+### HEAD
 
-**HTTP PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
+![The HTTP Client Node using Method HEAD.](../../../.gitbook/assets/httpheadnode.png)
+
+**HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET**. 
+
+### DELETE
+
+![The HTTP Client Node using Method DELETE.](../../../.gitbook/assets/httpdeletenode.png)
+
+**DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
 #### Attributes
 
-![The HTTP PUT Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
+![The HTTP Client Node Attributes using Method DELETE.](../../../.gitbook/assets/httppostattributesreal.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
@@ -125,12 +123,6 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | `Body` | **String** | The body of the _HTTP_ request. |
-
-### HTTP HEAD
-
-![The HTTP HEAD Node.](../../../.gitbook/assets/httpheadnode.png)
-
-**HTTP HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET**. 
 
 ## See Also
 
