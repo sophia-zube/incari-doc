@@ -29,14 +29,14 @@ The **Arc Tangent Node** takes a single **Float** value and returns its _arctang
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Float** | The value to calculate the _arctangent_ of. |
+| `Input` | **Float** | The value to calculate the §§arctangent§§ of. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | **Float** | The $arctangent$ of `Input`. |
+| `Output` | **Float** | The $$arctangent$$ of `Input`. |
 
 ## See Also
 
