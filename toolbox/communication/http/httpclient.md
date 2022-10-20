@@ -2,32 +2,42 @@
 
 ## Overview
 
-The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](httpclient#http-get), [**HTTP POST**](httpclient#http-post), [**HTTP PUT**]().
+<div>
+<figure><img src="../../../.gitbook/assets/httpgetnode.png" alt=""><figcaption><p>GET.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/httppostnode.png" alt=""><figcaption><p>POST.</p></figcaption></figure>
+</div>
+
+<div>
+<figure><img src="../../../.gitbook/assets/httpputnode.png" alt=""><figcaption><p>PUT.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/httpheadnode.png" alt=""><figcaption><p>HEAD.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/httpdeletenode.png" alt=""><figcaption><p>DELETE.</p></figcaption></figure>
+</div>
+
+The **HTTP Client Node** has several `Methods` which allow the user to send requests to a selected server. These are [**GET**](), [**POST**](), [**PUT**](), [**HEAD**](), and [**DELETE**]().
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
-## HTTP GET
 
-![The HTTP GET Node.](../../../.gitbook/assets/httpgetnode.png)
+### Common Attributes, Inputs, and Outputs
+#### Attributes
 
-**HTTP GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section.
+Depending on the `Method` selected, the **Attributes** and **Inputs** might change. However, there are several common **Attributes**, **Inputs**, and **Outputs** between the many **HTTP** `Methods`.
 
-### Attributes
-
-![The HTTP GET Node Attributes.](../../../.gitbook/assets/httpgetattributes.png)
+![HTTP Shared Attributes.](../../../.gitbook/assets/httpgetattributes.png)
+ 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Remote IP` | **User Input** | The _HTTP_ endpoint \(either a URL or IP address\). |
 | `Remote Port` | **Int** | The port value. For _HTTP_, the standard is 80 and for *HTTPS*, the standard is 443. |
-| `Method` | **Drop-down** | Either **GET** or **POST**, depending on the goal of the user. |
+| `Method` | **Drop-down** | Either **GET**,**POST**, **PUT**, **HEAD**, or **DELETE**.|
 | `Path` | **User Input** | A specific path from the call being referenced in `Remote IP`. Usually, this is the text after the main root URL but before the `?` character. |
 | `Authentication` | **Drop-down** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
 | `Default Headers` | **Add Elements** | _HTTP_ headers in the form of key/value pairs. |
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
-| `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether the response body is binary or not. Currently, the **Node** only supports **Strings**. |
+| `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether the `Response Body` is binary or not. Currently, the **Node** only supports **Strings**. |
 
-### Inputs
+#### Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -38,7 +48,7 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | `Headers` | **Dictionary** | _HTTP_ headers in the form of key/value pairs. |
 | `Query` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 
-### Outputs
+#### Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
@@ -48,13 +58,21 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | `Headers` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 | `Body` | **String** | The body of the response, usually including _HTML_ text. |
 
-## HTTP POST
+
+## Methods
+### GET
+
+![The HTTP GET Node.](../../../.gitbook/assets/httpgetnode.png)
+
+**HTTP GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section. Additional information on the different *HTTP* methods can be found in the **External Links** section.
+
+### POST
 
 ![The HTTP POST Node.](../../../.gitbook/assets/httppostnode.png)
 
-**HTTP POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET** except for the addition of the following:
+**POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
-### Attributes
+#### Attributes
 
 ![The HTTP POST Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
 
@@ -62,25 +80,53 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 | :--- | :--- | :--- |
 | `Default Body` | **String** | The body of the _HTTP_ request, if none is provided in the **Input Socket**. |
 
-### Inputs
+#### Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | `Body` | **String** | The body of the _HTTP_ request. |
 
 
-## HTTP DELETE
+### HTTP DELETE
 
 ![The HTTP DELETE Node.](../../../.gitbook/assets/httpdeletenode.png)
 
-**HTTP DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are teh same as those for **HTTP POST**. 
-## HTTP PUT
+**HTTP DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
+
+#### Attributes
+
+![The HTTP DELETE Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Body` | **String** | The body of the _HTTP_ request, if none is provided in the **Input Socket**. |
+
+#### Inputs
+
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Body` | **String** | The body of the _HTTP_ request. |
+### HTTP PUT
 
 ![The HTTP PUT Node.](../../../.gitbook/assets/httpputnode.png)
 
-**HTTP PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP POST**. 
+**HTTP PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
-## HTTP HEAD
+#### Attributes
+
+![The HTTP PUT Node Attributes.](../../../.gitbook/assets/httppostattributesreal.png)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Default Body` | **String** | The body of the _HTTP_ request, if none is provided in the **Input Socket**. |
+
+#### Inputs
+
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Body` | **String** | The body of the _HTTP_ request. |
+
+### HTTP HEAD
 
 ![The HTTP HEAD Node.](../../../.gitbook/assets/httpheadnode.png)
 
@@ -88,7 +134,7 @@ The **HTTP Client Node** has two `Methods` of use. These are [**HTTP GET**](http
 
 ## See Also
 
-* [**Using APIs to Pull Dynamic Data**](https://docs.incari.com/incari-studio/v/2021.3-unreleased/demo-projects/using-apis-to-pull-dynamic-data#http-get)
+* [**Using APIs to Pull Dynamic Data**](../../../demo-projects/using-apis-to-pull-dynamic-data.md)
 
 ## External Links
 
