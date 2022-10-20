@@ -37,7 +37,7 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Object IDs`|An **Array** of all the **Object IDs** with the associated *tag*.| 
+|`Object IDs`|**ObjectID**|An **Array** of all the **Object IDs** with the associated *tag*.| 
 
 # See Also
 
