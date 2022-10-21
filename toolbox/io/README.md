@@ -6,6 +6,7 @@
 
 ## Contents
 
+* [**Create File**](createfile.md)
 * [**Get Current Directory**](getcurrentdirectory.md)
 * [**Get File Extension**](getfileextension.md)
 * [**List Directory Content**](listdirectorycontent.md)
