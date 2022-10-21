@@ -258,6 +258,8 @@
     * [Function Output](toolbox/functions/function/function-output.md)
 * [IO](toolbox/io/README.md)
   * [Create File](toolbox/io/createfile.md)
+  * [Create File1](toolbox/io/createfile1.md)
+  * [Create File2](toolbox/io/createfile2.md)
   * [Get Current Directory](toolbox/io/getcurrentdirectory.md)
   * [Get File Extension](toolbox/io/getfileextension.md)
   * [List Directory Content](toolbox/io/listdirectorycontent.md)
