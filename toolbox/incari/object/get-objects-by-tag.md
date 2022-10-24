@@ -29,7 +29,7 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|An *parent* **Object**, or upper bound.|
+|`Object ID`|**ObjectID**|The *parent* **Object**, or upper bound.|
 |`Tag`|**String**|The *tag* of interest.|
 
 # Outputs

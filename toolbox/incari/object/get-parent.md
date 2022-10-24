@@ -2,7 +2,7 @@
 
 ![The Get Parent Node.](../../../.gitbook/assets/getparentnode.png)
 
-The **Get Parent Node** returns the **Object ID** of an **Object's** *parent*, if it has one. If an **Object** has no explicit *parent* given by the user, the ID of the **Root Object** is returned. In **Incari**, every **Object** has a *parent*, with the **Root Object** being the *parent* of all **Objects** on the highest level. 
+The **Get Parent Node** returns the **Object ID** of an **Object's** *parent*. If an **Object** has no explicit *parent* given by the user, the ID of the **Root Object** is returned. In **Incari**, every **Object** has a *parent*, with the **Root Object** being the *parent* of all **Objects** on the highest level. 
 
 To learn more about the **Root Object** and **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene)
 
