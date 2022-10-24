@@ -8,7 +8,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 {% tab title="CAN" %}
 ### CAN
 
-![The CAN Settings.](../.gitbook/assets/projectsettings-can.png)
+![The CAN Settings.](../.gitbook/assets/canreal.png)
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
