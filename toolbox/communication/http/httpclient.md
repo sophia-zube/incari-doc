@@ -9,9 +9,9 @@ The **HTTP Client Node** allows the user to send *HTTP* requests to a selected *
 ![HTTP Client Methods.](../../../.gitbook/assets/httpclientmethod.png)
 
 ## Common Attributes, Inputs, and Outputs
-### Common Attributes
 
 Depending on the `Method` selected, the **Attributes** and **Inputs** might change. However, there are several common [**Attributes**](httpclient.md#common-attributes), [**Inputs**](httpclient.md#common-inputs), and [**Outputs**](httpclient.md#common-outputs) between the many **HTTP** `Methods`.
+### Common Attributes
 
 ![HTTP Shared Attributes.](../../../.gitbook/assets/httpclientattributes.png)
  
@@ -102,7 +102,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 
 ![The HTTP Client Node using Method HEAD.](../../../.gitbook/assets/httpheadnode.png)
 
-**HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as those for **HTTP GET**. 
+**HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**. 
 
 ### DELETE
 
