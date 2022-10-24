@@ -16,7 +16,7 @@ The **MoveTo Action Node** continuously modifies the `Position` of an **Object**
 | :--- | :--- | :--- |
 | `To` | **Vector3** | The desired `Position` along the X, Y, Z axes, if none is received in the `To` **Input Socket**. |
 | `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
-| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `opacity`. IT can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Position`. It can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
 ## Inputs
 

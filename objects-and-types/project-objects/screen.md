@@ -10,7 +10,7 @@ A **Screen's Attributes** can be edited by selecting it in the **Project Outline
 
 ### Transformation
 
-Each **Scene** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
+Each **Screen** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
 
 ### Camera
 

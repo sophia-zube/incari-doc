@@ -26,7 +26,7 @@ In cases where the `Resolution` of the **Web Sprite** is not large enough to fit
 
 `Resolution` defines the dimensions of the **Web Sprite** in pixels. This can be thought of as being like the size of your internet browser window. By resizing your browser window, you can fit in more content at a higher resolution.
 
-`Size` defines the size of the the **Object** in **Units** within 3D space. In most cases, it is recommended that this is the same value as `Resolution`, or the same aspect ratio, at the very least.
+`Size` defines the size of the **Object** in **Units** within 3D space. In most cases, it is recommended that this is the same value as `Resolution`, or the same aspect ratio, at the very least.
 
 ## Common Attributes
 
