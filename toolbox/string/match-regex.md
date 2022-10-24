@@ -38,7 +38,7 @@ The **MatchRegex** **Node** allows one to search a **String** for a certain patt
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Found` | **Bool** | Whether `Regex` was found between the given indices of `String` or not. |
 | `Position` | **Int** | The index of the first apparition of `Regex` in `String`. |
-| `Match count` | **Int** | The number of matches of `Regex` in the searched part of `String`.|
+| `Match count` | **Int** | The number of matches of `Regex` in the searched part of `String`. If `Count all matches` is set to *false*, the output is $$1$$.|
 
 # See Also
 

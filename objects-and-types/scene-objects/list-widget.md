@@ -159,7 +159,7 @@ Also, clicking the `Generate List` button renders any update made to the **Attri
 
 ### Background color
 
-The `Background color` can be set by if you manually adjust the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
+The `Background color` can be set by manually adjusting the **HSB** / **RGBA** values or input a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
 
 ## Effects
 

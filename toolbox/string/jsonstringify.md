@@ -28,7 +28,7 @@ The **JSON Stringify Node** converts a **Data Type** like a **Dictionary** into 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | **String** | The making **String**. |
+| `Output` | **String** | The generated **String**. |
 
 ## See Also
 

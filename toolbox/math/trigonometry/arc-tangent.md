@@ -4,7 +4,7 @@
 
 ![The Arc Tangent Node.](../../../.gitbook/assets/node-arc-tangent2.png)
 
-The **Arc Tangent Node** takes a single **Float** value and returns its _arctangent_, in degrees \(°\) or radians \(rad\).
+The **Arc Tangent Node** takes a single **Float** value and returns its $$arctangent$$, in degrees \(°\) or radians \(rad\).
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -29,14 +29,14 @@ The **Arc Tangent Node** takes a single **Float** value and returns its _arctang
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Float** | The value to calculate the _arctangent_ of. |
+| `Input` | **Float** | The value to calculate the $$arctangent$$ of. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Output` | **Float** | The $arctangent$ of `Input`. |
+| `Output` | **Float** | The $$arctangent$$ of `Input`. |
 
 ## See Also
 
