@@ -4,7 +4,9 @@
 
 The **Instantiate Object Node** can be used to copy an **Object**, including all its *children*, or a **Prefab**. 
 
-This **Node** requires a *parent* of the **Object**. Any **Object** placed in `Parent ID` will automatically assign it as the *parent* even if the hierarchy was not established before. 
+This **Node** requires a *parent* of the **Object**. Any **Object** placed in `Parent ID`t will automatically assign it as the *parent* even if the hierarchy was not established before. 
+
+To learn more about the *childre* and *parent* **Objects** in the **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene)
 
 # Attributes
 
