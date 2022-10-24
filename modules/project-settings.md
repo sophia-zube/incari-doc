@@ -26,7 +26,7 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 {% tab title="Fonts" %}
 ### Fonts
 
-![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-font.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/fontsreal.png)
 
 The **Fonts Settings** let the user define different types of _fonts_ to add personalized style to texts.
 
@@ -40,7 +40,7 @@ In the **Font Manager**, the user can manage their _fonts_: using the `+` button
 {% tab title="HTTP" %}
 ### HTTP
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/httpreal.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -56,7 +56,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 {% tab title="Keyboard" %}
 ### Keyboard
 
-![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard.png)
+![The Keyboard Settings.](../.gitbook/assets/keyboardreal.png)
 
 The **Keyboard Settings** let the user define new _layouts_ that can then be used for **On-Screen Keyboards**.
 
@@ -70,7 +70,7 @@ The `Layout Name` is also defined in the **Layout Manager**. This is the name wi
 {% tab title="MQTT" %}
 ### MQTT
 
-![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettings-mqtt.png)
+![The Project Settings MQTT Attributes.](../.gitbook/assets/mqttreal.png)
 
 The **MQTT Settings** allow to manage the **MQTT Connections** and cover the necessary data to provide functionality to the **MQTT Nodes**.
 
@@ -88,7 +88,7 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 {% tab title="Profiler" %}
 ### Profiler
 
-![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler.png)
+![The Project Settings Profiler Attributes.](../.gitbook/assets/profilerreal.png)
 
 The **Profiler Settings** cover the necessary data to provide functionality to the **Profiler** **Module**.
 
@@ -100,7 +100,7 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 {% tab title="Serial" %}
 ### Serial
 
-![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial.png)
+![The Project Settings Serial Attributes.](../.gitbook/assets/serialreal.png)
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
