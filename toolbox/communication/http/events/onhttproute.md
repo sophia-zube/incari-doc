@@ -15,13 +15,13 @@
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings.md). |
-| `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either **GET** or **POST**\) and its URL. |
+| `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either **GET**, **POST**, **DELETE**, **PUT**, or **HEAD**\) and its URL. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `path/name (METHOD)` \(►\) | An **Output Pulse** which executes when a `Request` is received by a specific **Route**.|
 | `Headers` | **Dictionary** | _HTTP_ headers in the form of key/value pairs. |
 | `Query` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 | `Request ID` | **CustomID** | The unique ID of the request. |
