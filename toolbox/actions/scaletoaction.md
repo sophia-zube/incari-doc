@@ -6,6 +6,8 @@
 
 The **ScaleTo Action Node** continuously scales an **Object** to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. 
 
+Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
+
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
