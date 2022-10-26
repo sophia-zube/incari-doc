@@ -10,7 +10,7 @@
 
 ## Attributes
 
-![The On HTTP Route Node Attributes.](../../../../.gitbook/assets/onhttprouteattributes.png)
+![The On HTTP Route Node Attributes.](../../../../.gitbook/assets/onhttprouteattributes2.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
