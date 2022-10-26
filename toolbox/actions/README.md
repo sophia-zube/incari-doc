@@ -20,7 +20,7 @@ And the second part of the name says which values are specified by the user:
 
   * `FromTo`: The start and end values of the **Attribute** are set by the user.
   * `To`: Only the target value of the **Attribute** is set by the user.
-  * `By`: The values to be added to the current value of the **Attribute** are set by the user.
+  * `By`: The values to be added to the current value of the **Attribute** are set by the user, in the case of `Move` and `Rotate`. For `Scale`, these are the values by which the initial values are multiplied at the end of the **Animation**.
 
 Then, for instance, the **MoveTo Action** **Node** continuously modifies the `Position` **Attribute** of an **Object** until reaching the target value set, creating an **Animation** in which the **Object** moves from its current *position* to the one set in the **Node**.
 

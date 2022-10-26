@@ -6,6 +6,8 @@
 
 The **FadeTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user.
 
+Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**
+
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 ## Attributes
