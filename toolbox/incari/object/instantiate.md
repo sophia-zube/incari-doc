@@ -22,7 +22,7 @@ To learn more about *children* and *parent* **Objects** in the **Scene** structu
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The **Object** or **Prefab** to be copied.|
-|`Parent`|**ObjectID**|The *parent* of the **Object** or **Prefab** to be copied.|
+|`Parent`|**ObjectID**|The *parent* to be assigned to the copied **Object** or **Prefab**.|
 
 # Outputs
 
