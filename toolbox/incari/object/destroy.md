@@ -28,4 +28,4 @@ The **Destroy Node** deletes an **Object** or **Prefab Instance**, the latter of
 
 # See Also
 
-* [**Instantiate**](instantiate.md)
+* [**Instantiate Object**](instantiate.md)
