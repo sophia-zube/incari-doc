@@ -1,6 +1,15 @@
 # Group
 
-The **Group** **Object** works like a folder, as it allows you to structure and organize **Objects**, making **Scenes** with high amounts of different **Objects** more manageable.
+![Example of a Group in Incari](../../.gitbook/assets/groupexample.png)
+
+This page will describe **Groups** in **Incari**. The **Group** **Object** works like a folder, as it allows you to structure and organize **Objects**, making **Scenes** with high amounts of different **Objects** more manageable.
+
+To jump ahead to a section, refer to the table of contents below:
+
+* [Create](group.md#create)
+* [Delete](group.md#delete)
+* [Transformation](group.md#transformations)
+
 
 ## Create
 
