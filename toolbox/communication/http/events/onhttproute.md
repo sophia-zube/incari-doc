@@ -22,7 +22,7 @@
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
-| `path/name (METHOD)` \(►\) | An **Output Pulse** which appears when a **Route** is created and a `Method` is chosen. It executes when a `Request` is received by the **Route**. Since it possible to have multiple **Routes**, it is possible to have multiple **Output Pulses**.|
+| `path/name (METHOD)` \(►\) |**Output Pulse**| An **Output Pulse** which appears when a **Route** is created and a `Method` is chosen. It executes when a `Request` is received by the **Route**. Since it possible to have multiple **Routes**, it is possible to have multiple **Output Pulses**.|
 | `Headers` | **Dictionary** | _HTTP_ headers in the form of key/value pairs. |
 | `Query` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
 | `Request ID` | **CustomID** | The unique ID of the request. |
