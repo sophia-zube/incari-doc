@@ -38,6 +38,28 @@ Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes
 | `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **ScaleTo Action** when the **Action** starts. |
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **ScaleTo Action** when the **Action** stops. |
 
+## Example
+
+This section shows a simple example of how to use the **ScaleTo Action** **Node** and the effect it has on an **Object**.
+
+We consider a red ellipse over a black background, and we set its `Size` **Attribute** to $$(1000, 1000, 0)$$ and its `Scale` **Attribute** to $$(0.1, 0.1, 0)$$. See the used configuration in the following image:
+
+![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleScaleTo_1.png)
+
+In the **Logic**, we use the **ScaleTo Action** **Node** with the following **Attributes**: 
+
+* `To`: $$(0.4, 0.4, 0)$$ 
+* `Duration (sec)`: $$4$$ 
+* `Interpolation`: `Linear`
+
+And we connect to it the **Object Node** of the red ellipse and an **Input Pulse**. Thus, having the following **Logic** configuration:
+
+![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleScaleTo_2.png)
+
+Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
+
+![Final result.](../../.gitbook/assets/examplesactions/ExampleScaleTo_3.gif)
+
 ## See Also
 
 * [**ScaleBy**](scalebyaction.md)
