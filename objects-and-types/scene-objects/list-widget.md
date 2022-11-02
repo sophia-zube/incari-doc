@@ -165,7 +165,7 @@ The `Background color` can be set by manually adjusting the **HSB** / **RGBA** v
 
 ### Tint
 
-The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
+The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, thereby changing its appearance. The _color overlay_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../attributes/attribute-types/color-attribute.md).
 
 ## Web Resource
 
