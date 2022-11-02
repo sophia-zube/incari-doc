@@ -4,7 +4,7 @@
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoactionnode.png)
 
-The **MoveTo Action Node** continuously modifies the `Position` of an **Object** to the values specified in `To` for a given period of time, thus creating an **Animation**.
+The **MoveTo Action Node** continuously modifies the `Position` of an [**Object**](../../objects-and-types/scene-objects/README.md) to the values specified in `To` for a given period of time, thus creating an **Animation**.
 
 Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#position) for more detail about the `Position` **Attribute**.
 
