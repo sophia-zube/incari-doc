@@ -4,7 +4,7 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode.png)
 
-The **ScaleTo Action Node** continuously scales an **Object** to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. 
+The **ScaleTo Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. 
 
 Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
 
@@ -40,11 +40,15 @@ Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes
 
 ## Example
 
-This section shows a simple example of how to use the **ScaleTo Action** **Node** and the effect it has on an **Object**.
+This section shows a simple example of how to use the **ScaleTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
 
-We consider a red ellipse over a black background, and we set its `Size` **Attribute** to $$(1000, 1000, 0)$$ and its `Scale` **Attribute** to $$(0.1, 0.1, 0)$$. See the used configuration in the following image:
+### Scene Configuration
+
+We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a red ellipse over a black background, both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Size` **Attribute** of the ellipse to $$(1000, 1000, 0)$$ and its `Scale` **Attribute** to $$(0.1, 0.1, 0)$$. See this configuration in the following image:
 
 ![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleScaleTo_1.png)
+
+### Logic
 
 In the **Logic**, we use the **ScaleTo Action** **Node** with the following **Attributes**: 
 
@@ -55,6 +59,8 @@ In the **Logic**, we use the **ScaleTo Action** **Node** with the following **At
 And we connect to it the **Object Node** of the red ellipse and an **Input Pulse**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleScaleTo_2.png)
+
+### Final result
 
 Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
 

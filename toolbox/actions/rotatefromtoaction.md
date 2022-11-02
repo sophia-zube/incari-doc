@@ -4,7 +4,7 @@
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionnode.png)
 
-The **RotateFromTo Action Node** continuously rotates an **Object** from the *Euler angles* specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateFromTo Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/README.md) from the *Euler angles* specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**.
 
 Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation) for more detail about the `Rotation` **Attribute**.
 
