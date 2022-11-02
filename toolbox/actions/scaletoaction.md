@@ -4,7 +4,7 @@
 
 ![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode.png)
 
-The **ScaleTo Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. 
+The **ScaleTo Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
 Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
 
@@ -50,7 +50,9 @@ We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with
 
 ### Logic
 
-In the **Logic**, we use the **ScaleTo Action** **Node** with the following **Attributes**: 
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+
+We use the **ScaleTo Action** **Node** with the following **Attributes**: 
 
 * `To`: $$(0.4, 0.4, 0)$$ 
 * `Duration (sec)`: $$4$$ 
