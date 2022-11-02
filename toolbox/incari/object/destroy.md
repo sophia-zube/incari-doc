@@ -2,7 +2,7 @@
 
 ![The Destroy Object Node.](../../../.gitbook/assets/destroyobjectid.png)
 
-The **Destroy Node** deletes an **Object** or **Prefab Instance**, the latter of which means that the **Prefab** in the **Asset Manager** remains. 
+The **Destroy Node** deletes an **Object** or **Prefab Instance**, the latter of which means that the **Prefab** in the **Asset Manager** remains.All the children are destroyed as well.  
 
 # Attributes
 
