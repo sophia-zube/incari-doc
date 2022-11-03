@@ -6,7 +6,7 @@
 
 The **ScaleBy Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) up to the values specified in `By` multiplied by the initial values for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
-Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
+Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -54,7 +54,7 @@ We then need to configure the **Logic**. This is done in the [**Logic Editor**](
 
 We use the **ScaleBy Action** **Node** with the following **Attributes**: 
 
-* `To`: $$(4, 4, 0)$$ 
+* `By`: $$(4, 4, 0)$$ 
 * `Duration (sec)`: $$4$$ 
 * `Interpolation`: `Linear`
 
