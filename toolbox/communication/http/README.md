@@ -8,7 +8,7 @@ The **HTTP Nodes** allow the user to set up a server or connect to an already ex
 
 ## HTTP Guideline
 
-With the **HTTP Communication Nodes**, except the **HTTP Client Node**, the user can create a server on the local machine. From there, they can process requests and respective send responses as desired. With the **HTTP Client Node**, the user can make any request to any server.
+With the **HTTP Communication Nodes**, except the **HTTP Client Node**, the user can create a server on the local machine. From there, they can process requests and send respective responses as desired. With the **HTTP Client Node**, the user can make any request to any server.
 
 The following guideline shows the steps needed for setting up a server on a local machine. 
 
