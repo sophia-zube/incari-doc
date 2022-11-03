@@ -20,7 +20,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | :--- | :--- | :--- |
 | `Remote IP` | **User Input** | The _HTTP_ endpoint \(either a URL or IP address\). |
 | `Remote Port` | **Int** | The port value. For _HTTP_, the standard is 80 and for *HTTPS*, the standard is 443. |
-| `Method` | **Drop-down** | Either **GET**,**POST**, **PUT**, **HEAD**, or **DELETE**.|
+| `Method` | **Drop-down** | Either **GET**, **POST**, **PUT**, **HEAD**, or **DELETE**.|
 | `Path` | **User Input** | A specific path from the call being referenced in `Remote IP`. Usually, this is the text after the main root URL but before the `?` character. |
 | `Authentication` | **Drop-down** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
 | `Default Headers` | **Add Elements** | _HTTP_ headers in the form of key/value pairs. |
@@ -45,7 +45,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `OnResponse` \(►\) | **Pulse** | Flows to additional actions when there is a response. |
 | `Status Code` | **Int** | A standard status code within the _HTTP_ protocol. For example, 404 is when a page is not found. |
-| `Headers` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
+| `Headers` | **Dictionary** |  _HTTP_ headers in the form of key/value pairs. |
 | `Body` | **String** | The body of the response, usually including _HTML_ text. |
 
 

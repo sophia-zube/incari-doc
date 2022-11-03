@@ -4,7 +4,7 @@
 
 ![The HTTP Response Node.](../../../.gitbook/assets/httpresponsenode.png)
 
-The **HTTP Response Node** allows the user to define a response to be sent after a request is made.
+The **HTTP Response Node** allows the user to define a response to be sent after a request is received and processed.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -25,7 +25,7 @@ The **HTTP Response Node** allows the user to define a response to be sent after
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Request ID` | **CustomID** | The unique ID of the request, which is required  so that the **Node** knows which client to send the response to. This ID can be obtained from the [**On HTTP Route Node**](events/onhttproute.md).|
 | `StatusCode` | **Int** | A standard status code within the _HTTP_ protocol. For example, 404 is when a page is not found. |
-| `Headers` | **Dictionary** | Parameters of the call in the form of key/value pairs. |
+| `Headers` | **Dictionary** |  _HTTP_ headers in the form of key/value pairs. |
 | `Body` | **String** | The body of the response, usually including _HTML_ text. |
 
 ## Outputs

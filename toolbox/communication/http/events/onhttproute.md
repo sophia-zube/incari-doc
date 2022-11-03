@@ -4,9 +4,9 @@
 
 ![The On HTTP Route Node.](../../../../.gitbook/assets/onhttproutenode.png)
 
-**On HTTP Route** is an **Event Listener Node** that executes when a `Request` is received  by a specific **Route**, which is set up in the `Attributes`, and returns the data defined by the outputs. 
+**On HTTP Route** is an **Event Listener Node** that executes when a `Request` is received  by a specific **Route**, which is set up in the `Attributes`, and returns the data defined by the outputs. A **Route** is made up of a `Method` and `URL`.  
 
-The **Node** changes with each `Method`added. Please refer to the [example](onhttproute.md#example) for more information. 
+The **Node** changes with each **Route** added. Please refer to the [example](onhttproute.md#example) for more information. 
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
