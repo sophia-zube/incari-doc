@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Incari** has a couple of **Nodes** relating to _io_ \(input/output\) functionality. These can be used to save and load persistent data between sessions as well as set or return the working *directory*.
+**Incari** has several **Nodes** relating to _io_ \(input/output\) functionality. These can be used to create a file from scratch, set or return the working *directory*, list all content within a directory, get a file's file *extension*, save and load persistent data between sessions, as well as remove a file by deleting it.
 
 ## Contents
 
