@@ -11,5 +11,5 @@ The **Common Attributes** are:
   * [**Local**](transformation/local.md)
 * [**Object**](object.md)
 * [**Sprite**](sprite.md)
-* [**Tag.**](tag.md)
+* [**Tag**](tag.md)
 
