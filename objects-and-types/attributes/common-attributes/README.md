@@ -6,10 +6,10 @@ If there are any caveats or atypical functionality within the context of a parti
 
 The **Common Attributes** are:
 
+* [**Object**](object.md)
+* [**Sprite**](sprite.md)
 * [**Transformation**](transformation/README.md)
   * [**Global**](transformation/global.md)
   * [**Local**](transformation/local.md)
-* [**Object**](object.md)
-* [**Sprite**](sprite.md)
 * [**Tag**](tag.md)
 
