@@ -10,5 +10,5 @@ This is a user-defined name, which should be both descriptive and succinct, and 
 
 ## Type
 
-This **Attribute** isn't editable, and merely displays what **Type** of **Object** it is.
+This **Attribute** isn't editable and merely displays what **Type** of **Object** it is.
 
