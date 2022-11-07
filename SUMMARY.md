@@ -49,7 +49,7 @@
     * [Numerical Attribute](objects-and-types/attributes/attribute-types/numerical-attribute.md)
   * [Common Attributes](objects-and-types/attributes/common-attributes/README.md)
     * [Object](objects-and-types/attributes/common-attributes/object.md)
-    * [Camera](objects-and-types/attributes/common-attributes/camera.md)
+    <!--* [Camera](objects-and-types/attributes/common-attributes/camera.md)-->
     <!-- * [Rotation Pivot](objects-and-types/attributes/common-attributes/rotation-pivot.md) -->
     * [Sprite](objects-and-types/attributes/common-attributes/sprite.md)
     * [Transformation](objects-and-types/attributes/common-attributes/transformation/README.md)
