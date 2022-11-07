@@ -11,3 +11,4 @@ The available **Demo Projects** are:
 * [**An Analog Clock**](an-analog-clock.md)
 * [**Image Sequence Button Animation**](image-sequence-button-animation.md)
 * [**Prefabs**](prefabs-demo.md)
+* [**Project Initialization**](project-initializaton.md)
