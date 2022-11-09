@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Delay Action Node.](../../.gitbook/assets/node-delay-action-node.png)
+![The Delay Action Node.](../../.gitbook/assets/delayactionupdatedimage.png)
 
 The **Delay Action Node** delays the **Pulse Flow** for the specified duration \(in seconds\). 
 

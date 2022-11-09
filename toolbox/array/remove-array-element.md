@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove Array Element Node.](../../.gitbook/assets/removearrayelementnode.png)
+![The Remove Array Element Node.](../../.gitbook/assets/removearrayelementupdatedimage.png)
 
 The **Remove Array Element Node** deletes the element(s) of an **Array** at the specified index/indices. 
 

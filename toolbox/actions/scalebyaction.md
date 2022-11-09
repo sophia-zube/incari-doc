@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionnode.png)
+![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionupdatedimage.png)
 
 The **ScaleBy Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) up to the values specified in `By` multiplied by the initial values for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
