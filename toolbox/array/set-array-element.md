@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Array Element Node.](../../.gitbook/assets/set-array-element.PNG)
+![The Set Array Element Node.](../../.gitbook/assets/setarrayelementupdatedimage.png)
 
 **Set Array Element** updates one or more elements in an **Array** to new values. For this, it receives the `Index` of the element to update and the `Value` to which it will be updated.
 
