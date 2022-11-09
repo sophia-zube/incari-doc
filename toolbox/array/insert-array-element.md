@@ -4,7 +4,7 @@ description: Available since 2022.1.2
 
 # Overview
 
-![The Insert Array Element Node.](../../.gitbook/assets/insertarrayelementnode.png)
+![The Insert Array Element Node.](../../.gitbook/assets/insertarrayelementupdatedimage.png)
 
 The **Insert Array Element Node** adds an element, or elements, to an **Array**. These are inserted at a specified index and given a specified value.  
 

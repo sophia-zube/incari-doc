@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionnode.png)
+![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionupdatedimage.png)
 
 The **ScaleBy Action Node** continuously modifies the `Scale` **Attribute** of an **Object** by the values specified in `By` for a given period of time, thus creating an **Animation**.
 
