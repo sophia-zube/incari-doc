@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MoveTo Action Node.](../../.gitbook/assets/movetoactionnode.png)
+![The MoveTo Action Node.](../../.gitbook/assets/movetoactionupdatedimage.png)
 
 The **MoveTo Action Node** continuously modifies the `Position` of an **Object** to the values specified in `To` for a given period of time, thus creating an **Animation**.
 

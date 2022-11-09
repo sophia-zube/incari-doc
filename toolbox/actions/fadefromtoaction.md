@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionnode.png)
+![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionupdatedimage.png)
 
 The **FadeFromTo Action Node** continuously modifies the `Opacity` of an **Object** over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user.
 

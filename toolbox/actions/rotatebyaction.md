@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionnode.png)
+![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionupdatedimage.png)
 
 The **RotateBy Action Node** continuously rotates an **Object** by the *Euler angles* values specified in `Offset` for a given period of time, thus creating an **Animation**.
 

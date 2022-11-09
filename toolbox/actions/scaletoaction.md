@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode.png)
+![The ScaleTo Node.](../../.gitbook/assets/scaletoactionupdatedimage.png)
 
 The **ScaleTo Action Node** continuously scales an **Object** to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. 
 

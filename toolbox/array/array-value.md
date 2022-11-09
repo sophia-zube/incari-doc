@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Array Value Node.](../../.gitbook/assets/array-value.PNG)
+![The Array Value Node.](../../.gitbook/assets/arrayvalueupdatedimage.png)
 
 The **Array Value** **Node** defines an **Array** by setting its elements.
 

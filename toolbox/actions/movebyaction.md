@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MoveBy Action Node.](../../.gitbook/assets/movebyactionnode.png)
+![The MoveBy Action Node.](../../.gitbook/assets/movebyactionupdatedimage.png)
 
 The **MoveBy Action Node** continuously modifies the `Position` of an **Object** by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
