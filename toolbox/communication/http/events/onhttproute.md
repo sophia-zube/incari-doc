@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On HTTP Route Node.](../../../../.gitbook/assets/onhttproutenode.png)
+![The On HTTP Route Node.](../../../../.gitbook/assets/onhttprouteupdatedimage.png)
 
 **On HTTP Route** is an **Event Listener Node** that executes when a `Route` is received and returns the data defined by the outputs.
 

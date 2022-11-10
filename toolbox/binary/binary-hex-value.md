@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Binary \(Hex\) Value Node.](../../.gitbook/assets/binaryvaluenode.png)
+![The Binary \(Hex\) Value Node.](../../.gitbook/assets/binaryhexvalueupdatedimage.png)
 
 The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
 

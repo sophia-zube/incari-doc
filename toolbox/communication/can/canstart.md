@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The CAN Start Node.](../../../.gitbook/assets/canstartnode.png)
+![The CAN Start Node.](../../../.gitbook/assets/canstartupdatedimage.png)
 
 The **CAN Start Node** starts communication with a **CAN** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#can).
 
