@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On CAN Start Node.](../../../../.gitbook/assets/oncanstartnode.png)
+![The On CAN Start Node.](../../../../.gitbook/assets/oncanstartupdatedimage.png)
 
 **On CAN Start** is an **Event Listener Node** notifying that the **CAN** connection was successfully established, therefore enabling the user to perform actions on said connection.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On HTTP Server Start Node.](../../../../.gitbook/assets/onhttpserverstartnode.png)
+![The On HTTP Server Start Node.](../../../../.gitbook/assets/onhttpserverstartupdatedimage.png)
 
 **On HTTP Server Start** is an **Event Listener Node** notifying that the **HTTP** connection was successfully established, therefore enabling the user to perform actions on said connection to the *HTTP* server.
 

@@ -52,13 +52,13 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 ## Methods
 ### GET
 
-![The HTTP Client Node using Method GET.](../../../.gitbook/assets/httpgetnode.png)
+![The HTTP Client Node using Method GET.](../../../.gitbook/assets/httpgetupdatedimage.png)
 
 **GET** creates a request and returns the response as per the _HTTP_ protocol. This is very useful when dealing with web APIs. A more detailed explanation involving web APIs can be found in the **See Also** section. Additional information on the different *HTTP* methods can be found in the **External Links** section.
 
 ### POST
 
-![The HTTP Client Node using Method POST.](../../../.gitbook/assets/httppostnode.png)
+![The HTTP Client Node using Method POST.](../../../.gitbook/assets/httppostupdatedimage.png)
 
 **POST** sends data, in this case the information from the `Request Body`, to the desired server as per the _HTTP_ protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
@@ -80,7 +80,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 
 ### PUT
 
-![The HTTP Client Node using Method PUT.](../../../.gitbook/assets/httpputnode.png)
+![The HTTP Client Node using Method PUT.](../../../.gitbook/assets/httpputupdatedimage.png)
 
 **PUT** updates already existing data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
@@ -100,13 +100,13 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 
 ### HEAD
 
-![The HTTP Client Node using Method HEAD.](../../../.gitbook/assets/httpheadnode.png)
+![The HTTP Client Node using Method HEAD.](../../../.gitbook/assets/httpheadupdatedimage.png)
 
 **HEAD** requests the headers on the desired server in order to gather information about the data, but not the content of the data itself. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**. 
 
 ### DELETE
 
-![The HTTP Client Node using Method DELETE.](../../../.gitbook/assets/httpdeletenode.png)
+![The HTTP Client Node using Method DELETE.](../../../.gitbook/assets/httpdeleteupdatedimage.png)
 
 **DELETE** deletes data on the desired server per the *HTTP* protocol. More information on the different *HTTP* methods can be found in the **External Links** section. All **Attributes** and **Inputs** are the same as the common **Attributes**, except for the addition of the following:
 
