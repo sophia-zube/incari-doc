@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On CAN Start Node.](../../../../.gitbook/assets/oncanstartnode.png)
+![The On CAN Start Node.](../../../../.gitbook/assets/oncanstartupdatedimage.png)
 
 **On CAN Start** is an **Event Listener Node** allowing the user to perform an action once a **CAN** process has begun.
 
