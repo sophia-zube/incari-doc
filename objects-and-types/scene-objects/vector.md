@@ -10,6 +10,8 @@ There are several **Vector Objects** that are described below:
 * [Pie](vector.md#pie)
 * [Rectangle](vector.md#rectangle)
 
+![Vector Objects](../../.gitbook/assets/vectorobjects.png)
+
 ## Arc
 
 A **3D Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It can be *transformed* along the X, Y, or Z axes. There are several **Nodes** attributed to **Arc Objects**, which can be found [_here_](../../toolbox/incari/vector/arc/README.md).
