@@ -1,6 +1,6 @@
 # Overview
 
-![The Serial Start Node.](../../../.gitbook/assets/serialstartnode.png)
+![The Serial Start Node.](../../../.gitbook/assets/serialstartupdatedimage.png)
 
 The **Serial Start Node** starts a **Serial** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Merge Dictionaries Node.](../../.gitbook/assets/mergedictionariesnode.png)
+![The Merge Dictionaries Node.](../../.gitbook/assets/mergedictionariesupdatedimage.png)
 
 The **Merge Dictionaries** **Node** merges two or more **Dictionaries**. It receives the **Dictionaries** to merge \(`Dictionary 1`, `Dictionary 2`, etc\) and outputs the merged **Dictionary** \(`New Dictionary`\).
 

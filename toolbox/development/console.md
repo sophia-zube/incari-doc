@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Console Node.](../../.gitbook/assets/consolenode.png)
+![The Console Node.](../../.gitbook/assets/consoleupdatedimage.png)
 
 The **Console** **Node** is used for showing a value of any **Data Type** on the **Console**.
 

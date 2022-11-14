@@ -1,6 +1,6 @@
 # Overview
 
-![The Serial Send Packet Node.](../../../.gitbook/assets/seriasendpacketnode.png)
+![The Serial Send Packet Node.](../../../.gitbook/assets/serialsendpacketupdatedimage.png)
 
 The **Serial Send Packet Node** is used to send a data **Packet** after selecting a **Serial Communication** connection from the **Drop-down Menu**.
 

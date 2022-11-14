@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The System Time Node.](../../.gitbook/assets/node-system-time.png)
+![The System Time Node.](../../.gitbook/assets/systemtimeupdatedimage.png)
 
 **System Time** is used for returning different individual parts of the current system time at the moment that the **Node** is evaluated. Values are returned as **Integers, Floats**, or **Vector3** and therefore have no inherent zero-padding, textual notation, or suffixes.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Timezone Value Node.](../../.gitbook/assets/node-timezone-value.png)
+![The Timezone Value Node.](../../.gitbook/assets/timezonevalueupdatedimage.png)
 
 **Timezone Value** returns the offset of a timezone, relative to [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) \(UTC\).
 
