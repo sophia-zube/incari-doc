@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Dictionary Values Node.](../../.gitbook/assets/getdictionaryvaluesnode.png)
+![The Get Dictionary Values Node.](../../.gitbook/assets/getdictionaryvaluesupdatedimage.png)
 
 The **Get Dictionary Values** **Node** takes a **Dictionary** as **Input** and yields its set of `Values`. It also outputs the received **Dictionary**.
 
