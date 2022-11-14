@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Hover Leave Node.](../../../.gitbook/assets/onhoverleavenode.png)
+![The On Hover Leave Node.](../../../.gitbook/assets/onhoverleaveupdatedimage.png)
 
 **On Hover Leave** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor stops hovering over an **Object**.
 
