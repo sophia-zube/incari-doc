@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On MQTT Topic Node.](../../../../.gitbook/assets/onmqtttopicnode.png)
+![The On MQTT Topic Node.](../../../../.gitbook/assets/onmqtttopicupdatedimage.png)
 
 **On MQTT Topic** is an **Event Listener Node** that executes when an **MQTT** *Message* (only for the specificed `Topics`) is received. `Topics` are *strings* that act as filters for *Messages* and are hierarchical, meaning there are different levels. Remember, they are case sensitive. 
 

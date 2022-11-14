@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Benchmark Start Node.](../../.gitbook/assets/benchmarkstartnode.png)
+![The Benchmark Start Node.](../../.gitbook/assets/benchmarkstartupdatedimage.png)
 
 The **Benchmark Start** **Node** starts a timer with a name given in the **Attributes**.
 

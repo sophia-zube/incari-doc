@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MQTT Start Node.](../../../.gitbook/assets/mqttstartnode.png)
+![The MQTT Start Node.](../../../.gitbook/assets/mqttstartupdatedimage.png)
 
 The **MQTT Start Node** starts a **MQTT** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#mqtt).
 

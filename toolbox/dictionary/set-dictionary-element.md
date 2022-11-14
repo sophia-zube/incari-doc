@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Dictionary Element Node.](../../.gitbook/assets/setdictionaryelementnode.png)
+![The Set Dictionary Element Node.](../../.gitbook/assets/setdictionaryelementupdatedimage.png)
 
 **Set Dictionary Element** updates one or more elements in a **Dictionary** to new values. For this, it receives the `Key` of the element to update to and the `Value` to which it will be updated.
 

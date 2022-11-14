@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Now (UTC) Node.](../../.gitbook/assets/node-now-utc.png)
+![The Now (UTC) Node.](../../.gitbook/assets/nowurcupdatedimage.png)
 
 **Now \(UTC\)** is used for getting the current [Coordinated Universal Time](https://www.timeanddate.com/time/aboututc.html) in Unix Time.
 
