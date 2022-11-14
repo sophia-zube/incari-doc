@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribenode.png)
+![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribeupdatedimage.png)
 
 The **MQTT Subscribe** listens for the `Topic`, or key of the **MQTT** key/value pair.
 

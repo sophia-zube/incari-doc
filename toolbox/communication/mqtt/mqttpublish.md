@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MQTT Publish Node.](../../../.gitbook/assets/mqttpublishnode.png)
+![The MQTT Publish Node.](../../../.gitbook/assets/mqttpublishupdatedimage.png)
 
 The **MQTT Publish Node** sends a message to a different location.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Benchmark Get Node.](../../.gitbook/assets/benchmarkgetnode.png)
+![The Benchmark Get Node.](../../.gitbook/assets/benchmarkgetupdatedimage.png)
 
 The **Benchmark Get** **Node** retrieves the time on a timer. When it is executed, it prints the time on the **Console** and outputs the value in milliseconds as a **String**.
 

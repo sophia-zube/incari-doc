@@ -1,6 +1,6 @@
 # Overview
 
-![The On Serial Error Node.](../../../../.gitbook/assets/onserialerrornode.png)
+![The On Serial Error Node.](../../../../.gitbook/assets/onserialerrorupdatedimage.png)
 
 The **On Serial Error Node** is an **Event Listener Node** that executes when an **Error** is received and returns the **Error** `Message`.
 

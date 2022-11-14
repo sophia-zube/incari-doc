@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On MQTT Start Node.](../../../../.gitbook/assets/onmqttstartnode.png)
+![The On MQTT Start Node.](../../../../.gitbook/assets/onmqttstartupdatedimage.png)
 
 **On MQTT Start** is an **Event Listener Node** that gives the user a way to perform an action once a **MQTT** connection is established.
 

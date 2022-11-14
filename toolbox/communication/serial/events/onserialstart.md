@@ -1,6 +1,6 @@
 # Overview
 
-![The On Serial Start Node.](../../../../.gitbook/assets/onserialstartnode.png)
+![The On Serial Start Node.](../../../../.gitbook/assets/onserialstartupdatedimage.png)
 
 The **On Serial Start Node** is an **Event Listener Node** that gives the user a way to perform an action once a **Serial** connection is established.
 

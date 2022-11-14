@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On MQTT Topic Node.](../../../../.gitbook/assets/onmqtttopicnode.png)
+![The On MQTT Topic Node.](../../../../.gitbook/assets/onmqtttopicupdatedimage.png)
 
 **On MQTT Topic** is an **Event Listener Node** that executes when it receives a `Topic`.
 
