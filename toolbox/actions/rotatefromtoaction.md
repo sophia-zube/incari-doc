@@ -4,9 +4,9 @@
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionupdatedimage.png)
 
-The **RotateFromTo Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/README.md) from the *Euler angles* specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateFromTo Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/README.md) from the *Euler angles* specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
-Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation) for more detail about the `Rotation` **Attribute**.
+Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation) for more detail about the `Rotation` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -39,6 +39,42 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**.  |
 | `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **RotateFromTo Action** when the **Action** starts. |
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **RotateFromTo Action** when the **Action** stops. |
+
+## Example
+
+This section shows a simple example of how to use the **RotateFromTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
+
+### Scene Configuration
+
+We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a red [**Torus**](../../objects-and-types/scene-objects/primitives.md#torus) and a [**Directional Light**](../../objects-and-types/scene-objects/lights.md), both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Scale` **Attribute** of the **Torus** to $$(2, 2, 2)$$, its `Rotation` to $$(30, 30, 0)§§, and the `Position` of the **Light** to $$(0, 200, 0)$$. See this configuration in the following image:
+
+![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleRotateTo_1.png)
+
+### Logic
+
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+
+We will use two **RotateTo Action** **Nodes** in order to first perform a *rotation* and then reverse it. For the first one, we set the following **Attributes**:
+
+* `To`: $$(90, 90, 0)$$ 
+* `Duration (sec)`: $$2$$ 
+* `Interpolation`: `Linear`
+
+And for the second **Node**:
+
+* `To`: $$(0, 0, 0)$$ 
+* `Duration (sec)`: $$2$$ 
+* `Interpolation`: `Linear`
+
+Then, we connect to both **Nodes** the **Object Node** of the red **Torus**, a **Pulse** to the `Start` **Input Socket** of the first **RotateTo Action** and the **Output** `OnEnd` to the `Start` **Input** of the second **RotateTo Action** **Node**. Thus, having the following **Logic** configuration:
+
+![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleRotateTo_2.png)
+
+### Final result
+
+Finally, the effect of the **RotateTo Action** **Node** when triggered is the following:
+
+![Final result.](../../.gitbook/assets/examplesactions/ExampleRotateTo_3.gif)
 
 ## See Also
 

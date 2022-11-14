@@ -58,7 +58,7 @@ We use the **ScaleTo Action** **Node** with the following **Attributes**:
 * `Duration (sec)`: $$4$$ 
 * `Interpolation`: `Linear`
 
-And we connect to it the **Object Node** of the red ellipse and an **Input Pulse**. Thus, having the following **Logic** configuration:
+And we connect to it the **Object Node** of the red ellipse and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleScaleTo_2.png)
 
@@ -66,7 +66,7 @@ And we connect to it the **Object Node** of the red ellipse and an **Input Pulse
 
 Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
 
-![Final result.](../../.gitbook/assets/examplesactions/ExampleScaleTo_3.gif)
+![Final result.](../../.gitbook/assets/examplesactions/ExampleScaleTo_3cr.gif)
 
 ## See Also
 

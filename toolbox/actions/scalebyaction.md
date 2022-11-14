@@ -58,15 +58,15 @@ We use the **ScaleBy Action** **Node** with the following **Attributes**:
 * `Duration (sec)`: $$4$$ 
 * `Interpolation`: `Linear`
 
-And we connect to it the **Object Node** of the red ellipse and an **Input Pulse**. Thus, having the following **Logic** configuration:
+And we connect to it the **Object Node** of the red ellipse and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleScaleBy_2.png)
 
 ### Final result
 
-Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
+Finally, the effect of the **ScaleBy Action** **Node** when triggered is the following:
 
-![Final result.](../../.gitbook/assets/examplesactions/ExampleScaleBy_3a.gif)
+![Final result.](../../.gitbook/assets/examplesactions/ExampleScaleBy_3acr.gif)
 
 ## See Also
 
