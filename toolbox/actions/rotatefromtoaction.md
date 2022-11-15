@@ -46,35 +46,33 @@ This section shows a simple example of how to use the **RotateFromTo Action** **
 
 ### Scene Configuration
 
-We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a red [**Torus**](../../objects-and-types/scene-objects/primitives.md#torus) and a [**Directional Light**](../../objects-and-types/scene-objects/lights.md), both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Scale` **Attribute** of the **Torus** to $$(2, 2, 2)$$, its `Rotation` to $$(30, 30, 0)§§, and the `Position` of the **Light** to $$(0, 200, 0)$$. See this configuration in the following image:
+We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a red [**Torus**](../../objects-and-types/scene-objects/primitives.md#torus) and a [**Directional Light**](../../objects-and-types/scene-objects/lights.md), both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Scale` **Attribute** of the **Torus** to $$(2, 2, 2)$$, its `Rotation` to $$(30, 30, 0)$$, and the `Position` of the **Light** to $$(0, 200, 0)$$. See this configuration in the following image:
 
-![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleRotateTo_1.png)
+![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleRotateFromTo_1.png)
 
 ### Logic
 
 We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
 
-We will use two **RotateTo Action** **Nodes** in order to first perform a *rotation* and then reverse it. For the first one, we set the following **Attributes**:
+We use first a [**Get Rotation** **Node**](../incari/object/get-rotation.md), which allows us to obtain an **Object's** current `Rotation` values, and then the **RotateFromTo Action** **Node**, to which we will feed the value previously obtained and configure it for it to *rotate* the **Object** from there to a fixed value of our choosing.
 
-* `To`: $$(90, 90, 0)$$ 
+For this purpose, we set the **Attributes** of the **RotateFromTo Action** **Node** in the following way:
+
+* `To`: $$(60, 60, 0)$$ 
 * `Duration (sec)`: $$2$$ 
 * `Interpolation`: `Linear`
 
-And for the second **Node**:
+We just leave the `From` as it is, since this value will be obtained through the corresponding **Input Socket**.
 
-* `To`: $$(0, 0, 0)$$ 
-* `Duration (sec)`: $$2$$ 
-* `Interpolation`: `Linear`
+Then, we connect the **Object ID** from the red **Torus** **Object** **Node** to the `Object ID` **Input Socket** of both **Nodes**, the `Rotation` **Output** from the **Get Rotation** **Node** to the `From` **Input Socket** in the **RotateFromTo** **Node**, and a **Pulse** through the **Get Rotation** **Node** and to the `Start` **Input** in **RotateFromTo**. Thus, having the following **Logic** configuration: 
 
-Then, we connect to both **Nodes** the **Object Node** of the red **Torus**, a **Pulse** to the `Start` **Input Socket** of the first **RotateTo Action** and the **Output** `OnEnd` to the `Start` **Input** of the second **RotateTo Action** **Node**. Thus, having the following **Logic** configuration:
-
-![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleRotateTo_2.png)
+![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleRotateFromTo_2.png)
 
 ### Final result
 
 Finally, the effect of the **RotateTo Action** **Node** when triggered is the following:
 
-![Final result.](../../.gitbook/assets/examplesactions/ExampleRotateTo_3.gif)
+![Final result.](../../.gitbook/assets/examplesactions/ExampleRotateFromTo_3.gif)
 
 ## See Also
 
