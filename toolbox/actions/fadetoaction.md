@@ -4,7 +4,7 @@
 
 ![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionupdatedimage.png)
 
-The **FadeTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user.
+The **FadeTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
 Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**.
 
@@ -37,6 +37,36 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. |
 | `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **FadeTo Action** when the **Action** starts. |
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **FadeTo Action** when the **Action** stops. |
+
+## Example
+
+This section shows a simple example of how to use the **FadeTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
+
+### Scene Configuration
+
+We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a white arc over a black background, both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Size` **Attribute** of the arc to $$(500, 500, 0)$$. See this configuration in the following image:
+
+![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleFadeTo_1.png)
+
+### Logic
+
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+
+We use the **FadeTo Action** **Node** with the following **Attributes**: 
+
+* `Duration (sec)`: $$2$$ 
+* `To`: $$0.05$$ 
+* `Interpolation`: `Linear`
+
+And we connect to it the **Object Node** of the arc and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
+
+![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleFadeTo_2.png)
+
+### Final result
+
+Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
+
+![Final result.](../../.gitbook/assets/examplesactions/ExampleFadeo_3.gif)
 
 ## See Also
 

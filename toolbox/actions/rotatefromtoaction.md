@@ -62,7 +62,7 @@ For this purpose, we set the **Attributes** of the **RotateFromTo Action** **Nod
 * `Duration (sec)`: $$2$$ 
 * `Interpolation`: `Linear`
 
-We just leave the `From` as it is, since this value will be obtained through the corresponding **Input Socket**.
+We just leave the `From` **Attribute** as it is, since this value will be obtained through the corresponding **Input Socket**.
 
 Then, we connect the **Object ID** from the red **Torus** **Object** **Node** to the `Object ID` **Input Socket** of both **Nodes**, the `Rotation` **Output** from the **Get Rotation** **Node** to the `From` **Input Socket** in the **RotateFromTo** **Node**, and a **Pulse** through the **Get Rotation** **Node** and to the `Start` **Input** in **RotateFromTo**. Thus, having the following **Logic** configuration: 
 
@@ -70,7 +70,7 @@ Then, we connect the **Object ID** from the red **Torus** **Object** **Node** to
 
 ### Final result
 
-Finally, the effect of the **RotateTo Action** **Node** when triggered is the following:
+Finally, the effect of the **RotateFromTo Action** **Node** when triggered is the following:
 
 ![Final result.](../../.gitbook/assets/examplesactions/ExampleRotateFromTo_3.gif)
 
