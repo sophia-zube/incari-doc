@@ -66,7 +66,7 @@ And we connect to it the **Object Node** of the arc and a **Pulse** to the `Star
 
 Finally, the effect of the **ScaleTo Action** **Node** when triggered is the following:
 
-![Final result.](../../.gitbook/assets/examplesactions/ExampleFadeo_3.gif)
+![Final result.](../../.gitbook/assets/examplesactions/ExampleFadeTo_3.gif)
 
 ## See Also
 
