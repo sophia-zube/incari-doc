@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Mouse Button Down Node.](../../../.gitbook/assets/onmousebuttondownnode.png)
+![The On Mouse Button Down Node.](../../../.gitbook/assets/onmousebuttondownupdatedimage.png)
 
 **On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed on an **Object**.
 
