@@ -2,7 +2,7 @@
 
 ## Overview
 
-**List Objects** model data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an **Incari** **Model File** is presented as a **List** in the **Scene**.
+**List Objects**, located under the **3D** section of the **Scene Outliner**, model data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an **Incari** **Model File** is presented as a **List** in the **Scene**.
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
