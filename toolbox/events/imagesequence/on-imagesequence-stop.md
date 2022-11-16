@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On ImageSequence Stop Node.](../../../.gitbook/assets/onimagesequencestopnode.png)
+![The On ImageSequence Stop Node.](../../../.gitbook/assets/onimagesequencestopupdatedimage.png)
 
 **On ImageSequence Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when an **Image Sequence** is stopped.
 
