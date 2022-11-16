@@ -1,6 +1,6 @@
 # Label
 
-The **Label Object**, located under the **3D** section of the **Scene Outliner**, essentially acts as a text box. Any text can be added to the **Label** using the `Text` **Attribute** in the **Attribute Editor**. 
+The **Label Object**, located under the **3D** section of the **Scene Outliner**, essentially acts as a text box for a label. Any text can be added to the **Label** using the `Text` **Attribute** in the **Attribute Editor**. 
 
 Initially, the **Label** displays the text `Enter text here`.
 

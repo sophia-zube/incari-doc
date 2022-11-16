@@ -1,2 +1,5 @@
 # Image Sequence Sprite
 
+The **Image Sequence Sprite**, located under the **3D** section of the **Scene Outliner**, creates a *sprite* that acts like a canvas for an **Image Sequence Asset** to be displayed on. 
+
+While the **Image Sequence Sprite** has several **Attributes** that alter its visual aspects, the most important is the `Diffuse Texture` under `Sprite`. Here the user can create a new **Image Sequence** or locate an already created one. 
