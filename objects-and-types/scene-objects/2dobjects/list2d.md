@@ -32,7 +32,7 @@ In our **List Entry File**, we would have the following:
 
 This would make our list items look something like this:
 
-![](../../.gitbook/assets/list-item.png)
+![](../../.gitbook/assets/list-item.png.)
 
 To read more about basic HTML, take a look at [_HTML basics_](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) by Mozilla.
 

@@ -43,7 +43,7 @@
     * [Text](objects-and-types/scene-objects/3dobjects/text.md)
     * [Video](objects-and-types/scene-objects/3dobjects/video.md)
     * [Web Sprite](objects-and-types/scene-objects/3dobjects/web-sprite.md)
-  * [2D Objects](objects-and-types/scene-objects/2dobjects/README.md)
+  * [2D](objects-and-types/scene-objects/2dobjects/README.md)
     * [Image Sequence Sprite2D](objects-and-types/scene-objects/2dobjects/imagesequencesprite2d.md)
     * [Label2D](objects-and-types/scene-objects/2dobjects/label2d.md)
     * [List2D](objects-and-types/scene-objects/2dobjects/list2d.md)
