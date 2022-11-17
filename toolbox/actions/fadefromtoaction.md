@@ -4,7 +4,7 @@
 
 ![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionupdatedimage.png)
 
-The **FadeFromTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user.
+The **FadeFromTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
 Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**.
 
@@ -40,6 +40,42 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. |
 | `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** starts. |
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **FadeFromTo Action** when the **Action** stops. |
+
+## Example
+
+This section shows a simple example of how to use the **FadeFromTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
+
+### Scene Configuration
+
+We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with two [**Objects**](../../objects-and-types/scene-objects/README.md): a white arc over a black background, both of which can be easily created in the [**Scene Outliner**](../../modules/scene-outliner.md). Then, we set the `Size` **Attribute** of the arc to $$(500, 500, 0)$$ and the `Opacity` to $$0.25$$. See this configuration in the following image:
+
+![Scene configuration.](../../.gitbook/assets/examplesactions/ExampleFadeFromTo_1.png)
+
+### Logic
+
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+
+We use first a [**Get Opacity** **Node**](../incari/object/get-opacity.md), which allows us to obtain an **Object's** current `Opacity` value, and then the **FadeFromTo Action** **Node**, to which we will feed the value previously obtained and configure it for it to change it from there to a fixed value of our choosing.
+
+For this purpose, we set the **Attributes** of the **FadeFromTo Action** **Node** in the following way:
+
+* `To`: $$1$$ 
+* `Duration (sec)`: $$1$$ 
+* `Interpolation`: `Linear`
+
+We just leave the `From` **Attribute** as it is, since this value will be obtained through the corresponding **Input Socket**.
+
+Then, we connect the **Object ID** from the white arc **Object** **Node** to the `Object ID` **Input Socket** of both **Nodes**, the `Opacity` **Output** from the **Get Opacity** **Node** to the `From` **Input Socket** in the **FadeFromTo** **Node**, and a **Pulse** through the **Get Opacity** **Node** and to the `Start` **Input** in **FadeFromTo**. Thus, having the following **Logic** configuration: 
+
+![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleFadeFromTo_2.png)
+
+### Final result
+
+Finally, the effect of the **FadeFromTo Action** **Node** when triggered is the following:
+
+![Final result.](../../.gitbook/assets/examplesactions/ExampleFadeFromTo_3.gif)
+
+
 
 ## See Also
 
