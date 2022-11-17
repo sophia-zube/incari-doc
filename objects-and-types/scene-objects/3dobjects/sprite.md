@@ -5,7 +5,7 @@ The **Sprite Object**, located under the **3D** section of the **Scene Outliner*
 
 As **Sprite** also shares some of its **Attributes** with other **Objects**, it is discussed in detail in the [**Sprite Attributes**](../../attributes/common-attributes/sprite.md) page of the [**Common Attributes**](../../attributes/common-attributes/) section.
 
-However, the most important **Attribute** is the `Diffuse Texture` under `Sprite`. Here the user can create a new **Image Sequence** or locate an already created one. 
+However, the most important **Attribute** is the `Diffuse Texture` under `Sprite`. Here the user can add a new image to the **Sprite**. 
 
 ![Sprite Object before Asset is Selected.](../../../.gitbook/assets/spritebefore.png)
 

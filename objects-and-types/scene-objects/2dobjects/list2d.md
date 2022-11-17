@@ -1,8 +1,8 @@
-# List
+# List2D
 
 ## Overview
 
-**List Objects**, located under the **3D** section of the **Scene Outliner**, model data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an **Incari** **Model File** is presented as a **List** in the **Scene**.
+**List2D Objects**, located under the **2D** section of the **Scene Outliner**, model data as single-level list items in a **Scene**. It utilizes a _model/view_ architecture whereby data added to an **Incari** **Model File** is presented as a **List** in the **Scene**.
 
 Like any other **Scene Object**, we can manipulate its **Transformation Attributes** and adjust its **Rotation Pivot**.
 
@@ -48,11 +48,11 @@ A **Model File** is where you define all the data for your list. Physically, a b
 
 ### Style File
 
-`Style File` references a `.css` file, which contains style data for our **List**. The best way to create this file is by _right-clicking_ in the **Asset Manager** and selecting `Create asset` &gt; `List Style`. This creates a file, with all of the relevant IDs and classes already inside and ready to edit.
+`Style File` references a `.css` file, which contains style data for our **List2D**. The best way to create this file is by _right-clicking_ in the **Asset Manager** and selecting `Create asset` &gt; `List Style`. This creates a file, with all of the relevant IDs and classes already inside and ready to edit.
 
 How to write CSS won't be discussed here, but there is an abundance of information online, such as [_Learn to style HTML using CSS_](https://developer.mozilla.org/en-US/docs/Learn/CSS) by Mozilla.
 
-Here are the pre-defined classes and IDs, to be used for styling **Lists** in **Incari**. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box, etc.
+Here are the pre-defined classes and IDs, to be used for styling **List2Ds** in **Incari**. As with all CSS, style attributes follow the "box model" principle, meaning that each element can be thought of as a box, in a box, in a box, etc.
 
 * `body` - The tag which encompasses all of the elements.
 * `#list` - The ID for the container that contains the list elements, excluding the title.
@@ -105,7 +105,7 @@ body {
 
 ### Js File
 
-The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List** **Objects**.
+The `Js File` **Attribute** is a _JavaScript programming language_ file that allows us to add complex features and create dynamic experiences for **List2D** **Objects**.
 
 The `Js File` can be created by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `JavaScript File`. For more information about JavaScript, please visit the following website: [_JavaScript programming language_](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
@@ -137,7 +137,7 @@ In the _JavaScript_ code above, the `replaceBook` function allows us to replace 
 
 ### Generate List
 
-`Generate List` button automatically creates all internal `.html,` `.css`, `.js` needed to render a **List** in a **Scene**. The rendered **List** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
+`Generate List` button automatically creates all internal `.html,` `.css`, `.js` needed to render a **List2D** in a **Scene**. The rendered **List2D** can then be updated with a **List Entry File**, **Model File**, **Style File** and **JavaScript File** in the **Attribute Editor**.
 
 Also, clicking the `Generate List` button renders any update made to the **Attribute** files to the **Scene**.
 
@@ -145,15 +145,15 @@ Also, clicking the `Generate List` button renders any update made to the **Attri
 
 ### Prev
 
-`Prev` highlights the previous item in the **List**.
+`Prev` highlights the previous item in the **List2D**.
 
 ### Next
 
-`Next` highlights the next item in the **List**.
+`Next` highlights the next item in the **List2D**.
 
 ### Select
 
-`Select` selects an item highlighted in the **List**.
+`Select` selects an item highlighted in the **List2D**.
 
 ## Style
 
@@ -171,7 +171,7 @@ The `Tint` **Attribute** applies a _color overlay_ to the **List Object**, there
 
 ### Size
 
-`Size` determines the dimensions of the rendered **List** in the **Scene**. 
+`Size` determines the dimensions of the rendered **List2D** in the **Scene**. 
 
 ## Sprite
 
