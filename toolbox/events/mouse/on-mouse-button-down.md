@@ -2,21 +2,20 @@
 
 ## Overview
 
-![The On Mouse Button Down Node.](../../../.gitbook/assets/onmousebuttondownupdatedimage.png)
+<!-- ![The On Mouse Button Down Node.](../../../.gitbook/assets/onmousebuttondownupdatedimage.png) -->
 
-**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed on an **Object**.
+<div>
+<figure><img src="../../.gitbook/assets/onmousebuttondownupdatedimage.png"><figcaption><p>The On Mouse Button Down Node with Object base.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/onmousebuttondownupdatedimage_basescreen.png" alt=""><figcaption><p>The One Mouse Button Down Node with Screen base.</p></figcaption></figure>
+</div>
+
+**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 
-![The On Mouse Button Down Node Attributes.](../../../.gitbook/assets/onmousebuttondownattributes.png)
-
-### Object
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** in which a button pressing triggers the **Logic Branch**, if none is given in the `Object ID` **Input Socket**. |
+![The On Mouse Button Down Node Attributes.](../../../.gitbook/assets/onmousebuttondownattributes_new1.png)
 
 ### Button
 
@@ -24,8 +23,15 @@
 | :--- | :--- | :--- |
 | `Mouse Button` | **Drop-down** | Whether the left, middle, or right button of the mouse will trigger the **Logic**. |
 
+### Event Base
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Event Base` | **Drop-down** | Whether the **Logic** will be triggered when the mouse button is pressed in a particular **Object** or anywhere in the **Screen**.  |
 
 ## Inputs
+
+**Input Sockets** only available when `Event Base` is set to `Object`.
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
