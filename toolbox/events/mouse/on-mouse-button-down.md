@@ -5,11 +5,11 @@
 <!-- ![The On Mouse Button Down Node.](../../../.gitbook/assets/onmousebuttondownupdatedimage.png) -->
 
 <div>
-<figure><img src="../../.gitbook/assets/onmousebuttondownupdatedimage.png"><figcaption><p>The On Mouse Button Down Node with Object base.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/onmousebuttondownupdatedimage_basescreen.png" alt=""><figcaption><p>The One Mouse Button Down Node with Screen base.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/onmousebuttondownupdatedimage.png"><figcaption><p>The On Mouse Button Down Node with Object base.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/onmousebuttondownupdatedimage_basescreen.png" alt=""><figcaption><p>The One Mouse Button Down Node with Screen base.</p></figcaption></figure>
 </div>
 
-**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**.
+**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**. This last option is set by the user in the `Event Base` **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -31,7 +31,7 @@
 
 ## Inputs
 
-**Input Sockets** only available when `Event Base` is set to `Object`.
+Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
