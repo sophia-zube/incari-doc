@@ -25,7 +25,7 @@ Depending on the `Method` selected, the **Attributes** and **Inputs** might chan
 | `Authentication` | **Drop-down** | The user selects `Basic` when a username and password are required to access the information, otherwise `None` is chosen. |
 | `Default Headers` | **Add Elements** | _HTTP_ headers in the form of key/value pairs. |
 | `Request Query` | **Add Elements** | Parameters of the call in the form of key/value pairs. |
-| `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether the `Response Body` is binary or not. Currently, the **Node** only supports **Strings**. |
+| `Is Response Body Binary` | **Bool** | The user chooses true or false depending on whether they wish for the `Response Body` output to remain a **String** or be converted into *binary*.  Currently, the **Node** only supports **Strings**. |
 
 ### Common Inputs
 

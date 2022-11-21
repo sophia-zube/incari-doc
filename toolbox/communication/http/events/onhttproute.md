@@ -18,7 +18,8 @@ The **Node** changes with each **Route** added. Please refer to the [example](on
 | :--- | :--- | :--- |
 | `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings.md). |
 | `Routes` | **Add Elements** | A `Route` is made up of its _HTTP_ `Method` \(either **GET**, **POST**, **DELETE**, **PUT**, or **HEAD**\) and its URL. |
-|`Is Body Binary`|**Bool**|The user chooses true or false depending on whether the `Body` is binary or not. This **Attribute** is only available for the `Methods` **POST**, **PUT**, and **DELETE**.|
+|`Is Body Binary`|**Bool**|The user chooses true or false depending on whether they wish for the `Body` output to remain a 
+**String** or be converted into *binary*. This **Attribute** is only available for the `Methods` **POST**, **PUT**, and **DELETE**.|
 
 ## Outputs
 

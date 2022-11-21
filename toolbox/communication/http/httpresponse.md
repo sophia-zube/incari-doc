@@ -16,7 +16,8 @@ The **HTTP Response Node** allows the user to define a response to be sent after
 | :--- | :--- | :--- |
 | `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings.md). |
 | `Header` | **Add elements** | Here a status code is entered and _HTTP_ headers, in the form of key/value pairs, are added. |
-| `Body` | **User Input** | The body of the response, usually including _HTML_ text. |
+| `Is Request Body Binary` | **Bool** | The user chooses true or false depending on whether they wish for the `Request Body` to remain a **String** or be converted into *binary*.  Currently, the **Node** only supports **Strings**. |
+| `Default Body` | **User Input** | The body of the response, usually including _HTML_ text. |
 
 ## Inputs
 
