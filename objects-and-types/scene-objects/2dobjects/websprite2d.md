@@ -4,7 +4,7 @@
 
 The **Web Sprite2D Object** is located under the **2D** section of the **Scene Outliner**.
 
-Another important feature of the **Web Sprite2D Object** is that, when combined with the [**Call JavaScript Function Node**](../../toolbox/web/call-javascript-function.md) in the **Logic Editor**, we can use evaluated data from our **Logic** as arguments for a web resource's [*JavaScript Function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
+Another important feature of the **Web Sprite2D Object** is that, when combined with the [**Call JavaScript Function Node**](../../../toolbox/web/call-javascript-function.md) in the **Logic Editor**, we can use evaluated data from our **Logic** as arguments for a web resource's [*JavaScript Function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
 ## Web Resource
 
@@ -22,7 +22,7 @@ Alternatively, if it is set to "Remote URL", you should input the address of the
 
 In cases where the `Resolution` of the **Web Sprite2D** is not large enough to fit the entire page, a scroll bar will be displayed. `Scroll Speed` determines the speed at which the contents of the page will be scrolled.
 
-![](../../.gitbook/assets/web-sprite.gif)
+![](../../../.gitbook/assets/web-sprite.gif)
 
 ### Resolution and Size
 

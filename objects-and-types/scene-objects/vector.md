@@ -16,18 +16,28 @@ There are several **Vector Objects** that are described below:
 
 A **3D Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It can be *transformed* along the X, Y, or Z axes. There are several **Nodes** attributed to **Arc Objects**, which can be found [_here_](../../toolbox/incari/vector/arc/README.md).
 
+![Arc](../../.gitbook/assets/arc.png)
+
 ## Ellipse
 
 A circular **3D** **Object** that can be *transformed* along the X, Y, and Z axes. 
+
+![Ellipse](../../.gitbook/assets/ellipse.png)
 
 ## Line
 
 A linear **3D** **Object** that can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Line Objects**, which can found [_here_](../../toolbox/incari/vector/line/README.md).
 
+![Line](../../.gitbook/assets/line.png)
+
 ## Pie
 
 A **3D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Line Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
 
+![Pie](../../.gitbook/assets/pie.png)
+
 ## Rectangle
 
 A rectangular **3D** **Object** that can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Rectangle Objects**, which can be found [_here_](../../toolbox/incari/vector/rectangle/README.md).
+
+![Rectangle](../../.gitbook/assets/rectangle.png)
