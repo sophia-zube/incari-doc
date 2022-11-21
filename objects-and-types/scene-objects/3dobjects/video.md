@@ -4,7 +4,7 @@ A **Video Object**, located under the **3D** section of the **Scene Outliner**, 
 
 ![Video Object Without Any Video.](../../../.gitbook/assets/videofilebefore.png)
 
-As can be seen in the image above, the **Video Object** has an **Attribute `inpute type`. Here, `Video file` is selected, but `Camera input` is also possible. 
+As can be seen in the image above, the **Video Object** has an **Attribute** `input type`. Here, `Video file` is selected, but `Camera input` is also possible. 
 
 ![Video Object With a Video.](../../../.gitbook/assets/videofilexample.gif)
 
