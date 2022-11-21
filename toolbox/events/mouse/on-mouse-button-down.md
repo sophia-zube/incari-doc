@@ -11,7 +11,9 @@
 <figure><img src="../../../.gitbook/assets/onmousebuttondown_basescreen.png" alt=""><figcaption><p>The One Mouse Button Down Node with Screen base.</p></figcaption></figure>
 </div> -->
 
-**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**. This last option is set by the user in the `Event Base` **Attribute**.
+**On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**. 
+
+The **Attributes** allow the user to choose which mouse button will trigger the **Event** and whether the `Event Base` is an **Object** or the entire **Screen**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -45,7 +47,7 @@ Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Object ID` | **ObjectID** | The **Object** received as **Input**. |
+| `Object ID` | **ObjectID** | The **Object ID** of the **Object** where the mouse button was pressed. If there is no **Object** on that part of the **Screen**, the output is the **Object ID** `00000000-0000-0000-0000-000000000000`. |
 
 ## See Also
 
