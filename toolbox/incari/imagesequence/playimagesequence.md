@@ -14,8 +14,8 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Start Frame` | **Int** | The selected start frame. If -1, the start frame is the very first frame of the **ImageSequence**. |
-| `End Frame` | **Int** | The selected end frame. If -1, the end frame is the very last frame of the **ImageSequence**. |
+| `Start Frame` | **Int** | The selected start frame, if none is received in the **Input Socket**. When set to $$-1$$, the start frame is the very first frame of the **ImageSequence**. Note that it should always be set to a lower value than `End Frame`. |
+| `End Frame` | **Int** | The selected end frame, if none is received in the **Input Socket**. When set to $$-1$$, the end frame is the very last frame of the **ImageSequence**. Note that it should always be set to a greater value than `Start Frame`. |
 | `Object` | **ObjectID** | The target **Object**. |
 | `PlayMode` | **Drop-down** | The `PlayMode` type. Can be either _Frames per Second_ \(frame rate\) or _Time_ \(duration\). |
 | `FPS` | **Int** | The number of _Frames per Second_. |
@@ -29,8 +29,8 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-| `Start Frame` | **Int** | The start frame. |
-| `End Frame` | **Int** | The end frame. |
+| `Start Frame` | **Int** | The selected start frame, if none is received in the **Input Socket**. When set to $$-1$$, the start frame is the very first frame of the **ImageSequence**. Note that it should always be set to a lower value than `End Frame`. |
+| `End Frame` | **Int** | The selected end frame, if none is received in the **Input Socket**. When set to $$-1$$, the end frame is the very last frame of the **ImageSequence**. Note that it should always be set to a greater value than `Start Frame`. |
 
 ## Outputs
 
