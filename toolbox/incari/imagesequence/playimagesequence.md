@@ -29,8 +29,8 @@ The **Play ImageSequence Node** starts and plays through an **ImageSequence** at
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object**. |
-| `Start Frame` | **Int** | The selected start frame, if none is received in the **Input Socket**. When set to $$-1$$, the start frame is the very first frame of the **ImageSequence**. Note that it should always be set to a lower value than `End Frame`. |
-| `End Frame` | **Int** | The selected end frame, if none is received in the **Input Socket**. When set to $$-1$$, the end frame is the very last frame of the **ImageSequence**. Note that it should always be set to a greater value than `Start Frame`. |
+| `Start Frame` | **Int** | The selected start frame. When set to $$-1$$, the start frame is the very first frame of the **ImageSequence**. Note that it should always be set to a lower value than `End Frame`. |
+| `End Frame` | **Int** | The selected end frame. When set to $$-1$$, the end frame is the very last frame of the **ImageSequence**. Note that it should always be set to a greater value than `Start Frame`. |
 
 ## Outputs
 
