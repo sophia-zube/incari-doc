@@ -13,7 +13,7 @@
 
 **On Mouse Button Down** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is pressed, either on a particular **Object** or anywhere in the **Screen**. 
 
-The **Attributes** allow the user to choose which mouse button will trigger the **Event** and whether the `Event Base` is an **Object** or the entire **Screen**.
+The **Attributes** allow the user to choose which mouse button will trigger the **Event** and whether the `Event Base` is a specific **Object** or the entire **Screen**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -31,7 +31,7 @@ The **Attributes** allow the user to choose which mouse button will trigger the 
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Event Base` | **Drop-down** | Whether the **Logic** will be triggered when the mouse button is pressed in a particular **Object** or anywhere in the **Screen**.  |
+| `Event Base` | **Drop-down** | Whether the **Logic** will be triggered when the mouse button is pressed on a particular **Object** or anywhere in the **Screen**.  |
 
 ## Inputs
 
