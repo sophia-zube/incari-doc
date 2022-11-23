@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Event Trigger Node.](<../../../.gitbook/assets/eventnode - Copy.png>)
+![The Event Trigger Node.](../../../.gitbook/assets/eventtriggerupdatedimage.png)
 
 **Event Trigger** is a **Custom Event Node** used for triggering an **Event**, which then activates the corresponding **Custom Event Listener Node**.
 

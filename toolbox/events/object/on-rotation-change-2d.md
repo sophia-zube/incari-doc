@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Rotation Change 2D Node.](../../../.gitbook/assets/node-onrotationchange2d.png)
+![The On Rotation Change 2D Node.](../../../.gitbook/assets/onrotationchange2dupdatedimage.png)
 
 **On Rotation Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Rotation** of a **2D Object** changes.
 
