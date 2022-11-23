@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Mouse Double Click Node.](../../../.gitbook/assets/onmousedoubleclicknode.png)
+![The On Mouse Double Click Node.](../../../.gitbook/assets/onmousedoubleclickupdatedimage.png)
 
 **On Mouse Double Click** is an **Event Listener** **Node** used for executing a **Logic Branch** when there is a double-click, either on a particular **Object** or anywhere in the **Screen**. 
 

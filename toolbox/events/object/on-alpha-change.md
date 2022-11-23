@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Alpha Change Node.](../../../.gitbook/assets/onalphachangenode.png)
+![The On Alpha Change Node.](../../../.gitbook/assets/onalphachangeupdatedimage.png)
 
 **On Alpha Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Alpha** value of an **Object** changes.
 
