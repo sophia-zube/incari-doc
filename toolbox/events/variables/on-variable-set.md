@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Variable Set Node.](../../../.gitbook/assets/onvariablesetnode.png)
+![The On Variable Set Node.](../../../.gitbook/assets/onvariablesetupdatedimage.png)
 
 **On Variable Set** is an **Event Listener Node** used for executing a **Logic Branch** when the value of the corresponding **Variable** is set.
 

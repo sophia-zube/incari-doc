@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Mouse Button Up Node.](../../../.gitbook/assets/onmousebuttonupnode.png)
+![The On Mouse Button Up Node.](../../../.gitbook/assets/onmousebuttonupupdatedimage.png)
 
 **On Mouse Button Up** is an **Event Listener** **Node** used for executing a **Logic Branch** when a mouse button is released on an **Object**.
 

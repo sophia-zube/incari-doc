@@ -1,6 +1,6 @@
 # Overview
 
-![The On On-Screen Keyboard Arrow Up Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardarrowuppressednode.png)
+![The On On-Screen Keyboard Arrow Up Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardarrowuppressedupdatedimage.png)
 
 The **On On-Screen Keyboard Arrow Up Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the `Up` key on the **On-Screen Keyboard** is pressed. 
 

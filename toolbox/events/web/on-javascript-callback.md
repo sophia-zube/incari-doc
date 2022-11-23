@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Javascript Callback Node.](../../../.gitbook/assets/onjavascriptcallbacknode.png)
+![The On Javascript Callback Node.](../../../.gitbook/assets/onjavascriptcallbackupdatedimage.png)
 
 **On Javascript Callback** is an **Event Listener** **Node** used for executing a **Logic Branch** when a Javascript function is called. This function needs to be defined in the **Web Sprite** that is given as **Object** **Attribute**.
 

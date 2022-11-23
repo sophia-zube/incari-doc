@@ -1,6 +1,6 @@
 # Overview
 
-![The On Screen Scene Change Node.](../../../.gitbook/assets/onscreenscenechangenode.png)
+![The On Screen Scene Change Node.](../../../.gitbook/assets/onscreensscenechangeupdatedimage.png)
 
 The **On Screen Scene Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Scene** of a **Screen** is changed. The returned ID is that of the final **Scene**. 
 
