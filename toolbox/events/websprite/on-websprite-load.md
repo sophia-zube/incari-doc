@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSprite Load Node.](../../../.gitbook/assets/onwebspriteloadnode.png)
+![The On WebSprite Load Node.](../../../.gitbook/assets/onwebspriteloadupdatedimage.png)
 
 
 **On WebSprite Load** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **Web Sprite** **Object** is loaded.

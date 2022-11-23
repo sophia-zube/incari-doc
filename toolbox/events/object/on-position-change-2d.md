@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Position Change 2D Node.](../../../.gitbook/assets/node-onpositionchange2d.png)
+![The On Position Change 2D Node.](../../../.gitbook/assets/onpositionchange2dupdatedimage.png)
 
 **On Position Change 2D** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Position** of a **2D Object** changes.
 

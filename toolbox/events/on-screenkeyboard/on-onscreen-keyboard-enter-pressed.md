@@ -1,6 +1,6 @@
 # Overview
 
-![The On On-Screen Keyboard Enter Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardenterpressednode.png)
+![The On On-Screen Keyboard Enter Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardenterpressedupdatedimage.png)
 
 The **On On-Screen Keyboard Enter Pressed** **Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when `Enter` is pressed on an **On-Screen Keyboard**.
 
