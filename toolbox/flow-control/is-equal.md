@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Equal Node.](../../.gitbook/assets/isequalnode.png)
+![The Is Equal Node.](../../.gitbook/assets/isequalupdatedimage.png)
 
 **Is Equal** is a _**Relational Expression**_ **Node**, which compares two input values, and returns a **Boolean**, based on how the two values compare to each other in terms of _equality_. The **Node** has two modes, determined by the `Mode` **Attribute**:
 
