@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Sequential Node.](../../.gitbook/assets/sequentialnode.png)
+![The Sequential Node.](../../.gitbook/assets/sequentialupdatedimage.png)
 
 The **Sequential Node** generates a user-defined number of **Output Pulses**, and executes their **Logic** sequentially \(one after the other\), with the top-most **Pulses** being executed first. The one caveat to this is that if any **Nodes** that pause or delay the flow of **Logic** are used, they will only affect that particular **Branch**, not the other **Output Pulses** \(See **Execution Order** below\).
 
