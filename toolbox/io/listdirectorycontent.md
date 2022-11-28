@@ -1,6 +1,6 @@
 # Overview
 
-![The List Directory Content Node.](../../.gitbook/assets/listdirectorycontentnode.png)
+![The List Directory Content Node.](../../.gitbook/assets/listdirectorycontentupdatedimage.png)
 
 The **List Directory Content** returns all the folder and file contents of the *directory* given as input.
 
