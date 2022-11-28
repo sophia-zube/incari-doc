@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Current Directory Node.](../../.gitbook/assets/setcurrentdirectorynode.png)
+![The Set Current Directory Node.](../../.gitbook/assets/setcurrentdirectoryupdatedimage.png)
 
 The **Set Current Directory Node** allows the user to change the current *directory*. It returns a **Boolean** of *true* or *false*, indicating whether setting it was successful or not. 
 

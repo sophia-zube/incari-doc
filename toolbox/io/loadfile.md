@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Load File Node.](../../.gitbook/assets/loadfilenode.png)
+![The Load File Node.](../../.gitbook/assets/loadfileupdatedimage.png)
 
 **Load File** is an _io_ **Node**, which allows one to load a specified file, such as a previously saved **Variable** or a **Dictionary**. In the latter case, the **JSON Parser** must be used first.
 

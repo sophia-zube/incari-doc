@@ -1,6 +1,6 @@
 # Overview
 
-![The Get File Extension Node.](../../.gitbook/assets/node-getfileextension.png)
+![The Get File Extension Node.](../../.gitbook/assets/getfileextensionupdatedimage.png)
 
 The **Get File Extension** **Node** outputs the file _extension_ of a file whose _path_ has to be given as input.
 
