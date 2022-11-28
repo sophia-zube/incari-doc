@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Generate List Node.](../../../.gitbook/assets/node-generate-list.png)
+![The Generate List Node.](../../../.gitbook/assets/generatelistupdatedimage.png)
 
 **Generate List** accepts a **List** **Object** and renders it to a **Scene**.
 

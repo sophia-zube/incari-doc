@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Stop Animation Node.](../../../.gitbook/assets/node-stop-animation.png)
+![The Stop Animation Node.](../../../.gitbook/assets/stopanimationupdatedimage.png)
 
 **Stop Animation** is an **Animation** **Node** used to stop an **Animation** already playing. It receives as input the [**Instance ID**](README.md#instance-id) of the **Animation** to be stopped.
 

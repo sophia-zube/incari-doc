@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Current Index Node.](../../../.gitbook/assets/node-set-current-index.png)
+![The Set Current Index Node.](../../../.gitbook/assets/setcurrentindexupdatedimage.png)
 
 **Set Current Index** selects an entry item by using its index. It accepts a **List** **Object** and an `Index` value and selects an entry item corresponding to the `Index` value.
 

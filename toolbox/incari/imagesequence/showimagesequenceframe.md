@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Show ImageSequence Frame Node.](../../../.gitbook/assets/node-show-imagesequence-frame.png)
+![The Show ImageSequence Frame Node.](../../../.gitbook/assets/showimagesequenceframeupdatedimage.png)
 
 **Show ImageSequence Frame** displays the frame at the selected index.
 
