@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The For Loop Node.](../../.gitbook/assets/foreachloopupdatedimage.png)
+![The For Loop Node.](../../.gitbook/assets/forloopupdatedimage.png)
 
 The **For Loop Node** triggers an iterative process that steps through the provided **Int** inputs. The output can then, for example, be printed to the **Console** or affect the next **Node** in the **Logic Branch**.
 
