@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Pause Animation Node.](../../../.gitbook/assets/node-pause-animation.png)
+![The Pause Animation Node.](../../../.gitbook/assets/pauseanimationupdatedimage.png)
 
 **Pause Animation** is an **Animation** **Node** used to pause an **Animation** already playing. It receives as input the [**Instance ID**](README.md#instance-id) of the **Animation** to be paused.
 
