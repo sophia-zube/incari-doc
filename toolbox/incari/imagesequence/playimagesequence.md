@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Play ImageSequence Node.](../../../.gitbook/assets/node-play-imagesequence.png)
+![The Play ImageSequence Node.](../../../.gitbook/assets/playimagesequenceupdatedimage.png)
 
 The **Play ImageSequence Node** starts and plays through an **ImageSequence** at the specified time frames.
 

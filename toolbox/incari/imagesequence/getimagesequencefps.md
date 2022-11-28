@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get ImageSequence FPS Node.](../../../.gitbook/assets/node-get-imagesequence-fps.png)
+![The Get ImageSequence FPS Node.](../../../.gitbook/assets/getimagesequencefpsupdatedimage.png)
 
 The **Get ImageSequence FPS Node** returns the frame rate of the **ImageSequence**.
 
