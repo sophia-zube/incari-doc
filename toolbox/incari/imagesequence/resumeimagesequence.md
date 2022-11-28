@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Resume ImageSequence Node.](../../../.gitbook/assets/node-resume-imagesequence.png)
+![The Resume ImageSequence Node.](../../../.gitbook/assets/resumeimagesequenceupdatedimage.png)
 
 The **Resume ImageSequence Node** restarts an **ImageSequence** after it has been paused or stopped.
 

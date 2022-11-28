@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Pause ImageSequence Node.](../../../.gitbook/assets/node-pause-imagesequence.png)
+![The Pause ImageSequence Node.](../../../.gitbook/assets/pauseimagesequenceupdatedimage.png)
 
 **Pause ImageSequence** pauses an **ImageSequence** already playing during the session.
 

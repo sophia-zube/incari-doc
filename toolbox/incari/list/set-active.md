@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Active Node.](../../../.gitbook/assets/node-set-active.png)
+![The Set Active Node.](../../../.gitbook/assets/setactiveupdatedimage.png)
 
 **Set Active** activates or deactivates a **List** **Object** in a **Scene**. It accepts a **List** **Object** and a **Boolean** value `Is Active`. If `Is Active` is _true_, then the **List** **Object** is activated otherwise, it is deactivated.
 
