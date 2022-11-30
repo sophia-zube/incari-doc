@@ -1,6 +1,6 @@
 # Overview
 
-![The Add Tag Node.](../../../.gitbook/assets/addtagnode.png)
+![The Add Tag Node.](../../../.gitbook/assets/addtagupdatedimage.png)
 
 The **Add Tag Node** attaches a *tag* to an **Object**. This *tag* acts as *metadata* and can be used later to identify many **Objects** by a shared *tag*. 
 

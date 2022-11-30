@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Objects By Tag Node.](../../../.gitbook/assets/getobjectsbytagnode.png)
+![The Get Objects By Tag Node.](../../../.gitbook/assets/getobjectsbytagupdatedimage.png)
 
 The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specifically their **IDs**, which are associated with the given *tag* and fall under a given *parent* **Object**. If an **Object** has no explicit *parent* given by the user, the *parent* defaults to the **Root Object**, thus requiring the [**Get Root Node**](get-root.md). 
 

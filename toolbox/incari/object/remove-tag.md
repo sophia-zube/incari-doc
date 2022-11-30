@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove Tag Node.](../../../.gitbook/assets/removetagnode.png)
+![The Remove Tag Node.](../../../.gitbook/assets/removetagupdatedimage.png)
 
 The **Remove Tag Node** deletes a *tag* from an **Object**. This *tag* acts as *metadata* and removing it means the **Object** is no longer associated with that *tag*.
 

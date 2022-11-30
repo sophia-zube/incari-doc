@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Children Node.](../../../.gitbook/assets/getchildrennode.png)
+![The Get Children Node.](../../../.gitbook/assets/getchildrenupdatedimage.png)
 
 The **Get Children Node** returns an **Array** of all the *children* **Object IDs** of an **Object**. If an **Object** has no *children*, an empty **Array** is returned. 
 

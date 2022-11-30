@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Position 2D (px) Node.](../../../.gitbook/assets/node-get-position-2d.png)
+![The Get Position 2D (px) Node.](../../../.gitbook/assets/getposition2dupdatedimage.png)
 
 The **Get Position 2D (px) Node** returns the X and Y values of a **2D Object's** _position_.
 

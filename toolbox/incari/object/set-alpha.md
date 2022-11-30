@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Alpha Node.](../../../.gitbook/assets/node-set-alpha.png)
+![The Set Alpha Node.](../../../.gitbook/assets/setalphaupdatedimage.png)
 
 **Set Alpha** sets the value of a specified **Object's** `Alpha` **Attribute** .
 

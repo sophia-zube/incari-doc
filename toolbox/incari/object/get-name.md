@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Name Node.](../../../.gitbook/assets/getnamenode.png)
+![The Get Name Node.](../../../.gitbook/assets/getnameupdatedimage.png)
 
 The **Get Name Node** returns the name of an **Object** when its **Object ID** is provided.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Instantiate Object Node.](../../../.gitbook/assets/instantiatenode.png)
+![The Instantiate Object Node.](../../../.gitbook/assets/instantiateobjectupdatedimage.png)
 
 The **Instantiate Object Node** can be used to copy an **Object**, including all its *children*, or a **Prefab**. 
 
