@@ -1,6 +1,6 @@
 # Overview
 
-![The Is Object 2D Node.](../../../.gitbook/assets/isobject2dnode.png)
+![The Is Object 2D Node.](../../../.gitbook/assets/isobject2dupdatedimage.png)
 
 The **Is Object 2D Node** returns a **Bool**, depending on whether the input **Object** is *2D* or not. 
 

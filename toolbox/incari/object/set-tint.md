@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Tint Node.](../../../.gitbook/assets/node-set-tint.png)
+![The Set Tint Node.](../../../.gitbook/assets/settintupdatedimage.png)
 
 **Set Tint** modifies the `Tint` attribute of an **Object**.
 

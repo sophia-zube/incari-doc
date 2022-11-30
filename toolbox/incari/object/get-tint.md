@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Tint Node.](../../../.gitbook/assets/node-get-tint.png)
+![The Get Tint Node.](../../../.gitbook/assets/gettintupdatedimage.png)
 
 **Get Tint** returns the **Color** of the `Tint` **Attribute** of a given **Object**.
 

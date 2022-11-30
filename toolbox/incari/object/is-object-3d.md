@@ -1,6 +1,6 @@
 # Overview
 
-![The Is Object 3D Node.](../../../.gitbook/assets/isobject3dnode.png)
+![The Is Object 3D Node.](../../../.gitbook/assets/isobject3dupdatedimage.png)
 
 The **Is Object 3D Node** returns a **Bool**, depending on whether the input **Object** is *3D* or not. 
 

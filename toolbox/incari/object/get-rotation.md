@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Rotation Node.](../../../.gitbook/assets/node-get-rotation.png)
+![The Get Rotation Node.](../../../.gitbook/assets/getrotationupdatedimage.png)
 
 **Get Rotation** returns the _rotation_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 
