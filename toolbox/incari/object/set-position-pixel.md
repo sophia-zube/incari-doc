@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Position 2D (px) Node.](../../../.gitbook/assets/node-set-position-2d.png)
+![The Set Position 2D (px) Node.](../../../.gitbook/assets/setposition2dupdatedimage.png)
 
 **Set Position 2D (px) Node** sets the X and Y values of a **2D Object's** `Position`.
 

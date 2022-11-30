@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Visibility Node.](../../../.gitbook/assets/node-set-visibility.png)
+![The Set Visibility Node.](../../../.gitbook/assets/setvisibilityupdatedimage.png)
 
 **Set Visibility** makes an **Object** either visible or not visible in a **Scene**.
 

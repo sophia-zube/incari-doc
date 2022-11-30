@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Opacity Node.](../../../.gitbook/assets/node-get-opacity.png)
+![The Get Opacity Node.](../../../.gitbook/assets/getopacityupdatedimage.png)
 
 **Get Opacity** returns the _opacity_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Text Color Node.](../../../.gitbook/assets/gettextcolor.png)
+![The Get Text Color Node.](../../../.gitbook/assets/gettextcolorupdatedimage.png)
 
 The **Set Text Color Node** gets, or returns, the **Color** of a **Text Object**.
 

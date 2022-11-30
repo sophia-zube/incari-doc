@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Scale Node.](../../../.gitbook/assets/node-set-scale.png)
+![The Set Scale Node.](../../../.gitbook/assets/setscaleupdatedimage.png)
 
 **Set Scale** sets the value of a given **Object's** `Scale` **Attribute**.
 

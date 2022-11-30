@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Screen Keyboard Layout Node.](../../../.gitbook/assets/node-getscreenkeyboardlayout.png)
+![The Get Screen Keyboard Layout Node.](../../../.gitbook/assets/getscreenkeyboardlayoutupdatedimage.png)
 
 The **Get Screen Keyboard Layout** **Node** outputs the *layout* of an **On-Screen Keyboard**, which has to be given as an input either in the **Input Socket** or the **Attributes**.
 
