@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Text Node.](../../../.gitbook/assets/node-set-text.png)
+![The Set Text Node.](../../../.gitbook/assets/settextupdatedimage.png)
 
 **Set Text** sets the text of a **Text** **Object**.
 

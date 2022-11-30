@@ -1,6 +1,6 @@
 # Overview
 
-![The Destroy Object Node.](../../../.gitbook/assets/destroyobjectid.png)
+![The Destroy Object Node.](../../../.gitbook/assets/destroyobjectupdatedimage.png)
 
 The **Destroy Object Node** deletes an **Object** or **Prefab Instance**, the latter of which means that the **Prefab** in the **Asset Manager** remains. All the children are destroyed as well.  
 

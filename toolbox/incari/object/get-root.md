@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Root Node.](../../../.gitbook/assets/getrootnode.png)
+![The Get Root Node.](../../../.gitbook/assets/getrootupdatedimgae.png)
 
 The **Get Root** **Node** outputs the **Object ID** of the **Root Object** of the corresponding **Scene**.
 

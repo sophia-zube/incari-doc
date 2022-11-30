@@ -1,6 +1,6 @@
 # Overview
 
-![The Has Children Node.](../../../.gitbook/assets/haschildrennode.png)
+![The Has Children Node.](../../../.gitbook/assets/haschildrenupdatedimage.png)
 
 The **Has Children Node** returns a **Boolean** of either *true* or *false*, reflecting whether an **Object** has *children* or not.
 

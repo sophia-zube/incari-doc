@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Size 2D (px) Node.](../../../.gitbook/assets/node-get-size-2d.png)
+![The Get Size 2D (px) Node.](../../../.gitbook/assets/getsize2dupdatedimage.png)
 
 The **Get Size 2D (px) Node** returns the X and Y values of a **2D Object's** `Size`.
 

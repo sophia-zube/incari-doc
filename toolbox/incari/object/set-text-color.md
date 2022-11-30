@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Text Color Node.](../../../.gitbook/assets/settextcolornode.png)
+![The Set Text Color Node.](../../../.gitbook/assets/settextcolorupdatedimage.png)
 
 The **Set Text Color Node** sets, or changes, the **Color** of a **Text Object**.
 
