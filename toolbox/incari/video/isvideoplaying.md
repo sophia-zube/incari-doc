@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Video Playing Node.](../../../.gitbook/assets/node-is-video-playing.png)
+![The Is Video Playing Node.](../../../.gitbook/assets/isvideoplayingupdatedimage.png)
 
 **Is Video Playing** is a video **Node** returning a **Boolean** value, depending on whether the selected video is playing or not.
 

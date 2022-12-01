@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get RectangleCorners Node.](../../../../.gitbook/assets/node-get-rectanglecorners.png)
+![The Get RectangleCorners Node.](../../../../.gitbook/assets/getrectanglecornersupdatedimage.png)
 
 The **Get RectangleCorners Node** returns the **Corners** of a **Rectangle Object** created in the **Scene Outliner Module** under **Vector**. **Corners** are **Vector2** type **Variables**.
 
