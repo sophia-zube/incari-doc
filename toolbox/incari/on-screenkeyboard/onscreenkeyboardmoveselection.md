@@ -1,6 +1,6 @@
 # Overview
 
-![The On-Screen Keyboard Move Selection Node.](../../../.gitbook/assets/node-onscreen-keyboard-move-selection.png)
+![The On-Screen Keyboard Move Selection Node.](../../../.gitbook/assets/onscreenkeyboardmoveselectionupdatedimage.png)
 
 The **On-Screen Keyboard Move Selection Node** moves the selection from a previous one using the `Direction` **Attribute**, which is a **Vector2**. 
 

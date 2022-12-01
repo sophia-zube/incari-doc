@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get PieStart Node.](../../../../.gitbook/assets/node-get-piestart.png)
+![The Get PieStart Node.](../../../../.gitbook/assets/setpiestartupdatedimage.png)
 
 The **Get PieStart Node** returns the starting _degree value_ of a **Pie Object** created in the **Scene Outliner Module** under **Vector**.
 

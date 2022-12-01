@@ -1,6 +1,6 @@
 # Overview
 
-![The Scene Node.](../../../.gitbook/assets/node-scene.png)
+![The Scene Node.](../../../.gitbook/assets/rootupdatedimage.png)
 
 The **Scene** **Node** gives the **Scene ID** of its corresponding **Scene**.
 

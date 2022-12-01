@@ -1,6 +1,6 @@
 # Overview
 
-![The Screen Node.](../../../.gitbook/assets/node-screen.png)
+![The Screen Node.](../../../.gitbook/assets/screenupdatedimage.png)
 
 The **Screen** **Node** gives the **Screen ID** of its corresponding **Screen**.
 

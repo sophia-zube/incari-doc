@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Scene Node.](../../../.gitbook/assets/getscenenode.png)
+![The Get Scene Node.](../../../.gitbook/assets/getsceneupdatedimage.png)
 
 The **Get Scene Node** returns the current **Scene** of a chosen **Screen**.
 

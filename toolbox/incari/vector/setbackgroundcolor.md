@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set BackgroundColor Node.](../../../.gitbook/assets/node-set-backgroundcolor.png)
+![The Set BackgroundColor Node.](../../../.gitbook/assets/setbackgroundcolorupdatedimage.png)
 
 The **Set BackgroundColor Node** sets the **BackgroundColor** of the target **Vector Object**.
 

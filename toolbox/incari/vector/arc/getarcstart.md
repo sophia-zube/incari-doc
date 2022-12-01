@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get ArcStart Node.](../../../../.gitbook/assets/node-get-arcstart.png)
+![The Get ArcStart Node.](../../../../.gitbook/assets/setarcstartupdatedimage.png)
 
 The **Get ArcStart Node** returns the starting _arc degree_ of an **Arc Object**.
 
