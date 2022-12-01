@@ -1,6 +1,6 @@
 # Overview
 
-![The On-Screen Keyboard Get Input Node.](../../../.gitbook/assets/node-onscreen-keyboard-get-input.png)
+![The On-Screen Keyboard Get Input Node.](../../../.gitbook/assets/onscreenkeyboardgetinputupdatedimage.png)
 
 The **On-Screen Keyboard Get Input Node** returns the input from the **On-Screen Keyboard**.
 

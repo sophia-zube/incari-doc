@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set ArcStart Node.](../../../../.gitbook/assets/node-set-arcstart.png)
+![The Set ArcStart Node.](../../../../.gitbook/assets/setarcstartupdatedimage.png)
 
 The **Set ArcStart Node** sets the starting _arc degree_ of an **Arc Object** created in the **Scene Outliner Module** under **Vector**.
 

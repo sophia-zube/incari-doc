@@ -1,6 +1,6 @@
 # Overview
 
-![The On-Screen Keyboard Clear Input Node.](../../../.gitbook/assets/node-onscreen-keyboard-clear-input.png)
+![The On-Screen Keyboard Clear Input Node.](../../../.gitbook/assets/onscreenkeyboardclearinputupdatedimage.png)
 
 The **On-Screen Keyboard Clear Input Node** clears whatever was previously inputted into the **On-Screen Keyboard**.
 

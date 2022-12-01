@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get StrokeWidth Node.](../../../.gitbook/assets/node-get-strokewidth.png)
+![The Get StrokeWidth Node.](../../../.gitbook/assets/getstrokewidthupdatedimage.png)
 
 The **Get StrokeWidth Node** returns the **StrokeWidth** of a **Vector Object**, such as an **Ellipse**. **StrokeWidth** is an **Attribute** of a **Vector Object** that is visualized as the line drawn around the **Object**.
 

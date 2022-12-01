@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Rotation 2D Node.](../../../.gitbook/assets/setrotation2dupdatedimage.png)
+![The Get Rotation 2D Node.](../../../.gitbook/assets/getrotation2dupdatedimage.png)
 
 The **Get Rotation 2D Node** returns the _degree of rotation_ of a **2D Object**.
 
