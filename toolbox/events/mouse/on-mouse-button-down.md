@@ -39,7 +39,7 @@ Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Object ID` | **ObjectID** | The **Object** in which a button pressing triggers the **Logic Branch**. |
+| `Object ID` | **ObjectID** | The **Object** in which a pressing a button triggers the **Logic Branch**. |
 | `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
 
 ## Outputs
