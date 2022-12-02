@@ -4,7 +4,16 @@
 
 ![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionupdatedimage.png)
 
-The **ScaleBy Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) up to the values specified in `By` multiplied by the initial values for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+The **ScaleBy Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md), thus creating an **Animation**. The final values of the `Scale` **Attribute** are determined by multiplying the initial ones with the values specified by the user in either the **Attribute** or **Input Socket** `By` of the **Node**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+
+The following table shows several examples of how the `Scale` values of an **Object** change for different `By` values:
+
+| Initial `Scale` | `By` | Final `Scale` |
+| :--- | :--- | :--- |
+| $$(1,1,1)$$ | $$(3,3,3)$$ | $$(3,3,3)$$|
+| $$(0.5, 0.75, 4)$$ | $$(0.5, 2, 0.25)$$ | $$(0.25, 1.5, 1)$$ |
+| $$(2, 10, 2.5)$$ | $$(1, 0.1, 0)$$ | $$(2, 1, 0)$$|
+
 
 Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Scale**](../../objects-and-types/attributes/common-attributes/transformation/README.md#scale) for more detail about the `Scale` **Attribute**.
 
@@ -58,7 +67,7 @@ We use the **ScaleBy Action** **Node** with the following **Attributes**:
 * `Duration (sec)`: $$4$$ 
 * `Interpolation`: `Linear`
 
-And we connect to it the **Object Node** of the red ellipse and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
+And we connect to it the [**Object Node**](../../objects-and-types/scene-objects/README.md#objects-in-the-logic) of the red ellipse and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleScaleBy_2.png)
 

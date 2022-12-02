@@ -58,7 +58,7 @@ We use the **FadeTo Action** **Node** with the following **Attributes**:
 * `To`: $$0.05$$ 
 * `Interpolation`: `Linear`
 
-And we connect to it the **Object Node** of the arc and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
+And we connect to it the [**Object Node**](../../objects-and-types/scene-objects/README.md#objects-in-the-logic) of the arc and a **Pulse** to the `Start` **Input Socket**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleFadeTo_2.png)
 
