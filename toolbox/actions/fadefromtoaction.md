@@ -65,7 +65,7 @@ For this purpose, we set the **Attributes** of the **FadeFromTo Action** **Node*
 
 We just leave the `From` **Attribute** as it is, since this value will be obtained through the corresponding **Input Socket**.
 
-Then, we connect the **Object ID** from the white arc **Object** **Node** to the `Object ID` **Input Socket** of both **Nodes**, the `Opacity` **Output** from the **Get Opacity** **Node** to the `From` **Input Socket** in the **FadeFromTo** **Node**, and a **Pulse** through the **Get Opacity** **Node** and to the `Start` **Input** in **FadeFromTo**. Thus, having the following **Logic** configuration: 
+Then, we connect the **Object ID** from the white arc [**Object Node**](../../objects-and-types/scene-objects/README.md#objects-in-the-logic) to the `Object ID` **Input Socket** of both **Nodes**, the `Opacity` **Output** from the **Get Opacity** **Node** to the `From` **Input Socket** in the **FadeFromTo** **Node**, and a **Pulse** through the **Get Opacity** **Node** and to the `Start` **Input** in **FadeFromTo**. Thus, having the following **Logic** configuration: 
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleFadeFromTo_2.png)
 

@@ -64,7 +64,7 @@ For this purpose, we set the **Attributes** of the **RotateFromTo Action** **Nod
 
 We just leave the `From` **Attribute** as it is, since this value will be obtained through the corresponding **Input Socket**.
 
-Then, we connect the **Object ID** from the red **Torus** **Object** **Node** to the `Object ID` **Input Socket** of both **Nodes**, the `Rotation` **Output** from the **Get Rotation** **Node** to the `From` **Input Socket** in the **RotateFromTo** **Node**, and a **Pulse** through the **Get Rotation** **Node** and to the `Start` **Input** in **RotateFromTo**. Thus, having the following **Logic** configuration: 
+Then, we connect the **Object ID** from the red **Torus** [**Object Node**](../../objects-and-types/scene-objects/README.md#objects-in-the-logic) to the `Object ID` **Input Socket** of both **Nodes**, the `Rotation` **Output** from the **Get Rotation** **Node** to the `From` **Input Socket** in the **RotateFromTo** **Node**, and a **Pulse** through the **Get Rotation** **Node** and to the `Start` **Input** in **RotateFromTo**. Thus, having the following **Logic** configuration: 
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleRotateFromTo_2.png)
 

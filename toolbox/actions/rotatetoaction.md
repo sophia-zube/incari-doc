@@ -65,7 +65,7 @@ And for the second **Node**:
 * `Duration (sec)`: $$2$$ 
 * `Interpolation`: `Linear`
 
-Then, we connect to both **Nodes** the **Object Node** of the red **Torus**, a **Pulse** to the `Start` **Input Socket** of the first **RotateTo Action** and the **Output** `OnEnd` to the `Start` **Input** of the second **RotateTo Action** **Node**. Thus, having the following **Logic** configuration:
+Then, we connect to both **Nodes** the [**Object Node**](../../objects-and-types/scene-objects/README.md#objects-in-the-logic) of the red **Torus**, a **Pulse** to the `Start` **Input Socket** of the first **RotateTo Action** and the **Output** `OnEnd` to the `Start` **Input** of the second **RotateTo Action** **Node**. Thus, having the following **Logic** configuration:
 
 ![Logic configuration.](../../.gitbook/assets/examplesactions/ExampleRotateTo_2.png)
 
