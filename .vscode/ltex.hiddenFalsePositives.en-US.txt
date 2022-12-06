@@ -6,3 +6,5 @@
 {"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFor more detail, see the Scene Outliner section.\\E$"}
 {"rule":"KIND_OF_A","sentence":"^\\Q\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q: The name and type of an Object is shown here.\\E$"}
 {"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QThe file path, including the name of the file to be created and its extension has to be given as input and the output is a Boolean indicating whether the operation was successful.\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther changes can be  or in the Logic using the Tag Nodes.\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QFurther changes can be done in the Logic using the Tag Nodes.\\E$"}
