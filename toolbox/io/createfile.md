@@ -1,8 +1,10 @@
 # Overview
 
-![The Create File Node.](../../.gitbook/assets/node-create-file.png)
+![The Create File Node.](../../.gitbook/assets/createfile_2.png))
 
-The **Create File Node** creates a file in a location given by the user. The file _path_, including the name of the file to be created and its extension, has to be given as input and the output is a **Boolean** indicating whether the operation was successful. Thus, a valid *path* to be given as input is of the form `C:\Users\User\MyIncariProjects\MyProject\Assets\MyFiles\file.txt`.
+The **Create File Node** creates a file in a location given by the user. 
+
+The file _path_, including the name of the file to be created and its extension, has to be given as **Input** and the **Output** is a **Boolean** indicating whether the operation was successful. Thus, a valid *path* to be given as **Input** is of the form `C:\Users\User\MyIncariProjects\MyProject\Assets\MyFiles\file.txt`.
 
 Note that files can only be created within the **Project Asset** folder.
 
@@ -13,7 +15,7 @@ Note that files can only be created within the **Project Asset** folder.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Path` | **String** | The *path* of the file to be created. |
+| `Path` | **String** | The *path* of the file to be created, including the filename and extension of the file to be created.  |
 
 # Outputs
 
