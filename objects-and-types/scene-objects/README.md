@@ -36,7 +36,7 @@ For in-depth descriptions of each type of **Object**, see the [Table of Contents
 
 ![](../../.gitbook/assets/prefabs1.gif)
 
-## Objects in the Logic
+## Objects in Logic
 
 In the [**Logic**](../../modules/logic-editor.md), it might be necessary to make references to specific **Objects**. For this, each **Object** in a **Scene** gets assigned an **Object ID**, which is a unique identifier. The **Object ID** of an **Object** can be obtained from said **Object's** **Node**, which is created by dragging an **Object** from the **Scene Outliner** to the **Logic Editor**.
 
@@ -46,13 +46,39 @@ For handling and modifying **Objects** in the **Logic**, there is a special cate
 
 ## Structure in a Scene
 
-**Objects** in a **Scene** are organized in a _tree_. This means that every **Object** except for the [**Root Object**](#root-object) has a _parent_ and all **Objects** may have _children_. To make an **Object** the _child_ of another, simply drag it in the **Scene Outliner** and drop it in top of the **Object** that will be the _parent_.
+**Objects** in a **Scene** are organized in a _tree_. This means that every **Object** except for the [**Root Object**](#root-object) has a _parent_ and all **Objects** may have _children_. 
 
-![](../../.gitbook/assets/TreeStructure.png)
+
+<!-- ![](../../.gitbook/assets/TreeStructure.png) -->
+
+<div>
+<figure><img src="../../.gitbook/assets/ObjectsinHierarchy.png" alt=""><figcaption><p></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/TreeStructure.png" alt=""><figcaption><p></p></figcaption></figure>
+</div>
 
 ### Root Object
 
 Every **Scene** has a **Root Object**, which is the _parent_ of all **Objects** that are on the first hierarchy level. Thus, all **Objects** in a **Scene** are _descendants_ of the **Root Object**. To obtain the **Object ID** of the **Root Object**, use the [**Get Root** **Node**](../../toolbox/incari/object/get-root.md).
+
+### Managing the Structure of Objects in a Scene
+
+In the **Scene Outliner**, there are three ways to make an **Object** the child of another:
+
+* Drag an existing **Object** and drop it on top of the **Object** that will be the *parent*.
+
+![](../../.gitbook/assets/create-children-1.gif)
+
+* Select the **Object** that will be the *parent* and create a new **Object** by clicking the plus ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (1).PNG>) icon on the top left and selecting the **Object** to create as a *child*.
+
+![](../../.gitbook/assets/create-children-2.gif)
+
+* Right-click the **Object** that will be the *parent*, click on `Create` on the drop-down menu that appears and select the **Object** to create as a *child*.
+
+![](../../.gitbook/assets/create-children-2.gif)
+
+Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene** structure.
+
+For more information about *trees*, visit the [Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure)) page on *Wikipedia*.
 
 ## Contents
 
