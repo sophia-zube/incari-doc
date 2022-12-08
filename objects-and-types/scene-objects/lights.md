@@ -1,4 +1,4 @@
-# Lights
+# Light
 
 **Incari** has three types of **Light Objects**: the **Spot Light**, the **Point Light**, and the **Directional Light**.
 

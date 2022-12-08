@@ -12,7 +12,7 @@ For in-depth descriptions of each type of **Object**, see the [Table of Contents
 
 ## Attributes
 
-**Attributes** define specific characteristics of entities in **Incari** and can be modified in the **Attribute Editor**. Particularly, there are several sets of **Attributes** that are shared throughout **Objects**. These are explained in detail in the [**Common Attributes**](../attributes/common-attributes/) section:
+**Attributes** define specific characteristics of entities in **Incari** and can be modified in the [**Attribute Editor**](../../modules/attribute-editor.md). Particularly, there are several sets of **Attributes** that are shared throughout **Objects**. These are explained in detail in the [**Common Attributes**](../attributes/common-attributes/) section:
 
 * [`Object`](../attributes/common-attributes/object.md): The `Name`, `Type`, and `Opacity` of an **Object** are shown here.
 * [`Tag`](../attributes/common-attributes/tag.md): _Metadata_ that serves as an identifier for an **Object** or several of them.
@@ -20,13 +20,13 @@ For in-depth descriptions of each type of **Object**, see the [Table of Contents
 * [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene**.
 
 <div>
-<figure><img src="../../.gitbook/assets/attri-object.png" alt=""><figcaption></figcaption></figure>
-<figure><img src="../../.gitbook/assets/attri-tag.png" alt=""><figcaption><p></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/attri-object.png" alt=""><figcaption><p>Object Attributes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/attri-tag.png" alt=""><figcaption><p>Tag Attributes.</p></figcaption></figure>
 </div>
 
 <div>
-<figure><img src="../../.gitbook/assets/attri-sprite.png" alt=""><figcaption></figcaption></figure>
-<figure><img src="../../.gitbook/assets/attri-transformation.png" alt=""><figcaption><p></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/attri-sprite.png" alt=""><figcaption><p>Sprite Attributes.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/attri-transformation.png" alt=""><figcaption><p>Transformation Attributes.</p></figcaption></figure>
 </div>
 
 
@@ -34,7 +34,7 @@ For in-depth descriptions of each type of **Object**, see the [Table of Contents
 
 **Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
 
-![](../../.gitbook/assets/prefabs1.gif)
+![Creating a Prefab.](../../.gitbook/assets/prefabs1.gif)
 
 ## Objects in Logic
 
@@ -76,7 +76,7 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 
 * Select the **Object** that will be the *parent* and create a new **Object** by clicking the plus ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (1).PNG>) icon on the top left and selecting the **Object** to create as a *child*.
 
-![](../../.gitbook/assets/create-children-2.gif)
+![](../../.gitbook/assets/create-children-3.gif)
 
 * Right-click the **Object** that will be the *parent*, click on `Create` on the drop-down menu that appears and select the **Object** to create as a *child*.
 
@@ -96,13 +96,25 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 
 ## Contents
 
+* [**Vector**](3dobjects/README.md)
 * [**Camera**](camera.md)
+* [**Primitives**](primitives.md)
+* [**Light**](lights.md)
 * [**Group**](group.md)
-* [**List**](list-widget.md)
+* [**Image Sequence Sprite**](3dobjects/imagesequencesprite.md)
+* [**Label**](3dobjects/label.md)
+* [**List**](3dobjects/list.md)
 * [**Mesh**](mesh.md)
-* [**Lights**](lights.md)
+* [**On-Screen Keyboard**](3dobjects/onscreenkeyboard.md)
+* [**Sprite**](3dobjects/sprite.md)
+* [**Svg**](3dobjects/svg.md)
+* [**Text**](3dobjects/text.md)
+* [**Video**](3dobjects/video.md)
+* [**Web Sprite**](3dobjects/web-sprite.md)
+
+
 * [**Sprite**](sprite.md)
 * [**Text**](text.md)
 * [**Web Sprite**](web-sprite.md)
-* [**Primitives**](primitives.md)
+
 * [**Screen Space Elements**](screen-space-elements.md)
