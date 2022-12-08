@@ -48,13 +48,19 @@ For handling and modifying **Objects** in the **Logic**, there is a special cate
 
 **Objects** in a **Scene** are organized in a _tree_. This means that every **Object** except for the [**Root Object**](#root-object) has a _parent_ and all **Objects** may have _children_. 
 
+The picture below shows an example. Here, `Object1` is the *parent* of `Object4` and `Object5`, `Object2` is the *parent* of `Object6`, and `Object3` has no *children*.
+ 
+![](../../.gitbook/assets/ObjectsinHierarchy.png)
+
 
 <!-- ![](../../.gitbook/assets/TreeStructure.png) -->
 
-<div>
+<!-- <div>
 <figure><img src="../../.gitbook/assets/ObjectsinHierarchy.png" alt=""><figcaption><p></p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/TreeStructure.png" alt=""><figcaption><p></p></figcaption></figure>
-</div>
+</div> -->
+
+
 
 ### Root Object
 
@@ -77,6 +83,14 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 ![](../../.gitbook/assets/create-children-2.gif)
 
 Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene** structure.
+
+### Nodes 
+
+There are a few **Nodes** that allow the user to obtain and use information about the structure of **Objects** in a **Scene**. These are:
+
+* [**Get Children**](../../toolbox/incari/object/get-children.md): Returns the *children* of an **Object**.
+* [**Get Parent**](../../toolbox/incari/object/get-parent.md): Returns the *parent* of an **Object**.
+* [**Has Children**](../../toolbox/incari/object/has-children.md): Returns a **Boolean** indicating whether an **Object** has *children*.
 
 For more information about *trees*, visit the [Tree (data structure)](https://en.wikipedia.org/wiki/Tree_(data_structure)) page on *Wikipedia*.
 
