@@ -111,10 +111,3 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 * [**Text**](3dobjects/text.md)
 * [**Video**](3dobjects/video.md)
 * [**Web Sprite**](3dobjects/web-sprite.md)
-
-
-* [**Sprite**](sprite.md)
-* [**Text**](text.md)
-* [**Web Sprite**](web-sprite.md)
-
-* [**Screen Space Elements**](screen-space-elements.md)
