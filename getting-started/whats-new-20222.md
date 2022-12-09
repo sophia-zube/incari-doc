@@ -31,10 +31,15 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
     * [**Remove Tag**](../toolbox/incari/object/remove-tag.md), which removes a *tag* from an **Object**.
 
  
-* **New Objects and grouping**
+* **New Objects**
 
     Introducing New **Objects**...
-    New **Object** hierarchy...
+    
+* [**Structure of Objects in a Scene**](../objects-and-types/scene-objects/README.md#structure-in-a-scene)
+
+    [**Objects**](../objects-and-types/scene-objects/README.md) in a [**Scene**](../objects-and-types/project-objects/scene.md) now have the structure of a *tree*. This means that every **Object** except for the [**Root Object**](../objects-and-types/scene-objects/README.md#root-object) has a *parent* and that all **Objects** may have *children*. Furthermore, any **Object** can be made into the *child* of any other **Object** in the **Scene**.    
+
+
 
 * **New Nodes and Node Updates**
 
