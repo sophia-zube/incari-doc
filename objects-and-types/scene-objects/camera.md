@@ -1,6 +1,22 @@
 # Camera
 
-## Size and Resolution
+**Camera** **Objects** determine which part of a **Scene** is shown on the **Screen** and how.
+
+Every **Scene** has a default player **Camera** that is created when the **Scene** is created. Furthermore, the player camera is set on the **Attributes** of the **Scene**.
+
+**Camera** **Objects** can be handled as any other **Object** in **Incari**, transformation attributes to translate ans rotate.
+
+**Camera** **Objects** have a set of **Attributes** that allow the user to cconfigure the **Camera**.
+
+In the **Viewport**, the player mode shows what the player camera will show when running the project.
+
+Multiple cameras:..., managed in the **Logic**.
+
+Picture in Picture:...
+
+
+
+<!-- ## Size and Resolution
 
 The relationship between `Size` and `Resolution` can be thought of as being like the relationship between your monitor's display resolution \(the physical pixel dimensions available\) and the resolution setting in your OS's display settings. You could have a 4K monitor, with a display resolution of 3840 x 2160 pixels, but have your OS's display resolution set to 800 x 600. This would stretch the much smaller display resolution to fit your display.
 
@@ -8,17 +24,29 @@ Similarly, `Resolution` defines, in pixels, the resolution of the targeted displ
 
 It is therefore recommended that you set `Size` to be the exact same value as `Resolution`, or at least the same _ratio_, unless you have a good reason for doing otherwise.
 
-![](../../.gitbook/assets/camerasizeandresolution.gif)
+![](../../.gitbook/assets/camerasizeandresolution.gif) -->
 
-## Angle of View
+## Attributes
+
+There are some **Attributes** that are specific for **Cameras**. These are the following:
+
+### Angle of View
 
 `Angle of View` determines how much of a **Scene** can be seen by the **Camera**, much like the focal length of a camera lens. Increasing the AOV will make off-camera **Objects** progressively appear in the periphery of the screen and will therefore increase the amount of perspective distortion. Conversely, lower AOV levels will show a smaller range of **Objects**, with lower perspective distortion, and are good for more orthographic views.
 
-## Near / Far Clipping Plane
+### Aspect Ratio
+
+### Near / Far Clipping Plane
 
 Clipping planes define the range that will be rendered, in relation to the position of the camera.
 
 `Near Clipping Plane` determines the _minimum_ depth that will be rendered, while `Far Clipping Plane` determines the _maximum_ depth. Anything that falls outside of this range will be ignored when rendering the frame.
 
 ![](../../.gitbook/assets/nearfarclipping.gif)
+
+## Picture in Picture
+
+## Proxy
+
+## Nodes
 
