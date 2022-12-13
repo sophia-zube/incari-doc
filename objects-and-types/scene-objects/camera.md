@@ -4,15 +4,17 @@
 
 Every **Scene** has a default player **Camera** that is created when the **Scene** is created. Furthermore, the player camera is set on the **Attributes** of the **Scene**.
 
-**Camera** **Objects** can be handled as any other **Object** in **Incari**, transformation attributes to translate ans rotate.
+**Camera** **Objects** can be handled as any other **Object** in **Incari**, transformation attributes to translate and rotate.
 
-**Camera** **Objects** have a set of **Attributes** that allow the user to cconfigure the **Camera**.
+**Camera** **Objects** have a set of **Attributes** that allow the user to configure the **Camera**.
 
 In the **Viewport**, the player mode shows what the player camera will show when running the project.
 
 Multiple cameras:..., managed in the **Logic**.
 
 Picture in Picture:...
+
+Look Through
 
 
 
@@ -45,6 +47,8 @@ Clipping planes define the range that will be rendered, in relation to the posit
 ![](../../.gitbook/assets/nearfarclipping.gif)
 
 ## Picture in Picture
+
+## Look Through
 
 ## Proxy
 
