@@ -7,6 +7,7 @@ The **Incari** **Nodes** encompass several **Object** types that are the driving
 ## Contents
 
 * [**Animation**](animation/)
+* [**Camera**](camera/)
 * [**ImageSequence**](imagesequence/)
 * [**List**](list/)
 * [**Object**](object/)
