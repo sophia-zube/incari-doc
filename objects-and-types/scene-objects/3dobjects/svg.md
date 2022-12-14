@@ -1,6 +1,6 @@
 # Svg
 
-The **Svg Object**, located under the **3D** section of the **Scene Outliner**, allows the user to display *.svg* files in the **Scene Outliner**. 
+The **Svg Object** allows the user to display *.svg* files in the **Scene Outliner**. 
 
 The most important **Attribute** is `File` under `SVG`. Here, the user can locate the desired *.svg* file. 
 

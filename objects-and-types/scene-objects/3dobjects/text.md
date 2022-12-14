@@ -1,6 +1,6 @@
 # Text
 
-The **Text Object** is a very versatile feature of **Incari Studio**. It is located under the **3D** section of the **Scene Outliner**.
+The **Text Object** is a very versatile feature of **Incari Studio**. 
 
 ## Value
 
