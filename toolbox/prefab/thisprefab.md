@@ -1,8 +1,5 @@
 # Overview
 
-![The Thisprefab Node.]()
-
-
 ![The This Prefab Node.](../../.gitbook/assets/thisprefab.png)
 
 The **This Prefab Node** provides the ID of the current **Prefab** being worked on.
