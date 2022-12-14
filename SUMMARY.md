@@ -429,6 +429,8 @@
     * [Sine](toolbox/math/trigonometry/sine.md)
     * [Tangent](toolbox/math/trigonometry/tangent.md)
   * [Vector Value](toolbox/math/vector-value.md)
+* [Prefab](/toolbox/prefab/README.md)
+  * [This Prefab](toolbox/prefab/thisprefab.md)
 * [String](toolbox/string/README.md)
   * [Capitalize](toolbox/string/capitalize.md)
   * [CharCodeAt](toolbox/string/charcodeat.md)
