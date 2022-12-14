@@ -1,6 +1,6 @@
 # Video
 
-A **Video Object**, located under the **3D** section of the **Scene Outliner**, displays a video once a file is selected in the `Video File` **Attribute** or a `Camera input` camera is selected. 0 usually refers to the webcam of a laptop. 
+A **Video Object** displays a video once a file is selected in the `Video File` **Attribute** or a `Camera input` camera is selected. 0 usually refers to the webcam of a laptop. 
 
 ![Video Object Without Any Video.](../../../.gitbook/assets/videofilebefore.png)
 

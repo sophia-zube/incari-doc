@@ -1,14 +1,14 @@
 # Vector
 
-The **Vector Objects** provide alternatives to their **Vector2D** counterparts and encompass several three-dimensional shapes that help build up the visual aspects of a _User Interface_. Unlike **Vector2D**, **Vector Objects** *do* contain Z axis components.
+The **Vector Objects** encompass several three-dimensional shapes that help build up the visual aspects of a _User Interface_. 
 
 There are several **Vector Objects** that are described below:
 
-* [Arc](vector.md#arc)
-* [Ellipse](vector.md#ellipse)
-* [Line](vector.md#line)
-* [Pie](vector.md#pie)
-* [Rectangle](vector.md#rectangle)
+* [**Arc**](vector.md#arc)
+* [**Ellipse**](vector.md#ellipse)
+* [**Line**](vector.md#line)
+* [**Pie**](vector.md#pie)
+* [**Rectangle**](vector.md#rectangle)
 
 ![Vector Objects](../../.gitbook/assets/vectorobjects.png)
 

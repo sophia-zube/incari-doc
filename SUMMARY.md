@@ -206,6 +206,8 @@
     * [On List Entry Select](toolbox/events/list/on-list-entry-select.md)
     * [On List Load](toolbox/events/list/on-list-load.md)
   * [Mouse](toolbox/events/mouse/README.md)
+    * [Get Mouse Position](toolbox/events/mouse/getmouseposition.md)
+    * [Get Mouse Position Delta](toolbox/events/mouse/getmousepositiondelta.md)
     * [On Hover Enter](toolbox/events/mouse/on-hover-enter.md)
     * [On Hover Leave](toolbox/events/mouse/on-hover-leave.md)
     * [On Mouse Button Down](toolbox/events/mouse/on-mouse-button-down.md)

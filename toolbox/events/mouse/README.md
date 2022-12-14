@@ -6,6 +6,8 @@ The **Mouse** **Nodes** are **Event Listener** **Nodes** that allow the user to 
 
 ## Contents
 
+* [**Get Mouse Position**](getmouseposition.md)
+* [**Get Mouse Position Delta**](getmousepositiondelta.md)
 * [**On Hover Enter**](on-hover-enter.md)
 * [**On Hover Leave**](on-hover-leave.md)
 * [**On Mouse Button Down**](on-mouse-button-down.md)

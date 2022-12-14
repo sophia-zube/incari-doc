@@ -2,8 +2,6 @@
 
 **Web Sprites** are an advanced type of **Object** which allow you to embed anything, from a small HTML widget to an entire web page, into your **Scene**. This allows integration between **Incari's** built-in **Objects** and **Logic**, and many web technologies. 
 
-The **Web Sprite Object** is located under the **3D** section of the **Scene Outliner**.
-
 Another important feature of the **Web Sprite Object** is that, when combined with the [**Call JavaScript Function Node**](../../../toolbox/web/call-javascript-function.md) in the **Logic Editor**, we can use evaluated data from our **Logic** as arguments for a web resource's [*JavaScript Function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
 
 ## Web Resource
