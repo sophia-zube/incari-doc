@@ -8,6 +8,7 @@ The **Scene Outliner** contains the list of every [**Object**](../objects-and-ty
 <figure><img src="../../.gitbook/assets/scene-outliner_2_2.png" alt=""><figcaption><p>Pop-up menu with options to manage <b>Objects</b>.</p></figcaption></figure>
 </div>
 
+
 This page describes all the options available in the **Scene Outliner** for managing **Objects** in a **Scene**:
 
 <!-- no toc -->
@@ -30,9 +31,10 @@ New **Objects** can be created in the following ways:
 * Right-click inside the **Scene Outliner**, select `Create` from the pop-up, and click on the **Object**.
 
 <div>
-<figure><img src="../../.gitbook/assets/scene-outliner-create-add-icon-new.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/scene-outliner-create-right-click-new.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sceneoutliner1.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sceneoutliner2.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
 </div>
+
 
 ## Prefabs
 
@@ -54,7 +56,7 @@ For more details, see the [**Prefabs**](../objects-and-types/prefabs/README.md) 
 
 An **Object** in the current **Scene** can be duplicated by right-clicking it on the **Scene Outliner** and selecting `Duplicate`.
 
-![Duplicating an **Object**.](../.gitbook/assets/scene-outliner-duplicate.gif)
+![Duplicating an **Object**.](../.gitbook/assets/sceneoutlinerduplicate.gif)
 
 ## Copy, Cut, and Paste
 
@@ -66,7 +68,7 @@ An **Object** in the current **Scene** can be duplicated by right-clicking it on
 
 **Objects** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
-![Renaming an **Object**.](../.gitbook/assets/scene-outliner-rename2.gif)
+![Renaming an **Object**.](../.gitbook/assets/sceneoutlinerrename.gif)
 
 ## Delete
 
@@ -97,7 +99,7 @@ The `Search` option allows the user to search **Objects** in a **Scene** by name
 
 The `Filter` option allows the user to filter **Objects** in a **Scene** by type. To apply a filter, click the filter icon on the top right, and select the types to filter from the drop-down menu. After a filter has been applied, it can be removed with the `Reset` button.
 
-![Filtering **Objects** by type.](../.gitbook/assets/scene-outliner-filter.gif)
+![Filtering **Objects** by type.](../.gitbook/assets/sceneoutlinersearch.gif)
 
 ## See Also
 
