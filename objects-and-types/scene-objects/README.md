@@ -1,8 +1,8 @@
 # Scene Objects
 
-An **Object** in **Incari** is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviors and characteristics.
+An **Object** in **Incari** is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviors, and characteristics.
 
-For in-depth descriptions of each type of **Object**, see the [Table of Contents](#contents) below.
+For in-depth descriptions of each type of **Object**, see the [**Table of Contents**](#contents) below.
 
 ## Managing Objects
 
@@ -32,7 +32,7 @@ For in-depth descriptions of each type of **Object**, see the [Table of Contents
 
 ## Prefabs
 
-**Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
+**Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them, or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
 
 ![Creating a Prefab.](../../.gitbook/assets/prefabs1.gif)
 
@@ -82,7 +82,9 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 
 ![](../../.gitbook/assets/create-children-2.gif)
 
-Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene** structure.
+Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene** structure, as can be seen in the following example:
+
+![](../../.gitbook/assets/tree-play.gif)
 
 ### Nodes 
 
@@ -96,7 +98,7 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 
 ## Contents
 
-* [**Vector**](3dobjects/README.md)
+* [**Vector**](vector.md)
 * [**Camera**](camera.md)
 * [**Primitives**](primitives.md)
 * [**Light**](lights.md)
