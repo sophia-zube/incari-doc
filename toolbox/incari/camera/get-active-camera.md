@@ -19,6 +19,7 @@ The **Get Active Camera** **Node** outputs the **Object ID** of the currently ac
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Active Camera` | **Object ID** | The **Object ID** of the currently active **Camera**. |
 
+
 # See Also
 
 * [**Set Active Camera**](set-active-camera.md)
