@@ -19,4 +19,4 @@ The **Get Mouse Position Delta Node** returns the difference between the current
 
 # See Also
 
-* [Get Mouse Position](getmouseposition.md)
+* [**Get Mouse Position**](getmouseposition.md)

@@ -19,4 +19,4 @@ The **Get Mouse Position Node** returns the X and Y coordinates of the mouse's p
 
 # See Also
 
-* [Get Mouse Position Delta](getmousepositiondelta.md)
+* [**Get Mouse Position Delta**](getmousepositiondelta.md)
