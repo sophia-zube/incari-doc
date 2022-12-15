@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Active Camera Node.]()
+![The Set Active Camera Node.](../../../.gitbook/assets/node-set-active-camera.png)
 
 The **Set Active Camera** **Node** receives the **Object ID** of a **Camera** and sets that **Camera** as the active one in the **Scene**.
 
