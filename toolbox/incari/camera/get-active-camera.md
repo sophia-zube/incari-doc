@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Active Camera Node.]()
+![The Get Active Camera Node.](../../../.gitbook/assets/node-get-active-camera.png)
 
 The **Get Active Camera** **Node** outputs the **Object ID** of the currently active **Camera**.
 
