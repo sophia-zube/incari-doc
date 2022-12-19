@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Visibility Change Node.](../../../.gitbook/assets/onvisibilitychangeupdatedimage.png)
+![The On Visibility Change Node.](../../../.gitbook/assets/onvisibilitychangewitheventid.png)
 
 **On Visibility Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Visibility** of an **Object** changes.
 
@@ -30,6 +30,7 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Is Visible` | **Bool** | Whether the **Object** is now visible or not. |
 | `Object ID` | **ObjectID** | The **Object** received as **Input**. |
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
 ## See Also
 

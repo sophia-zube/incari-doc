@@ -16,7 +16,11 @@ New instances of the **Prefab** can be created by either duplicating the existin
 
 ## Editing the Prefab Asset
 
-To edit the **Prefab** **Asset**, double-click the **Prefab** in the **Asset Manager**. This will open the **Prefab View** in both the **Scene Outliner** and **Attribute Editor**. The **Prefab** **View** is indicated by a purple circle. Changes made here affect all instances of the **Prefab**. 
+To edit the **Prefab** **Asset**, double-click the **Prefab** in the **Asset Manager**. This will open the **Prefab View** in both the **Scene Outliner** and **Attribute Editor**. It is also possible to right-click on the **Prefab** in the **Scene Outliner** and click the `Edit Prefab`. 
+
+![Editing Prefab from Scene Outliner.](../../.gitbook/assets/editprefabexample.png)
+
+The **Prefab** **View** is indicated by a purple circle. Changes made here affect all instances of the **Prefab**. 
 
 ![Editing the master **Prefab**.](../../.gitbook/assets/editmasterprefab.gif)
 
@@ -29,3 +33,16 @@ For the changes made in the **Prefab Asset** to take effect, it is necessary to 
 Each **Instance** of a **Prefab** can be modified on its own and this overrides the **Attributes** from the **Prefab Asset**. To do this, simply edit the **Object** in the **Prefab** instance.
 
 ![Prefab instance override.](../../.gitbook/assets/prefabinstanceoverride.gif) 
+
+## Unpacking a Prefab
+
+
+
+A **Prefab** can be unpacked, meaning that it can be taken from its **Prefab** form and converted back into a normal **Object**, or **Objects**. If a **Prefab** contained multiple **Objects**, they will become separated and are treated as individual again. To unpack a **Prefab**, simple right-click on it in the **Scene Outliner** and click `Unpack prefab`.
+
+![Unpacking a Prefab.](../../.gitbook/assets/unpackprefabexample.gif)
+
+When upacked, the **Objects** of a **Prefab** will be moved to the same level in the **Scene Hierarchy** that the **Prefab** was on. This means that the *parent* of the **Prefab** is now the *parent* of the **Objects** and not the **Prefab**. The **Prefab** is also deleted. 
+
+Any edits given to **Objects** of a **Prefab** via overrides remain once unpacked. 
+

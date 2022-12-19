@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Opacity Change Node.](../../../.gitbook/assets/onopacitychangeupdatedimage.png)
+![The On Opacity Change Node.](../../../.gitbook/assets/onopacitychangewitheventid.png)
 
 **On Opacity Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Opacity** value of an **Object** changes.
 
@@ -30,6 +30,7 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Opacity` | **Float** | The modified **Opacity** value. |
 | `Object ID` | **ObjectID** | The **Object** received as **Input**. |
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
 ## See Also
 
