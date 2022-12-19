@@ -4,6 +4,7 @@
 
 The **Lottie Nodes** allow the user to control **Lottie Sprite** **Objects**. They provide a 
 
+
 ## Contents
 
 * [**Pause Lottie**](pause-lottie.md)
@@ -12,6 +13,8 @@ The **Lottie Nodes** allow the user to control **Lottie Sprite** **Objects**. Th
 
 ## See Also
 
-* [**Lottie Sprite**]()
+* [**Lottie Sprite**](../../../objects-and-types/scene-objects/lottie-sprite.md)
 
 ## External Links
+
+* [What is a Lottie?](https://lottiefiles.com/what-is-lottie) on LottieFiles.
