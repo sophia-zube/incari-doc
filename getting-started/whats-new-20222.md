@@ -23,10 +23,21 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
     Virtual Reality/Mixed Reality
 
-* **Viewport**
+    Leap Motion nodes?
+
+    * [**On Leap Motion Grab End**](../toolbox/events/leapmotion/on-leapmotion-grab-end.md)
+    * [**On Leap Motion Grab Start**](../toolbox/events/leapmotion/on-leapmotion-grab-start.md)
+    * [**On Leap Motion Grab Update**](../toolbox/events/leapmotion/on-leapmotion-grab-update.md)
+    * [**On Leap Motion Pinch End**](../toolbox/events/leapmotion/on-leapmotion-pinch-end.md)
+    * [**On Leap Motion Pinch Start**](../toolbox/events/leapmotion/on-leapmotion-pinch-start.md)
+    * [**On Leap Motion Pinch Update**](../toolbox/events/leapmotion/on-leapmotion-pinch-update.md)
+    * [**On Leap Motion Swipe Left**](../toolbox/events/leapmotion/on-leapmotion-swipe-left.md)
+    * [**On Leap Motion Swipe Right**](../toolbox/events/leapmotion/on-leapmotion-swipe-right.md)
+
+<!-- * **Viewport**
 
     Now the **ViewPort**...
-
+ -->
 * [**Tags**](../objects-and-types/attributes/common-attributes/tag.md)
 
     A new **Attribute** has been introduced for all **Objects** in **Incari**: *Tags*. *Tags* are simple labels linked to **Objects** and are managed in the **Attribute Editor**, where they can be created, deleted, and edited. These *tags* allow the user to group and link different **Objects** under the same *tag*.
@@ -42,26 +53,59 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
     This version of **Incari** introduces three new **Objects**. They are:
     
-    * [**Audio**](../objects-and-types/scene-objects/audio.md)
-        **Audio Objects** let the user incorporate aural information into a *User Interface*, such as music or recorded speech. Currently, only `.mp3` files are supported, but more formats are anticipated to follow in the future. 
-    * [**Lottie Sprite**](../objects-and-types/scene-objects/lottie-sprite.md)
+    * [**Audio**](../objects-and-types/scene-objects/audio.md):  
+        The new **Audio Objects** let the user incorporate aural information into a *User Interface*, such as music or recorded speech. Currently, only `.mp3` files are supported, but more formats are anticipated to follow in the future.
+
+    * [**Lottie Sprite**](../objects-and-types/scene-objects/lottie-sprite.md):
         **Incari** now has a way to display `.lottie` files, a very popular file format for animations. These **Objects** provide the user with extended possibilities for visual creativity within a *User Interface*.
-    * [**Overlay**](../objects-and-types/scene-objects/overlay.md)
+        Moreover, **Nodes** for managing *lottie* animations as well as **Event Nodes** that are triggered by *lottie* animations have been introduced:
+         * [**Play Lottie**](../toolbox/incari/lottie/play-lottie.md)
+         * [**Pause Lottie**](../toolbox/incari/lottie/pause-lottie.md)
+         * [**Stop Lottie**](../toolbox/incari/lottie/stop-lottie.md)
+         * [**On Lottie Play**](../toolbox/events/lottie/on-lottie-play.md)
+         * [**On Lottie Pause**](../toolbox/events/lottie/on-lottie-pause.md)
+         * [**On Lottie Stop**](../toolbox/events/lottie/on-lottie-stop.md)
+         * [**On Lottie Finish**](../toolbox/events/lottie/on-lottie-finish.md)
+
+    * [**Overlay**](../objects-and-types/scene-objects/overlay.md):
        Related to the new **2D Workflow**, **Overlay Objects** allow the user to mix 3D and 2D **Scenes** by overlaying 2D **Scenes** on top of 3D **Scenes**. 
     
 * [**Structure of Objects in a Scene**](../objects-and-types/scene-objects/README.md#structure-in-a-scene)
 
-    [**Objects**](../objects-and-types/scene-objects/README.md) in a [**Scene**](../objects-and-types/project-objects/scene.md) now have the structure of a *tree*. This means that every **Object** except for the [**Root Object**](../objects-and-types/scene-objects/README.md#root-object) has a *parent* and that all **Objects** may have *children*. Furthermore, any **Object** can be made into the *child* of any other **Object** in the **Scene**.    
+    [**Objects**](../objects-and-types/scene-objects/README.md) in a [**Scene**](../objects-and-types/project-objects/scene.md) now have the structure of a *tree*. This means that every **Object** except for the [**Root Object**](../objects-and-types/scene-objects/README.md#root-object) has a *parent* and that all **Objects** may have *children*. Furthermore, any **Object** can be made into the *child* of any other **Object** in the **Scene**.
+
+    **Nodes** to retrieve information about the **Scene Structure** were introduced as well:
+
+    * [**Get Children**](../toolbox/incari/object/get-children.md)
+    * [**Get Parent**](../toolbox/incari/object/get-parent.md)
+    * [**Get Root**](../toolbox/incari/object/get-root.md)
+    * [**Has Children**](../toolbox/incari/object/has-children.md)
 
 
 
 * **New Nodes and Node Updates**
 
+    Besides the **Nodes** related to new features that are specified above, several new **Nodes** have been introduced with this release while some existent ones have had major updates. The list is given below:
+
     New **Nodes**:
-        * IO: Create File, Get Current Directory, Get File Extension, List Directory Contents, Remove, Set Current Directory
-        * Objects: Destroy Object, Get Children, Get Name, Get Parent, Get Root, Has Children, Instantiate Object, Remove Tag
-        * Math: Round
-        * Lottie: Pause Lottie, Play Lottie, Stop Lottie
+      * **IO**: 
+        * [**Create File**](../toolbox/io/createfile.md)
+        * [**Get Current Directory**](../toolbox/io/getcurrentdirectory.md)
+        * [**Get File Extension**](../toolbox/io/getfileextension.md)
+        * [**List Directory Contents**](../toolbox/io/listdirectorycontent.md)
+        * [**Remove Object**](../toolbox/io/remove.md)
+        * [**Set Current Directory**](../toolbox/io/setcurrentdirectory.md)
+      * **Objects**: 
+        * [**Destroy Object**](../toolbox/incari/object/destroy.md)
+        * [**Get Name**](../toolbox/incari/object/get-name.md)
+        * [**Instantiate Object**](../toolbox/incari/object/instantiate.md)
+      * **Math**: 
+        * [**Round**](../toolbox/math/round.md)
+      * **Mouse**:
+        * [**Get Mouse Position**](../toolbox/events/mouse/getmouseposition.md)
+        * [**Get Mouse Position Delta**](../toolbox/events/mouse/getmousepositiondelta.md)
     
-    **Nodes** updates: mouse global events
+    **Nodes** with major updates:
+      * [**Mouse Event Nodes**]():... 
+    
 
