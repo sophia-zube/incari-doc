@@ -1,6 +1,6 @@
 # Overview
 
-![The On On-Screen Keyboard Key Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardkeypressedupdatedimage.png)
+![The On On-Screen Keyboard Key Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardkeypressedwitheventid.png)
 
 The **On On-Screen Keyboard Key Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when any key on the **On-Screen Keyboard** is pressed.
 
@@ -29,6 +29,7 @@ The **On On-Screen Keyboard Key Pressed Node** is an **Event Listener** **Node**
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Symbol Entered`|**String**|The symbol that was clicked on the **On-Screen Keyboard**.|
 | `Object ID` | **ObjectID** | The **On-Screen Keyboard** received as **Input**. |
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
 
 # See Also
