@@ -14,7 +14,6 @@ Note that this **Node** gets triggered when a *lottie* animation is forced to st
 
 |Input|Type|Description|
 |---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 | `Object ID` | **ObjectID** | **Lottie Sprite** that triggers the **Logic Branch** when stopped. |
 | `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
 
