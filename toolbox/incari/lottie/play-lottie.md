@@ -18,11 +18,12 @@ The **Play Lottie** **Node** starts playing a *lottie*. It receives as input the
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
+
 # See Also
 
 * [**Pause Lottie**](pause-lottie.md)
 * [**Stop Lottie**](stop-lottie.md)
-* [**Lottie Sprite**]()
+* [**Lottie Sprite**](../../../objects-and-types/scene-objects/lottie-sprite.md)
 
 # External Links
 

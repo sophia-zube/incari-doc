@@ -5,8 +5,15 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 * **New Camera System**
 
     The new camera system...
-    Camera object [add link]
-    Camera nodes [add links]: Set Active Camera, Get Active Camera, Get Cameras
+       
+   * [**Camera Object**](../objects-and-types/scene-objects/camera.md) 
+   * [**Camera 2D Object**](../objects-and-types/scene2d-objects/camera2d.md)
+
+    **Camera Nodes**:
+    
+    * [**Get Active Camera**](../toolbox/incari/camera/get-active-camera.md)
+    * [**Get All Cameras**](../toolbox/incari/camera/get-all-cameras.md)
+    * [**Set Active Camera**](../toolbox/incari/camera/set-active-camera.md)
 
 * **2D Workflow**
 
@@ -33,7 +40,7 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
  
 * **New Objects**
 
-    This verion of **Incari** introduces three new **Objects**. THey are:
+    This version of **Incari** introduces three new **Objects**. They are:
     
     * [**Audio**](../objects-and-types/scene-objects/audio.md)
         **Audio Objects** let the user incorporate aural information into a *User Interface*, such as music or recorded speech. Currently, only `.mp3` files are supported, but more formats are anticipated to follow in the future. 
