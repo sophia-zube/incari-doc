@@ -61,6 +61,7 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
         * IO: Create File, Get Current Directory, Get File Extension, List Directory Contents, Remove, Set Current Directory
         * Objects: Destroy Object, Get Children, Get Name, Get Parent, Get Root, Has Children, Instantiate Object, Remove Tag
         * Math: Round
+        * Lottie: Pause Lottie, Play Lottie, Stop Lottie
     
     **Nodes** updates: mouse global events
 

@@ -12,6 +12,7 @@ The **Incari** **Nodes** encompass several **Object** types that are the driving
 * [**Event**](event/)
 * [**ImageSequence**](imagesequence/)
 * [**List**](list/)
+* [**Lottie**](lottie/)
 * [**Object**](object/)
 * [**On-Screen Keyboard**](on-screenkeyboard/)
 * [**This Scene**](thisscene.md)

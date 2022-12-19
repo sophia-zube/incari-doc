@@ -2,7 +2,7 @@
 
 ![The Pause Lottie Node.](../../../.gitbook/assets/node-pause-lottie.png)
 
-The **Pause Lottie** **Node** pauses a *lottie*. It receives as input the **Object ID** of the **Lottie Sprite** **Object** to be paused.
+The **Pause Lottie** **Node** pauses a *lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be paused.
 
 
 
