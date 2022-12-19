@@ -4,6 +4,8 @@
 
 The **Remove Tag Node** deletes a *tag* from an **Object**. This *tag* acts as *metadata* and removing it means the **Object** is no longer associated with that *tag*.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
 # Attributes
 
 ![The Remove Tag Node Attributes.](../../../.gitbook/assets/removetagattributes.png)

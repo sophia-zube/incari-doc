@@ -4,7 +4,9 @@
 
 The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specifically their **IDs**, which are associated with the given *tag* and fall under a given *parent* **Object**. If an **Object** has no explicit *parent* given by the user, the *parent* defaults to the **Root Object**, thus requiring the [**Get Root Node**](get-root.md). 
 
-To learn more about the **Root Object** and **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene) 
+To learn more about the **Root Object** and **Scene** structure, click [here.](../../../objects-and-types/scene-objects/README.md#structure-in-a-scene)
+
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 
 # Attributes
