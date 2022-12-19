@@ -23,6 +23,8 @@
       "",
       "**${TM_FILENAME_BASE/([A-z]*)([^a-zA-Z0-9])*/${1:/capitalize}${2:+ }/g}** $0.",
       "",
+      "[**Scope**]():",
+      "",
       "# Attributes",
       "",
       "|Attribute|Type|Description|",

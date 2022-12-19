@@ -4,7 +4,7 @@
 
 The **Pause Lottie** **Node** pauses a *lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be paused.
 
-
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 

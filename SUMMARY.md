@@ -323,8 +323,6 @@
     * [Destroy Object](toolbox/incari/object/destroy.md)
     * [Get Alpha](toolbox/incari/object/get-alpha.md)
     * [Get Children](toolbox/incari/object/get-children.md)
-    <!-- * [Get Local Position](toolbox/incari/object/get-local-position.md)
-    * [Get Local Rotation](toolbox/incari/object/get-local-rotation.md) -->
     * [Get Material](toolbox/incari/object/get-material.md)
     * [Get Name](toolbox/incari/object/get-name.md)
     * [Get Objects By Tag](toolbox/incari/object/get-objects-by-tag.md)
@@ -346,8 +344,6 @@
     * [Is Object 3D](toolbox/incari/object/is-object-3d.md)
     * [Remove Tag](toolbox/incari/object/remove-tag.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
-    <!-- * [Set Local Position](toolbox/incari/object/set-local-position.md)
-    * [Set Local Rotation](toolbox/incari/object/set-local-rotation.md) -->
     * [Set Material](toolbox/incari/object/set-material.md)
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
     * [Set Position](toolbox/incari/object/set-position.md)

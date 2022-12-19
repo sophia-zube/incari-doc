@@ -2,8 +2,9 @@
 
 ![The Play Lottie Node.](../../../.gitbook/assets/node-play-lottie.png)
 
-The **Play Lottie** **Node** starts playing a *lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite**](../../../objects-and-types/scene-objects/lottie-sprite.md) **Object** to be played.
+The **Play Lottie** **Node** starts playing a *lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be played.
 
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
