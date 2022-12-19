@@ -10,7 +10,7 @@ There are several **Vector Objects** that are described below:
 * [**Pie**](vector.md#pie)
 * [**Rectangle**](vector.md#rectangle)
 
-![Vector Objects](../../.gitbook/assets/vectorobjects.png)
+![Vector Objects](../../.gitbook/assets/sceneoutlinercreatevectorwithout2d.png)
 
 ## Arc
 

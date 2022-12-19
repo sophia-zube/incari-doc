@@ -31,8 +31,8 @@ New **Objects** can be created in the following ways:
 * Right-click inside the **Scene Outliner**, select `Create` from the pop-up, and click on the **Object**.
 
 <div>
-<figure><img src="../../.gitbook/assets/sceneoutliner1.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/sceneoutliner2.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sceneoutlinercreate1again.png" alt=""><figcaption><p>Creating an <b>Object</b> with the plus icon.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sceneoutlinercreate2again.png" alt=""><figcaption><p>Creating an <b>Object</b> from the pop-up menu.</p></figcaption></figure>
 </div>
 
 
@@ -41,7 +41,7 @@ New **Objects** can be created in the following ways:
 The pop-up menu that appears by right-clicking on the **Scene Outliner** offers three options relating to **Prefabs**. 
 
 * `Make prefab`: The selected **Objects** turn into a **Prefab**.
-* `Unpack prefab`: The selected **Prefab Instance** is unpacked, thus the **Objects** that compose it remain in the **Scene** but no longer are a **Prefab Instance**.
+* `Unpack prefab`: The selected **Prefab Instance** is unpacked, thus the **Objects** that compose it remain in the **Scene** but no longer are a **Prefab Instance**. More information can be found [here.](../objects-and-types/prefabs/creating-and-using-prefabs.md#unpacking-a-prefab)
 * `Edit prefab`: This will open the **Prefab View**, where the [**Prefab Asset**](../objects-and-types/prefabs/creating-and-using-prefabs.md#editing-the-prefab-asset) can be edited 
 
 <div>

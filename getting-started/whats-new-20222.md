@@ -33,7 +33,14 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
  
 * **New Objects**
 
-    Introducing New **Objects**...
+    This verion of **Incari** introduces three new **Objects**. THey are:
+    
+    * [**Audio**](../objects-and-types/scene-objects/audio.md)
+        **Audio Objects** let the user incorporate aural information into a *User Interface*, such as music or recorded speech. Currently, only `.mp3` files are supported, but more formats are anticipated to follow in the future. 
+    * [**Lottie Sprite**](../objects-and-types/scene-objects/lottie-sprite.md)
+        **Incari** now has a way to display `.lottie` files, a very popular file format for animations. These **Objects** provide the user with extended possibilities for visual creativity within a *User Interface*.
+    * [**Overlay**](../objects-and-types/scene-objects/overlay.md)
+       Related to the new **2D Workflow**, **Overlay Objects** allow the user to mix 3D and 2D **Scenes** by overlaying 2D **Scenes** on top of 3D **Scenes**. 
     
 * [**Structure of Objects in a Scene**](../objects-and-types/scene-objects/README.md#structure-in-a-scene)
 
