@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Lottie Nodes** allow the user to control **Lottie Sprite** **Objects**. They provide the means to play, pause, or stop *lottie animations*.
+The **Lottie Nodes** allow the user to control **Lottie Sprite** **Objects**. They provide the means to play, pause, or stop *Lottie animations*.
 
 
 ## Contents
