@@ -26,7 +26,7 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**| The *root* **Object** of the *subtree* in which the search will be performed. The default if nothing is received is the **Root Object**.|
+|`Object ID`|**ObjectID**| The *root* **Object** of the *subtree* in which the search will be performed. The default, if nothing is received, is the **Root Object**.|
 |`Tag`|**String**|The *tag* of interest.|
 
 # Outputs
