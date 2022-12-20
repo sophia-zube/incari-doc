@@ -2,7 +2,7 @@
 
 ![The On Lottie Play Node.](../../../.gitbook/assets/node-on-lottie-play.png)
 
-**On Lottie Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *lottie* starts playing.
+**On Lottie Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* starts playing.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -20,6 +20,7 @@
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Object ID` | **ObjectID** | The **Lottie Sprite** received as **Input**. | 
+
 
 # See Also
 

@@ -2,9 +2,9 @@
 
 ![The On Lottie Stop Node.](../../../.gitbook/assets/node-on-lottie-stop.png)
 
-**On Lottie Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *lottie* is stopped.
+**On Lottie Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* is stopped.
 
-Note that this **Node** gets triggered when a *lottie* animation is forced to stop. For executing a **Logic Branch** when a *lottie* animation finishes, use [**On Lottie Finish**](on-lottie-finish.md).
+Note that this **Node** gets triggered when a *Lottie* animation is forced to stop. For executing a **Logic Branch** when a *Lottie* animation finishes, use [**On Lottie Finish**](on-lottie-finish.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -23,6 +23,7 @@ Note that this **Node** gets triggered when a *lottie* animation is forced to st
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Object ID` | **ObjectID** | The **Lottie Sprite** received as **Input**. | 
+
 
 # See Also
 
