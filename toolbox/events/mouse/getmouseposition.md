@@ -2,7 +2,7 @@
 
 ![The Get Mouse Position Node.](../../../.gitbook/assets/getmouseposition.png)
 
-The **Get Mouse Position Node** returns the X and Y coordinates of the mouse's position in the **Incari Player**.
+The **Get Mouse Position Node** returns the X and Y coordinates of the mouse's position in a device's screen.
 
 # Inputs
 
