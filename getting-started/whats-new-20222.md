@@ -17,7 +17,14 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
 * **2D Workflow**
 
-    *2D* Workflow...
+    Previously in **Incari**, 2D and 3D components coexisted in the same space. However, workflow was very 3D-oriented, regardless of the dimsionality of an **Object**. Now **Incari** offers **Scene2Ds** alongside **Scenes**. **Scenes** continue to provide whatever a user would need in 3D space. **Scene2Ds** supply the user with the option for a 2D workflow, providing an imperative facet to *User Interface* design. 
+
+    In **Scene2Ds**, the workspace is truly only in two dimensions, in pixel space. For the order of **Objects**, an index is no longer required. Whatever way the **Objects** are listed in the **Scene Outliner** -- chosen by the user -- decides the order in which they are displayed.  
+
+    Since 2D and 3D are now treated separately in **Incari**, [**Overlay Objects**](../objects-and-types/scene-objects/overlay.md) have been created to bridge this so-called gap. This way,the user can specify a **Scene2D** to be rendered on top of a 3D **Scene**. 
+
+    3D **Scene Objects** are explained in detail [here.](../objects-and-types/scene-objects/README.md) There are also several [**2D Objects**](../objects-and-types/scene2d-objects/README.md) attributed to the **Scene2D** side of workflow in **Incari**. 
+
 
 * **Virtual Reality and Mixed Reality**
 
