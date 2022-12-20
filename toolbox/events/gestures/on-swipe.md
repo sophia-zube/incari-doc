@@ -37,7 +37,6 @@
 | `Object ID` | **ObjectID** | The **Object** in which a swipe triggers the **Logic Branch**. |
 | `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
 
-
 ## Outputs
 
 | Output | Type | Description |

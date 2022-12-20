@@ -30,16 +30,9 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
     Virtual Reality/Mixed Reality
 
-    Leap Motion nodes?
+    
 
-    * [**On Leap Motion Grab End**](../toolbox/events/leapmotion/on-leapmotion-grab-end.md)
-    * [**On Leap Motion Grab Start**](../toolbox/events/leapmotion/on-leapmotion-grab-start.md)
-    * [**On Leap Motion Grab Update**](../toolbox/events/leapmotion/on-leapmotion-grab-update.md)
-    * [**On Leap Motion Pinch End**](../toolbox/events/leapmotion/on-leapmotion-pinch-end.md)
-    * [**On Leap Motion Pinch Start**](../toolbox/events/leapmotion/on-leapmotion-pinch-start.md)
-    * [**On Leap Motion Pinch Update**](../toolbox/events/leapmotion/on-leapmotion-pinch-update.md)
-    * [**On Leap Motion Swipe Left**](../toolbox/events/leapmotion/on-leapmotion-swipe-left.md)
-    * [**On Leap Motion Swipe Right**](../toolbox/events/leapmotion/on-leapmotion-swipe-right.md)
+    
 
 <!-- * **Viewport**
 
@@ -111,8 +104,26 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
       * **Mouse**:
         * [**Get Mouse Position**](../toolbox/events/mouse/getmouseposition.md)
         * [**Get Mouse Position Delta**](../toolbox/events/mouse/getmousepositiondelta.md)
+      * **Leap Motion**:
+        * [**On Leap Motion Grab End**](../toolbox/events/leapmotion/on-leapmotion-grab-end.md)
+        * [**On Leap Motion Grab Start**](../toolbox/events/leapmotion/on-leapmotion-grab-start.md)
+        * [**On Leap Motion Grab Update**](../toolbox/events/leapmotion/on-leapmotion-grab-update.md)
+        * [**On Leap Motion Pinch End**](../toolbox/events/leapmotion/on-leapmotion-pinch-end.md)
+        * [**On Leap Motion Pinch Start**](../toolbox/events/leapmotion/on-leapmotion-pinch-start.md)
+        * [**On Leap Motion Pinch Update**](../toolbox/events/leapmotion/on-leapmotion-pinch-update.md)
+        * [**On Leap Motion Swipe Left**](../toolbox/events/leapmotion/on-leapmotion-swipe-left.md)
+        * [**On Leap Motion Swipe Right**](../toolbox/events/leapmotion/on-leapmotion-swipe-right.md)
     
     **Nodes** with major updates:
-      * [**Mouse Event Nodes**]():... 
+      * [**Mouse Event Nodes**](../toolbox/events/mouse/README.md): The new **Attribute** `Event Base` has been introduced for all **Mouse Event Nodes**. With it, the user can set the **Node** to work for a particular **Object** or in the entire **Scene**.
+        * [**On Mouse Button Down**](../toolbox/events/mouse/on-mouse-button-down.md)
+        * [**On Mouse Button Up**](../toolbox/events/mouse/on-mouse-button-up.md)
+        * [**On Mouse Click**](../toolbox/events/mouse/on-mouse-click.md)
+        * [**On Mouse Double Click**](../toolbox/events/mouse/on-mouse-double-click.md)
+        * [**On Mouse Enter**](../toolbox/events/mouse/on-mouse-enter.md)
+        * [**On Mouse Leave**](../toolbox/events/mouse/on-mouse-leave.md)
+        * [**On Mouse Move**](../toolbox/events/mouse/on-mouse-move.md)
+        * [**On Mouse Scroll**](../toolbox/events/mouse/on-mouse-scroll.md)
+ 
     
 

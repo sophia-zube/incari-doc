@@ -2,7 +2,9 @@
 
 ## Overview
 
-![The On Mouse Leave Node.](../../../.gitbook/assets/onmouseleaveupdatedimage.png)
+![The On Mouse Leave Node with Object base.](../../../.gitbook/assets/node-on-mouse-leave-objbase.png)
+
+![The On Mouse Leave Node with Screen base.](../../../.gitbook/assets/node-on-mouse-leave-scrbase.png)
 
 **On Mouse Leave** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor leaves an **Object**.
 
@@ -12,7 +14,7 @@ The **Attribute** `Event Base` allows the user to choose whether the **Node** is
 
 ## Attributes
 
-![The On Mouse Leave Node Attributes.](../../../.gitbook/assets/onmouseleaveattributes%20-%20Copy.png)
+![The On Mouse Leave Node Attributes.](../../../.gitbook/assets/node-on-mouse-leave-attri.png)
 
 ### Event Base
 
@@ -36,6 +38,7 @@ Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Position` | **Vector2** | **Vector** containing the XY-coordinates of the point of exit with respect to the bottom left of the **Screen**. |
 | `Object ID` | **ObjectID** | The **Object ID** of the **Object** left.|
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
 ## See Also
 

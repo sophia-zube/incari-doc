@@ -2,7 +2,9 @@
 
 ## Overview
 
-![The On Mouse Move Node.](../../../.gitbook/assets/onmousemoveupdatedimage.png)
+![The On Mouse Move Node with Object base.](../../../.gitbook/assets/node-on-mouse-move-objbase.png)
+
+![The On Mouse Move Node with Screen base.](../../../.gitbook/assets/node-on-mouse-move-scrbase.png)
 
 **On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves either within an **Object** or anywhere in the **Screen**.
 
@@ -12,7 +14,7 @@ The **Attributes** allow the user to choose whether the `Event Base` is a specif
 
 ## Attributes
 
-![The On Mouse Move Node Attributes.](../../../.gitbook/assets/onmousemoveattributes.png)
+![The On Mouse Move Node Attributes.](../../../.gitbook/assets/node-on-mouse-move-attri.png)
 
 ### Event Base
 
@@ -36,6 +38,7 @@ Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Position` | **Vector2** | **Vector** containing the XY-coordinates of the points through which the cursor passes with respect to the bottom left of the **Screen**. |
 | `Object ID` | **ObjectID** | The **Object ID** of the **Object** where the cursos moves. If there is no **Object** on that part of the **Screen**, the output is the **Object ID** `00000000-0000-0000-0000-000000000000`.  |
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
 ## See Also
 
