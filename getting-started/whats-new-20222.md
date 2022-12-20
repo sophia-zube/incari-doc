@@ -4,7 +4,17 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
 * **New Camera System**
 
-    The new camera system...
+    On this release, a new **Camera** system has been introduced. With it, each **Scene** comes with a default **Camera** **Object** that is set to be the **Scene's** **Player Camera**, which is the **Camera** used when a **Scene** is initialized. This can be configured in the **Scene's** **Attributes**. 
+
+    Now, **Camera** **Objects** are treated as any other **Object** in **Incari** and the view of a **Scene** is configured directly in them. Moreover, any number of **Cameras** can be used in a **Scene** and be managed through the evolution of a **Scene** in the **Logic** with the new **Camera Nodes**.
+
+    **Camera Objects** have now new features:
+
+    * **Picture-in-Picture**: By selecting a **Camera** in the **Scene Outliner**, the user can see in the bottom right corner of the **Viewport** how the **Scene** looks like through that **Camera**.
+    * **Look Through**: Mode that allows the user to see in the **Viewport** what a **Camera** shows.
+    * **Proxies**: **Cameras** in the **Viewport** are displayed with their **Proxies**, which show which part of the **Scene** they will render.
+
+    See more about **Camera Objects**:
        
    * [**Camera Object**](../objects-and-types/scene-objects/camera.md) 
    * [**Camera 2D Object**](../objects-and-types/scene2d-objects/camera2d.md)
@@ -17,11 +27,11 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
 * **2D Workflow**
 
-    Previously in **Incari**, 2D and 3D components coexisted in the same space. However, workflow was very 3D-oriented, regardless of the dimsionality of an **Object**. Now **Incari** offers **Scene2Ds** alongside **Scenes**. **Scenes** continue to provide whatever a user would need in 3D space. **Scene2Ds** supply the user with the option for a 2D workflow, providing an imperative facet to *User Interface* design. 
+    Previously in **Incari**, *2D* and *3D* components coexisted in the same space. However, workflow was very *3D*-oriented, regardless of the dimensionality of an **Object**. Now **Incari** offers **Scene2Ds** alongside **Scenes**. **Scenes** continue to provide whatever a user would need in 3D space. **Scene2Ds** supply the user with the option for a *2D* workflow, providing an imperative facet to *User Interface* design. 
 
     In **Scene2Ds**, the workspace is truly only in two dimensions, in pixel space. For the order of **Objects**, an index is no longer required. Whatever way the **Objects** are listed in the **Scene Outliner** -- chosen by the user -- decides the order in which they are displayed.  
 
-    Since 2D and 3D are now treated separately in **Incari**, [**Overlay Objects**](../objects-and-types/scene-objects/overlay.md) have been created to bridge this so-called gap. This way,the user can specify a **Scene2D** to be rendered on top of a 3D **Scene**. 
+    Since *2D* and *3D* are now treated separately in **Incari**, [**Overlay Objects**](../objects-and-types/scene-objects/overlay.md) have been created to bridge this so-called gap. This way, the user can specify a **Scene2D** to be rendered on top of a 3D **Scene**. 
 
     3D **Scene Objects** are explained in detail [here.](../objects-and-types/scene-objects/README.md) There are also several [**2D Objects**](../objects-and-types/scene2d-objects/README.md) attributed to the **Scene2D** side of workflow in **Incari**. 
 
