@@ -2,9 +2,9 @@
 
 ![The On Lottie Finish Node.](../../../.gitbook/assets/node-on-lottie-finish.png)
 
-**On Lottie Finish** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *lottie* finishes playing.
+**On Lottie Finish** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* finishes playing.
 
-Note that this **Node** gets triggered when a *lottie* animation is completed. For executing a **Logic Branch** when a *lottie* animation is stopped, use [**On Lottie Stop**](on-lottie-stop.md).
+Note that this **Node** gets triggered when a *Lottie* animation is completed. For executing a **Logic Branch** when a *Lottie* animation is stopped, use [**On Lottie Stop**](on-lottie-stop.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -23,6 +23,7 @@ Note that this **Node** gets triggered when a *lottie* animation is completed. F
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Object ID` | **ObjectID** | The **Lottie Sprite** received as **Input**. | 
+
 
 # See Also
 

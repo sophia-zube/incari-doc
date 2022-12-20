@@ -2,7 +2,7 @@
 
 ![The On Lottie Pause Node.](../../../.gitbook/assets/node-on-lottie-pause.png)
 
-**On Lottie Pause** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *lottie* is paused.
+**On Lottie Pause** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* is paused.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -19,6 +19,7 @@
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 | `Object ID` | **ObjectID** | The **Lottie Sprite** received as **Input**. | 
+
 
 # See Also
 

@@ -58,7 +58,7 @@ Many new features have been added to the release of **Incari Studio** 2022.2. He
 
     * [**Lottie Sprite**](../objects-and-types/scene-objects/lottie-sprite.md):
         **Incari** now has a way to display `.lottie` files, a very popular file format for animations. These **Objects** provide the user with extended possibilities for visual creativity within a *User Interface*.
-        Moreover, **Nodes** for managing *lottie* animations as well as **Event Nodes** that are triggered by *lottie* animations have been introduced:
+        Moreover, **Nodes** for managing *Lottie* animations as well as **Event Nodes** that are triggered by *Lottie* animations have been introduced:
          * [**Play Lottie**](../toolbox/incari/lottie/play-lottie.md)
          * [**Pause Lottie**](../toolbox/incari/lottie/pause-lottie.md)
          * [**Stop Lottie**](../toolbox/incari/lottie/stop-lottie.md)

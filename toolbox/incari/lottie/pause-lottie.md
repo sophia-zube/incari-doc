@@ -2,7 +2,7 @@
 
 ![The Pause Lottie Node.](../../../.gitbook/assets/node-pause-lottie.png)
 
-The **Pause Lottie** **Node** pauses a *lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be paused.
+The **Pause Lottie** **Node** pauses a *Lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be paused.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -18,6 +18,7 @@ The **Pause Lottie** **Node** pauses a *lottie*. It receives as input the [**Obj
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+
 
 
 # See Also
