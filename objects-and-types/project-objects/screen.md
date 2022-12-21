@@ -21,14 +21,6 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 The `Color` **Attribute** defines the background color of the **Simulation** and is solid black by default.
 
 
-
-### Transformation
-
-Each **Screen** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
-
-
-
-
 ### Anti-Aliasing
 
 **FXAA**
