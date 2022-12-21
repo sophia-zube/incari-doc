@@ -15,7 +15,9 @@ While the **Lottie Sprite Object** has several **Attributes** that alter its vis
 
 Above, the `File` **Attribute** has been highlighted for the **Lotte Sprite Object**. This is where the user can select the appropriate file after activating the pop-up Menu. 
 
-![Lotte Sprite after Adding Asset.](need lottie sprite obj fixed)
+For now, there are two options when choosing a file for the **Lottie Sprite Object**. The user can use a *Lottie JSON* file and rename it from `FileName.json` to `FileName.lottie`. Or the user can use a compressed *Lottie* file, uncompress it, and then rename it from `FileName.json` to `FileName.lottie`. 
+
+![Lotte Sprite after Adding Asset.](../../.gitbook/assets/lottieexamplegif.gif)
 
 When the *.lottie* file is selected, it is displayed in the viewport of the **Scene Outliner**.
 
