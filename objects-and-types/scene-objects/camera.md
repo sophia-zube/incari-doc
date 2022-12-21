@@ -2,7 +2,7 @@
 
 **Camera** **Objects** determine which part of a **Scene** is shown on the **Screen** and how.
 
-Every **Scene** comes with a default **Player Camera** that is created when the **Scene** is created. Furthermore, the **Player Camera** is set on the **Attributes** of the **Scene**.
+Every **Scene** comes with a default **Player Camera** that is created when the **Scene** is created. The **Player Camera** is the **Camera** that is played when a **Scene** starts, and it can be set on the **Attributes** of the **Scene**.
 
 **Camera** **Objects** can be handled as any other **Object** in **Incari**, they have **Transformation Attributes** with which they can be *translated* and *rotated*.
 
@@ -10,11 +10,11 @@ Besides the usual **Attributes**, **Camera** **Objects** have a particular set o
 
 A **Scene** can have multiple **Cameras** and they are managed in the **Logic** using the [**Camera Nodes**](#camera-nodes).
 
-There are several features that allow the user to know how a **Camera** will show the scene while working on editing said **Scene**:
+There are several features that allow the user to know how a **Camera** will show the **Scene** while working on editing said **Scene**:
 
-* In the **Viewport**, the [**Player mode**](#player-mode) shows what the **Player Camera** will show when running the project.
+* In the **Viewport**, the [**Player mode**](#player-mode) shows what the **Player Camera** will show when running the **Project**.
 
-* [**Picture-in-Picture**](#picture-in-picture): By selecting a **Camera** in the **Scene Outliner**, the user can see in the bottom right corner of the **Viewport** how the **Scene** looks like through that **Camera**.
+* [**Picture-in-Picture**](#picture-in-picture): By selecting a **Camera** in the **Scene Outliner**, the user can see at the bottom-right corner of the **Viewport** how the **Scene** looks like through that **Camera**.
 
 * [**Look Through**](#look-through): Mode that allows the user to see in the **Viewport** what a **Camera** shows.
 
@@ -40,7 +40,7 @@ There are some **Attributes** that are specific for **Cameras**. These are the f
 
 `Angle of View` determines how much of a **Scene** can be seen by the **Camera**, much like the focal length of a camera lens. Increasing the AOV will make off-camera **Objects** progressively appear in the periphery of the screen and will therefore increase the amount of perspective distortion. Conversely, lower AOV levels will show a smaller range of **Objects**, with lower perspective distortion, and are good for more orthographic views.
 
-## Link Aspect Ratio to screen
+### Link Aspect Ratio to Screen
 
 When this **Attribute** is enabled, the *aspect ratio* of the **Camera** is obtained from the **Screen**. If it is disabled, the `Aspect Ratio` **Attribute** can be directly edited.
 
@@ -65,7 +65,7 @@ The **Player Mode** shows what the **Player Camera** will show once the **Scene*
 
 ## Picture in Picture
 
-When a **Camera** is selected in the **Scene Outliner**, an inset window appears at the bottom right of the **Viewport** showing what the selected **Camera** shows. The **Picture-in-Picture** inset window is highlighted in the picture below:
+When a **Camera** is selected in the **Scene Outliner**, an inset window appears at the bottom-right of the **Viewport** showing what the selected **Camera** shows. The **Picture-in-Picture** inset window is highlighted in the picture below:
 
 ![](../../.gitbook/assets/camera-pip2.png)
 
@@ -75,7 +75,7 @@ The example below shows the **Picture-in-Picture** feature throughout several **
 
 ## Look Through
 
-The **Look Through** mode allows the user to see in the **Viewport** what a **Camera** shows. To use it, right-click a **Camera** and select `Look Through` from the drop-down menu. Then, to leave this mode, just click on the `Leave Look Through` button at the top right of the **Viewport**:
+The **Look Through** mode allows the user to see in the **Viewport** what a **Camera** shows. To use it, right-click on a **Camera** and select `Look Through` from the drop-down menu. Then, to leave this mode, just click on the `Leave Look Through` button at the top right of the **Viewport**:
 
 ![](../../.gitbook/assets/camera-lookthrough1.gif)
 
@@ -87,7 +87,7 @@ When a **Camera** is selected in the **Scene Outliner**, its **Proxy** appears i
 
 ## Camera Nodes
 
-The **Camera Nodes** allow the user to manage the **Cameras** in a **Scene**. These are:
+The [**Camera Nodes**](../../toolbox/incari/camera/README.md) allow the user to manage the **Cameras** in a **Scene**. These are:
 
 * [**Get Active Cameras**](../../toolbox/incari/camera/get-active-camera.md)
 * [**Get All Cameras**](../../toolbox/incari/camera/get-all-cameras.md)

@@ -26,9 +26,7 @@ The `Color` **Attribute** defines the background color of the **Simulation** and
 
 Each **Screen** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
 
-### Camera
 
-Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the [**Camera**](../scene-objects/camera.md) page.
 
 
 ### Anti-Aliasing
