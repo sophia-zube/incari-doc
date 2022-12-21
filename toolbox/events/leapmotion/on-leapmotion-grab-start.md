@@ -2,26 +2,17 @@
 
 ![The On Leapmotion Grab Start Node.]()
 
-**On Leapmotion Grab Start** .
+**On Leap Motion Grab Start** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Grab Action* starts.
 
-[**Scope**]():
+[**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+| `Grab Event` | **Dictionary** | |
 
 # See Also
 
