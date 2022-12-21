@@ -8,15 +8,9 @@ The **Screen Object** in **Incari** contains the technical specifications of the
 
 A **Screen's Attributes** can be edited by selecting it in the **Project Outliner** and adjusting them in the **Attribute Editor**, like you would with **Scene Objects**.
 
-### Transformation
-
-Each **Screen** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
-
-### Camera
-
-Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the [**Camera**](../scene-objects/camera.md) page.
-
 ### Simulation Window
+
+`Size` defines the size of the **Simulation Window**, in pixels.
 
 `Position` defines the offset position, in pixels, that the **Simulation** will be displayed on your monitor. This means that when you are working on a multi-display system, you can preview **Screens** on separate parts of your monitor.
 
@@ -26,7 +20,20 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 The `Color` **Attribute** defines the background color of the **Simulation** and is solid black by default.
 
-### FXAA
+
+
+### Transformation
+
+Each **Screen** has the standard **Transformation Attributes**. Note that two-dimensional **Objects**, such as **Text** and **Sprites**, should have the same **Transformation** as the **Screen** and sit on the same plane.
+
+### Camera
+
+Each **Screen** has a built-in **Camera Object**, with the same **Attributes**. For more information, take a look at the [**Camera**](../scene-objects/camera.md) page.
+
+
+### Anti-Aliasing
+
+**FXAA**
 
 **Fast Approximate Anti-Aliasing** \(**FXAA**\) is a post-processing effect, which detects edges in an image and smooths them. This _may_ help improve how *2D* and *3D* **Objects** are displayed. _After_ each frame has been rendered, the effect is applied per-pixel and doesn't consider *3D* geometry or know what should be smoothed and what shouldn't. As a result, it may unintentionally smooth the wrong parts of the image and may not be the best option. It is often a trade-off between improved smoothness of jagged areas of geometry at the loss of some crispness of textures.
 

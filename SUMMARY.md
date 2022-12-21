@@ -27,7 +27,7 @@
   * [Scene](objects-and-types/project-objects/scene.md)
   * [Scene2D](objects-and-types/project-objects/scene2d.md)
   * [Screen](objects-and-types/project-objects/screen.md)
-  * [HMD](objects-and-types/project-objects/hmd.md)
+  <!-- * [HMD](objects-and-types/project-objects/hmd.md) -->
 * [Scene Objects](objects-and-types/scene-objects/README.md)
   * [Vector](objects-and-types/scene-objects/vector.md)
   * [Audio](objects-and-types/scene-objects/audio.md)
@@ -47,12 +47,12 @@
   * [Text](objects-and-types/scene-objects/3dobjects/text.md)
   * [Video](objects-and-types/scene-objects/3dobjects/video.md)
   * [Web Sprite](objects-and-types/scene-objects/3dobjects/web-sprite.md)
-* [Scene2D Objects](objects-and-types/scene2d-objects/README.md)
+<!-- * [Scene2D Objects](objects-and-types/scene2d-objects/README.md)
   * [Camera 2D](objects-and-types/scene2d-objects/camera2d.md)
   * [Frame](objects-and-types/scene2d-objects/frame.md)
   * [Group 2D](objects-and-types/scene2d-objects/group2d.md)
   * [Image](objects-and-types/scene2d-objects/image.md)
-  * [Label 2D](objects-and-types/scene2d-objects/label2d.md)
+  * [Label 2D](objects-and-types/scene2d-objects/label2d.md) -->
 * [Prefabs](objects-and-types/prefabs/README.md)
   * [Creating and Using Prefabs](objects-and-types/prefabs/creating-and-using-prefabs.md)
   * [Logic in Prefabs](objects-and-types/prefabs/logic-prefabs.md)
