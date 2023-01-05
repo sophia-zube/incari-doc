@@ -4,7 +4,7 @@
 
 The **Project Outliner** contains a structured list of every **Scene** and **Screen** in a **Project** and can be used to organize, manage, create, delete, and edit them.
 
-![](../.gitbook/assets/project-outliner.PNG)
+![](../.gitbook/assets/project-outliner_20222.PNG)
 
 ## Creating
 
@@ -15,7 +15,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 * Select `File` > `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.
 
-![](../.gitbook/assets/right-click-scene.PNG)
+![](../.gitbook/assets/right-click-scene_20222.PNG)
 
 ## Deleting
 
@@ -24,7 +24,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 * Right-click on an item and select the `Delete` button from the pop-up.
 * Select an item and press `del`.
 
-![](../.gitbook/assets/delete-scene.PNG)
+![](../.gitbook/assets/delete-scene-screen.gif)
 
 ## Renaming
 
