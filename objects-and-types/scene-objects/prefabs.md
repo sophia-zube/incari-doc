@@ -10,7 +10,7 @@ The first section shows how to create and use **Prefabs** and the second section
 
 To create a **Prefab**, go to the **Scene Outliner** and select the **Objects** that will compose the **Prefab**, then right-click and click on `Make Prefab`. This will create a **Prefab** consisting of the selected **Objects** and a new **Prefab** **Asset** will be generated in the **Asset Manager**.
 
-![Creating a **Prefab**.](../../.gitbook/assets/prefabs1.gif)
+![Creating a **Prefab**.](../../.gitbook/assets/sceneobjectsprefabsimage1.gif)
 
 New instances of the **Prefab** can be created by either duplicating the existing **Prefab** in the **Scene Outliner** or by dragging the **Prefab Asset** from the **Asset Manager** to the **Scene Outliner** or the **Scene**.
 
