@@ -11,7 +11,7 @@ Like any other **Scene Object**, we can manipulate the **Position**, **Rotation*
 
 ## Mesh Asset
 
-![](../../.gitbook/assets/meshicon.png)
+![](../../.gitbook/assets/meshimage1.png)
 
 The `Mesh Asset` **Attribute** contains a reference to a 3D file in your **Asset Manager**. We currently have limited support for `.3ds`, `.ply`, `.dae` and `.fbx` files, however we recommend using `.obj`, since the importer has been widely tested and rarely has any issues.
 
