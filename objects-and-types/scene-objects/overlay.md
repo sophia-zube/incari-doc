@@ -7,7 +7,7 @@
 To start, the user must create a **Scene2D** and populate it with the desired *2D* components. This can be done in the **Project Outliner**. After it is created and dragged to the correct **Screen**, the user just needs to locate the appropriate tab at the top of the window, below the Menu bar of **Incari Studio**. 
 
 ![](../../.gitbook/assets/createscene2d.png)
-![](../../.gitbook/assets/createscene2d2.png)
+![](../../.gitbook/assets/overlayimage1.png)
 
 Once finished with any *2D* aspects for that particular **Scene2D**, the user then needs to go to the desired *3D* **Scene** in which they wish to overlay *2D* elements. 
 

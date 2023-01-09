@@ -7,11 +7,11 @@ As **Sprite** also shares some of its **Attributes** with other **Objects**, it 
 
 However, the most important **Attribute** is the `Diffuse Texture` under `Sprite`. Here the user can add a new image to the **Sprite**. 
 
-![Sprite Object before Asset is Selected.](../../../.gitbook/assets/spritebefore.png)
+![Sprite Object before Asset is Selected.](../../../.gitbook/assets/spriteimage1.png)
 
 Locate `Diffuse Texture` as shown above and select an **Asset** from the pop-up Menu.
 
-![Sprite Object after Asset is Selected.](../../../.gitbook/assets/spriteafter.png)
+![Sprite Object after Asset is Selected.](../../../.gitbook/assets/spriteimage2.png)
 
 Once selected, the **Asset** is displayed through the **Sprite**.
 

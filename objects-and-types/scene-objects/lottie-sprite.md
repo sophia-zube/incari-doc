@@ -15,7 +15,7 @@ To create a **Lottie Sprite Object**, simply click the plus icon at the top of t
 
 While the **Lottie Sprite Object** has several **Attributes** that alter its visual aspects, the most important is the `File` under `Lottie`. Here the user can select a `.lottie` file that has been placed in the **Asset Folder** of the **Project**. 
 
-![Lottie Sprite before Adding Asset.](../../.gitbook/assets/lottiesprite1.png)
+![Lottie Sprite before Adding Asset.](../../.gitbook/assets/lottiespriteimage1.png)
 
 Above, the `File` **Attribute** has been highlighted for the **Lottie Sprite Object**. This is where the user can select the appropriate file after activating the pop-up Menu. 
 
@@ -23,7 +23,7 @@ For now, there are two options when choosing a file for the **Lottie Sprite Obje
 
 Beware of assuming a compressed *Lottie* file with a `.lottie` extension is compatible with **Incari Studio**. Please uncompress it first and rename it after.
 
-![Lotte Sprite after Adding Asset.](../../.gitbook/assets/lottieexamplegif.gif)
+![Lotte Sprite after Adding Asset.](../../.gitbook/assets/lottiespriteimage2.gif)
 
 When the *.lottie* file is selected, it is displayed in the viewport of the **Scene Outliner** as a preview of the animation, which can be played, paused, and stopped with the respective buttons under `Simulation Preview`. 
 
