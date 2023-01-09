@@ -8,7 +8,7 @@ This section shows how to get started with **Prefabs**. It first describes how *
 
 To create a **Prefab**, go to the **Scene Outliner** and select the **Objects** that will compose the **Prefab**, then right-click and click on `Make Prefab`. This will create a **Prefab** consisting of the selected **Objects** and a new **Prefab** **Asset** will be generated in the **Asset Manager**.
 
-![Creating a **Prefab**.](../../.gitbook/assets/prefabs1.gif)
+![Creating a **Prefab**.](../../.gitbook/assets/creatingprefabimage1.gif)
 
 New instances of the **Prefab** can be created by either duplicating the existing **Prefab** in the **Scene Outliner** or by dragging the **Prefab Asset** from the **Asset Manager** to the **Scene Outliner** or the **Scene**.
 
@@ -22,7 +22,7 @@ To edit the **Prefab** **Asset**, double-click the **Prefab** in the **Asset Man
 
  
 
-![Editing the Prefab Asset.](../../.gitbook/assets/editmasterprefab.gif)
+![Editing the Prefab Asset.](../../.gitbook/assets/creatingprefabimage3.gif)
 
 The **Prefab** **View** is indicated by a purple circle. Changes made here affect all instances of the **Prefab**.
 

@@ -4,17 +4,17 @@
 
 The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down Menu on the top panel of **Incari**, or by right-clicking on the Menu bar in **Incari** and clicking on **Animation Editor** from the drop-down list, or simply by double-clicking an **Animation** **Asset** in the **Asset Manager**.
 
-![](../.gitbook/assets/animation-editor2.png)
+![](../.gitbook/assets/animationeditorimage1.png)
 
 ## Animation Editor Window
 
-![](../.gitbook/assets/animation-editor3.png)
+![](../.gitbook/assets/animationeditorimage2.png)
 
 **Animation Editor** - The main window, which contains all the options to create and edit an **Animation**. The specifics of its sections are described below.
 
 ## Toolbar
 
-![](../.gitbook/assets/animation-editor-top-panel.png)
+![](../.gitbook/assets/animationeditorimage3.png)
 
 The **Toolbar** offers several options to modify an **Animation**, such as adding or deleting an **Animation** **Block**, adding or deleting a **Keyframe**, and modifying the type of interpolation used. It also provides options for a better visualization of the timeline, such as a focus on just the visible lines and a toggle for the visibility of the tangent lines. The rest of the options are for enabling the preview, playing, and controlling of the **Animation**.
 
@@ -35,7 +35,7 @@ When a **Keyframe** is selected, its corresponding Bézier curve is shown in the
 
 When the **Animation** is run, the **Left Panel** shows the evolving values of the **Transformation Attributes**.
 
-![](../.gitbook/assets/anim-editor-run.gif)
+![](../.gitbook/assets/animationeditorimage4.gif)
 
 ## Animation Timeline
 
