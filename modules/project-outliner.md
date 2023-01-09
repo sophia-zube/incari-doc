@@ -4,7 +4,7 @@
 
 The **Project Outliner** contains a structured list of every **Scene** and **Screen** in a **Project** and can be used to organize, manage, create, delete, and edit them.
 
-![](../.gitbook/assets/project-outliner_20222.PNG)
+![](../.gitbook/assets/project-outliner_20222.png)
 
 ## Creating
 
@@ -15,7 +15,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 * Select `File` > `New Screen` or `New Scene` from the drop-down **Menu**.
 * Pressing `Ctrl`+`N` while the **Project Outliner** is active.
 
-![](../.gitbook/assets/right-click-scene_20222.PNG)
+![](../.gitbook/assets/right-click-scene_20222.png)
 
 ## Deleting
 
@@ -30,7 +30,7 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 **Screens** and **Scenes** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
-![](../.gitbook/assets/rename.PNG)
+![](../.gitbook/assets/rename-scene_20222.gif)
 
 ## Disabling Screens
 
@@ -38,17 +38,19 @@ When you **Start** the **Simulation** of a **Project** in **Incari**, all **Scre
 
 To disable a **Screen**, simply click the eye (👁) icon.
 
-![](../.gitbook/assets/disablingScreen.gif)
+![](../.gitbook/assets/disable-screen_20222.gif)
 
 ## Unassigned Scenes
 
 Unless a **Scene** is assigned to a **Screen**, it will appear under `Unassigned Scenes` and will be excluded from the **Simulation**. When a **Scene** is created it is unassigned by default -- unless a **Screen** was selected when it was created, then it will be assigned to that **Screen**.
 
+![](../.gitbook/assets/unassigned-screen_20222.gif)
+
 ## Rearranging Scenes
 
 **Scenes** can be rearranged easily by dragging and dropping them to a new place in the **Project Outliner**. Not only does this make it easier to organize **Scenes**, but you can also move them to an entirely different **Screen** or disable them completely by moving them into `Unassigned Scenes`.
 
-![](../.gitbook/assets/rearranging.gif)
+![](../.gitbook/assets/rearranging-scene_20222.gif)
 
 ## See Also
 
