@@ -22,19 +22,19 @@ The **Toolbar** shows a list of icons that are used to visualize certain feature
 
 ![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
-![](../.gitbook/assets/highlightUnhighlight.gif)
+![](../.gitbook/assets/highlightUnhighlighttest1.gif)
 
 ![](../.gitbook/assets/alignVerticalHorizontal.PNG) The **Align horizontally** and **Align vertically** icons will align a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
 
-![](../.gitbook/assets/alignHorizontally.gif)
+![](../.gitbook/assets/alignHorizontally202223.gif)
 
-![](../.gitbook/assets/alignVertically.gif)
+![](../.gitbook/assets/alignVertically202223.gif)
 
 ![](../.gitbook/assets/arrange.PNG) The **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
 
-![](../.gitbook/assets/arrangeHorizontally.gif)
+![](../.gitbook/assets/arrangeHorizontally202223.gif)
 
-![](../.gitbook/assets/arrangeVertically.gif)
+![](../.gitbook/assets/arrangeVertically202223.gif)
 
 ## 3 - Top Panel
 
@@ -74,7 +74,7 @@ An **Event** **Node** can be added to the **Events** tab by clicking on the add 
 
 Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (5).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
 
-![](../.gitbook/assets/addFunctions.gif)
+![](../.gitbook/assets/addFunctions202223.gif)
 {% endtab %}
 
 {% tab title="Variables" %}
@@ -82,7 +82,7 @@ Custom-built **Node Graphs** can be packaged as a **Function** and added to your
 
 The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (7).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
 
-![](../.gitbook/assets/addVariables.gif)
+![](../.gitbook/assets/addVariables202223.gif)
 {% endtab %}
 {% endtabs %}
 
