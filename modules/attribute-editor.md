@@ -8,5 +8,5 @@ While some **Attribute** types are shared between different **Objects**, others 
 
 To open the **Attribute Editor**, right-click on the Menu bar in **Incari** and click on **Attribute Editor** from the drop-down list. This can be seen in the illustration below:
 
-![](../.gitbook/assets/attributeeditorimage1.png)
+![](../.gitbook/assets/attributeeditorimage1again.png)
 
