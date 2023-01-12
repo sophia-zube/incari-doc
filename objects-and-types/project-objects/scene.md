@@ -1,6 +1,6 @@
 # Scene
 
-![](../../.gitbook/assets/iconscene.png)
+![](../../.gitbook/assets/rootimagereal.png)
 
 A **Scene** is a collection of **Objects** that represent different unique places within your *User Interface*, such as menus, maps, and media players. Each **Scene** has its own _3D_ space. The **Size** of each _3D_ space are determined by the **Attributes** of the **Screen** that it is assigned to.
 

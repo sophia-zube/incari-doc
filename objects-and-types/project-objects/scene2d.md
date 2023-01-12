@@ -1,5 +1,6 @@
 # Scene2D
 
+![](../../.gitbook/assets/scene2dimage.png)
 
 A **Scene2D** is a collection of  *2D* **Objects** that represent different unique places within your *User Interface*, such as menus, maps, and media players. Each **Scene2D** exists in two dimensions in pixel space. 
 
