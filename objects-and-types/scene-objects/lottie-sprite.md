@@ -25,7 +25,7 @@ Beware of assuming a compressed *Lottie* file with a `.lottie` extension is comp
 
 ![Lotte Sprite after Adding Asset.](../../.gitbook/assets/lottiespriteimage2.gif)
 
-When the *.lottie* file is selected, it is displayed in the viewport of the **Scene Outliner** as a preview of the animation, which can be played, paused, and stopped with the respective buttons under `Simulation Preview`. 
+When the *.lottie* file is selected, it is displayed in the **Viewport** as a preview of the animation, which can be played, paused, and stopped with the respective buttons under `Simulation Preview`. 
 
 There are several **Nodes** that are attributed to **Lottie Sprite Objects**. More information can be found [here](../../toolbox/incari/lottie/README.md) and [here.](../../toolbox/events/lottie/README.md)
 
