@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leapmotion Swipe Right Node.]()
+![The On Leap Motion Swipe Right Node.](../../../.gitbook/assets/onleapmotionswiperight.png)
 
 **On Leap Motion Swipe Right** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Swipe Right Action* occurs.
 
@@ -12,9 +12,9 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-| `Grab Event` | **Dictionary** | |
+| `Swipe Right` | **Dictionary** |Returns a **Dictionary** of the action's [properties](README.md#properties). |
 
 # See Also
 
-# External Links
+* [**On Leap Motion Swipe Left**](on-leapmotion-swipe-left.md)
 
