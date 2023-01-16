@@ -209,7 +209,7 @@
     * [On ImageSequence Pause](toolbox/events/imagesequence/on-imagesequence-pause.md)
     * [On ImageSequence Play](toolbox/events/imagesequence/on-imagesequence-play.md)
     * [On ImageSequence Stop](toolbox/events/imagesequence/on-imagesequence-stop.md)
-  <!-- * [LeapMotion](toolbox/events/leapmotion/README.md)
+  * [LeapMotion](toolbox/events/leapmotion/README.md)
     * [On Leap Motion Grab End](toolbox/events/leapmotion/on-leapmotion-grab-end.md)
     * [On Leap Motion Grab Start](toolbox/events/leapmotion/on-leapmotion-grab-start.md)
     * [On Leap Motion Grab Update](toolbox/events/leapmotion/on-leapmotion-grab-update.md)
