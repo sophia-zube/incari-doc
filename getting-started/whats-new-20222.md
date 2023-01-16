@@ -54,9 +54,9 @@ There are also **Nodes** that allow the user to manage *tags* in the **Logic**. 
   * [**Remove Tag**](../toolbox/incari/object/remove-tag.md), which removes a *tag* from an **Object**.
 
  
-## **New Objects**
+## **New Scene Objects**
 
-This version of **Incari** introduces three new **Objects**. They are:
+This version of **Incari** introduces three new **Scene Objects**. They are:
     
   * [**Audio**](../objects-and-types/scene-objects/audio.md):  
         The new **Audio Objects** let the user incorporate aural information into a *User Interface*, such as music or recorded speech. Currently, only `.mp3` files are supported, but more formats are anticipated to follow in the future.

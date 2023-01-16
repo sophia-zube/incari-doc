@@ -43,7 +43,7 @@
   * [On-Screen Keyboard](objects-and-types/scene-objects/3dobjects/onscreenkeyboard.md)
   * [Overlay](objects-and-types/scene-objects/overlay.md)
   * [Sprite](objects-and-types/scene-objects/3dobjects/sprite.md)
-  * [Svg](objects-and-types/scene-objects/3dobjects/svg.md)
+  <!--* [Svg](objects-and-types/scene-objects/3dobjects/svg.md)-->
   * [Text](objects-and-types/scene-objects/3dobjects/text.md)
   * [Video](objects-and-types/scene-objects/3dobjects/video.md)
   * [Web Sprite](objects-and-types/scene-objects/3dobjects/web-sprite.md)
@@ -209,7 +209,7 @@
     * [On ImageSequence Pause](toolbox/events/imagesequence/on-imagesequence-pause.md)
     * [On ImageSequence Play](toolbox/events/imagesequence/on-imagesequence-play.md)
     * [On ImageSequence Stop](toolbox/events/imagesequence/on-imagesequence-stop.md)
-  * [LeapMotion](toolbox/events/leapmotion/README.md)
+  * [Leap Motion](toolbox/events/leapmotion/README.md)
     * [On Leap Motion Grab End](toolbox/events/leapmotion/on-leapmotion-grab-end.md)
     * [On Leap Motion Grab Start](toolbox/events/leapmotion/on-leapmotion-grab-start.md)
     * [On Leap Motion Grab Update](toolbox/events/leapmotion/on-leapmotion-grab-update.md)

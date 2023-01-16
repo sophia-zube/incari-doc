@@ -111,8 +111,7 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 * [**Mesh**](mesh.md)
 * [**On-Screen Keyboard**](3dobjects/onscreenkeyboard.md)
 * [**Overlay**](overlay.md)
-* [**Sprite**](3dobjects/sprite.md)
-* [**Svg**](3dobjects/svg.md)
+* [**Sprite**](3dobjects/sprite.md)<!--* [**Svg**](3dobjects/svg.md)-->
 * [**Text**](3dobjects/text.md)
 * [**Video**](3dobjects/video.md)
 * [**Web Sprite**](3dobjects/web-sprite.md)
