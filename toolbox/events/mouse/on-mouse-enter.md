@@ -4,7 +4,7 @@
 
 ![The On Mouse Enter Node with Object base.](../../../.gitbook/assets/node-on-mouse-enter-objbase.png)
 
-![The On Mouse Enter Node with Screen base.](../../../.gitbook/assets/node-on-mouse-enter-screenbase.png)
+![The On Mouse Enter Node with Screen base.](../../../.gitbook/assets/node-on-mouse-enter-screenbase2.png)
 
 **On Mouse Enter** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor enters an **Object**.
 
