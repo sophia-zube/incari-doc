@@ -1,8 +1,8 @@
-# Vector2D
+# Vector
 
-The **Vector2D Objects** provide alternatives to their **Vector** counterparts and encompass several two-dimensional shapes that help build up the visual aspects of a _User Interface_. Unlike **Vector2D**, **Vector Objects** don't contain Z axis components.
+The **Vector Objects** in **Scene2Ds** provide alternatives to their **Vector** counterparts in 3D **Scenes** and encompass several two-dimensional shapes that help build up the visual aspects of a _User Interface_. Unlike **Vector Objects** in 3D **Scenes**, **Vector Objects** in **Scene2Ds** don't contain Z axis components.
 
-There are several **Vector2D Objects** that are described below:
+There are several **Vector Objects** that are described below:
 
 * [Arc](vector2d.md#arc)
 * [Ellipse](vector2d.md#ellipse)
@@ -26,7 +26,7 @@ A circular **2D** **Object** that is restricted to the X and Y axes.
 
 ## Line
 
-A linear **2D** **Object** that is restricted to the X and Y axes. There are several **Nodes** attributed to **Line2D Objects**, which can be found [_here_](../../toolbox/incari/vector/line/README.md).
+A linear **2D** **Object** that is restricted to the X and Y axes. There are several **Nodes** attributed to **Line Objects**, which can be found [_here_](../../toolbox/incari/vector/line/README.md).
 
 ![Line](../../.gitbook/assets/2dsceneline.png)
 
