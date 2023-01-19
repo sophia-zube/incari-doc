@@ -1,10 +1,10 @@
 # Overview
 
-![The Unsubscribe Node.](../../../.gitbook/assets/unsubscribenode.png)
+![The Unsubscribe Node.](../../.gitbook/assets/unsubscribeupdatedimage.png)
 
 The **Unsubscribe Node** allows the user to disconnect, or unsubscribe, from an **Event**. It requires the ID of the **Event** the user wishes to unsubscribe from. 
 
-[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
@@ -25,7 +25,5 @@ The following example shows how to properly configure the **Unsubscribe Node** w
 
 ![Unsubscribe Node Example Usage](../../../.gitbook/assets/unsubscribeexample.png)
 
-# See Also
 
-* [Events](../../events/README.md)
 
