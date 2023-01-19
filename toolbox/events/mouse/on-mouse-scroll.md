@@ -36,7 +36,7 @@ Note: **Input Sockets** only available when `Event Base` is set to `Object`.
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector2** | **Vector** whose Y-coordinate indicates the direction and speed of the scrolling. |
+| `Direction` | **Vector2** | **Vector** whose Y-coordinate indicates the direction and speed of the scrolling. |
 | `Object ID` | **ObjectID** |  The **Object ID** of the **Object** where the scroll occurs. If there is no **Object** on that part of the **Screen**, the output is the **Object ID** `00000000-0000-0000-0000-000000000000`. |
 |`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../../incari/event/unsubscribe.md) to unsubscribe from the **Event**.|
 
