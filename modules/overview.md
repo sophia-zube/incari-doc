@@ -23,7 +23,7 @@ The usefulness of **Modules** is evident, as they keep **Incari Studio's** *Inte
   * [**Default Shadeless Model**](material-editor/shadeless-model.md)
   * [**Default Phong Material**](material-editor/phong-model.md)
 * [**Model Editor**](model-editor.md)
-* [**Plugins**](plugins-editor.md)
+* [**Plugins**](plugins/README.md)
 * [**Profiler View**](profiler-view.md)
 * [**Project Outliner**](project-outliner.md)
 * [**Project Settings**](project-settings.md)

@@ -106,7 +106,7 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
-**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins-editor.md) to find out more information.
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/README.md) to find out more information.
 
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 

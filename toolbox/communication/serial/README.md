@@ -2,7 +2,7 @@
 
 The **Serial** **Nodes** allow the user to connect to serial devices -- like GPS devices -- via USB or serial ports using *Serial* *Communication*. *Serial* *Communication* sends single bits of data at a time, sequentially, through a communication channel/bus. To use the **Serial** **Nodes** in **Incari**, the user first needs to locate the [**Serial Attributes**](../../../modules/project-settings.md#serial) in **Project** **Settings** and add a `Connection`. 
 
-This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **Serial Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins-editor.md) to find out more information.
+This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **Serial Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 
 ## Serial Guideline
 
