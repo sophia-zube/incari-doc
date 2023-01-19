@@ -4,11 +4,11 @@ The **Plugins Module** allows the user to activate or deactivate different compo
 
 The **Plugins Module** looks like this when it is opened: 
 
-![](../.gitbook/assets/pluginsstart.png)
+![](../../.gitbook/assets/pluginsstart.png)
 
 After clicking the arrow, **Communication** options are revealed. The checkmark is an important visualization of how the **Plugins** function. When a component is activated, a checkmark is present next to the name. If deactivated, the checkmark disappears. This makes it easy to see which components are in use or not without needing to click each one. 
 
-![](../.gitbook/assets/pluginsserialmanager.png)
+![](../../.gitbook/assets/pluginsserialmanager.png)
 
 ## SerialManager 
 
@@ -18,16 +18,16 @@ To refresh, **Serial Communication** is a form of data transmission where data i
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
-![](../.gitbook/assets/pluginsserialmanager2_green.png)
+![](../../.gitbook/assets/pluginsserialmanager2_green.png)
 
 **Incari** will alert the user of this by outputting this message to the screen:
 
-![](../.gitbook/assets/pluginsserialmanageroffmessage.png)
+![](../../.gitbook/assets/pluginsserialmanageroffmessage.png)
 
 By following these instructions (save and restart **IncariStudio**) the user will deactivate the **SerialManager**. 
 
 Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **SerialManager** will be gone and the toggle labeled `Deactivated`. 
 
-![](../.gitbook/assets/deactivated1_green.png)
+![](../../.gitbook/assets/deactivated1_green.png)
 
 To activate again, the user just needs to repeat this by clicking `Deactivated` and saving and restarting again. 
