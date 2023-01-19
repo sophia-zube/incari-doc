@@ -60,9 +60,9 @@ Many new features have been added to the release of **Incari Studio** 2022.1. He
 
 * **Plugins** 
   
-    <!--The [**Plugins Editor**](../modules/plugins-editor.md) holds the ability to activate or deactivate **Communication** in **Incari**. For example, **Serial Manager Communication** can be toggled on and off from the **Editor**. When deactivated, **Incari Player** will not load anything related to **Serial Communication** in order to improve performance and stability.  -->
+    <!--The [**Plugins Editor**](../modules/plugins/README.md) holds the ability to activate or deactivate **Communication** in **Incari**. For example, **Serial Manager Communication** can be toggled on and off from the **Editor**. When deactivated, **Incari Player** will not load anything related to **Serial Communication** in order to improve performance and stability.  -->
 
-    The [**Plugins**](../modules/plugins-editor.md) has the ability to activate or deactivate components in **Incari**. At the moment this applies to **Communication** only. For example, **Serial Manager Communication** can be toggled on and off from the **Plugins Module** with the **SerialManager** option. Deactivating **Serial Communication** stops **Incari Player** from loading anything related to it.  
+    The [**Plugins**](../modules/plugins/README.md) has the ability to activate or deactivate components in **Incari**. At the moment this applies to **Communication** only. For example, **Serial Manager Communication** can be toggled on and off from the **Plugins Module** with the **SerialManager** option. Deactivating **Serial Communication** stops **Incari Player** from loading anything related to it.  
 
 
 * **Format Nodes**
