@@ -23,7 +23,7 @@ The **Unsubscribe Node** allows the user to disconnect, or unsubscribe, from an 
 
 The following example shows how to properly configure the **Unsubscribe Node** with an **Event**. 
 
-![Unsubscribe Node Example Usage](../../../.gitbook/assets/unsubscribeexample.png)
+![Unsubscribe Node Example Usage](../../.gitbook/assets/unsubscribeexample2.png)
 
 
 

@@ -1,12 +1,12 @@
-# Scene Objects
+# Scene2D Objects
 
-An **Object** in **Incari** is any entity which can be added to a **Scene**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviors, and characteristics.
+ **Scene2Ds** also have several **Objects**. "**Object**" is a broad term used to describe a number of different components, each with their own purpose, behaviors, and characteristics.
 
 For in-depth descriptions of each type of **Object**, see the [**Table of Contents**](#contents) below.
 
 ## Managing Objects
 
-**Objects** in a **Scene** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section. They are effectively the same processes that govern **2D Objects**. 
+**Objects** in a **Scene2D** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section. They are effectively the same processes that govern **2D Objects**. 
 
 ![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/2dsceneoutliner.png)
 
@@ -17,7 +17,7 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 * [`Object`](../attributes/common-attributes/object.md): The `Name`, `Type`, and `Opacity` of an **Object** are shown here.
 * [`Tag`](../attributes/common-attributes/tag.md): _Metadata_ that serves as an identifier for an **Object** or several of them.
 <!--* [`Sprite`](../attributes/common-attributes/sprite.md): They determine how an **Object** is visualized in a **Scene**.-->
-* [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene**.
+* [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene2D**.
 
 <div>
 <figure><img src="../../.gitbook/assets/2datteditor.png" alt=""><figcaption><p>Object Attributes.</p></figcaption></figure>
@@ -30,9 +30,6 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 </div>
 
 
-## Prefabs
-
-**Prefabs** are not available in Scene2Ds.
 
 <!--**Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them, or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
 
