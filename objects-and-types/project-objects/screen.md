@@ -45,3 +45,20 @@ Like **FXAA**, the effect can be disabled/enabled by toggling the `Enabled` opti
 
 ![](../../.gitbook/assets/ssao.gif)
 
+
+### Lensflare
+
+*Lens flares* are rings or circles that provide a haze to a **Scene**. This flare occurs when a bright light source shines directly into the **Camera** lens.
+
+### Bloom
+
+*Bloom* creates the effect of light bleeding from bright areas onto their surroundings. Hence, when *Bloom* is enabled, fringes of light extend from the border of these bright areas, thus simulating the effect perceived in real-life camera lenses.
+
+The way this effect is achieved is by blurring and brightening the areas with a luminosity over a certain threshold.
+
+Furthermore, there are two customizable **Attributes** for this effect:
+
+* `Blur Repeat`: Number of times that the *blur* effect is applied over the part of the image trespassing the `Luminance Threshold`.
+
+* `Luminance Threshold`: Threshold over which the effect is applied. The areas whose luminosity exceeds this value are blurred and brightened to achieve the desired effect.
+
