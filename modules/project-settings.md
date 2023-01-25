@@ -8,7 +8,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 {% tab title="CAN" %}
 #### CAN
 
-![The CAN Settings.](../.gitbook/assets/can20222.png)
+![The CAN Settings.](../.gitbook/assets/projectsettingscan2.png)
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
@@ -28,7 +28,7 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 {% tab title="Fonts" %}
 #### Fonts
 
-![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-font.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettingsfonts2.png)
 
 The **Fonts Settings** let the user define different types of _fonts_ to add personalized style to texts.
 
@@ -42,7 +42,7 @@ In the **Font Manager**, the user can manage their _fonts_: using the `+` button
 {% tab title="HTTP" %}
 #### HTTP
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttpnew.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttp2.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -58,7 +58,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 {% tab title="Keyboard" %}
 #### Keyboard
 
-![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard.png)
+![The Keyboard Settings.](../.gitbook/assets/projectsettingskeyboard2.png)
 
 The **Keyboard Settings** let the user define new _layouts_ that can then be used for **On-Screen Keyboards**.
 
@@ -67,6 +67,24 @@ In the **Layout Manager**, the user can manage all their custom _layouts_: using
 To create a new _layout_, a **Keyboard Layout** **Asset** is necessary. One can be created either in the **Asset Manager** or directly in the **Layout Manager** by clicking on the `Layout Asset` slot. The default for a newly created **Keyboard Layout** **Asset** is the English keyboard, which can be further modified in the **Code Editor**.
 
 The `Layout Name` is also defined in the **Layout Manager**. This is the name with which custom _layouts_ defined in the **Layout Manager** will appear in the `Layout` **Attribute** for **On-Screen Keyboards**.
+{% endtab %}
+
+{% tab title="MAVLink" %}
+#### MAVLink
+
+
+![The MAVLink Settings.](../.gitbook/assets/projectsettingsmavlink.png)
+
+The **MAVLink Settings** cover the necessary data to provide functionality to the **MAVLink Nodes**.
+
+`Dialect` holds the 'rules' and messages of the protocol, in *XML* format. 
+
+`Name` is an identifying name of a _MAVLink_ system chosen at the user's discretion. This will show up in the **Nodes** as a choice for the `Configuration` **Attribute**.
+
+`Channel` is the link ID of a MAVLink packet. 
+
+`Baud Rate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
+
 {% endtab %}
 
 {% tab title="MQTT" %}
@@ -118,8 +136,64 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 `Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 {% endtab %}
-{% endtabs %}
 
+
+
+{% tab title="SocketIO" %}
+#### SocketIO
+
+![The SocketIO Settings](../.gitbook/assets/projectsettingssocketio.png)
+
+`Name` 
+
+`URL` 
+
+`Port`
+
+{% endtab %}
+
+{% tab title="TCP Connection" %}
+#### TCP Connection
+
+![The TCP Connection Settings.](../.gitbook/assets/projectsettingstcpconnection.png)
+
+`Name` 
+
+`Hostname` 
+
+`Port` 
+
+`Is IPv6` 
+
+`Connection Mode` 
+
+`Automatic Reconnect` 
+
+{% endtab %}
+
+{% tab title="UDP Connection" %}
+#### UDP Connection
+
+![The UDP Connection Settings.](../.gitbook/assets/projectsettingsudpconnection.png)
+
+`Name` 
+
+`Local Port` 
+
+`Is Local IPv6` 
+
+`Remote Hostname` 
+
+`Remote Port` 
+
+`Is Remote IPv6` 
+
+`Automatic Rebind` 
+
+`Automatic Remote IP Address`
+
+{% endtab %}
+{% endtabs %}
 ## See Also
 
 * [**Communication Nodes**](../toolbox/communication/)
