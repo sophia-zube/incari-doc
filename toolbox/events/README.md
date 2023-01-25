@@ -8,14 +8,15 @@ _Triggers_ can be thought of as being like announcements. A real-world example o
 
 **Events** in **Incari** can be directly triggered by the user's input, as is the case with **Keyboard** and **Mouse Events**, or triggered automatically when something happens relating to an **Object**, **Variable**, **Scene**, or **Screen**. One of the most powerful aspects of **Incari's** **Events** is that you can even define your own custom _triggers_ and _listeners_, to establish the criteria under which one part of your **Logic** causes the execution of others.
 
+## Subscribing and Unsubscribing
 
 ![An Example of a Node with a Subscribe input and an Event ID output.](../../.gitbook/assets/eventsubscribeeventidexample.png)
 
-Many **Event** **Nodes** have an additional `Subscribe` input and all have an `Event ID` output.
+Many **Event** **Nodes** have an additional `Subscribe` input pulse and all have an `Event ID` output.
 
-`Subscribe` can effectively be used to instigate a connection with an **Event** using some arbitrary action chosen by the user. This does not apply to **Event Nodes** that subscribe on initialization. 
+`Subscribe` is used to start listening to an **Event** using some arbitrary action chosen by the user to trigger it. This does not apply to **Event Nodes** that subscribe on initialization. 
 
-Once an **Event** is subscribed to, it can be unsubscribed from. This requires the **Event's** *ID*. If you recall, all items in **Incari** have a unique instance ID. In this case, an **Event ID** is a unique *ID* to a specific **Event**. This can be attached to the [**Unsubscribe Node**](unsubscribe.md), thus ending a connection to the **Event**. For **Nodes** with a `Subscribe` input, this can create a loop of subscribing and unsubscribing. *Events** that are subscribed to on initialization can only be unsubscribed from once. 
+Once an **Event** is subscribed to, it can be unsubscribed from. This requires the **Event's** *ID*. If you recall, all items in **Incari** have a unique ID. In this case, an **Event ID** is a unique ID to a specific **Event**. This can be attached to the [**Unsubscribe Node**](unsubscribe.md), thus ending a connection to the **Event**. For **Nodes** with a `Subscribe` input, this can create a loop of subscribing and unsubscribing. **Events** that are subscribed to on initialization can only be unsubscribed from once. 
 
 ![An Example of Subscribing and Unsubscribing.](../../.gitbook/assets/unsubscribeexample2.png)
 
