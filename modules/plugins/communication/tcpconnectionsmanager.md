@@ -1,8 +1,8 @@
 # TcpConnectionsManager
 
-After clicking on **TCPConnectionsManager**, its options will show. All **Serial Communication** related components are encompassed by the **SerialManager**. 
+After clicking on **TcpConnectionsManager**, its options will show. All **Serial Communication** related components are encompassed by the **SerialManager**. 
 
-To refresh, **TCP**, or *Transmission Control Protocol, is an integral form of data communication that is a part of the Internet protocol suite. More information can be found [here](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). Within **Incari**, this is done by using the [**TCP Nodes**]() and connections are configured in the [**Project Settings**](../../project-settings.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **TCP**, or *Transmission Control Protocol*, is an integral form of data communication that is a part of the Internet protocol suite. More information can be found [here](https://en.wikipedia.org/wiki/Transmission_Control_Protocol). Within **Incari**, this is done by using the [**TCP Nodes**]() and connections are configured in the [**Project Settings**](../../project-settings.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
@@ -12,9 +12,9 @@ To do this, the user needs simply to locate the toggle labeled `Activated` and c
 
 ![](../../../.gitbook/assets/pluginsserialmanageroffmessage.png)
 
-By following these instructions (save and restart **IncariStudio**) the user will deactivate the **TCPConnectionsManager**. 
+By following these instructions (save and restart **IncariStudio**) the user will deactivate the **TcpConnectionsManager**. 
 
-Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **TCPConnectionsManager** will be gone and the toggle labeled `Deactivated`. 
+Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **TcpConnectionsManager** will be gone and the toggle labeled `Deactivated`. 
 
 ![](../../../.gitbook/assets/tcpconnectionsmanager2.png)
 
