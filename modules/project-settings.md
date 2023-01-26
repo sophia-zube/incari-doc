@@ -124,7 +124,7 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
-**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/README.md) to find out more information.
+**Serial Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/communication/README.md) to find out more information.
 
 `Name` is an identifying name of a _Serial_ connection chosen at the user's discretion.
 
@@ -144,11 +144,15 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The SocketIO Settings](../.gitbook/assets/projectsettingssocketio.png)
 
+The **SocketIO Settings** allow the user to manage the **SocketIO Connections** and cover the necessary data to provide functionality to the **SocketIO** **Nodes**.
+
+**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/communication/README.md) to find out more information.
+
 `Name` is an identifying name of a *SocketIO* connection chosen at the user's discretion.
 
 `URL` is the *URL* of the server.
 
-`Port` is the port the user chooses to serve the *SocketIO* connection. This is often the same port as the website, which for _HTTP_is 80 and for _HTTPS_ is 443.
+`Port` is the port the user chooses to serve the *SocketIO* connection. This is often the same port as the website, which for _HTTP_ is 80 and for _HTTPS_ is 443.
 
 {% endtab %}
 
@@ -157,11 +161,15 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The TCP Connection Settings.](../.gitbook/assets/projectsettingstcpconnection.png)
 
+The **TCP Connection Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the **TCP** **Nodes**.
+
+**TCP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/communication/README.md) to find out more information.
+
 `Name` is an identifying name of a *TCP* server chosen at the user's discretion.
 
 `Hostname` is an identifying name of some device that is part of the connection. 
 
-`Port` is the port number of the connection. For a _TCP Connection_, the port of its server is often used, which is often 80.
+`Port` is the port number of the connection. For a _TCP Connection_, the port of its server is often used, which is usually 80.
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
@@ -176,9 +184,13 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The UDP Connection Settings.](../.gitbook/assets/projectsettingsudpconnection.png)
 
+The **UDP Connection Settings** allow the user to manage **UDP Connections** and cover the necessary data to provide functionality to the **UDP** **Nodes**. Messages are called datagrams.
+
+**UDP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/communication/README.md) to find out more information.
+
 `Name` is an identifying name of a *UDP* Connection's source.
 
-`Local Port` is the port number of the message's (datagram) source.
+`Local Port` is the port number of the datagram's source.
 
 `Is Local IPv6` can be enabled or disabled and applies only to the local port. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
@@ -186,14 +198,15 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 `Remote Port` is the port number of the message's (datagram) destination.
 
-`Is Remote IPv6` can be enabled or disabled and applies only to the remote port. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
+`Is Remote IPv6` can be enabled or disabled and applies only to the remote port.
 
 `Automatic Rebind` can be enabled or disabled. It allows a message to be sent to a socket that is already bound.
 
-`Automatic Remote IP Address` can be enabled or disabled. ??
+`Automatic Remote IP Address` can be enabled or disabled. It automatically sets the remote IP address for outgoing datagrams to the one of the most recent incoming datagrams.
 
 {% endtab %}
 {% endtabs %}
+
 ## See Also
 
 * [**Communication Nodes**](../toolbox/communication/)
