@@ -144,11 +144,11 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The SocketIO Settings](../.gitbook/assets/projectsettingssocketio.png)
 
-`Name` 
+`Name` is an identifying name of a *SocketIO* connection chosen at the user's discretion.
 
-`URL` 
+`URL` is the *URL* of the server.
 
-`Port`
+`Port` is the port the user chooses to serve the *SocketIO* connection. This is often the same port as the website, which for _HTTP_is 80 and for _HTTPS_ is 443.
 
 {% endtab %}
 
@@ -157,17 +157,17 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The TCP Connection Settings.](../.gitbook/assets/projectsettingstcpconnection.png)
 
-`Name` 
+`Name` is an identifying name of a *TCP* server chosen at the user's discretion.
 
-`Hostname` 
+`Hostname` is an identifying name of some device that is part of the connection. 
 
-`Port` 
+`Port` is the port number of the connection. For a _TCP Connection_, the port of its server is often used, which is often 80.
 
-`Is IPv6` 
+`Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Connection Mode` 
+`Connection Mode` is the state the connection finds itself in. This is either `Awaiting` or `Initiating`.
 
-`Automatic Reconnect` 
+`Automatic Reconnect` can be enabled or disabled. It keeps the TCP Connection open in the case that it has been broken. 
 
 {% endtab %}
 
@@ -176,21 +176,21 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 ![The UDP Connection Settings.](../.gitbook/assets/projectsettingsudpconnection.png)
 
-`Name` 
+`Name` is an identifying name of a *UDP* Connection's source.
 
-`Local Port` 
+`Local Port` is the port number of the message's (datagram) source.
 
-`Is Local IPv6` 
+`Is Local IPv6` can be enabled or disabled and applies only to the local port. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Remote Hostname` 
+`Remote Hostname` is an identifying name of a *UDP* Connection's destination.
 
-`Remote Port` 
+`Remote Port` is the port number of the message's (datagram) destination.
 
-`Is Remote IPv6` 
+`Is Remote IPv6` can be enabled or disabled and applies only to the remote port. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Automatic Rebind` 
+`Automatic Rebind` can be enabled or disabled. It allows a message to be sent to a socket that is already bound.
 
-`Automatic Remote IP Address`
+`Automatic Remote IP Address` can be enabled or disabled. ??
 
 {% endtab %}
 {% endtabs %}
