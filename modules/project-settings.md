@@ -8,7 +8,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 {% tab title="CAN" %}
 #### CAN
 
-![The CAN Settings.](../.gitbook/assets/projectsettingscan2.png)
+![The CAN Settings.](../.gitbook/assets/projectsettings-can3.png)
 
 The **CAN Settings** cover the necessary data to provide functionality to the **CAN Nodes**.
 
@@ -28,7 +28,7 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 {% tab title="Fonts" %}
 #### Fonts
 
-![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettingsfonts2.png)
+![The Project Settings Fonts Attributes.](../.gitbook/assets/projectsettings-fonts3.png)
 
 The **Fonts Settings** let the user define different types of _fonts_ to add personalized style to texts.
 
@@ -40,9 +40,9 @@ In the **Font Manager**, the user can manage their _fonts_: using the `+` button
 {% endtab %}
 
 {% tab title="HTTP" %}
-#### HTTP
+#### HTTP                       
 
-![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettingshttp2.png)
+![The Project Settings HTTP Attributes.](../.gitbook/assets/projectsettings-http3.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the **HTTP Nodes**.
 
@@ -58,7 +58,7 @@ The **HTTP Settings** cover the necessary data to provide functionality to the *
 {% tab title="Keyboard" %}
 #### Keyboard
 
-![The Keyboard Settings.](../.gitbook/assets/projectsettingskeyboard2.png)
+![The Keyboard Settings.](../.gitbook/assets/projectsettings-keyboard3.png)
 
 The **Keyboard Settings** let the user define new _layouts_ that can then be used for **On-Screen Keyboards**.
 
@@ -73,7 +73,7 @@ The `Layout Name` is also defined in the **Layout Manager**. This is the name wi
 #### MAVLink
 
 
-![The MAVLink Settings.](../.gitbook/assets/projectsettingsmavlink.png)
+![The MAVLink Settings.](../.gitbook/assets/projectsettings-mavlink3.png)
 
 The **MAVLink Settings** cover the necessary data to provide functionality to the **MAVLink Nodes**.
 
@@ -90,7 +90,7 @@ The **MAVLink Settings** cover the necessary data to provide functionality to th
 {% tab title="MQTT" %}
 #### MQTT
 
-![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettingsmqttnew.png)
+![The Project Settings MQTT Attributes.](../.gitbook/assets/projectsettings-mqtt3.png)
 
 The **MQTT Settings** allow to manage the **MQTT Connections** and cover the necessary data to provide functionality to the **MQTT Nodes**.
 
@@ -108,7 +108,7 @@ The **MQTT Settings** allow to manage the **MQTT Connections** and cover the nec
 {% tab title="Profiler" %}
 #### Profiler
 
-![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler.png)
+![The Project Settings Profiler Attributes.](../.gitbook/assets/projectsettings-profiler3.png)
 
 The **Profiler Settings** cover the necessary data to provide functionality to the **Profiler** **Module**.
 
@@ -120,7 +120,7 @@ The **Profiler Settings** cover the necessary data to provide functionality to t
 {% tab title="Serial" %}
 #### Serial
 
-![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial.png)
+![The Project Settings Serial Attributes.](../.gitbook/assets/projectsettings-serial3.png)
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the **Serial** **Nodes**.
 
@@ -142,7 +142,7 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 {% tab title="SocketIO" %}
 #### SocketIO
 
-![The SocketIO Settings](../.gitbook/assets/projectsettingssocketio.png)
+![The SocketIO Settings](../.gitbook/assets/projectsettings-socketio3.png)
 
 The **SocketIO Settings** allow the user to manage the **SocketIO Connections** and cover the necessary data to provide functionality to the **SocketIO** **Nodes**.
 
@@ -159,7 +159,7 @@ The **SocketIO Settings** allow the user to manage the **SocketIO Connections** 
 {% tab title="TCP Connection" %}
 #### TCP Connection
 
-![The TCP Connection Settings.](../.gitbook/assets/projectsettingstcpconnection.png)
+![The TCP Connection Settings.](../.gitbook/assets/projectsettings-tcp3.png)
 
 The **TCP Connection Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the **TCP** **Nodes**.
 
@@ -182,7 +182,7 @@ The **TCP Connection Settings** allow the user to manage **TCP Connections** and
 {% tab title="UDP Connection" %}
 #### UDP Connection
 
-![The UDP Connection Settings.](../.gitbook/assets/projectsettingsudpconnection.png)
+![The UDP Connection Settings.](../.gitbook/assets/projectsettings-udp3.png)
 
 The **UDP Connection Settings** allow the user to manage **UDP Connections** and cover the necessary data to provide functionality to the **UDP** **Nodes**. Messages are called datagrams.
 
