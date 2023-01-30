@@ -24,4 +24,6 @@ In the **Attribute Editor**, the desired **Scene2D** simply needs to be selected
 ![](../../.gitbook/assets/overlaybeforescene2d.png)
 ![](../../.gitbook/assets/overlayafterscene2d.png)
 
-Once this is done, the **Scene2D** will render over the *3D* **Scene**. 
+Once this is done, the **Scene2D** will render over the *3D* **Scene**. An example of this process is shown below, culminating in a **Player View** that displays the contents of the **Overlay Object**.
+
+![Overlay Object Example.](../../.gitbook/assets/overlayexamplegif.gif)
