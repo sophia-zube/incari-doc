@@ -30,6 +30,6 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 
 ## Layout
 
-The `Layout` of the **Frame** can be adjusted to display its children horizontally or vertically. 
+The `Layout` of the **Frame** can be adjusted to display its children horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
 
 ![Frame Layout.](../../.gitbook/assets/framelayout.gif)

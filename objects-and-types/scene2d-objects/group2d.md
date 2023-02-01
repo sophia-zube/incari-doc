@@ -2,7 +2,7 @@
 
 ![Example of a 2D Group in Incari](../../.gitbook/assets/groupexample.png)
 
-This page will describe **Groups** in **Scene2Ds**. The **Group** **Object** works like a folder, as it allows you to structure and organize **Objects**, making **Scenes** with high amounts of different **Objects** more manageable.
+This page will describe **Groups** in **Scene2Ds**. The **Group** **Object** works like a folder, as it allows you to structure and organize **Objects**, making **Scenes** with high amounts of different **Objects** more manageable. It is one out of two **Objects** in **Scene2Ds** that is capable of having children. 
 
 To jump ahead to a section, refer to the table of contents below:
 
@@ -41,6 +41,6 @@ A **Group** can be deleted in its entirety or one **Object** at a time.
 
 A useful function of the **Group** **Object** is that it allows you to transform multiple **Objects** relative to a single **Pivot Point**, as if they were are a single **Object**.
 
-Like any other **Scene Object**, we can manipulate its [**Transformation Attributes**](../attributes/common-attributes/transformation/README.md).
+Like any other **Scene Object**, we can manipulate its [**Transformation Attributes**](../attributes/common-attributes/transformation/README.md), albeit only in the X and Y directions.
 
 ![Transformations with a Group Object.](../../.gitbook/assets/group2dtransformation.gif)
