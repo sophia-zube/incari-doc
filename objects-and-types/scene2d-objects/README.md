@@ -19,16 +19,24 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 <!--* [`Sprite`](../attributes/common-attributes/sprite.md): They determine how an **Object** is visualized in a **Scene**.-->
 * [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene2D**.
 
+
+![Object Attributes.](../../.gitbook/assets/2datteditor.png)
+
+![Tag Attributes.](../../.gitbook/assets/attri-tag.png)
+
+![Transformation Attributes.](../../.gitbook/assets/2dtransformation.png)
+
+<!--
 <div>
 <figure><img src="../../.gitbook/assets/2datteditor.png" alt=""><figcaption><p>Object Attributes.</p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/attri-tag.png" alt=""><figcaption><p>Tag Attributes.</p></figcaption></figure>
 </div>
 
 <div>
-<!--<figure><img src="../../.gitbook/assets/attri-sprite.png" alt=""><figcaption><p>Sprite Attributes.</p></figcaption></figure>-->
+<figure><img src="../../.gitbook/assets/attri-sprite.png" alt=""><figcaption><p>Sprite Attributes.</p></figcaption></figure>
 <figure><img src="../../.gitbook/assets/2dtransformation.png" alt=""><figcaption><p>Transformation Attributes.</p></figcaption></figure>
 </div>
-
+-->
 
 
 <!--**Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them, or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/README.md) section.
@@ -59,13 +67,15 @@ The picture below shows an example. Here, `Object1` is the *parent* of `Object4`
 <figure><img src="../../.gitbook/assets/TreeStructure.png" alt=""><figcaption><p></p></figcaption></figure>
 </div> -->
 
+### Structure in a Scene 
 
+As in **Scenes**, **Objects** in **Scene2Ds** fall under some type of hierarchy. All **Objects** are children of the [**Root Object**](#root-object), but only two **Objects** can be *parents* themselves. These are **Groups** and **Frames**. No other **Objects** can contain *children* in **Scene2Ds**. 
 
 ### Root Object
 
 Every **Scene2D** has a **Root Object**, which is the _parent_ of all **Objects** that are on the first hierarchy level. Thus, all **Objects** in a **Scene2D** are _descendants_ of the **Root Object**. To obtain the **Object ID** of the **Root Object**, use the [**Get Root** **Node**](../../toolbox/incari/object/get-root.md).
 
-### Managing the Structure of Objects in a Scene2D
+<!--### Managing the Structure of Objects in a Scene2D
 
 In the **Scene Outliner**, there are three ways to make an **Object** the child of another:
 
@@ -83,6 +93,7 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 
 Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene2D** structure.
 
+-->
 ### Nodes 
 
 There are a few **Nodes** that allow the user to obtain and use information about the structure of **Objects** in a **Scene2D**. These are:
