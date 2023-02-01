@@ -196,7 +196,7 @@ The **UDP Connection Settings** allow the user to manage **UDP Connections** and
 
 `Remote Hostname` is the *UDP* endpoint (either a URL or IP address).
 
-`Remote Port` is the port number of the message's (datagram) destination.
+`Remote Port` is the port number of the datagram's destination.
 
 `Is Remote IPv6` can be enabled or disabled and applies only to the remote port.
 
