@@ -22,7 +22,7 @@ While the **Audio Object** has several **Attributes**, the most important  of wh
 
 A preview of the **Audio** can be played, paused, or stopped within its **Scene** of **Incari Studio** by clicking the respective buttons in the **Attribute Editor**.
 
-In order to use **Audios** in a **Project** and have them play in the **Player**, the user needs to use the **Video Nodes** in the **Logic Editor**. More information on using **Video Nodes** can be found [here](../../toolbox/incari/video/README.md) and [here.](../../toolbox/events/video/README.md) For understanding how to use **Object Nodes** in the **Logic Editor**, please refer to this [section](../../objects-and-types/scene-objects/README.md#objects-in-logic).
+In order to use **Audios** in a **Project** and have them play in the **Player**, the user needs to use the **Media Nodes** in the **Logic Editor**. More information on using **Media Nodes** can be found [here](../../toolbox/incari/media/README.md) and [here.](../../toolbox/events/media/README.md) For understanding how to use **Object Nodes** in the **Logic Editor**, please refer to this [section](../../objects-and-types/scene-objects/README.md#objects-in-logic).
 
 An example **Logic** configuration can be seen below. This would allow one to play the **Audio** with `A` on their keyboard and stop it with `B`. 
 
