@@ -10,5 +10,5 @@ As can be seen in the image above, the **Video Object** has an **Attribute** `in
 
 Once a file is selected, it is displayed in the viewport of the **Scene Outliner**. It can be played, paused, and stopped. Alternatively, the `Camera` would be selected for `Camera input`. This would be 0, 1, 2, and so on, depending on the coding of the devices connected to the user's machine. 
 
-Additionally, there are several **Nodes** attributed to **Video Objects**. More information can be found [here](../../../toolbox/incari/video/README.md) and [here.](../../../toolbox/events/video/README.md)
+Additionally, there are several **Nodes** that can be used for incorporating **Video Objects** into the **Logic** of a **Project**. These are the **Media Nodes**. More information can be found [here](../../../toolbox/incari/media/README.md) and [here.](../../../toolbox/events/media/README.md)
 
