@@ -2,7 +2,7 @@
 
 ![The Is Media Playing Node.](../../../.gitbook/assets/ismediaplayingnode.png)
 
-The **Is Media Playing Node** returns a **Boolean** value, depending on whether the inputted media is playing or not. Media in **Incari** is either a **Video** or an **Audio**. 
+The **Is Media Playing Node** returns a **Boolean** value, depending on whether the inputted media is playing or not. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

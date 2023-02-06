@@ -2,7 +2,7 @@
 
 ![The Play Media Node.](../../../.gitbook/assets/playmedianode.png)
 
-The **Play Media Node** can be used to play a specified media **Object** during the session. Media in **Incari** is either a **Video** or an **Audio**. 
+The **Play Media Node** can be used to play a specified media **Object** during the session. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
