@@ -274,9 +274,9 @@
   * [Variables](toolbox/events/variables/README.md)
     * [On Variable Change](toolbox/events/variables/on-variable-change.md)
     * [On Variable Set](toolbox/events/variables/on-variable-set.md)
-  * [Video](toolbox/events/video/README.md)
+  <!--* [Video](toolbox/events/video/README.md)
     * [On Video Play](toolbox/events/video/onvideoplay.md)
-    * [On Video Finish](toolbox/events/video/onvideofinish.md)
+    * [On Video Finish](toolbox/events/video/onvideofinish.md)-->
   * [Web](toolbox/events/web/README.md)
     * [On Javascript Callback](toolbox/events/web/on-javascript-callback.md)
   * [WebSprite](toolbox/events/websprite/README.md)
