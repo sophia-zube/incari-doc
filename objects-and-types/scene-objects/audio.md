@@ -26,4 +26,4 @@ In order to use **Audios** in a **Project** and have them play in the **Player**
 
 An example **Logic** configuration can be seen below. This would allow one to play the **Audio** with `A` on their keyboard and stop it with `B`. 
 
-![Example Logic for Using Audio Objects in Incari Player.](../../.gitbook/assets/audioexample.png)
+![Example Logic for Using Audio Objects in Incari Player.](../../.gitbook/assets/audioexamplewithmedianodes.png)
