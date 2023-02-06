@@ -4,7 +4,7 @@
 
 ![The On Media Finish Node.](../../../.gitbook/assets/onmediafinish.png)
 
-**On Media Play** is an **Event Listener Node** that gives the user a way to perform an action once a media **Object** starts, such as a video fading to black. Media in **Incari** is either a **Video** or **Audio**. 
+**On Media Play** is an **Event Listener Node** that gives the user a way to perform an action once a media **Object** ends, such as repeating a **Video**. Media in **Incari** is either a **Video** or **Audio**. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
@@ -13,7 +13,7 @@
 
 | Input | Type | Description |
 |:---|:---|:---|
-|`Object ID` | **ObjectID** | The media **Object** that triggers the **Logic Branch** on playing. |
+|`Object ID` | **ObjectID** | The media **Object** that triggers the **Logic Branch** on ending. |
 | `Subscribe` (►)|**Pulse** | An **Input Pulse** that needs to be triggered to start listening to the **Event**. |
 
 
