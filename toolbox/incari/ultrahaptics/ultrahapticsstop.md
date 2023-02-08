@@ -1,15 +1,10 @@
 # Overview
 
-![The Ultrahaptics Stop Node.]()
+![The Ultrahaptics Stop Node.](../../../.gitbook/assets/ultrahapticsstop.png)
 
-The **Ultrahaptics Stop Node** .
+The **Ultrahaptics Stop Node** stops the currently playing haptic if there is one.
 
-[**Scope**]():
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
@@ -25,5 +20,8 @@ The **Ultrahaptics Stop Node** .
 
 # See Also
 
+* [**Ultrahaptics Play**](ultrahapticsplay.md)
+
 # External Links
 
+* [**UltraLeap Documentation**](https://docs.ultraleap.com/)
