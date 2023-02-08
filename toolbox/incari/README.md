@@ -16,6 +16,7 @@ The **Incari** **Nodes** encompass several **Object** types that are the driving
 * [**Object**](object/)
 * [**On-Screen Keyboard**](on-screenkeyboard/)
 * [**This Scene**](thisscene.md)
+* [**Ultrahaptics**](ultrahaptics/)
 * [**Vector**](vector/)
 * [**WebSprite**](websprite/)
 
