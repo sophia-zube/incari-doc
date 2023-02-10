@@ -12,9 +12,17 @@ A **Screen's Attributes** can be edited by selecting it in the **Project Outline
 
 `Size` defines the size of the **Simulation Window**, in pixels.
 
-`Position` defines the offset position, in pixels, that the **Simulation** will be displayed on your monitor. This means that when you are working on a multi-display system, you can preview **Screens** on separate parts of your monitor.
+`Position` defines the offset position, in pixels, that the **Simulation Window** will be displayed on your monitor. This means that when you are working on a multi-display system, you can preview **Screens** on separate parts of your monitor.
 
 By default, the **Simulation** will be shown in the left-hand corner of your monitor \(0, 0\), with `x` representing the number of pixels between the left-hand side of the **Simulation** window and the left hand side of your monitor, and `y` representing the number of pixels between the top of the window and top of your monitor.
+
+`Scale factor`: The factor by which the **Simulation Window** will be scaled.
+
+`Window Mode`: The mode in which the **Simulation Window** will be displayed. The available options are: `Full screen`, `Hidden`, `Windowed`, `Windowed full screen`.
+
+`Enable VSync`: Whether *Vertical Synchronization* will be enabled. *Vertical Synchronization* synchronizes *frame rate* of the **Simulation** with the *refresh rate* of the monitor that displays it.
+
+<!-- `Enable decoration`:  -->
 
 ### Background
 
@@ -48,7 +56,7 @@ Like **FXAA**, the effect can be disabled/enabled by toggling the `Enabled` opti
 
 ### Lensflare
 
-*Lens flares* are rings or circles that provide a haze to a **Scene**. This flare occurs when a bright light source shines directly into the **Camera** lens.
+*Lens flares* are an *artifact* in an image consisting of hazy rings or circles that occur when a bright light source shines directly into the **Camera** lens. Enabling this option will simulate this effect in the **Screen**.
 
 ### Bloom
 
