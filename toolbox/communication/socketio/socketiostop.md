@@ -8,11 +8,11 @@
 
 It is important to note that while the **SocketIO Stop Node** stops a **SocketIO** connection, it may not completely finish disconnecting from said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
 to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use 
-the [**On SocketIO Stop Node**](events/onsocketiostop.md) instead. This way, the **Logic** will only execute once the **Serial** connection has definitely been disconnected from. This way, it is assured that the **Logic** will execute once the connection to the **SocketIO** connection has been terminated.
+the [**On SocketIO Stop Node**](events/onsocketiostop.md) instead. This way, the **Logic** will only execute once the **SocketIO** connection has definitely been disconnected from. This way, it is assured that the **Logic** will execute once the connection to the **SocketIO** connection has been terminated.
 
 Again, the user must first use the **SocketIO Stop Node** to close the connection. Separately, the **On SocketIO Stop Node** can be used to execute the desired **Communication Logic**.  
 
-![Serial Stop and On Serial Stop Configuration.](../../../.gitbook/assets/socketiostopvsonsocketiostop.png).
+![SocketIO Stop and On SocketIO Stop Configuration.](../../../.gitbook/assets/socketiostopvsonsocketiostop.png).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
