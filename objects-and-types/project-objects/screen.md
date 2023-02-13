@@ -22,7 +22,7 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 `Enable VSync`: Whether *Vertical Synchronization* will be enabled. *Vertical Synchronization* synchronizes *frame rate* of the **Simulation** with the *refresh rate* of the monitor that displays it.
 
-<!-- `Enable decoration`:  -->
+`Enable Decoration`: Whether the **Simulation Window** will have a *title bar*.
 
 ### Background
 

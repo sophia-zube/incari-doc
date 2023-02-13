@@ -2,7 +2,7 @@
 
 ![The SocketIO Start Node.](../../../.gitbook/assets/socketiostart.png)
 
-The **SocketIO Start Node** starts a **SocketIO** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
+The **SocketIO Start Node** starts a **SocketIO** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/socketio.md).
 
 **SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 

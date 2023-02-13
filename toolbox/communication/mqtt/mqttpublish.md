@@ -4,7 +4,7 @@
 
 ![The MQTT Publish Node.](../../../.gitbook/assets/mqttpublishupdatedimage.png)
 
-The **MQTT Publish Node** sends a message to a server specified by the chosen configuration in [**Project Settings**](../../../modules/project-settings.md).
+The **MQTT Publish Node** sends a message to a server specified by the chosen configuration in [**Project Settings**](../../../modules/project-settings/mqtt.md).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
