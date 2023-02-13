@@ -4,7 +4,7 @@
 
 ![The MQTT Start Node.](../../../.gitbook/assets/mqttstartupdatedimage.png)
 
-The **MQTT Start Node** starts a **MQTT** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#mqtt).
+The **MQTT Start Node** starts a **MQTT** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/mqtt.md).
 
 It is important to note that while the **MQTT Start Node** starts an **MQTT** connection, it may not completely finish establishing
 said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 

@@ -4,7 +4,7 @@
 
 ![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstartupdatedimage.png)
 
-The **HTTP Server Start Node** starts communication with a server that has already been set up in [**Project Settings**](../../../modules/project-settings.md#http).
+The **HTTP Server Start Node** starts communication with a server that has already been set up in [**Project Settings**](../../../modules/project-settings/http.md).
 
 It is important to note that while the **HTTP Server Start Node** starts a connection to an **HTTP Server**, it may not completely finish establishing said server when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On HTTP Server Start Node**](events/onhttpserverstart.md) instead. This way, the **Logic** will only execute once the **HTTP Server** connection has definitely been established. 
 
@@ -20,7 +20,7 @@ Again, the user must first use the **HTTP Server Start Node** to open the connec
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings.md). |
+| `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings/http.md). |
 
 ## Inputs
 

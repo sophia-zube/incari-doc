@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **SocketIO** **Nodes** provide a means for the user to perform several actions within the *SocketIO* communications protocol. *SocketIO* is related to *WebSocket* and allows for bidirectional communication between a server and client using **SocketIO** events. More information can be found in the official [*SocketIO* documentation.](https://socket.io/docs/v4/) To use the **SocketIO Nodes** in **Incari**, the user needs to locate the [**SocketIO Attributes**](../../../modules/project-settings.md#mqtt) in **Project Settings** and add a `Connection`. 
+The **SocketIO** **Nodes** provide a means for the user to perform several actions within the *SocketIO* communications protocol. *SocketIO* is related to *WebSocket* and allows for bidirectional communication between a server and client using **SocketIO** events. More information can be found in the official [*SocketIO* documentation.](https://socket.io/docs/v4/) To use the **SocketIO Nodes** in **Incari**, the user needs to locate the [**SocketIO Attributes**](../../../modules/project-settings/socketio.md) in **Project Settings** and add a `Connection`. 
 
 This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **SocketIO Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 
