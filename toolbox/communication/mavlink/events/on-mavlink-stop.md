@@ -1,21 +1,21 @@
 # Overview
 
-![The On Mavlink Stop Node.]()
+![The On MAVLink Stop Node.](../../../../.gitbook/assets/onmavlinkstop.png)
 
-**On Mavlink Stop** .
+**On MAVLink Stop** is an **Event Listener Node** notifying that the **MAVLink** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection.
 
-[**Scope**]():
+**MAVLink Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On MAVLink Stop** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
+![The On MAVLink Stop Node Attributes.](../../../../.gitbook/assets/onmavlinkstopatts.png)
+
 |Attribute|Type|Description|
 |---|---|---|
+|`Configuration`|**Drop-Down**|The desired *MAVLink* serial port, which refers back to the selections made under *MAVLink* in the [**Project Settings**](../../../modules/project-settings.md).| 
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
@@ -25,5 +25,5 @@
 
 # See Also
 
-# External Links
+* [**On MAVLink Start**](on-mavlink-start.md)
 
