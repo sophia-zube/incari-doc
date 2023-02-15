@@ -59,7 +59,7 @@ It is also possible to export a **Project** from the command line with the comma
 
 Exporting a **Project** for a different `Target` than the *Host* requires a few preparatory steps that will be explained in detail:
 
-* **Setting up WSL**
+1. **Setting up WSL**
 
 *WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. Find more information about *WSL* on the links provided in the **External Links** section below.
 
@@ -69,7 +69,7 @@ Exporting a **Project** for a different `Target` than the *Host* requires a few 
 4. Enter your credentials in the pop-up window that appears. If it does not appear, run the command `wsl` on the *PowerShell* or *Command Prompt* and enter your credentials.
 5. Set-up *Ubuntu 20.04* as the default *distribution* by running the command `wsl --set-default` on the *PowerShell* or *Command Prompt*.
 
-* **Preparing Incari Studio**
+2. **Preparing Incari Studio**
 
 For exporting to a different `Target` than the `Host`, a *cross-compiled* version of **Incari Player** for the desired `Target` is necessary.
 
@@ -81,7 +81,7 @@ Examples for "target-triple" to be used in the *path*:
 * `aarch64-linux-gnu`, for *Linux arm64*.
 * `arm-linux-gnueabihf`, for *Linux arm32*.
 
-* **Export the Project**
+3. **Export the Project**
 
 Now everything is ready for exporting a **Project** to the desired `Target` *platform*. For this:
 
@@ -109,3 +109,7 @@ After exporting a **Project**, the export folder will have:
 * A folder with a copy of **Incari Player** for the desired `Target` (only if `Only Project` was set to *false*).
 
 The **Project** can then be started by launching `run.sh`.
+
+## External Links
+
+* [*WSL Documentation*](https://learn.microsoft.com/en-gb/windows/wsl/).
