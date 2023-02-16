@@ -2,9 +2,11 @@
 
 ![The MAVLink Decode Node.](../../../.gitbook/assets/mavlinkdecode.png)
 
-**Mavlink Decode** decodes the binary data attributed to the `Message Name` and `Message` identifier **Input** specified. When a `Message Name` is selected, the
+**Mavlink Decode** decodes the binary data attributed to the `Message Name` and `Message` identifier **Input** specified. 
 
-[**Scope**]():
+**MAVLink Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **MAVLink Decode** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+
+[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 # Attributes
 
