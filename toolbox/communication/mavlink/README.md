@@ -2,9 +2,7 @@
 
 ## Introduction 
 
-The **MAVLink** **Nodes** provide a means for the user to perform several actions within the *MAVLink* communications protocol. *MAVLink*, or *Micro Air Vehicle Link*, is used for communication with small vehicles, like drones. To use the **MAVLink Nodes** in **Incari**, the user needs to locate the [**MAVLink Attributes**](../../../modules/project-settings/socketio.md) in **Project Settings** and add a `Connection`. 
-
-This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **MAVLink Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+The **MAVLink** **Nodes** provide a means for the user to perform several actions within the *MAVLink* communications protocol. *MAVLink*, or *Micro Air Vehicle Link*, is used for communication with small vehicles, like drones. To use the **MAVLink Nodes** in **Incari**, the user needs to locate the [**MAVLink Attributes**](../../../modules/project-settings/mavlink.md) in **Project Settings** and add a `Connection`. 
 
 ## MAVLink Guideline
 
@@ -30,4 +28,4 @@ These are the guidelines for incorporating **MAVLink Communication** into a **Pr
 
 ## External Links
 
-* What is [MAVLink]?(https://mavlink.io/en/)
+* What is [MAVLink](https://mavlink.io/en/)?

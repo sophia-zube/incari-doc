@@ -203,8 +203,8 @@
       * [On SocketIO Receive](toolbox/communication/socketio/events/onsocketioreceive.md)
       * [On SocketIO Start](toolbox/communication/socketio/events/onsocketiostart.md)
       * [On SocketIO Stop](toolbox/communication/socketio/events/onsocketiostop.md)   
-      * [On SocketIO Subscribe](toolbox/communication/socketio/events/onsocketiosubscribe.md)
-      * [On SocketIO Unsubscribe](toolbox/communication/socketio/events/onsocketiounsubscribe.md)
+      <!--* [On SocketIO Subscribe](toolbox/communication/socketio/events/onsocketiosubscribe.md)
+      * [On SocketIO Unsubscribe](toolbox/communication/socketio/events/onsocketiounsubscribe.md)-->
     * [SocketIO Send](toolbox/communication/socketio/socketiosend.md)
     * [SocketIO Start](toolbox/communication/socketio/socketiostart.md)
     * [SocketIO Stop](toolbox/communication/socketio/socketiostop.md)
