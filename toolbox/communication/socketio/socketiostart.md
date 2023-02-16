@@ -4,7 +4,7 @@
 
 The **SocketIO Start Node** starts a **SocketIO** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/socketio.md).
 
-**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/socketiomanager.md) to find out more information.
 
 It is important to note that while the **SocketIO Start Node** starts a **SocketIO** connection, it may not completely finish establishing
 said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** 
@@ -13,7 +13,7 @@ the [**On SocketIO Start Node**](events/onsocketiostart.md) instead. This way, t
 
 Again, the user must first use the **SocketIO Start Node** to open the connection. Separately, the **On SocketIO Start Node** can be used to execute the desired **Communication Logic**.
 
-![SocketIO Start and On SocketIO Start Configuration](../../../.gitbook/assets/socketiostartexample.png).
+![SocketIO Start and On SocketIO Start Configuration](../../../.gitbook/assets/socketiostartexample.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -23,7 +23,7 @@ Again, the user must first use the **SocketIO Start Node** to open the connectio
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _SocketIO_ server, which refers back to the selections made under *SocketIO* in the [**Project Settings**](../../../modules/project-settings.md).| 
+|`Configuration`|**Drop-Down**|The desired _SocketIO_ server, which refers back to the selections made under *SocketIO* in the [**Project Settings**](../../../modules/project-settings/socketio.md).| 
 
 # Inputs
 

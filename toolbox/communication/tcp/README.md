@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The **TCP** **Nodes** provide a means for the user to perform several actions within the *TCP* communications protocol. *TCP*, or Transmission Control Protocol, is part of the Internet protocol suite and allows for bidirectional communication between a server and a client. To use the **TCP Nodes** in **Incari**, the user needs to locate the [**TCP Attributes**](../../../modules/project-settings.md#mqtt) in **Project Settings** and add a `Connection`. 
+The **TCP** **Nodes** provide a means for the user to perform several actions within the *TCP* communications protocol. *TCP*, or Transmission Control Protocol, is part of the Internet protocol suite and allows for bidirectional communication between a server and a client. To use the **TCP Nodes** in **Incari**, the user needs to locate the [**TCP Attributes**](../../../modules/project-settings/tcp-connection.md) in **Project Settings** and add a `Connection`. 
 
-This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **TCP Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **TCP Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/tcpconnectionsmanager.md) to find out more information.
 
 ## TCP Guideline
 

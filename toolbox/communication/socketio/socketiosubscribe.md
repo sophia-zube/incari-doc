@@ -2,9 +2,9 @@
 
 ![The SocketIO Subscribe Node.](../../../.gitbook/assets/socketiosubscribe.png)
 
-The **SocketIO Subscribe Node** listens to the specific **SocketIO** event given. This means that the server filters for the desired data with the particular `Namespace` and `Event name`.
+The **SocketIO Subscribe Node** starts listening to the specific **SocketIO** event given. This means that the server filters for the desired data with the particular `Namespace` and `Event name`.
 
-**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Subscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Subscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/socketiomanager.md) to find out more information.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
@@ -33,5 +33,5 @@ The **SocketIO Subscribe Node** listens to the specific **SocketIO** event given
 # See Also
 
 * [**SocketIO Unsubscribe**](socketiounsubscribe.md)
-* [**On SocketIO Subscribe**](events/onsocketiosubscribe.md)
+
 
