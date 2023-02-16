@@ -1,10 +1,13 @@
 # Exporter
 
-The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, **Exporter** can create a copy of **Incari Player** in the same folder. This makes it possible to save and open a **Project** in **Player** format at another time.
+The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, **Exporter** can create a copy of **Incari Player** in the same folder. This makes it possible to save and run a **Project** without the need of **Incari Studio**.
 
 There are two tabs in the **Exporter** **Module**: [**Settings**](#settings) and [**Deploy**](#deploy).
 
-Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-project) with the **Exporter** **Module**.
+Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-project) with the **Exporter** **Module**, divided between the two possible cases of *Target Platforms*:
+
+* [**Host Target**](#host-target)
+* [**Different Target**](#different-target)
 
 ## Settings
 
@@ -59,7 +62,7 @@ It is also possible to export a **Project** from the command line with the comma
 
 Exporting a **Project** for a different `Target` than the *Host* requires a few preparatory steps that will be explained in detail:
 
-1. **Setting up WSL**
+**Setting up WSL**
 
 *WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. Find more information about *WSL* on the links provided in the **External Links** section below.
 
@@ -69,7 +72,7 @@ Exporting a **Project** for a different `Target` than the *Host* requires a few 
 4. Enter your credentials in the pop-up window that appears. If it does not appear, run the command `wsl` on the *PowerShell* or *Command Prompt* and enter your credentials.
 5. Set-up *Ubuntu 20.04* as the default *distribution* by running the command `wsl --set-default` on the *PowerShell* or *Command Prompt*.
 
-2. **Preparing Incari Studio**
+**Preparing Incari Studio**
 
 For exporting to a different `Target` than the `Host`, a *cross-compiled* version of **Incari Player** for the desired `Target` is necessary.
 
@@ -81,7 +84,7 @@ Examples for "target-triple" to be used in the *path*:
 * `aarch64-linux-gnu`, for *Linux arm64*.
 * `arm-linux-gnueabihf`, for *Linux arm32*.
 
-3. **Export the Project**
+**Exporting the Project**
 
 Now everything is ready for exporting a **Project** to the desired `Target` *platform*. For this:
 
