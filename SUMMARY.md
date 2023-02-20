@@ -420,6 +420,7 @@
     * [Is Object 3D](toolbox/incari/object/is-object-3d.md)
     * [Remove Tag](toolbox/incari/object/remove-tag.md)
     * [Set Alpha](toolbox/incari/object/set-alpha.md)
+    * [Set Mask](toolbox/incari/object/set-mask.md)
     * [Set Material](toolbox/incari/object/set-material.md)
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
     * [Set Position](toolbox/incari/object/set-position.md)

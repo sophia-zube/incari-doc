@@ -31,6 +31,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Is Object 3D**](is-object-3d.md)
 * [**Remove Tag**](remove-tag.md)
 * [**Set Alpha**](set-alpha.md)
+* [**Set Mask**](set-mask.md)
 * [**Set Material**](set-material.md)
 * [**Set Opacity**](set-opacity.md)
 * [**Set Position**](set-position.md)
