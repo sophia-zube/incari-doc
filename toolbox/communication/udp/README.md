@@ -12,8 +12,8 @@ These are the guidelines for incorporating **UDP Communication** into a **Projec
 
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communication Introduction page.
 * Once the connection has been established, there are several **Nodes** that cover important functions of **UDP Communication**.
-  * [**UDP Send**](tcpsend.md) sends a datagram through the established connection to the specified *UDP* endpoint. 
-  * [**On TCP Packet Receive**](events/ontcppacketreceive.md) executes once a **UDP** `Message` is received.
+  * [**UDP Send**](udpsend.md) sends a datagram through the established connection to the specified *UDP* endpoint. 
+  * [**On UDP Packet Receive**](events/onudppacketreceive.md) executes once a **UDP** `Message` is received.
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 
 ## Contents
