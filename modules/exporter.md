@@ -15,7 +15,7 @@ Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-
 
 ### General
 
-* `Target`: *Operating System* in whose **Incari Player** version the **Project** will be played.
+* `Target`: *Operating System* in whose **Incari Player** version the exported version of the **Project** will be played.
 
 ### Options
 
@@ -95,7 +95,7 @@ Now everything is ready for exporting a **Project** to the desired `Target` *pla
 
 ![Exporter with *Linux x86-64* Target added.](../.gitbook/assets/exporter-wlinux.png)
 
-3. Choose the desired `Export Folder` on the [Deploy](#deploy) tab. 
+3. Choose the desired `Export Folder` on the [**Deploy**](#deploy) tab. 
 4. Click on the `Export` button on the top menu.
 
 ![](../.gitbook/assets/exporter-exportlinux.png)
