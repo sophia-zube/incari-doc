@@ -15,5 +15,4 @@ The **Plugins Module** looks like this when it is opened:
   * [**SocketIOManager**](communication/socketiomanager.md)
   * [**TcpConnectionsManager**](communication/tcpconnectionsmanager.md)
   * [**UdpConnectionsManager**](communication/udpconnectionsmanager.md)
-* [**Logic**](logic/README.md)
 
