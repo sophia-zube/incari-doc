@@ -2,8 +2,18 @@
 
 A *GUI*, or graphical user interface, uses graphics to let a user interact with an interface. In **Incari**, there are two simple features which are available to create and edit in **Scene2Ds**. They are:
 
-* [Button](gui.md#button)
-* [Label](gui.md#label)
+
+<!-- no toc -->
+* [**Button**](#button)
+* [**Dropdown**](#dropdown)
+* [**Slider**](#slider)
+* [**Text**](#text)
+* [**Text Area**](#text-area)
+* [**Toggle**](#toggle) 
+
+
+  
+
 
 ## Button
 
@@ -13,7 +23,20 @@ A **Button** is a simple icon to attach **Logic** to. Its text, placement, and s
 
 ![Button with Text](../../.gitbook/assets/buttonafter.png)
 
-## Label
+## Dropdown
+
+## Slider
+
+## Text
+
+## Text Area
+
+## Toggle
+
+
+
+
+<!-- ## Label
 
 A **Label Object** essentially acts as a text box for a label. Any text can be added to the **Label** using the `Label` **Attribute** in the **Attribute Editor**. 
 
@@ -25,4 +48,4 @@ Locating the `Text` **Attribute**, any text can be inputted to provide clear inf
 
 ![Label with Hello World.](../../.gitbook/assets/label4.png)
 
-There is also the **Get LabelText Node**. More information can be found [here.](../../../toolbox/incari/vector/label/README.md)
+There is also the **Get LabelText Node**. More information can be found [here.](../../../toolbox/incari/vector/label/README.md) -->
