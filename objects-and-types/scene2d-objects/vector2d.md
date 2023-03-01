@@ -8,7 +8,7 @@ There are several **Vector Objects** that are described below:
 * [Ellipse](vector2d.md#ellipse)
 * [Line](vector2d.md#line)
 * [Rectangle](vector2d.md#rectangle)
-* [Sector](vector2d.md#sector)
+* [Pie](vector2d.md#sector)
 
 ![Vector Objects in Scene2D](../../.gitbook/assets/sceneoutliner2dvector.png)
 
@@ -36,8 +36,8 @@ A rectangular **2D** **Object** that is restricted to the X and Y axes. There ar
 
 ![Rectangle](../../.gitbook/assets/2dscenerectangle.png)
 
-## Sector
+## Pie
 
-A **2D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It is restricted to the X and Y axes. There are several **Nodes** attributed to **Sector Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
+A **2D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It is restricted to the X and Y axes. There are several **Nodes** attributed to **Pie Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
 
-![Sector](../../.gitbook/assets/2dscenesector.png)
+![Pie](../../.gitbook/assets/2dscenesector.png)
