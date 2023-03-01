@@ -12,7 +12,7 @@ Again, the user must first use the **CAN Start Node** to open the connection. Se
 
 ![CAN Start and On CAN Start Configuration.](<../../../.gitbook/assets/canstartvsoncanstart - Copy.png>)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Inputs
 

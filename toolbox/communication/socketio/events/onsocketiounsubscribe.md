@@ -1,20 +1,20 @@
 # Overview
 
-![The On SocketIO Unsubscribe Node.](../../../../.gitbook/assets/onsocketiounsubscribe.png)
+![The On Socket.IO Unsubscribe Node.](../../../../.gitbook/assets/onsocketiounsubscribe.png)
 
-**On SocketIO Unsubscribe** is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a **SocketIO** event has been unsubscribed from. 
+**On Socket.IO Unsubscribe** is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a **Socket.IO** event has been unsubscribed from. 
 
-**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On SocketIO Unsubscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../../modules/plugins/README.md) to find out more information.
+**Socket.IO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On Socket.IO Unsubscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../../modules/plugins/README.md) to find out more information.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
-![On SocketIO Unsubscribe Node Attributes.](../../../../.gitbook/assets/onsocketunsubscribeattributes.png)
+![On Socket.IO Unsubscribe Node Attributes.](../../../../.gitbook/assets/onsocketunsubscribeattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _SocketIO_ server, which refers back to the selections made under *SocketIO* in the [**Project Settings**](../../../../modules/project-settings/socketio.md).| 
+|`Configuration`|**Drop-Down**|The desired _Socket.IO_ server, which refers back to the selections made under *Socket.IO* in the [**Project Settings**](../../../../modules/project-settings/socketio.md).| 
 
 
 # Outputs
@@ -22,11 +22,11 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Namespace`|**String**| An identifying name that is *parent* to an event or events in the **SocketIO** protocol. The default is simply `/`.|
+|`Namespace`|**String**| An identifying name that is *parent* to an event or events in the **Socket.IO** protocol. The default is simply `/`.|
 # See Also
 
-* [**SocketIO Unsubscribe**](../socketiounsubscribe.md)
-* [**On SocketIO Subscribe**](onsocketiosubscribe.md)
+* [**Socket.IO Unsubscribe**](../socketiounsubscribe.md)
+* [**On Socket.IO Subscribe**](onsocketiosubscribe.md)
 
-# External Links
+
 

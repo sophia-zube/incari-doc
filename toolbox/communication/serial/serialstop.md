@@ -14,7 +14,7 @@ Again, the user must first use the **Serial Stop Node** to close the connection.
 
 ![Serial Stop and On Serial Stop Configuration.](../../../.gitbook/assets/serialstopvsonserialstop.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

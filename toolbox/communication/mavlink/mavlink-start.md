@@ -10,7 +10,7 @@ Again, the user must first use the **MAVLink Start Node** to open the connection
 
 ![MAVLink Start and On MAVLink Start Configuration.](../../../.gitbook/assets/mavlinkstartvsonmavlinkstart.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

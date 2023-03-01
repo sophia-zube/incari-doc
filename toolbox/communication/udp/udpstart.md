@@ -15,7 +15,7 @@ Again, the user must first use the **UDP Start Node** to open the connection. Se
 
 ![UDP Start and On UDP Start Configuration](../../../.gitbook/assets/udpstartvsonudpstart.png).
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

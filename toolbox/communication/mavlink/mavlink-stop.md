@@ -13,7 +13,7 @@ Again, the user must first use the **MAVLink Stop Node** to close the connection
 
 ![MAVLink Stop and On MAVLink Stop Configuration.](../../../.gitbook/assets/mavlinkstopvsonmavlinkstop.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

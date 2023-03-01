@@ -15,7 +15,7 @@ Again, the user must first use the **CAN Stop Node** to close the connection. Se
 
 ![CAN Stop and On CAN Stop Configuration.](../../../.gitbook/assets/canstopvsoncanstop.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Inputs
 

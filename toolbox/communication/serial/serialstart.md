@@ -15,7 +15,7 @@ Again, the user must first use the **Serial Start Node** to open the connection.
 
 ![Serial Start and On Serial Start Configuration](../../../.gitbook/assets/serialstartvsonserialstart.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
