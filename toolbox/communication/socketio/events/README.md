@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The **Event SocketIO Nodes** trigger a **Logic Branch** when certain **SocketIO** processes occur.
+The **Event Socket.IO Nodes** trigger a **Logic Branch** when certain **Socket.IO** processes occur.
 
 ## Contents
 
-* [**On SocketIO Error**](onsocketioerror.md)
-* [**On SocketIO Receive**](onsocketioreceive.md)
-* [**On SocketIO Start**](onsocketiostart.md)
-* [**On SocketIO Stop**](onsocketiostop.md)
+* [**On Socket.IO Error**](onsocketioerror.md)
+* [**On Socket.IO Receive**](onsocketioreceive.md)
+* [**On Socket.IO Start**](onsocketiostart.md)
+* [**On Socket.IO Stop**](onsocketiostop.md)

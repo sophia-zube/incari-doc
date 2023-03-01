@@ -14,7 +14,7 @@ Again, the user must first use the **UDP Stop Node** to close the connection. Se
 
 ![UDP Stop and On UDP Stop Configuration.](../../../.gitbook/assets/udpstopvsonudpstop.png).
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

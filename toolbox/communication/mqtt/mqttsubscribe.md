@@ -6,7 +6,7 @@
 
 The **MQTT Subscribe** subscribes to all specified `Topics`, which [**On MQTT Topic**](events/onmqtttopic.md) is then able to receive, based on the chosen configuration in [**Project Settings**](../../../modules/project-settings/mqtt.md). `Topics` are *strings* that act as filters for *Messages* and are hierarchical, meaning there are different levels. Remember, they are case sensitive.
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ## Attributes
 

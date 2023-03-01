@@ -4,7 +4,7 @@
 
 The **HTTP Client Node** allows the user to send *HTTP* requests to a selected *HTTP* server. All configurations are made in the **Node** or in the **Attributes** section. There are several methods that the user can select from to perform different *HTTP* requests. These are: [**GET**](httpclient.md#get), [**POST**](httpclient.md#post), [**PUT**](httpclient.md#put), [**HEAD**](httpclient.md#head), and [**DELETE**](httpclient.md#delete).
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 ![HTTP Client Methods.](../../../.gitbook/assets/httpclientmethod.png)
 

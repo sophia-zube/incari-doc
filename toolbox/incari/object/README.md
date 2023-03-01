@@ -36,6 +36,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Set Material**](set-material.md)
 * [**Set Opacity**](set-opacity.md)
 * [**Set Position**](set-position.md)
+* [**Set Property**](set-property.md)
 * [**Set Position 2D (px)**](set-position-pixel.md)
 * [**Set Rotation**](set-rotation.md)
 * [**Set Rotation 2D**](set-rotation-pixel.md)

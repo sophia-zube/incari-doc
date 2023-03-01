@@ -13,7 +13,7 @@ When the `Message Name` is selected, more outputs on the **Node** are displayed.
 
 ![MAVLink Decode Node Example.](../../../.gitbook/assets/mavlinkdecodeexample.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

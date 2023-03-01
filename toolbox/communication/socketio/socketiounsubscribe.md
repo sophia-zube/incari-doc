@@ -1,28 +1,28 @@
 # Overview
 
-![The SocketIO Unsubscribe Node.](../../../.gitbook/assets/socketiounsubscribe.png)
+![The Socket.IO Unsubscribe Node.](../../../.gitbook/assets/socketiounsubscribe.png)
 
-The **SocketIO Unsubscribe Node** unsubscribes from a **SocketIO** event, identified under its `Namespace`, when there is no need to listen for it anymore.
+The **Socket.IO Unsubscribe Node** unsubscribes from a **Socket.IO** event, identified under its `Namespace`, when there is no need to listen for it anymore.
 
-**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **SocketIO Unsubscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/socketiomanager.md) to find out more information.
+**Socket.IO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **Socket.IO Unsubscribe** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/socketiomanager.md) to find out more information.
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
+[**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
-![The SocketIO Unsubscribe Node Attributes.](../../../.gitbook/assets/socketiounsubscribeattributes.png)
+![The Socket.IO Unsubscribe Node Attributes.](../../../.gitbook/assets/socketiounsubscribeattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _SocketIO_ server, which refers back to the selections made under *SocketIO* in the [**Project Settings**](../../../modules/project-settings/socketio.md).| 
+|`Configuration`|**Drop-Down**|The desired _Socket.IO_ server, which refers back to the selections made under *Socket.IO* in the [**Project Settings**](../../../modules/project-settings/socketio.md).| 
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Event Name`|**String**|The identifying name of the **SocketIO** event.|
-|`Namespace`|**String**| An identifying name that is *parent* to an event or events in the **SocketIO** protocol. The default is simply `/`.|
+|`Event Name`|**String**|The identifying name of the **Socket.IO** event.|
+|`Namespace`|**String**| An identifying name that is *parent* to an event or events in the **Socket.IO** protocol. The default is simply `/`.|
 
 # Outputs
 
@@ -32,4 +32,4 @@ The **SocketIO Unsubscribe Node** unsubscribes from a **SocketIO** event, identi
 
 # See Also
 
-* [**SocketIO Subscribe**](socketiosubscribe.md)
+* [**Socket.IO Subscribe**](socketiosubscribe.md)

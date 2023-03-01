@@ -1,20 +1,20 @@
 # Overview
 
-![The On SocketIO Start Node.](../../../../.gitbook/assets/onsocketiostart.png)
+![The On Socket.IO Start Node.](../../../../.gitbook/assets/onsocketiostart.png)
 
-**On SocketIO Start** is an **Event Listener Node** notifying that the **SocketIO** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection to the *SocketIO* server.
+**On Socket.IO Start** is an **Event Listener Node** notifying that the **Socket.IO** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection to the *Socket.IO* server.
 
-**SocketIO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On SocketIO Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../../modules/plugins/communication/socketiomanager.md) to find out more information.
+**Socket.IO Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On Socket.IO Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../../modules/plugins/communication/socketiomanager.md) to find out more information.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
-![The On SocketIO Start Node Attributes.](../../../../.gitbook/assets/socketiostartattributes.png)
+![The On Socket.IO Start Node Attributes.](../../../../.gitbook/assets/socketiostartattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _SocketIO_ server, which refers back to the selections made under *SocketIO* in the [**Project Settings**](../../../../modules/project-settings/socketio.md).| 
+|`Configuration`|**Drop-Down**|The desired _Socket.IO_ server, which refers back to the selections made under *Socket.IO* in the [**Project Settings**](../../../../modules/project-settings/socketio.md).| 
 
 
 # Outputs
@@ -25,7 +25,7 @@
 
 # See Also
 
-* [**On SocketIO Stop**](onsocketiostop.md)
+* [**On Socket.IO Stop**](onsocketiostop.md)
 
 
 
