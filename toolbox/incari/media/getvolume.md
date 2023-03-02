@@ -2,7 +2,7 @@
 
 ![The Get Volume Node.](../../../.gitbook/assets/getvolume.png)
 
-The **Get Volume Node** returns the current volume of a **Video Object**.
+The **Get Volume Node** returns the current volume of a **Media Object**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -11,14 +11,14 @@ The **Get Volume Node** returns the current volume of a **Video Object**.
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The target **Video Object**.|
+|`Object ID`|**ObjectID**|The target **Media Object**.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Volume`|**Int**|The integer value of the **Video's** volume.|
+|`Volume`|**Int**|The integer value of the **Media's** volume.|
 
 # See Also
 
