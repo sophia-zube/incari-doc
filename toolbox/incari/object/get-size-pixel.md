@@ -1,10 +1,10 @@
-# Get Size 2D (px)
+# Get Size
 
 ## Overview
 
-![The Get Size 2D (px) Node.](../../../.gitbook/assets/getsize2dupdatedimage.png)
+![The Get Size Node.](../../../.gitbook/assets/getsize2dupdatedimage.png)
 
-The **Get Size 2D (px) Node** returns the X and Y values of a **2D Object's** `Size`.
+The **Get Size Node** returns the X and Y values of a **2D Object's** `Size`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

@@ -4,7 +4,7 @@
 
 ![The On Media Finish Node.](../../../.gitbook/assets/onmediafinish.png)
 
-**On Media Play** is an **Event Listener Node** that gives the user a way to perform an action once a media **Object** ends, such as repeating a **Video**. Media in **Incari** is either a **Video** or **Audio**. 
+**On Media Finish** is an **Event Listener Node** that gives the user a way to perform an action once a media **Object** ends, such as repeating a **Video**. Media in **Incari** is either a **Video** or **Audio**. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 

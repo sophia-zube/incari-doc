@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The Set Size 2D (px) Node.](../../../.gitbook/assets/setsize2dupdatedimage.png)
+![The Set Size Node.](../../../.gitbook/assets/setsize2dupdatedimage.png)
 
-The **Set Size 2D (px) Node** sets the X and Y values of a **2D Object's** `Size`.
+The **Set Size Node** sets the X and Y values of a **2D Object's** `Size`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

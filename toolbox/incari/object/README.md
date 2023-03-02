@@ -16,12 +16,12 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Opacity**](get-opacity.md)
 * [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
-* [**Get Position 2D (px)**](get-position-pixel.md)
+<!-- * [**Get Position 2D (px)**](get-position-pixel.md) -->
 * [**Get Root**](get-root.md)
 * [**Get Rotation**](get-rotation.md)
-* [**Get Rotation 2D**](get-rotation-pixel.md)
+<!-- * [**Get Rotation 2D**](get-rotation-pixel.md) -->
 * [**Get Scale**](get-scale.md)
-* [**Get Size 2D (px)**](get-size-pixel.md)
+* [**Get Size**](get-size-pixel.md)
 * [**Get Sort Index**](get-sort-index.md)
 * [**Get Text Color**](get-text-color.md)
 * [**Get Tint**](get-tint.md)
