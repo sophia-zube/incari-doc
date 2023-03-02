@@ -1,4 +1,4 @@
-# TcpConnectionsManager
+# TCP
 
 After clicking on **TCP**, its options will show. All **TCP Communication** related components are encompassed by the **TCP Plugin**. 
 

@@ -1,4 +1,4 @@
-# UdpConnectionsManager
+# UDP
 
 After clicking on **UDP**, its options will show. All **UDP Communication** related components are encompassed by the **UDP Plugin**. 
 

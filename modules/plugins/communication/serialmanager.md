@@ -1,4 +1,4 @@
-# SerialManager
+# Serial
 
 After clicking on **Serial**, its options will show. All **Serial Communication** related components are encompassed by the **Serial Plugin**. 
 
