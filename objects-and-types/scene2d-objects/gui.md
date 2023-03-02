@@ -29,7 +29,7 @@ The following is a simple example of a **Dropdown** with three options:
 
 ![Dropdown.](../../.gitbook/assets/gui-dropdown1.png)
 
-The 'Options' **Attribute** defines the options in the **Dropdown**:
+The `Options` **Attribute** defines the options in the **Dropdown**:
 
 ![Options Attributes.](../../.gitbook/assets/gui-dropdown-options.png)
 

@@ -6,7 +6,9 @@ The **Media Nodes** allow the user to pause, play, or stop a media **Object** or
 
 ## Contents
 
+* [**Get Volume**](getvolume.md)
 * [**Is Media Playing**](ismediaplaying.md)
 * [**Pause Media**](pausemedia.md)
 * [**Play Media**](playmedia.md)
+* [**Set Volume**](setvolume.md)
 * [**Stop Media**](stopmedia.md)
