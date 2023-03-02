@@ -69,7 +69,7 @@ The picture below shows an example. Here, `Object1` is the *parent* of `Object4`
 
 ### Structure in a Scene 
 
-As in **Scenes**, **Objects** in **Scene2Ds** fall under some type of hierarchy. All **Objects** are children of the [**Root Object**](#root-object), but only two **Objects** can be *parents* themselves. These are **Groups** and **Frames**. No other **Objects** can contain *children* in **Scene2Ds**. 
+As in **Scenes**, **Objects** in **Scene2Ds** fall under some type of hierarchy. All **Objects** are children of the [**Root Object**](#root-object), but only one **Object** type can be a *parent* itself. These are **Frames**. No other **Objects** can contain *children* in **Scene2Ds**. 
 
 ### Root Object
 
