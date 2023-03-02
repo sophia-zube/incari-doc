@@ -11,8 +11,8 @@ The **Plugins Module** looks like this when it is opened:
 ## Contents
 
 * [**Communication**](communication/README.md)
-  * [**SerialManager**](communication/serialmanager.md)
-  * [**SocketIOManager**](communication/socketiomanager.md)
-  * [**TcpConnectionsManager**](communication/tcpconnectionsmanager.md)
-  * [**UdpConnectionsManager**](communication/udpconnectionsmanager.md)
+  * [**Serial**](communication/serialmanager.md)
+  * [**Socket.IO**](communication/socketiomanager.md)
+  * [**TCP**](communication/tcpconnectionsmanager.md)
+  * [**UDP**](communication/udpconnectionsmanager.md)
 

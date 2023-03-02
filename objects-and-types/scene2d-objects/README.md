@@ -6,7 +6,7 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 
 ## Managing Objects
 
-**Objects** in a **Scene2D** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section. They are effectively the same processes that govern **2D Objects**. 
+**Objects** in a **Scene2D** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section. They are effectively the same processes that govern **Scene Objects**. 
 
 ![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/2dsceneoutliner.png)
 
@@ -69,7 +69,7 @@ The picture below shows an example. Here, `Object1` is the *parent* of `Object4`
 
 ### Structure in a Scene 
 
-As in **Scenes**, **Objects** in **Scene2Ds** fall under some type of hierarchy. All **Objects** are children of the [**Root Object**](#root-object), but only one **Object** type can be a *parent* itself. These are **Frames**. No other **Objects** can contain *children* in **Scene2Ds**. 
+As in **Scenes**, **Objects** in **Scene2Ds** fall under a certain hierarchy. All **Objects** are children of the [**Root Object**](#root-object), but only one **Object** type can be a *parent* itself. These are **Frames**. No other **Objects** can contain *children* in **Scene2Ds**. 
 
 ### Root Object
 

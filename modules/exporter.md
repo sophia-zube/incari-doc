@@ -56,16 +56,32 @@ After exporting a **Project**, the export folder will have:
 
 The **Project** can then be started by launching `run.bat`.
 
-It is also possible to export a **Project** from the command line with the command `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`. Add `/no-player` to the command to export just the **Project** without a copy of **Incari Player**, this is equivalent to setting `Only Project` to *true* in the [**Settings tab**](#settings) when exporting from **Incari Studio**. Omitting `/no-player` from the command will result in exporting the **Project** alongside a copy of **Incari Player**, just as setting `Only Project` to *false* when exporting from **Incari Studio**.
+It is also possible to export a **Project** from the command line. There are two cases, which are equivalent to whether the `Only Project` option is set to *true* or *false* in [**Settings**](#settings) when exporting from **Incari Studio**.
+
+For exporting the **Project** alongside a copy of **Incari Player**, run the command:
+
+* `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`.
+
+For exporting just the **Project**, without a copy of **Incari Player**, run the command:
+
+* `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>" /no-player`.
+
+
+
+<!-- with the command `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`. 
+
+Add `/no-player` to the command to export just the **Project** without a copy of **Incari Player**, this is equivalent to setting `Only Project` to *true* in the [**Settings tab**](#settings) when exporting from **Incari Studio**. Omitting `/no-player` from the command will result in exporting the **Project** alongside a copy of **Incari Player**, just as setting `Only Project` to *false* when exporting from **Incari Studio**. -->
 
 
 ### Different Target
 
-Exporting a **Project** for a different `Target` than the *Host* requires a few preparatory steps that will be explained in detail:
+Exporting a **Project** for a different *Target* than the *Host* requires a few preparatory steps that will be explained in detail:
 
 **Setting up WSL**
 
-*WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. It is needed for building the **Project** for the desired *Target Platform*. Find more information about *WSL* on the links provided in the **External Links** section below.
+*WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. It is needed for building the **Project** for the desired *Target Platform*. 
+
+Find more information about *WSL* on the links provided in the **External Links** section below.
 
 To set up *WSL*, follow these steps:
 
@@ -77,7 +93,7 @@ To set up *WSL*, follow these steps:
 
 **Preparing Incari Studio**
 
-For exporting to a different `Target` than the `Host`, a *cross-compiled* version of **Incari Player** for the desired `Target` is necessary.
+For exporting to a different *Target Platform* than the *Host*, a *cross-compiled* version of **Incari Player** for the desired *Target* is necessary.
 
 1. Acquire **Incari Player** for the desired `Target` *platform*. For this, an **Enterprise Account** is needed.
 2. Copy the *cross-compiled* version of **Incari Player** in the following location: `%AppData%\IncariStudio\CrossCompile\<target-triple>\Incari\IncariPlayer\<IncariStudio/Player-version>/`. 
@@ -91,7 +107,7 @@ These are a few examples for `<target-triple>` to be used in the *path*:
 
 **Exporting the Project**
 
-Now everything is ready for exporting a **Project** to the desired `Target` *platform*. For this:
+After following all the previous steps, everything is ready for exporting a **Project** to the desired *Target* *Platform*. For this:
 
 1. Open the **Project** to be exported in **Incari Studio** and go to the **Exporter Module**.
 2. Add the desired `Target` by using the plus icon on the top left.
