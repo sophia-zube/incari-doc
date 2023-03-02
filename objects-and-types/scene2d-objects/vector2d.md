@@ -10,7 +10,7 @@ There are several **Vector Objects** that are described below:
 * [Rectangle](vector2d.md#rectangle)
 * [Pie](vector2d.md#sector)
 
-![Vector Objects in Scene2D](../../.gitbook/assets/sceneoutliner2dvector.png)
+![Vector Objects in Scene2D](../../.gitbook/assets/vector2dexample.png)
 
 ## Arc
 
@@ -40,4 +40,4 @@ A rectangular **2D** **Object** that is restricted to the X and Y axes. There ar
 
 A **2D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It is restricted to the X and Y axes. There are several **Nodes** attributed to **Pie Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
 
-![Pie](../../.gitbook/assets/2dscenesector.png)
+![Pie](../../.gitbook/assets/pie2dexample.png)
