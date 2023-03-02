@@ -56,7 +56,8 @@ After exporting a **Project**, the export folder will have:
 
 The **Project** can then be started by launching `run.bat`.
 
-It is also possible to export a **Project** from the command line with the command `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`.
+It is also possible to export a **Project** from the command line with the command `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>"`. Add `/no-player` to the command to export just the **Project** without a copy of **Incari Player**, this is equivalent to setting `Only Project` to *true* in the [**Settings tab**](#settings) when exporting from **Incari Studio**. Omitting `/no-player` from the command will result in exporting the **Project** alongside a copy of **Incari Player**, just as setting `Only Project` to *false* when exporting from **Incari Studio**.
+
 
 ### Different Target
 
@@ -64,7 +65,9 @@ Exporting a **Project** for a different `Target` than the *Host* requires a few 
 
 **Setting up WSL**
 
-*WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. Find more information about *WSL* on the links provided in the **External Links** section below.
+*WSL* stands for *Windows Subsystem for Linux* and is a tool that allows users to run a *Linux* environment directly on *Windows*. It is needed for building the **Project** for the desired *Target Platform*. Find more information about *WSL* on the links provided in the **External Links** section below.
+
+To set up *WSL*, follow these steps:
 
 1. Either on *Windows PowerShell* or *Command Prompt*, run the following *command*: `wsl --install`. This will install *WSL* and the latest *Ubuntu* version.
 2. Restart *Windows*.
@@ -79,7 +82,9 @@ For exporting to a different `Target` than the `Host`, a *cross-compiled* versio
 1. Acquire **Incari Player** for the desired `Target` *platform*. For this, an **Enterprise Account** is needed.
 2. Copy the *cross-compiled* version of **Incari Player** in the following location: `%AppData%\IncariStudio\CrossCompile\<target-triple>\Incari\IncariPlayer\<IncariStudio/Player-version>/`. 
 
-Examples for "target-triple" to be used in the *path*:
+The `<target-triple>` in the *path* where the *cross-compiled* version of **Incari Player** should be located is dependent on the desired *Target Platform*.
+
+These are a few examples for `<target-triple>` to be used in the *path*:
 * `x86_64-linux-gnu`, for *Linux x86-64*.
 * `aarch64-linux-gnu`, for *Linux arm64*.
 * `arm-linux-gnueabihf`, for *Linux arm32*.
@@ -111,7 +116,7 @@ After exporting a **Project**, the export folder will have:
 * A `run.sh` file.
 * A folder with a copy of **Incari Player** for the desired `Target` (only if `Only Project` was set to *false*).
 
-The **Project** can then be started by launching `run.sh`.
+The **Project** can then be started in the *Target Platform* by launching `run.sh`.
 
 ## External Links
 
