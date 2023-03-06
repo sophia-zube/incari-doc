@@ -1,7 +1,9 @@
 # TCP Connection
 
 
+
 ![The TCP Connection Settings.](../../.gitbook/assets/projectsettings-tcp4.png)
+
 
 The **TCP Connection Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the [**TCP** **Nodes**](../../toolbox/communication/tcp/README.md).
 

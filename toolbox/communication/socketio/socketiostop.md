@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Stop Node.](../../../.gitbook/assets/socketiostop.png)
+![The Socket.IO Stop Node.](../../../.gitbook/assets/socketiostopnodereal.png)
 
 **Socket.IO Stop** stops the currently opened **Socket.IO** connection.
 
@@ -12,13 +12,13 @@ the [**On Socket.IO Stop Node**](events/onsocketiostop.md) instead. This way, th
 
 Again, the user must first use the **Socket.IO Stop Node** to close the connection. Separately, the **On Socket.IO Stop Node** can be used to execute the desired **Communication Logic**.  
 
-![Socket.IO Stop and On Socket.IO Stop Configuration.](../../../.gitbook/assets/socketiostopvsonsocketiostop.png)
+![Socket.IO Stop and On Socket.IO Stop Configuration.](../../../.gitbook/assets/socketiostopexamplereal.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
-![The Socket.IO Stop Node Attributes.](../../../.gitbook/assets/socketiostopattributes.png)
+![The Socket.IO Stop Node Attributes.](../../../.gitbook/assets/socketiostopattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|

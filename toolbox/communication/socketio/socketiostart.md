@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Start Node.](../../../.gitbook/assets/socketiostart.png)
+![The Socket.IO Start Node.](../../../.gitbook/assets/socketiostartnodereal.png)
 
 The **Socket.IO Start Node** starts a **Socket.IO** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/socketio.md).
 
@@ -13,13 +13,13 @@ the [**On Socket.IO Start Node**](events/onsocketiostart.md) instead. This way, 
 
 Again, the user must first use the **Socket.IO Start Node** to open the connection. Separately, the **On Socket.IO Start Node** can be used to execute the desired **Communication Logic**.
 
-![Socket.IO Start and On Socket.IO Start Configuration](../../../.gitbook/assets/socketiostartexample.png)
+![Socket.IO Start and On Socket.IO Start Configuration](../../../.gitbook/assets/socketiostartexamplereal.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
-![The SocketIO Start Node Attributes.](../../../.gitbook/assets/socketiostartattributesnotevent.png)
+![The SocketIO Start Node Attributes.](../../../.gitbook/assets/socketiostartattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|
