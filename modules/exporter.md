@@ -56,7 +56,7 @@ After exporting a **Project**, the export folder will have:
 
 The **Project** can then be started by launching `run.bat`.
 
-It is also possible to export a **Project** from the command line. There are two cases, which are equivalent to whether the `Only Project` option is set to *true* or *false* in [**Settings**](#settings) when exporting from **Incari Studio**.
+It is also possible to export a **Project** from the command line. There are two cases, which are equivalent to whether the `Only Project` option is set to *true* or *false* in [**Settings**](#settings), when exporting from **Incari Studio**.
 
 For exporting the **Project** alongside a copy of **Incari Player**, run the command:
 
