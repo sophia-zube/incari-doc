@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Send Node.](../../../.gitbook/assets/socketiosend.png)
+![The Socket.IO Send Node.](../../../.gitbook/assets/socketiosendnodereal.png)
 
 The **Socket.IO Send Node** sends the `Message` of a specified **Socket.IO** event identified under its specified `Namespace`. 
 
@@ -10,7 +10,7 @@ The **Socket.IO Send Node** sends the `Message` of a specified **Socket.IO** eve
 
 # Attributes
 
-![The Socket.IO Send Node Attributes.](../../../.gitbook/assets/socketiosendattributes.png)
+![The Socket.IO Send Node Attributes.](../../../.gitbook/assets/socketiosendattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|

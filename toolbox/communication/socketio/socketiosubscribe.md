@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Subscribe Node.](../../../.gitbook/assets/socketiosubscribe.png)
+![The Socket.IO Subscribe Node.](../../../.gitbook/assets/socketiosubscribenodereal.png)
 
 The **Socket.IO Subscribe Node** starts listening to the specific **Socket.IO** event given. This means that the server filters for the desired data with the particular `Namespace` and `Event name`.
 
@@ -10,7 +10,7 @@ The **Socket.IO Subscribe Node** starts listening to the specific **Socket.IO** 
 
 # Attributes
 
-![The Socket.IO Subscribe Node Attributes.](../../../.gitbook/assets/socketiosubscribeattribtues.png)
+![The Socket.IO Subscribe Node Attributes.](../../../.gitbook/assets/socketiosubscribeattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|
