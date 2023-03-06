@@ -1,10 +1,10 @@
 # UDP Connection
 
-![The UDP Connection Settings.](../.gitbook/assets/projectsettings-udp3.png)
+![The UDP Connection Settings.](../../.gitbook/assets/projectsettings-udp3.png)
 
 The **UDP Connection Settings** allow the user to manage **UDP Connections** and cover the necessary data to provide functionality to the [**UDP** **Nodes**](../../toolbox/communication/udp/README.md). Messages are called *datagrams*.
 
-**UDP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](plugins/communication/README.md) to find out more information.
+**UDP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../plugins/communication/udpconnectionsmanager.md) to find out more information.
 
 `Name` is an identifying name of a *UDP* connection chosen at the user's discretion.
 
