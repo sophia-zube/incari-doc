@@ -32,7 +32,10 @@ In **Scene2Ds**, the workspace is truly only in two dimensions, in pixel space. 
 
 Since *2D* and *3D* are now treated separately in **Incari**, [**Overlay Objects**](../objects-and-types/scene-objects/overlay.md) have been created to bridge this so-called gap. This way, the user can specify a **Scene2D** to be rendered on top of a *3D* **Scene**. 
 
-*3D* **Scene Objects** are explained in detail [here.](../objects-and-types/scene-objects/README.md) <!-- There are also several [**2D Objects**](../objects-and-types/scene2d-objects/README.md) attributed to the **Scene2D** side of workflow in **Incari**. --> 
+<!-- *3D* **Scene Objects** are explained in detail [here.](../objects-and-types/scene-objects/README.md) --> 
+<!-- There are also several [**2D Objects**](../objects-and-types/scene2d-objects/README.md) attributed to the **Scene2D** side of workflow in **Incari**. --> 
+
+New **2D Objects** for exclusive use in **Scene2Ds** have been introduced and are described in detail [here](../objects-and-types/scene2d-objects/README.md).
 
 ## **Virtual Reality and Mixed Reality**
 
