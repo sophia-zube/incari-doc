@@ -13,10 +13,10 @@ The included **Scenes** are:
 <!-- no toc -->
 1. [**Buttons**](#1-buttons)
 2. [**Slider**](#2-slider)
-3. [**Progress Bar**](#3-progress-bar)
+3. [**Tabs**](#3-tabs) 
 4. [**Dropdown**](#4-dropdown)
 5. [**List Picker**](#5-list-picker)
-6. [**Tabs**](#6-tabs)
+6. [**Progress Bar**](#6-progress-bar)
 7. [**Media**](#7-media)
 8. [**Input Bar**](#8-input-bar)
 9. [**Sidebar**](#9-sidebar)
@@ -24,44 +24,72 @@ The included **Scenes** are:
 
 ## **1. Buttons**
 
-![](../.gitbook/assets/demowidgets/buttons-ui.png)
+![](../.gitbook/assets/demowidgets/Buttons.gif)
 
+This **Scene** has two buttons implemented through **Prefabs**: 
+
+* `TextButton`: A button that receives as input the text that it will show. When pressed, it changes its shade of green for an instant and activates a **Pulse** in the **Logic**. In this case, it is implemented as a counter.
+
+* `RadioButton`: A button with two states: *on* and *off*. It outputs a **Boolean** indicating the current state and changes color accordingly. Here, it activates the *rotation* of a dot.
+
+### Logic
+
+* **`TextButton` initialization**
 
 ![](../.gitbook/assets/demowidgets/buttons-logic1.png)
 
+This part of the **Scene** **Logic** initializes the `TextButton` button: 
+
+* The event `buttons_init` is triggered when the **Scene** starts showing.
+* The **Prefab Node** `TextButton` is triggered. In it, the text given is set on the button and the **Event Nodes** in the **Prefab Logic** are subscribed to.
+
+* **`RadioButton`**
+
 ![](../.gitbook/assets/demowidgets/buttons-logic2.png)
+
+Here, `RadioButton` is initialized with the `buttons_init` **Event**. Remember that this **Event** is triggered when the **Scene** starts showing. It is also shown that the **Prefab Node** `RadioButton` outputs a **Boolean** indicating the current state of the button.
 
 ## **2. Slider**
 
-![](../.gitbook/assets/demowidgets/slider-ui.png)
+![](../.gitbook/assets/demowidgets/Slider.gif)
+
+This **Scene** shows a *slider* that can be set by clicking and dragging its indicator and a number between $$0$$ and $$1$$ representing the indicator's position.
+
+### Logic
 
 ![](../.gitbook/assets/demowidgets/slider-logic1.png)
 
-## **3. Progress Bar**
+The *slider* is initialized when the **Scene** starts showing. For it, it needs as input the **Screen's** `Size` as a **Vector2**. 
 
-![](../.gitbook/assets/demowidgets/progressbar-ui.png)
+Once initialized, the **Prefab Node** `SliderControl` outputs a **Pulse** and a **Float** between $$0$$ and $$1$$ each time the *slider* indicator is moved.
 
-![](../.gitbook/assets/demowidgets/progressbar-logic1.png)
+## **3. Tabs**
+
+![](../.gitbook/assets/demowidgets/Tabs.gif)
+
+
 
 ## **4. Dropdown**
 
-![](../.gitbook/assets/demowidgets/dropdown-ui.png)
+![](../.gitbook/assets/demowidgets/Dropdown.gif)
 
 ![](../.gitbook/assets/demowidgets/dropdown-logic1.png)
 
 ## **5. List Picker**
 
-![](../.gitbook/assets/demowidgets/listpicker-ui.png)
+![](../.gitbook/assets/demowidgets/ListPicker.gif)
 
-## **6. Tabs**
 
-![](../.gitbook/assets/demowidgets/tabs-ui.png)
+## **6. Progress Bar**
 
+![](../.gitbook/assets/demowidgets/ProgressBar.gif)
+
+![](../.gitbook/assets/demowidgets/progressbar-logic1.png)
 
 
 ## **7. Media**
 
-![](../.gitbook/assets/demowidgets/media-ui.png)
+![](../.gitbook/assets/demowidgets/Media.gif)
 
 ![](../.gitbook/assets/demowidgets/media-logic1.png)
 
@@ -69,13 +97,13 @@ The included **Scenes** are:
 
 ## **8. Input Bar**
 
-![](../.gitbook/assets/demowidgets/inputbar-ui.png)
+![](../.gitbook/assets/demowidgets/Input.gif)
 
 ![](../.gitbook/assets/demowidgets/inputbar-logic1.png)
 
 ## **9. Sidebar**
 
-![](../.gitbook/assets/demowidgets/sidebar-ui.png)
+![](../.gitbook/assets/demowidgets/Sidebar.gif)
 
 ![](../.gitbook/assets/demowidgets/sidebar-logic1.png)
 
