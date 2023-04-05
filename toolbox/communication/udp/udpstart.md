@@ -13,9 +13,9 @@ the [**On UDP Start Node**](events/onudpstart.md) instead. This way, the **Logic
 
 Again, the user must first use the **UDP Start Node** to open the connection. Separately, the **On UDP Start Node** can be used to execute the desired **Communication Logic**.
 
-![UDP Start and On UDP Start Configuration](../../../.gitbook/assets/udpstartvsonudpstart.png).
+![UDP Start and On UDP Start Configuration](../../../.gitbook/assets/udpstartvsonudpstart.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
@@ -23,7 +23,7 @@ Again, the user must first use the **UDP Start Node** to open the connection. Se
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings.md).| 
+|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings/README.md).| 
 
 # Inputs
 
@@ -39,4 +39,5 @@ Again, the user must first use the **UDP Start Node** to open the connection. Se
 
 # See Also
 
+* [**UDP Stop**](udpstop.md)
 

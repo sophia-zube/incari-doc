@@ -20,7 +20,7 @@ These provide the necessary information for the user to incorporate *Leap Motion
 
 ## Contents 
 
-* [**On Leap Motion Frame Update](on-leap-motion-frame-update.md)
+* [**On Leap Motion Frame Update**](on-leap-motion-frame-update.md)
 * [**On Leap Motion Grab End**](on-leapmotion-grab-end.md)
 * [**On Leap Motion Grab Start**](on-leapmotion-grab-start.md)
 * [**On Leap Motion Grab Update**](on-leapmotion-grab-update.md)

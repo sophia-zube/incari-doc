@@ -2,7 +2,7 @@
 
 ![The UDP Stop Node.](../../../.gitbook/assets/udpstop.png)
 
-**UDP Stop** stops the **UDP** connection.
+**UDP Stop** stops the **UDP** connection, which was previously established with [**UDP Start**](udpstart.md).
 
 **UDP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **UDP Stop** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 
@@ -12,7 +12,7 @@ the [**On UDP Stop Node**](events/onudpstop.md) instead. This way, the **Logic**
 
 Again, the user must first use the **UDP Stop Node** to close the connection. Separately, the **On UDP Stop Node** can be used to execute the desired **Communication Logic**.  
 
-![UDP Stop and On UDP Stop Configuration.](../../../.gitbook/assets/udpstopvsonudpstop.png).
+![UDP Stop and On UDP Stop Configuration.](../../../.gitbook/assets/udpstopvsonudpstop.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 

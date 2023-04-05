@@ -1,6 +1,6 @@
 # Camera 2D
 
-The **Camera Object** effectively decides what is visible of a **Scene2D** when switched to `Player View`. The user can control this with its **Attributes**. 
+The **Camera Object** effectively decides what is visible of a **Scene2D** when switched to `Player View` or when the **Project** is run. The user can control this with its **Attributes**. 
 
 ## Attributes
 
@@ -8,7 +8,7 @@ Altering a **Camera's** `Position` and `Rotation` may change how **Objects** are
 
 ![Camera Transformations.](../../.gitbook/assets/camera2dtransformations.gif)
 
-The `Size` configures the dimensions of the **Camera's** bounds, the default of which is `1920x1080`. This can be used to reduce or extend the bounds of a **Camera**. 
+The `Size` configures the dimensions of the **Camera's** bounds and can be used to reduce or extend the confines of a **Camera**. The default is `1920x1080`, but this can change as it ultimately depends on the size of the **Screen** that a **Scene2D** resides in. 
 
 `Link viewport to screen size` can be toggled when a **Camera** is in a **Scene** that belongs to a **Screen**. When it is switched off, the user can edit the `Size`.
 
@@ -21,4 +21,6 @@ Before `Player View` is enabled, the bounds of the **Camera** as well as the ent
 Once `Player View` is activated, only half of the **Ellipse** is visible and the boundary lines of the **Camera** disappear. 
 
 ![Camera Player View.](../../.gitbook/assets/cameraafter.png)
+
+`Player View` gives a preview of what will be shown when the **Scene2D** is playing. 
 
