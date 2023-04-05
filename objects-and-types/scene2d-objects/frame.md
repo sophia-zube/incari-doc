@@ -1,16 +1,16 @@
 # Frame
 
-A **Frame** is an **Object** in **Incari** that acts as a 'container' to its children and has rigid boundaries which exist within a **Scene2D**. It is one of the two **Objects** in **Scene2Ds** which can be parents. 
+A **Frame** is an **Object** in **Incari** that acts as a 'container' to its *children* and has rigid boundaries which exist within a **Scene2D**. It is one of the two **Objects** in **Scene2Ds** which can be *parents*. 
 
 ## Create 
 
 When a **Frame** is created, it is not expressed as an explicitly visual component to be displayed in the **Scene2D**. It must first be populated with other **Objects**. The dimensions of the **Frame** are provided in its **Attributes**.
 
-Without any **Objects** as children, a **Frame** doesn't look like much:
+Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
 ![Frame Object Before.](../../.gitbook/assets/frameonstart.png)
 
-An **Ellipse** and **Rectangle** are now added as children, but it's still difficult to tell the boundaries of the **Frame** visually. Notice the `Postion` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 1000 units in both the X and Y-axes. **Objects**, however, still appear in full outside the boundaries of the **Frame**. 
+An **Ellipse** and **Rectangle** are now added as *children*, but it's still difficult to tell the boundaries of the **Frame** visually. Notice the `Postion` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 1000 units in both the X and Y-axes. **Objects**, however, still appear in full outside the boundaries of the **Frame**. 
 
 ![Frame with Objects.](../../.gitbook/assets/framewithobjectsadded.png)
 
@@ -30,6 +30,6 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 -->
 ## Layout
 
-The `Layout` of the **Frame** can be adjusted to display its children horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
+The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
 
 ![Frame Layout.](../../.gitbook/assets/framelayout.gif)

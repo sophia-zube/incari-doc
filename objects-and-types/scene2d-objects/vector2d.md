@@ -14,7 +14,7 @@ There are several **Vector Objects** that are described below:
 
 ## Arc
 
-A **2D Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It is restricted to the X and Y axes. There are several **Nodes** attributed to **Arc Objects**, which can be found [_here_](../../toolbox/incari/vector/arc/README.md).
+A **2D Object** that is a piece of a circle defined by a starting and ending degree running straight through between the two selected degree points, disregarding the center. This means that it will not pass through the true center, but create a circle-like **Object** with segments missing at times. There are several **Nodes** attributed to **Arc Objects**, which can be found [_here_](../../toolbox/incari/vector/arc/README.md).
 
 ![Arc](../../.gitbook/assets/2dscenearc.png)
 
