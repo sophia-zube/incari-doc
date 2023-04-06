@@ -15,7 +15,7 @@ Again, the user must first use the **TCP Start Node** to open the connection. Se
 
 ![TCP Start and On TCP Start Configuration](../../../.gitbook/assets/tcpstartvsontcpstart.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope,**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
