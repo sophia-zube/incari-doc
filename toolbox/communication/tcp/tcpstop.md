@@ -14,7 +14,7 @@ Again, the user must first use the **TCP Stop Node** to close the connection. Se
 
 ![TCP Stop and On TCP Stop Configuration.](../../../.gitbook/assets/tcpstopvsontcpstop.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

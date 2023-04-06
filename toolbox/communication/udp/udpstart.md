@@ -15,7 +15,7 @@ Again, the user must first use the **UDP Start Node** to open the connection. Se
 
 ![UDP Start and On UDP Start Configuration](../../../.gitbook/assets/udpstartvsonudpstart.png)
 
-[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
+[**Scope,**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
@@ -23,7 +23,7 @@ Again, the user must first use the **UDP Start Node** to open the connection. Se
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings/README.md).| 
+|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings,**](../../../modules/project-settings/udp-connection.md).| 
 
 # Inputs
 
