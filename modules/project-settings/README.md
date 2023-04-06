@@ -10,7 +10,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 * [**MQTT**](mqtt.md)
 * [**Profiler**](profiler.md)
 * [**Serial**](serial.md)
-* [**SocketIO**](socketio.md)
+* [**Socket.IO**](socketio.md)
 * [**TCP Connection**](tcp-connection.md)
 * [**UDP Connection**](udp-connection.md)
 

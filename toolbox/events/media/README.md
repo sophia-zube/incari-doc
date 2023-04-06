@@ -6,5 +6,6 @@ The **Media Event Nodes** trigger a **Logic Branch** when media **Objects** star
 
 ## Contents
 
-* [**On Media Play**](onmediaplay.md)
 * [**On Media Finish**](onmediafinish.md)
+* [**On Media Play**](onmediaplay.md)
+

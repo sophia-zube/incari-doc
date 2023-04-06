@@ -12,7 +12,7 @@ The **Set Volume Node** sets the current volume of a **Media Object**. This does
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The **Media Object** whose volume will be set.|
-|`Volume`|Int|The integer value of the desired volume.|
+|`Volume`|**Int**|The integer value of the desired volume.|
 
 # Outputs
 

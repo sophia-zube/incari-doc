@@ -19,7 +19,7 @@ Again, the user must first use the **Socket.IO Start Node** to open the connecti
 
 # Attributes
 
-![The SocketIO Start Node Attributes.](../../../.gitbook/assets/socketiostartattsreal.png)
+![The Socket.IO Start Node Attributes.](../../../.gitbook/assets/socketiostartattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|
