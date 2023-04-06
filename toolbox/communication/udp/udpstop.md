@@ -14,7 +14,7 @@ Again, the user must first use the **UDP Stop Node** to close the connection. Se
 
 ![UDP Stop and On UDP Stop Configuration.](../../../.gitbook/assets/udpstopvsonudpstop.png)
 
-[**Scope,**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
@@ -22,7 +22,7 @@ Again, the user must first use the **UDP Stop Node** to close the connection. Se
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings,**](../../../modules/project-settings/udp-connection.md).| 
+|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings/udp-connection.md).| 
 
 # Inputs
 
