@@ -2,7 +2,7 @@
 
 ![The TCP Start Node.](../../../.gitbook/assets/tcpstart.png)
 
-The **TCP Start Node** starts a **TCP** connection that has already been set up in [**Project Settings**](../../../modules/project-settings.md#serial).
+The **TCP Start Node** starts a **TCP** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/tcp-connection.md).
 
 **TCP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **TCP Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/communication/tcpconnectionsmanager.md) to find out more information.
 

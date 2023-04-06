@@ -4,7 +4,7 @@
 
 ![The On Media Play Node.](../../../.gitbook/assets/onmediaplay.png)
 
-**On Media Play** is an **Event Listener Node** that gives the user a way to perform an action once a media **Object** starts. Media in **Incari** is either a **Video** or **Audio**. 
+**On Media Play** is an **Event Listener Node** that gives the user a way to trigger a **Logic Branch** when a media **Object** starts. Media in **Incari** is either a **Video** or **Audio**. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
