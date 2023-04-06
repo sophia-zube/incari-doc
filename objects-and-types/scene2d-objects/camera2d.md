@@ -8,7 +8,7 @@ Altering a **Camera's** `Position` and `Rotation` may change how **Objects** are
 
 ![Camera Transformations.](../../.gitbook/assets/camera2dtransformations.gif)
 
-The `Size` configures the dimensions of the **Camera's** bounds and can be used to reduce or extend the confines of a **Camera**. The default is `1920x1080`, but this can change as it ultimately depends on the size of the **Screen** that a **Scene2D** resides in. 
+The `Size` configures the dimensions of the **Camera's** bounds and can be used to reduce or extend the confines of a **Camera**. The default is `1920x1080` in the above example, but this can change as it ultimately depends on the size of the **Screen** that a **Scene2D** resides in. 
 
 `Link viewport to screen size` can be toggled when a **Camera** is in a **Scene** that belongs to a **Screen**. When it is switched off, the user can edit the `Size`.
 
