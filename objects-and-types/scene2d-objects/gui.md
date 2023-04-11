@@ -39,11 +39,11 @@ Finally, this **Dropdown** looks like this when the **Project** is run:
 
 ## Slider
 
-The **Slider** is a **GUI** **2D Object** that allows the user to create a customizable slider selector. Its **Attributes** offer the options to customize the **Slider**.
+The **Slider** is a **GUI** **2D Object** that allows the user to create a customizable slider selector. The customization is done through the **Attributes**. <!-- Its **Attributes** offer the options to customize the **Slider**. -->
 
 ![Slider.](../../.gitbook/assets/gui-slider1.png)
 
-The **Slider Attributes** offer the user options to customize the slider:
+The **Slider Attributes** offer the user options to customize the **Slider**:
 
 ![Slider Attributes.](../../.gitbook/assets/gui-slider-attri.png)
 
