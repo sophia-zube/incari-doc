@@ -2,7 +2,7 @@
 
 After clicking on **Serial** in the **Plugins Module**, its options will show. All **Serial Communication** related components are encompassed by the **Serial Plugin**. 
 
-To refresh, **Serial Communication** is a form of data transmission where data is sent bit by bit. More information can be found [here](https://en.wikipedia.org/wiki/Serial_communication). Within **Incari**, this is done by using the [**Serial Nodes**](../../../toolbox/communication/serial/README.md) and connections are configured in the [**Project Settings**](project-settings.md#serial). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **Serial Communication** is a form of data transmission where data is sent bit by bit. More information can be found [here](https://en.wikipedia.org/wiki/Serial_communication). Within **Incari**, this is done by using the [**Serial Nodes**](../../../toolbox/communication/serial/README.md) and connections are configured in the [**Project Settings**](../../project-settings/serial.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 

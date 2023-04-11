@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **UDP** **Nodes** provide a means for the user to perform several actions within the *UDP* communications protocol. *UDP*, or User Datagram Protocol, is part of the Internet protocol suite and allows for communication to occur with other hosts that are part of an *IP* network. To use the **UDP Nodes** in **Incari**, the user needs to locate the [**UDP Attributes**](../../../modules/project-settings.md#mqtt) in **Project Settings** and add a `Connection`. 
+The **UDP** **Nodes** provide a means for the user to perform several actions within the *UDP* communications protocol. *UDP*, or User Datagram Protocol, is part of the Internet protocol suite and allows for communication to occur with other hosts that are part of an *IP* network. To use the **UDP Nodes** in **Incari**, the user needs to locate the [**UDP Attributes**](../../../modules/project-settings/udp-connection.md) in **Project Settings** and add a `Connection`. 
 
 This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **UDP Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 

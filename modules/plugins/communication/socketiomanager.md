@@ -2,7 +2,7 @@
 
 After clicking on **Socket.IO** in the **Plugins Module**, its options will show. All **Socket.IO Communication** related components are encompassed by the **Socket.IO Plugin**. 
 
-To refresh, **Socket.IO Communication** is a popular form of bidirectional data communication often used for web applications. More information can be found [here](https://socket.io/docs/v4/). Within **Incari**, this is done by using the [**Socket.IO Nodes**]() and connections are configured in the [**Project Settings**](../../project-settings.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **Socket.IO Communication** is a popular form of bidirectional data communication often used for web applications. More information can be found [here](https://socket.io/docs/v4/). Within **Incari**, this is done by using the [**Socket.IO Nodes**](../../../toolbox/communication/socketio/README.md) and connections are configured in the [**Project Settings**](../../project-settings/socketio.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
