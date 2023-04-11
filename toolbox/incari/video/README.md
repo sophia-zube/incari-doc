@@ -7,9 +7,7 @@ The **Video Nodes** provide a way to incorporate video files in the **Logic Edit
 ## Contents
 
 
-* [**Get Volume**](getvolume.md)
 * [**Seek Video**](seekvideo.md)
-* [**Set Volume**](setvolume.md)
 
 
 
