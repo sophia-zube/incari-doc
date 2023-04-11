@@ -2,7 +2,7 @@
 
 After clicking on **UDP** in the **Plugins Module**, its options will show. All **UDP Communication** related components are encompassed by the **UDP Plugin**. 
 
-To refresh, **UDP**, or *User Datagram Protocol*, is a connectionless form of data communication that is a part of the Internet protocol suite. More information can be found [here](https://en.wikipedia.org/wiki/User_Datagram_Protocol). Within **Incari**, this is done by using the [**UDP Nodes**]() and connections are configured in the [**Project Settings**](../../project-settings.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **UDP**, or *User Datagram Protocol*, is a connectionless form of data communication that is a part of the Internet protocol suite. More information can be found [here](https://en.wikipedia.org/wiki/User_Datagram_Protocol). Within **Incari**, this is done by using the [**UDP Nodes**](../../../toolbox/communication/udp/README.md) and connections are configured in the [**Project Settings**](../../project-settings/udp-connection.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
