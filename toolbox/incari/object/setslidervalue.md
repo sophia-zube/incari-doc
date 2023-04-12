@@ -4,7 +4,7 @@
 
 The **Set Slider Value Node** sets the value of the slider's placement on its handle. 
 
-[**Scope**]():
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 

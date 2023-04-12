@@ -42,7 +42,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Set Rotation**](set-rotation.md)
 * [**Set Rotation 2D**](set-rotation-pixel.md)
 * [**Set Scale**](set-scale.md)
-* [**Set Size 2D (px)**](set-size-pixel.md)
+* [**Set Size**](set-size-pixel.md)
 * [**Set Slider Value**](setslidervalue.md)
 * [**Set Sort Index**](set-sort-index.md)
 * [**Set Stylesheet**](set-stylesheet.md)
