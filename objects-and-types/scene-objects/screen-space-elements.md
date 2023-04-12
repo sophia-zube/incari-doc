@@ -89,6 +89,6 @@ The **2D Nodes** fall under three groups and include the following:
   * [**Set Rotation 2D**](../../toolbox/incari/object/set-rotation-pixel.md)
   * [**Get Rotation 2D**](../../toolbox/incari/object/get-rotation-pixel.md)
 * Size
-  * [**Set Size 2D (px)**](../../toolbox/incari/object/set-size-pixel.md)
-  * [**Get Size 2D (px)**](../../toolbox/incari/object/get-size-pixel.md)
+  * [**Set Size**](../../toolbox/incari/object/set-size-pixel.md)
+  * [**Get Size**](../../toolbox/incari/object/get-size-pixel.md)
 

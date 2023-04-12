@@ -2,19 +2,11 @@
 
 ## Overview
 
-![The Get Size Node.](../../../.gitbook/assets/getsize2dupdatedimage.png)
+![The Get Size Node.](../../../.gitbook/assets/getsizenode.png)
 
 The **Get Size Node** returns the X and Y values of a **2D Object's** `Size`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
-## Attributes
-
-![The Get Size 2D (px) Node Attributes.](../../../.gitbook/assets/node-get-size-2d-attr.png)
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object** whose `Size` you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
