@@ -22,6 +22,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 <!-- * [**Get Rotation 2D**](get-rotation-pixel.md) -->
 * [**Get Scale**](get-scale.md)
 * [**Get Size**](get-size-pixel.md)
+* [**Get Slider Value**](getslidervalue.md)
 * [**Get Sort Index**](get-sort-index.md)
 * [**Get Text Color**](get-text-color.md)
 * [**Get Tint**](get-tint.md)
@@ -42,6 +43,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Set Rotation 2D**](set-rotation-pixel.md)
 * [**Set Scale**](set-scale.md)
 * [**Set Size 2D (px)**](set-size-pixel.md)
+* [**Set Slider Value**](setslidervalue.md)
 * [**Set Sort Index**](set-sort-index.md)
 * [**Set Stylesheet**](set-stylesheet.md)
 * [**Set Text Color**](set-text-color.md)
