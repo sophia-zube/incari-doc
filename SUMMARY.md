@@ -414,6 +414,7 @@
     <!-- * [Get Rotation 2D](toolbox/incari/object/get-rotation-pixel.md) -->
     * [Get Scale](toolbox/incari/object/get-scale.md)
     * [Get Size](toolbox/incari/object/get-size-pixel.md)
+    * [Get Slider Value](toolbox/incari/object/getslidervalue.md)
     * [Get Sort Index](toolbox/incari/object/get-sort-index.md)
     * [Get Text Color](toolbox/incari/object/get-text-color.md)
     * [Get Tint](toolbox/incari/object/get-tint.md)
@@ -434,6 +435,7 @@
     <!-- * [Set Rotation 2D](toolbox/incari/object/set-rotation-pixel.md) -->
     * [Set Scale](toolbox/incari/object/set-scale.md)
     * [Set Size](toolbox/incari/object/set-size-pixel.md)
+    * [Set Slider Value](toolbox/incari/object/setslidervalue.md)
     * [Set Sort Index](toolbox/incari/object/set-sort-index.md)
     * [Set Stylesheet](toolbox/incari/object/set-stylesheet.md)
     * [Set Text](toolbox/incari/object/set-text.md)
