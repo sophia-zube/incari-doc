@@ -4,7 +4,7 @@
 
 ![The On Media Finish Node.](../../../.gitbook/assets/onmediafinish.png)
 
-**On Media Finish** is an **Event Listener Node** that gives the user a way to trigger a **Logic Branch** when a media **Object** finishes. Media in **Incari** is either a **Video** or **Audio**. 
+**On Media Finish** is an **Event Listener Node** that gives the user a way to trigger a **Logic Branch** when a media **Object** finishes. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
