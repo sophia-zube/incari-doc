@@ -20,24 +20,24 @@ A **2D Object** that is a piece of a circle defined by a starting and ending deg
 
 ## Ellipse
 
-A circular **2D** **Object** that is restricted to the X and Y axes.
+A circular **2D** **Object**.
 
 ![Ellipse](../../.gitbook/assets/2dsceneellipse.png)
 
 ## Line
 
-A linear **2D** **Object** that is restricted to the X and Y axes. There are several **Nodes** attributed to **Line Objects**, which can be found [_here_](../../toolbox/incari/vector/line/README.md).
+A linear **2D** **Object**. There are several **Nodes** attributed to **Line Objects**, which can be found [_here_](../../toolbox/incari/vector/line/README.md).
 
 ![Line](../../.gitbook/assets/2dsceneline.png)
 
 ## Rectangle
 
-A rectangular **2D** **Object** that is restricted to the X and Y axes. There are several **Nodes** attributed to **Rectangle Objects**, which can be found [_here_](../../toolbox/incari/vector/rectangle/README.md).
+A rectangular **2D** **Object**. There are several **Nodes** attributed to **Rectangle Objects**, which can be found [_here_](../../toolbox/incari/vector/rectangle/README.md).
 
 ![Rectangle](../../.gitbook/assets/2dscenerectangle.png)
 
 ## Pie
 
-A **2D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It is restricted to the X and Y axes. There are several **Nodes** attributed to **Pie Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
+A **2D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. There are several **Nodes** attributed to **Pie Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
 
 ![Pie](../../.gitbook/assets/pie2dexample%20-%20Copy.png)
