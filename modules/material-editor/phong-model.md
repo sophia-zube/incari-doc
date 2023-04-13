@@ -1,4 +1,4 @@
-# Default Phong Model 
+# Phong Model 
 
 This model represents the standard Phong model, characterized by a shiny surface marked by pinpointed highlights. It allows for selecting and editing: 
 
@@ -16,7 +16,7 @@ All these **Attributes** are described in greater detail below.
 ## Attributes
 
 ### Material
-![Material](../../.gitbook/assets/phongmodel2.png)
+![Material](../../.gitbook/assets/phongmodelmat1.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 

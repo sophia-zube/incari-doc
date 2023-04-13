@@ -13,7 +13,7 @@ All these **Attributes** are described in greater detail below.
 ## Attributes
 
 ### Material
-![Material](../../.gitbook/assets/shadelessmodel2.png)
+![Material](../../.gitbook/assets/shadelessmodelmat1.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 

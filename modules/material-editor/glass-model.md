@@ -1,4 +1,4 @@
-# Default Glass Model
+# Glass Model
 
 This model represents materials with a glass-like quality. It allows for selecting and editing: 
 
@@ -11,13 +11,13 @@ This model represents materials with a glass-like quality. It allows for selecti
 All these **Attributes** are described in greater detail below. 
 
 
-![](../../.gitbook/assets/glassmodel1image.png)
+![](../../.gitbook/assets/glassmodelmat1.png)
 
 
 ## Attributes
 
 ### Material
-![Material](../../.gitbook/assets/glassmodel1.png)
+![Material](../../.gitbook/assets/glassmodelmat2.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
@@ -51,7 +51,7 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 
 ### Reflection
-![Reflection](../../.gitbook/assets/glassmodel5.png)
+![Reflection](../../.gitbook/assets/glassmodelmat3.png)
 
 These **Attributes** simulate a reflective surface. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. 
 

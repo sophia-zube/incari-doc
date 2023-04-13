@@ -1,6 +1,6 @@
-# Default ExtendendedPBR Model
+# ExtendendedPBR Model
 
-This model offers more attributes than the **Default PBR Model**. It allows for selecting and editing:
+This model offers more attributes than the **PBR Model**. It allows for selecting and editing:
 
 * `Environment` 
 * `Normal Mapping` 
@@ -11,12 +11,12 @@ This model offers more attributes than the **Default PBR Model**. It allows for 
 All these **Attributes** are described in greater detail below. 
 
 
-![](../../.gitbook/assets/extendedpbrmaterial1image.png)
+![](../../.gitbook/assets/extendedpbrmaterialmat1.png)
 
 ## Attributes
 
 ### Material
-![Material](../../.gitbook/assets/extendedpbrmaterial2.png)
+![Material](../../.gitbook/assets/extendedpbrmat2.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
