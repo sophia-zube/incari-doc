@@ -40,6 +40,7 @@ To learn more about the **Root Object** and **Scene** structure, click [here.](.
 
 * [**Add Tag**](add-tag.md)
 * [**Remove Tag**](remove-tag.md)
+* [**Get Tag**](get-tag.md)
 
 
 

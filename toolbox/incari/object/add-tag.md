@@ -42,6 +42,7 @@ It is important to note that when a *tag* is added with the **Add Tag Node**, th
 
 * [**Remove Tag**](remove-tag.md)
 * [**Get Objects By Tag**](get-objects-by-tag.md)
+* [**Get Tag**](get-tag.md)
 
 
 

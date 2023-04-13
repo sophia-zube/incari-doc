@@ -1,4 +1,4 @@
-# Default Car Paint Model
+# Car Paint Model
 
 This model represents a material that provides the visual qualities to a car's paint features. It allows for selecting and editing: 
 
@@ -11,13 +11,13 @@ This model represents a material that provides the visual qualities to a car's p
 
 All these **Attributes** are described in greater detail below. 
 
-![](../../.gitbook/assets/model-carpaint-ball.png)
+![](../../.gitbook/assets/carpaintmodel0.png)
 
 ## Attributes
 
 ### Material
 
-![Material](../../.gitbook/assets/carpaint-attr-material.png)
+![Material](../../.gitbook/assets/carpaintmodel1.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
@@ -41,7 +41,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Base Coat
-![Base Coat](../../.gitbook/assets/carpaint-attr-basecoat.png)
+![Base Coat](../../.gitbook/assets/carpaintmodel2.png)
 
 `Albedo` is the base diffuse color of the car. 
 
@@ -53,7 +53,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Clear Coat
-![Clear Coat](../../.gitbook/assets/carpaint-attr-clearcoat.png)
+![Clear Coat](../../.gitbook/assets/carmodel3.png)
 
 The `Albedo` here is the color of the glossy finish of a car, which sits at the top layer as a color that one can see through. 
 

@@ -1,4 +1,4 @@
-# Default PBR Model
+# PBR Model
 
 This model represents a material that provides a more realistic quality to objects, using physically based rendering. It allows for selecting and editing: 
 
@@ -10,13 +10,13 @@ This model represents a material that provides a more realistic quality to objec
 
 All these **Attributes** are described in greater detail below.
 
-![](../../.gitbook/assets/pbrmodel1.png)
+![](../../.gitbook/assets/pbrmodelmat1.png)
 
 ## Attributes
 
 
 ### Material
-![Material](../../.gitbook/assets/pbrmodel2.png)
+![Material](../../.gitbook/assets/pbrmodelmat2.png)
 
 This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on. 
 
@@ -24,25 +24,19 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Environment Map
-![Environment Map](../../.gitbook/assets/pbrmodel3.png)
+![Environment Map](../../.gitbook/assets/pbrmodelmat3.png)
 
 This enables the user to set a `Texture` which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
 `U offset (deg)` sets the beginning of the image of the provided `Texture` to be "delayed" in the x or direction, moving it from left to right. The resulting "cut off" piece wraps around to the start of the image.
+
+`V offset (deg)` sets the beginning of the image of the provided `Texture` to be "delayed" in the y or direction, moving it from bottom to top. The resulting "cut off" piece wraps around to the start of the image.
 
 
 ### Normals
 ![Normals](../../.gitbook/assets/pbrmodel4real.png)
 
 A normal is a line perpendicular to the surface of some object. *Normal mapping* distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
-
-
-### Environment Map
-![Environment Map](../../.gitbook/assets/pbrmodel5.png)
-
-This enables the user to set a `Texture` which reflects the environment around an object, meaning that the object reflects the surface surrounding it (whether that be the background, another object, or both combined.). 
-
-`V offset (deg)` sets the beginning of the image of the provided `Texture` to be "delayed" in the y or direction, moving it from bottom to top. The resulting "cut off" piece wraps around to the start of the image.
 
 
 ### Albedo
@@ -62,15 +56,13 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 
 ### Tweak
-![Tweak](../../.gitbook/assets/pbrmodel8.png)
+![Tweak](../../.gitbook/assets/pbrmodelmat4.png)
 
 `Metallic` determines how much the surface simulates a metal-like quality, appearing shinier and harder or rougher and duller. 
+
+`Roughness` determines how rough an object is, limiting or strengthening reflectivity. 
 
 `Shadow sensitivity` determines the percentage of influence by the shadow. For example, a 1 would set an **Object's** surface to completely black. 0.5 would mean that even if the **Object** is in shadow, it would still have 50% of its color. 
 
 
-### Tweak
-![Tweak](../../.gitbook/assets/pbrmodel9.png)
-
-`Roughness` determines how rough an object is, limiting or strengthening reflectivity. 
 
