@@ -53,7 +53,7 @@ The **FPS Monitor** shows the frame rate of the player in real time when the **P
 * [**Logic Editor**](logic-editor.md)
 * [**Profiler Start**](../toolbox/development/profiler-start.md)
 * [**Profiler Stop**](../toolbox/development/profiler-stop.md)
-* [**Project Settings**](project-settings.md#profiler)
+* [**Project Settings**](project-settings/profiler.md)
 
 ## External Links
 
