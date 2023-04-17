@@ -408,6 +408,7 @@
     * [Get Opacity](toolbox/incari/object/get-opacity.md)
     * [Get Parent](toolbox/incari/object/get-parent.md)
     * [Get Position](toolbox/incari/object/get-position.md)
+    * [Get Property](toolbox/incari/object/get-property.md))
     <!-- * [Get Position 2D (px)](toolbox/incari/object/get-position-pixel.md) -->
     * [Get Root](toolbox/incari/object/get-root.md)
     * [Get Rotation](toolbox/incari/object/get-rotation.md)
