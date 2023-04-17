@@ -24,12 +24,12 @@ Once a **Material** has been opened, the **Material** **Editor** allows the user
 
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
 
-* [**Default Car Paint Model**](car-paint-model.md)
-* [**Default Extended PBR Model**](extended-pbr-model.md)
-* [**Default Glass Model**](glass-model.md)
-* [**Default PBR Model**](pbr-model.md)
-* [**Default Shadeless Model**](shadeless-model.md)
-* [**Default Phong Model**](phong-model.md)
+* [**Car Paint Model**](car-paint-model.md)
+* [**Extended PBR Model**](extended-pbr-model.md)
+* [**Glass Model**](glass-model.md)
+* [**PBR Model**](pbr-model.md)
+* [**Shadeless Model**](shadeless-model.md)
+* [**Phong Model**](phong-model.md)
 
 
 
