@@ -25,6 +25,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Size**](get-size-pixel.md)
 * [**Get Slider Value**](getslidervalue.md)
 * [**Get Sort Index**](get-sort-index.md)
+* [**Get Tag**](get-tag.md)
 * [**Get Text Color**](get-text-color.md)
 * [**Get Tint**](get-tint.md)
 * [**Get Visibility**](get-visibility.md)

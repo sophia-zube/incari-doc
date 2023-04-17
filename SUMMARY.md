@@ -417,6 +417,7 @@
     * [Get Size](toolbox/incari/object/get-size-pixel.md)
     * [Get Slider Value](toolbox/incari/object/getslidervalue.md)
     * [Get Sort Index](toolbox/incari/object/get-sort-index.md)
+    * [Get Tag](toolbox/incari/object/get-tag.md)
     * [Get Text Color](toolbox/incari/object/get-text-color.md)
     * [Get Tint](toolbox/incari/object/get-tint.md)
     * [Get Visibility](toolbox/incari/object/get-visibility.md)

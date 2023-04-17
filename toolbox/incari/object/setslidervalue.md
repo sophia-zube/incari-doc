@@ -2,7 +2,7 @@
 
 ![The Set Slider Value Node.](../../../.gitbook/assets/setslidervaluenode.png)
 
-The **Set Slider Value Node** sets the value of the slider's placement on its handle. 
+The **Set Slider Value Node** sets the value of the [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -12,7 +12,7 @@ The **Set Slider Value Node** sets the value of the slider's placement on its ha
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Value`|**Int**|The desired `Value` of the slider's placement, if one is not provided in the `Value` **Socket**.|
+|`Value`|**Int**|The desired `Value` of the **Slider's** placement, if one is not provided in the `Value` **Socket**.|
 
 # Inputs
 
@@ -20,7 +20,7 @@ The **Set Slider Value Node** sets the value of the slider's placement on its ha
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The **Slider Object** whose value shall be set.|
-|`Value`|**Int**|The desired `Value` of the slider's placement.|
+|`Value`|**Int**|The desired `Value` of the **Slider's** placement.|
 
 
 # Outputs

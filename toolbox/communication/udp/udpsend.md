@@ -2,7 +2,7 @@
 
 ![The UDP Send Node.](../../../.gitbook/assets/udpsend.png)
 
-**UDP Send** takes a `Message` and passes it through the currently established **UDP** *connection*. 
+**UDP Send** takes a `Message` and passes it through the currently established **UDP** *connection* using the [established guideline](README.md#udp-guideline). 
 
 Note that if a *connection* has not been established, a new one will be attempted to be made before sending the `Message`. Because of the nature of **UDP**, this is possible and the `Message` will send after the new *connection* is established. 
 
@@ -17,7 +17,7 @@ Note that if a *connection* has not been established, a new one will be attempte
 |Attribute|Type|Description|
 |---|---|---|
 |`Is Binary`|**Bool**|Can be toggled on or off depending on if the `Message` body is binary or not.|
-|`Configuration`|**Drop-Down**|The desired _UDP_ server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings/udp-connection.md).| 
+|`Configuration`|**Drop-Down**|The desired *UDP* server, which refers back to the selections made under *UDP* in the [**Project Settings**](../../../modules/project-settings/udp-connection.md).| 
 
 # Inputs
 
@@ -32,6 +32,9 @@ Note that if a *connection* has not been established, a new one will be attempte
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
+# See Also
+
+* [Introduction to UDP Nodes](README.md#introduction)
 
 
 
