@@ -2,7 +2,7 @@
 
 ![The Get Slider Value Node.](../../../.gitbook/assets/getslidervaluenode.png)
 
-The **Get Glider Value Node** returns the current value of the slider's placement on its handle.
+The **Get Slider Value Node** returns the current value of the [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -19,7 +19,7 @@ The **Get Glider Value Node** returns the current value of the slider's placemen
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Value`|**Int**|The current `Value` of the slider's placement on its handle.|
+|`Value`|**Int**|The current `Value` of the **Slider's** placement on its handle.|
 
 # See Also
 
