@@ -58,7 +58,7 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](../.gitbook/assets/globalpref_viewport.png)
+![](../.gitbook/assets/globalpref_viewport2.png)
 
 ### Theme
 
@@ -69,6 +69,8 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 #### Grid Color
 
 `Grid Color` sets the color of the _grid_ found in the **Viewport**. The _color_ is set in the same way as the `Bottom` and `Top Gradient Color` **Attributes**.
+
+`2D Background color` sets the background color for **2D Scenes**.
 
 `Reset colors` sets the `Bottom` and `Top Gradient Color` as well as the `Grid Color` of the **Viewport** back to their default _colors_.
 {% endtab %}
