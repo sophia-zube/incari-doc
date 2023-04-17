@@ -2,7 +2,7 @@
 
 ![The Set Slider Value Node.](../../../.gitbook/assets/setslidervaluenode.png)
 
-The **Set Slider Value Node** sets the value of the [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle. 
+The **Set Slider Value Node** sets the value of a [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
