@@ -16,6 +16,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Opacity**](get-opacity.md)
 * [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
+* [**Get Property**](get-property.md)
 <!-- * [**Get Position 2D (px)**](get-position-pixel.md) -->
 * [**Get Root**](get-root.md)
 * [**Get Rotation**](get-rotation.md)
