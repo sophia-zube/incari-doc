@@ -27,7 +27,7 @@
   * [Scene](objects-and-types/project-objects/scene.md)
   * [Scene2D](objects-and-types/project-objects/scene2d.md)
   * [Screen](objects-and-types/project-objects/screen.md)
-  <!-- * [HMD](objects-and-types/project-objects/hmd.md) -->
+  * [HMD](objects-and-types/project-objects/hmd.md)
 * [Scene Objects](objects-and-types/scene-objects/README.md)
   * [Vector](objects-and-types/scene-objects/vector.md)
   * [Audio](objects-and-types/scene-objects/audio.md)
