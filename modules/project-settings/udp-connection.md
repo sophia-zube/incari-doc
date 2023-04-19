@@ -1,4 +1,4 @@
-# UDP Connection
+# UDP 
 
 ![The UDP Connection Settings.](../../.gitbook/assets/udpconnectionprojsettings.png)
 
