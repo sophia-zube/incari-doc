@@ -20,17 +20,18 @@ The `Used Materials` section has **Materials** that have been previously applied
 
 Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**. 
 
-![Shading Models Menu](../../.gitbook/assets/materialeditordropdownmenu.png)
+![Shading Models Menu](../../.gitbook/assets/materialeditornewagain.png)
 
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
 
 * [**Car Paint Model**](car-paint-model.md)
 * [**Custom Shading Model**](customshadingmodel.md)
-* [**Extended PBR Model**](extended-pbr-model.md)
+* [**Phong Model**](phong-model.md)
 * [**Glass Model**](glass-model.md)
+* [**Extended PBR Model**](extended-pbr-model.md)
 * [**PBR Model**](pbr-model.md)
 * [**Shadeless Model**](shadeless-model.md)
-* [**Phong Model**](phong-model.md)
+
 
 
 
