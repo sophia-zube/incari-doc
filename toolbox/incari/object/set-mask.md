@@ -2,7 +2,7 @@
 
 ![The Set Mask Node.](../../../.gitbook/assets/setmasknode.png)
 
-The **Set Mask Node** sets, or reassigns, the current **Mask** of an **Object**.
+The **Set Mask Node** sets, or reassigns, the **Mask** of an **Object**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

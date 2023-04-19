@@ -14,7 +14,7 @@ _Triggers_ can be thought of as being like announcements. A real-world example o
 
 Many **Event** **Nodes** have an additional `Subscribe` input **Pulse** and all have an `Event ID` output **Socket**.
 
-`Subscribe` is used to start listening to an **Event** using some arbitrary **Node** chosen by the user to trigger it. This does not apply to **Event Nodes** that subscribe on initialization. 
+`Subscribe` is used to start listening to an **Event** when it is triggered by some arbitrary **Node** chosen by the user. This does not apply to **Event Nodes** that subscribe on initialization. 
 
 Once an **Event** is subscribed to, it can be unsubscribed from. This requires the **Event's** *ID*. If you recall, all items in **Incari** have a unique ID. In this case, an **Event ID** is a unique ID to a specific **Event**. This can be attached to the [**Unsubscribe Node**](unsubscribe.md), thus ending a connection to the **Event**. For **Nodes** with a `Subscribe` input, this can create a loop of subscribing and unsubscribing. **Events** that are subscribed to on initialization can only be unsubscribed from once. 
 

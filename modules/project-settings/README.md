@@ -11,8 +11,8 @@ The **Project Settings Module** is used to choose and customize settings for dif
 * [**Profiler**](profiler.md)
 * [**Serial**](serial.md)
 * [**Socket.IO**](socketio.md)
-* [**TCP Connection**](tcp-connection.md)
-* [**UDP Connection**](udp-connection.md)
+* [**TCP**](tcp-connection.md)
+* [**UDP**](udp-connection.md)
 
 ![Project Settings.](../../.gitbook/assets/projectsettings-can3.png)
 
