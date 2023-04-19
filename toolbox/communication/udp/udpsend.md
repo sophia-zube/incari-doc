@@ -2,9 +2,9 @@
 
 ![The UDP Send Node.](../../../.gitbook/assets/udpsend.png)
 
-**UDP Send** takes a `Message` and passes it through the currently established **UDP** *connection* using the [established guideline](README.md#udp-guideline). 
+**UDP Send** takes a `Message` and passes it through the currently established *UDP* *connection*. This *connection* can be set using the [UDP guideline](README.md#udp-guideline). 
 
-Note that if a *connection* has not been established, a new one will be attempted to be made before sending the `Message`. Because of the nature of **UDP**, this is possible and the `Message` will send after the new *connection* is established. 
+Note that if a *connection* has not been established, a new one will be attempted to be made before sending the `Message`. Because of the nature of *UDP*, this is possible and the `Message` will send after the new *connection* is established. 
 
 **UDP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **UDP Send** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information..
 
