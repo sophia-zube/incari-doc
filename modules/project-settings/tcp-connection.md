@@ -1,4 +1,4 @@
-# TCP Connection
+# TCP 
 
 
 
@@ -11,7 +11,7 @@ The **TCP Connection Settings** allow the user to manage **TCP Connections** and
 
 `Name` is an identifying name of a *TCP* connection chosen at the user's discretion.
 
-`URL` is the *TCP* endpoint (either a URL or IP address) and is only relevant when `Connection Mode` is set to `Initiating`. 
+`URL` is the *TCP* endpoint (either a URL or IP address) and is only relevant when `Connection Mode` is set to `Client Mode`. 
 
 `Port` represents two different things depending on the chosen `Connection Mode`. For `Server Mode`, it is the port number being listened to. For `Client Mode`, it is the port number the remote device is listening on.
 

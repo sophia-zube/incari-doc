@@ -122,8 +122,8 @@
   * [Profiler](modules/project-settings/profiler.md)
   * [Serial](modules/project-settings/serial.md)
   * [Socket.IO](modules/project-settings/socketio.md)
-  * [TCP Connection](modules/project-settings/tcp-connection.md)
-  * [UDP Connection](modules/project-settings/udp-connection.md)
+  * [TCP](modules/project-settings/tcp-connection.md)
+  * [UDP](modules/project-settings/udp-connection.md)
 * [Scene Outliner](modules/scene-outliner.md)
 
 ## Toolbox
