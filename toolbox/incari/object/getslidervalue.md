@@ -2,7 +2,7 @@
 
 ![The Get Slider Value Node.](../../../.gitbook/assets/getslidervaluenode.png)
 
-The **Get Slider Value Node** returns the current value of the [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle.
+The **Get Slider Value Node** returns the current value of a [**Slider's**](../../../objects-and-types/scene2d-objects/gui.md#slider) placement on its handle.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

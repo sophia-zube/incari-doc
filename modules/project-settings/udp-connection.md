@@ -1,6 +1,6 @@
 # UDP Connection
 
-![The UDP Connection Settings.](../../.gitbook/assets/projectsettings-udp3.png)
+![The UDP Connection Settings.](../../.gitbook/assets/udpconnectionprojsettings.png)
 
 The **UDP Connection Settings** allow the user to manage **UDP Connections** and cover the necessary data to provide functionality to the [**UDP** **Nodes**](../../toolbox/communication/udp/README.md). Messages are called *datagrams*.
 
@@ -12,15 +12,15 @@ The **UDP Connection Settings** allow the user to manage **UDP Connections** and
 
 `Is Local IPv6` can be enabled or disabled and applies only to the local port. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Remote Hostname` is the *UDP* endpoint (either a URL or IP address).
+`URL` is the *UDP* endpoint (either a URL or IP address).
 
-`Remote Port` is the port number of the *datagram's* destination.
+`Port` is the port number of the *datagram's* destination.
 
-`Is Remote IPv6` can be enabled or disabled and applies only to the remote port.
+`Is IPv6` can be enabled or disabled and applies only to the remote port.
 
 `Automatic Rebind` can be enabled or disabled. It automatically restarts the ability to send and receive *datagrams*.
 
-`Automatic Remote IP Address` can be enabled or disabled. It automatically sets the remote IP address for outgoing *datagrams* to the one of the most recent incoming *datagrams*.
+`Automatic URL & Port` can be enabled or disabled. It automatically sets the URL for outgoing *datagrams* to the one of the most recent incoming *datagrams*.
 
 ## See Also
 
