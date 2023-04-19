@@ -2,10 +2,10 @@
 
 
 
-![The TCP Connection Settings.](../../.gitbook/assets/tcpconnectionprojsettings.png)
+![The TCP Settings.](../../.gitbook/assets/tcpconnectionprojsettings.png)
 
 
-The **TCP Connection Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the [**TCP** **Nodes**](../../toolbox/communication/tcp/README.md).
+The **TCP Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the [**TCP** **Nodes**](../../toolbox/communication/tcp/README.md).
 
 **TCP Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings**. Please refer to the [**Plugins Editor**](../plugins/communication/tcpconnectionsmanager.md) to find out more information.
 
