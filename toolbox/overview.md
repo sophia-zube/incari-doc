@@ -558,7 +558,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Rotation**](incari/object/get-rotation.md)
     <!-- * [**Get Rotation 2D**](incari/object/get-rotation-pixel.md) -->
     * [**Get Scale**](incari/object/get-scale.md)
-    * [**Get Size**](incari/object/get-size-pixel.md)
+    * [**Get Size**](incari/object/get-size.md)
     * [**Get Sort Index**](incari/object/get-sort-index.md)
     * [**Get Text Color**](incari/object/get-text-color.md)
     * [**Get Tint**](incari/object/get-tint.md)
@@ -861,7 +861,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Rotation**](incari/object/get-rotation.md)
     <!-- * [**Get Rotation 2D**](incari/object/get-rotation-pixel.md) -->
     * [**Get Scale**](incari/object/get-scale.md)
-    * [**Get Size**](incari/object/get-size-pixel.md)
+    * [**Get Size**](incari/object/get-size.md)
     * [**Get Sort Index**](incari/object/get-sort-index.md)
     * [**Get Text Color**](incari/object/get-text-color.md)
     * [**Get Tint**](incari/object/get-tint.md)
@@ -1235,7 +1235,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Rotation**](incari/object/get-rotation.md)
     <!-- * [**Get Rotation 2D**](incari/object/get-rotation-pixel.md) -->
     * [**Get Scale**](incari/object/get-scale.md)
-    * [**Get Size**](incari/object/get-size-pixel.md)
+    * [**Get Size**](incari/object/get-size.md)
     * [**Get Sort Index**](incari/object/get-sort-index.md)
     * [**Get Text Color**](incari/object/get-text-color.md)
     * [**Get Tint**](incari/object/get-tint.md)

@@ -415,7 +415,7 @@
     * [Get Rotation](toolbox/incari/object/get-rotation.md)
     <!-- * [Get Rotation 2D](toolbox/incari/object/get-rotation-pixel.md) -->
     * [Get Scale](toolbox/incari/object/get-scale.md)
-    * [Get Size](toolbox/incari/object/get-size-pixel.md)
+    * [Get Size](toolbox/incari/object/get-size.md)
     * [Get Slider Value](toolbox/incari/object/getslidervalue.md)
     * [Get Sort Index](toolbox/incari/object/get-sort-index.md)
     * [Get Tag](toolbox/incari/object/get-tag.md)

@@ -1,16 +1,17 @@
 # Get Size
 
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
 
 
 {% tabs %}
-{% tab title="2D" %}
 
+{% tab title="**Scene**" %}
 
 ## Overview
 
-![The Get Size Node.](../../../.gitbook/assets/getsizenode.png)
+![The Get Size Node.](../../../.gitbook/assets/getsizenode-3d.png)
 
-The **Get Size Node** returns the X and Y values of a **2D Object's** `Size`.
+The **Get Size Node** returns the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Object's** `Size`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -19,25 +20,25 @@ The **Get Size Node** returns the X and Y values of a **2D Object's** `Size`.
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Size` you wish to return. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene Object** whose `Size` you wish to return. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the _X_ and _Y_ `Size` _values_ of the target **Object**. |
-
-
+| `Size` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Object**. |
 
 {% endtab %}
-{% tab title="3D" %}
+
+{% tab title="**Scene2D**" %}
+
 
 ## Overview
 
 ![The Get Size Node.](../../../.gitbook/assets/getsizenode.png)
 
-The **Get Size Node** returns the X, Y, and Z values of a **3D Object's** `Size`.
+The **Get Size Node** returns the $$X$$ and $$Y$$ values of a **Scene2D Object's** `Size`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -46,16 +47,19 @@ The **Get Size Node** returns the X, Y, and Z values of a **3D Object's** `Size`
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Size` you wish to return. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene2D Object** whose `Size` you wish to return. |
 
 ## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the _X_ and _Y_ `Size` _values_ of the target **Object**. |
+| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Object**. |
+
+
 
 {% endtab %}
+
 
 {% endtabs %}
 

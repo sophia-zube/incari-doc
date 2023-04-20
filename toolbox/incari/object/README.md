@@ -22,7 +22,7 @@ The **Object** **Nodes** allow to set and obtain the **Attributes** of an **Obje
 * [**Get Rotation**](get-rotation.md)
 <!-- * [**Get Rotation 2D**](get-rotation-pixel.md) -->
 * [**Get Scale**](get-scale.md)
-* [**Get Size**](get-size-pixel.md)
+* [**Get Size**](get-size.md)
 * [**Get Slider Value**](getslidervalue.md)
 * [**Get Sort Index**](get-sort-index.md)
 * [**Get Tag**](get-tag.md)
