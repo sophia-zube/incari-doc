@@ -1,6 +1,6 @@
 # HMD
 
-![](../../.gitbook/assets/)
+![](../../.gitbook/assets/hmd_1.png)
 
 The **HMD** **Object** in **Incari** contains the technical specifications of the *head-mounted display* that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
@@ -10,11 +10,11 @@ An **HMD's Attributes** can be edited by selecting it in the **Project Outliner*
 
 ### Object
 
-`API`
+`API`: 
 
-`Enable Mixed Reality`
+`Enable Mixed Reality`: Whether *Mixed Reality* will be enabled or not on this *head-mounted display* device. Setting this **Attribute** to *true* will enable transparency.
 
-`Varjo session priority`
+`Varjo session priority`: Priority that this *Session* will have over others. *Sessions* with higher `Varjo session priority` are rendered on top of lower ones.
 
 
 ### Simulation Window
