@@ -27,7 +27,7 @@ The **Get Size Node** returns the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Ob
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Size` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Object**. |
+| `Size` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Scene Object**. |
 
 {% endtab %}
 
@@ -54,7 +54,7 @@ The **Get Size Node** returns the $$X$$ and $$Y$$ values of a **Scene2D Object's
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Object**. |
+| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the $$X$$ and $$Y$$ `Size` values of the target **Scene2D Object**. |
 
 
 
