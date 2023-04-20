@@ -5,7 +5,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 {% tabs %}
 
-{% tab title="**Scene**" %}
+{% tab title="<b>Scene</b>" %}
 
 ## Overview
 
@@ -31,7 +31,7 @@ The **Get Size Node** returns the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Ob
 
 {% endtab %}
 
-{% tab title="**Scene2D**" %}
+{% tab title="<b>Scene2D</b>" %}
 
 
 ## Overview
