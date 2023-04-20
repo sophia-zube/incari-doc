@@ -33,5 +33,5 @@ The **Get Rotation 2D Node** returns the _degree of rotation_ of a **2D Object**
 ## See Also
 
 * [**Get Position 2D (px)**](get-position-pixel.md)
-* [**Get Size**](get-size-pixel.md)
+* [**Get Size**](get-size.md)
 
