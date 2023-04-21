@@ -1,20 +1,19 @@
 # Get Position
 
+
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
+
+
+{% tabs %}
+
+{% tab title="Scene" %}
 ## Overview
 
 ![The Get Position Node.](../../../.gitbook/assets/getpositionupdatedimage.png)
 
-**Get Position** returns the _position_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
+**Get Position** returns the $$X$$, $$Y$$, and $$Z$$ positions of an **Object** in a **Scene**. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
-## Attributes
-
-![The Get Position Node Attributes.](../../../.gitbook/assets/node-get-position-attr.png)
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object**, whose `Position` you wish to return, if one is not provided in the `Object ID` **Socket**. |
 
 ## Inputs
 
@@ -28,7 +27,39 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector3** | A 3-dimensional **Vector** that contains X, Y, and Z _positions_ of the target **Object**. |
+| `Position` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$, $$Y$$, and $$Z$$ positions of the target **Object**. |
+
+{% endtab %}
+
+
+{% tab title="Scene2D" %}
+
+
+## Overview
+
+![The Get Position Node.](../../../.gitbook/assets/getpositionnode2d.png)
+
+**Get Position** returns the $$X$$ and $$Y$$ positions of an **Object** in a **Scene**.
+
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
+## Inputs
+
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to return. |
+
+## Outputs
+
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `Position` | **Vector3** | A 2-dimensional **Vector** that contains $$X$$ and $$Y$$ positions of the target **Object**. |
+
+{% endtab %}
+
+{% endtabs %}
 
 ## See Also
 
