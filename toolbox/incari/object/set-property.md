@@ -2,7 +2,7 @@
 
 ![The Set Property Node.](../../../.gitbook/assets/setpropertynode.png)
 
-The **Set Property Node** sets the value of a single *CSS* property at runtime using the **Logic**.
+The **Set Property Node** sets the value of a single *CSS* property  of an **Object** provided by the user.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -34,3 +34,7 @@ The **Set Property Node** sets the value of a single *CSS* property at runtime u
 # See Also
 
 * [**Get Property**](get-property.md)
+
+# External Links
+
+* More about *CSS* on [Wikipedia](https://en.wikipedia.org/wiki/CSS)

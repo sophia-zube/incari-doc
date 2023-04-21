@@ -2,7 +2,7 @@
 
 ![The Get Property Node.](../../../.gitbook/assets/getproperty.png)
 
-The **Get Property Node** returns the value of a single *CSS* property at runtime using the **Logic**.
+The **Get Property Node** returns the value of a single *CSS* property of an **Object** provided by the user.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -34,3 +34,7 @@ The **Get Property Node** returns the value of a single *CSS* property at runtim
 # See Also
 
 * [**Set Property**](set-property.md)
+
+# External Links
+
+* More about *CSS* on [Wikipedia](https://en.wikipedia.org/wiki/CSS)
