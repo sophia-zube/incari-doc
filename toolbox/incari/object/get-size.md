@@ -64,7 +64,8 @@ The **Get Size Node** returns the $$X$$ and $$Y$$ values of a **Scene2D Object's
 {% endtabs %}
 
 
+
 ## See Also
 
-* [**Get Position**](get-position-pixel.md)
-* [**Get Rotation**](get-rotation-pixel.md)
+* [**Get Position**](get-position.md)
+* [**Get Rotation**](get-rotation.md)
