@@ -20,7 +20,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Position` | **Vector3** | The desired `Position` value of the **Object**, if one is not provided in the `Position` **Socket**. |
+| `Position` | **Vector3** | The desired `Position` values of the **Object**, if one is not provided in the `Position` **Socket**. |
 
 ## Inputs
 
@@ -28,7 +28,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$, $$Y$$, and $$Z$$ positions of the target **Object**. |
+| `Position` | **Vector3** | A 3-dimensional **Vector** that contains the desired $$X$$, $$Y$$, and $$Z$$ values of the target **Object's** position. |
 
 ## Outputs
 
@@ -62,7 +62,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the $$X$$ and $$Y$$ positions of the target **Object**. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the desired $$X$$ and $$Y$$ values of the target **Object's** position. |
 
 ## Outputs
 
@@ -74,6 +74,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% endtab %}
 
 {% endtabs %}
+
 ## See Also
 
 * [**Get Rotation**](get-rotation.md)
