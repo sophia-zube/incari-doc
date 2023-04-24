@@ -55,7 +55,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Position` | **Vector3** | A 2-dimensional **Vector** that contains $$X$$ and $$Y$$ positions of the target **Object**. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains $$X$$ and $$Y$$ positions of the target **Object**. |
 
 {% endtab %}
 
