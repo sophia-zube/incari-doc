@@ -21,14 +21,15 @@ The **Set Size Node** sets the $$X$$, $$Y$$, and $$Z$$ values of a **3D Object's
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Size` | **Vector2** | The desired `Size` values of the **Object**, if one is not provided in the `Size` **Socket**. |
+| `Size` | **Vector3** | The desired `Size` values of the **Object**, if one is not provided in the `Size` **Socket**. |
+
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Scene Object** whose `Size` you wish to return. |
-| `Size` | **Vector3** | A 3-dimensional **Vector** that contains the $$X$$, $$Y$$, and $$Z$$ `Size` values of the target **Scene Object**. |
+| `Size` | **Vector3** | A 3-dimensional **Vector** that contains the desired $$X$$, $$Y$$, and $$Z$$ `Size` values for the target **Scene Object**. |
 
 ## Outputs
 
@@ -63,7 +64,7 @@ The **Set Size Node** sets the $$X$$ and $$Y$$ values of a **2D Object's** `Size
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Object ID` | **ObjectID** | The ID of the target **Object** whose `Size` you wish to set. |
-| `Size` | **Vector2** | A 2-dimensional **Vector** that contains $$X$$ and $$Y$$ `Size` values of the target **Object**. |
+| `Size` | **Vector2** | A 2-dimensional **Vector** that contains the desired $$X$$ and $$Y$$ `Size` values for the target **Object**. |
 
 ## Outputs
 
@@ -79,6 +80,6 @@ The **Set Size Node** sets the $$X$$ and $$Y$$ values of a **2D Object's** `Size
 
 ## See Also
 
-* [**Set Position**](set-position-pixel.md)
-* [**Set Rotation**](set-rotation-pixel.md)
+* [**Set Position**](set-position.md)
+* [**Set Rotation**](set-rotation.md)
 
