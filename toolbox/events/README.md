@@ -12,7 +12,7 @@ _Triggers_ can be thought of as being like announcements. A real-world example o
 
 ![An Example of a Node with a Subscribe input and an Event ID output.](../../.gitbook/assets/eventsubscribeeventidexample.png)
 
-Many **Event** **Nodes** have an additional `Subscribe` input **Pulse** and all have an `Event ID` output **Socket**.
+Most **Event** **Nodes** have an additional `Subscribe` input **Pulse** and some have an `Event ID` output **Socket**.
 
 `Subscribe` is used to start listening to an **Event** when it is triggered by some arbitrary **Node** chosen by the user. This does not apply to **Event Nodes** that subscribe on initialization. 
 
