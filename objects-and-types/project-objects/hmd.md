@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/hmd_1.png)
 
-The **HMD** **Object** in **Incari** contains the technical specifications of the *head-mounted display* that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
+The **HMD** **Object** in **Incari** contains the technical specifications of the *head-mounted display* device that the **Project** will ultimately be displayed on. In addition, it also has **Attributes** relating to the virtual **Camera** and rendering.
 
 ## Attributes
 
@@ -10,7 +10,10 @@ An **HMD's Attributes** can be edited by selecting it in the **Project Outliner*
 
 ### Object
 
-`API`: 
+`API` determines which *backend* will be used for rendering. The options are:
+
+* [OpenXR](https://www.khronos.org/openxr/): Open *Api* that can be used to target most *HMD* devices. 
+* [Varjo](https://varjo.com): Only for Varjo *HMD* devices. It allows for advanced rendering features.
 
 `Enable Mixed Reality`: Whether *Mixed Reality* will be enabled or not on this *head-mounted display* device. Setting this **Attribute** to *true* will enable transparency.
 
