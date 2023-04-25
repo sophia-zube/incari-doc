@@ -1,9 +1,9 @@
 # Custom Shading Model
 
-This model represents a material that provides the visual qualities to a car's paint features. It allows for selecting and editing: 
+This model allows the user to create and customize their own **Shading Model**. The specifications are given via configuration files in the **Attributes**:
 
 * `Vertex Shader`
-* and `Fragment Mapping`
+* `Fragment Shader`
 
 All these **Attributes** are described in greater detail below. 
 
@@ -21,8 +21,21 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 ### Shaders
 
-![](../../.gitbook/assets/customshadingmodel3.png)
+<!-- ![](../../.gitbook/assets/customshadingmodel3.png) -->
 
-The `Vertex Shader` allows the user to provide a file which
+#### Vertex Shader
 
-Similarly, the `Fragment Shader` enables the user to give a file which
+![](../../.gitbook/assets/customshading-vertex.png)
+
+The `Vertex Shader` receives a `.vert` **Asset**
+ 
+![](../../.gitbook/assets/customshading-vertfile.png) 
+
+#### Fragment Shader
+
+![](../../.gitbook/assets/customshading-fragment.png)
+
+
+The `Fragment Shader` takes a `.frag` **Asset**
+
+![](../../.gitbook/assets/customshading-fragfile.png)

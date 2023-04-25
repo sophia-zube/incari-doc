@@ -24,6 +24,7 @@ Once a **Material** has been opened, the **Material** **Editor** allows the user
 
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
 
+
 * [**Car Paint Model**](car-paint-model.md)
 * [**Custom Shading Model**](customshadingmodel.md)
 * [**Phong Model**](phong-model.md)
