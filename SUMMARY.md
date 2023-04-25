@@ -97,7 +97,7 @@
 * [Global Preferences](modules/global-preferences.md)
 * [Material Editor](modules/material-editor/README.md)
   * [Car Paint Model](modules/material-editor/car-paint-model.md)
-  <!--** [Custom Shading Model](modules/material-editor/customshadingmodel.md)-->
+  * [Custom Shading Model](modules/material-editor/customshadingmodel.md)
   * [Phong Model](modules/material-editor/phong-model.md)
   * [Glass Model](modules/material-editor/glass-model.md)
   * [Extended PBR Model](modules/material-editor/extended-pbr-model.md)
