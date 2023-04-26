@@ -1,20 +1,14 @@
 # Get Scale
 
+This **Node** is only useable in [**Scenes**](../../../objects-and-types/project-objects/scene.md) and not **Scene2Ds**.
+
 ## Overview
 
 ![The Get Scale Node.](../../../.gitbook/assets/getscaleupdatedimage.png)
 
-**Get Scale** returns the _scale_ of an **Object** in a **Scene**. The **Object ID** is given as input to the **Node**.
+**Get Scale** returns the _scale_ of an **Object** in a **Scene**. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
-## Attributes
-
-![The Get Scale Node Attributes.](../../../.gitbook/assets/node-get-scale-attr.png)
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Object` | **ObjectID** | The target **Object**, whose `Scale` you wish to return, if one is not provided in the `Object ID` **Socket** |
 
 ## Inputs
 
@@ -28,7 +22,7 @@
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Scale` | **Vector3** | A 3-dimensional **Vector** that contains the `Scale` of the **Object** along its X, Y, and Z axes. |
+| `Scale` | **Vector3** | A 3-dimensional **Vector** that contains the `Scale` of the **Object** along its $$X$$, $$Y$$, and $$Z$$ axes. |
 
 ## See Also
 
