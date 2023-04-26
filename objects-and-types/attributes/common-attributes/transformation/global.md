@@ -67,8 +67,8 @@ It is possible to perform **Transformations** over several **Objects** as if the
 
 The example below shows a **Global** rotation and translation of a **Group** composed of two cylinders and a cube.
 
-![](../../../../.gitbook/assets/Global_Group.gif)
+![](../../../../.gitbook/assets/Global_Groupredo.gif)
 
 The following example shows the same **Group** being translated and rotated by modifying its **Attributes** in the **Attribute Editor**. To set the step, right-click the input box, and then modify the value by either scrolling or using the up and down arrows on the right.
 
-![](../../../../.gitbook/assets/Global_GroupAttri.gif)
+![](../../../../.gitbook/assets/Global_GroupAttriredo.gif)
