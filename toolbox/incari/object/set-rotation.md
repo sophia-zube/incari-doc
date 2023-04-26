@@ -11,7 +11,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 ![The Set Rotation Node.](../../../.gitbook/assets/setrotationupdatedimage.png)
 
-**Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
+**Set Rotation** sets the value of a given **Scene Object's** `Rotation` **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -21,15 +21,15 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Rotation` | **Vector3** | The desired `Rotation` values of the **Object**, if one is not provided in the `Rotation` **Socket**. |
+| `Rotation` | **Vector3** | The desired `Rotation` values of the **Scene Object**, if one is not provided in the `Rotation` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Rotation` value you wish to set. |
-| `Rotation` | **Vector3** | A 3-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Object**. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene Object** whose `Rotation` value you wish to set. |
+| `Rotation` | **Vector3** | A 3-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Scene Object**. |
 
 ## Outputs
 
@@ -49,7 +49,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 ![The Set Rotation Node.](../../../.gitbook/assets/setrotationnode2d.png)
 
-**Set Rotation** sets the value of a given **Object's** `Rotation` **Attribute**.
+**Set Rotation** sets the value of a given **Scene2D Object's** `Rotation` **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -59,15 +59,15 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Rotation` | **Float** | The desired `Rotation` value of the **Object**, if one is not provided in the `Rotation` **Socket**. |
+| `Rotation` | **Float** | The desired `Rotation` value of the **Scene2D Object**, if one is not provided in the `Rotation` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Rotation` value you wish to set. |
-| `Rotation` | **Float** | A 2-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Object**. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene2D Object** whose `Rotation` value you wish to set. |
+| `Rotation` | **Float** | The **Float** value of the target **Scene2D Object's** rotation.|
 
 ## Outputs
 

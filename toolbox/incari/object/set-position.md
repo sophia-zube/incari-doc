@@ -10,7 +10,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 ![The Set Position Node.](../../../.gitbook/assets/setpositionnode3d.png)
 
-**Set Position** sets the $$X$$, $$Y$$, and $$Z$$ values of a given **Object's** `Position` **Attribute**.
+**Set Position** sets the $$X$$, $$Y$$, and $$Z$$ values of a given **Scene Object's** `Position` **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -20,15 +20,15 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Position` | **Vector3** | The desired `Position` values of the **Object**, if one is not provided in the `Position` **Socket**. |
+| `Position` | **Vector3** | The desired `Position` values of the **Scene Object**, if one is not provided in the `Position` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector3** | A 3-dimensional **Vector** that contains the desired $$X$$, $$Y$$, and $$Z$$ values of the target **Object's** position. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene Object** whose `Position` you wish to set. |
+| `Position` | **Vector3** | A 3-dimensional **Vector** that contains the desired $$X$$, $$Y$$, and $$Z$$ values of the target **Scene Object's** position. |
 
 ## Outputs
 
@@ -44,7 +44,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 ![The Set Position Node.](../../../.gitbook/assets/setpositionnode2dreal.png)
 
-**Set Position Node** sets the $$X$$ and $$Y$$ values of a **2D Object's** `Position`.
+**Set Position Node** sets the $$X$$ and $$Y$$ values of a **Scene2D Object's** `Position`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -54,15 +54,15 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Position` | **Vector2** | The desired `Position` values of the **Object**, if one is not provided in the `Position` **Socket**. |
+| `Position` | **Vector2** | The desired `Position` values of the **Scene2D Object**, if one is not provided in the `Position` **Socket**. |
 
 ## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Object ID` | **ObjectID** | The ID of the target **Object** whose `Position` you wish to set. |
-| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the desired $$X$$ and $$Y$$ values of the target **Object's** position. |
+| `Object ID` | **ObjectID** | The ID of the target **Scene2D Object** whose `Position` you wish to set. |
+| `Position` | **Vector2** | A 2-dimensional **Vector** that contains the desired $$X$$ and $$Y$$ values of the target **Scene2D Object's** position. |
 
 ## Outputs
 
