@@ -166,7 +166,7 @@ To change the icons, change `Diffuse Texture` **Attribute** of the **Sprite Obje
 ## **10. Popup**
 
 
-![](../.gitbook/assets/demowidgets/popup.gif)
+![](../.gitbook/assets/demowidgets/Popup.gif)
 
 The `Popup` **Prefab Node** receives two **Strings**: one for the title and another one for the message that will be displayed. It then outputs either `ok` or `cancel`, according to which button is pressed in the *popup*.
 
