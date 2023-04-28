@@ -4,6 +4,10 @@
 This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
 
 
+{% tabs %}
+
+{% tab title="Scene" %}
+
 ## Overview
 
 ![The Get Rotation Node.](../../../.gitbook/assets/getrotationupdatedimage.png)
