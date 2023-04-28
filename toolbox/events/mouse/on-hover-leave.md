@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Hover Leave Node.](../../../.gitbook/assets/onhoverleaveupdatedimage.png)
+![The On Hover Leave Node.](../../../.gitbook/assets/onhoverleavenode2.png)
 
 **On Hover Leave** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor stops hovering over an **Object**.
 
@@ -10,11 +10,6 @@
 
 ## Attributes
 
-![The On Hover Leave Node Attributes.](../../../.gitbook/assets/onhoverleaveattributes.png)
-
-| Attribute | Type | Description |
-| :--- | :--- | :--- |
-| `Object` | **ObjectID** | The **Object** in which stop hovering triggers the **Logic Branch**, if none is given in the `Òbject ID` **Input Socket**. |
 
 ## Inputs
 
@@ -30,6 +25,7 @@
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Position` | **Vector2** | **Vector** containing the XY-coordinates of the point of exit with respect to the bottom left of the **Screen**. |
 | `Object ID` | **ObjectID** | The **Object** received as **Input**. |
+|`Event ID`| **ObjectID**| The ID of the current **Event**. This can be connected to the [**Unsubscribe Node**](../unsubscribe.md) to unsubscribe from the **Event**.|
 
 ## See Also
 
