@@ -8,7 +8,7 @@ This **Demo Project** is a showcase of several common *widget* types and how the
 
 When running the **Project**, choose which **Scene** to show by using the numerical keys $$1-10$$ on the keyboard.
 
-For each **Scene**, the resulting *Interface* is shown with a short description and the necessary **Logic** to use the corresponding **Prefab Nodes** is explained. Therefore, the information included for each **Prefab** is: how to initialize the **Prefab Node**, the inputs that it requires, and the outputs it gives out. 
+For each **Scene**, the resulting *Interface* is shown with a short description. Then, the necessary **Logic** to use the corresponding **Prefab Nodes** is explained. Therefore, the information included for each **Prefab** is: how to initialize the **Prefab Node**, the inputs that it requires, and the outputs it gives out. 
 
 The included **Scenes** are:
 
@@ -44,7 +44,7 @@ This **Scene** has two buttons implemented through **Prefabs**:
 This part of the **Scene** **Logic** initializes the `TextButton` button: 
 
 * The [**Event**](../toolbox/events/README.md) `buttons_init` is triggered when the **Scene** starts showing.
-* The **Prefab Node** `TextButton` is triggered. It takes a **String** in the `Value` **Input Socket** and writes it on the *button*.
+* The **Prefab Node** `TextButton` is triggered. It takes a **String** in the `Value` **Input Socket** and writes it on the button.
 
 #### **`RadioButton` initialization**
 
@@ -62,7 +62,7 @@ This **Scene** shows a *slider* that can be set by clicking and dragging its ind
 
 ![](../.gitbook/assets/demowidgets/slider-logic1.png)
 
-The *slider* is initialized when the **Scene** starts showing. For it, it needs as input the **Screen's** `Size` as a **Vector2**. 
+The *slider* is initialized when the **Scene** starts showing. For this, it needs as input the **Screen's** `Size` as a **Vector2**. 
 
 Once initialized, the **Prefab Node** `SliderControl` outputs a **Pulse** and a **Float** between $$0$$ and $$1$$ each time the *slider* indicator is moved.
 
@@ -152,7 +152,7 @@ The `SearchBar` **Prefab** is designed to work together with the [**On-Screen Ke
 
 To initialize the `SearchBar` **Prefab Node**, the **String** `{init}` has to be passed to it in the `Input Char` **Input Socket**. This will set the **Node** to its `Active` state, trigger the **Output Pulse** once, and output *true* from the `Active` **Output Socket**.
 
-Once the `SearchBar` **Prefab Node** has been initialized, subsequent inputs of *characters* through the `Input Char` **Input Socket** will update the text field that is displayed on the **Scene**. The **Prefab Node** has not output at this stage.
+Once the `SearchBar` **Prefab Node** has been initialized, subsequent inputs of *characters* through the `Input Char` **Input Socket** will update the text field that is displayed on the **Scene**. The **Prefab Node** has no output at this stage.
 
 Then, pressing `Enter` on the **On-Screen Keyboard** will cause the **Prefab Node** to trigger its **Output Pulse** and give two outputs:
 
@@ -179,7 +179,7 @@ To update the state of the middle button (for it to show either the play or paus
 
 ![](../.gitbook/assets/demowidgets/media-logic1.png)
 
-Before initializing the player, a list of **Media Objects** references has to be given. The `MediaPlayer` **Prefab Node** accepts this data as a stringified JSON **Array**.
+Before initializing the player, a list of **Media Objects** references has to be given. The `MediaPlayer` **Prefab Node** accepts this data as a *stringified JSON* **Array**.
 
 An example workflow for achieving this is the following:
 
@@ -209,11 +209,11 @@ Finally, the two **Prefab Nodes** are connected via [**Events**](../toolbox/even
 
 ![](../.gitbook/assets/demowidgets/Sidebar.gif)
 
-This **Scene** displays a sidebar menu with four options, each with its own icon. It allows the user to switch between these options and highlights the current one.
+This **Scene** displays a *sidebar menu* with four options, each with its own icon. It allows the user to switch between these options and highlights the current one.
 
 ### Logic
 
-The sidebar works identically to the tab selector, except there is no list of labels to give as input.
+The *sidebar* works identically to the *tab* selector, except there is no list of *labels* to give as input.
 
 ![](../.gitbook/assets/demowidgets/sidebar-logic1.png)
 
