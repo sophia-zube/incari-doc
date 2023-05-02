@@ -15,9 +15,9 @@ An **HMD's Attributes** can be edited by selecting it in the **Project Outliner*
 * [OpenXR](https://www.khronos.org/openxr/): Open *Api* that can be used to target most *HMD* devices. 
 * [Varjo](https://varjo.com): Only for Varjo *HMD* devices. It allows for advanced rendering features.
 
-`Enable Mixed Reality`: Whether *Mixed Reality* will be enabled or not on this *head-mounted display* device. Setting this **Attribute** to *true* will enable transparency.
+`Enable Mixed Reality`: Whether *mixed reality* will be enabled or not on this *head-mounted display* device. Setting this **Attribute** to *true* will enable transparency.
 
-`Varjo session priority`: Priority that this *Session* will have over others. *Sessions* with higher `Varjo session priority` are rendered on top of lower ones.
+`Varjo session priority`: Priority that this *session* will have over others. *Sessions* with higher `Varjo session priority` are rendered on top of lower ones.
 
 
 ### Simulation Window
@@ -26,7 +26,7 @@ An **HMD's Attributes** can be edited by selecting it in the **Project Outliner*
 
 `Position` defines the offset position, in pixels, that the **Simulation Window** will be displayed on your monitor. This means that when you are working on a multi-display system, you can preview **Screens** on separate parts of your monitor.
 
-By default, the **Simulation** will be shown in the left-hand corner of your monitor \(0, 0\), with `x` representing the number of pixels between the left-hand side of the **Simulation** window and the left hand side of your monitor, and `y` representing the number of pixels between the top of the window and top of your monitor.
+By default, the **Simulation** will be shown in the left-hand corner of your monitor \(0, 0\), with `x` representing the number of pixels between the left-hand side of the **Simulation** window and the left hand side of your monitor, and `y` representing the number of pixels between the top of the **Simulation Window** and top of your monitor.
 
 `Scale factor`: The factor by which the **Simulation Window** will be scaled.
 
