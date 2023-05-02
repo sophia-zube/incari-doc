@@ -4,11 +4,11 @@
 
 {% tabs %}
 {% tab title="Animation Editor" %}
-![](../.gitbook/assets/globalpref_animeditor.png)
+![](../.gitbook/assets/globalpref\_animeditor.png)
 
-### Playback
+#### Playback
 
-#### Loop Mode
+**Loop Mode**
 
 `Loop Mode` determines if an **Animation** should play forward or alternate between playing forward and backward in a **Scene**. It can be set in the following ways:
 
@@ -26,21 +26,21 @@
 {% endtab %}
 
 {% tab title="Global" %}
-![](../.gitbook/assets/globalpref_global.png)
+![](../.gitbook/assets/globalpref\_global.png)
 
-### Projects
+#### Projects
 
-#### Projects Path
+**Projects Path**
 
 The default directory on a user's computer where **Incari Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
-![](../.gitbook/assets/globalpref_logic.png)
+![](../.gitbook/assets/globalpref\_logic.png)
 
-### Theme
+#### Theme
 
-#### Grid Color
+**Grid Color**
 
 The `Grid Color` of the **Logic Editor** can be set here. The _color_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../objects-and-types/attributes/attribute-types/color-attribute.md).
 
@@ -48,25 +48,25 @@ Additionally, the `Reset color` button sets the `Grid Color` back to its default
 {% endtab %}
 
 {% tab title="User Interface" %}
-![](../.gitbook/assets/globalpref_ui.png)
+![](../.gitbook/assets/globalpref\_ui.png)
 
-### Layout
+#### Layout
 
-#### Reset layout
+**Reset layout**
 
 The `Reset Layout` button resets all **Modules** found in **Incari** to their default positions.
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](../.gitbook/assets/globalpref_viewport2.png)
+![](../.gitbook/assets/globalpref\_viewport2.png)
 
-### Theme
+#### Theme
 
-#### Bottom and Top Gradient Color
+**Bottom and Top Gradient Color**
 
 `Bottom` and `Top Gradient Color` set a _color gradient_ that starts at the bottom and top positions of the **Viewport**, respectively. The _color gradient_ can be set by manually adjusting the **HSB** / **RGBA** values or inserting a **Hex Code**, using their corresponding [**Color Attribute**](../objects-and-types/attributes/attribute-types/color-attribute.md).
 
-#### Grid Color
+**Grid Color**
 
 `Grid Color` sets the color of the _grid_ found in the **Viewport**. The _color_ is set in the same way as the `Bottom` and `Top Gradient Color` **Attributes**.
 
@@ -78,4 +78,4 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 
 In order to open the **Global Preferences** **Module**, right-click on the Menu bar in **Incari** and click on **Global Preferences** from the drop-down list. Please see the illustration below:
 
-![](../.gitbook/assets/open-global-preferences_20222.png)
+![](../.gitbook/assets/open-global-preferences\_20222.png)
