@@ -29,7 +29,12 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 The `Vertex Shader` receives a `.vert` **Asset**
  
-![](../../.gitbook/assets/customshading-vertfile.png) 
+<!-- ![](../../.gitbook/assets/customshading-vertfile.png)  -->
+
+    void mainPosition(in mat4 projectionMatrix, in mat4 modelMatrix, in vec3 viewPosition, in vec4 worldPosition)  
+    {
+        gl_Position = projectionMatrix * vec4(viewPosition, 1.0);
+    }
 
 #### Fragment Shader
 
@@ -38,4 +43,11 @@ The `Vertex Shader` receives a `.vert` **Asset**
 
 The `Fragment Shader` takes a `.frag` **Asset**
 
-![](../../.gitbook/assets/customshading-fragfile.png)
+<!-- ![](../../.gitbook/assets/customshading-fragfile.png) -->
+
+    ‌void mainImage(out vec4 fragColor, in vec2 fragCoord)
+    {
+     vec2 uv = (fragCoord * incResolution) / incResolution.xy;
+     vec3 col = 0.5 + 0.5 * cos(incTime + uv.xyx + vec3(0, 2, 4));
+     fragColor = vec4(col, 1.0);
+    }
