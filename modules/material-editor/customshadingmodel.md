@@ -27,11 +27,21 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 The `Vertex Shader` receives a `.vert` **Asset**
 
-<pre data-title="My Vertex Shader.vert" data-line-numbers><code><strong>void mainPosition(in mat4 projectionMatrix, in mat4 modelMatrix, in vec3 viewPosition, in vec4 worldPosition)  
+<!-- <pre data-title="My Vertex Shader.vert" data-line-numbers><code><strong>void mainPosition(in mat4 projectionMatrix, in mat4 modelMatrix, in vec3 viewPosition, in vec4 worldPosition)  
 </strong>{
     gl_Position = projectionMatrix * vec4(viewPosition, 1.0);
 }
-</code></pre>
+</code></pre> -->
+
+{% code title="My Vertex Shader.frag" lineNumbers="true" %}
+```
+void mainPosition(in mat4 projectionMatrix, in mat4 modelMatrix, in vec3 viewPosition, in vec4 worldPosition)
+{
+    gl_Position = projectionMatrix * vec4(viewPosition, 1.0);
+}
+```
+{% endcode %}
+
 
 #### Fragment Shader
 
@@ -39,7 +49,7 @@ The `Vertex Shader` receives a `.vert` **Asset**
 
 The `Fragment Shader` takes a `.frag` **Asset**
 
-{% code title="" lineNumbers="true" %}
+{% code title="My Fragment Shader.frag" lineNumbers="true" %}
 ```
 ‌void mainImage(out vec4 fragColor, in vec2 fragCoord)
 {
