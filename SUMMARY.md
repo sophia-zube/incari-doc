@@ -266,6 +266,7 @@
     * [On Leap Motion Pinch Update](toolbox/events/leapmotion/on-leapmotion-pinch-update.md)
     * [On Leap Motion Swipe Left](toolbox/events/leapmotion/on-leapmotion-swipe-left.md)
     * [On Leap Motion Swipe Right](toolbox/events/leapmotion/on-leapmotion-swipe-right.md)
+    * [XR Position](toolbox/events/leapmotion/xr-position.md)
   * [List](toolbox/events/list/README.md)
     * [On List Current Index Change](toolbox/events/list/on-list-current-index-change.md)
     * [On List Entry Select](toolbox/events/list/on-list-entry-select.md)
