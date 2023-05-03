@@ -29,3 +29,4 @@ These provide the necessary information for the user to incorporate *Leap Motion
 * [**On Leap Motion Pinch Update**](on-leapmotion-pinch-update.md)
 * [**On Leap Motion Swipe Left**](on-leapmotion-swipe-left.md)
 * [**On Leap Motion Swipe Right**](on-leapmotion-swipe-right.md)
+* [**XR Position**](xr-position.md)
