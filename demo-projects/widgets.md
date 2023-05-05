@@ -206,7 +206,7 @@ An example workflow for achieving this is the following:
    
 This **Logic** configuration is shown in the image below in the `init video array` [**Group**](../toolbox/utilities/group.md).
 
-An example of the **String** obtained with this **Logic** configuration is:
+An example of the type of **String** obtained with this **Logic** configuration is:
 
 
 ```
