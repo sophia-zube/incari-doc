@@ -4,25 +4,28 @@
 
  One approach for building *widgets* in **Incari** is to use **Prefabs**, which are reusable components that can be adjusted accordingly for particular cases. See [**Prefabs**](../objects-and-types/prefabs/README.md) for a detailed description of them and their use.
 
+![Welcome Scene in the Project.](../.gitbook/assets/demowidgets/widgets-intro.png)
+
 This **Demo Project** is a showcase of several common *widget* types and how they can be connected to sources of data. It is composed of ten [**Scenes**](../objects-and-types/project-objects/scene.md), each of them showing one major *widget* type. The goal is to show how to use these *widgets* and provide the **Prefabs** for them. Thus, the **Prefabs** can then be reused in other **Projects**. For this, find at the end of this page a guide for [Exporting a **Prefab**](#exporting-a-prefab).
 
-When running the **Project**, choose which **Scene** to show by using the numerical keys $$1-10$$ on the keyboard.
+When running the **Project**, choose which **Scene** to show by using the numerical keys $$0-9$$ on the keyboard.
 
 For each **Scene**, the resulting *Interface* is shown with a short description. Then, the necessary **Logic** to use the corresponding **Prefab Nodes** is explained. Therefore, the information included for each **Prefab** is: how to initialize the **Prefab Node**, the inputs that it requires, and the outputs it gives out. 
 
 The included **Scenes** are:
 
 <!-- no toc -->
+0. [**Popup**](#0.-popup)
 1. [**Buttons**](#1.-buttons)
 2. [**Slider**](#2.-slider)
 3. [**Tabs**](#3.-tabs) 
 4. [**Progress Bar**](#4.-progress-bar)
 5. [**List Picker**](#5.-list-picker)
 6. [**Dropdown**](#6.-dropdown)
-7. [**Input Bar**](#7.-input-bar)
+7. [**Search Bar**](#7.-search-bar)
 8. [**Media**](#8.-media)
 9. [**Sidebar**](#9.-sidebar)
-10. [**Popup**](#10.-popup)
+
 
 
 ## **1. Buttons**
@@ -138,7 +141,7 @@ The `Dropdown` **Prefab Node** receives a **String** with the list of options an
 
 Any time an option in the *dropdown* is selected, the **Prefab Node** outputs the corresponding index (`idx`) and label (`Label`).
 
-## **7. Input Bar**
+## **7. Search Bar**
 
 ![](../.gitbook/assets/demowidgets/Input.gif)
 
@@ -179,7 +182,7 @@ To update the state of the middle button (for it to show either the play or paus
 
 ![](../.gitbook/assets/demowidgets/media-logic1.png)
 
-Before initializing the player, a list of **Media Objects** references has to be given. The `MediaPlayer` **Prefab Node** accepts this data as a *stringified JSON* **Array**.
+Before initializing the player, a list of **Media Objects** references has to be given. The `MediaPlayer` **Prefab Node** accepts this data as a particular format of **String**: a *stringified JSON* *array*, that is, a **String** generated from an **Array** via the [**JSON Stringify**](../toolbox/string/jsonstringify.md) **Node**.
 
 An example workflow for achieving this is the following:
 
@@ -190,6 +193,14 @@ An example workflow for achieving this is the following:
 5. Connect the [**Conversion**](../toolbox/utilities/conversion.md) **Node** that was automatically created.
    
 This **Logic** configuration is shown in the image below in the `init video array` [**Group**](../toolbox/utilities/group.md).
+
+An example of the **String** obtained with this **Logic** configuration is:
+
+{% code title="" lineNumbers="false" %}
+```
+‌"34f3f5f8-4ee3-415a-b1db-f67e01720b71",
+"7dc076eb-92df-413b-94e6-f9b5225ff407"
+```
 
 The **String** that is obtained from this **Logic** configuration should then be connected to the `MediaPlayer` **Prefab Node** in the `vidList` **Input Socket**.
 
