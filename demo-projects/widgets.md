@@ -26,7 +26,18 @@ The included **Scenes** are:
 8. [**Media**](#8.-media)
 9. [**Sidebar**](#9.-sidebar)
 
+## **0. Popup**
 
+
+![](../.gitbook/assets/demowidgets/Popup.gif)
+
+This **Scene** displays a button, implemented through the **Prefab** explained in [**Buttons**](#1.-buttons), that opens a *popup* window when clicked on. This *popup* window is implemented through a **Prefab**, whose **Logic** takes the title and message that will be displayed on it and gives out the option clicked by the user, which can be either `cancel` or `ok`.
+
+### Logic
+
+The `Popup` **Prefab Node** receives two **Strings**: one for the title and another one for the message that will be displayed. It then outputs either `ok` or `cancel`, according to which button is pressed in the *popup*.
+
+To start using it, the `Popup` **Prefab Node** has to be initialized with the command `init` in the `cmd` **Input Socket**.
 
 ## **1. Buttons**
 
@@ -232,18 +243,7 @@ To change the icons, change the `Diffuse Texture` **Attribute** of the **Sprite 
 
 ![](../.gitbook/assets/demowidgets/sidebar-sceneoutliner.png)
 
-## **10. Popup**
 
-
-![](../.gitbook/assets/demowidgets/Popup.gif)
-
-This **Scene** displays a button, implemented through the **Prefab** explained in [**Buttons**](#1.-buttons), that opens a *popup* window when clicked on. This *popup* window is implemented through a **Prefab**, whose **Logic** takes the title and message that will be displayed on it and gives out the option clicked by the user, which can be either `cancel` or `ok`.
-
-### Logic
-
-The `Popup` **Prefab Node** receives two **Strings**: one for the title and another one for the message that will be displayed. It then outputs either `ok` or `cancel`, according to which button is pressed in the *popup*.
-
-To start using it, the `Popup` **Prefab Node** has to be initialized with the command `init` in the `cmd` **Input Socket**.
 
 
 ## Exporting a Prefab
