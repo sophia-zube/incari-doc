@@ -15,16 +15,17 @@ For each **Scene**, the resulting *Interface* is shown with a short description.
 The included **Scenes** are:
 
 <!-- no toc -->
-0. [**Popup**](#0.-popup)
-1. [**Buttons**](#1.-buttons)
-2. [**Slider**](#2.-slider)
-3. [**Tabs**](#3.-tabs) 
-4. [**Progress Bar**](#4.-progress-bar)
-5. [**List Picker**](#5.-list-picker)
-6. [**Dropdown**](#6.-dropdown)
-7. [**Search Bar**](#7.-search-bar)
-8. [**Media**](#8.-media)
-9. [**Sidebar**](#9.-sidebar)
+  
+* **0 -** [**Popup**](#0.-popup)
+* **1 -** [**Buttons**](#1.-buttons)
+* **2 -** [**Slider**](#2.-slider)
+* **3 -** [**Tabs**](#3.-tabs) 
+* **4 -** [**Progress Bar**](#4.-progress-bar)
+* **5 -** [**List Picker**](#5.-list-picker)
+* **6 -** [**Dropdown**](#6.-dropdown)
+* **7 -** [**Search Bar**](#7.-search-bar)
+* **8 -** [**Media**](#8.-media)
+* **9 -** [**Sidebar**](#9.-sidebar)
 
 ## **0. Popup**
 
@@ -207,11 +208,12 @@ This **Logic** configuration is shown in the image below in the `init video arra
 
 An example of the **String** obtained with this **Logic** configuration is:
 
-{% code title="" lineNumbers="false" %}
+
 ```
 ‌"34f3f5f8-4ee3-415a-b1db-f67e01720b71",
 "7dc076eb-92df-413b-94e6-f9b5225ff407"
 ```
+
 
 The **String** that is obtained from this **Logic** configuration should then be connected to the `MediaPlayer` **Prefab Node** in the `vidList` **Input Socket**.
 
