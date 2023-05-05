@@ -2,7 +2,7 @@
 
 ![The XR Position Node.](../../../.gitbook/assets/xrpositionnode.png)
 
-The **XR Position Node** returns the position in 3D space of the tracked entity in some extended reality (*XR*) incorporating *Leap Motion*.
+The **XR Position Node** returns the position in 3D space of the tracked entity in some extended reality (*XR*) incorporating *Leap Motion*. This **Node** only has an effect when an [**HMD**](../../../objects-and-types/project-objects/hmd.md) has already been created.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
