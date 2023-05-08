@@ -37,6 +37,20 @@ Since *2D* and *3D* are now treated separately in **Incari**, [**Overlay Objects
 
 New **2D Objects** for exclusive use in **Scene2Ds** have been introduced and are described in detail [here](../objects-and-types/scene2d-objects/README.md).
 
+There are also new **Nodes** of exclusive use in **Scene2Ds**:
+
+* [**Get Slider Value**](../toolbox/incari/object/getslidervalue.md)
+* [**Set Slider Value**](../toolbox/incari/object/setslidervalue.md)
+
+And already existing **Nodes** have now a version for **Scene2Ds**:
+
+* [**Get Position**](../toolbox/incari/object/get-position.md)
+* [**Set Position**](../toolbox/incari/object/set-position.md)
+* [**Get Rotation**](../toolbox/incari/object/get-rotation.md)
+* [**Set Rotation**](../toolbox/incari/object/set-rotation.md)
+* [**Get Size**](../toolbox/incari/object/get-size.md)
+* [**Set Size**](../toolbox/incari/object/set-size-pixel.md)
+
 ## **Virtual Reality and Mixed Reality**
 
 Use **Incari** to take your *HMI* **Projects** to the next level by integrating Virtual and Mixed Reality, such as with virtual prototyping, vehicle maintenence, or immersive showrooms. **Incari** **Studio** supports *Varjo API* and *OpenXR* and is optimized for both Virtual Reality and Mixed Reality. In future releases, Augmented Reality will also be sustained.    
@@ -55,6 +69,7 @@ There are also **Nodes** that allow the user to manage *tags* in the **Logic**. 
   * [**Add Tag**](../toolbox/incari/object/add-tag.md), which adds a *tag* to an **Object**.
   * [**Get Objects By Tag**](../toolbox/incari/object/get-objects-by-tag.md), which returns all **Objects** that share a specified *tag*.
   * [**Remove Tag**](../toolbox/incari/object/remove-tag.md), which removes a *tag* from an **Object**.
+  * [**Get Tag**](../toolbox/incari/object/get-tag.md), which returns the *tag* of an **Object**.
 
  
 ## **New Scene Objects**
@@ -99,22 +114,38 @@ Besides the **Nodes** related to new features that are specified above, several 
 
 New **Nodes**:
   * **IO**: 
-    * [**Create File**](../toolbox/io/createfile.md)
-    * [**Get Current Directory**](../toolbox/io/getcurrentdirectory.md)
-    * [**Get File Extension**](../toolbox/io/getfileextension.md)
-    * [**List Directory Contents**](../toolbox/io/listdirectorycontent.md)
-    * [**Remove Object**](../toolbox/io/remove.md)
-    * [**Set Current Directory**](../toolbox/io/setcurrentdirectory.md)
-  * **Objects**: 
+      * [**Create File**](../toolbox/io/createfile.md)
+      * [**Get Current Directory**](../toolbox/io/getcurrentdirectory.md)
+      * [**Get File Extension**](../toolbox/io/getfileextension.md)
+      * [**List Directory Contents**](../toolbox/io/listdirectorycontent.md)
+      * [**Remove Object**](../toolbox/io/remove.md)
+      * [**Set Current Directory**](../toolbox/io/setcurrentdirectory.md)
+  * **Object**: 
       * [**Destroy Object**](../toolbox/incari/object/destroy.md)
       * [**Get Name**](../toolbox/incari/object/get-name.md)
       * [**Instantiate Object**](../toolbox/incari/object/instantiate.md)
+      * [**Get Property**](../toolbox/incari/object/get-property.md)
+      * [**Set Property**](../toolbox/incari/object/set-property.md)
+      * [**Use Mask**](../toolbox/incari/object/use-mask.md)
+      * [**Set Stylesheet**](../toolbox/incari/object/set-stylesheet.md)
+      * [**Get Sort Index**](../toolbox/incari/object/get-sort-index.md)
+      * [**Set Sort Index**](../toolbox/incari/object/set-sort-index.md)
   * **Math**: 
       * [**Round**](../toolbox/math/round.md)
   * **Mouse**:
       * [**Get Mouse Position**](../toolbox/events/mouse/getmouseposition.md)
       * [**Get Mouse Position Delta**](../toolbox/events/mouse/getmousepositiondelta.md)
-  <!-- * **Leap Motion**:
+  * **Media**:
+      * [**Get Volume**](../toolbox/incari/media/getvolume.md)
+      * [**Is Media Playing**](../toolbox/incari/media/ismediaplaying.md)
+      * [**Pause Media**](../toolbox/incari/media/pausemedia.md)
+      * [**Play Media**](../toolbox/incari/media/playmedia.md)
+      * [**Set Volume**](../toolbox/incari/media/setvolume.md)
+      * [**Stop Media**](../toolbox/incari/media/stopmedia.md)
+      * [**On Media Finish**](../toolbox/events/media/onmediafinish.md)
+      * [**On Media Play**](../toolbox/events/media/onmediaplay.md)
+  * **Leap Motion**:
+      * [**On Leap Motion Frame Update**](../toolbox/events/leapmotion/on-leap-motion-frame-update.md)
       * [**On Leap Motion Grab End**](../toolbox/events/leapmotion/on-leapmotion-grab-end.md)
       * [**On Leap Motion Grab Start**](../toolbox/events/leapmotion/on-leapmotion-grab-start.md)
       * [**On Leap Motion Grab Update**](../toolbox/events/leapmotion/on-leapmotion-grab-update.md)
@@ -122,8 +153,41 @@ New **Nodes**:
       * [**On Leap Motion Pinch Start**](../toolbox/events/leapmotion/on-leapmotion-pinch-start.md)
       * [**On Leap Motion Pinch Update**](../toolbox/events/leapmotion/on-leapmotion-pinch-update.md)
       * [**On Leap Motion Swipe Left**](../toolbox/events/leapmotion/on-leapmotion-swipe-left.md)
-      * [**On Leap Motion Swipe Right**](../toolbox/events/leapmotion/on-leapmotion-swipe-right.md) -->
-    
+      * [**On Leap Motion Swipe Right**](../toolbox/events/leapmotion/on-leapmotion-swipe-right.md)
+      * [**XR Position**](../toolbox/events/leapmotion/xr-position.md)
+  * **Communication**:
+      * [**Socket.IO Send**](../toolbox/communication/socketio/socketiosend.md)
+      * [**Socket.IO Start**](../toolbox/communication/socketio/socketiostart.md)
+      * [**Socket.IO Stop**](../toolbox/communication/socketio/socketiostop.md)
+      * [**Socket.IO Subscribe**](../toolbox/communication/socketio/socketiosubscribe.md)
+      * [**Socket.IO Unsubscribe**](../toolbox/communication/socketio/socketiounsubscribe.md)
+      * [**On Socket.IO Error**](../toolbox/communication/socketio/events/onsocketioerror.md)
+      * [**On Socket.IO Receive**](../toolbox/communication/socketio/events/onsocketioreceive.md)
+      * [**On Socket.IO Start**](../toolbox/communication/socketio/events/onsocketiostart.md)
+      * [**On Socket.IO Stop**](../toolbox/communication/socketio/events/onsocketiostop.md)
+      * [**TCP Send**](../toolbox/communication/tcp/tcpsend.md)
+      * [**TCP Start**](../toolbox/communication/tcp/tcpstart.md)
+      * [**TCP Stop**](../toolbox/communication/tcp/tcpstop.md)
+      * [**On TCP Error**](../toolbox/communication/tcp/events/ontcperror.md)
+      * [**On TCP Packet Receive**](../toolbox/communication/tcp/events/ontcppacketreceive.md)
+      * [**On TCP Start**](../toolbox/communication/tcp/events/ontcpstart.md)
+      * [**On TCP Stop**](../toolbox/communication/tcp/events/ontcpstop.md)
+      * [**UDP Send**](../toolbox/communication/udp/udpsend.md)
+      * [**UDP Start**](../toolbox/communication/udp/udpstart.md)
+      * [**UDP Stop**](../toolbox/communication/udp/udpstop.md)
+      * [**On UDP Error**](../toolbox/communication/udp/events/onudperror.md)
+      * [**On UDP Packet Receive**](../toolbox/communication/udp/events/onudppacketreceive.md)
+      * [**On UDP Start**](../toolbox/communication/udp/events/onudpstart.md)
+      * [**On UDP Stop**](../toolbox/communication/udp/events/onudpstop.md)
+  * **Ultrahaptics**:
+      * [**Ultrahaptics Play**](../toolbox/incari/ultrahaptics/ultrahapticsplay.md)
+      * [**Ultrahaptics Stop**](../toolbox/incari/ultrahaptics/ultrahapticsstop.md)
+  * **Events**:
+      * [**Unsubscribe**](../toolbox/events/unsubscribe.md)
+  * **Prefab**:
+      * [**This Prefab**](../toolbox/prefab/thisprefab.md)
+
+
 **Nodes** with major updates:
 
 [**Mouse Event Nodes**](../toolbox/events/mouse/README.md): The new **Attribute** `Event Base` has been introduced for all **Mouse Event Nodes**. With it, the user can set the **Node** to work for a particular **Object** or in the entire **Scene**.
@@ -136,5 +200,3 @@ New **Nodes**:
   * [**On Mouse Move**](../toolbox/events/mouse/on-mouse-move.md)
   * [**On Mouse Scroll**](../toolbox/events/mouse/on-mouse-scroll.md)
  
-    
-
