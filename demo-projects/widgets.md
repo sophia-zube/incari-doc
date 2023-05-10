@@ -155,7 +155,7 @@ Any time an option in the *dropdown* is selected, the **Prefab Node** outputs th
 
 ## **7. Search Bar**
 
-![](../.gitbook/assets/demowidgets/scene7searchbarexample.gif)
+![](../.gitbook/assets/demowidgets/scene7searchbarexample2.gif)
 
 This **Scene** displays a field in which the user can input text. The **Prefab Node** then outputs the inputted text, allowing for it to be used in subsequent **Logic**.
 
