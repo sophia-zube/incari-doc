@@ -1,11 +1,10 @@
 # Overview
 
-![The Set List Data Node.](../../../.gitbook/assets/setlistdata.png)
+![The Set Active Index Node.](../../../.gitbook/assets/setactiveindexnode.png)
 
-The **Set List Data Node** .
+The **Set Active Index Node** sets.
 
-[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
+[**Scope**](): **Scene**, **Function**, **Prefab**.
 
 
 # Inputs
@@ -22,5 +21,5 @@ The **Set List Data Node** .
 
 # See Also
 
-# External Links
+* [**Get Active Index**](getactiveindex.md)
 
