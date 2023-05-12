@@ -441,7 +441,7 @@
     * [Ultrahaptics Play](toolbox/incari/ultrahaptics/ultrahapticsplay.md)
     * [Ultrahaptics Stop](toolbox/incari/ultrahaptics/ultrahapticsstop.md)
   * [Scenes](toolbox/incari/scenes/README.md)
-    * [Scene](toolbox/incari/scenes/scene.md)
+    * [Root](toolbox/incari/scenes/scene.md)
   * [Screen](toolbox/incari/screen/README.md)
     * [Get Scene](toolbox/incari/screen/getscene.md)
     * [Set Scene](toolbox/incari/screen/setscene.md)

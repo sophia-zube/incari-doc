@@ -161,7 +161,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
   * [**Set Current Directory**](io/setcurrentdirectory.md)
 * [**Incari**](incari/README.md)
   *  [**Scenes**](incari/scenes/README.md)
-     * [**Scene**](incari/scenes/scene.md) 
+     * [**Root**](incari/scenes/scene.md) 
   *  [**Screen**](incari/screen/README.md)
      *  [**Get Scene**](incari/screen/getscene.md)
      *  [**Set Scene**](incari/screen/setscene.md)

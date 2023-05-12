@@ -1,6 +1,6 @@
 # Overview
 
-![The Scene Node.](../../../.gitbook/assets/rootupdatedimage.png)
+![The Root Node.](../../../.gitbook/assets/rootnode.png)
 
 The **Scene** **Node** gives the **Scene ID** of its corresponding **Scene**.
 
@@ -10,7 +10,7 @@ For each **Scene** in the **Project**, there is a **Scene** **Node** with the **
 
 # Attributes
 
-![The Scene Node Attributes.](../../../.gitbook/assets/node-scene-attri.png)
+![The Root Node Attributes.](../../../.gitbook/assets/rootattributes.png)
 
 |Attribute|Type|Description|
 |---|---|---|

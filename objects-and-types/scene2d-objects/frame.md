@@ -8,11 +8,11 @@ When a **Frame** is created, it is not expressed as an explicitly visual compone
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
-![Frame Object Before.](../../.gitbook/assets/frameonstart.png)
+![Frame Object Before.](../../.gitbook/assets/frameimage1update.png)
 
 An **Ellipse** and **Rectangle** are now added as *children*, but it's still difficult to tell the boundaries of the **Frame** visually. Notice the `Postion` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 1000 units in both the X and Y-axes. **Objects**, however, still appear in full outside the boundaries of the **Frame**. 
 
-![Frame with Objects.](../../.gitbook/assets/framewithobjectsadded.png)
+![Frame with Objects.](../../.gitbook/assets/frameimage2update.png)
 
 <!--## Frame Boundaries
 
