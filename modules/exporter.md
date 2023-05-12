@@ -11,7 +11,7 @@ Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-
 
 ## Settings
 
-![](../.gitbook/assets/exporter-settings.png)
+![](../.gitbook/assets/exporterimage1update.png)
 
 ### General
 
@@ -41,7 +41,7 @@ There are two slightly different procedures for exporting a **Project** dependin
 
 Exporting a **Project** for the *Host* `Target` is very straightforward as this `Target` is already available and selected by default. To export the **Project**, simply click on the `Export` button on the top menu.
 
-![](../.gitbook/assets/exporter-export.png)
+![](../.gitbook/assets/exporterimage3update.png)
 
 A pop-up message indicating that the export was successful will appear.
 
@@ -112,7 +112,7 @@ After following all the previous steps, everything is ready for exporting a **Pr
 1. Open the **Project** to be exported in **Incari Studio** and go to the **Exporter Module**.
 2. Add the desired `Target` by using the plus icon on the top left.
 
-![Adding a Target.](../.gitbook/assets/exporter-addtarget2.png)
+![Adding a Target.](../.gitbook/assets/exporterimage5update.png)
 
 ![Exporter with *Linux x86-64* Target added.](../.gitbook/assets/exporter-wlinux.png)
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **List** **Nodes** allow to generate and handle **Lists**.
+The **List** **Nodes** allow the user to generate and handle **Lists** in **Scenes**.
 
 ## Contents
 
