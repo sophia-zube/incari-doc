@@ -6,4 +6,4 @@ The **Scene** **Nodes** correspond to **Nodes** that are used to obtain the **Sc
 
 ## Contents
 
-* [**Scene**](scene.md)
+* [**Root**](scene.md)
