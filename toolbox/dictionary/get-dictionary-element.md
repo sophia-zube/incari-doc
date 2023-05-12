@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Dictionary Element Node.](../../.gitbook/assets/getdictionaryelementupdatedimage.png)
+![The Get Dictionary Element Node.](../../.gitbook/assets/getdictionaryelementnodeupdate.png)
 
 **Get Dictionary Element** is used for retrieving elements from a **Dictionary**. It receives as input the **Dictionary** from which the elements will be retrieved and the `Keys` of the desired elements. The outputs are the received **Dictionary** and the `Values` associated with the given `Keys`.
 
@@ -10,7 +10,7 @@
 
 ## Attributes
 
-![The Get Dictionary Element Node Attributes.](../../.gitbook/assets/getdictionaryelementattributes.png)
+![The Get Dictionary Element Node Attributes.](../../.gitbook/assets/getdictionaryelementattributesupdate.png)
 
 ### Miscellaneous
 
@@ -27,7 +27,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary` | **Dictionary** | The **Dictionary** from which the desired element/s will be retrieved. |
-| `Index (*Key name*)` | **String** | The `Key` of the element you wish to return. |
+| `Index: KEYNAME` | **String** | The `Key` of the element you wish to return. |
 
 ## Outputs
 
