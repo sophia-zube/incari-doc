@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Erase Dictionary Element Node.](../../.gitbook/assets/erasedictionaryelementupdatedimage.png)
+![The Erase Dictionary Element Node.](../../.gitbook/assets/erasedictionaryelementnodeupdate2.png)
 
 The **Erase Dictionary Element Node** removes one or more elements from a **Dictionary**. It receives as input the **Dictionary** from which the element/s will be removed and the `Key/s` of the element/s to erase.
 
@@ -10,7 +10,7 @@ The **Erase Dictionary Element Node** removes one or more elements from a **Dict
 
 ## Attributes
 
-![The Erase Dictionary Element Node Attributes.](../../.gitbook/assets/erasedictionaryelementattributes.png)
+![The Erase Dictionary Element Node Attributes.](../../.gitbook/assets/dictionaryelementeraseattributesupdate.png)
 
 ### Inputs
 
@@ -26,7 +26,7 @@ The **Erase Dictionary Element Node** removes one or more elements from a **Dict
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary` | **Dictionary** | The **Dictionary** whose element/s you wish to remove. |
-| `Index (*Key name*)` | **String** | The `Key` of the element you wish to remove. |
+| `Index: KEYNAME` | **String** | The `Key` of the element you wish to remove. |
 
 ## Outputs
 

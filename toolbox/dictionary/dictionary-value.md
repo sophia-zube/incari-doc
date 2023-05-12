@@ -10,7 +10,7 @@ The **Dictionary Value Node** defines a **Dictionary** by setting its _\(key, va
 
 ## Attributes
 
-![The Dictionary Value Node Attributes.](../../.gitbook/assets/dictionaryvalueattributes.png)
+![The Dictionary Value Node Attributes.](../../.gitbook/assets/dictionaryvalueattributeupdate.png)
 
 ### Inputs
 
