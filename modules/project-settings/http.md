@@ -1,6 +1,6 @@
 # HTTP
 
-![The Project Settings HTTP Attributes.](../../.gitbook/assets/projectsettings-http3.png)
+![The Project Settings HTTP Attributes.](../../.gitbook/assets/projectsettingshttp20231.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the [**HTTP Nodes**](../../toolbox/communication/http/README.md).
 

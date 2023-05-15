@@ -1,6 +1,6 @@
 # Keyboard
 
-![The Keyboard Settings.](../../.gitbook/assets/projectsettings-keyboard3.png)
+![The Keyboard Settings.](../../.gitbook/assets/projectsettingskeyboard20231.png)
 
 The **Keyboard Settings** let the user define new _layouts_ that can then be used for **On-Screen Keyboards**.
 

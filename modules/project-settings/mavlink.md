@@ -1,6 +1,6 @@
 # MAVLink
 
-![The MAVLink Settings.](../../.gitbook/assets/projectsettings-mavlink3.png)
+![The MAVLink Settings.](../../.gitbook/assets/projectsettingsmavlink20231.png)
 
 The **MAVLink Settings** cover the necessary data to provide functionality to the [**MAVLink Nodes**](../../toolbox/communication/mavlink/README.md).
 
