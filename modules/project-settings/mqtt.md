@@ -1,8 +1,8 @@
 # MQTT
 
-![The Project Settings MQTT Attributes.](../../.gitbook/assets/projectsettings-mqtt3.png)
+![The Project Settings MQTT Attributes.](../../.gitbook/assets/projectsettingsmqtt20231.png)
 
-The **MQTT Settings** allow to manage the **MQTT Connections** and cover the necessary data to provide functionality to the [**MQTT Nodes**](../../toolbox/communication/mqtt/README.md).
+The **MQTT Settings** allow the user to manage the **MQTT Connections** and cover the necessary data to provide functionality to the [**MQTT Nodes**](../../toolbox/communication/mqtt/README.md).
 
 `Name` is an identifying name of an _MQTT_ connection chosen at the user's discretion.
 

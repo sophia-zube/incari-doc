@@ -1,6 +1,6 @@
 # Fonts
 
-![The Project Settings Fonts Attributes.](../../.gitbook/assets/projectsettings-fonts3.png)
+![The Project Settings Fonts Attributes.](../../.gitbook/assets/projectsettingsfonts20231.png)
 
 The **Fonts Settings** let the user define different types of _fonts_ to add personalized style to texts.
 
