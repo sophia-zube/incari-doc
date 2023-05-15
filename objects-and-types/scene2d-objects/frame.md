@@ -33,3 +33,25 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
 
 ![Frame Layout.](../../.gitbook/assets/framelayout.gif)
+
+## Padding
+
+This **Attribute** adds padding to a **Frame** depending on what sizes are specified and for which sides. The options are `t` for top, `r` for right, `b` for bottom, and `l` for left. 
+
+![Padding in Frames.](../../.gitbook/assets/paddingexamplegif.gif)
+
+## Gap
+
+This **Attribute** adds a gap between each of the **Objects** placed in the frame, with the specified distance given by the user. 
+
+![Gaps in Frames.](../../.gitbook/assets/gapexamplegif.gif)
+
+## Crop
+
+`Crop` cuts off all content which is outside of the **Frame** that is a child **Object** of said **Frame**. If a child **Object** (or part of a child **Object**) is moved outside the boundary of the **Frame** and `Crop` is toggled on, the **Object** (or part of it) will no longer be visible.
+
+## Hug Content
+
+When `Hug Content` is toggled on, the size of the **Frame** is always automatically recalculated to perfectly fit all its elements. If a `Layout` is used on the **Frame** and then an **Object** is added while `Hug Content` is on, the size of the **Frame** will increase. The same happens when a `Gap` or `Padding` is added.
+
+![Hug Content in Frames.](../../.gitbook/assets/hugcontentexamplegif.gif)

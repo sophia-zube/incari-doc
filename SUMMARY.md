@@ -550,6 +550,7 @@
   * [Split](toolbox/string/split.md)
   * [StartsWith](toolbox/string/startswith.md)
   * [String Value](toolbox/string/stringvalue.md)
+  * [Substring](toolbox/string/substring.md)
   * [Trim](toolbox/string/trim.md)
   * [TrimLeft](toolbox/string/trimleft.md)
   * [TrimRight](toolbox/string/trimright.md)

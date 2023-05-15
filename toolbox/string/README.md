@@ -35,6 +35,7 @@ The **String** **Nodes** provide a means for the user to perform several actions
 * [**Split**](split.md)
 * [**StartsWith**](startswith.md)
 * [**String Value**](stringvalue.md)
+* [**Substring**](substring.md)
 * [**Trim**](trim.md)
 * [**TrimLeft**](trimleft.md)
 * [**TrimRight**](trimright.md)
