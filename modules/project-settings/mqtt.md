@@ -8,9 +8,9 @@ The **MQTT Settings** allow the user to manage the **MQTT Connections** and cove
 
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
-`Remote IP address` is the IP address from which the connection originates.
+`URL` is the IP address from which the connection originates.
 
-`Remote port` is the port number of the connection. For _MQTT_, the standard is 1883.
+`Port` is the port number of the connection. For _MQTT_, the standard is 1883.
 
 `Autostart` can be enabled or disabled and dictates when the connection is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 

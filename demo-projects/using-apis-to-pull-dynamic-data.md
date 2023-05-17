@@ -48,7 +48,7 @@ http://api.openweathermap.org/data/2.5/weather?q=London&appid={API key}
 
 * `Remote IP` - The first section of this request is `http://api.openweathermap.org`, which is our endpoint. This is the value we put inside the `Remote IP` **Attribute**. A couple of notes regarding this **Attribute**:
   1. An IP address can also be used, instead of a URL.
-  2. The **HTTP GET Node** currently supports the _HTTP_ protocol only. _HTTPS_ is not supported.
+  2. The **HTTP GET Node**, like all other **HTTP** **Nodes**, supports both the _HTTP_ and _HTTPS_ protocols. However this **Project** will focus on _HTTP_.
 * `Remote Port` - For the `Remote Port` **Attribute**, this should be set to 80, which is the standard port for _HTTP_ usage.
 
 #### The Request Header Attributes

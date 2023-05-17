@@ -5,13 +5,15 @@
 
 The **CAN Settings** cover the necessary data to provide functionality to the [**CAN Nodes**](../../toolbox/communication/can/README.md).
 
-`Baudrate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
+`Name` is an identifying name chosen at the user's discretion. This will show up in the **Nodes** as a choice for the `Configuration` **Attribute**.
 
-`Interface Name (Linux - SocketCAN)` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
+`Baud Rate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
 `Channel Name (Windows - PCAN)` is the USB port that _CAN_ is connected to on _Windows_.
 
 Furthermore, the `ChannelName` and `Interface Name` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
+
+`Interface Name (Linux - SocketCAN)` is the identifying name of the _CAN_ Bus. _Virtual CAN_ is also possible within **Incari**. This is only used for Linux.
 
 A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part of the **CAN** protocol, as it stores all data regarding the connections between devices.
 
