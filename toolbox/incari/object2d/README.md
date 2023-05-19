@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Object** **Nodes** allow the user to set and obtain the **Attributes** of an **Object**.
+The **Object 2D** **Nodes** allow the user to set and obtain the **Attributes** of an **Object** in a **Scene2D**.
 
 ## Contents
 
