@@ -2,7 +2,7 @@
 
 ![The Set List Data Node.](../../../.gitbook/assets/setlistdata.png)
 
-The **Set List Data Node** .
+The **Set List Data Node** allows the user to set the data of a **List** in a **Scene2D**. It requires that the *JSON* data is in **Array** format.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -13,6 +13,8 @@ The **Set List Data Node** .
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The **List** that the user wishes to set the data for.|
+|`List Data`|**Array**|The *JSON* list data in **Array** format.|
 
 # Outputs
 
