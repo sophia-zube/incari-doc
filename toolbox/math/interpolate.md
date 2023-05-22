@@ -28,7 +28,13 @@ The **Interpolate** **Node** calculates intermediate values between an initial a
 | :--- | :--- | :--- |
 | `Type` | **Drop-down** | Method used for calculating the intermediate values. |
 | `Mode` | **Drop-down** | Whether the interpolation will be performed once, repeated or alternated. |
-| `Count` | **Int** \(_not available for `Mode` Once_\) | The number of times that the interpolation will be performed, if it is not provided in the `Count` **Socket**. |
+
+
+The following `Interpolation` **Attributes** are only available when `Alternate` or `Repeat` is the selected `Mode`:
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Count` | **Int**| The number of times that the interpolation will be performed, if it is not provided in the `Count` **Socket**. |
 | `Infinite` | **Bool** | Whether the interpolation will be played indefinitely \(this overrides the `Count` **Attribute**\). |
 
 ## Inputs
