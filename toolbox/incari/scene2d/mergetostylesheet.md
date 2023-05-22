@@ -2,20 +2,17 @@
 
 ![The Merge To Stylesheet Node.](../../../.gitbook/assets/mergetostylesheet.png)
 
-The **Merge To Stylesheet Node** .
+The **Merge To Stylesheet Node** lets the user incorporate new data into the current stylesheet **Asset** that was added with **Add Stylesheet**, without overwriting anything.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Stylesheet`|**String**|The *CSS* data that the user wishes to merge into the current stylesheet **Asset**.|
 
 # Outputs
 

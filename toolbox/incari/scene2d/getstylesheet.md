@@ -2,14 +2,9 @@
 
 ![The Get Stylesheet Node.](../../../.gitbook/assets/getstylesheet.png)
 
-The **Get Stylesheet Node** .
+The **Get Stylesheet Node** returns the stylesheet **Asset** that was added by the **Add Stylesheet Node**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
@@ -22,8 +17,7 @@ The **Get Stylesheet Node** .
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Stylesheet`|**String**|Returns the current stylesheet **Asset**.|
 
-# See Also
 
-# External Links
 
