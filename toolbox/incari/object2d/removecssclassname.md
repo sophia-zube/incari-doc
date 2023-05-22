@@ -2,7 +2,7 @@
 
 ![The Remove CSS Class Name Node.](../../../.gitbook/assets/removecssclassname.png)
 
-**Remove CSS Class Name Node** deletes a CSS class with the given name.
+**Remove CSS Class Name Node** deletes a CSS class with the given name. It has no effect if the given class name does not exist. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

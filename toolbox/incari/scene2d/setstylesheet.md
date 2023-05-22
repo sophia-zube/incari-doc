@@ -2,20 +2,16 @@
 
 ![The Set Stylesheet Node.](../../../.gitbook/assets/setstylesheetnode.png)
 
-The **Set Style Sheet Node** .
+The **Set Stylesheet Node** replaces the current stylesheet **Asset** that was added by the **Add Stylesheet Node**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Stylesheet`|**String**|The stylesheet that will replace the current stylesheet.|
 
 # Outputs
 

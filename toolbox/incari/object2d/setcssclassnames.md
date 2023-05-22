@@ -2,7 +2,7 @@
 
 ![The Set CSS Class Names Node.](../../../.gitbook/assets/setcssclassnames.png)
 
-**Set CSS Class Names Node** sets all *CSS* class names for the given **Object**.
+**Set CSS Class Names Node** sets all *CSS* class names for the given **Object**, and overwrites any exisiting ones.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
