@@ -536,7 +536,7 @@
   * [Concat Strings](toolbox/string/concatstrings.md)
   * [Contains](toolbox/string/contains.md)
   * [CryptoHash](toolbox/string/create-hash.md)
-  * [EndsWith](toolbox/string/endswith.md
+  * [EndsWith](toolbox/string/endswith.md)
   * [Format](toolbox/string/format.md)
   * [FormatArray](toolbox/string/formatarray.md)
   * [IndexOf](toolbox/string/indexof.md)
