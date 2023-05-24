@@ -8,6 +8,14 @@
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
+## Attributes
+
+![The On CAN Stop Node Attributes.](../../../../.gitbook/assets/oncanstopatts20231.png)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Configuration` | **Drop-down** | The identifying connection name that will be used. |
+
 ## Outputs
 
 | Output | Type | Description |
