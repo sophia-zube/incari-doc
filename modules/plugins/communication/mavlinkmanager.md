@@ -2,7 +2,7 @@
 
 After clicking on **MAVLink** in the **Plugins Module**, its options will show. All **MAVLink Communication** related components are encompassed by the **MAVLink Plugin**. 
 
-To refresh, **MAVLink Communication**, or *Micro Air Vehicle Link*, is used for communication with small vehicles, like drones. More information can be found [here](). Within **Incari**, this is done by using the [**MAVLink Nodes**]() and connections are configured in the [**Project Settings**](). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **MAVLink Communication**, or *Micro Air Vehicle Link*, is used for communication with small vehicles, like drones. More information can be found [here](https://mavlink.io/en/). Within **Incari**, this is done by using the [**MAVLink Nodes**](../../../toolbox/communication/mavlink/README.md) and connections are configured in the [**Project Settings**](../../../modules/project-settings/mavlink.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
