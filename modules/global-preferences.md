@@ -4,17 +4,13 @@
 
 {% tabs %}
 {% tab title="Animation Editor" %}
-![](../.gitbook/assets/globalpref\_animeditor.png)
+![](../.gitbook/assets/globprefsanimationeditor20231.png)
 
 #### Playback
 
 **Loop Mode**
 
 `Loop Mode` determines if an **Animation** should play forward or alternate between playing forward and backward in a **Scene**. It can be set in the following ways:
-
-* `Alternate`: The **Animation** is played forward and backward in each animation cycle.
-
-![](../.gitbook/assets/interpolation-mode-alternate.gif)
 
 * `None`: The **Animation** is played forward once in each animation cycle.
 
@@ -23,6 +19,12 @@
 * `Repeat`: The **Animation** is played forward in repeated cycles without reversing direction.
 
 ![](../.gitbook/assets/interpolation-mode-repeat.gif)
+
+
+
+* `Alternate`: The **Animation** is played forward and backward in each animation cycle.
+
+![](../.gitbook/assets/interpolation-mode-alternate.gif)
 {% endtab %}
 
 {% tab title="Global" %}

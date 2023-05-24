@@ -14,6 +14,14 @@ Again, the user must first use the **CAN Start Node** to open the connection. Se
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
+## Attributes
+
+![The CAN Start Node Attributes.](../../../.gitbook/assets/canstartatts20231.png)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `Configuration` | **Drop-down** | The identifying connection name that will be used. |
+
 ## Inputs
 
 | Input             | Type      | Description                                                           |
