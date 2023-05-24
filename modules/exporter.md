@@ -20,7 +20,7 @@ Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-
 ### Options
 
 * `Only Project`: Whether only the **Project** will be exported or the **Project** alongside a copy of **Incari Player**.
-* `Only Used Assets`: A user may import more **Assets** than they end up using. When toggled on, this **Attribute** makes sure only the essential **Assets** which make an appearance in the **Asset Database** are packaged up for export. 
+* `Only Used Assets`: A user may import more **Assets** than they end up using. When toggled on, this **Attribute** makes sure only the essential **Assets**, which appear in the **Asset Database**, are packaged up for export. 
 ## Deploy
 
 ![](../.gitbook/assets/exporter-deploy.png)

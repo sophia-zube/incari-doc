@@ -18,7 +18,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Key` | **String** | The `Key` of the element you wish to return if none is provided to the `Index` **Input** **Socket**. |
+| `Key` | **String** | The `Key` of the element you wish to return if none is provided to the `Key: KEYNAME` **Input** **Socket**. |
 | `Data Type` | **Drop-down** | The `Data Type` of the `Value` that will be returned. |
 
 ## Inputs
@@ -27,7 +27,7 @@
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary` | **Dictionary** | The **Dictionary** from which the desired element/s will be retrieved. |
-| `Index: KEYNAME` | **String** | The `Key` of the element you wish to return. |
+| `Key: KEYNAME` | **String** | The `Key` of the element you wish to return. |
 
 ## Outputs
 
