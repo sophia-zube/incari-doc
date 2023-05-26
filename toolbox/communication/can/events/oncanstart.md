@@ -14,7 +14,7 @@
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Drop-down** | The identifying connection name that will be used. |
+| `Configuration` | **Drop-down** | The identifying connection name that will be used, which is one that was set up in the [**Project Settings**](../../../../modules/project-settings/CAN.md). |
 
 ## Outputs
 

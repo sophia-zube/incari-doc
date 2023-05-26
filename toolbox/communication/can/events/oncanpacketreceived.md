@@ -16,7 +16,7 @@
 | :--- | :--- | :--- |
 | `On Change` | **Bool** | Specifies whether the **Node** executes when a **Packet**'s `Message` changes or simply when a **Packet**'s `Message` is received. |
 | `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
-| `Configuration` | **Drop-down** | The identifying connection name that will be used. |
+| `Configuration` | **Drop-down** | The identifying connection name that will be used, which is one that was set up in the [**Project Settings**](../../../../modules/project-settings/CAN.md). |
 
 ## Outputs
 

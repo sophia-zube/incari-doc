@@ -11,7 +11,7 @@ The **TCP Settings** allow the user to manage **TCP Connections** and cover the 
 
 `Name` is an identifying name of a *TCP* connection chosen at the user's discretion.
 
-`URL` is the *TCP* endpoint (either a URL or IP address) and is only relevant when `Connection Mode` is set to `Client Mode`. 
+`URL` is the *TCP* endpoint (either a URL or IP address) and is only relevant when `Is Server` is set to off. 
 
 `Local Port` represents two different things depending on whether `Is Server` is toggled on or not. If switched to on, it is the port number being listened to. If switched off, it is the port number the remote device is listening on.
 

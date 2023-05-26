@@ -15,7 +15,7 @@ The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN**
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Message Name` | **Drop-down** | The selected `Message` from the uploaded _DBC_ file. |
-| `Configuration` | **Drop-down** | The identifying connection name that will be used. |
+| `Configuration` | **Drop-down** | The identifying connection name that will be used, which is one that was set up in the [**Project Settings**](../../../modules/project-settings/CAN.md). |
 
 ## Inputs
 
