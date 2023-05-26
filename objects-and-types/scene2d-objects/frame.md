@@ -4,7 +4,7 @@ A **Frame** is a **Scene2D Object** in **Incari** that acts as a 'container' to 
 
 ## Create 
 
-<!--When a **Frame** is created, it is not expressed as an explicitly visual component to be displayed in the **Scene2D**. It must first be populated with other **Objects**. -->The dimensions of the **Frame** are provided in its **Attributes**.
+<!--When a **Frame** is created, it is not expressed as an explicitly visual component to be displayed in the **Scene2D**. It must first be populated with other **Objects**. --> The dimensions of the **Frame** are provided in its **Attributes**.
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
@@ -42,6 +42,12 @@ When `Hug Content` is toggled on, the size of the **Frame** is always automatica
 ![Hug Content in Frames.](../../.gitbook/assets/hugcontentexamplegif.gif)
 
 
+### Layout
+
+The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
+
+![Frame Layout.](../../.gitbook/assets/framelayout.gif)
+
 ### Gap
 
 This **Attribute** adds a gap between each of the **Objects** placed in the frame, with the specified distance given by the user. 
@@ -61,9 +67,4 @@ This **Attribute** adds *padding* to a **Frame** depending on what sizes are spe
 If a *child* **Object** (or part of a *child* **Object**) is moved outside the boundary of the **Frame** and `Crop` is toggled on, the **Object** (or part of it) will no longer be visible.
 
 
-### Layout
-
-The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
-
-![Frame Layout.](../../.gitbook/assets/framelayout.gif)
 
