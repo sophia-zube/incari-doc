@@ -4,7 +4,9 @@ A **Frame** is a **Scene2D Object** in **Incari** that acts as a 'container' to 
 
 ## Create 
 
-<!--When a **Frame** is created, it is not expressed as an explicitly visual component to be displayed in the **Scene2D**. It must first be populated with other **Objects**. --> The dimensions of the **Frame** are provided in its **Attributes**.
+<!--When a **Frame** is created, it is not expressed as an explicitly visual component to be displayed in the **Scene2D**. It must first be populated with other **Objects**. --> 
+
+The dimensions of the **Frame** are provided in its **Attributes**.
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
