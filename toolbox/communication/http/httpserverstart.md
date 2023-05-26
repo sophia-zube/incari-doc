@@ -20,7 +20,7 @@ Again, the user must first use the **HTTP Server Start Node** to open the connec
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Configuration` | **Drop-down** | The desired _HTTP_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings/http.md). |
+| `Configuration` | **Drop-down** | The desired _HTTP(S)_ server, which refers back to the selections made under *HTTP* in the [**Project Settings**](../../../modules/project-settings/http.md). |
 
 ## Inputs
 
