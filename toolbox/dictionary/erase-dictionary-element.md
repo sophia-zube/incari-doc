@@ -26,7 +26,7 @@ The **Erase Dictionary Element Node** removes one or more elements from a **Dict
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
 | `Dictionary` | **Dictionary** | The **Dictionary** whose element/s you wish to remove. |
-| `Index: KEYNAME` | **String** | The `Key` of the element you wish to remove. |
+| `Key: KEYNAME` | **String** | The `Key` of the element you wish to remove. |
 
 ## Outputs
 

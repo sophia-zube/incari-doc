@@ -9,6 +9,7 @@ A *GUI*, or graphical user interface, uses graphics to let a user interact with 
 * [**Slider**](#slider)
 * [**Text**](#text)
 * [**Text Area**](#text-area)
+* [**Text Input**](#text-input)
 * [**Toggle**](#toggle) 
 
 
@@ -59,11 +60,22 @@ The **Text** **Object** allows the user to add text to their **Project**. It can
 
 ## Text Area
 
-The **Text Area** **Object** allows the user to add text with a background to their **Project**. It can be completely customized in the **Text** and **Text Area Attributes**.
+The **Text Area** **Object** allows the user to add multiline text with a background to their **Project**. It can be completely customized in the **Text** and **Text Area Attributes**.
 
 ![Text Area.](../../.gitbook/assets/2dgui-textarea1.png)
 
 ![Text Area Attributes.](../../.gitbook/assets/2dgui-textarea-attri.png)
+
+
+## Text Input
+
+The **Text Input** **Object** allows the user to add singleline text with a background to their **Project**. It can be completely customized in the **Text** and **Text Input Attributes**.
+
+![Text Input.](../../.gitbook/assets/textinputexample.png)
+
+![Text Input Attributes.](../../.gitbook/assets/textinputattributesreal.png)
+
+
 
 ## Toggle
 

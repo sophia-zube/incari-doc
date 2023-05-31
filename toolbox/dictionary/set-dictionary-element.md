@@ -29,7 +29,7 @@ If the `Key` does not exist in the **Dictionary**, it creates a new \(`Key`, `Va
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Dictionary (optional)` | **Dictionary** | A **Dictionary** whose element/s you wish to update. |
+| `Dictionary` | **Dictionary** | A **Dictionary** whose element/s you wish to update. |
 | `Key` | **String** | The `Key` of the element you wish to update. |
 | `Value` | _Defined in the_ `Data Type` _**Attribute**_. | The `Value` that will be associated with the `Key` given in the `Key` **Input** **Socket**. |
 

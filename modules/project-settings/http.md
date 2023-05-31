@@ -1,6 +1,6 @@
 # HTTP
 
-![The Project Settings HTTP Attributes.](../../.gitbook/assets/projectsettingshttp20231.png)
+![The Project Settings HTTP Attributes.](../../.gitbook/assets/projectsettingshttp20231ssl.png)
 
 The **HTTP Settings** cover the necessary data to provide functionality to the [**HTTP Nodes**](../../toolbox/communication/http/README.md).
 
@@ -9,6 +9,10 @@ The **HTTP Settings** cover the necessary data to provide functionality to the [
 `Is IPv6` can be enabled or disabled. _IPv6_ is the newest version of the _Internet Protocol_. More information about _IPv6_ can be found in the **External Links** section.
 
 `Local port` is the port the user chooses to use for their _HTTP_ server. For _HTTP_, the standard is 80 or 8080 and for _HTTPS_, the standard is 443. More information on ports and port forwarding can be found in the **External Links** section.
+
+`Use SSL` enables (or disables) the use of the `SSL Certificate`. 
+
+The `SSL Certificate` makes it possible to utilize the *HTTPS* protocol by incorporating *SSL* encryption. 
 
 `Autostart` can be enabled or disabled and dictates when the server is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
@@ -21,3 +25,4 @@ The **HTTP Settings** cover the necessary data to provide functionality to the [
 * More information on [_IPv6_](https://en.wikipedia.org/wiki/IPv6).
 * More information on [_ports_](https://en.wikipedia.org/wiki/Port\_\(computer\_networking\)).
 * More information on [_port forwarding_](https://en.wikipedia.org/wiki/Port\_forwarding).
+* More information on [*SSL certficates*](http://www.steves-internet-guide.com/ssl-certificates-explained/).
