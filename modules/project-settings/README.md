@@ -9,8 +9,10 @@ The **Project Settings Module** is used to choose and customize settings for dif
 * [**MAVLink**](mavlink.md)
 * [**MQTT**](mqtt.md)
 * [**Profiler**](profiler.md)
+* [**Scene Separation**](sceneseparation.md)
 * [**Serial**](serial.md)
 * [**Socket.IO**](socketio.md)
+* [**Styles**](style.md)
 * [**TCP**](tcp-connection.md)
 * [**UDP**](udp-connection.md)
 
