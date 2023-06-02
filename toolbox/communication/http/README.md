@@ -4,7 +4,9 @@
 
 The **HTTP Nodes** provide a means for the user to perform several actions within the _HTTP_ protocol. _HTTP_, or _Hypertext Transfer Protocol_, allows for communication between servers and clients by way of requests and responses using different methods. 
 
-The **HTTP Nodes** allow the user to set up a server or connect to an already existing server. To set up a server on the local machine in **Incari**, the user needs to locate the [**HTTP Attributes**](../../../modules/project-settings/http.md) in **Project Settings** and add a server. To connect to an external server, the **HTTP Client Node** should be used. Both *HTTP* and *HTTPS* are supported. 
+The **HTTP Nodes** allow the user to set up a server or connect to an already existing server. To set up a server on the local machine in **Incari**, the user needs to locate the [**HTTP Attributes**](../../../modules/project-settings/http.md) in **Project Settings** and add a server. To connect to an external server, the **HTTP Client Node** should be used. 
+
+**Incari** provides the possibility for establishing connections with both *HTTP* and *HTTPS* servers as well as setting up these two server types. *HTTPS* is an extension of the *HTTP* communication protocol which utilizes *SSL* encryption for security purposes. 
 
 ## HTTP Guideline
 
