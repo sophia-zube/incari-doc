@@ -24,7 +24,7 @@ The _My Projects_ section allows the user to access, create, and manage their lo
 
 Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allows the user to open the **Project**, play the **Project** in **Incari Player**, show the **Project** in the user's local file library, and edit the **Project's** settings. It is also possible to delete the **Project** from here, either by removing it from the **Hub** or deleting it completely from the local disk.
 
-![My Projects Drop-down.](<../../.gitbook/assets/projectsmyprojectsdropdown - Copy.png>)
+![My Projects Drop-down.](../../.gitbook/assets/projectsmyprojectsdropdown.png)
 
 ![Project delete message.](../../.gitbook/assets/hub\_remove.png)
 
@@ -34,7 +34,7 @@ The tab _Remote Projects_ gives access to **Demo Projects** that have been creat
 
 **Demo Projects** allow one to see how certain functionalities can be implemented in **Incari**. These range from a simple button to examples of the several methods of **Animation** available to the user. Discover more in the [**Demo Projects**](../../demo-projects/overview.md) documentation.
 
-![Remote Projects.](../../.gitbook/assets/projectsremoteprojects_20222.png)
+![Remote Projects.](../../.gitbook/assets/projectsremoteprojects\_20222.png)
 
 ## Applications
 
@@ -48,7 +48,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 ![Applications: Incari Studio](../../.gitbook/assets/applicationsincaristudio.png)
 
-![Application: Incari Studio Installed](../../.gitbook/assets/incarihubinstalled2_20222.png)
+![Application: Incari Studio Installed](../../.gitbook/assets/incarihubinstalled2\_20222.png)
 
 ## Community
 
@@ -56,7 +56,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 The **Documentation** takes you straight to the instructional texts that teach the user the ins and outs of **Incari**, which you are at right now! It gives a run down of the basics, helps you get started, thoroughly explains each component of **Incari Studio**, and provides more information on a few **Demo Projects**. There's a lot to discover in the **Documentation**, written with care by the **Documentation** team.
 
-![Documentation.](../../.gitbook/assets/documentation_20222.png)
+![Documentation.](../../.gitbook/assets/documentation\_20222.png)
 
 ### Forum
 

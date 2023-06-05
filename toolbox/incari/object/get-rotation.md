@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The Get Rotation Node.](../../../.gitbook/assets/getrotationupdatedimage.png)
 
@@ -12,14 +12,14 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                                         |
 | ----------------- | ------------ | ----------------------------------------------------------------------------------- |
 | _Pulse Input_ (►) | **Pulse**    | A standard **Input Pulse**, to trigger the execution of the **Node**.               |
 | `Object ID`       | **ObjectID** | The ID of the target **Scene Object** whose `Rotation` values one wishes to return. |
 
-### Outputs
+#### Outputs
 
 | Output             | Type        | Description                                                                                                                                                    |
 | ------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The Get Rotation Node.](../../../.gitbook/assets/getrotationnode2d.png)
 
@@ -36,14 +36,14 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                                        |
 | ----------------- | ------------ | ---------------------------------------------------------------------------------- |
 | _Pulse Input_ (►) | **Pulse**    | A standard **Input Pulse**, to trigger the execution of the **Node**.              |
 | `Object ID`       | **ObjectID** | The ID of the target **Scene2D Object** whose `Rotation` value you wish to return. |
 
-### Outputs
+#### Outputs
 
 | Output             | Type      | Description                                                                                                                            |
 | ------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |

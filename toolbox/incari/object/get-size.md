@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The Get Size Node.](../../../.gitbook/assets/getsizenode-3d.png)
 
@@ -12,14 +12,14 @@ The **Get Size Node** returns the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Ob
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                            |
 | ----------------- | ------------ | ---------------------------------------------------------------------- |
 | _Pulse Input_ (►) | **Pulse**    | A standard **Input Pulse**, to trigger the execution of the **Node**.  |
 | `Object ID`       | **ObjectID** | The ID of the target **Scene Object** whose `Size` you wish to return. |
 
-### Outputs
+#### Outputs
 
 | Output             | Type        | Description                                                                                                                            |
 | ------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ The **Get Size Node** returns the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Ob
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The Get Size Node.](../../../.gitbook/assets/getsizenode.png)
 
@@ -36,14 +36,14 @@ The **Get Size Node** returns the $$X$$ and $$Y$$ values of a **Scene2D Object's
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                              |
 | ----------------- | ------------ | ------------------------------------------------------------------------ |
 | _Pulse Input_ (►) | **Pulse**    | A standard **Input Pulse**, to trigger the execution of the **Node**.    |
 | `Object ID`       | **ObjectID** | The ID of the target **Scene2D Object** whose `Size` you wish to return. |
 
-### Outputs
+#### Outputs
 
 | Output             | Type        | Description                                                                                                                            |
 | ------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- |

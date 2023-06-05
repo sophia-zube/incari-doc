@@ -28,7 +28,7 @@ This page describes all the options available in the **Scene Outliner** for mana
 
 New **Objects** can be created in the following ways:
 
-* Click on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (2) (1) (5).PNG>) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
+* Click on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (4).PNG>) icon located at the top left corner of the **Scene Outliner** and select the **Object** to create.
 * Right-click inside the **Scene Outliner**, select `Create` from the pop-up, and click on the **Object**.
 
 <div>

@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The Set Rotation Node.](../../../.gitbook/assets/setrotationupdatedimage.png)
 
@@ -12,7 +12,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The Set Rotation Node Attributes.](../../../.gitbook/assets/setrotationatts3d.png)
 
@@ -20,7 +20,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | ---------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
 | `Rotation` | **Vector3** | The desired `Rotation` values of the **Scene Object**, if one is not provided in the `Rotation` **Socket**. |
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                                                                                                        |
 | ----------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | `Object ID`       | **ObjectID** | The ID of the target **Scene Object** whose `Rotation` value you wish to set.                                                                      |
 | `Rotation`        | **Vector3**  | A 3-dimensional vector that contains the `Rotation` components measured in Euler angles along the X, Y, and Z axes of the target **Scene Object**. |
 
-### Outputs
+#### Outputs
 
 | Output             | Type      | Description                                                                                                                            |
 | ------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The Set Rotation Node.](../../../.gitbook/assets/setrotationnode2d.png)
 
@@ -44,7 +44,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The Set Rotation Node Attributes.](../../../.gitbook/assets/setrotationatts2d.png)
 
@@ -52,7 +52,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | ---------- | --------- | ------------------------------------------------------------------------------------------------------------ |
 | `Rotation` | **Float** | The desired `Rotation` value of the **Scene2D Object**, if one is not provided in the `Rotation` **Socket**. |
 
-### Inputs
+#### Inputs
 
 | Input             | Type         | Description                                                                     |
 | ----------------- | ------------ | ------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 | `Object ID`       | **ObjectID** | The ID of the target **Scene2D Object** whose `Rotation` value you wish to set. |
 | `Rotation`        | **Float**    | The **Float** value of the target **Scene2D Object's** rotation.                |
 
-### Outputs
+#### Outputs
 
 | Output             | Type      | Description                                                                                                                            |
 | ------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |

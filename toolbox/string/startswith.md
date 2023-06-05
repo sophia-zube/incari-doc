@@ -1,39 +1,41 @@
-# Overview
+# StartsWith
+
+## Overview
 
 ![The StartsWith Node.](../../.gitbook/assets/startswithnode.png)
 
-The **StartsWith Node** checks if a **String** starts with a *substring*, or `Pattern`, and returns a **Bool** of either *True* or *False*.
+The **StartsWith Node** checks if a **String** starts with a _substring_, or `Pattern`, and returns a **Bool** of either _True_ or _False_.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
-# Attributes
+## Attributes
 
 ![The StartsWith Node Attributes.](../../.gitbook/assets/startswithattributes.png)
 
-|Attribute|Type|Description|
-|---|---|---|
-|`String`|**String**|The **String** to be checked.|
-|`Pattern`|**String**|The *substring* that will be compared to the start of the aforementioned **String**, if none is given in the **Input** **Socket**.|
+| Attribute | Type       | Description                                                                                                                        |
+| --------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| `String`  | **String** | The **String** to be checked.                                                                                                      |
+| `Pattern` | **String** | The _substring_ that will be compared to the start of the aforementioned **String**, if none is given in the **Input** **Socket**. |
 
-# Inputs
+## Inputs
 
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`String`|**String**|The **String** to be checked.|
-|`Pattern`|**String**|The *substring* that will be compared to the start of the aforementioned **String**.|
+| Input             | Type       | Description                                                                          |
+| ----------------- | ---------- | ------------------------------------------------------------------------------------ |
+| _Pulse Input_ (►) | **Pulse**  | A standard **Input Pulse**, to trigger the execution of the **Node**.                |
+| `String`          | **String** | The **String** to be checked.                                                        |
+| `Pattern`         | **String** | The _substring_ that will be compared to the start of the aforementioned **String**. |
 
-# Outputs
+## Outputs
 
-|Output|Type|Description|
-|---|---|---|
-|*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`StartsWith`|**Bool**|Returns *True* or *False* depending on whether the comparison is true or not.|
+| Output             | Type      | Description                                                                                                                            |
+| ------------------ | --------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| _Pulse Output_ (►) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
+| `StartsWith`       | **Bool**  | Returns _True_ or _False_ depending on whether the comparison is true or not.                                                          |
 
-# See Also
+## See Also
 
-* [**EndsWith**](endswith.md)
+* [**EndsWith**](broken-reference)
 
-# External Links
+## External Links
 
-* More on *substrings* on [Wikipedia](https://en.wikipedia.org/wiki/Substring).
+* More on _substrings_ on [Wikipedia](https://en.wikipedia.org/wiki/Substring).
