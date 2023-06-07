@@ -1,16 +1,21 @@
 # RotateTo Action
 
-## Overview
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
+
+{% tabs %}
+{% tab title="Scene" %}
+
+#### Overview
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionupdatedimage.png)
 
-The **RotateTo Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/README.md) to the *Euler angles* specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+The **RotateTo Action Node** continuously rotates a [**Scene Object**](../../objects-and-types/scene-objects/README.md) to the *Euler angles* specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
 
 Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation) for more detail about the `Rotation` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-## Attributes
+#### Attributes
 
 ![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionattributes.png)
 
@@ -20,7 +25,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
 | `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the *Euler Angles*. It can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
-## Inputs
+#### Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -30,7 +35,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration` | **Float** | The total time \(in seconds\). |
 | `To` | **Vector3** | The *Euler angles* along the X, Y, and Z axes to rotate to. |
 
-## Outputs
+#### Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
@@ -39,9 +44,58 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **RotateTo Action** when the **Action** stops. |
 
 
+
+{% tab title="Scene2D" %}
+
+
+
+#### Overview
+
+![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionnode2d.png)
+
+The **RotateTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene-objects/README.md) to the *Euler angles* specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
+
+Furthermore, visit the [**Actions Nodes**](README.md) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/README.md#rotation) for more detail about the `Rotation` **Attribute**.
+
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
+#### Attributes
+
+![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionatts2d.png)
+
+| Attribute | Type | Description |
+| :--- | :--- | :--- |
+| `To` | **Float** | The value to rotate to, if none are received in the `To` **Input Socket**. |
+| `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
+| `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the *Euler Angles*. It can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
+
+#### Inputs
+
+| Input | Type | Description |
+| :--- | :--- | :--- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
+| \(►\) `Start` | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
+| `Object ID` | **ObjectID** | The ID of the target **Object**. |
+| `Duration` | **Float** | The total time \(in seconds\). |
+| `To` | **Float** | The value to rotate to. |
+
+#### Outputs
+
+| Output | Type | Description |
+| :--- | :--- | :--- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](README.md#instance-id) of the **Action**.  |
+| `OnStart` \(►\) | **Pulse** | Flows to the next **Node** following **RotateTo Action** when the **Action** starts. |
+| `OnEnd` \(►\) | **Pulse** | Flows to the next **Node** following **RotateTo Action** when the **Action** stops. |
+
+
+{% endtab %}
+{% endtabs %}
+
 ## Example
 
-This section shows a simple example of how to use the **RotateTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
+This section shows a simple example of how to use the **RotateTo Action** **Node** and the effect it has on a **Scene Object**. This concept can be applied as well to a **Scene2D Object**.  
+
+We start by [configuring the **Scene**](#scene-configuration), then [build the **Logic**](#logic), and finally show the [result](#final-result).
 
 ### Scene Configuration
 
