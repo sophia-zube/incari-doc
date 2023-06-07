@@ -1,16 +1,21 @@
 # MoveTo Action
 
-## Overview
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
+
+
+{% tabs %}
+{% tab title="Scene" %}
+#### Overview
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoactionupdatedimage.png)
 
-The **MoveTo Action Node** continuously modifies the `Position` of an [**Object**](../../objects-and-types/scene-objects/) to the values specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](movetoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+The **MoveTo Action Node** continuously modifies the `Position` of a [**Scene Object**](../../objects-and-types/scene-objects/) to the values specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](movetoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Position**](../../objects-and-types/attributes/common-attributes/transformation/#position) for more detail about the `Position` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-## Attributes
+#### Attributes
 
 ![The MoveTo Action Node Attributes.](../../.gitbook/assets/movetoactionattributes.png)
 
@@ -20,7 +25,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                    |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Position`. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-## Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +35,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `To`          | **Vector3**    | The desired final `Position` along the X, Y, Z axes.                                                                                         |
 
-## Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                        |
 | ------------- | -------------- | ---------------------------------------------------------------------------------- |
@@ -38,9 +43,52 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **MoveTo Action** when the **Action** starts. |
 | `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **MoveTo Action** when the **Action** stops.  |
 
+{% tab title="Scene2D" %}
+
+![The MoveTo Action Node.](../../.gitbook/assets/movetoaction2dnode.png)
+
+The **MoveTo Action Node** continuously modifies the `Position` of an [**Scene2D Object**](../../objects-and-types/scene-objects/) to the values specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](movetoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
+
+Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Position**](../../objects-and-types/attributes/common-attributes/transformation/#position) for more detail about the `Position` **Attribute**.
+
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
+#### Attributes
+
+![The MoveTo Action Node Attributes.](../../.gitbook/assets/movetoactionatts2d.png)
+
+| Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                  |
+| ---------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `To`             | **Vector2**   | The desired `Position` along the X and Y axes, if none is received in the `To` **Input Socket**.                                                                                                                                                                                                                                             |
+| `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                    |
+| `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Position`. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
+
+#### Inputs
+
+| Input         | Type           | Description                                                                                                                                  |
+| ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
+| (►) `Start`   | **Pulse**      | A standard **Input Pulse**, to trigger the execution of the **Node**.                                                                        |
+| `Object ID`   | **ObjectID**   | The ID of the target **Object**.                                                                                                             |
+| `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
+| `To`          | **Vector2**    | The desired final `Position` along the X and Y axes.                                                                                         |
+
+#### Outputs
+
+| Output        | Type           | Description                                                                        |
+| ------------- | -------------- | ---------------------------------------------------------------------------------- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**.                  |
+| `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **MoveTo Action** when the **Action** starts. |
+| `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **MoveTo Action** when the **Action** stops.  |
+
+{% endtab %}
+{% endtabs %}
+
 ## Example
 
-This section shows a simple example of how to use the **MoveTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](movetoaction.md#scene-configuration), then [build the **Logic**](movetoaction.md#logic), and finally show the [result](movetoaction.md#final-result).
+This section shows a simple example of how to use the **MoveTo Action** **Node** and the effect it has on an **Scene Object**. This concept can be applied as well to a **Scene2D Object**. 
+
+We start by [configuring the **Scene**](movetoaction.md#scene-configuration), then [build the **Logic**](movetoaction.md#logic), and finally show the [result](movetoaction.md#final-result).
 
 ### Scene Configuration
 

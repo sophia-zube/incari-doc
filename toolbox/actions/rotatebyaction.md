@@ -1,16 +1,21 @@
 # RotateBy Action
 
-## Overview
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
+
+{% tabs %}
+{% tab title="Scene" %}
+
+#### Overview
 
 ![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionupdatedimage.png)
 
-The **RotateBy Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/) by the _Euler angles_ values specified in `Offset` for a given period of time, thus creating an **Animation**. Find an [example](rotatebyaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+The **RotateBy Action Node** continuously rotates a [**Scene Object**](../../objects-and-types/scene-objects/) by the _Euler angles_ values specified in `Offset` for a given period of time, thus creating an **Animation**. <!--Find an [example](rotatebyaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-## Attributes
+#### Attributes
 
 ![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionattributes.png)
 
@@ -20,7 +25,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-## Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,7 +35,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `Offset`      | **Vector3**    | The amount to rotate the **Object** by, measured in _Euler angles_ along the X, Y, and Z axes.                                               |
 
-## Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                          |
 | ------------- | -------------- | ------------------------------------------------------------------------------------ |
@@ -38,9 +43,57 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** starts. |
 | `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** stops.  |
 
+
+{% tab title="Scene2D" %}
+
+
+#### Overview
+
+![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionnode2d.png)
+
+The **RotateBy Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene-objects/) by the _Euler angles_ values specified in `Offset` for a given period of time, thus creating an **Animation**. <!--Find an [example](rotatebyaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
+
+Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
+
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
+#### Attributes
+
+![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionatts2d.png)
+
+| Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                      |
+| ---------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `Offset`         | **Float**   | The amount to rotate the **Object** by, if none is received in the `Offset` **Input Socket**.                                                                                                                                                                                             |
+| `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
+| `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
+
+#### Inputs
+
+| Input         | Type           | Description                                                                                                                                  |
+| ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
+| (►) `Start`   | **Pulse**      | A standard **Input Pulse**, to trigger the execution of the **Node**.                                                                        |
+| `Object ID`   | **ObjectID**   | The ID of the target **Object**.                                                                                                             |
+| `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
+| `Offset`      | **Float**    | The amount to rotate the **Object** by.                                               |
+
+#### Outputs
+
+| Output        | Type           | Description                                                                          |
+| ------------- | -------------- | ------------------------------------------------------------------------------------ |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**.                    |
+| `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** starts. |
+| `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** stops.  |
+
+{% endtab %}
+{% endtabs %}
+
+
 ## Example
 
-This section shows a simple example of how to use the **RotateBy Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](rotatebyaction.md#scene-configuration), then [build the **Logic**](rotatebyaction.md#logic), and finally show the [result](rotatebyaction.md#final-result).
+This section shows a simple example of how to use the **RotateBy Action** **Node** and the effect it has on an **Scene Object**. This concept can be applied as well to a **Scene2D Object**. 
+
+We start by [configuring the **Scene**](rotatebyaction.md#scene-configuration), then [build the **Logic**](rotatebyaction.md#logic), and finally show the [result](rotatebyaction.md#final-result).
 
 ### Scene Configuration
 

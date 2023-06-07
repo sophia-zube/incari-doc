@@ -24,3 +24,11 @@ Once `Player View` is activated, only half of the **Ellipse** is visible and the
 
 `Player View` gives a preview of what will be shown when the **Scene2D** is playing. 
 
+## Render to Texture
+
+![](../../.gitbook/assets/rendertotexture.png)
+
+
+This **Attribute** is used to render the **Scene2D** from the viewpoint of the **Camera** into a texture. When enabled, the resulting texture is added to the **Asset Database** and can be used for all **Objects** which allow for textures (such as **Images**). It is removed again when the **Attribute** is disabled. 
+
+This **Attribute** can also be used to draw multiple **Scene2Ds**, combine them, or bring them into another **Scene2D**.
