@@ -43,6 +43,8 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** starts. |
 | `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **RotateBy Action** when the **Action** stops.  |
 
+{% endtab %}
+
 
 {% tab title="Scene2D" %}
 
