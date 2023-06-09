@@ -1,10 +1,15 @@
 # RotateFromTo Action
 
+This **Node** has different versions for [**Scenes**](../../../objects-and-types/project-objects/scene.md) and [**Scene2Ds**](../../../objects-and-types/project-objects/scene2d.md). Find in the tabs below the documentation for both versions.
+
+{% tabs %}
+{% tab title="Scene" %}
+
 ## Overview
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionupdatedimage.png)
 
-The **RotateFromTo Action Node** continuously rotates an [**Object**](../../objects-and-types/scene-objects/) from the _Euler angles_ specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](rotatefromtoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
+The **RotateFromTo Action Node** continuously rotates a [**Scene Object**](../../objects-and-types/scene-objects/) from the _Euler angles_ specified in `From` to those specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](rotatefromtoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
 
@@ -40,9 +45,56 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **RotateFromTo Action** when the **Action** starts. |
 | `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **RotateFromTo Action** when the **Action** stops.  |
 
+{% tab title="Scene2D" %}
+
+## Overview
+
+![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionnode2d.png)
+
+The **RotateFromTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene-objects/) from the value specified in `From` to that specified in `To` for a given period of time, thus creating an **Animation**. <!--Find an [example](rotatefromtoaction.md#example) of how to use this **Node** and its effect over an **Object** at the end of this page.-->
+
+Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
+
+[**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
+
+## Attributes
+
+![The RotateFromTo Action Node Attributes.](../../.gitbook/assets/rotatefromtoactionatts2d.png)
+
+| Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                      |
+| ---------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `From`           | **Float**   | The value to rotate from, if none are received in the `From` **Input Socket**.                                                                                                                                                                                                                               |
+| `To`             | **Float**   | The value to rotate to, if none are received in the `To` **Input Socket**.                                                                                                                                                                                                                                   |
+| `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
+| `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
+
+## Inputs
+
+| Input         | Type           | Description                                                                                                                                  |
+| ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**. If nothing is received, it automatically assigns 0 as the **Instance ID**. |
+| (►) `Start`   | **Pulse**      | A standard **Input Pulse**, to trigger the execution of the **Node**.                                                                        |
+| `Object ID`   | **ObjectID**   | The ID of the target **Object**.                                                                                                             |
+| `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
+| `From`        | **Float**    | The value to rotate from.                                                                                |
+| `To`          | **Float**    | The value to rotate to.                                                                                  |
+
+## Outputs
+
+| Output        | Type           | Description                                                                              |
+| ------------- | -------------- | ---------------------------------------------------------------------------------------- |
+| `Instance ID` | **InstanceID** | The assigned [**Instance ID**](./#instance-id) of the **Action**.                        |
+| `OnStart` (►) | **Pulse**      | Flows to the next **Node** following **RotateFromTo Action** when the **Action** starts. |
+| `OnEnd` (►)   | **Pulse**      | Flows to the next **Node** following **RotateFromTo Action** when the **Action** stops.  |
+
+{% endtab %}
+{% endtabs %}
+
 ## Example
 
-This section shows a simple example of how to use the **RotateFromTo Action** **Node** and the effect it has on an **Object**. We start by [configuring the **Scene**](rotatefromtoaction.md#scene-configuration), then [build the **Logic**](rotatefromtoaction.md#logic), and finally show the [result](rotatefromtoaction.md#final-result).
+This section shows a simple example of how to use the **RotateFromTo Action** **Node** and the effect it has on a **Scene Object**. This concept can be applied as well to a **Scene2D Object**. 
+
+We start by [configuring the **Scene**](rotatefromtoaction.md#scene-configuration), then [build the **Logic**](rotatefromtoaction.md#logic), and finally show the [result](rotatefromtoaction.md#final-result).
 
 ### Scene Configuration
 

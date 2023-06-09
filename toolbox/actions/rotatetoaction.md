@@ -5,7 +5,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tabs %}
 {% tab title="Scene" %}
 
-#### Overview
+## Overview
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionupdatedimage.png)
 
@@ -15,7 +15,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-#### Attributes
+## Attributes
 
 ![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionattributes.png)
 
@@ -25,7 +25,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
 | `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the *Euler Angles*. It can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
-#### Inputs
+## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -35,7 +35,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration` | **Float** | The total time \(in seconds\). |
 | `To` | **Vector3** | The *Euler angles* along the X, Y, and Z axes to rotate to. |
 
-#### Outputs
+## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
@@ -49,7 +49,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 
 
-#### Overview
+## Overview
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionnode2d.png)
 
@@ -59,7 +59,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-#### Attributes
+## Attributes
 
 ![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionatts2d.png)
 
@@ -69,7 +69,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |
 | `Interpolation` | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the *Euler Angles*. It can be [*Linear*](https://en.wikipedia.org/wiki/Linear_interpolation), [*Sine Ease In*](https://easings.net/#easeInSine), [*Sine Ease In Out*](https://easings.net/#easeInOutSine), or [*Sine Ease Out*](https://easings.net/#easeOutSine). |
 
-#### Inputs
+## Inputs
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
@@ -79,7 +79,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 | `Duration` | **Float** | The total time \(in seconds\). |
 | `To` | **Float** | The value to rotate to. |
 
-#### Outputs
+## Outputs
 
 | Output | Type | Description |
 | :--- | :--- | :--- |
