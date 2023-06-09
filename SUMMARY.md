@@ -256,6 +256,8 @@
     * [On ImageSequence Pause](toolbox/events/imagesequence/on-imagesequence-pause.md)
     * [On ImageSequence Play](toolbox/events/imagesequence/on-imagesequence-play.md)
     * [On ImageSequence Stop](toolbox/events/imagesequence/on-imagesequence-stop.md)
+  * [Input](toolbox/events/input/README.md)
+    * [On Text Change](toolbox/events/input/ontextchange.md)
   * [Keyboard](toolbox/events/keyboard/README.md)
     * [On Key Press](toolbox/events/keyboard/on-key-press.md)
     * [On Key Release](toolbox/events/keyboard/on-key-release.md)
