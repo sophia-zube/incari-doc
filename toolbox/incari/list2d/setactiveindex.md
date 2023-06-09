@@ -2,7 +2,7 @@
 
 ![The Set Active Index Node.](../../../.gitbook/assets/setactiveindexnode.png)
 
-The **Set Active Index Node** sets the value of a **List's** `Active Item` **Atribute** .
+The **Set Active Index Node** sets the value of a **List's** `Active Index` **Attribute** .
 
 [**Scope**](): **Scene**, **Function**, **Prefab**.
 
