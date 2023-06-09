@@ -5,7 +5,6 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 {% tabs %}
 {% tab title="Scene" %}
-
 ## Overview
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoactionupdatedimage.png)
