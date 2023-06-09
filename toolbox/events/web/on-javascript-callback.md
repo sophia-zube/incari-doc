@@ -10,7 +10,7 @@
 
 ## Attributes
 
-![The On Javascript Callback Node.](../../../.gitbook/assets/javascriptcallbackattributes.png)
+![The On Javascript Callback Node.](<../../../.gitbook/assets/javascriptcallbackattributes - Copy.png>)
 
 ### Object
 

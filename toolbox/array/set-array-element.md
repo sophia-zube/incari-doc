@@ -42,7 +42,7 @@ If the `Index` is out of range for the **Array**, it will extend the **Array** u
 
 ## Example Usage
 
-![The Set Array Element Node Usage.](<../../.gitbook/assets/set-array-usage (1).png>)
+![The Set Array Element Node Usage.](../../.gitbook/assets/set-array-usage.png)
 
 ## See Also
 

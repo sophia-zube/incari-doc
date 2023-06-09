@@ -10,7 +10,7 @@ It is important to note that while the **CAN Start Node** starts a **CAN** conne
 
 Again, the user must first use the **CAN Start Node** to open the connection. Separately, the **On CAN Start Node** can be used to execute the desired **Communication Logic**.
 
-![CAN Start and On CAN Start Configuration.](<../../../.gitbook/assets/canstartvsoncanstart - Copy (2).png>)
+![CAN Start and On CAN Start Configuration.](<../../../.gitbook/assets/canstartvsoncanstart - Copy.png>)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 

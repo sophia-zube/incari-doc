@@ -27,7 +27,7 @@ The included **Scenes** are:
 
 ## **0. Popup**
 
-![](../.gitbook/assets/Popup.gif)
+![](../.gitbook/assets/demowidgets/Popup.gif)
 
 This **Scene** displays a button, implemented through the **Prefab** explained in [**Buttons**](widgets.md#1.-buttons), that opens a _popup_ window when clicked on. This _popup_ window is implemented through a **Prefab**, whose **Logic** takes the title and message that will be displayed on it and gives out the option clicked by the user, which can be either `cancel` or `ok`.
 

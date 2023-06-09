@@ -4,7 +4,7 @@ The **On-Screen Keyboard** is a keyboard that appears on the screen. It can be u
 
 The two images below show an **On-Screen Keyboard** in the viewport of **Incari Studio** and the **Incari Player**.
 
-![On-Screen Keyboard in the Viewport.](<../../../.gitbook/assets/onscreenkeyboardsceneoutliner - Copy.png>)
+![On-Screen Keyboard in the Viewport.](../../../.gitbook/assets/onscreenkeyboardsceneoutliner.png)
 
 ![On-Screen Keyboard in the Incari Player.](<../../../.gitbook/assets/onscreenkeyboardplayer - Copy.png>)
 

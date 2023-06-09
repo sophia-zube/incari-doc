@@ -10,7 +10,7 @@
 
 ## Attributes
 
-![The On WebSprite Load Node Attributes.](../../../.gitbook/assets/onwebspriteloadattributes.png)
+![The On WebSprite Load Node Attributes.](<../../../.gitbook/assets/onwebspriteloadattributes - Copy.png>)
 
 ### Object
 

@@ -10,7 +10,7 @@ To download the **Project**, open **Incari Hub** and download the "Animations" *
 
 If you go back to the _My Projects_ section, you will see that the **Project** was added to your local files. If you hover over the project thumbnail and press the ▶ (play) icon, you can preview the **Project**.
 
-!["Animations" Project.](<../.gitbook/assets/untitled (2).png>)
+!["Animations" Project.](<../.gitbook/assets/untitled (2) (1).png>)
 
 Now you will see a variety of controls for each of the 4 animation methods.
 

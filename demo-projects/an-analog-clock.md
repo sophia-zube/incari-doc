@@ -124,7 +124,7 @@ The [**Interpolate**](../toolbox/math/interpolate.md) **Node** has a few differe
 * `To` - the value we end at (the current time).
 * There is also the `Interpolation Type`, which will give you the option for _non-linear easing_. For example you might want the hand to start slow and speed up. The best way to understand the difference is to experiment with the settings.
 
-![](../.gitbook/assets/clock-interpolation.jfif)
+![](../.gitbook/assets/clock-interpolation.png)
 
 **Convert Time Value to a Rotation Value for all Hands**
 

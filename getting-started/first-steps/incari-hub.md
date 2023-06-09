@@ -24,7 +24,7 @@ The _My Projects_ section allows the user to access, create, and manage their lo
 
 Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allows the user to open the **Project**, play the **Project** in **Incari Player**, show the **Project** in the user's local file library, and edit the **Project's** settings. It is also possible to delete the **Project** from here, either by removing it from the **Hub** or deleting it completely from the local disk.
 
-![My Projects Drop-down.](../../.gitbook/assets/projectsmyprojectsdropdown.png)
+![My Projects Drop-down.](<../../.gitbook/assets/projectsmyprojectsdropdown - Copy.png>)
 
 ![Project delete message.](../../.gitbook/assets/hub\_remove.png)
 
