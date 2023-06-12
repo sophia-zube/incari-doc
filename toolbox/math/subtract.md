@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Subtract Node.](../../.gitbook/assets/node-subtract2.png)
+![The Subtract Node.](../../.gitbook/assets/subtractupdatedimage.png)
 
 **Subtract** is a _basic arithmetic operation_ **Node**, which performs a sequence of subtraction operations, from top to bottom, for each `Input` **Socket**, whose value is subtracted from the result of the previous operation.
 

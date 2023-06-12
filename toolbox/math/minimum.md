@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Minimum Node.](../../.gitbook/assets/node-minimum2.png)
+![The Minimum Node.](../../.gitbook/assets/minimumupdatedimage.png)
 
 **Minimum** compares a set of numerical inputs and returns the lower bound \(minimum value\) in the set.
 

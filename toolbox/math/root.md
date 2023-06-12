@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Root Node.](../../.gitbook/assets/node-root2.png)
+![The Root Node.](../../.gitbook/assets/rootupdatedimage20231.png)
 
 **Root** calculates the _nth root_ of a number, where _n_ is called the _degree of the root_. This **Node** outputs the number which, when raised to the _nth power_, yields the _base_ given as input.
 

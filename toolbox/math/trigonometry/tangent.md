@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Tangent Node.](../../../.gitbook/assets/node-tangent2.png)
+![The Tangent Node.](../../../.gitbook/assets/tangentupdatedimage.png)
 
 The **Tangent Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _tangent_.
 

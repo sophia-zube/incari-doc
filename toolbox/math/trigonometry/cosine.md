@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Cosine Node.](../../../.gitbook/assets/node-cosine2.png)
+![The Cosine Node.](../../../.gitbook/assets/cosineupdatedimage.png)
 
 The **Cosine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _cosine_.
 

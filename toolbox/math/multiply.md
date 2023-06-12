@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Multiply Node.](../../.gitbook/assets/node-multiply2.png)
+![The Multiply Node.](../../.gitbook/assets/multiplyupdatedimage.png)
 
 **Multiply** is a _basic arithmetic operation_ **Node** that outputs the product of all the values provided in the `Input` **Sockets**.
 

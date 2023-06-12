@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Arc Sine Node.](../../../.gitbook/assets/node-arc-sine2.png)
+![The Arc Sine Node.](../../../.gitbook/assets/arcsineupdatedimage.png)
 
 The **Arc Sine Node** takes a single **Float** value and returns its _arcsine_, in degrees \(°\) or radians \(rad\).
 

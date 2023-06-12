@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Power Node.](../../.gitbook/assets/node-power2.png)
+![The Power Node.](../../.gitbook/assets/powerupdatedimage.png)
 
 **Power** performs an _exponentiation operation_, meaning that it multiplies the `Base` value against itself _n_ times, with _n_ being defined by `Exponent`.
 

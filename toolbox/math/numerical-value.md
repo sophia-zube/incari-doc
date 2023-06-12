@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Numerical Value Node.](../../.gitbook/assets/node-numerical-value2.png)
+![The Numerical Value Node.](../../.gitbook/assets/numericalvalueupdatedimage.png)
 
 The **Numerical Value** **Node** generates a number, which can either be an **Int**, **Float**, or **Byte**.
 
