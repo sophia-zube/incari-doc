@@ -276,6 +276,8 @@
     * [On List Current Index Change](toolbox/events/list/on-list-current-index-change.md)
     * [On List Entry Select](toolbox/events/list/on-list-entry-select.md)
     * [On List Load](toolbox/events/list/on-list-load.md)
+  * [List 2D](toolbox/events/list2d/README.md)
+    * [On List Active Index Change](toolbox/events/list2d/onlistactiveindexchange.md)
   * [Lottie](toolbox/events/lottie/README.md)
     * [On Lottie Finish](toolbox/events/lottie/on-lottie-finish.md)
     * [On Lottie Pause](toolbox/events/lottie/on-lottie-pause.md)
