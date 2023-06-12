@@ -1,6 +1,6 @@
 # Overview
 
-![The Round Node.](../../.gitbook/assets/node-round.png)
+![The Round Node.](../../.gitbook/assets/roundupdatedimage.png)
 
 The **Round** **Node** takes a numerical value and _rounds_ it with a chosen precision.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Sine Node.](../../../.gitbook/assets/node-sine2.png)
+![The Sine Node.](../../../.gitbook/assets/sineupdatedimage.png)
 
 The **Sine Node** takes a single **Float** value, representing an angle, in degrees \(°\) or radians \(rad\), and returns its _sine_.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Arc Tangent Node.](../../../.gitbook/assets/node-arc-tangent2.png)
+![The Arc Tangent Node.](../../../.gitbook/assets/arctangentupdatedimage.png)
 
 The **Arc Tangent Node** takes a single **Float** value and returns its $$arctangent$$, in degrees \(°\) or radians \(rad\).
 

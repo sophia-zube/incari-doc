@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Increment Node.](../../.gitbook/assets/node-increment2.png)
+![The Increment Node.](../../.gitbook/assets/incrementupdatedimage.png)
 
 **Increment** increases a value by a given step and outputs the new value.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Floor Node.](../../.gitbook/assets/node-floor2.png)
+![The Floor Node.](../../.gitbook/assets/floorupdatedimage.png)
 
 **Floor** takes a numerical value and rounds it _down_ to the nearest whole number. This will affect each _component_ separately with **Data Types** that are comprised of multiple components \(**Vectors** and **Matrices**\).
 

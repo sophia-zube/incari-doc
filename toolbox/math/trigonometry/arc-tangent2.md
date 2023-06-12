@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Arc Tangent 2 Node.](../../../.gitbook/assets/node-atan2.png)
+![The Arc Tangent 2 Node.](../../../.gitbook/assets/arctangent2updatedimage.png)
 
 The **Arc Tangent 2** **Node** takes two **Float** values, $$y$$ and $$x$$, and returns $$atan2(y,x)$$. The result can be obtained in degrees (°) or radians (rad).
 

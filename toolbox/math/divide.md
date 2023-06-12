@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Divide Node.](../../.gitbook/assets/node-divide2.png)
+![The Divide Node.](../../.gitbook/assets/divideupdatedimage.png)
 
 **Divide** is a _basic arithmetic operation_ **Node**, which divides one number \(_dividend_\) by a second number \(_divisor_\) and outputs the result of the operation \(_quotient_\). This will affect each _component_ separately with **Data Types** that are comprised of multiple components \(**Vectors**\).
 

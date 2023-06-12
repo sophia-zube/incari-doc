@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Arc Cosine Node.](../../../.gitbook/assets/node-arc-cosine2.png)
+![The Arc Cosine Node.](../../../.gitbook/assets/arccosineupdatedimage.png)
 
 The **Arc Cosine Node** takes a single **Float** value and returns its _arccosine_, in degrees \(°\) or radians \(rad\)
 
