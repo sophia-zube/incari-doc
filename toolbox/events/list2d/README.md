@@ -6,4 +6,4 @@ The **List 2D** **Node** is an **Event Listener** **Node** that allows a **Logic
 
 ## Contents
 
-[**On List Active Index Change**](onlistactiveindexchange.md)
+* [**On List Active Index Change**](onlistactiveindexchange.md)
