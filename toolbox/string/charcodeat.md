@@ -1,6 +1,6 @@
 # Overview
 
-![The CharCodeAt Node.](../../.gitbook/assets/charcodeatnode.png)
+![The CharCodeAt Node.](../../.gitbook/assets/charcodeatupdatedimage.png)
 
 The **CharCodeAt** **Node** outputs the _ASCII_ code of a character at a given *index* in a **String**. It takes as inputs a **String** and the *index* of the character whose code is to be obtained, and it ouputs the _ASCII_ code of said character.
 
