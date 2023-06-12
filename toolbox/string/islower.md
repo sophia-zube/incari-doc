@@ -1,6 +1,6 @@
 # Overview
 
-![The IsLower Node.](../../.gitbook/assets/islowernode.png)
+![The IsLower Node.](../../.gitbook/assets/islowerupdatedimage.png)
 
 The **IsLower Node** checks if a **String** is all lowercase and returns a **Bool** of either *True* or *False*. 
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The CryptoHash Node.](../../.gitbook/assets/cryptohashnode.png)
+![The CryptoHash Node.](../../.gitbook/assets/cryptohashupdatedimage.png)
 
 The **CryptoHash** **Node** takes a **String** and encrypts it as a _hash_ using an algorithm chosen by the user.
 

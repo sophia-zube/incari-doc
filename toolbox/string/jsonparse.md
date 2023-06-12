@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The JSON Parse Node.](../../.gitbook/assets/jsonparsenode.png)
+![The JSON Parse Node.](../../.gitbook/assets/jsonparseupdatedimage.png)
 
 The **JSON Parse Node** allows the user to access the values of a _JSON_ file in an **Array** format. JavaScript Object Notation \(_JSON_\) is a data-interchange format, commonly used by APIs. A **Node**, such as **HTTP Get**, can convert a _JSON_ file into a **String** format that can be used as `Input`. A **Load File Node** can also be used for the `Input` **String**. Alternatively, a _JSON_ file text can be typed into the `Value` section.
 

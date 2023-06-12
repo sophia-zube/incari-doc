@@ -1,6 +1,6 @@
 # Overview
 
-![The EndsWith Node.](../../.gitbook/assets/endswithnode.png)
+![The EndsWith Node.](../../.gitbook/assets/endswithupdatedimage.png)
 
 **The EndsWith Node** checks if a **String** ends with a *substring*, or `Pattern`, and returns a **Bool** of either *True* or *False*.
 
