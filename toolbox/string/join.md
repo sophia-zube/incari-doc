@@ -1,6 +1,6 @@
 # Overview
 
-![The Join Node.](../../.gitbook/assets/joinnode.png)
+![The Join Node.](../../.gitbook/assets/joinupdatedimage.png)
 
 <!-- The **Join Node** joins the elements of an **Array** populated with **Strings** into a generated **String**, separated by a separator given by the user. -->
 

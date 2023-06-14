@@ -1,6 +1,6 @@
 # Overview
 
-![The Substring Node.](../../.gitbook/assets/substringnode1.png)
+![The Substring Node.](../../.gitbook/assets/substringupdatedimage.png)
 
 The **Substring Node** returns a part of a **String** based on the specified parameters given by the user. 
 
