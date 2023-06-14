@@ -1,6 +1,6 @@
 # Overview
 
-![The Replace Node.](../../.gitbook/assets/replacenode.png)
+![The Replace Node.](../../.gitbook/assets/replaceupdatedimage.png)
 
 The **Replace** **Node** replaces a *substring* of a **String** with another given **String**. It receives three inputs:
 

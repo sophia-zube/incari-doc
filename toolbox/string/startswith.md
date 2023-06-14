@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The StartsWith Node.](../../.gitbook/assets/startswithnode.png)
+![The StartsWith Node.](../../.gitbook/assets/startswithupdatedimage.png)
 
 The **StartsWith Node** checks if a **String** starts with a _substring_, or `Pattern`, and returns a **Bool** of either _True_ or _False_.
 

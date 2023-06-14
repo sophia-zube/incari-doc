@@ -1,6 +1,6 @@
 # Overview
 
-![The Reverse Node.](../../.gitbook/assets/reversenode.png)
+![The Reverse Node.](../../.gitbook/assets/reverseupdatedimage.png)
 
 The **Reverse** **Node** takes a **String** and reverses it.
 
