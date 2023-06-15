@@ -24,9 +24,6 @@ For each **Asset**, the **Asset Database** displays the following information:
 And it offers two options:
 
 * `Highlight asset in Asset Manager`: Press this option to highlight the **Asset** in the **Asset Manager**.
-
-![]()
-
 * `Remove asset from Asset Database`: Press this option to remove the **Asset** from the **Asset Database**.
 
 ![]()
@@ -37,9 +34,16 @@ There are three ways in which **Assets** can be added to the **Asset Database**:
 
 ### Using Assets in the Project
 
-### Manually from the Asset Manager
+### Manually
 
-(layouts are special)
+An **Asset** can be added manually to the **Asset Database**. To do this, simply drag and drop a file in the **Asset Database**. This can be done from the **Asset Manager** or from the *File Explorer*, thus allowing to add files that are not in the **Asset** folder.
+
+There are two special cases:
+
+* Layouts:
+
+* Materials:
+
 
 ### At runtime using Logic
 
@@ -55,4 +59,7 @@ how to search
 
 how to filter
 
+### Highlight
+
+### Remove
 

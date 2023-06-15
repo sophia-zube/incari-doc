@@ -2,7 +2,7 @@
 
 ## Introduction
 
-hello
+The **Asset** **Nodes** allow the user to manage **Assets**.
 
 ## Contents
 
