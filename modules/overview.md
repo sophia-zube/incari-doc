@@ -6,8 +6,9 @@ The usefulness of **Modules** is evident, as they keep **Incari Studio's** *Inte
 
 ## Contents
 
-* [**Asset Manager**](asset-manager.md)
 * [**Animation Editor**](animation-editor.md)
+* [**Asset Database**](asset-database.md)
+* [**Asset Manager**](asset-manager.md)
 * [**Attribute Editor**](attribute-editor.md)
 * [**Code Editor**](code-editor.md)
 * [**Console**](console.md)

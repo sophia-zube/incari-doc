@@ -83,8 +83,9 @@
 ## Modules
 
 * [Overview](modules/overview.md)
-* [Asset Manager](modules/asset-manager.md)
 * [Animation Editor](modules/animation-editor.md)
+* [Asset Database](modules/asset-database.md)
+* [Asset Manager](modules/asset-manager.md) 
 * [Attribute Editor](modules/attribute-editor.md)
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
@@ -360,6 +361,8 @@
     * [Pause Animation](toolbox/incari/animation/pauseanimation.md)
     * [Play Animation](toolbox/incari/animation/playanimation.md)
     * [Stop Animation](toolbox/incari/animation/stopanimation.md)
+  * [Asset](toolbox/incari/asset/README.md)
+    * [Add to Asset Database](toolbox/incari/asset/add-to-asset-database.md) 
   * [Camera](toolbox/incari/camera/README.md)
     * [Get Active Camera](toolbox/incari/camera/get-active-camera.md)
     * [Get All Cameras](toolbox/incari/camera/get-all-cameras.md)
