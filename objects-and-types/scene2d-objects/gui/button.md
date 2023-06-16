@@ -6,11 +6,17 @@ The **Button** **GUI** **Object** is a simple icon to attach **Logic** to. Its t
 
 ![Button with Text.](../../../.gitbook/assets/buttonafter.png)
 
-## Transformation
+
+## Attributes
+### Transformation
+
+![Transformation Attributes.](../../../.gitbook/assets/buttonattstransformation.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space.
 
-## Text
+### Text
+
+![Text Attributes.](../../../.gitbook/assets/buttonattstext.png)
 
 There are several **Attributes** here which help customize the textual elements of a **Button**.
 
@@ -26,18 +32,24 @@ There are several **Attributes** here which help customize the textual elements 
 
 `Font color` decides the color of the **Button's** text.
 
-## Button
+### Button
+
+![Button Attributes](../../../.gitbook/assets/buttonattsbutton.png)
 
 `Background Color` determines the color of the **Button** itself. In the example image above, it is green. 
 
 `Border radius (px)` decides to what extent the corners and edges of the **Button** are rounded. 
 
-## Code
+### Code
+
+![Code Attributes.](../../../.gitbook/assets/buttonattscode.png)
 
 `Class names` contain the *CSS* class names of the **Object**. 
 
 `Stylesheet` contains the *CSS* stylesheet of the **Object**.
 
-## Tag
+### Tag
 
-This **Attribute** manages the *tags* for the **Button**. See more on tags [here.](../../attributes/common-attributes/tag.md)
+![Tag Attributes.](../../../.gitbook/assets/buttonattstag.png)
+
+This **Attribute** manages the *tags* for the **Button**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
