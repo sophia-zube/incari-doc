@@ -11,7 +11,7 @@ The **Slider** is a **GUI** **2D Object** that allows the user to create a custo
 
 ![Transformation Attributes.](../../../.gitbook/assets/sliderattstransformation.png)
 
-The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space.
+The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation.md).
 
 ### Slider
 
@@ -38,6 +38,15 @@ The **Slider Attributes** offer the user options to customize the **Slider**:
 Finally, the **Slider** works like this when the **Project** is run:
 
 ![Slider example.](../../../.gitbook/assets/slider-example.gif)
+
+### Code
+
+![Code Attributes.](../../../.gitbook/assets/buttonattscode.png)
+
+`Class names` contain the *CSS* class names of the **Object**. 
+
+`Stylesheet` contains the *CSS* stylesheet of the **Object**.
+
 
 ### Tag
 
