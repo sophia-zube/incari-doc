@@ -1,6 +1,6 @@
 # Serial
 
-![The Project Settings Serial Attributes.](../../.gitbook/assets/projectsettingsserial20231.png)
+![The Project Settings Serial Attributes.](../../.gitbook/assets/projectsettings_serialnew.png)
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the [**Serial Nodes**](../../toolbox/communication/serial/README.md).
 
@@ -16,6 +16,32 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 
 `Baudrate` is the speed of the communication for a channel. More information about this metric can be found in the **External Links** section.
 
+`Message Limiting` determines how *Serial* messages are received and parsed. There are three options:
+
+* `None`: Any incoming data is directly passed to the [**On Serial Packet Receive Node**](../../toolbox/communication/serial/events/onserialpacketreceive.md).
+
+* `ByteCount`: Incoming data is partitioned into messages of a given size which then are individually forwarded to the [**On Serial Packet Receive Node**](../../toolbox/communication/serial/events/onserialpacketreceive.md).
+
+* `Delimiters`: Incoming data is parsed until any of the given symbols are encountered. The message is then forwarded to the [**On Serial Packet Receive Node**](../../toolbox/communication/serial/events/onserialpacketreceive.md). This process repeats until the end of the received data is reached. If the received data exceeds 1024 bytes without a delimiter found, that data is passed whole to the [**On Serial Packet Receive Node**](../../toolbox/communication/serial/events/onserialpacketreceive.md). Please note that the end symbols will not be part of the forwarded message and empty messages will not be forwarded.
+
+`Byte Count Limit` specifies the message size in bytes for the `ByteCount` mode from `Message Limiting`. Currently, only positive values can be handled. 
+
+`End Delimiters`: These specifies the message end symbols for the `Delimiters` mode from `Message Limiting`. Since some symbols are difficult to enter (e.g. newlines), this field parses the following symbols, too:
+
+* “\n” → linefeed
+
+* “\r” → carriage return
+
+* “\t” → tabulator
+
+* “\”” → “
+
+* “'“ → '
+
+* “\\” → \
+
+* “\xx” → the byte representation of some hexadecimal number xx. For example, \00 would become a null byte and \03 would become \<ETX\>. All other symbols will be parsed as the symbol itself. The symbols are checked individually. This means that specified delimiters “\n\03” means that if either a linefeed or \<ETX\> is encountered it will end the message not that these two have to appear in that order. 
+
 ## See Also
 
 * [**Serial Nodes**](../../toolbox/communication/serial/README.md)
@@ -23,3 +49,4 @@ Furthermore, the `ChannelNames` can both be specified, in the case that the user
 ## External Links
 
 * More information on the [_Baud metric_](https://en.wikipedia.org/wiki/Baud).
+* More information on [_control characters_](https://en.wikipedia.org/wiki/Control_character).
