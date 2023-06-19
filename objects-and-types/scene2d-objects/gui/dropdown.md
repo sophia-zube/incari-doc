@@ -20,17 +20,17 @@ Finally, this **Dropdown** looks like this when the **Project** is run:
 
 ![Transformation Attributes.](../../../.gitbook/assets/dropdownattstransformation.png)
 
-The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space.
+The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation.md).
 
 ### Text
 
 ![Text Attributes.](../../../.gitbook/assets/dropdownattstext.png)
 
-There are several **Attributes** here which help customize the textual elements of a **Dropdown**.
+There are several **Attributes** here which help customize the textual elements of a **Dropdown**. 
 
 `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`.
 
-`Transform` can easily change certain text aesthetics without requiring the user to change the `Text` **Attribute** itself.  
+`Transform` can easily change certain text aesthetics without requiring the user to change the `Text` **Attribute** itself. `Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase.  
 
 `Font size (px)` determines the size of the font in pixels.
 

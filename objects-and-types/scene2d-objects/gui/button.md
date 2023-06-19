@@ -12,7 +12,7 @@ The **Button** **GUI** **Object** is a simple icon to attach **Logic** to. Its t
 
 ![Transformation Attributes.](../../../.gitbook/assets/buttonattstransformation.png)
 
-The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space.
+The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation.md).
 
 ### Text
 
@@ -24,9 +24,7 @@ There are several **Attributes** here which help customize the textual elements 
 
 `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`.
 
-`Transform` can easily change certain text aesthetics without requiring the user to change the `Text` **Attribute** itself. 
-
-`Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase. 
+`Transform` can easily change certain text aesthetics without requiring the user to change the `Text` **Attribute** itself. `Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase. 
 
 `Font size (px)` determines the size of the font in pixels.
 
