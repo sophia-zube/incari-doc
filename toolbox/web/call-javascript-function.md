@@ -48,5 +48,5 @@ The **Call JavaScript Function** **Node** executes a JavaScript function that is
 
 ## See Also
 
-* [**On Javascript Callback**](../events/web/on-javascript-callback.md)
+* [**On JavaScript Callback**](../events/web/on-javascript-callback.md)
 

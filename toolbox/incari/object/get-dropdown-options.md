@@ -1,29 +1,27 @@
 # Overview
 
-![The Get Dropdown Options Node.]()
+![The Get Dropdown Options Node.](../../../.gitbook/assets/getdropdownoptionsnode.png)
 
-**Get Dropdown Options** .
+**Get Dropdown Options** returns an **Array** of all of a **Dropdown's** `Options`.
 
-[**Scope**]():
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The **Dropdown** whose `Options` will be returned.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Options`|**Array**|The `Options` of the inputted **Dropdown**.|
 
 # See Also
 
-# External Links
+* [**Set Dropdown Options**](set-dropdown-options.md)
 

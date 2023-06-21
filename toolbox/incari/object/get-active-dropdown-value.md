@@ -1,29 +1,29 @@
 # Overview
 
-![The Get Active Dropdown Value Node.]()
+![The Get Active Dropdown Value Node.](../../../.gitbook/assets/getactivedropdownvalue.png)
 
-**Get Active Dropdown Value** .
+The **Get Active Dropdown Value Node** returns the value that is currently active of the inputted **Dropdown Object**.
 
-[**Scope**]():
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The **Dropdown** whose active value will be returned.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Value`|**String**|The **Dropdown's** value which is currently active.|
 
 # See Also
 
-# External Links
+* [**Set Active Dropdown Value**](set-active-dropdown-value.md)
+
+
 
