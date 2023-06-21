@@ -2,15 +2,15 @@
 
 ## Overview
 
-![The On Javascript Callback Node.](../../../.gitbook/assets/onjavascriptcallbackupdatedimage.png)
+![The On JavaScript Callback Node.](../../../.gitbook/assets/onjavascriptcallbackupdatedimage.png)
 
-**On Javascript Callback** is an **Event Listener** **Node** used for executing a **Logic Branch** when a Javascript function is called. This function needs to be defined in the **Web Sprite** that is given as **Object** **Attribute**.
+**On JavaScript Callback** is an **Event Listener** **Node** used for executing a **Logic Branch** when a Javascript function is called. This function needs to be defined in the **Web Sprite** that is given as **Object** **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
 ## Attributes
 
-![The On Javascript Callback Node.](<../../../.gitbook/assets/javascriptcallbackattributes - Copy.png>)
+![The On JavaScript Callback Node.](<../../../.gitbook/assets/javascriptcallbackattributes - Copy.png>)
 
 ### Object
 
@@ -50,4 +50,4 @@
 
 ## See Also
 
-* [**Call Javascript Function**](../../web/call-javascript-function.md)
+* [**Call JavaScript Function**](../../web/call-javascript-function.md)

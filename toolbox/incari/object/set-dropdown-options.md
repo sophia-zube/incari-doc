@@ -1,21 +1,19 @@
 # Overview
 
-![The Set Dropdown Options Node.]()
+![The Set Dropdown Options Node.](../../../.gitbook/assets/setdropdownoptionsnode.png)
 
-**Set Dropdown Options** .
+The **Set Dropdown Options Node** sets a **Dropdown's** `Options` using an **Array**.
 
-[**Scope**]():
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The **Dropdown** whose `Options` will be set.|
+|`Options`|**Array**|The `Options` of the inputted **Dropdown** to be set.|
 
 # Outputs
 
@@ -25,5 +23,4 @@
 
 # See Also
 
-# External Links
-
+* [**Get Dropdown Options**](get-dropdown-options.md)

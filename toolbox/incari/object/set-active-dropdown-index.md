@@ -1,8 +1,8 @@
 # Overview
 
-![The Set Active Dropdown Value Node.](../../../.gitbook/assets/setactivedropdownvalue.png)
+![The Set Active Dropdown Index Node.](../../../.gitbook/assets/setactivedropdownindex.png)
 
-The **Set Active Dropdown Value Node** sets the value that is currently active of the inputted **Dropdown Object**.
+The **Set Active Dropdown Index Node** sets the `Active Index` of a **Dropdown Object**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -11,8 +11,8 @@ The **Set Active Dropdown Value Node** sets the value that is currently active o
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The **Dropdown** whose active value will be set.|
-|`Value`|**String**|The **Dropdown's** active value to be set.|
+|`Object ID`|**ObjectID**|The **Dropdown** whose `Active Index` will be set.|
+|`Index`|**Int**|The **Dropdown's** `Active Index` to be set.|
 
 # Outputs
 
@@ -20,7 +20,7 @@ The **Set Active Dropdown Value Node** sets the value that is currently active o
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
-# See Also
 
-* [**Get Active Dropdown Value**](get-active-dropdown-value.md)
+
+
 
