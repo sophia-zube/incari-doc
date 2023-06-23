@@ -50,7 +50,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionnode2d.png)
 
-The **RotateFromTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene-objects/) from the value specified in `From` to that specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateFromTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene2d-objects//) from the value specified in `From` to that specified in `To` for a given period of time, thus creating an **Animation**.
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
 

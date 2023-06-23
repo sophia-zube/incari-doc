@@ -2,7 +2,7 @@
 
 ![The Add CSS Class Name Node.](../../../.gitbook/assets/addcssclassname.png)
 
-The **Add CSS Class Name Node** adss a *CSS class name* to the given **Object**. It won't duplicate exisiting *class names*. 
+The **Add CSS Class Name Node** adds a *CSS class name* to the given **Object**. It won't duplicate existing *class names*. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
