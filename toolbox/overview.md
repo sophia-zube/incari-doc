@@ -456,6 +456,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**On Mouse Scroll**](events/mouse/on-mouse-scroll.md)
   * [**Object**](events/object/README.md)
     * [**On Alpha Change**](events/object/on-alpha-change.md)
+    * [**On Dropdown Active Value Change**](events/object/on-dropdown-active-value-change.md)
     <!-- * [**On Local Position Change**](events/object/on-local-position-change.md)
     * [**On Local Rotation Change**](events/object/on-local-rotation-change.md) -->
     * [**On Opacity Change**](events/object/on-opacity-change.md)
@@ -550,8 +551,10 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
   * [**Object**](incari/object/README.md)
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
+    * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
     * [**Get Alpha**](incari/object/get-alpha.md)
     * [**Get Children**](incari/object/get-children.md)
+    * [**Get Dropdown Options**](incari/object/get-dropdown-options.md)
     <!-- * [**Get Local Position**](incari/object/get-local-position.md)
     * [**Get Local Rotation**](incari/object/get-local-rotation.md) -->
     * [**Get Material**](incari/object/get-material.md)
@@ -577,9 +580,12 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Has Children**](incari/object/has-children.md)
     * [**Instantiate Object**](incari/object/instantiate.md)
     * [**Remove Tag**](incari/object/remove-tag.md)
+    * [**Set Active Dropdown Index**](incari/object/set-active-dropdown-index.md)
+    * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
     * [**Set Alpha**](incari/object/set-alpha.md)
+    * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)
     * [**Set Mask**](incari/object/set-mask.md)
     <!-- * [**Set Local Position**](incari/object/set-local-position.md)
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
@@ -866,8 +872,10 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
   * [**Object**](incari/object/README.md)
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
+    * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
     * [**Get Alpha**](incari/object/get-alpha.md)
     * [**Get Children**](incari/object/get-children.md)
+    * [**Get Dropdown Options**](incari/object/get-dropdown-options.md)
     <!-- * [**Get Local Position**](incari/object/get-local-position.md)
     * [**Get Local Rotation**](incari/object/get-local-rotation.md) -->
     * [**Get Material**](incari/object/get-material.md)
@@ -893,9 +901,12 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Has Children**](incari/object/has-children.md)
     * [**Instantiate Object**](incari/object/instantiate.md)
     * [**Remove Tag**](incari/object/remove-tag.md)
+    * [**Set Active Dropdown Index**](incari/object/set-active-dropdown-index.md)
+    * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
     * [**Set Alpha**](incari/object/set-alpha.md)
+    * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)
     * [**Set Mask**](incari/object/set-mask.md)
     <!-- * [**Set Local Position**](incari/object/set-local-position.md)
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
@@ -1168,6 +1179,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**On Mouse Scroll**](events/mouse/on-mouse-scroll.md)
   * [**Object**](events/object/README.md)
     * [**On Alpha Change**](events/object/on-alpha-change.md)
+    * [**On Dropdown Active Value Change**](events/object/on-dropdown-active-value-change.md)
     <!-- * [**On Local Position Change**](events/object/on-local-position-change.md)
     * [**On Local Rotation Change**](events/object/on-local-rotation-change.md) -->
     * [**On Opacity Change**](events/object/on-opacity-change.md)
@@ -1258,8 +1270,10 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
   * [**Object**](incari/object/README.md)
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
+    * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
     * [**Get Alpha**](incari/object/get-alpha.md)
     * [**Get Children**](incari/object/get-children.md)
+    * [**Get Dropdown Options**](incari/object/get-dropdown-options.md)
     <!-- * [**Get Local Position**](incari/object/get-local-position.md)
     * [**Get Local Rotation**](incari/object/get-local-rotation.md) -->
     * [**Get Material**](incari/object/get-material.md)
@@ -1285,9 +1299,12 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Has Children**](incari/object/has-children.md)
     * [**Instantiate Object**](incari/object/instantiate.md)
     * [**Remove Tag**](incari/object/remove-tag.md)
+    * [**Set Active Dropdown Index**](incari/object/set-active-dropdown-index.md)
+    * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
     * [**Set Alpha**](incari/object/set-alpha.md)
+    * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)
     * [**Set Mask**](incari/object/set-mask.md)
     <!-- * [**Set Local Position**](incari/object/set-local-position.md)
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
