@@ -48,7 +48,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 ![The MoveTo Action Node.](../../.gitbook/assets/movetoaction2dnode.png)
 
-The **MoveTo Action Node** continuously modifies the `Position` of an [**Scene2D Object**](../../objects-and-types/scene-objects/) to the values specified in `To` for a given period of time, thus creating an **Animation**.
+The **MoveTo Action Node** continuously modifies the `Position` of an [**Scene2D Object**](../../objects-and-types/scene2d-objects/) to the values specified in `To` for a given period of time, thus creating an **Animation**.
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Position**](../../objects-and-types/attributes/common-attributes/transformation/#position) for more detail about the `Position` **Attribute**.
 

@@ -48,7 +48,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionnode2d.png)
 
-The **RotateTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene-objects/) to the _Euler angles_ specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene2d-objects/) to the value specified in `To` for a given period of time, thus creating an **Animation**.
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
 

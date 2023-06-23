@@ -48,7 +48,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 ![The MoveBy Action Node.](../../.gitbook/assets/movebyaction2dnode.png)
 
-The **MoveBy Action Node** continuously modifies the `Position` of a [**Scene2D Object**](../../objects-and-types/scene-objects/) by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
+The **MoveBy Action Node** continuously modifies the `Position` of a [**Scene2D Object**](../../objects-and-types/scene2d-objects/) by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Position**](../../objects-and-types/attributes/common-attributes/transformation/#position) for more detail about the `Position` **Attribute**.
 

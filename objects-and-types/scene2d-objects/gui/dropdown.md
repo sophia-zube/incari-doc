@@ -57,7 +57,7 @@ In the above image, because the `Active index` is set to 1, 'two' would be eleme
 
 The `Code` **Attributes** allow for more customizability. This can override any stylesheet provided in the [**Project Settings**](../../../modules/project-settings/style.md) or a [**Scene2D**](../../project-objects/scene2d.md). 
 
-To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md)
+To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md).
 
 * `Class names` contain the *CSS* class names of the **Object**. 
 
