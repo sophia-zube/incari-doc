@@ -63,7 +63,7 @@ To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../
 
 ![Tag Attributes.](../../../.gitbook/assets/buttonattstag.png)
 
-This **Attribute** manages the *tags* for the **Dropdown**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
+This **Attribute** manages the *tags* for the **Slider**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
 
 
 

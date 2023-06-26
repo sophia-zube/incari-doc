@@ -2,7 +2,7 @@
 
 ![The Get List Data Node.](../../../.gitbook/assets/getlistdata.png)
 
-The **Get List Data Node** returns the *JSON* data of a **Scene2D's List** in **Array** format.
+The **Get List Data Node** returns the *JSON* data of a **List** in **Array** format.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
