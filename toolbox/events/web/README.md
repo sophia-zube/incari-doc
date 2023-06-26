@@ -7,5 +7,5 @@ The **Web Nodes** are **Event Listener** **Nodes** that allow a **Logic Branch**
 
 ## Contents
 
-* [**On Javascript Callback**](on-javascript-callback.md)
+* [**On JavaScript Callback**](on-javascript-callback.md)
 

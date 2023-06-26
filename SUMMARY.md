@@ -329,7 +329,7 @@
     * [On Variable Change](toolbox/events/variables/on-variable-change.md)
     * [On Variable Set](toolbox/events/variables/on-variable-set.md)
   * [Web](toolbox/events/web/README.md)
-    * [On Javascript Callback](toolbox/events/web/on-javascript-callback.md)
+    * [On JavaScript Callback](toolbox/events/web/on-javascript-callback.md)
   * [WebSprite](toolbox/events/websprite/README.md)
     * [On WebSprite Load](toolbox/events/websprite/on-websprite-load.md)
     * [On WebSprite Remote URL Change](toolbox/events/websprite/on-websprite-remote-url-changed.md)
