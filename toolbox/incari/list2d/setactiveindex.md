@@ -4,7 +4,7 @@
 
 The **Set Active Index Node** sets the value of a **List's** `Active Index` **Attribute** .
 
-[**Scope**](): **Scene**, **Function**, **Prefab**.
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 
 # Inputs

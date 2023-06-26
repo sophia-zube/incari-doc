@@ -1,8 +1,8 @@
 # Overview
 
-![The Get Active Index Node.](../../../.gitbook/assets/getactiveindex.png)
+![The Insert List Element Node.](../../../.gitbook/assets/insertlistelementnode.png)
 
-The **Get Active Index Node** returns the value of a **List's** `Active Item` **Attribute**.
+The **Insert List Element Node** inserts an element into a **List** at the specified `Index`.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -12,15 +12,18 @@ The **Get Active Index Node** returns the value of a **List's** `Active Item` **
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The **List** the user wishes to get the `Active Index` from.|
+|`Object ID`|**ObjectID**|The **List** the user wishes to insert an element to.|
+|`Index`|**Int**|The index that the element will be inserted at.|
+|`Icon Path`|**String**||
+|`Text`|**String**||
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Active Index`|**Int**|Returns the value of the **List's** `Active Item` **Attribute**.|
 
 # See Also
 
-* [**Set Active Index**](setactiveindex.md)
+* [**Remove List Element**](removelistelement.md)
+

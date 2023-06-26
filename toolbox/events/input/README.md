@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Input** **Node** is an **Event Listener** **Nodes** that allows a **Logic Branch** to execute when user input is received.
+The **Input** **Node** is an **Event Listener** **Node** that allows a **Logic Branch** to execute when user input is received.
 
 ## Contents
 
