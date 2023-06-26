@@ -11,7 +11,7 @@ The **On Dropdown Active Value Change Node** is an **Event Listener** **Node** u
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**| The **Dropdown** in which a change of active value triggers the **Logic Branch**.|
+|`Object ID`|**ObjectID**| The **Dropdown Object** in which a change of active value triggers the **Logic Branch**.|
 |`Subscribe` (►)|**Pulse**| An **Input Pulse** that needs to be triggered to start listening to the **Event**.  |
 
 # Outputs
@@ -19,7 +19,7 @@ The **On Dropdown Active Value Change Node** is an **Event Listener** **Node** u
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Value`|**String**| The new active value of the **Dropdown**.|
+|`Value`|**String**| The new active value of the **Dropdown Object**.|
 |`Object ID`|**ObjectID**|The ID of the given **Dropdown Object**.|
 
 # See Also
