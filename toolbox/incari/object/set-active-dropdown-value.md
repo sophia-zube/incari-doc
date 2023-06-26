@@ -2,7 +2,7 @@
 
 ![The Set Active Dropdown Value Node.](../../../.gitbook/assets/setactivedropdownvalue.png)
 
-The **Set Active Dropdown Value Node** sets the value for the inputted [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md).
+The **Set Active Dropdown Value Node** sets the active value for the inputted [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
