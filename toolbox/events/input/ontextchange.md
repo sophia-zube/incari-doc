@@ -2,7 +2,7 @@
 
 ![The On Text Change Node.](../../../.gitbook/assets/ontextchangenode.png)
 
-The **On Text Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when something is entered into a [**Text Input Object**](../../../objects-and-types/scene2d-objects/gui.md#text-input) and returns the inputted text.
+The **On Text Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when something is entered into a [**Text Input Object**](../../../objects-and-types/scene2d-objects/gui/textinput.md) and returns the inputted text.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Prefab**.
 
