@@ -17,7 +17,7 @@ For each **Asset**, the **Asset Database** displays the following information:
 * `Icon`: Icon that represents the `Type` of **Asset**.
 * `Type`: Type of **Asset**.
 * `Label`: *Label* for the **Asset**. By default, it is set to the filename and it can be edited directly on the **Asset Database**.
-* `Source`:
+* `Source`: The origin of an **Asset**.
 * `Path`: *Path* to the file. For **Assets** located in the **Project Asset** folder, it shows the relative *path*, and for other **Assets**, it shows the full *path*.
 * `#`: Number of times that the **Asset** is used in the **Project**.
 
@@ -30,7 +30,7 @@ And it offers two options:
 
 ## Adding Assets to the Asset Database
 
-There are three ways in which **Assets** can be added to the **Asset Database**:
+There are three ways in which **Assets** can be added to the **Asset Database**: [Using **Assets** in the **Project**](#using-assets-in-the-project), [manually](#manually), or [using **Logic**](#at-runtime-using-logic). 
 
 ### Using Assets in the Project
 
@@ -42,9 +42,11 @@ Using an **Asset** automatically adds it to the **Asset Database**.
 
 An **Asset** can be added manually to the **Asset Database**. To do this, simply drag and drop a file in the **Asset Database**. This can be done from the **Asset Manager** or from the *File Explorer*, thus allowing to add files that are not in the **Asset** folder.
 
-There are two special cases:
+There are three special cases:
 
 * **Keyboard Layouts** have to be added in [**Project Settings**](project-settings/keyboard.md) and then they will be automatically added to the **Asset Database**. 
+
+* **Fonts** have to be added in [**Project Settings**](project-settings/fonts.md) and then they will be automatically added to the **Asset Database**.
 
 * **Materials** are automatically added to the **Asset Database** when created in the [**Asset Manager**](asset-manager.md) 
 
@@ -54,24 +56,45 @@ There are two special cases:
 
 **Assets** can be added to the **Asset Database** using **Logic**. For this purpose, use the [**Add to Asset Database** **Node**](../toolbox/incari/asset/add-to-asset-database.md), which receives the *path* of the file to be added to the **Asset Database**.
 
-They can also be removed from the **Asset Database** using the [**Remove from Asset Database** **Node**](../toolbox/incari/asset/remove-from-asset-database.md). To obtain the **Node** corresponding to an **Asset** in the **Asset Database**, simply drag the **Asset** from the **Asset Database** into the **Logic Editor**.
+<!-- They can then be removed from the **Asset Database** using the [**Remove from Asset Database** **Node**](../toolbox/incari/asset/remove-from-asset-database.md). To obtain the **Node** corresponding to an **Asset** in the **Asset Database**, simply drag the **Asset** from the **Asset Database** into the **Logic Editor**. -->
 
-See in the image below simple examples of how to use these **Nodes**:
+See in the image below a simple example of how to add an **Asset** to the **Asset Database** in the **Logic**, using, besides the **Add to Asset Database** **Node**, the [**String Value** **Node**](../toolbox/string/stringvalue.md):
 
-![](../.gitbook/assets/assetdb-in-logic.png)
+![](../.gitbook/assets/assetdb-in-logic2.png)
 
 
 ## Features
 
+The **Asset Database** offers several features that are useful for managing **Assets**. These are: [search](#search), [filter](#filter), [highlight use](#highlight-use), [highlight in **Asset Manager**](#highlight-in-asset-manager) and [remove](#remove).
+
 ### Search
 
-how to search
+The search bar on the top right of the **Asset Database** allows the user to search **Assets** by either `ID` or `Label`.
+
+
+![](../.gitbook/assets/assetdb-search.gif)
 
 ### Filter
 
-how to filter
+The filter on the top right of the **Asset Database** allows the user to filter the **Assets** by `Type`.
 
-### Highlight
+![](../.gitbook/assets/assetdb-filter.gif)
+
+### Highlight use
+
+By clicking on the `ID` of an **Asset**, its use in the **Scene Outliner** and **Viewport** will be highlighted.
+
+![](../.gitbook/assets/assetdb-highlightuse.gif)
+
+### Highlight in Asset Manager
+
+By clicking on the magnifying glass on an **Asset** entry, this **Asset** will be highlighted in the **Asset Manager**.
+
+![](../.gitbook/assets/assetdb-highlight.gif)
 
 ### Remove
+
+To remove an **Asset** from the **Asset Database**, click on the minus on far right of an **Asset** entry.
+
+![](../.gitbook/assets/assetdb-remove.gif)
 
