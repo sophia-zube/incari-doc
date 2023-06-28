@@ -2,7 +2,7 @@
 
 ![The Merge To Stylesheet Node.](../../../.gitbook/assets/mergetostylesheet.png)
 
-The **Merge To Stylesheet Node** lets the user incorporate new data into the current stylesheet **Asset** that was added with **Add Stylesheet**, without overwriting anything.
+The **Merge To Stylesheet Node** lets the user incorporate new data into the current [**Scene2D's**](../../../objects-and-types/project-objects/scene2d.md) stylesheet **Attribute**, without overwriting anything. It appends any new data to the end of the current stylesheet.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

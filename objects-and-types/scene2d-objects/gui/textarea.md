@@ -1,6 +1,6 @@
 # Text Area
 
-The **Text Area** **Object** allows the user to add multiline text with a background to their **Project**. It can be completely customized in the **Text** and [**Attributes**](textarea.md#attributes).
+The **Text Area** **Object** allows the user to add multiline text with a background to their **Project**. It can be completely customized in the [**Attributes**](textarea.md#attributes).
 
 ![Text Area.](../../../.gitbook/assets/2dgui-textarea1.png)
 
@@ -23,12 +23,11 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 ### Text
 
-The **Text Attributes** offer the user options to customize the **Text**:
-
 ![Text Attributes.](../../../.gitbook/assets/textareaattstext.png)
  
+The **Text Attributes** offer the user options to customize the **Text**:
 
-* `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md)
+* `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
 * `Font size (px)` determines the size of the font in pixels.
 
@@ -42,11 +41,11 @@ The **Text Attributes** offer the user options to customize the **Text**:
 
 The `Text Area` **Attributes** provide crucial data for a **Text Area Object**.
 
-`Text Area` is simply the desired text.
+* `Text Area` is simply the desired text.
 
-`Word Wrap` can be enabled and disabled. When it is enabled, the text fits within the confines of the **Text Area**. If disabled, the text will be in one line and may run off the **Text Area**, causing some text to not be visible. In this case, please adjust the dimensions of the **Text Area**.
+* `Word Wrap` can be enabled and disabled. When it is enabled, the text fits within the confines of the **Text Area**. If disabled, the text will be in one line and may run off the **Text Area**, causing some text to not be visible. In this case, please adjust the dimensions of the **Text Area**.
 
-The `Background Color` is the color of the **Text Area** box which appears behind the text. 
+* The `Background Color` is the color of the **Text Area** box which appears behind the text. 
 
 ### Code
 
@@ -65,4 +64,4 @@ To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../
 
 ![Tag Attributes.](../../../.gitbook/assets/buttonattstag.png)
 
-This **Attribute** manages the *tags* for the **Dropdown**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
+This **Attribute** manages the *tags* for the **Text Area**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)

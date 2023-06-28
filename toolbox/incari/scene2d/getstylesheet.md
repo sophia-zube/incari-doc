@@ -2,7 +2,7 @@
 
 ![The Get Stylesheet Node.](../../../.gitbook/assets/getstylesheet.png)
 
-The **Get Stylesheet Node** returns the stylesheet **Asset** that was added by the **Add Stylesheet Node**.
+The **Get Stylesheet Node** returns the stylesheet **Asset** of the current [**Scene2D**](../../../objects-and-types/project-objects/scene2d.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

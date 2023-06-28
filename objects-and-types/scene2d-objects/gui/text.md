@@ -1,6 +1,6 @@
 # Text
 
-The **Text** **Object** allows the user to add text to their **Project**. It can be completely customized in the [**Attributes**[](slider.md#attributes).
+The **Text** **Object** allows the user to add text to their **Project**. It can be completely customized in the [**Attributes**](slider.md#attributes).
 
 ![Text.](../../../.gitbook/assets/2dgui-text.png)
 
@@ -21,13 +21,13 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 ### Text
 
-The **Text Attributes** offer the user options to customize the **Text**:
-
 ![Text Attributes.](../../../.gitbook/assets/textattstext.png)
+
+The **Text Attributes** offer the user options to customize the **Text**:
 
 * `Text` is the text itself which will be displayed. 
 
-* `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md)
+* `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
 * `Alignment` sets the alignment of the text. This is either left, right, or center. 
 
@@ -48,13 +48,13 @@ The `Code` **Attributes** allow for more customizability. This can override any 
 
 To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md).
 
-`Class names` contain the *CSS* class names of the **Object**. 
+* `Class names` contain the *CSS* class names of the **Object**. 
 
-`Stylesheet` contains the *CSS* stylesheet of the **Object**.
+* `Stylesheet` contains the *CSS* stylesheet of the **Object**.
 
 
 ### Tag 
 
 ![Tag Attributes.](../../../.gitbook/assets/buttonattstag.png)
 
-This **Attribute** manages the *tags* for the **Dropdown**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
+This **Attribute** manages the *tags* for the **Text**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)

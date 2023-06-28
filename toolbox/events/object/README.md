@@ -8,6 +8,7 @@ The **Object** **Nodes** are **Event Listener** **Nodes** that allow a **Logic B
 ## Contents
 
 * [**On Alpha Change**](on-alpha-change.md)
+* [**On CheckBox Value Change**](on-checkbox-value-change.md)
 * [**On Dropdown Active Value Change**](on-dropdown-active-value-change.md)
 * [**On Opacity Change**](on-opacity-change.md)
 * [**On Position Change**](on-position-change.md)
@@ -15,5 +16,6 @@ The **Object** **Nodes** are **Event Listener** **Nodes** that allow a **Logic B
 * [**On Rotation Change**](on-rotation-change.md)
 <!-- * [**On Rotation Change 2D**](on-rotation-change-2d.md) -->
 * [**On Scale Change**](on-scale-change.md)
+* [**On Slider Value Change**](on-slider-value-change.md)
 * [**On Visibility Change**](on-visibility-change.md)
 
