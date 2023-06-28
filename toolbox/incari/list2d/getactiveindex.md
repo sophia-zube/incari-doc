@@ -21,7 +21,7 @@ The `Active Index` of a [**List**](../../../objects-and-types/scene2d-objects/gu
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Active Index`|**Int**|Returns the value of the **List's** `Active Item` **Attribute**.|
+|`Active Index`|**Int**|Returns the value of the **List's** `Active Index` **Attribute**.|
 
 # See Also
 
