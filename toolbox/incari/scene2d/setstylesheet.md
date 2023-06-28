@@ -2,7 +2,7 @@
 
 ![The Set Stylesheet Node.](../../../.gitbook/assets/setstylesheetnode.png)
 
-The **Set Stylesheet Node** replaces the current stylesheet **Asset** that was added by the **Add Stylesheet Node**.
+The **Set Stylesheet Node** replaces the current stylesheet **Asset** that was added to the [**Scene2D's**](../../../objects-and-types/project-objects/scene2d.md) stylesheet **Attribute**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

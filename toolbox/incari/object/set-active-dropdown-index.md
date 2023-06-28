@@ -2,7 +2,7 @@
 
 ![The Set Active Dropdown Index Node.](../../../.gitbook/assets/setactivedropdownindex.png)
 
-The **Set Active Dropdown Index Node** sets the `Active Index` of a **Dropdown Object**.
+The **Set Active Dropdown Index Node** sets the `Active Index` of a [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md). The `Active Index` is the number representing the place in the **Dropdown Object's** order an `Option` is in. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -11,8 +11,8 @@ The **Set Active Dropdown Index Node** sets the `Active Index` of a **Dropdown O
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The **Dropdown** whose `Active Index` will be set.|
-|`Index`|**Int**|The **Dropdown's** `Active Index` to be set.|
+|`Object ID`|**ObjectID**|The **Dropdown Object** whose `Active Index` will be set.|
+|`Index`|**Int**|The **Dropdown Object's** `Active Index` to be set.|
 
 # Outputs
 

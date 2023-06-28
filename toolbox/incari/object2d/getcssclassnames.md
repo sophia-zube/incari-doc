@@ -2,7 +2,7 @@
 
 ![The Get CSS Class Names Node.](../../../.gitbook/assets/getcssclassnames.png)
 
-**Get CSS Class Names Node** returns all the *CSS class names* of the given **Object**.
+**Get CSS Class Names Node** returns all the *CSS class names* of the given **Object**. These are in a **String** with a single-space as a separator. 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
