@@ -2,7 +2,7 @@
 
 ![The Stop Media Node.](../../../.gitbook/assets/stopmedianode.png)
 
-The **Stop Media Node** can be used to stop a media **Object** already playing during the session. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
+The **Stop Media Node** can be used to stop a **Media** **Object** already playing during the session. **Media** in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -11,7 +11,7 @@ The **Stop Media Node** can be used to stop a media **Object** already playing d
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | The ID of the media **Object** to be stopped. |
+| `Object ID` | **ObjectID** | The ID of the **Media** **Object** to be stopped. |
 
 # Outputs
 
