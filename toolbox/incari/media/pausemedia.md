@@ -2,7 +2,7 @@
 
 ![The Pause Media Node.](../../../.gitbook/assets/pausemedianode.png)
 
-The **Pause Media** **Node** can be used to pause a media **Object** already playing during the session. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
+The **Pause Media** **Node** can be used to pause a **Media** **Object** already playing during the session. **Media** in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -13,7 +13,7 @@ The **Pause Media** **Node** can be used to pause a media **Object** already pla
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-| `Object ID` | **ObjectID** | The ID of the media **Object** to be paused. |
+| `Object ID` | **ObjectID** | The ID of the **Media** **Object** to be paused. |
 
 # Outputs
 

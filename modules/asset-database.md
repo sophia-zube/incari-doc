@@ -16,7 +16,7 @@ For each **Asset**, the **Asset Database** displays the following information:
 * `ID`: Unique identifier for the **Asset**.
 * `Icon`: Icon that represents the `Type` of **Asset**.
 * `Type`: Type of **Asset**.
-* `Label`: *Label* for the **Asset**. By default, it is set to the filename and it can be edited directly on the **Asset Database**.
+* `Label`: *Label* for the **Asset**. By default, it is set to the filename and it can be edited directly in the **Asset Database**.
 * `Source`: The origin of an **Asset**.
 * `Path`: *Path* to the file. For **Assets** located in the **Project Asset** folder, it shows the relative *path*, and for other **Assets**, it shows the full *path*.
 * `#`: Number of times that the **Asset** is used in the **Project**.
@@ -40,7 +40,7 @@ Using an **Asset** automatically adds it to the **Asset Database**.
 
 ### Manually
 
-An **Asset** can be added manually to the **Asset Database**. To do this, simply drag and drop a file in the **Asset Database**. This can be done from the **Asset Manager** or from the *File Explorer*, thus allowing to add files that are not in the **Asset** folder.
+An **Asset** can be added manually to the **Asset Database**. To do this, simply drag and drop a file in the **Asset Database**. This can be done from the **Asset Manager** or from the *File Explorer*, thus allowing one to add files that are not in the **Asset** folder.
 
 There are three special cases:
 
@@ -48,7 +48,7 @@ There are three special cases:
 
 * **Fonts** have to be added in [**Project Settings**](project-settings/fonts.md) and then they will be automatically added to the **Asset Database**.
 
-* **Materials** are automatically added to the **Asset Database** when created in the [**Asset Manager**](asset-manager.md) 
+* **Materials** are automatically added to the **Asset Database** when created in the [**Asset Manager**](asset-manager.md).
 
 ![](../.gitbook/assets/asset-db-addmanually.gif)
 
@@ -94,7 +94,7 @@ By clicking on the magnifying glass on an **Asset** entry, this **Asset** will b
 
 ### Remove
 
-To remove an **Asset** from the **Asset Database**, click on the minus on far right of an **Asset** entry.
+To remove an **Asset** from the **Asset Database**, click on the minus on the far right of an **Asset** entry.
 
 ![](../.gitbook/assets/assetdb-remove.gif)
 
