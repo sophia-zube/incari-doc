@@ -2,7 +2,8 @@
 
 ![The Remove List Element Node.](../../../.gitbook/assets/removelistelement.png)
 
-The **Remove List Element Node** removes the element of a **List** at the specifed `Index` and returns the updated **List**.
+The **Remove List Element Node** removes the element of a **List** at the specifed `Index` and returns the updated **List**. Each element consists of two parts: the icon and the text. 
+
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -12,8 +13,8 @@ The **Remove List Element Node** removes the element of a **List** at the specif
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**||
-|`Index`|**Int**||
+|`Object ID`|**ObjectID**|The **List** the user wishes to remove an element from.|
+|`Index`|**Int**|The index of the element the user wishes to remove.|
 
 # Outputs
 
