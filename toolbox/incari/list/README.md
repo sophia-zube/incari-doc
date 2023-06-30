@@ -7,6 +7,7 @@ The **List** **Nodes** allow the user to generate and handle **Lists** in **Scen
 ## Contents
 
 * [**Generate List**](generate-list.md)
+* [**Get Selected Item**](getselecteditem.md)
 * [**Next List Entry**](next-list-entry.md)
 * [**Previous List Entry**](previous-list-entry.md)
 * [**Select List Entry**](select-list-entry.md)

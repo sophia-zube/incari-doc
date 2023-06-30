@@ -34,6 +34,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 * [**Get Visibility**](get-visibility.md)
 * [**Has Children**](has-children.md)
 * [**Instantiate Object**](instantiate.md)
+* [**On List Item Clicked**](onlistitemclicked.md)
 * [**Is Object 2D**](is-object-2d.md)
 * [**Is Object 3D**](is-object-3d.md)
 * [**Remove Tag**](remove-tag.md)
