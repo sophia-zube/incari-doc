@@ -20,7 +20,7 @@ We wish you well on your journey using **Incari Studio**.
 ## Contents
 
 * [**Requirements**](requirements.md)
-* [**What's New**](whats-new-20221.md)
+* [**What's New**](whats-new-20231.md)
 * [**Installation**](installation.md)
 * [**First Steps**](first-steps/README.md)
   * [**Incari Hub**](first-steps/incari-hub.md)
