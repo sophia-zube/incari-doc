@@ -114,12 +114,12 @@ After following all the previous steps, everything is ready for exporting a **Pr
 
 ![Adding a Target.](../.gitbook/assets/exporterimage5update.png)
 
-![Exporter with *Linux x86-64* Target added.](../.gitbook/assets/exporter-wlinux.png)
+![Exporter with *Linux x86-64* Target added.](../.gitbook/assets/exporter-wlinux_update.png)
 
 3. Choose the desired `Export Folder` on the [**Deploy**](#deploy) tab. 
 4. Click on the `Export` button on the top menu.
 
-![](../.gitbook/assets/exporter-exportlinux.png)
+![](../.gitbook/assets/exporter-exportlinux_update.png)
 
 A pop-up message indicating that the export was successful will appear.
 
