@@ -10,5 +10,5 @@ These **Nodes** apply to the `CSS File` **Attribute** for a [**Scene2D**](../../
 
 * [**Add Stylesheet**]()
 * [**Get Stylesheet**](getstylesheet.md)
-* [**Merge Stylesheet**](mergetostylesheet.md)
+* [**Merge To Stylesheet**](mergetostylesheet.md)
 * [**Set Stylesheet**](setstylesheet.md)
