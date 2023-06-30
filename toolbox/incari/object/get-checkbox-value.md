@@ -2,7 +2,7 @@
 
 ![The Get CheckBox Value Node.](../../../.gitbook/assets/getcheckboxvaluenode.png)
 
-The **Get CheckBox Value Node** returns a **Boolean** value of either *true* or *false*, depending on if the [**Toggle Object**](../../../objects-and-types/scene2d-objects/gui/toggle.md) is checked on or not.
+The **Get CheckBox Value Node** returns a **Boolean** value of either *true* or *false*, depending on if the [**Toggle Object**](../../../objects-and-types/scene2d-objects/gui/toggle.md) given as input is checked on or not.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -12,7 +12,7 @@ The **Get CheckBox Value Node** returns a **Boolean** value of either *true* or 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The desired **Toggle Object**.|
+|`Object ID`|**ObjectID**|the **Toggle Object** from which the value is to be obtained.|
 
 # Outputs
 

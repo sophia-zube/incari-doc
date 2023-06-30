@@ -2,7 +2,7 @@
 
 ![The Set List Element Node.](../../../.gitbook/assets/setlistelement.png)
 
-The **Set List Element Node** sets a **List's** at the specified `Index`. Each element consists of two parts: the icon and the text. 
+The **Set List Element Node** sets a **List's** at the specified `Index`. It also replaces the element at the index if there was one. Each element consists of two parts: the icon and the text. 
 
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.

@@ -43,9 +43,9 @@ The `Code` **Attributes** allow for more customizability. This can override any 
 
 To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md).
 
-`Class names` contain the *CSS* class names of the **Object**. 
+* `Class names` contain the *CSS* class names of the **Object**. 
 
-`Stylesheet` contains the *CSS* stylesheet of the **Object**.
+* `Stylesheet` contains the *CSS* stylesheet of the **Object**.
 
 ### Tag
 
