@@ -31,17 +31,17 @@ This **Node** requires that the *JSON* data is in **Array** format. Refer to the
 For correct formatting, start with the desired *JSON* file. Here we have an example:
 
 ```
-[
+   [
     {
-        "icon": "",
+        "icon": "Users/user.name/Documents/Project1/Assets/image1.jpg",
         "text": "you collected"
     },
     {
-        "icon": "",
+        "icon": "Users/user.name/Documents/Project1/Assets/image2.png",
         "text": "over 9000"
     },
     {
-        "icon": "",
+        "icon": "Users/user.name/Documents/Project1/Assets/image3.png",
         "text": "overhours"
     }
 ]
@@ -52,10 +52,10 @@ This needs to be placed into an **Array**. Go into the **Logic Editor** and popu
 The full **Array** would look like this if outputted to the **Console**:
 
 ```
-[ { icon:, text:you collected }, { icon:, text:over 9000 }, { icon:, text:overhours } ]
+[ { icon:Users/user.name/Documents/Project1/Assets/image1.jpg, text:you collected }, { icon:Users/user.name/Documents/Project1/Assets/image2.png, text:over 9000 }, { icon:Users/user.name/Documents/Project1/Assets/image3.png, text:overhours } ]
 ```
 
-![List Array Example.](../../../.gitbook/assets/listarrayexample.png)
+![List Array Example.](../../../.gitbook/assets/listarrayexample2.png)
 
 <!--To best visualize the structure of each element, the above image shows a manual implementation. Of course for longer *JSON* files, this would be very inefficient and using this **Node** in tandem with the [**For Loop Node**](../../flow-control/forloop.md) might be useful.--> 
 
@@ -63,7 +63,7 @@ Each element is encapsulated by `{}` symbols, like in the *JSON*. The `""` are n
 
 The resulting **List** should look like this in the **Player**:
 
-![Set List Output Example.](../../../.gitbook/assets/setlistexample.png)
+![Set List Output Example.](../../../.gitbook/assets/listinplayerexample.png)
 
 
 

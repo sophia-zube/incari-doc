@@ -21,7 +21,7 @@ The **Remove List Element Node** removes the element of a **List** at the specif
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`List Data`|**Array**|The *JSON* data of the updated **List** in **Array** format.|
+|`List Data`|**Array**|The data of the updated **List** in **Array** format.|
 
 # See Also
 

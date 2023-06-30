@@ -1,6 +1,6 @@
 # Text
 
-The **Text** **Object** allows the user to add text to their **Project**. It can be completely customized in the [**Attributes**](slider.md#attributes).
+The **Text** **Object** allows the user to add text to their **Project**. It can be completely customized in the [**Attributes**](text.md#attributes).
 
 ![Text.](../../../.gitbook/assets/2dgui-text.png)
 

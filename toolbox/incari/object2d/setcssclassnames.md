@@ -21,6 +21,15 @@
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
+# See Also
+
+* [**Get CSS Class Names**](getcssclassnames.md)
+
+# External Links
+
+* Read for more information on [*CSS Selectors*](https://en.wikipedia.org/wiki/CSS#Selector).
+
+
 
 
 
