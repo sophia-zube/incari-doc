@@ -64,7 +64,7 @@ The `List Item` **Attributes** provide crucial data for a **List Object's** item
 * `Background Color` decides the background color of the **List's** items.
 * `Text Background Color` determines the background color of the **List** items' text. 
 * `Height` decides the space between each segement of the list (the total vertical space of an item).
-* `Separator` chooses the thickness of the separators, which are the lines between **List** items. 
+* `Separator Size` chooses the thickness of the separators, which are the lines between **List** items. 
 * `Separator Color` determines the color of the separators. 
 
 ### Text

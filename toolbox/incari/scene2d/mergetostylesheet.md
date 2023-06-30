@@ -20,7 +20,4 @@ The **Merge To Stylesheet Node** lets the user incorporate new data into the cur
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
-# See Also
-
-# External Links
 

@@ -480,7 +480,7 @@
     * [Set Screen Keyboard Layout](toolbox/incari/on-screenkeyboard/setscreenkeyboardlayout.md)
   * [Scene 2D](toolbox/incari/scene2d/README.md)
     * [Get Stylesheet](toolbox/incari/scene2d/getstylesheet.md)
-    * [Merge Stylesheet](toolbox/incari/scene2d/mergetostylesheet.md)
+    * [Merge To Stylesheet](toolbox/incari/scene2d/mergetostylesheet.md)
     * [Set Stylesheet](toolbox/incari/scene2d/setstylesheet.md)
   * [This Scene](toolbox/incari/thisscene.md)
   * [Ultrahaptics](toolbox/incari/ultrahaptics/README.md)
