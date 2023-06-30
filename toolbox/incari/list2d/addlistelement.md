@@ -8,7 +8,7 @@ The **Add List Element Node** adds an element to either the beginning or end of 
 
 # Attributes
 
-![The Add List Element Node Attributes.](../../../.gitbook/assets/addlistelementattributes.png)
+![The Add List Element Node Attributes.](../../../.gitbook/assets/addlistelementattributes.png) 
 
 |Attribute|Type|Description|
 |---|---|---|
