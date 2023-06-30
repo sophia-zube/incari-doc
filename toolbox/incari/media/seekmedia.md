@@ -16,7 +16,7 @@ The **Seek Media** **Node** with `Seek Mode`: `Frame` can be used to navigate to
 
 # Attributes
 
-![The Seek Media Node Attributes.](../../../.gitbook/assets/node-node-seekmedia-attri.png)
+![The Seek Media Node Attributes.](../../../.gitbook/assets/node-seekmedia-attri.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -40,7 +40,7 @@ The **Seek Media** **Node** with `Seek Mode`: `Frame` can be used to navigate to
 {% tab title="Percentage" %}
 # Overview
 
-![The Seek Media Node, with `Seek Mode`: Percentage.](../../../.gitbook/assets/node-seekmedia-percentage.png))
+![The Seek Media Node, with `Seek Mode`: Percentage.](../../../.gitbook/assets/node-seekmedia-percentage.png)
 
 The **Seek Media** **Node** with `Seek Mode`: `Percentage` can be used to navigate to a particular point in a **Media Object** providing the corresponding percentage as input. **Media** in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 
@@ -48,7 +48,7 @@ The **Seek Media** **Node** with `Seek Mode`: `Percentage` can be used to naviga
 
 # Attributes
 
-![The Seek Media Node Attributes.](../../../.gitbook/assets/node-node-seekmedia-attri.png)
+![The Seek Media Node Attributes.](../../../.gitbook/assets/node-seekmedia-attri.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -81,7 +81,7 @@ The **Seek Media** **Node** with `Seek Mode`: `Seconds` can be used to navigate 
 
 # Attributes
 
-![The Seek Media Node Attributes.](../../../.gitbook/assets/node-node-seekmedia-attri.png)
+![The Seek Media Node Attributes.](../../../.gitbook/assets/node-seekmedia-attri.png)
 
 |Attribute|Type|Description|
 |---|---|---|
