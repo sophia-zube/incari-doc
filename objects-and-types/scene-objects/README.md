@@ -97,20 +97,20 @@ For more information about _trees_, visit the [Tree (data structure)](https://en
 
 ## Contents
 
-* [**Vector**](vector.md)
 * [**Audio**](audio.md)
 * [**Camera**](camera.md)
-* [**Primitives**](primitives.md)
-* [**Light**](lights.md)
 * [**Group**](group.md)
 * [**Image Sequence Sprite**](3dobjects/imagesequencesprite.md)
 * [**Label**](3dobjects/label.md)
+* [**Light**](lights.md)
 * [**List**](3dobjects/list.md)
 * [**Lottie Sprite**](lottie-sprite.md)
 * [**Mesh**](mesh.md)
 * [**On-Screen Keyboard**](3dobjects/onscreenkeyboard.md)
 * [**Overlay**](overlay.md)
+* [**Primitives**](primitives.md)
 * [**Sprite**](3dobjects/sprite.md)
 * [**Text**](3dobjects/text.md)
+* [**Vector**](vector.md)
 * [**Video**](3dobjects/video.md)
 * [**Web Sprite**](3dobjects/web-sprite.md)
