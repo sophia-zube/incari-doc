@@ -95,7 +95,7 @@ To set up *WSL*, follow these steps:
 
 For exporting to a different *Target Platform* than the *Host*, a *cross-compiled* version of **Incari Player** for the desired *Target* is necessary.
 
-1. Acquire **Incari Player** for the desired `Target` *platform*. For this, an **Enterprise Account** is needed.
+1. Acquire **Incari Player** for the desired `Target` *platform* in the *Applications* section of [**Incari Hub**](../getting-started/first-steps/incari-hub.md). For this, an **Enterprise Account** is needed.
 2. Copy the *cross-compiled* version of **Incari Player** in the following location: `%AppData%\IncariStudio\CrossCompile\<target-triple>\Incari\IncariPlayer\<IncariStudio/Player-version>/`. 
 
 The `<target-triple>` in the *path* where the *cross-compiled* version of **Incari Player** should be located is dependent on the desired *Target Platform*.

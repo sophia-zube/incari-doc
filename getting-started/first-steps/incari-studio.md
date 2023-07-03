@@ -29,7 +29,7 @@ Besides giving the option to choose which **Modules** are visible, **Incari Stud
 
 Moreover, **Modules** can be docked together and then accessed via the tabs that are automatically created.
 
-![Docking Modules together.](incaristudioimage6)
+![Docking Modules together.](../../.gitbook/assets/incaristudioimage6.gif)
 
 **Modules** can also be used as independent windows, which can be very useful when working with more than one computer screen.
 
