@@ -4,7 +4,9 @@
 
 The **CAN Nodes** provide a means for the user to perform several actions within the _CAN_ messaging protocol. _CAN_, or _Controller Area Network_, allows for communication among different devices, such as different electronic parts of a vehicle. To use the **CAN Nodes** in **Incari**, the user needs to locate the [**CAN Attributes**](../../../modules/project-settings/CAN.md) in **Project Settings** and upload a _DBC_ file.
 
-Please note that this version of **Incari** only supports the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format).
+<!-- Please note that this version of **Incari** only supports the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format). -->
+
+It is worth noting that **Incari** supports both the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format) and the [*extended frame format*](https://en.wikipedia.org/wiki/CAN_bus#Extended_frame_format).
 
 ## CAN Guideline
 
