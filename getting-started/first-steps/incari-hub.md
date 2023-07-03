@@ -48,7 +48,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 ![Applications: Incari Studio](../../.gitbook/assets/incarihub5.png)
 
-![Application: Incari Studio Installed](../../.gitbook/assets/incarihubinstalled2\_20222.png)
+![Application: Incari Studio Installed](../../.gitbook/assets/incari-install-installed_20231.png)
 
 ## Community
 

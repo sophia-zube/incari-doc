@@ -1,8 +1,8 @@
 # Overview
 
-![The Get Stylesheet Node.](../../../.gitbook/assets/getstylesheet.png)
+![The Get Stylesheet Node.](../../../.gitbook/assets/getstylesheetnode2.png)
 
-The **Get Stylesheet Node** returns the stylesheet **Asset** of the current [**Scene2D**](../../../objects-and-types/project-objects/scene2d.md).
+The **Get Stylesheet Node** returns the stylesheet **Asset** of the inputted [**Scene2D**](../../../objects-and-types/project-objects/scene2d.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -11,6 +11,7 @@ The **Get Stylesheet Node** returns the stylesheet **Asset** of the current [**S
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Scene ID`|**SceneID**|The **ID** of the desired **Scene2D** that will have its stylesheet returned.|
 
 # Outputs
 
