@@ -73,7 +73,7 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 
 ![](../../.gitbook/assets/create-children-1.gif)
 
-* Select the **Object** that will be the _parent_ and create a new **Object** by clicking the plus ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (4).PNG>) icon on the top left and selecting the **Object** to create as a _child_.
+* Select the **Object** that will be the _parent_ and create a new **Object** by clicking the plus ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2).PNG>) icon on the top left and selecting the **Object** to create as a _child_.
 
 ![](../../.gitbook/assets/create-children-3.gif)
 

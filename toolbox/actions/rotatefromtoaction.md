@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../objects-and-types/pr
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionupdatedimage.png)
 
@@ -14,7 +14,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The RotateFromTo Action Node Attributes.](../../.gitbook/assets/rotatefromtoactionattributes.png)
 
@@ -25,7 +25,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +36,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `From`        | **Vector3**    | The _Euler angles_ along the X, Y, and Z axes to rotate from.                                                                                |
 | `To`          | **Vector3**    | The _Euler angles_ along the X, Y, and Z axes to rotate to.                                                                                  |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                              |
 | ------------- | -------------- | ---------------------------------------------------------------------------------------- |
@@ -46,17 +46,17 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The RotateFromTo Action Node.](../../.gitbook/assets/rotatefromtoactionnode2d.png)
 
-The **RotateFromTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene2d-objects//) from the value specified in `From` to that specified in `To` for a given period of time, thus creating an **Animation**.
+The **RotateFromTo Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene2d-objects/) from the value specified in `From` to that specified in `To` for a given period of time, thus creating an **Animation**.
 
 Furthermore, visit the [**Actions Nodes**](./) page for a general introduction to these **Nodes**, and [**Rotation**](../../objects-and-types/attributes/common-attributes/transformation/#rotation) for more detail about the `Rotation` **Attribute**.
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The RotateFromTo Action Node Attributes.](../../.gitbook/assets/rotatefromtoactionatts2d.png)
 
@@ -67,7 +67,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `From`        | **Float**      | The value to rotate from.                                                                                                                    |
 | `To`          | **Float**      | The value to rotate to.                                                                                                                      |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                              |
 | ------------- | -------------- | ---------------------------------------------------------------------------------------- |

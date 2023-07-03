@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../objects-and-types/pr
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionupdatedimage.png)
 
@@ -14,7 +14,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionattributes.png)
 
@@ -24,7 +24,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `To`          | **Vector3**    | The _Euler angles_ along the X, Y, and Z axes to rotate to.                                                                                  |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                          |
 | ------------- | -------------- | ------------------------------------------------------------------------------------ |
@@ -44,7 +44,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The RotateTo Action Node.](../../.gitbook/assets/rotatetoactionnode2d.png)
 
@@ -54,7 +54,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The RotateTo Action Node Attributes.](../../.gitbook/assets/rotatetoactionatts2d.png)
 
@@ -64,7 +64,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is received in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                        |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the _Euler Angles_. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `To`          | **Float**      | The value to rotate to.                                                                                                                      |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                          |
 | ------------- | -------------- | ------------------------------------------------------------------------------------ |

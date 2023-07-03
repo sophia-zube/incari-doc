@@ -4,7 +4,7 @@ This **Node** has different versions for [**Scenes**](../../objects-and-types/pr
 
 {% tabs %}
 {% tab title="Scene" %}
-### Overview
+#### Overview
 
 ![The MoveBy Action Node.](../../.gitbook/assets/movebyactionupdatedimage.png)
 
@@ -14,7 +14,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionattributes.png)
 
@@ -24,7 +24,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is given in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                       |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Position`. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `Offset`      | **Vector3**    | The amount to move the `Position` of an **Object** along the X, Y, Z axes.                                                                   |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                        |
 | ------------- | -------------- | ---------------------------------------------------------------------------------- |
@@ -44,7 +44,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 {% endtab %}
 
 {% tab title="Scene2D" %}
-### Overview
+#### Overview
 
 ![The MoveBy Action Node.](../../.gitbook/assets/movebyaction2dnode.png)
 
@@ -54,7 +54,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 [**Scope**](../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
-### Attributes
+#### Attributes
 
 ![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionatts2d.png)
 
@@ -64,7 +64,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration (sec)` | **Float**     | The total time of the **Action**, if none is given in the `Duration` **Input Socket**.                                                                                                                                                                                                                                                       |
 | `Interpolation`  | **Drop-down** | The `Interpolation` method to use for calculating the intermediate values of the `Position`. It can be [_Linear_](https://en.wikipedia.org/wiki/Linear\_interpolation), [_Sine Ease In_](https://easings.net/#easeInSine), [_Sine Ease In Out_](https://easings.net/#easeInOutSine), or [_Sine Ease Out_](https://easings.net/#easeOutSine). |
 
-### Inputs
+#### Inputs
 
 | Input         | Type           | Description                                                                                                                                  |
 | ------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 | `Duration`    | **Float**      | The total time (in seconds).                                                                                                                 |
 | `Offset`      | **Vector2**    | The amount to move the `Position` of an **Object** along the X and Y axes.                                                                   |
 
-### Outputs
+#### Outputs
 
 | Output        | Type           | Description                                                                        |
 | ------------- | -------------- | ---------------------------------------------------------------------------------- |
