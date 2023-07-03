@@ -33,34 +33,43 @@ New specific **Scene2D** **Objects** have been added along with their respective
 
 * [**Button**](../objects-and-types/scene2d-objects/gui/button.md)
 * [**Dropdown**](../objects-and-types/scene2d-objects/gui/dropdown.md)
-  * [**Get Active Dropdown Value**]()
-  * [**Get Dropdown Options**]()
-  * [**Set Active Dropdown Index**]()
-  * [**Set Active Dropdown Value**]()
-  * [**Set Dropdown Options**]()
-  * [**On Dropdown Active Value Change**]()
+  * [**Get Active Dropdown Value**](../toolbox/incari/object/get-active-dropdown-value.md)
+  * [**Get Dropdown Options**](../toolbox/incari/object/get-dropdown-options.md)
+  * [**Set Active Dropdown Index**](../toolbox/incari/object/set-active-dropdown-index.md)
+  * [**Set Active Dropdown Value**](../toolbox/incari/object/set-active-dropdown-value.md)
+  * [**Set Dropdown Options**](../toolbox/incari/object/set-dropdown-options.md)
+  * [**On Dropdown Active Value Change**](../toolbox/events/object/on-dropdown-active-value-change.md)
 * [**List**](../objects-and-types/scene2d-objects/gui/list.md)
-  * [**Add List Element**]()
-  * [**Get Active Indes**]()
-  * [**Get List Data**]()
-  * [**Get List Element**]()
-  * [**Insert List Element**]()
-  * [**Remove List Element**]()
-  * [**Set Active Index**]()
-  * [**Set List Data**]()
-  * [**Set List Element**]()
-  * [**On List Active Index Change**]()
+  * [**Add List Element**](../toolbox/incari/list2d/addlistelement.md)
+  * [**Get Active Indes**](../toolbox/incari/list2d/getactiveindex.md)
+  * [**Get List Data**](../toolbox/incari/list2d/getlistdata.md)
+  * [**Get List Element**](../toolbox/incari/list2d/getlistelement.md)
+  * [**Insert List Element**](../toolbox/incari/list2d/insertlistelement.md)
+  * [**Remove List Element**](../toolbox/incari/list2d/removelistelement.md)
+  * [**Set Active Index**](../toolbox/incari/list2d/setactiveindex.md)
+  * [**Set List Data**](../toolbox/incari/list2d/setlistdata.md)
+  * [**Set List Element**](../toolbox/incari/list2d/setlistelement.md)
+  * [**On List Active Index Change**](../toolbox/events/list2d/onlistactiveindexchange.md)
 * [**Slider**](../objects-and-types/scene2d-objects/gui/slider.md)
-  * [**Get Slider Value**]()
-  * [**Set Slider Value**]()
-  * [**On Slider Value Change**]()
+  * [**Get Slider Value**](../toolbox/incari/object/getslidervalue.md)
+  * [**Set Slider Value**](../toolbox/incari/object/setslidervalue.md)
+  * [**On Slider Value Change**](../toolbox/events/object/on-slider-value-change.md)
 * [**Text**](../objects-and-types/scene2d-objects/gui/text.md)
+  * [**Get Text**](../toolbox/incari/object/get-text.md)
+  * [**Set Text**](../toolbox/incari/object/set-text.md)
+  * [**On Text Change**](../toolbox/events/input/ontextchange.md)
 * [**Text Area**](../objects-and-types/scene2d-objects/gui/textarea.md)
+  * [**Get Text**](../toolbox/incari/object/get-text.md)
+  * [**Set Text**](../toolbox/incari/object/set-text.md)
+  * [**On Text Change**](../toolbox/events/input/ontextchange.md)
 * [**Text Input**](../objects-and-types/scene2d-objects/gui/textinput.md)
+  * [**Get Text**](../toolbox/incari/object/get-text.md)
+  * [**Set Text**](../toolbox/incari/object/set-text.md)
+  * [**On Text Change**](../toolbox/events/input/ontextchange.md)
 * [**Toggle**](../objects-and-types/scene2d-objects/gui/toggle.md)
-  * [**Get CheckBox Value**]()
-  * [**Set CheckBox Value**]()
-  * [**On CheckBox Value Change**]()
+  * [**Get CheckBox Value**](../toolbox/incari/object/get-checkbox-value.md)
+  * [**Set CheckBox Value**](../toolbox/incari/object/set-checkbox-value.md)
+  * [**On CheckBox Value Change**](../toolbox/events/object/on-checkbox-value-change.md)
 
 ### 2D Prefabs
 
@@ -109,4 +118,13 @@ In addition, the **Exporter** offers the user the option to export only the used
 
 ## **New Nodes and Node Updates**
 
-Besides the **Nodes** related to new features that are specified above, several new **Nodes** have been introduced with this release while some existent ones have had major updates. The list is given below:
+Besides the **Nodes** related to new features that are specified above, several new **Nodes** have been introduced with this release. The list is given below:
+
+New **Nodes**:
+  * **List**: 
+      * [**Get Selected Item**](../toolbox/incari/list/getselecteditem.md)
+      * [**On List Item Clicked**](../toolbox/incari/object/onlistitemclicked.md)
+  * **Object**:
+      * [**Set Texture**](../toolbox/incari/object/set-texture.md)
+  * **Media**
+      * [**Seek Media**](../toolbox/incari/media/seekmedia.md)
