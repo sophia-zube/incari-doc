@@ -1,6 +1,6 @@
 # Creating a Project
 
-The first step to start using **Incari Studio** is to create a new **Project**. This is done from **Incari Hub**.
+The first step to start using **Incari Studio** is to create a new **Project**. This is done from [**Incari Hub**](incari-hub.md).
 
 To create a new **Incari Studio** **Project**, go to *My Projects* under *Projects* on the left Menu and press on the large plus icon.
 
