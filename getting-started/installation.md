@@ -37,7 +37,7 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 * After the installation is completed, **Incari Studio** 2023.1 will appear in "Incari Studio installed versions":
 
-![Incari Hub with Incari Studio 2022.2 installed.](../.gitbook/assets/incari-install-installed_20231.png)
+![Incari Hub with Incari Studio 2023.1 installed.](../.gitbook/assets/incari-install-installed_20231.png)
 
 <!-- * After the download is finished, the install window for **Incari Studio** 2022.1 will open. Click "Next" to proceed and go through the installation process.
 
