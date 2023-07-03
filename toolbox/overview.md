@@ -576,7 +576,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Opacity**](incari/object/get-opacity.md)
     * [**Get Parent**](incari/object/get-parent.md)
     * [**Get Position**](incari/object/get-position.md)
-    * [**Get Property**](incari/object/get-property.md)
+    * [**Get CSS Property**](incari/object/get-property.md)
     * [**Get Root**](incari/object/get-root.md)
     <!-- * [**Get Position 2D (px)**](incari/object/get-position-pixel.md) -->
     * [**Get Rotation**](incari/object/get-rotation.md)
@@ -606,7 +606,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
     * [**Set Position**](incari/object/set-position.md)
-    * [**Set Property**](incari/object/set-property.md)
+    * [**Set CSS Property**](incari/object/set-property.md)
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
     <!-- * [**Set Rotation 2D**](incari/object/set-rotation-pixel.md) -->
@@ -909,7 +909,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Opacity**](incari/object/get-opacity.md)
     * [**Get Parent**](incari/object/get-parent.md)
     * [**Get Position**](incari/object/get-position.md)
-    * [**Get Property**](incari/object/get-property.md)
+    * [**Get CSS Property**](incari/object/get-property.md)
     * [**Get Root**](incari/object/get-root.md)
     <!-- * [**Get Position 2D (px)**](incari/object/get-position-pixel.md) -->
     * [**Get Rotation**](incari/object/get-rotation.md)
@@ -939,7 +939,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
     * [**Set Position**](incari/object/set-position.md)
-    * [**Set Property**](incari/object/set-property.md)
+    * [**Set CSS Property**](incari/object/set-property.md)
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
     <!-- * [**Set Rotation 2D**](incari/object/set-rotation-pixel.md) -->
@@ -1321,7 +1321,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Get Opacity**](incari/object/get-opacity.md)
     * [**Get Parent**](incari/object/get-parent.md)
     * [**Get Position**](incari/object/get-position.md)
-    * [**Get Property**](incari/object/get-property.md)
+    * [**Get CSS Property**](incari/object/get-property.md)
     * [**Get Root**](incari/object/get-root.md)
     <!-- * [**Get Position 2D (px)**](incari/object/get-position-pixel.md) -->
     * [**Get Rotation**](incari/object/get-rotation.md)
@@ -1351,7 +1351,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
     * [**Set Position**](incari/object/set-position.md)
-    * [**Set Property**](incari/object/set-property.md)
+    * [**Set CSS Property**](incari/object/set-property.md)
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
     <!-- * [**Set Rotation 2D**](incari/object/set-rotation-pixel.md) -->

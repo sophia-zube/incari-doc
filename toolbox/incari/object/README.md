@@ -19,7 +19,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 * [**Get Opacity**](get-opacity.md)
 * [**Get Parent**](get-parent.md)
 * [**Get Position**](get-position.md)
-* [**Get Property**](get-property.md)
+* [**Get CSS Property**](get-property.md)
 <!-- * [**Get Position 2D (px)**](get-position-pixel.md) -->
 * [**Get Root**](get-root.md)
 * [**Get Rotation**](get-rotation.md)
@@ -47,7 +47,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 * [**Set Material**](set-material.md)
 * [**Set Opacity**](set-opacity.md)
 * [**Set Position**](set-position.md)
-* [**Set Property**](set-property.md)
+* [**Set CSS Property**](set-property.md)
 * [**Set Position 2D (px)**](set-position-pixel.md)
 * [**Set Rotation**](set-rotation.md)
 * [**Set Rotation 2D**](set-rotation-pixel.md)
