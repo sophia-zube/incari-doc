@@ -10,13 +10,14 @@
 
 ## Attributes
 
-![The On CAN Packet Received Node Attributes.](../../../../.gitbook/assets/canpacketreceivedatts20231.png)
+![The On CAN Packet Received Node Attributes.](../../../../.gitbook/assets/oncanpacketreceived-attriupdate.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `On Change` | **Bool** | Specifies whether the **Node** executes when a **Packet**'s `Message` changes or simply when a **Packet**'s `Message` is received. |
-| `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
 | `Configuration` | **Drop-down** | The identifying connection name that will be used, which is one that was set up in the [**Project Settings**](../../../../modules/project-settings/CAN.md). |
+| `Message Name` | **Drop-down** | A `Message` that is chosen from the uploaded _DBC_ file. This is done in **Project Settings**. |
+
 
 ## Outputs
 

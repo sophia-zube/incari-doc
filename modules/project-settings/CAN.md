@@ -19,7 +19,10 @@ A `DBC File` needs to be uploaded and selected. This `DBC File` is a vital part 
 
 `Is Autostart` can be enabled or disabled and dictates when the channel is run (from the beginning of an application's life cycle or when the appropriate **Nodes** are used).
 
-Please note that this version of **Incari** only supports the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format).
+<!-- Please note that this version of **Incari** only supports the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format). -->
+
+It is worth noting that **Incari** supports both the [*base (or standard) frame format*](https://en.wikipedia.org/wiki/CAN_bus#Base_frame_format) and the [*extended frame format*](https://en.wikipedia.org/wiki/CAN_bus#Extended_frame_format).
+
 
 ## See Also
 

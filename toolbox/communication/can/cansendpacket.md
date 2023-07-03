@@ -10,12 +10,13 @@ The **CAN Send Packet Node** is used to send a data **Packet** along the **CAN**
 
 ## Attributes
 
-![The CAN Send Packet Node Attributes.](../../../.gitbook/assets/cansendpacketatts20231.png)
+![The CAN Send Packet Node Attributes.](../../../.gitbook/assets/cansendpacket-attriupdate.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
-| `Message Name` | **Drop-down** | The selected `Message` from the uploaded _DBC_ file. |
 | `Configuration` | **Drop-down** | The identifying connection name that will be used, which is one that was set up in the [**Project Settings**](../../../modules/project-settings/CAN.md). |
+| `Message Name` | **Drop-down** | The selected `Message` from the uploaded _DBC_ file. |
+
 
 ## Inputs
 
