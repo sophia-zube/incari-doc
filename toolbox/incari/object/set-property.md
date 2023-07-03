@@ -1,14 +1,14 @@
 # Overview
 
-![The Set Property Node.](../../../.gitbook/assets/setpropertynode.png)
+![The Set CSS Property Node.](../../../.gitbook/assets/setcsspropertynode.png)
 
-The **Set Property Node** sets the value of a single *CSS* property  of an **Object** provided by the user.
+The **Set CSS Property Node** sets the value of a single *CSS* property  of an **Object** provided by the user.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 
-![The Set Property Node Attributes.](../../../.gitbook/assets/setpropertyattributes.png)
+![The Set CSS Property Node Attributes.](../../../.gitbook/assets/setcsspropertyatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -33,7 +33,7 @@ The **Set Property Node** sets the value of a single *CSS* property  of an **Obj
 
 # See Also
 
-* [**Get Property**](get-property.md)
+* [**Get CSS Property**](get-property.md)
 
 # External Links
 

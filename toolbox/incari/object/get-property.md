@@ -1,14 +1,14 @@
 # Overview
 
-![The Get Property Node.](../../../.gitbook/assets/getproperty.png)
+![The Get CSS Property Node.](../../../.gitbook/assets/getcssproperty.png)
 
-The **Get Property Node** returns the value of a single *CSS* property of an **Object** provided by the user.
+The **Get CSS Property Node** returns the value of a single *CSS* property of an **Object** provided by the user.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Attributes
 
-![The Get Property Node Attributes.](../../../.gitbook/assets/getpropertyattributes.png)
+![The Get CSS Property Node Attributes.](../../../.gitbook/assets/getcsspropertyatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -33,7 +33,7 @@ The **Get Property Node** returns the value of a single *CSS* property of an **O
 
 # See Also
 
-* [**Set Property**](set-property.md)
+* [**Set CSS Property**](set-property.md)
 
 # External Links
 
