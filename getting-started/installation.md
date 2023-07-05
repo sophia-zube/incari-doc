@@ -27,11 +27,11 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 * Press on "Install". Then you will see the available versions of **Incari Studio** to install.
 
-![Incari Studio versions available for installation.](../.gitbook/assets/incari-install2_new_20222.png)
+![Incari Studio versions available for installation.](../.gitbook/assets/incarihub7.png)
 
 * To install **Incari Studio** 2023.1, press on the "Install" button and the following message will appear:
 
-![Install location and terms in the license agreement.](../.gitbook/assets/incari-install-terms_20222.png)
+![Install location and terms in the license agreement.](../.gitbook/assets/incarihub8.png)
 
 * Choose the Install Location, accept the terms in the license agreement, and click on "Install", then the installation will start.
 

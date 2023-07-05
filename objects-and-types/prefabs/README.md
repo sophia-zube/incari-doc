@@ -5,6 +5,10 @@
 
 The first section shows how to create and use **Prefabs**, the second section gives more details about the **Logic** of **Prefabs**, and the third section describes **Nested Prefabs**.
 
+## Prefabs in **Scene2Ds**
+
+**Prefabs** in **Scene2Ds** are treated as **Frames**, but with the properties of a **Prefab**. On the surface, they essentially work the same as **Prefabs** in **Scenes**. 
+
 ## Contents
 
 * [**Creating and Using Prefabs**](creating-and-using-prefabs.md)
