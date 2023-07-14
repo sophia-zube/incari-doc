@@ -1,6 +1,6 @@
 # Overview
 
-![The SlideInFromTop Node.](../../.gitbook/assets/slideinfromtopnode.png)
+![The SlideInFromTop Node.](../../.gitbook/assets/slideinfromtopnodereal.png)
 
 The **SlideInFromTop Node** applies a **Transition** from the current **Scene** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the top of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the bottom, the latter of which disappears from view as the **Transition** ends and is replaced by the former.  
 
@@ -8,7 +8,7 @@ The **SlideInFromTop Node** applies a **Transition** from the current **Scene** 
 
 # Attributes
 
-![The SlideInFromTopNode Attributes](../../.gitbook/assets/slideinfromtopattributes.png)
+![The SlideInFromTopNode Attributes](../../.gitbook/assets/slideinfromtopatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

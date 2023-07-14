@@ -1,6 +1,6 @@
 # Overview
 
-![The Fade Node.](../../.gitbook/assets/node-fade.png)
+![The Fade Node.](../../.gitbook/assets/fadenode.png)
 
 The **Fade** **Node** creates a **Transition** between **Scenes** in which the initial **Scene** fades out and then the final **Scene** fades in. It receives as inputs the final **Scene**, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
 
@@ -8,7 +8,7 @@ The **Fade** **Node** creates a **Transition** between **Scenes** in which the i
 
 # Attributes
 
-![The Fade Node Attributes.](../../.gitbook/assets/node-fade-attri.png)
+![The Fade Node Attributes.](../../.gitbook/assets/fadeatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

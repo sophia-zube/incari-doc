@@ -1,6 +1,6 @@
 # Overview
 
-![The SlideInFromRight Node.](../../.gitbook/assets/slideinfromrightnode.png)
+![The SlideInFromRight Node.](../../.gitbook/assets/slideinfromrightreal.png)
 
 The **SlideInFromFight Node** applies a **Transition** from the current **Scene** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the right of the **Screen**. This **Transition** leads to the chosen **Scene** pushing the previous **Scene** to the left, the latter of which disappears from view as the **Transition** ends and is replaced by the former. 
 
@@ -8,7 +8,7 @@ The **SlideInFromFight Node** applies a **Transition** from the current **Scene*
 
 # Attributes
 
-![The SlideInFromRight Node Attributes](../../.gitbook/assets/slideinfromrightattributes.png)
+![The SlideInFromRight Node Attributes](../../.gitbook/assets/slideinfromrightatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

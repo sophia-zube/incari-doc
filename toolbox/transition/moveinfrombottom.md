@@ -1,6 +1,6 @@
 # Overview
 
-![The MoveInFromBottom Node.](../../.gitbook/assets/node-moveinfrombottom.png)
+![The MoveInFromBottom Node.](../../.gitbook/assets/moveinfrombottom.png)
 
 The **MoveInFromBottom** **Node** creates a **Transition** from the current **Scene** to a chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the bottom of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.  
 
@@ -8,7 +8,7 @@ The **MoveInFromBottom** **Node** creates a **Transition** from the current **Sc
 
 # Attributes
 
-![The MoveInFromBottom Node Attributes**](../../.gitbook/assets/node-moveinfrombottom-attri.png)
+![The MoveInFromBottom Node Attributes**](../../.gitbook/assets/moveinfrombottomatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
