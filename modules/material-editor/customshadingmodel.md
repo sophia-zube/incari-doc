@@ -4,6 +4,7 @@ This model allows the user to create and customize their own **Shading Model**. 
 
 * [`Vertex Shader`](#vertex-shader)
 * [`Fragment Shader`](#fragment-shader)
+* [`Uniforms`](#uniforms)
 
 All these **Attributes** are described in greater detail below.
 
@@ -99,6 +100,52 @@ And the output is:
 The *uv coordinates* can be obtained by using:
 
 `vec2 uv = (fragCoord * incResolution) / incResolution.xy;`
+
+### Uniforms
+
+**Incari** makes it possible for the user to change some variables during runtime. This can be done jointly with the [**Set Custom Uniform Node**]().
+
+Here, the user can set the values for several variables. These variables correspond to those present in the files given in the *shaders*. There are five types of variables:
+
+* [Channels](#channels)
+* [Integers](#integers)
+* [Floats](#floats)
+* [Vectors]()
+* [Booleans]()
+
+Please note that for the `Uniforms` to have any effect, the names in the files must match the **Attribute** names seen here in the `Custom Shading Model`. 
+
+#### Channels
+
+![](../../.gitbook/assets/uniformschannels.png)
+
+These **Attributes** can take any file that is an image or *texture map*. It is possible to set up to four of these currently in **Incari**. 
+
+#### Integers
+
+![](../../.gitbook/assets/uniformsints.png)
+
+These **Attributes** set the values for **Ints**. This can be used to set one or several values for a specific **Vector4** in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**. 
+
+#### Floats
+
+![](../../.gitbook/assets/uniformsfloats.png)
+
+These **Attributes** set the values for **Floats**. This can be used to multiply the time variable present in the code for the `Fragment Shader` by some **Float** during runtime, for example. It is possible to set up to four of these currently in **Incari**. 
+
+#### Vectors
+
+![](../../.gitbook/assets/uniformsvectors.png)
+
+These **Attributes** set the values for **Vector4s**. This can be used to set certain RGB values, for example. The first value corresponds to the red value, the second for green, the third for blue, and the fourth for the alpha overchannel. It is possible to set up to four of these currently in **Incari**.
+
+#### Booleans
+
+![](../../.gitbook/assets/uniformsbools.png)
+
+These **Attributes** set the values for **Bools**. This can be used to execute a certain condition in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**.
+
+
 
 ## External Links
 
