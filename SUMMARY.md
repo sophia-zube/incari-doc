@@ -406,6 +406,8 @@
     * [Pause Lottie](toolbox/incari/lottie/pause-lottie.md)
     * [Play Lottie](toolbox/incari/lottie/play-lottie.md)
     * [Stop Lottie](toolbox/incari/lottie/stop-lottie.md)
+  * [Material](toolbox/incari/material/README.md)
+    * [Set Custom Uniform](toolbox/incari/material/setcustomuniforms.md)
   * [Media](toolbox/incari/media/README.md)
     * [Get Volume](toolbox/incari/media/getvolume.md)
     * [Is Media Playing](toolbox/incari/media/ismediaplaying.md)
