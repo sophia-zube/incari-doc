@@ -16,8 +16,8 @@ Once finished with any *2D* aspects for that particular **Scene2D**, the user th
 
 To create an **Overlay Object**, either click the plus icon in the **Scene Outliner** or right-click in the **Scene Outliner**, hover over `Create`, and locate **Overlay**.
 
-![](../../.gitbook/assets/createoverlay1.png)
-![](../../.gitbook/assets/createoverlay2.png)
+![](../../.gitbook/assets/overlayimage3.png)
+![](../../.gitbook/assets/overlayimage4.png)
 
 In the **Attribute Editor**, the desired **Scene2D** simply needs to be selected from the drop-down Menu of `2D Scene` under the `Overlay` **Attribute**. 
 

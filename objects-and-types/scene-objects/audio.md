@@ -7,9 +7,9 @@ In this version of **Incari Studio** only `.mp3` files are supported.
 To create an **Audio Object**, either click the plus icon in the **Scene Outliner** or right-click in the **Scene Outliner**, hover over `Create`, and locate **Audio**.
 
 
-![Create Audio Object with Plus Icon.](../../.gitbook/assets/createaudio1.png)
+![Create Audio Object with Plus Icon.](../../.gitbook/assets/audioimage1.png)
 
-![Create Audio Object with Right-Click and Create.](../../.gitbook/assets/createaudio2.png)
+![Create Audio Object with Right-Click and Create.](../../.gitbook/assets/audioimage2.png)
 
 When an **Audio Object** is created, it is initially empty. Also, there is no visual component displayed in the **Scene**, even when a file is selected.
 
