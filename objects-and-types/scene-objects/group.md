@@ -17,15 +17,15 @@ There are a couple of ways to create **Groups**.
 
 * Locate the drop-down Menu by clicking the plus-sign in the **Scene Outliner**. Then click **Group** and add any other **Objects** to it. 
 
-![Creating Groups with the Drop-Down Menu.](../../.gitbook/assets/sceneobjectsgroupimage1.gif)
+![Creating Groups with the Drop-Down Menu.](../../.gitbook/assets/groupgif1.gif)
 
 * Select multiple **Objects** and right-click on `Create`. Select **Group**. 
 
-![Creating Groups from Multiple Objects.](../../.gitbook/assets/sceneobjectsgroupimage2.gif)
+![Creating Groups from Multiple Objects.](../../.gitbook/assets/groupgif2.gif)
 
 * Right-click inside the **Scene** **Outliner**, select `Create` from the pop-up, and click on **Group**. Now **Objects** can be added one-by-one.
 
-![Creating a Group and Adding Objects.](../../.gitbook/assets/groupscreate2real.gif)
+![Creating a Group and Adding Objects.](../../.gitbook/assets/groupgif3.gif)
 
 ## Delete
 

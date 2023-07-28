@@ -10,11 +10,11 @@ This **Node** appears after a particular process. The user requires access to th
 
 After clicking on the **Incari Studio** folder, its files should look something like this: 
 
-![Incari Studio Folder Example.]()
+![Incari Studio Folder Example.](../../.gitbook/assets/logicplugin1.png)
 
 Locate the `PluginExample` folder. Copy that to the `Documents` folder on your device.
 
-![Locating and Copying the PluginExample Folder.]()
+![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/logicplugins2.gif)
 
 
 Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` as directory. This can be done by using the command `cd file\path`.
@@ -27,7 +27,7 @@ Here, copy everything exactly and replace `file\path` with the file path to wher
 
 The resulting output of the above command is as follows:
 
-![Output of First CMake Command.]()
+![Output of First CMake Command.](../../.gitbook/assets/logicplugin3.png)
 
 The second crucial command to run is:
 
@@ -35,11 +35,17 @@ The second crucial command to run is:
 
 When this command has finished running, the user can check back in the `PluginExample` folder that everything executed properly.
 
-![Checking for output Folder.]()
+![Checking for output Folder.](../../.gitbook/assets/logicplugin4.png)
 
-This `output` folder needs to be copied into the `plugins` folder of the user's **Incari Studio**. 
+The contents of the `output` folder (`plugins`) needs to be copied into the installation folder of the user's **Incari Studio**. 
 
-![Copying the output Folder to the plugins Folder.]()
+![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/logicplugins6real.gif)
+
+Now it's time to open **Incari Studio**. When it's up and running, the user can check that the **Plugins** and the **Logic Editor** have the new data created during the previous process. 
+
+![Logic in Plugins.](../../.gitbook/assets/logicpluginresultplugins.png)
+
+![New Node in Logic Editor.](../../.gitbook/assets/logicpluginresultnode.png)
 
 ## Contents
 

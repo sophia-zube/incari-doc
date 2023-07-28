@@ -8,7 +8,7 @@ There are two ways to create a **Nested Prefab**. One is creating a new **Prefab
 
 To create a **Nested Prefab** using a new **Prefab**, go to the **Prefab View** of the **Prefab** in which you wish to include another **Prefab**. Then select the **Objects** that will compose the **Nested Prefab**, right-click and click on `Make prefab`. Then, save the **Prefab** and the change will take effect on all of its **Instances**. Additionally, the newly created **Prefab** will generate its **Prefab Asset** and can also be used as any other **Prefab**.
 
-![](../../.gitbook/assets/prefabnested1.gif)
+![](../../.gitbook/assets/nestingprefabsgif1.gif)
 
 ## Using an existing Prefab
 

@@ -11,7 +11,7 @@ There are several **Vector Objects** that are described below:
 * [**Rectangle**](vector.md#rectangle)
 * [**Svg**](vector.md#svg)
 
-![Vector Objects](../../.gitbook/assets/sceneoutlinercreatevectorwithout2d.png)
+![Vector Objects](../../.gitbook/assets/vectoreimage.png)
 
 ## Arc
 

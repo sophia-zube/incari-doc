@@ -10,8 +10,8 @@ To create a **Lottie Sprite Object**, simply click the plus icon at the top of t
 <figure><img src="../../.gitbook/assets/createlottiesprite2.png" alt=""><figcaption><p>Create Lottie Sprite Object with Right-Click and Create.</p></figcaption></figure>
 </div> -->
 
-![Create Lottie Sprite Object with Plus Icon.](../../.gitbook/assets/createlottiesprite1.png)
-![Create Lottie Sprite Object with Right-Click and Create.](../../.gitbook/assets/createlottiesprite2.png)
+![Create Lottie Sprite Object with Plus Icon.](../../.gitbook/assets/lottieimage1.png)
+![Create Lottie Sprite Object with Right-Click and Create.](../../.gitbook/assets/lottieimage2.png)
 
 While the **Lottie Sprite Object** has several **Attributes** that alter its visual aspects, the most important is the `File` under `Lottie`. Here the user can select a `.lottie` file that has been placed in the **Asset Folder** of the **Project**. 
 
