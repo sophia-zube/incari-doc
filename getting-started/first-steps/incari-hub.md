@@ -50,6 +50,13 @@ Please note that if an existing **Project** was made with a previous version of 
 
 ![Application: Incari Studio Installed](../../.gitbook/assets/incari-install-installed_20231.png)
 
+### Incari Player
+
+With *Incari Player*, one can add specific versions of the **Incari Player** for different platforms. This is essential to successfully export **Projects** which utilize different *target* platforms, such as *Linux*. The **Incari Player** added should match the *target* type selected in the [**Exporter**](../../modules/exporter.md).
+
+![Applications: Incari Player](../../.gitbook/assets/incarihubincariplayer.png)
+
+
 ## Community
 
 ### Documentation

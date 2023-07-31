@@ -106,9 +106,9 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 
 ## Contents
 
-* [**GUI**](gui/README.md)
-* [**Vector**](vector2d.md)
 * [**Camera**](camera2d.md)
 * [**Frame**](frame.md)
+* [**GUI**](gui/README.md)
 <!-- * [**Group**](group2d.md) -->
 * [**Image**](image.md)
+* [**Vector**](vector2d.md)
