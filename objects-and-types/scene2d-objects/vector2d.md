@@ -10,7 +10,7 @@ There are several **Vector Objects** that are described below:
 * [Rectangle](vector2d.md#rectangle)
 * [Pie](vector2d.md#sector)
 
-![Vector Objects in Scene2D](../../.gitbook/assets/vector2dexample.png)
+![Vector Objects in Scene2D](../../.gitbook/assets/vector2dorderredo.png)
 
 ## Arc
 
