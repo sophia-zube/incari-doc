@@ -25,7 +25,7 @@ There are a couple of ways to create **Groups**.
 
 * Right-click inside the **Scene** **Outliner**, select `Create` from the pop-up, and click on **Group**. Now **Objects** can be added one-by-one.
 
-![Creating a Group and Adding Objects.](../../.gitbook/assets/groupgif3.gif)
+![Creating a Group and Adding Objects.](../../.gitbook/assets/groupgif3realreal.gif)
 
 ## Delete
 
