@@ -30,13 +30,15 @@ The `List` **Attributes** provide crucial data for a **List Object**. When `Adva
 
 ![List Attributes: Advanced Mode On.](../../../.gitbook/assets/list2dadvanced.png)
 
-The `Active Index` **Attribute** decides which item is currently active in the **List**.
+* The `Active Index` **Attribute** decides which item is currently active in the **List**.
 
-`Advanced Mode` determines whether `Entries` or `JSON File` will appear in the **Attributes**.
+* `Advanced Mode` determines whether `Entries` or `JSON File` will appear in the **Attributes**.
 
-`Entries` allows the user to add the elements of the **List**. 
+* `Entries` allows the user to add the elements of the **List**. 
 
-The `JSON File` contains more specific data of the **List** and allows the user to have more control. For example, a *JSON* file could contain something like this:
+Thus there are two ways to populate a **List**: 
+
+* When `Advanced Mode` is toggled on, the `JSON File` **Attribute** appears. The `JSON File` contains more specific data of the **List** and allows the user to have more control. For example, a *JSON* file could contain something like this:
 
 
 ```
@@ -55,14 +57,15 @@ The `JSON File` contains more specific data of the **List** and allows the user 
     }
 ]
 ```
-This results in a **List** that appears like this (with some other visual **Attributes** changed):
+
+* When `Advanced Mode` is toggled off, the `Entries` are visible. The user can manually input each **List** entry one by one. 
+  
+  ![Example List Entries with Icons.](../../../.gitbook/assets/listlistattsnotadvancedwithdata.png)
+
+
+These two processes result in a **List** that appears like this (with some other visual **Attributes** changed):
 
 ![](../../../.gitbook/assets/listexample2.png)
-
-
-
-
-
 
 
 ### List Item
