@@ -6,7 +6,7 @@ The **(JSON) Scale Vector Node** scales a **Vector3** by the **Float** value giv
 
 For example, if a vector of `[2,3,6]` were inputted and the given scaling value were `4`, the resulting `vector` would be `[8,12,24]` and the `norm` would be `28`. 
 
-Please note that this **Node** appears only when the **Logic Plugin** example is followed, the instructions of which can be found [here.](../plugins/README.md#example). It will also disappear when the **Plugin** is deactivated in the **Plugin Module**.
+Please note that this **Node** appears only when the **Logic Plugin** example is followed, the instructions of which can be found [here](../plugins/README.md#example). It will also disappear when the **Plugin** is deactivated in the **Plugin Module**.
 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**.

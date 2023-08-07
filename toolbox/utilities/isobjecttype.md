@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Object Type Node.](../../.gitbook/assets/node-is-object-type2.png)
+![The Is Object Type Node.](../../.gitbook/assets/isobjecttypeupdatedimage.png)
 
 The **Is Object Type Node** returns *true* or *false* depending on whether or not the input **Object** matches the `Object Type`.
 

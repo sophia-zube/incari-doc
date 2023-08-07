@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Is Data Type Node.](../../.gitbook/assets/node-is-float-type2.png)
+![The Is Data Type Node.](../../.gitbook/assets/isfloattypeupdatedimage.png)
 
 The **Is Data Type Node** returns *true* or *false* depending on whether or not the input matches the `Data Type`.
 

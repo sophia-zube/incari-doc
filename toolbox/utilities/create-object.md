@@ -1,6 +1,6 @@
 # Overview
 
-![The Create Object Node.](../../.gitbook/assets/node-create-object2.png)
+![The Create Object Node.](../../.gitbook/assets/creatobjectupdatedimage.png)
 
 The **Create Object** **Node** creates [**Scene Objects**](../../objects-and-types/scene-objects/README.md) of a chosen **Object Type**.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Color Value Node.](../../.gitbook/assets/node-color-value2.png)
+![The Color Value Node.](../../.gitbook/assets/colorvalueupdatedimage.png)
 
 The **Color Value Node** returns the `Value` of a **Color Variable** or the **Default** `Value` set in the **Attributes**.
 
