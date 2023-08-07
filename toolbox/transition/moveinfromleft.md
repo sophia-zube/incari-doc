@@ -8,7 +8,7 @@ The **MoveInFromLeft Node** applies a **Transition** to the chosen **Scene**. St
 
 # Attributes
 
-![The MoveInFromLeft Node Attributes**](../../.gitbook/assets/moveinfromleft.png)
+![The MoveInFromLeft Node Attributes**](../../.gitbook/assets/moveinfromleftupdatedimage.png)
 
 |Attribute|Type|Description|
 |---|---|---|

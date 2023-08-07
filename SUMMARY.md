@@ -56,7 +56,7 @@
 * [Prefabs](objects-and-types/prefabs/README.md)
   * [Creating and Using Prefabs](objects-and-types/prefabs/creatingandusingprefabs/README.md)
     * [Prefabs in Scenes](objects-and-types/prefabs/creatingandusingprefabs/3D.md)
-    * [Prefabs in Scenes2Ds](objects-and-types/prefabs/creatingandusingprefabs/2D.md)
+    * [Prefabs in Scene2Ds](objects-and-types/prefabs/creatingandusingprefabs/2D.md)
   * [Logic in Prefabs](objects-and-types/prefabs/logic-prefabs.md)
   * [Nested Prefabs](objects-and-types/prefabs/nested-prefabs.md)
 * [Attributes](objects-and-types/attributes/README.md)

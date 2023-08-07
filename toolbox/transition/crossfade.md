@@ -1,6 +1,6 @@
 # Overview
 
-![The CrossFade Node.](../../.gitbook/assets/crossfade.png)
+![The CrossFade Node.](../../.gitbook/assets/crossfadeupdatedimage.png)
 
 The **CrossFade** **Node** creates a **Transition** between **Scenes** with a cross-fade. It receives as inputs the **Scene** to **Transition** to, the **Screen** in which the **Transition** will take place, and the duration of the **Transition**.
 
