@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Function Input Node.](../../../.gitbook/assets/functioninputnode.png)
+![The Function Input Node.](../../../.gitbook/assets/functioninputnodeupdatedimage.png)
 
 In the **Function's** **Logic Graph**, the **Function Input** **Node** starts the **Logic Branch** and outputs the parameter received by the **Function** **Node**.
 
