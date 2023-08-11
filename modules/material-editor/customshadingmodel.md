@@ -115,11 +115,13 @@ Here, the user can set the values for several variables. These variables corresp
 
 Please note that for the `Uniforms` to have any effect, the names in the files must match the **Attribute** names seen here in the `Custom Shading Model`. 
 
+![Custom Shading Model Example.](../../.gitbook/assets/customshaderexample2.png)
+
 #### Channels
 
 ![](../../.gitbook/assets/uniformschannels.png)
 
-These **Attributes** can take any file that is an image or *texture map*. With these, it is possible to add other textures and/or visual components to the already existing **Material**. The user could switch between to *texture* *maps*, for example. It is possible to set up to four of these currently in **Incari**. 
+These **Attributes** can take any file that is an image or *texture map*. With these, it is possible to add other textures and/or visual components to the already existing **Material**. The user could switch between two *texture* *maps*, for example. It is possible to set up to four of these currently in **Incari**. 
 
 #### Integers
 

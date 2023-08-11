@@ -34,7 +34,8 @@ The `List` **Attributes** provide crucial data for a **List Object**. When `Adva
 
 * `Advanced Mode` determines whether `Entries` or `JSON File` will appear in the **Attributes**.
 
-* `Entries` allows the user to add the elements of the **List**. 
+* `Entries` allows the user to add the elements of the **List** and is only visible when `Advanced Mode` is toggled off.
+* The `JSON File` contains all the information for the **List** when `Advanced Mode` is toggled on. 
 
 Thus there are two ways to populate a **List**: 
 
@@ -74,17 +75,17 @@ These two processes result in a **List** that appears like this (with some other
 
 The `List Item` **Attributes** provide crucial data for a **List Object's** items.
 
-* `Height` decides the space between each segement of the list (the total vertical space of an item).
+* `Height` decides the space between each segment of the list (the total vertical space of an item) in pixels.
 * `Background Color` decides the background color of the **List's** items.
 * `Use Icon` toggles the visibility of any icons in the **JSON** file on or off. Please note, for icon images the absolute path on one's local machine must be used. 
-* `Icon Size` determines the size of the icons.
+* `Icon Size` determines the size of the icons in pixels.
 
 
 ### Separator
 
 ![Separator Attributes.](../../../.gitbook/assets/listitemseparator.png)
 
-* `Size` chooses the thickness of the separators, which are the lines between **List** items. 
+* `Size` chooses the thickness of the separators, which are the lines between **List** items, in pixels. 
 * `Color` determines the color of the separators. 
 
 ### Text
@@ -98,7 +99,7 @@ The `Text` **Attributes** customize the textual elements of a **List**.
 * `Color` decides the color of the **List's** text.
 * `Alignment` sets the alignment of the text. This is either left, right, or center.
 
-* `Transform` can easily change certain text aesthetics without requiring the user to change the `Options` **Attributes** themselves. `Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase.  
+* `Transform` can easily change certain text aesthetics. `Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase.  
 
 <!--* `Font size (px)` determines the size of the font in pixels.-->
 
