@@ -17,7 +17,7 @@ Locate the `PluginExample` folder within the `sdk` folder. Copy that to the `Doc
 
 This is necessary if the user does not have permission to write to `C:/Program Files`. If the user has administrative rights and can use these when using the *Windows PowerShell* (more on that below), they do not have to copy anything over to `Documents` and can follow this process in place. Similarly, if **Incari Studio** was installed somewhere that a non-administrative user has rights to, like the `Documents` folder, everything can be done in place as well. 
 
-![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/logicplugins2.gif)
+![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/pluginsgif1.gif)
 
 
 Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` as directory. This can be done by using the command `cd file\path`.
@@ -42,7 +42,7 @@ When this command has finished running, the user can check back in the `PluginEx
 
 The contents of the `output` folder (`plugins`) needs to be copied into the installation folder of the user's **Incari Studio**. 
 
-![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/logicplugins6real.gif)
+![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/pluginsgif2.gif)
 
 Now it's time to open **Incari Studio**. When it's up and running, the user can check that the **Plugins** and the **Logic Editor** have the new data created during the previous process. 
 

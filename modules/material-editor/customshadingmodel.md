@@ -103,15 +103,15 @@ The *uv coordinates* can be obtained by using:
 
 ### Uniforms
 
-**Incari** makes it possible for the user to change some variables during runtime. This can be done jointly with the [**Set Custom Uniform Node**]().
+**Incari** makes it possible for the user to set values in **Fragment** and **Vertex Shader** files. This can also be done on runtime by using the [**Set Custom Uniform Node**](../../toolbox/incari/material/setcustomuniforms.md).
 
 Here, the user can set the values for several variables. These variables correspond to those present in the files given in the *shaders*. There are five types of variables:
 
 * [Channels](#channels)
 * [Integers](#integers)
 * [Floats](#floats)
-* [Vectors]()
-* [Booleans]()
+* [Vectors](#vectors)
+* [Booleans](#booleans)
 
 Please note that for the `Uniforms` to have any effect, the names in the files must match the **Attribute** names seen here in the `Custom Shading Model`. 
 
