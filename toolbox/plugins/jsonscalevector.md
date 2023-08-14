@@ -24,12 +24,14 @@ Please note that this **Node** appears only when the **Logic Plugin** example is
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`norm`|**Float**|The calculated Euclidean norm of the resulting scaled vector.|
+|`norm`|**Float**|The calculated Euclidean norm of the resulting scaled **Vector3**.|
 |`vector`|**Vector3**|The resulting scaled **Vector3**.|
 
 
 
+# External Links
 
+* More on the [*Euclidean norm*.](https://en.wikipedia.org/wiki/Norm_(mathematics)#Euclidean_norm)
 
 
 
