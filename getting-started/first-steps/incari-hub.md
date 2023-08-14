@@ -9,6 +9,7 @@ On the left-side Menu, there are several sections. We will go through each, one 
   * [Remote Projects](incari-hub.md#remote-projects)
 * [Applications](incari-hub.md#applications)
   * [Incari Studio](incari-hub.md#incari-studio)
+  * [Incari Player](incari-hub.md#incari-player)
 * [Community](incari-hub.md#community)
   * [Documentation](incari-hub.md#documentation)
   * [Forum](incari-hub.md#forum)
@@ -55,6 +56,13 @@ Please note that if an existing **Project** was made with a previous version of 
 With *Incari Player*, one can add specific versions of the **Incari Player** for different platforms. This is essential to successfully export **Projects** which utilize different *target* platforms, such as *Linux*. The **Incari Player** added should match the *target* type selected in the [**Exporter**](../../modules/exporter.md).
 
 ![Applications: Incari Player](../../.gitbook/assets/incarihubincariplayer.png)
+
+
+After adding a **Player**, it will appear like this in the **Hub**:
+
+![Applications: Incari Player Added](../../.gitbook/assets/incariplayerafterdownloadexample.png)
+
+The user then has the option to remove a **Player** by clicking the trash icon to the right.
 
 
 ## Community

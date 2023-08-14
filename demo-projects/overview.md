@@ -12,4 +12,4 @@ The available **Demo Projects** are:
 * [**Image Sequence Button Animation**](image-sequence-button-animation.md)
 * [**Prefabs**](prefabs-demo.md)
 * [**Project Initialization**](project-initialization.md)
-<!-- * [**Custom Keyboard**](keyboard.md) -->
+* [**Custom Keyboard**](keyboard.md) 
