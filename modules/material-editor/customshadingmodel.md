@@ -16,7 +16,7 @@ All these **Attributes** are described in greater detail below.
 
 ![Material](../../.gitbook/assets/customshadingmodel2.png)
 
-This **Attribute** provides the `Name` of the **Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on.
+This **Attribute** provides the `Name` of the **Custom Material** as well as the `Shading model` type. It also sets the `Alpha` value if it is toggled on.
 
 The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background and foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a semi-translucent quality.
 
@@ -105,7 +105,9 @@ The *uv coordinates* can be obtained by using:
 
 **Incari** makes it possible for the user to set values in **Fragment** and **Vertex Shader** files. This can also be done on runtime by using the [**Set Custom Uniform Node**](../../toolbox/incari/material/setcustomuniforms.md).
 
-Here, the user can set the values for several variables. These variables correspond to those present in the files given in the *shaders*. There are five types of variables:
+Here, the user can set the values for several variables. These variables correspond to those present in the files given in the *shaders*. Please note that *shaders* should be conform to the [*GLSL_ES*](https://www.khronos.org/files/opengles_shading_language.pdf) standards.
+
+There are five types of variables:
 
 * [Channels](#channels)
 * [Integers](#integers)
@@ -121,13 +123,27 @@ Please note that for the `Uniforms` to have any effect, the names in the files m
 
 ![](../../.gitbook/assets/uniformschannels.png)
 
-These **Attributes** can take any file that is an image or *texture map*. With these, it is possible to add other textures and/or visual components to the already existing **Material**. The user could switch between two *texture* *maps*, for example. It is possible to set up to four of these currently in **Incari**. 
+These **Attributes** can take any file that is an image or *texture map*. With these, it is possible to add other textures and/or visual components to the already existing **Custom Material**. It is possible to set up to four of these currently in **Incari**. 
+
+For example, the user could switch between two *texture* *maps*. After setting *textures* for `iChannel1` and `iChannel2`, the code for the `Fragment Shader` could use these in an *if/else* statement:
+
+```
+if( iBool0 ) {
+fragColor = texture( iChannel1 , uv );
+}
+else
+{
+fragColor = texture( iChannel2 , uv );
+}
+```
+
+
 
 #### Integers
 
 ![](../../.gitbook/assets/uniformsints.png)
 
-These **Attributes** set the values for **Ints**. This can be used to set one or several values for a specific **Vector4** in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**. 
+These **Attributes** set the values for **Ints**. This can be used to set the `x`, `y`, `z` , and/or `w` values for a **Vector4** in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**. 
 
 #### Floats
 
@@ -145,7 +161,7 @@ These **Attributes** set the values for **Vector4s**. This can be used to set ce
 
 ![](../../.gitbook/assets/uniformsbools.png)
 
-These **Attributes** set the values for **Bools**. This can be used to execute a certain condition in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**.
+These **Attributes** set the *true* or *false* values for **Bools**. This can be used to execute a certain condition in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**.
 
 
 

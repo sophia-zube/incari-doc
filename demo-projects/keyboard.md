@@ -2,9 +2,9 @@
 
 ## Overview 
 
-In most apps that require user input, keyboards are a necessary component vital to the user. That is why, as a comprehensive *HMI* creation solution, **Incari Studio** comes pre-equipped with an [**On-Screen Keyboard**](../objects-and-types/scene-objects/3dobjects/onscreenkeyboard.md).
+In most applications that require user input, keyboards are a necessary component vital to the user. That is why, as a comprehensive *HMI* creation solution, **Incari Studio** comes pre-equipped with an [**On-Screen Keyboard**](../objects-and-types/scene-objects/3dobjects/onscreenkeyboard.md).
 
-However, thanks to the advanced customization options in Incari Studio, it is now possible for one to configure their own keyboard. This takes things a step further and provides the opportunity for more personal and unique designs. 
+However, thanks to the advanced customization options in **Incari Studio**, it is now possible for one to configure their own keyboard. This takes things a step further and provides the opportunity for more personal and unique designs. 
 
 This **Demo Project** aims to instruct on the following:
 
@@ -14,26 +14,25 @@ This **Demo Project** aims to instruct on the following:
 
 3. Clarifying how to alter its **Style** **Attribute** using *Cascading Style Sheets (CSS)*.
 
-Use the complete power of Incari Studio
 
 | :warning: | **Before you start** |
 | --------- | -------------------- |
 
-To follow along with this guide, you will need to be running **Incari Studio** version 2023.1 or higher. [Download now](https://www.incari.com/incari-studio/). Also, to follow along, you can download this project using this link.
+This **Demo Project** can be downloaded in the [**Hub**](../getting-started/first-steps/incari-hub.md#remote-projects)
 
 ## 1. Using the On-Screen Keyboard
 
-![Creating an On-Screen Keyboard.](../.gitbook/assets/image-20220621-082828.png)
+![Creating an On-Screen Keyboard.](../.gitbook/assets/keyboardproject1.png)
 
 Simply start by creating a new **On-Screen Keyboard Object** by following `Create > On-Screen Keyboard` in the **Scene Outliner**.
 
 Click on this new **Object** and go to the **Attribute Editor**. Here one can see the **Object's** general **Attributes** as well as those which enable one to modify the `Layout`, `Style`, and `Text` properties of the **On-Screen Keyboard**.
 
-To start with, set the size under `Web Resource > Size (unit)` to `x = 1366`, `y = 580` and `z = 1`. Also, for now, the `Layout` **Attribute** can be set to `English`.
+To start with, set the size under `Size` to `x = 1366`, `y = 580` and `z = 1`. Also, for now, the `Layout` **Attribute** can be set to `English`.
 
 ## 2. Utilizing Custom Layouts
 
-**Incari Studio** now supports custom layouts for **On-Screen Keyboard** **Objects**. First, create a `layout` file called `english_custom` to utilize throughout the course of this project.
+**Incari Studio** now supports custom layouts for **On-Screen Keyboard** **Objects**. First, create a `Keyboard Layout` **Asset** file called `english_custom` to utilize throughout the course of this project.
 
 ![Creating the Layout File](../.gitbook/assets/create_layout.gif)
 
@@ -45,7 +44,7 @@ To use these layouts with the **On-Screen Keyboard Object** that has just been c
 
 ### 1) Creating Custom Keys
 
-Custom keys to your keyboard or change the way that stock buttons like `alt`, `backspace`, or `capslock` are rendered, you can simply do so by adding a definition under the `display` dictionary within the **Code Editor**.
+To add Custom keys to your keyboard or change the way that stock buttons like `alt`, `backspace`, or `capslock` are rendered, you can simply do so by adding a definition under the `display` dictionary within the **Code Editor**.
 
 For instance, in order to have the `Caps Lock` key rendered as `caps`,one would need to input the following code:
 
@@ -58,7 +57,7 @@ For instance, in order to have the `Caps Lock` key rendered as `caps`,one would 
 
 ```
 
-Of course, this feature can be used to avoid duplicating hard-to-use symbols or *codepoints* throughout the layout. For instance, to use the symbol ⇪ for the `Caps Lock` key, you could simply add `{lock}` to your layouts and simply define it with a codepoint under the `display` dictionary as follows:
+Of course, this feature can be used to avoid duplicating hard-to-use symbols or *codepoints* throughout the layout. For instance, to use the symbol ⇪ for the `Caps Lock` key, you could simply add `{lock}` to your layouts and define it with a codepoint under the `display` dictionary as follows:
 
 ```
 "{lock}": "&#xF223"
@@ -66,7 +65,7 @@ Of course, this feature can be used to avoid duplicating hard-to-use symbols or 
 
 ### 2) Creating Custom Sub-Layouts
 
-Of course, using the `custom_layouts` dictionary, one can add new sub-layouts and switch to them using custom keys. For any sub-layout “X”, adding a key named “showX” initiates the switch to the new sub-layout. Of course, this key can be rendered in any seen fit by the designer.
+Using the `custom_layouts` dictionary, one can add new sub-layouts and switch to them using custom keys. For any sub-layout “X”, adding a key named “showX” initiates the switch to the new sub-layout. Of course, this key can be rendered in any way seen fit by the designer.
 
 For example, one might want to add a key to the default sub-layout that would make it switch to a German QWERTZ keyboard. This German keyboard would, in turn, have a key to show the abbreviation for the current English layout. Our code would look like this:
 
@@ -210,7 +209,7 @@ input{
 
 ## 4. Adding Logic to Our Keyboard
 
-After having created a styled *On-Screen Keyboard* with its custom `layout` settings, it can now be used to dynamically alter the content on our screen. To demonstrate, one can start with a simple form. First, to make room for the extra content that will be added, resize our `Screen` in **Project Outliner** by changing the attributes `Screen size (px)` and `Resolution (px)` to `x= 1366, y=720` from within the **Attribute Editor**. 
+After having created a styled *On-Screen Keyboard* with its custom `layout` settings, it can now be used to dynamically alter the content on our screen. To demonstrate, one can start with a simple form. First, to make room for the extra content that will be added, resize our **Screen** in **Project Outliner** by changing the attribute `Size` to `x= 1366, y=720` from within the **Attribute Editor**. 
 
 Then, add the file `background.png` from the **Asset Manager**. After that, set the `Sort Index` for the **On-Screen Keyboard** to `1`, and the `Position` attribute to `x=0, y=-105, z=1`.
 
@@ -277,7 +276,7 @@ In order to know when the form is submitted, use another custom **Event** called
 
 ### 4) Data Manipulation
 
-Finally, to reflect the gathered data on our screens, we are *concating* our two *strings* and setting the corresponding value to our **Text** **Object** called `Full-name`. Also, to get the form ready for next use, we are resetting the values of the `Name` and `Surname` **Text** **Objects**.
+Finally, to reflect the gathered data on our screens, we are *concatenating* our two *strings* and setting the corresponding value to our **Text** **Object** called `Full-name`. Also, to get the form ready for next use, we are resetting the values of the `Name` and `Surname` **Text** **Objects**.
 
 ![Data Manipulation.](../.gitbook/assets/image-20220624-084957.png)
 

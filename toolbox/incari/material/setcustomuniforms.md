@@ -2,7 +2,7 @@
 
 ![The Set Custom Uniform Node.](../../../.gitbook/assets/setcustomuniform.png)
 
-The **Set Custom Uniform Node** allows the user to set values for a **Material's** `Uniforms` **Attributes**, which are found specifically in the [**Custom Shading Model**](../../../modules/material-editor/customshadingmodel.md).
+The **Set Custom Uniform Node** allows the user to set values for a **Custom Material's** `Uniforms` **Attributes**, which are found specifically in the [**Custom Shading Model**](../../../modules/material-editor/customshadingmodel.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**
 
