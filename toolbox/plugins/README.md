@@ -7,7 +7,7 @@ The **Plugins** **Nodes** appear once a **Logic Plugin** is activated. This proc
 
 # Example 
 
-The example **Logic Plugin** that is shipped with **Incari** and it includes one **Node**: the [**Scale Vector Node**](jsonscalevector.md). This **Node** appears after a particular process. The user requires access to the *Windows PowerShell* and the folder in which their **Incari Studio** appears, along with all its files. The user will also need to install [*CMake*](https://cmake.org/) and make sure it is added to PATH upon installation. 
+The example **Logic Plugin** is shipped with **Incari** and includes one **Node**: the [**Scale Vector Node**](jsonscalevector.md). This **Node** appears after a particular process. The user requires access to the *Windows PowerShell* and the folder in which their **Incari Studio** appears, along with all its files. The user will also need to install [*CMake*](https://cmake.org/) and make sure it is added to PATH upon installation. 
 
 After clicking on the **Incari Studio** folder, its files should look something like this: 
 
