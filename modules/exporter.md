@@ -87,7 +87,7 @@ To set up *WSL*, follow these steps:
 
 1. Either on *Windows PowerShell* or *Command Prompt*, run the following *command*: `wsl --install`. This will install *WSL* and the latest *Ubuntu* version.
 2. Restart *Windows*.
-3. Go to the *Microsoft Store* and install *Ubuntu 20.04* or run on the *PowerShell* or *Command Prompt* the following command: `wsl --install -d Ubuntu-22.04`.
+3. Go to the *Microsoft Store* and install *Ubuntu 22.04* or run on the *PowerShell* or *Command Prompt* the following command: `wsl --install -d Ubuntu-22.04`.
 4. Enter your credentials in the pop-up window that appears. If it does not appear, run the command `wsl` on the *PowerShell* or *Command Prompt* and enter your credentials.
 5. Set-up *Ubuntu 22.04* as the default *distribution* by running the command `wsl --set-default Ubuntu-22.04` on the *PowerShell* or *Command Prompt*.
 
@@ -95,7 +95,7 @@ To set up *WSL*, follow these steps:
 
 For exporting to a different *Target Platform* than the *Host*, a *cross-compiled* version of **Incari Player** for the desired *Target* is necessary.
 
-Download **Incari Player** for the desired `Target` *platform* in the [*Applications*](../getting-started/first-steps/incari-hub.md#incari-player) section of [**Incari Hub**](../getting-started/first-steps/incari-hub.md).
+* Download **Incari Player** for the desired `Target` *platform* in the [*Applications*](../getting-started/first-steps/incari-hub.md#incari-player) section of [**Incari Hub**](../getting-started/first-steps/incari-hub.md).
 
 <!-- 1. Acquire **Incari Player** for the desired `Target` *platform* in the *Applications* section of [**Incari Hub**](../getting-started/first-steps/incari-hub.md). For this, an **Enterprise Account** is needed.
 1. Copy the *cross-compiled* version of **Incari Player** in the following location: `%AppData%\IncariStudio\CrossCompile\<target-triple>\Incari\IncariPlayer\<IncariStudio/Player-version>/`. 
@@ -146,7 +146,7 @@ For exporting just the **Project**, without a copy of **Incari Player**, run the
 
 * `IncariCLI.exe /p="<project-path>" /export /output="<export-folder-path>" /no-player /target=<target-triple>`.
 
-Where `<target-triple>` specifies the target environment:
+Where `<target-triple>` specifies the *Target Platform*:
 
 * Use `x86_64-linux-gnu` for *Linux x86-64*.
 * Use `aarch64-linux-gnu` for *Linux arm64*.
