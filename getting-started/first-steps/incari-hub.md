@@ -53,7 +53,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 ### Incari Player
 
-With *Incari Player*, one can add specific versions of the **Incari Player** for different platforms. This is essential to successfully export **Projects** which utilize different *target* platforms, such as *Linux*. The **Incari Player** added should match the *target* type selected in the [**Exporter**](../../modules/exporter.md).
+Under *Incari Player*, one can add specific versions of the **Incari Player** for different platforms. This is essential to successfully export **Projects** which utilize different *Target Platforms*, such as *Linux*. The **Incari Player** added should match the *Target* type eventually selected in the [**Exporter**](../../modules/exporter.md) (it must first be added in the **Hub** to be useable in the **Exporter** of a **Project**).
 
 ![Applications: Incari Player](../../.gitbook/assets/incarihubincariplayer.png)
 
