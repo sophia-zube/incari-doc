@@ -12,14 +12,14 @@ The **Set Custom Uniform Node** allows the user to set values for a **Custom Mat
 
 |Attribute|Type|Description|
 |---|---|---|
-|`CustomUniforms`|**MaterialID**|The **Material** whose `Uniforms` will be set, if one is not attached in the **Input Socket**.|
+|`CustomUniforms`|**MaterialID**|The **Custom Material** whose `Uniforms` will be set, if one is not attached in the **Input Socket**.|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Material ID`|**MaterialID**|The **Material** whose `Uniforms` will be set.|
+|`Material ID`|**MaterialID**|The **Custom Material** whose `Uniforms` will be set.|
 |`iChannelx`|**TextureID**|A *texture map* to set as a `Uniform`. The *x* refers to the identifying integer in the name, which can be 0, 1, 2, and 3.|
 |`iVec4x`|**Vector4**|A **Vector4** to set as a `Uniform`. The *x* refers to the identifying integer in the name, which can be 0, 1, 2, and 3.|
 |`iFloatx`|**Float**|A **Float** to set as a `Uniform`. The *x* refers to the identifying integer in the name, which can be 0, 1, 2, and 3.|
