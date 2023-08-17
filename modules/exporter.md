@@ -1,6 +1,6 @@
 # Exporter
 
-The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, **Exporter** can create a copy of **Incari Player** in the same folder. This makes it possible to save and run a **Project** without the need of **Incari Studio**.
+The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, the **Exporter** can create a copy of **Incari Player** in the same folder. This makes it possible to save and run a **Project** without the need of **Incari Studio**.
 
 There are two tabs in the **Exporter** **Module**: [**Settings**](#settings) and [**Deploy**](#deploy).
 
@@ -15,8 +15,7 @@ Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-
 
 ### General
 
-* `Target`: *Operating System* in whose **Incari Player** version the exported version of the **Project** will be played.
-
+* `Target`: *Operating System* where the exported **Project** will be played in the corresponding version of **Incari Player**. 
 ### Options
 
 * `Only Project`: Whether only the **Project** will be exported or the **Project** alongside a copy of **Incari Player**.
