@@ -20,13 +20,13 @@ This is necessary if the user does not have permission to write to `C:/Program F
 ![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/pluginsgif1.gif)
 
 
-Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` as directory. This can be done by using the command `cd file\path`.
+Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` as directory. This can be done by using the command `cd <file-path>`.
 
 Next, the user must use the following command:
 
-` cmake .. -G "Visual Studio 17 2022" -A x64 -DINCARI_DIR="file\path"` 
+` cmake .. -G "Visual Studio 17 2022" -A x64 -DINCARI_DIR="<file-path>"` 
 
-Here, copy everything exactly and replace `file\path` with the installation path of **Incari Studio**. This will likely be in the `Program Files` folder on your *Windows* device. 
+Here, copy everything exactly and replace `<file-path>` with the installation path of **Incari Studio**. This will likely be in the `Program Files` folder on your *Windows* device. 
 
 The resulting output of the above command is as follows:
 
