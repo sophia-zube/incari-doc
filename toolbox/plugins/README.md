@@ -13,7 +13,7 @@ After clicking on the **Incari Studio** folder, its files should look something 
 
 ![Incari Studio Folder Example.](../../.gitbook/assets/logicplugin1.png)
 
-Locate the `PluginExample` folder within the `sdk` folder. Copy that to the `Documents` folder on your device. 
+Locate the `PluginExample` folder within the `sdk` folder. If you do not have administrative privileges, copy that to a folder where you have all permissions, such as `Documents`. 
 
 This is necessary if the user does not have permission to write to `C:/Program Files`. If the user has administrative rights and can use these when using the *Windows PowerShell* (more on that below), they do not have to copy anything over to `Documents` and can follow this process in place. Similarly, if **Incari Studio** was installed somewhere that a non-administrative user has rights to, like the `Documents` folder, everything can be done in place as well. 
 
@@ -26,7 +26,7 @@ Next, the user must use the following command:
 
 ` cmake .. -G "Visual Studio 17 2022" -A x64 -DINCARI_DIR="file\path"` 
 
-Here, copy everything exactly and replace `file\path` with the file path to where **Incari Studio** is actually installed. This will likely be in the `Program Files` folder on your *Windows* device. 
+Here, copy everything exactly and replace `file\path` with the installation path of **Incari Studio**. This will likely be in the `Program Files` folder on your *Windows* device. 
 
 The resulting output of the above command is as follows:
 
@@ -40,7 +40,7 @@ When this command has finished running, the user can check back in the `PluginEx
 
 ![Checking for output Folder.](../../.gitbook/assets/logicplugin4.png)
 
-The contents of the `output` folder (`plugins`) needs to be copied into the installation folder of the user's **Incari Studio**. 
+The contents of the `output` folder (`plugins`) needs to be copied into the installation folder of the user's **Incari Studio**. Please note that elevated rights might be required to do so (depending on the actual installation path).
 
 ![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/pluginsgif2.gif)
 
