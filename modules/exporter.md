@@ -133,7 +133,7 @@ After exporting a **Project**, the export folder will have:
 * A `run.sh` file.
 * A folder with a copy of **Incari Player** for the desired `Target` (only if `Only Project` was set to *false*).
 
-The **Project** can then be started in the *Target Platform* by launching `run.sh`.
+The **Project** can then be started on the *Target Platform* by launching `run.sh`.
 
 It is also possible to export a **Project** from the command line. There are two cases, which are equivalent to whether the `Only Project` option is set to *true* or *false* in [**Settings**](#settings), when exporting from **Incari Studio**.
 
