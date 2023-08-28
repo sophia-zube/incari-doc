@@ -20,7 +20,7 @@ This is necessary if the user does not have permission to write to `C:/Program F
 ![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/pluginsgif1.gif)
 
 
-Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` (or the folder where the files were copied to) as directory. This can be done by using the command `cd <file-path>`.
+Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` (or the folder where the files were copied to) as directory. This can be done by using the command `cd <directory>`, where `<directory>` is the location of the `build` folder.
 
 Next, the user must use the following command:
 
