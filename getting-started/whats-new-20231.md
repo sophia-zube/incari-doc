@@ -4,9 +4,11 @@ Many new features have been added to the release of **Incari Studio** 2023.1. He
 
 ## Custom Shading
 
-The [**Material Editor**](../modules/material-editor/README.md) now includes a new shading model called the [**Custom Shading**](../modules/material-editor/customshadingmodel.md). It allows the user to create and customize their own shading model. This expands the possibilities for **Materials** in **Incari**. 
+The [**Material Editor**](../modules/material-editor/README.md) now includes a new shading model called the [**Custom Shading Model**](../modules/material-editor/customshadingmodel.md). It allows the user to create and customize their own shading model. This expands the possibilities for **Materials** in **Incari**. 
 
 The customization is done via `Vertex Shader` or `Fragment Shader`. 
+
+The new **Custom Shading Model** allows the user to set values in `Fragment` and `Vertex Shader` files via the **Attributes** or the [**Set Custom Uniform Node**](../toolbox/incari/material/setcustomuniforms.md).
 
 ![Custom Shading Example.](../.gitbook/assets/customshadingmodel.gif)
 
@@ -20,6 +22,12 @@ Furthermore, two **Nodes** for managing **Assets** in the **Asset Database** hav
 * [**Remove from Asset Database**](../toolbox/incari/asset/remove-from-asset-database.md)
 
 ![The Asset Database.](../.gitbook/assets/asset-db1.png)
+
+## Logic Plugins and Example
+
+**Incari** now lets the user create their own **Nodes** via a **Logic Plugin**. Currently, there is one example **Plugin** with one **Node**, the [**JSON (Scale) Vector**](../toolbox/plugins/jsonscalevector.md), that is available for the user to test out and learn the process with. The example can be found [here](../toolbox/plugins/README.md).
+
+![Logic Plugins](../.gitbook/assets/logicpluginresultplugins.png)
 
 
 ## 2D Workflow Update
@@ -104,7 +112,7 @@ The [**Exporter**](../modules/exporter.md) now allows the user to export a **Pro
 
 In addition, the **Exporter** offers the user the option to export only the used **Assets**, thus providing a way to export a **Project** using only the necessary resources. 
 
-![The Exporter updated.](../.gitbook/assets/exporterimage5update.png)
+![The Exporter updated.](../.gitbook/assets/add-target-update1.png)
 
 ## Communication Update
 
