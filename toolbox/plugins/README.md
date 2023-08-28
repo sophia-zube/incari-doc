@@ -15,12 +15,12 @@ After clicking on the **Incari Studio** folder, its files should look something 
 
 Locate the `PluginExample` folder within the `sdk` folder. If you do not have administrative privileges, copy that to a folder where you have all permissions, such as `Documents`. 
 
-This is necessary if the user does not have permission to write to `C:/Program Files`. If the user has administrative rights and can use these when using the *Windows PowerShell* (more on that below), they do not have to copy anything over to `Documents` and can follow this process in place. Similarly, if **Incari Studio** was installed somewhere that a non-administrative user has rights to, like the `Documents` folder, everything can be done in place as well. 
+This is necessary if the user does not have permission to write to `C:/Program Files`. If the user has administrative rights and can use these when using the *Windows PowerShell* (more on that below), they do not have to copy anything over to `Documents` (or some other folder where they have permissions) and can follow this process in place. Similarly, if **Incari Studio** was installed somewhere that a non-administrative user has rights to, like the `Documents` folder, everything can be done in place as well. 
 
 ![Locating and Copying the PluginExample Folder.](../../.gitbook/assets/pluginsgif1.gif)
 
 
-Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` as directory. This can be done by using the command `cd <file-path>`.
+Once that is done, open the *Windows PowerShell* and choose the file path pointing to the `PluginExample\build` in `Documents` (or the folder where the files were copied to) as directory. This can be done by using the command `cd <file-path>`.
 
 Next, the user must use the following command:
 
@@ -42,7 +42,7 @@ When this command has finished running, the user can check back in the `PluginEx
 
 The contents of the `output` folder (`plugins`) needs to be copied into the installation folder of the user's **Incari Studio**. Please note that elevated rights might be required to do so (depending on the actual installation path).
 
-![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/pluginsgif2.gif)
+![Copying the output Folder to the plugins Folder.](../../.gitbook/assets/pluginsgif2real.gif)
 
 Now it's time to open **Incari Studio**. When it's up and running, the user can check that the **Plugins** and the **Logic Editor** have the new data created during the previous process. 
 
