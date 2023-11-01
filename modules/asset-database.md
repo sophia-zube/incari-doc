@@ -94,7 +94,14 @@ By clicking on the magnifying glass on an **Asset** entry, this **Asset** will b
 
 ### Remove
 
-To remove an **Asset** from the **Asset Database**, click on the minus on the far right of an **Asset** entry.
+To remove an **Asset** from the **Asset Database**, click on the minus on the far right of an **Asset** entry. 
+
+If an **Asset** was not manually added to the **Asset Database** (it was added only by being present somewhere in a **Scene**), it will be removed when it is no longer used. For example, if a single **Sprite** uses some image and either the **Sprite** or image is deleted, the **Asset** in the **Asset Database** will be removed.
+
+However, if the **Asset** was manually dragged into the **Asset Database** and there are no current useages of the **Asset**, it will remain in the **Database** but the counter will reach 0. 
 
 ![](../.gitbook/assets/assetdb-remove.gif)
 
+### In Logic Editor
+
+All **Assets** in the **Asset Database** can be dragged to the **Logic Editor**. This will create a **Node** of the **Asset** which has one output that matches the *type* of the **Asset**. This allows the user to easily use any **Asset** in their **Logic**.
