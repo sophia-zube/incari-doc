@@ -654,3 +654,4 @@
 * [Project Initialization](demo-projects/project-initialization.md)
 <!--* [Widgets](demo-projects/widgets.md)-->
 * [On-Screen Keyboard](demo-projects/keyboard.md) 
+* [Skinnable Speedometer](demo-projects/skinnable-speedometer.md)
