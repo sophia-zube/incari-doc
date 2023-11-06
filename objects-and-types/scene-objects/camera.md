@@ -65,6 +65,22 @@ This **Attribute** is used to render the **Scene** from the viewpoint of the **C
 
 This **Attribute** can also be used to draw multiple **Scenes**, combine them, or bring them into another **Scene**.
 
+<!-- 
+### Render to Texture
+
+![](../../.gitbook/assets/rendertotextureatts2.png)
+
+When `Enable` is on and `Background Mode` is set to `Scene`, this **Attribute** is used to render the **Scene** from the viewpoint of the **Camera** into a texture. When enabled, the resulting texture is added to the **Asset Database** and can be used for all **Objects** which allow for textures (such as **Materials**, **Sprites**, or **Images**). It is removed again when the **Attribute** is disabled. 
+
+This **Attribute** can also be used to draw multiple **Scenes**, combine them, or bring them into another **Scene**.
+
+If `Background Mode` is set to `Transparent` every pixel that is part of the background is removed. 
+
+![Transparent versus Scene Background Modes.](../../.gitbook/assets/backgroundmodeexample.png)
+
+
+-->
+
 ## Player Mode
 
 The **Player Mode** shows what the **Player Camera** will show once the **Scene** starts playing. To access it, simply click `Player` on top of the **Viewport**. Then, to go back to the **3D View**, just click on `3D`:

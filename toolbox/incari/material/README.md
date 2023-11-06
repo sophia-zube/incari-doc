@@ -6,7 +6,9 @@ The **Material** **Node** gives the user more freedom to set certain aspects of 
 
 ## Contents
 
-* [**Set Custom Uniform**](setcustomuniforms.md)
+* [**Get Material Property**](getmaterialproperty.md)
+* [**Set Material Property**](setmaterialproperty.md)
+<!--* [**Set Custom Uniform**](setcustomuniforms.md)-->
 
 ## See Also
 
