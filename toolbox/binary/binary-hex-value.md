@@ -1,21 +1,22 @@
-# Binary \(Hex\) Value
+# Binary Value
 
 ## Overview
 
-![The Binary \(Hex\) Value Node.](../../.gitbook/assets/binaryhexvalueupdatedimage.png)
+![The Binary Value Node.](../../.gitbook/assets/binaryvaluenodetest.png)
 
-The **Binary \(Hex\) Value** generates a binary number represented as hexadecimal.
+The **Binary Value** stores the inputted value as bytes.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
 ## Attributes
 
-![The Binary \(Hex)\ Value Node Attributes.](../../.gitbook/assets/binaryvalueattributes.png)
+![The Binary Value Node Attributes.](../../.gitbook/assets/binaryvalueattstest.png)
 
 ### Default
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
+|`Base`|**Dropdown**|The form the inputted value takes. This can either be `Binary (Base2)` or `Hex (Base16)`. When `Binary (Base2)` is selected, only 1 and 0 are allowed in the `Value` **Attribute**. When `Binary (Base16)` is selected, only numbers from 0-9 and letters A-F are allowed in the `Value` **Attribute**. 
 | `Value` | **String** | The `Value` that the generated number will have. |
 
 ## Inputs
@@ -23,7 +24,7 @@ The **Binary \(Hex\) Value** generates a binary number represented as hexadecima
 | Input | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Input_ \(►\) | **Pulse** | A standard **Input Pulse**, to trigger the execution of the **Node**. |
-| `Input` | **Binary** | A binary number you wish to add to the **Binary \(Hex\) Value** **Node**. |
+| `Input` | **Binary** | A binary number you wish to add to the **Binary Value** **Node**. |
 
 ## Outputs
 
