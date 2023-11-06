@@ -6,6 +6,8 @@ The **Animation Editor** is used for creating and editing **Keyframe**-based tim
 
 ![](../.gitbook/assets/animationeditorimage1.png)
 
+The **Animation Editor** can be used to animate **Objects** in both **Scenes** and **Scene2Ds**.
+
 ## Animation Editor Window
 
 ![](../.gitbook/assets/animationeditorimage2.png)

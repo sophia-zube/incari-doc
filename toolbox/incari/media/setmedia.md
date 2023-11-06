@@ -23,5 +23,5 @@ The **Set Media Node** applies a given **Media Asset** to an **Object**. This is
 
 # See Also
 
-[**Get Media](getmedia.md)
+[**Get Media**](getmedia.md)
 
