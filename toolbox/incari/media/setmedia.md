@@ -13,7 +13,7 @@ The **Set Media Node** applies a given **Media Asset** to an **Object**. This is
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the **Object** that the **Media Asset** will be set to.|
-|`Media ID`|**MediaID**|The ID of the Media Asset.|
+|`Media ID`|**MediaID**|The ID of the **Media Asset**.|
 
 # Outputs
 
