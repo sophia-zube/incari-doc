@@ -1,15 +1,13 @@
+
 # Overview
 
-![The Onbluetoothdeviceunpaired Node.]()
+![The On Bluetooth Device Unpaired Node.](../../../../.gitbook/assets/onbluetoothdeviceunpaired.png)
 
-**Onbluetoothdeviceunpaired** .
+The **On Bluetooth Device Unpaired Node** signals that a *Bluetooth* device was unpaired successfully.
 
-[**Scope**]():
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
-# Attributes
 
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
@@ -22,8 +20,11 @@
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Bluetooth Address`|**String**|The *Bluetooth* address of the unpaired device.|
 
 # See Also
 
-# External Links
+* [**On Bluetooth Device Paired**](onbluetoothdevicepaired.md)
+
+
 

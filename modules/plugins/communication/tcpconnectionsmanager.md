@@ -6,7 +6,7 @@ To refresh, **TCP**, or *Transmission Control Protocol*, is an integral form of 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
-![](../../../.gitbook/assets/pluginstcp20231before.png)
+![](../../../.gitbook/assets/pluginstcp20232before.png)
 
 **Incari** will alert the user of this by outputting this message to the screen:
 
@@ -16,6 +16,6 @@ By following these instructions (save and restart **IncariStudio**) the user wil
 
 Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **TCP** will be gone and the toggle labeled `Deactivated`. 
 
-![](../../../.gitbook/assets/pluginstcp20231after.png)
+![](../../../.gitbook/assets/pluginstcp20232after.png)
 
 To activate again, the user just needs to repeat this by clicking `Deactivated` and saving and restarting again. 

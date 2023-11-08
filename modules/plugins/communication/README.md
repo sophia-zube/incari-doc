@@ -9,8 +9,10 @@ After clicking the arrow, **Communication** options are revealed. The checkmark 
 ## Contents
 
 
+* [**Bluetooth**](bluetooth.md)
 * [**MAVLink**](mavlinkmanager.md)
 * [**Serial**](serialmanager.md)
 * [**Socket.IO**](socketiomanager.md)
 * [**TCP**](tcpconnectionsmanager.md)
 * [**UDP**](udpconnectionsmanager.md)
+* [**WebSocket**](websocket.md)
