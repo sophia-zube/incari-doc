@@ -1,8 +1,8 @@
 # Overview
 
-![The Is Bluetooth Device Paired Node.](../../../.gitbook/assets/isbluetoothdevicepaired.png)
+![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebooknode.png)
 
-The **Is Bluetooth Device Paired Node** checks the pairing status of a *Bluetooth* device to the [**Bluetooth Plugin**](../../../modules/plugins/communication/bluetoothmanager.md).
+The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `SpeedDialContacts`, and `FavoriteContacts`.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
@@ -19,8 +19,10 @@ The **Is Bluetooth Device Paired Node** checks the pairing status of a *Bluetoot
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Is Paired`|**Bool**|Returns *true* if the device is paired and *false* if not.|
-|`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error.|
+|`On Finished`(►)|**Pulse**|An **Event Pulse** which is triggered if the phonebook was successfully retrieved.|
+|`Phonebook`|**Dictionary**|The **Dictionary** containing the device's phonebook.|
+|`Finished Bluetooth Address`|**String**|The **Bluetooth** address of the device.|
+|`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that the retrieval of the phonebook was unsuccessful.|
 |`Error Message`|**String**|The error message in the event of an error.|
 |`Error Bluetooth Address`|**String**|The *Bluetooth* address associated with the error.|
 

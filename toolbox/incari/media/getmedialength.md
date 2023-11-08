@@ -2,7 +2,7 @@
 
 ![The Get Media Length Node when Object and Seconds are selected in the Attributes.](../../../.gitbook/assets/getmedialengthnode.png)
 
-The **Get Media Length Node** returns the duration of a **Media Object** or **Asset** either in `Seconds` (Video & Audio) or in `Frames` (Video only). The **Node's** input and output changes depending on what is selected in its **Attributes**.
+The **Get Media Length Node** returns the duration of a **Media Object** or **Asset** either in `Seconds` (**Video** & **Audio**) or in `Frames` (**Video** only). The **Node's** input and output changes depending on what is selected in its **Attributes**.
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -31,7 +31,6 @@ The **Get Media Length Node** returns the duration of a **Media Object** or **As
 |`Seconds`|**Float**|The duration in seconds. Please note that this appears only when `Seconds` is selected in the **Attributes**.|
 |`Frames`|**Int**|The duration in frames. Please note that this appears only when `Frames` is selected in the **Attributes**.
 
-# See Also
 
 
 
