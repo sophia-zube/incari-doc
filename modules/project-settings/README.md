@@ -15,6 +15,7 @@ The **Project Settings Module** is used to choose and customize settings for dif
 * [**Styles**](style.md)
 * [**TCP**](tcp-connection.md)
 * [**UDP**](udp-connection.md)
+* [**WebSocket**](websocket.md)
 
 ![Project Settings.](../../.gitbook/assets/projectsettings-can3.png)
 
