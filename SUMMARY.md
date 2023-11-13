@@ -170,7 +170,7 @@
       * [On Bluetooth Device Unpaired](toolbox/communication/bluetooth/events/onbluetoothdeviceunpaired.md)
     * [Is Bluetooth Device Paired](toolbox/communication/bluetooth/ispaired.md)
     * [Pair Bluetooth Device](toolbox/communication/bluetooth/pairbluetoothdevices.md)
-    * [Retrieve Call History.](toolbox/communication/bluetooth/retrievecalhistory.md)
+    * [Retrieve Call History](toolbox/communication/bluetooth/retrievecalhistory.md)
     * [Retrieve Phonebook](toolbox/communication/bluetooth/retrievephonebook.md)
     * [Scan For Bluetooth Devices](toolbox/communication/bluetooth/scanforbluetoothdevices.md)
     * [Unpair Bluetooth Device](toolbox/communication/bluetooth/unpairbluetoothdevices.md)
