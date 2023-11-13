@@ -434,7 +434,7 @@
     * [Stop Lottie](toolbox/incari/lottie/stop-lottie.md)
   * [Material](toolbox/incari/material/README.md)
     * [Get Material Property](toolbox/incari/material/getmaterialproperty.md)
-    * [Set Custom Uniform](toolbox/incari/material/setcustomuniforms.md)
+    <!--* [Set Custom Uniform](toolbox/incari/material/setcustomuniforms.md)-->
     * [Set Material Property](toolbox/incari/material/setmaterialproperty.md)
   * [Media](toolbox/incari/media/README.md)
     * [Get Media](toolbox/incari/media/getmedia.md)
