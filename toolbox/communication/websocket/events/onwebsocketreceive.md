@@ -2,9 +2,9 @@
 
 ![The On WebSocket Receive Node.](../../../../.gitbook/assets/onwebsocketrecievenode.png)
 
-The **On WebSocket Receive Node** is an **Event Listener Node** that is triggered if the *Websocket* connection received a message during any action for the selected configuration, which was established in the [**Project Settings**](../../../modules/project-settings/websocket.md).
+The **On WebSocket Receive Node** is an **Event Listener Node** that is triggered if the *Websocket* connection received a message during any action for the selected configuration, which was established in the [**Project Settings**](../../../../modules/project-settings/websocket.md).
 
-**WebSocket Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On WebSocket Receive** will not show up in the [**Toolbox**](../../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+**WebSocket Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **On WebSocket Receive** will not show up in the [**Toolbox**](../../../overview.md). Please refer to the [**Plugins Editor**](../../../../modules/plugins/README.md) to find out more information.
 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
