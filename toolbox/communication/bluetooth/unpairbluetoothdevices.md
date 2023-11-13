@@ -4,9 +4,9 @@
 
 **Unpair Bluetooth Device** attempts to unpair a given *Bluetooth* device.
 
-**Bluetooth Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **Unpair Bluetooth Device** will not show up in the [**Toolbox**](../../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
+**Bluetooth Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **Unpair Bluetooth Device** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 
-It is important to note that while the **Pnpair Bluetooth Device** disconnects from a **Bluetooth** device (like a phone), it may not completely finish unpairing when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On Bluetooth Device Unpaired Node**](events/onbluetoothdevicepaired.md) instead. This way, the **Logic** will only execute once the **Bluetooth** device has definitely been paired with.
+It is important to note that while the **Unpair Bluetooth Device** disconnects from a **Bluetooth** device (like a phone), it may not completely finish unpairing when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On Bluetooth Device Unpaired Node**](events/onbluetoothdevicepaired.md) instead. This way, the **Logic** will only execute once the **Bluetooth** device has definitely been paired with.
 
 Again, the user must first use the **Unpair Bluetooth Device Node** to unpair from a device. Separately, the **On Bluetooth Device Unpaired Node** can be used to execute the desired **Communication Logic**.
 

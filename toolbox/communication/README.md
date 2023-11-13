@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The **Communication Nodes** \(**CAN**, **HTTP**, **MAVLink**, **MQTT**, **Serial**, **Socket.IO**, **TCP**, and **UDP**\) represent the different messaging protocols and ways of communicating between devices that each one employs. 
+The **Communication Nodes** \(**Bluetooth**, **CAN**, **HTTP**, **MAVLink**, **MQTT**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket**\) represent the different messaging protocols and ways of communicating between devices that each one employs. 
 
-**Serial**, **Socket.IO**, **TCP**, and **UDP** are available as plugins. For more information, check out the [**Plugins Module**](../../modules/plugins/README.md)
+**Bluetooth**, **MAVLink**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket are available as plugins. For more information, check out the [**Plugins Module**](../../modules/plugins/README.md)
 
 The following guideline explains the specific set-up required to implement **Communication** in **Incari**.
 
@@ -12,13 +12,14 @@ The following guideline explains the specific set-up required to implement **Com
 
 These are the general guidelines for incorporating **Communication** into a **Project**. This includes how to start a connection, the **Nodes** that can be used and how to use them, as well as how to stop a connection. 
 
-* Locate the desired communications protocol in [**Project Settings**](../../modules/project-settings/README.md). Attach all necessary files and data. 
-* In the **Logic Editor**, use the protocol's **Start Node** to initiate the connection. Separately, use the protocol's **On Start Node** to execute any following **Logic**. This is to make sure the connection is successfully finished being established before doing anything.
-* Use any combination of the protocol's **Nodes** to provide **Communication** capabilities to the **Project**. The protocols supported by **Incari** are [**CAN**](can/README.md), [**HTTP**](http/README.md), [**MAVLink**](mavlink/README.md), [**MQTT**](mqtt/README.md), [**Serial**](serial/README.md), [**Socket.IO**](socketio/README.md), [**TCP**](tcp/README.md), and [**UDP**](udp/README.md) communication. For more information on each protocol, visit their respective page.
-* To terminate the connection, use the protocol's **Stop Node** to start disconnecting. Separately, use the protocol's **On Stop Node** to execute any following **Logic**. This is to make sure the connection is stopped completely before doing anything. 
+* Locate the desired communications protocol in [**Project Settings**](../../modules/project-settings/README.md). Attach all necessary files and data. The exception here is **Bluetooth** communication in **Incari**. 
+* In the **Logic Editor**, use the protocol's **Start Node** to initiate the connection (for **Bluetooth**, this would be the [**Pair Bluetooth Device Node**](bluetooth/pairbluetoothdevices.md)). Separately, use the protocol's **On Start Node** to execute any following **Logic** (for **Bluetooth**, this would be the [**On Bluetooth Device Paired Node**](bluetooth/events/onbluetoothdevicepaired.md)). This is to make sure the connection is successfully finished being established before doing anything.
+* Use any combination of the protocol's **Nodes** to provide **Communication** capabilities to the **Project**. The protocols supported by **Incari** are [**Bluetooth**](bluetooth/README.md), [**CAN**](can/README.md), [**HTTP**](http/README.md), [**MAVLink**](mavlink/README.md), [**MQTT**](mqtt/README.md), [**Serial**](serial/README.md), [**Socket.IO**](socketio/README.md), [**TCP**](tcp/README.md), [**UDP**](udp/README.md), and [**WebSocket**](websocket/README.md) communication. For more information on each protocol, visit their respective page.
+* To terminate the connection, use the protocol's **Stop Node** to start disconnecting (for **Bluetooth**, this would be the [**Unpair Bluetooth Device Node**](bluetooth/unpairbluetoothdevices.md)). Separately, use the protocol's **On Stop Node** to execute any following **Logic** (for **Bluetooth**, this would be the [**On Bluetooth Device Unpaired**](bluetooth/pairbluetoothdevices.md)). This is to make sure the connection is stopped completely before doing anything. 
 
 ## Content
 
+* [**Bluetooth**](bluetooth/)
 * [**CAN**](can/)
 * [**HTTP**](http/)
 * [**MAVLink**](mavlink/)
@@ -27,4 +28,5 @@ These are the general guidelines for incorporating **Communication** into a **Pr
 * [**Socket.IO**](socketio/)
 * [**TCP**](tcp/)
 * [**UDP**](udp/)
+* [**WebSocket**](websocket/)
 

@@ -10,5 +10,5 @@ The **WebSocket Settings** allow the user to manage the **WebSocket Connections*
 
 `URL` is the *URL* of the server.
 
-`Port` is the port the user chooses to serve the *Socket.IO* connection. This is often the same port as the website, which for _HTTP_ is 80 and for _HTTPS_ is 443.
+`Port` is the port the user chooses to serve the *WebSocket* connection. This is often the same port as the website, which for _HTTP_ is 80 and for _HTTPS_ is 443.
 
