@@ -2,7 +2,7 @@
 
 After clicking on **Bluetooth** in the **Plugins Module**, its options will show. All **Bluetooth Communication** related components are encompassed by the **Bluetooth Plugin**. 
 
-To refresh, **Bluetooth Communication** is a type of a short -range and wireless communication between mobile and non-mobile devices. More information can be found [here](https://en.wikipedia.org/wiki/Bluetooth). Within **Incari**, this is done by using the [**Bluetooth Nodes**](../../../toolbox/communication/bluetooth/README.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
+To refresh, **Bluetooth Communication** is a type of a short-range and wireless communication between mobile and non-mobile devices. More information can be found [here](https://en.wikipedia.org/wiki/Bluetooth). Within **Incari**, this is done by using the [**Bluetooth Nodes**](../../../toolbox/communication/bluetooth/README.md). They add the necessary functionality to a **Project** that requires this type of communication. However, the user may decide that they would rather deactivate this portion of **Incari** to heighten performance and stability. 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
