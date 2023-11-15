@@ -17,7 +17,7 @@ Some examples of these property names are:
 
 # Attributes
 
-![Get Material Property Node Attributes with Two Example Outputs.](../../../.gitbook/assets/getmaterialpropertyatts.png)
+![Get Material Property Node Attributes with Two Example Outputs.](../../../.gitbook/assets/getmaterialpropertyattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|

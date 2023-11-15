@@ -46,6 +46,28 @@ Although all four *speedometer* types look visually different, their functionali
 
 ## Logic
 
-![Logic that Changes the Speedometer's Theme.](../.gitbook/assets/controlthemeimage.png)
+The **Logic** for switching the speedometer's theme and view is described below:
+
+## Switching Theme
+
+![Logic that Controls the Speedometer's Theme.](../.gitbook/assets/controlthemeimage.png)
+
+Once the user presses `T`, the number of values that are in `theme_arr-str_colors` is incremented by 1 and compared to the value of `theme_int_currentColorIndex`. If this current index is less than the length of the **Array** of **Strings** given at the start, this means that there is a next value in the **Array** of themes and it continues to this next one and selects that data. However, if it is not less than the length, this means all the values of the **Array** have been cycled through and it starts at the 'beginning' with an index of 0. This is stored as the `theme_int_currentColorIndex`.  
+
+Whenever there is a change, this triggers `On theme_int_currentColorIndex Change`, which sets and returns the **String** value at the specified index. 
+
+![Logic that Updates the Speedometer's Theme Part 1](../.gitbook/assets/themeupdate1.png)
+
+When `theme_int_currentColor` changes, it triggers the four blocks of **Logic** in the `Theme Update` grouping. These apply to the four shades of the theme's color. In the above image, the two blocks of **Logic** visible set the **Color** values for the primary and secondary **Objects** of the *speedometer*.
+
+![Logic that Updates the Speedometer's Theme Part 2](../.gitbook/assets/themeupdate2.png)
+
+In the above image, the two blocks of **Logic** visible set the **Color** values for the tertiary and quaternary **Objects** of the *speedometer*. 
 
 ![Logic that Changes the Speedometer's View.](../.gitbook/assets/controlviewimage.png)
+
+![Logic that Updates the Speedometer's View Part 1](../.gitbook/assets/viewupdate3.png)
+
+![Logic that Updates the Speedometer's View Part 2](../.gitbook/assets/viewupdate4.png)
+
+![Logic that Updates the Speedometer's View Part 3](../.gitbook/assets/viewupdate5.png)
