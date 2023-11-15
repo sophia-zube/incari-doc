@@ -3,7 +3,7 @@
 
 ![The Retrieve Call History Node.](../../../.gitbook/assets/retrievecallhistory.png)
 
-The **Retrieve Call History Node** returns a device's call history in **Dictionary** form. The keys are `IncomingCalls`, `OutgoingCalls`, `CanceledCalls`, and `MissedCalls`. 
+The **Retrieve Call History Node** returns a device's call history in **Dictionary** form. The keys are `Incoming Calls`, `Outgoing Calls`, `Canceled Calls`, and `Missed Calls`. 
 
 **Bluetooth Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **Retrieve Call History** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 

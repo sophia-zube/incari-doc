@@ -17,7 +17,7 @@ Some examples of these property names are:
 
 # Attributes
 
-![The Set Material Property Node Attributes with Two Example Inputs.](../../../.gitbook/assets/setmaterialpropertyatts.png)
+![The Set Material Property Node Attributes with Two Example Inputs.](../../../.gitbook/assets/setmaterialpropertyattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|

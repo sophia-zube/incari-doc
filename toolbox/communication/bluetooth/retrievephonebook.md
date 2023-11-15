@@ -4,7 +4,7 @@
 
 ![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebooknode.png)
 
-The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `SpeedDialContacts`, and `FavoriteContacts`.
+The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `Speed Dial Contacts`, and `Favorite Contacts`.
 
 **Bluetooth Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **Retrieve Phonebook** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 

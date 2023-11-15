@@ -6,13 +6,13 @@ The **Bluetooth Nodes** provide a means for the user to perform several actions 
 
 These are the guidelines for incorporating **Bluetooth Communication** into a **Project**.
 
-* To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
-* Once the connection has been established, there are several **Nodes** that cover important functions of **Bluetooth Communication**.
+* To properly start a connection with a device, or devices, the user must start with the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md).  
+* Once a connection with a **Bluetooth** device is made, it is possible to pair. Use [**Pair Bluetooth Device**](pairbluetoothdevices.md) to initiate the pairing. Separately, use [**On Bluetooth Device Paired**] to execute any following **Logic**. This is to make sure the connection is successfully finished being established before doing anything.  Only then is it possible to use the several **Nodes** that cover important functions of **Bluetooth Communication**.
   * [**Is Bluetooth Device Paired**](ispaired.md) returns *true* or *false* when a connection has successfully been made with the given *Bluetooth* address, or an error message if there is an error.
   * [**Retrieve Call History**](retrievecalhistory.md) returns the call history of a **Bluetooth** device (or devices), or an error message if there is an error. 
   * [**Retrieve Phonebook**](retrievephonebook.md.md) returns the call history of a **Bluetooth** device (or devices), or an error message if there is an error. 
   * [**Scan For Bluetooth Devices**](websocketsend.md) searches for **Bluetooth** devices in the general vicinity and returns **Dictionary** of them on success, or an error message if there is an error. 
-* To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
+* To terminate the connection, use the [**Unpair Bluetooth Device Node**](unpairbluetoothdevices.md) to start disconnecting. Separately, use the **On Bluetooth Device Unpaired Node** to execute any following **Logic**. This is to make sure the connection is stopped completely before doing anything.
 
 ## Contents
 
