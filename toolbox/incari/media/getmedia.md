@@ -2,7 +2,7 @@
 
 ![The Get Media Node.](../../../.gitbook/assets/getmedianode.png)
 
-The **Get Media Node** returns the **Media Asset** of an **Object**. This would either be a **Video** or **Audio Asset**.  
+The **Get Media Node** returns the **Media Asset** of a **Media Object**. This would either be a **Video** or **Audio Asset**.  
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -12,7 +12,7 @@ The **Get Media Node** returns the **Media Asset** of an **Object**. This would 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the **Media Object**.|
+|`Object ID`|**ObjectID**|The ID of the **Media Object** which will have its **Media Asset** returned.|
 
 # Outputs
 
@@ -24,4 +24,8 @@ The **Get Media Node** returns the **Media Asset** of an **Object**. This would 
 # See Also
 
 * [**Set Media**](setmedia.md)
+* [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md)
+* [**Audio**](../../../objects-and-types/scene-objects/audio.md)
+
+  
 

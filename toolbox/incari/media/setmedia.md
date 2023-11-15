@@ -2,7 +2,7 @@
 
 ![The Set Media Node.](../../../.gitbook/assets/setmedianode.png)
 
-The **Set Media Node** applies a given **Media Asset** to an **Object**. This is only possible for **Video** and **Audio Assets**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the **Asset Database** (which can be populated with **Assets** by dragging them from the **Asset Mananger**).
+The **Set Media Node** applies a given **Media Asset** to an **Media Object**. This is only possible for **Video** and **Audio Assets**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the [**Asset Database**](../../../modules/asset-database.md) (which can be populated with **Assets** by dragging them from the [**Asset Manager**](../../../modules/asset-manager.md)).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -13,7 +13,7 @@ The **Set Media Node** applies a given **Media Asset** to an **Object**. This is
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 |`Object ID`|**ObjectID**|The ID of the **Object** that the **Media Asset** will be set to.|
-|`Media ID`|**MediaID**|The ID of the **Media Asset**.|
+|`Media ID`|**MediaID**|The ID of the **Media Asset** that will be assigned to the **Object**.|
 
 # Outputs
 
@@ -23,5 +23,5 @@ The **Set Media Node** applies a given **Media Asset** to an **Object**. This is
 
 # See Also
 
-[**Get Media**](getmedia.md)
+* [**Get Media**](getmedia.md)
 
