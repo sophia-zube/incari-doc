@@ -66,8 +66,14 @@ In the above image, the two blocks of **Logic** visible set the **Color** values
 
 ![Logic that Changes the Speedometer's View.](../.gitbook/assets/controlviewimage.png)
 
+Pressing `V` triggers the **Toggle Node** and sets a variable to either 0 or 1, and stores this value in `theme_int_currentValue` to later change the theme. 
+
 ![Logic that Updates the Speedometer's View Part 1](../.gitbook/assets/viewupdate3.png)
 
+The first block of the `View Update` **Logic** is triggered by the change of the `theme_int_currentValue` variable. Depending on the resulting variable of either 0 or 1, it provokes use of the **FadeTo Node** between the current and changed view.
+
 ![Logic that Updates the Speedometer's View Part 2](../.gitbook/assets/viewupdate4.png)
+
+The next block of **Logic** takes the values of the variables for acceleration, time, etc. and updates the view. This **Logic** shown above continues in the image below. 
 
 ![Logic that Updates the Speedometer's View Part 3](../.gitbook/assets/viewupdate5.png)
