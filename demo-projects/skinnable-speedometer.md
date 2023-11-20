@@ -64,6 +64,8 @@ When `theme_int_currentColor` changes, it triggers the four blocks of **Logic** 
 
 In the above image, the two blocks of **Logic** visible set the **Color** values for the tertiary and quaternary **Objects** of the *speedometer*. 
 
+## Switching View
+
 ![Logic that Changes the Speedometer's View.](../.gitbook/assets/controlviewimage.png)
 
 Pressing `V` triggers the **Toggle Node** and sets a variable to either 0 or 1, and stores this value in `theme_int_currentValue` to later change the theme. 
