@@ -59,7 +59,7 @@ We will use the green Group **'On Mouse Enter'** to explain how the **Logic** of
 
 ## On Mouse Enter Event Node
 
-The first **Node** in the **Logic** is the [**On Mouse Enter Event** **Node**](../toolbox/events/mouse/on-mouse-enter.md). This means that when the mouse enters the area of the designated **Object**, the [**Pulse**](../modules/logic-editor.md#pulse) is fired.  In this case, the **Object** designated in the **Node** [**Attributes**](../objects-and-types/attributes/README.md) is the **Button ImageSequence Sprite** **Object**.  You can designate an **Object** by dragging the **Object** from the [**Scene Outliner**](../modules/scene-outliner.md) into the **Node Attributes** of the **Event Node**.
+The first **Node** in the **Logic** is the [**On Mouse Enter Event** **Node**](../toolbox/events/mouse/on-mouse-enter.md). This means that when the mouse enters the area of the designated **Object**, the [**Pulse**](../modules/logic-editor/README.md#pulse) is fired.  In this case, the **Object** designated in the **Node** [**Attributes**](../objects-and-types/attributes/README.md) is the **Button ImageSequence Sprite** **Object**.  You can designate an **Object** by dragging the **Object** from the [**Scene Outliner**](../modules/scene-outliner.md) into the **Node Attributes** of the **Event Node**.
 
 ![](../.gitbook/assets/demoimgsq-onmouseenterattr.png)
 

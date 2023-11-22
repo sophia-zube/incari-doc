@@ -14,7 +14,7 @@ The usefulness of **Modules** is evident, as they keep **Incari Studio's** *Inte
 * [**Console**](console.md)
 * [**Exporter**](exporter.md)
 * [**Image Sequence Editor**](image-sequence-editor.md)
-* [**Logic Editor**](logic-editor.md)
+* [**Logic Editor**](logic-editor/README.md)
 * [**Global Preferences**](global-preferences.md)
 * [**Material Editor**](material-editor/README.md)
   * [**Default Car Paint Model**](material-editor/car-paint-model.md)

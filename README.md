@@ -28,7 +28,7 @@ The elements used to design *UIs* in **Incari** are called **Objects**. They com
 
 ### [Toolbox](toolbox/overview.md)
 
-One of the most important **Modules** in **Incari** is the [**Logic Editor**](modules/logic-editor.md), where the **Logic** of the **Project** is built. The **Logic** determines how the **Objects** in the created *Interface* interact and change. The **Toolbox** in the **Logic Editor** contains the [**Nodes**](modules/logic-editor.md#nodes), which are the building bricks of the **Logic** and in this section every **Node** is described in depth.
+One of the most important **Modules** in **Incari** is the [**Logic Editor**](modules/logic-editor/README.md), where the **Logic** of the **Project** is built. The **Logic** determines how the **Objects** in the created *Interface* interact and change. The **Toolbox** in the **Logic Editor** contains the [**Nodes**](modules/logic-editor/README.md#nodes), which are the building bricks of the **Logic** and in this section every **Node** is described in depth.
 
 ### [Demo Projects](demo-projects/overview.md)
 

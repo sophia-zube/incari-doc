@@ -98,7 +98,7 @@ We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with
 
 ### Logic
 
-We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor/README.md).
 
 We use first a [**Get Rotation** **Node**](../incari/object/get-rotation.md), which allows us to obtain an **Object's** current `Rotation` values, and then the **RotateFromTo Action** **Node**, to which we will feed the value previously obtained and configure it for it to _rotate_ the **Object** from there to a fixed value of our choosing.
 

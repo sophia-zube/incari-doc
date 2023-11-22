@@ -59,7 +59,7 @@ We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with
 
 ### Logic
 
-We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor/README.md).
 
 We use the **ScaleBy Action** **Node** with the following **Attributes**: 
 
