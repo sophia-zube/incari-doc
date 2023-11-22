@@ -53,7 +53,7 @@ We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with
 
 ### Logic
 
-We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor/README.md).
 
 We use first a [**Get Opacity** **Node**](../incari/object/get-opacity.md), which allows us to obtain an **Object's** current `Opacity` value, and then the **FadeFromTo Action** **Node**, to which we will feed the value previously obtained and configure it for it to change it from there to a fixed value of our choosing.
 

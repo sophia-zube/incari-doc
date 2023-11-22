@@ -47,9 +47,9 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 
 ## Objects in Logic
 
-In the [**Logic**](../../modules/logic-editor.md), it might be necessary to make references to specific **Objects**. For this, each **Object** in a **Scene** gets assigned an **Object ID**, which is a unique identifier. The **Object ID** of an **Object** can be obtained from said **Object's** **Node**, which is created by dragging an **Object** from the **Scene Outliner** to the **Logic Editor**.
+In the [**Logic**](../../modules/logic-editor/README.md), it might be necessary to make references to specific **Objects**. For this, each **Object** in a **Scene** gets assigned an **Object ID**, which is a unique identifier. The **Object ID** of an **Object** can be obtained from said **Object's** **Node**, which is created by dragging an **Object** from the **Scene Outliner** to the **Logic Editor**.
 
-For handling and modifying **Objects** in the **Logic**, there is a special category of [**Nodes**](../../modules/logic-editor.md#nodes): the [**Object Nodes**](../../toolbox/incari/object/). These **Nodes** allow the user to obtain and set **Attribute** values for **Objects**, and they receive as input the **Object ID** of the target **Object**.
+For handling and modifying **Objects** in the **Logic**, there is a special category of [**Nodes**](../../modules/logic-editor/README.md#nodes): the [**Object Nodes**](../../toolbox/incari/object/). These **Nodes** allow the user to obtain and set **Attribute** values for **Objects**, and they receive as input the **Object ID** of the target **Object**.
 
 ![Creating an Object Node.](../../.gitbook/assets/ObjLogic2.gif)
 

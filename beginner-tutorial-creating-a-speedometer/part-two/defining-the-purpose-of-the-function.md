@@ -4,7 +4,7 @@ We are going to create a **Function** which takes our **Speed Variable** and tur
 
 ## Naming our Function
 
-**Function** is the only **Node** whose name can be edited in the [**Node Attribute Editor**](../../getting-started/interface/managers-editors-and-outliners/logic-editor.md#6-node-attribute-editor). We do this by clicking the input field of the **Name Attribute** and typing in a more succinct name.
+**Function** is the only **Node** whose name can be edited in the [**Node Attribute Editor**](../../getting-started/interface/managers-editors-and-outliners/logic-editor/README.md#6-node-attribute-editor). We do this by clicking the input field of the **Name Attribute** and typing in a more succinct name.
 
 {% hint style="info" %}
 * Edit the name of the **Function** to be "**SpeedToString**".

@@ -14,11 +14,11 @@ Open the '**AnalogClock**' project from the **Incari Hub** _Remote Projects_ tab
 
 ![The Project Outliner with an active visibility toggle for the 'Basic Scene'.](../.gitbook/assets/clockoutliner.png)
 
-Now we can dive into how it works. In the top menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor.md) if it isn't already visible. Double-click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../objects-and-types/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor.md) module; the **Project** **Logic** is explained later.
+Now we can dive into how it works. In the top menu bar, go to **View** -> [**Logic Editor**](../modules/logic-editor/README.md) if it isn't already visible. Double-click '**Basic**' in the [**Project Outliner**](../modules/project-outliner.md) to load up the [**Scene**](../objects-and-types/project-objects/scene.md) **Logic**. Make sure the '**Basic**' tab is selected in the [**Logic Editor**](../modules/logic-editor/README.md) module; the **Project** **Logic** is explained later.
 
 ![All Logic from the 'Basic' tab in the Logic Editor.](../.gitbook/assets/clockbasiclogic.png)
 
-You'll see two major groups of [**Nodes**](../modules/logic-editor.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../objects-and-types/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
+You'll see two major groups of [**Nodes**](../modules/logic-editor/README.md#nodes), which don't appear to be connected. The left side handles the _data_ gathering part of our [**Scene**](../objects-and-types/project-objects/scene.md). The right side takes this _data_ and updates the _User Interface_ (the clock face).
 
 It's always a good practice to try and separate the view **Logic** (changing the _interface_) from the model **Logic** (changing the _data_) as much as possible. This makes it easier to work with larger **Pfojects**.
 
@@ -28,7 +28,7 @@ Let's look a bit closer at how we've done this.
 
 ![Model Logic from the 'Basic' tab.](../.gitbook/assets/clock-modellogicbasic.png)
 
-When the [**Scene**](../objects-and-types/project-objects/scene.md) is displayed, we trigger a [**Start Interval**](../toolbox/utilities/interval/startinterva.md) **Node**. This takes a single [**Pulse**](../modules/logic-editor.md#pulse) **(►) Input** and creates a recurring [**Pulse**](../modules/logic-editor.md#pulse) **Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
+When the [**Scene**](../objects-and-types/project-objects/scene.md) is displayed, we trigger a [**Start Interval**](../toolbox/utilities/interval/startinterva.md) **Node**. This takes a single [**Pulse**](../modules/logic-editor/README.md#pulse) **(►) Input** and creates a recurring [**Pulse**](../modules/logic-editor/README.md#pulse) **Output** triggering the next **Node** at a set time interval. This will let us get the current time on an ongoing basis.
 
 In this case, we have set [**Start Interval**](../toolbox/utilities/interval/startinterva.md) to retrigger _System Time_ every `0.1` seconds (see the `Timeout` **Attribute**).
 
@@ -66,7 +66,7 @@ From the [**Project Outliner**](../modules/project-outliner.md), double-click th
 
 ![](../.gitbook/assets/clocl-outlinerticking.png)
 
-This [**Scene**](../objects-and-types/project-objects/scene.md) is split across two tabs on the [**Logic Editor**](../modules/logic-editor.md): The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
+This [**Scene**](../objects-and-types/project-objects/scene.md) is split across two tabs on the [**Logic Editor**](../modules/logic-editor/README.md): The ‘**Project**’ tab and the ‘**Ticking Animation**’ tab.
 
 ### 'Project' tab Logic
 

@@ -98,7 +98,7 @@ We consider a [**Scene**](../../objects-and-types/project-objects/scene.md) with
 
 ### Logic
 
-We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor.md).
+We then need to configure the **Logic**. This is done in the [**Logic Editor**](../../modules/logic-editor/README.md).
 
 We will use two **RotateTo Action** **Nodes** in order to first perform a _rotation_ and then reverse it. For the first one, we set the following **Attributes**:
 

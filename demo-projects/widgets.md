@@ -188,7 +188,7 @@ Before initializing the player, a list of **Media Objects** references has to be
 An example workflow for achieving this is the following:
 
 1. Create **Video Objects** in the **Scene** and put them all in a [**Group**](../objects-and-types/scene-objects/group.md).
-2. Drag and drop this **Group** into the [**Logic Editor**](../modules/logic-editor.md). A **Node** will be created.
+2. Drag and drop this **Group** into the [**Logic Editor**](../modules/logic-editor/README.md). A **Node** will be created.
 3. Connect the newly created **Node** to a [**Get Children**](../toolbox/incari/object/get-children.md) **Node**.
 4. Create a [**JSON Stringify**](broken-reference) **Node** and connect to it the output **Array** from the **Get Children** **Node**.
 5. Connect the [**Conversion**](../toolbox/utilities/conversion.md) **Node** that was automatically created.

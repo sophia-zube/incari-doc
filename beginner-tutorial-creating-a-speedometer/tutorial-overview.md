@@ -36,7 +36,7 @@ In the project, we will be creating a working speedometer instrument, with a rot
 
 ## Requirements
 
-As stated above, the tutorial shouldn't require any prior experience, however, it is recommended that you refer to the [**Logic Editor**](../getting-started/interface/managers-editors-and-outliners/logic-editor.md) section for detailed information on how the [**Logic Editor**](../getting-started/interface/managers-editors-and-outliners/logic-editor.md) works, as well as some useful terminology, which you will encounter in the lessons ahead.
+As stated above, the tutorial shouldn't require any prior experience, however, it is recommended that you refer to the [**Logic Editor**](../getting-started/interface/managers-editors-and-outliners/logic-editor/README.md) section for detailed information on how the [**Logic Editor**](../getting-started/interface/managers-editors-and-outliners/logic-editor/README.md) works, as well as some useful terminology, which you will encounter in the lessons ahead.
 
 Additionally, if you want to find out more detailed information on specific **Nodes**, the [**Toolbox** ](../logic-editor/toolbox/)section should be your go-to reference point.
 

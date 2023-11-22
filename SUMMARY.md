@@ -94,7 +94,7 @@
 * [Console](modules/console.md)
 * [Exporter](modules/exporter.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
-* [Logic Editor](modules/logic-editor.md)
+* [Logic Editor](modules/logic-editor/README.md)
   * [AI Logic Generation](modules/logic-editor/ai-logic-generation.md)
 * [Global Preferences](modules/global-preferences.md)
 * [Material Editor](modules/material-editor/README.md)

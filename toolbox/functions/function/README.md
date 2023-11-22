@@ -44,7 +44,7 @@ For importing a **Function**, *right-click* on the **Function's** list or on the
 
 ## See Also
 
-* [**Logic Editor**](../../../modules/logic-editor.md)
+* [**Logic Editor**](../../../modules/logic-editor/README.md)
 * [**Function Input**](function-input.md)
 * [**Function Output**](function-output.md)
 

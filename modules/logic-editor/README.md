@@ -4,41 +4,41 @@
 
 ## 1 - Logic Editor Window
 
-![](../.gitbook/assets/logicEditorWindow202223.png)
+![](../../.gitbook/assets/logicEditorWindow202223.png)
 
 **Logic Editor** - The main window which contains all things **Logic**-related. It is compartmentalized into several different sections discussed below.
 
 ## 2 - Toolbar
 
-![](../.gitbook/assets/toolbar.PNG)
+![](../../.gitbook/assets/toolbar.PNG)
 
 The **Toolbar** shows a list of icons that are used to visualize certain features in the **Logic Graph**. Definitions of the icons are as follows:
 
-![](../.gitbook/assets/importBlueprint.PNG) The **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
+![](../../.gitbook/assets/importBlueprint.PNG) The **Import blueprint** icon allows you to import a **Logic Graph** saved on your computer into the **Logic Editor**.
 
-![](../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
+![](../../.gitbook/assets/group.PNG) The **Group** icon clusters **Logic Graphs** into distinct groupings. See a usage example below:
 
-![](../.gitbook/assets/logiceditorimagereal.gif)
+![](../../.gitbook/assets/logiceditorimagereal.gif)
 
-![](../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
+![](../../.gitbook/assets/highlightUnhighlight.PNG) The **Highlight** icon applies a distinct color to sections of a **Logic Graph** that are connected together. **Remove highlight** reverses the action performed by clicking the **Highlight** icon. See a usage example below:
 
-![](../.gitbook/assets/highlightUnhighlighttest1.gif)
+![](../../.gitbook/assets/highlightUnhighlighttest1.gif)
 
-![](../.gitbook/assets/alignVerticalHorizontal.PNG) The **Align horizontally** and **Align vertically** icons will align a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
+![](../../.gitbook/assets/alignVerticalHorizontal.PNG) The **Align horizontally** and **Align vertically** icons will align a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
 
-![](../.gitbook/assets/alignHorizontally202223.gif)
+![](../../.gitbook/assets/alignHorizontally202223.gif)
 
-![](../.gitbook/assets/alignVertically202223.gif)
+![](../../.gitbook/assets/alignVertically202223.gif)
 
-![](../.gitbook/assets/arrange.PNG) The **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
+![](../../.gitbook/assets/arrange.PNG) The **Arrange horizontally** and **Arrange vertically** icons will arrange a **Node Graph** horizontally and vertically, respectively, in the **Logic Editor**. See a usage example below:
 
-![](../.gitbook/assets/arrangeHorizontally202223.gif)
+![](../../.gitbook/assets/arrangeHorizontally202223.gif)
 
-![](../.gitbook/assets/arrangeVertically202223.gif)
+![](../../.gitbook/assets/arrangeVertically202223.gif)
 
 ## 3 - Top Panel
 
-![](../.gitbook/assets/topPanelImage202223.png)
+![](../../.gitbook/assets/topPanelImage202223.png)
 
 The top panel represents **Logic Graphs** that are implemented for different **Incari** items, such as the current opened **Project**, the selected **Scene** in the **Project Outliner**, and **Functions** added to the **Logic Editor**. Each **Logic Graph** can be accessed by using the tabs on the top panel.
 
@@ -50,39 +50,39 @@ Each section is described below:
 
 {% tabs %}
 {% tab title="Explorer" %}
-![](../.gitbook/assets/leftPanelExplorer202223.png)
+![](../../.gitbook/assets/leftPanelExplorer202223.png)
 
 All **Nodes** and **Groups** that are added to the **Logic Graph** will be listed in this section. When an item is picked in this section, the corresponding **Node** is selected in the **Logic Graph**.
 {% endtab %}
 
 {% tab title="Toolbox" %}
-![](../.gitbook/assets/leftPanelToolbox202223.png)
+![](../../.gitbook/assets/leftPanelToolbox202223.png)
 
 The **Toolbox** contains all of the individual tools you will need to create your **Logic**. The function and purpose of all **Nodes** are covered in depth in the **Toolbox** section and it is _highly_ recommended that you refer to it to understand how each **Node** functions. In short, the **Toolbox** contains a categorized list of all **Nodes** available at your disposal, which can be added to your **Logic** by double-clicking or dragging and dropping an item into your **Logic Graph**.
 {% endtab %}
 
 {% tab title="Events" %}
-![](../.gitbook/assets/leftPanelEvents202223.png)
+![](../../.gitbook/assets/leftPanelEvents202223.png)
 
-An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (1).PNG>) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../toolbox/events/).
+An **Event** **Node** can be added to the **Events** tab by clicking on the add icon ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (1).PNG>) located at the top of the panel, then the desired name for the **Event Node** is inserted. You can add the **Event Node** to your **Logic** by dragging and dropping it into your **Logic Graph**. The illustration below describes briefly how **Events** are created in the **Logic Editor**. For a detailed introduction to **Events**, please see [toolbox/events](../../toolbox/events/).
 
-![](../.gitbook/assets/addEvent202223.gif)
+![](../../.gitbook/assets/addEvent202223.gif)
 {% endtab %}
 
 {% tab title="Functions" %}
-![](../.gitbook/assets/leftPanelFunctions202223.png)
+![](../../.gitbook/assets/leftPanelFunctions202223.png)
 
-Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (2).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../toolbox/functions/).
+Custom-built **Node Graphs** can be packaged as a **Function** and added to your **Scene** **Logic** in a modular manner. To add a **Function** to the **Functions** tab, click on the add icon ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (2).PNG>) located at the top of the panel and type in the desired name of the **Function**. The illustration below describes briefly how **Functions** are created in the **Logic** **Editor**. For a detailed discussion of **Functions**, please see [toolbox/functions](../../toolbox/functions/).
 
-![](../.gitbook/assets/addFunctions202223.gif)
+![](../../.gitbook/assets/addFunctions202223.gif)
 {% endtab %}
 
 {% tab title="Variables" %}
-![](../.gitbook/assets/leftPanelVariables202223.png)
+![](../../.gitbook/assets/leftPanelVariables202223.png)
 
-The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (3).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../toolbox/events/variables/).
+The **Variables** tab allows us to add **Variables** to the **Logic Editor**. To add a **Variable** to your **Logic Graph**, click on the add icon ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2) (3).PNG>) located at the top of the panel and type in the desired **Variable** name. The illustration below describes briefly how **Variables** are created in the **Logic Editor**. For a detailed discussion of **Variables**, please see [toolbox/variables](../../toolbox/events/variables/).
 
-![](../.gitbook/assets/addVariables202223.gif)
+![](../../.gitbook/assets/addVariables202223.gif)
 {% endtab %}
 {% endtabs %}
 
@@ -92,7 +92,7 @@ This is the most important section of the **Logic Editor**. If the **Nodes** and
 
 Fundamentally, it is comprised of a combination of two entities: **Nodes** and **Connections**.
 
-![Nodes are linked together by connections to define logic and execution order.](../.gitbook/assets/LogicNodeGraph.PNG)
+![Nodes are linked together by connections to define logic and execution order.](../../.gitbook/assets/LogicNodeGraph.PNG)
 
 ### **Nodes**
 
@@ -100,7 +100,7 @@ Fundamentally, it is comprised of a combination of two entities: **Nodes** and *
 
 #### Sockets
 
-![Nodes have a number of input/output sockets.](../.gitbook/assets/sockets.PNG)
+![Nodes have a number of input/output sockets.](../../.gitbook/assets/sockets.PNG)
 
 **Sockets** are like the ports on an electronic device. Along with **Connections**, they allow us to link **Nodes** to each other. In **Incari**, **Sockets** are either:
 
@@ -113,7 +113,7 @@ The concept of **Sockets** makes much more sense in the context of **Connections
 
 #### **Connections**
 
-![Nodes are linked to each other via Connections.](<../.gitbook/assets/connections (1).png>)
+![Nodes are linked to each other via Connections.](<../../.gitbook/assets/connections (1).png>)
 
 **Connections** are the "wires" that link our components together. This is how we pass data between **Nodes** and how we determine the execution order of our **Logic**. **Connections** come in two categories and are related to the type of **Socket** they are plugged into. The two categories are **Pulse** and **Data**.
 
@@ -127,11 +127,11 @@ These **Connections** pass data values between **Nodes**. We do this by connecti
 
 ## 6 & 7 - Node Attribute Editor
 
-![The Node Attribute Editor Node](../.gitbook/assets/rangeMapperNodeImg.PNG)
+![The Node Attribute Editor Node](../../.gitbook/assets/rangeMapperNodeImg.PNG)
 
-![The Node Attribute Editor Inputs](../.gitbook/assets/rangeMapperInputsImg.PNG)
+![The Node Attribute Editor Inputs](../../.gitbook/assets/rangeMapperInputsImg.PNG)
 
-![The Node Attribute Editor Outputs](../.gitbook/assets/rangeMapperOutputsImg.PNG)
+![The Node Attribute Editor Outputs](../../.gitbook/assets/rangeMapperOutputsImg.PNG)
 
 The **Node Attribute Editor** (referred to simply as **Editor** from here on) is similar to the **Attribute Editor**, except rather than adjusting the **Attributes** of **Objects**, we can adjust the **Attributes** of **Nodes**. **Node Attributes** are specific to that particular **Node** and are documented in their corresponding entry in the **Toolbox** section. Oftentimes, **Node** **Attributes** are simply an alternative to using **Input Connections** and can define a default value if there is no **Connection** attached to that particular **Input Socket**. There are exceptions, however, where **Attributes** can be set only in the **Editor** and there is no equivalent **Socket** available. These are discussed below in the **Node-Specific Attributes** section.
 
@@ -155,19 +155,19 @@ As stated above, most **Node Attributes** are an alternative to **Data Input Con
 
 #### Data Types
 
-![](../.gitbook/assets/datatypedropdown.gif)
+![](../../.gitbook/assets/datatypedropdown.gif)
 
 Some **Nodes** work with different **Data Types**. However, these need to be explicitly defined in the **Editor**, so that the **Node** knows which **Type** it will receive (**Input**) and/or the **Type** of data it will return (**Output**). Where multiple **Data Types** are available, there will be a drop-down Menu in the **Editor**. Changing the **Type** will also change the color of the corresponding **Socket**.
 
 #### Linked Objects
 
-![](../.gitbook/assets/addObjectToAttribute.gif)
+![](../../.gitbook/assets/addObjectToAttribute.gif)
 
 Some **Node Attributes** correspond to something outside of the **Logic Editor**, such as a **Scene**, **Screen**, **Object**, **Text Object**, or **File**. In this case, you will see a small square, which will either have a thumbnail, related to that **Type** of **File** or **Object**, or the text "drag here". To assign something to the **Attribute**, simply drag and drop it onto the square.
 
 #### Adding Removing Sockets
 
-![](../.gitbook/assets/addRemoveSockets.gif)
+![](../../.gitbook/assets/addRemoveSockets.gif)
 
 There are a few **Nodes** in **Incari** that allow you to customize the number of **Input**/**Output Sockets**. The purpose for this is very specific to that particular **Node**, but the process of adding/removing parameters is the same.
 
