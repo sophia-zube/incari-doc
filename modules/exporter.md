@@ -74,6 +74,9 @@ Add `/no-player` to the command to export just the **Project** without a copy of
 
 ### Different Target
 
+#### Linux
+
+
 Exporting a **Project** for a different *Target* than the *Host* requires a few preparatory steps that will be explained in detail:
 
 **Setting up WSL**
@@ -149,6 +152,41 @@ Where `<target-triple>` specifies the *Target Platform*:
 
 * Use `x86_64-linux-gnu` for *Linux x86-64*.
 * Use `aarch64-linux-gnu` for *Linux arm64*.
+
+#### Android
+
+**Setting up Android SDK and NDK**
+
+To deploy the application on an *Android* device, [*AndroidStudio*](https://developer.android.com/studio/install) must be installed. 
+
+During the *AndroidStudio* installation, a prompt will appear requiring that *Android SDK* be installed as well. This will also install *platform-tools*, which will be required to use [*Android Debug Bridge*](https://developer.android.com/tools/adb) to build and run an app from **IncariStudio**. Please make sure `Android SDK` and `Android API 34` are selected. 
+
+
+
+
+Next, *Android NDK* must be installed. This will allow one to compile **Incari Projects** for *Android* and compile *Android* projects later on. Simply open *Android Studio* and click `Tools->SDKManager->AndroidSDK->SDKTools` and in the *NDK* section, select `25.1.8937393`. 
+
+![Android NDK](../.gitbook/assets/androidimage3.png)
+
+*Android NDK* can also be downloaded [here](https://github.com/android/ndk/wiki/Unsupported-Downloads#r25c).
+
+**Exporting Project**
+
+When exporting a **Project** for *Android*, it is necessary to specify the *Android Toolchain Path*, besides the target platform and project. *Toolchain*
+can be found in the installed or downloaded *NDK*.
+
+For example:
+
+`/home/user_name/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64`
+
+or
+
+`Downloads/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/`
+
+The toolchain path should be provided to the `IncariCLI` as an argument, alongside the project name and desired output directory. 
+
+
+
 
 ## External Links
 
