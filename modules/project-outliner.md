@@ -26,6 +26,16 @@ New **Screens** and **Scenes** can be created in the following ways:
 
 ![](../.gitbook/assets/delete-scene-screen.gif)
 
+## Undo/Redo
+
+It is also possible to undo and redo an action made in the **Project Outliner**.
+
+* Click `Edit` on the top Menu bar.
+* Select `Undo...` or `Redo...` depending on the desired outcome.
+* Alternatively, press `Ctrl + Z` to undo an action and `Ctrl + Shift + Z` to redo an action. 
+
+![](../.gitbook/assets/projectoutlinerundoredo.png)
+
 ## Renaming
 
 **Screens** and **Scenes** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
