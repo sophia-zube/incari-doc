@@ -43,11 +43,11 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 ![The Incari Studio setup welcome screen.](../.gitbook/assets/incaristudio20221_installer.png) -->
 
-*  Go to the **Incari** [website](https://www.incari.com/my-account/), where you can manage your subscriptions and obtain the license key.
+*  A user's subscritions should appear in the `Settings` 
+*  To compare, one can check by going to the **Incari** [website](https://www.incari.com/my-account/), where you can manage your subscriptions.
+*  Click `Activate` to activate a subscription
 
-* Use the license key to activate your subscription in **Incari Hub**.
-
-![The Incari Hub license screen.](../.gitbook/assets/installationguide5.png)
+![The Incari Hub license screen.](../.gitbook/assets/incarihub20232activate.png)
 
 * After installation, the first step to start using **Incari Studio** is to [create a **Project**](first-steps/creating-a-project.md).
 

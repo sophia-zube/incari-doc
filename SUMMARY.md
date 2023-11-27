@@ -93,6 +93,7 @@
 * [Code Editor](modules/code-editor.md)
 * [Console](modules/console.md)
 * [Exporter](modules/exporter.md)
+* [Figma Importer](modules/figma-importer.md)
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor/README.md)
   * [AI Logic Generation](modules/logic-editor/ai-logic-generation.md)
