@@ -163,6 +163,31 @@ These **Attributes** set the values for **Vector4s**. This can be used to set ce
 
 These **Attributes** set the *true* or *false* values for **Bools**. This can be used to execute a certain condition in the code for the `Fragment Shader`, for example. It is possible to set up to four of these currently in **Incari**.
 
+### Property Names
+
+It is possible to hover over each **Attribute** and access their property names to be used in code or **Nodes**. A complete list of these names is as follows:
+
+* iChannel0
+* iChannel1
+* iChannel2
+* iChannel3
+* iInt0
+* iInt1
+* iInt2
+* iInt3
+* iFloat0
+* iFloat1
+* iFloat2
+* iFloat3
+* iVec40
+* iVec41
+* iVec42
+* iVec43
+* iBool0
+* iBool1
+* iBool2
+* iBool3
+
 
 
 ## External Links

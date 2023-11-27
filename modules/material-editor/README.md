@@ -22,6 +22,7 @@ Once a **Material** has been opened, the **Material** **Editor** allows the user
 
 ![Shading Models Menu](../../.gitbook/assets/materialeditornewagain.png)
 
+
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
 
 
@@ -34,7 +35,13 @@ There are several **Shading** **Models** available to choose from when creating 
 * [**Shadeless Model**](shadeless-model.md)
 
 
+In each of these **Models**, it is possible to hover over each **Attribute** with the cursor and see their property names. Below, one can see the property name `diffuse_color` for the `Color` **Attribute** of a **Phong Model**.
 
+![Hovering over Names.](../../.gitbook/assets/materialhovernames.png)
+
+These can then be copied and pasted by right-clicking on them, selecting either property `Name` or `Value`, and pasting where needed. This is particularly useful for accessing the names for the [**Set Material Property**](../../toolbox/incari/material/setmaterialproperty.md) and [**Get Material Property**](../../toolbox/incari/material/getmaterialproperty.md) **Nodes**.
+
+![Copying a Name.](../../.gitbook/assets/materialcopynames.png)
 
 
 

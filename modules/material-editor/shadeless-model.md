@@ -28,3 +28,13 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 `Texture` takes any image to add any desired visual information. 
 
 Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set to 1 then 100% of the `Texture` is displayed on the **Object**. If 0.5, then it displays a 50/50 ratio of `Texture` and `Color`. 
+
+### Property Names
+
+It is possible to hover over each **Attribute** and access their property names to be used in code or **Nodes**. A complete list of these names is as follows:
+
+* `Use Alpha`: use_alpha
+* `Alpha`: alpha
+* `Color` (Diffuse): diffuse_color
+* `Texture` (Diffuse): diffuse_map
+* `Blending` (Diffuse): diffuse_map_blending

@@ -55,3 +55,20 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 `Shininess` determines how 'shiny' a **Material** will be. This means that the higher the value, the 'harder' the surface looks at the smaller the reflection of light. 
 
 `Emissiveness` influences the  color of items around an **Object**, simulating a light source. For example, the lights of a car combined with higher emissiveness will show a stronger glow on the surrounding car parts, with th car light's color interacting with its surroundings as well. 
+
+### Property Names
+
+It is possible to hover over each **Attribute** and access their property names to be used in code or **Nodes**. A complete list of these names is as follows:
+
+* `Use Alpha`: use_alpha
+* `Alpha`: alpha
+* `Color` (Diffuse): diffuse_color
+* `Texture` (Diffuse): diffuse_map
+* `Blending` (Diffuse): diffuse_map_blending
+* `Use Normal Map`: use_normal_map
+* `Normal Map`: normal_map
+* `Color` (Specular): specular_color
+* `Texture` (Specular): specular_map
+* `Blending` (Specular): specular_map_blending
+* `Shininess`: shininess
+* `Emissiveness`: emissiveness
