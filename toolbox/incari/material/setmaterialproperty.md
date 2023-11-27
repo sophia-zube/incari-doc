@@ -21,7 +21,7 @@ Some examples of these property names are:
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Property`|**String**|Each `Property Element` is split into two parts, with `Property` being the first. This is the defining name of the **Material** property that will be set. There is an established naming convention which can be referenced [**here**](../../../modules/material-editor/README.md) or found by hovering over the **Attributes** of a **Shading Model**.|
+|`Property`|**String**|Each `Property Element` is split into two parts, with `Property` being the first. This is the defining name of the **Material** property that will be set. There is an established naming convention which can be found by hovering over the **Attributes** of a **Shading Model**.|
 |`Data Type`|**Dropdown**|Each `Property Element` is split into two parts, with `Data Type` being the second. The data type of the property.|
 
 # Inputs
