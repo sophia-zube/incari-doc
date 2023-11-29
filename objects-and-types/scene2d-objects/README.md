@@ -8,7 +8,7 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 
 **Objects** in a **Scene2D** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section. They are effectively the same processes that govern **Scene Objects**. 
 
-![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/2dsceneoutlinerex2.png)
+![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/sceneoutliner20232scene2d.png)
 
 ## Attributes
 
