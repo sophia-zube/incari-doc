@@ -1,3 +1,3 @@
-# Figma Boolean Operation 
+#  Boolean Operation 
 
-figma
+The **Boolean Operation** in **Incari** provides similar functionality as its equivalent in *Figma*. 

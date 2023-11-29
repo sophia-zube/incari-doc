@@ -78,7 +78,7 @@ There are a few small exceptions that should be noted in order to make sure ever
 
 * **Text**
 
-  * In *Figma*, properties are on a letter basis, meaning that it is possible to change the colors of individual letters. In **Incari** they are on an object basis, meaning that setting the color of individual letters won't do anything.
+  * In *Figma*, properties are on a letter basis, meaning that it is possible to change the colors of individual letters. In **Incari** they are on an object basis, meaning that setting the color of individual letters won't do anything. A text imported from *Figma* to **Incari** will have a uniform color across all letters.
 
   * **Fonts** have to be added [manually](../modules/project-settings/fonts.md). If a font unknown to **Incari** is imported from a *Figma* project, a so-called *dummy font* will be used in its place and a file will appear in the **Asset Manager** containing default dummy font. 
 
@@ -92,7 +92,7 @@ There are a few small exceptions that should be noted in order to make sure ever
 
 * **Prefabs**
 
-  * Nested *Figma* variants must not change the type of variant they use. If there is a change, everything upwards in the hierarchy will imported as a **Frame**. 
+  * In *Figma* every instance can change what variant it is. In nested instances, the inner instances must not change the type of variant they use. If there is a change, everything upwards in the hierarchy will imported as a **Frame**. 
 
   * Remote *Figma* components are imported as **Frames**, so there is no linking to the original component.
 

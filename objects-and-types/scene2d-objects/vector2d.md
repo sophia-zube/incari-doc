@@ -10,6 +10,8 @@ There are several **Vector Objects** that are described below:
 * [Rectangle](vector2d.md#rectangle)
 * [Pie](vector2d.md#sector)
 
+As of version 2023.2, these **Vector Objects** are no longer available and will not be supported in older **Projects** using any future versions. 
+
 ![Vector Objects in Scene2D](../../.gitbook/assets/vector2dorderredo.png)
 
 ## Arc

@@ -1,18 +1,89 @@
-# Figma Ellipse
+# Ellipse
 
-figma
+The **Ellipse** in **Incari** provides similar functionality as its equivalent in *Figma*. 
+
+![Ellipse.](../../../.gitbook/assets/figmaellipse.png)
+
+
+
+There are several **Attributes** which allow the user heightened customizability and control. 
+
+* [**Transformation**](figmaellipse.md#transformation)
+* [**Blending**](figmaellipse.md#blending)
+* [**Fill**](figmaellipse.md#fill)
+* [**Stroke**](figmaellipse.md#stroke)
+* [**Ellipse**](figmaellipse.md#ellipse)
+* [**Mask**](figmaellipse.md#mask)
+* [**Style**](figmaellipse.md#style)
+* [**Tag**](figmaellipse.md#tag)
 
 # Attributes
 
-## Object
 
 ## Transformation
 
+![Transformation Attributes.](../../../.gitbook/assets/buttonattstransformation.png)
+
+The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
+
 ## Blending
+
+![Blending Attributes.](../../../.gitbook/assets/figmablendingattribute.png)
+
+This **Attribute** lets the user set a `Blend Mode` as a base property of the **Ellipse**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
 
 ## Fill
 
+The `Fill` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category.
+
+### Solid
+
+![Fill Attributes with Type Solid.](../../../.gitbook/assets/figmafillattributes.png)
+
+When `Solid` is selected, `Color` is visible. 
+
+* `Color` is a color selector that lets the user pick the `Fill's` color. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+### Image
+
+![Fill Attributes with Type Image.](../../../.gitbook/assets/figmafillimageatts.png) 
+
+When `Image` is selected, `Image` and `Fit Mode` are visible. 
+
+* `Image` is the desired **Texture** file.
+  
+* `Fit Mode` determines how the **Texture** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
 ## Stroke
+
+The `Stroke` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category. There are also two fixed **Attributes** outside of the `Elements`. These are:
+
+* `Width`, which is how wide (in pixels) each `Stroke` will appear. This applies to each `Stroke Element`. 
+* `Position`, which determines 
+
+![Stroke Attributes with Type Solid.](../../../.gitbook/assets/figmastrokesolid.png)
+
+When `Solid` is selected, `Color` is visible. 
+
+* `Color` is a color selector that lets the user pick the `Fill's` color. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+
+
+
+![Stroke Attributes with Type Image.](../../../.gitbook/assets/figmastrokeimage.png)
 
 ## Ellipse
 
