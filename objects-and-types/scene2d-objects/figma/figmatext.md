@@ -1,22 +1,45 @@
 # Figma Text 
 
-figma
+The **Text** in **Incari** provides similar functionality as its equivalent in *Figma*. 
+
+![Text.](../../../.gitbook/assets/figmatextimage.png)
+
+There are several **Attributes** which allow the user heightened customizability and control. 
+
+* [**Transformation**](figmarectangle.md#transformation)
+* [**Blending**](figmarectangle.md#blending)
+* [**Fill**](figmarectangle.md#fill)
+* [**Font**](figmatext.md#font)
+* [**Stroke**](figmarectangle.md#stroke)
+* [**Mask**](figmarectangle.md#mask)
+* [**Style**](figmarectangle.md#style)
+* [**Tag**](figmarectangle.md#tag)
 
 # Attributes
 
-## Object
-
 ## Transformation
 
+![Transformation Attributes.](../../../.gitbook/assets/buttonattstransformation.png)
+
+The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
+
 ## Blending
+
+![Blending Attributes.](../../../.gitbook/assets/figmablendingattribute.png)
+
+This **Attribute** lets the user set a `Blend Mode` as a base property of the **Text**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 ## Fill
 
 ## Font
 
-`Font` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
+![Font Attributes.](../../../.gitbook/assets/figmatextfontatts.png)
+
+The `Font` **Attributes** offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
 ## Stroke
+
+The `Fill` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category.
 
 ## Mask 
 
