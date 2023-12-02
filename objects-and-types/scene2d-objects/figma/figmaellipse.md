@@ -68,26 +68,61 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 The `Stroke` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category. There are also two fixed **Attributes** outside of the `Elements`. These are:
 
 * `Width`, which is how wide (in pixels) each `Stroke` will appear. This applies to each `Stroke Element`. 
-* `Position`, which determines 
+* `Position`, which determines what part of the outline identifies the outside of the **Object**. For example, if `Inner` is selected, then the outside of the `Stroke` is the outside of the **Object**. If `Center` is selected, then the `Stroke's` center is the outside of the **Object**. If `Outer` is selected, then the inside of the `Stroke` is the outside of the **Object**.
 
 ![Stroke Attributes with Type Solid.](../../../.gitbook/assets/figmastrokesolid.png)
 
 When `Solid` is selected, `Color` is visible. 
 
-* `Color` is a color selector that lets the user pick the `Fill's` color. 
+* `Color` is a color selector that lets the user pick the `Stroke's` color. 
 
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
 
 
-
-
 ![Stroke Attributes with Type Image.](../../../.gitbook/assets/figmastrokeimage.png)
+
+When `Image` is selected, `Image` and `Fit Mode` are visible. 
+
+* `Image` is the desired **Texture** file.
+  
+* `Fit Mode` determines how the **Texture** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
 ## Ellipse
 
+![Ellipse Attributes.](../../../.gitbook/assets/figmaellipseatts.png)
+
+These **Attributes** give the foundation properties of the **Ellipse Object**. 
+
+* `Arc Sector` determines the percentage of the the **Ellipse** visible. For example, if it is set to 100, the entire **Ellipse** shows and if it is set to 50, only half shows.
+
+* `Thickness` ranges from 0 to 100. If it is set to 0, there is no white space in the center of the **Ellipse** at all. If set to 100, the entire **Ellipse** is replaced by white space. If set to 50, part of the center is white space, creating a 'donut-like' shape. 
+
+* `Start Angle` ranges from 0 to 360 and determines at which angle the start of the **Ellipse** begins. If `Arc Sector` is set to 100, this will have not have any visual impact. 
+
 ## Mask 
+
+A **Mask** is an **Object** that shows a certain area of another **Object** while concealing the rest. Any **Object** (e.g., an **Ellipse**, **Rectangle**, **Frame**, **Group**, or **Text**) can be used as a **Mask**. 
+
+For easier visualization, think of the **Mask** as a cookie cutter while the masked **Object** is the dough: the cookie cutter shows only a part and discards the rest.
+
+![Mask Attributes.](../../../.gitbook/assets/figmamaskattsreal.png)
+
+The `Type` **Attribute** has three options:
+
+* `None` - nothing is applied. 
+* `Alpha` - the **Mask** has an opacity level (alpha channel) determining with which level of opacity (or transparency) the masked **Object** is revealed: 0% opacity reveals nothing, 100% opacity is equivalent to a **Mask** with `Vector` type.
+* `Vector` - only modifies the shape outline of the masked **Object**
+* `Luminance` - allows the user to utilize brightness to determine the effect of the **Mask**; the brighter the area of a **Mask**, the more that is revealed and the darker the area, the less that is revealed.
+
+`Object` allows the user to select what should be the masked **Object**.
+
+`Apply Mask` is a toggle that applies the **Mask** when set to on, and disables the **Mask** when set to off. 
 
 ## Style 
 
