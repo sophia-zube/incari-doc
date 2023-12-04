@@ -23,7 +23,7 @@ The **Scan For Bluetooth Devices Node** searches for *Bluetooth* devices in the 
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`Scan Finished`(►)|**Pulse**|An **Event Pulse** which is triggered if the scan has successfully finished.|
-|`Devices`|**Array of Dictionaries**|An **Array** of **Dictionary** containing all the found *Bluetooth* devices.|
-|`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that scanning failed|
+|`Devices`|**Array of Dictionaries**|An **Array** of **Dictionaries** containing all the found *Bluetooth* devices.|
+|`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that scanning failed.|
 |`Error Message`|**String**|The error message in the event of an error.|
 

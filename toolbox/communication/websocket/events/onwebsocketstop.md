@@ -26,4 +26,6 @@ The **On WebSocket Stop Node** is an **Event Listener Node** that gives the user
 # See Also
 
 * [**On WebSocket Start**](onwebsocketstart.md)
+* [**On WebSocket Error**](onwebsocketerror.md)
+* [**On WebSocket Receive**](onwebsocketreceive.md)
 

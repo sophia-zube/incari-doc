@@ -43,7 +43,7 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 ![The Incari Studio setup welcome screen.](../.gitbook/assets/incaristudio20221_installer.png) -->
 
-*  A user's subscritions should appear in the `Settings` 
+*  A user's subscriptions should appear in the `Settings` 
 *  To compare, one can check by going to the **Incari** [website](https://www.incari.com/my-account/), where you can manage your subscriptions.
 *  Click `Activate` to activate a subscription
 

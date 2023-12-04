@@ -9,11 +9,6 @@ The **On Bluetooth Device Paired Node** signals that a *Bluetooth* device was pa
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
