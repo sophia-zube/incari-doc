@@ -17,7 +17,7 @@ The **Get Media Length Node** returns the duration of a **Media Object** or **As
 
 # Inputs
 
-Please note that the input depends on the what is chosen in the **Attributes**. This is either `Object` or `Asset`. 
+The **Attributes** decide whether `Object ID` or `Media ID` appears as input.
 
 {% tabs %}
 {% tab title="Object" %}
@@ -42,7 +42,7 @@ Please note that the input depends on the what is chosen in the **Attributes**. 
 
 # Outputs
 
-Please note that the output depends on the what is chosen in the **Attributes**. This is either `Seconds` or `Frames`. 
+The **Attributes** decide whether `Seconds` or `Frames` appears as output. 
 
 
 {% tabs %}

@@ -2,7 +2,7 @@
 
 ![The Set Media Node.](../../../.gitbook/assets/setmedianode.png)
 
-The **Set Media Node** applies a given **Media Asset** to an **Media Object**. This is only possible for **Video** and **Audio Assets**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the [**Asset Database**](../../../modules/asset-database.md) (which can be populated with **Assets** by dragging them from the [**Asset Manager**](../../../modules/asset-manager.md)).
+The **Set Media Node** applies a given **Media Asset** to a **Media Object**. This is only possible for **Video** and **Audio Assets**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the [**Asset Database**](../../../modules/asset-database.md) (which can be populated with **Assets** by dragging them from the [**Asset Manager**](../../../modules/asset-manager.md)).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
@@ -24,4 +24,6 @@ The **Set Media Node** applies a given **Media Asset** to an **Media Object**. T
 # See Also
 
 * [**Get Media**](getmedia.md)
+* [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md)
+* [**Audio**](../../../objects-and-types/scene-objects/audio.md)
 

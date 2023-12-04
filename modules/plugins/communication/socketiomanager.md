@@ -12,7 +12,7 @@ To do this, the user needs simply to locate the toggle labeled `Activated` and c
 
 ![](../../../.gitbook/assets/pluginsserialmanageroffmessage.png)
 
-By following these instructions (save and restart **IncariStudio**) the user will deactivate the **Socket.IO Plugin**. 
+By following these instructions (save and restart **Incari Studio**) the user will deactivate the **Socket.IO Plugin**. 
 
 Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **Socket.IO** will be gone and the toggle labeled `Deactivated`. 
 

@@ -29,7 +29,7 @@ Some examples of these property names are:
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Material`|**MaterialID**|The ID of the **Material** whose property, or properties, will be set.|
+|`Material ID`|**MaterialID**|The ID of the **Material** whose property, or properties, will be set.|
 |`PROPERTY`|Determined by **Attribute**|A new input will show when one is added in the **Attributes**. Its data type and name will match that set in the the input element.|
 
 # Outputs
