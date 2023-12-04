@@ -1,6 +1,6 @@
 # Exporter
 
-The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, the **Exporter** can create a copy of **Incari Player** in the same folder. This makes it possible to save and run a **Project** without the need of **Incari Studio**.
+The **Exporter** **Module** allows the user to export a **Project** to a chosen location. In addition to exporting the **Project**, the **Exporter** can create a copy of **Incari Player** in the same folder (this is not the case for exporting to *Android*). This makes it possible to save and run a **Project** without the need of **Incari Studio**.
 
 There are two tabs in the **Exporter** **Module**: [**Settings**](#settings) and [**Deploy**](#deploy).
 
@@ -18,7 +18,7 @@ Furthermore, find below an easy guide on [**Exporting a Project**](#exporting-a-
 * `Target`: *Operating System* where the exported **Project** will be played in the corresponding version of **Incari Player**. 
 ### Options
 
-* `Only Project`: Whether only the **Project** will be exported or the **Project** alongside a copy of **Incari Player**.
+* `Only Project`: Whether only the **Project** will be exported or the **Project** alongside a copy of **Incari Player**. This does not apply to *Android* **Projects**, as the **Project** is always exported.
 * `Only Used Assets`: A user may import more **Assets** than they end up using. When toggled on, this **Attribute** makes sure only the essential **Assets**, which appear in the **Asset Database**, are packaged up for export. 
 ## Deploy
 
@@ -74,8 +74,10 @@ Add `/no-player` to the command to export just the **Project** without a copy of
 
 ### Different Target
 
-#### Linux
+Currently, this is *Linux* and *Android*. Both require setting up *WSL*, which will be explained shortly. Exporting, however, differs between the two `Target` types and have their own corresponding sections:
 
+* [**Exporting to Linux**](exporter.md#linux)
+* [**Exporting to Android**](exporter.md#android)
 
 Exporting a **Project** for a different *Target* than the *Host* requires a few preparatory steps that will be explained in detail:
 
@@ -111,12 +113,14 @@ These are a few examples for `<target-triple>` to be used in the *path*:
  -->
 **Exporting the Project**
 
+#### Linux
+
 After following all the previous steps, everything is ready for exporting a **Project** to the desired *Target* *Platform*. For this:
 
 1. Open the **Project** to be exported in **Incari Studio** and go to the **Exporter Module**.
 2. Add the desired `Target` by using the plus icon on the top left.
 
-![Adding a Target.](../.gitbook/assets/add-target-update1.png)
+![Adding the Linux Target.](../.gitbook/assets/add-target-update1.png)
 
 ![Exporter with *Linux x86-64* Target added.](../.gitbook/assets/exporter-wlinux_update.png)
 
@@ -164,7 +168,7 @@ During the *AndroidStudio* installation, a prompt will appear requiring that *An
 
 
 
-Next, *Android NDK* must be installed. This will allow one to compile **Incari Projects** for *Android* and compile *Android* projects later on. Simply open *Android Studio* and click `Tools->SDKManager->AndroidSDK->SDKTools` and in the *NDK* section, select `25.1.8937393`. 
+Next, *Android NDK* must be installed. This will allow one to compile **Incari Projects** for *Android* and compile *Android* projects later on. Simply open *Android Studio* and click `Tools->SDKManager->AndroidSDK->SDKTools`. In the *NDK* section, select `25.1.8937393`. 
 
 ![Android NDK](../.gitbook/assets/androidimage3.png)
 
@@ -172,20 +176,51 @@ Next, *Android NDK* must be installed. This will allow one to compile **Incari P
 
 **Exporting Project**
 
-When exporting a **Project** for *Android*, it is necessary to specify the *Android Toolchain Path*, besides the target platform and project. *Toolchain*
-can be found in the installed or downloaded *NDK*.
+After following all the previous steps, everything is ready for exporting a **Project** to the desired *Target* *Platform*. For this:
 
-For example:
+1. Open the **Project** to be exported in **Incari Studio** and go to the **Exporter Module**.
+2. Add the desired `Target` by using the plus icon on the top left.
 
-`/home/user_name/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64`
+![Adding the Android Target.](../.gitbook/assets/addandroidtarget.png)
 
-or
+![Exporter with *Android* Target added.](../.gitbook/assets/androidafteradding.png)
 
-`Downloads/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/`
+3. Choose the desired `Export Folder` on the [**Deploy**](#deploy) tab. Additionally, when exporting a **Project** for *Android*, it is necessary to specify the *Android Toolchain Path*, besides the target platform and project. *Toolchain* can be found in the installed or downloaded *NDK*. For example:
 
-The toolchain path should be provided to the `IncariCLI` as an argument, alongside the project name and desired output directory. 
+   * `/home/user_name/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64`
+
+    or
+
+   * `Downloads/android-ndk-r25c/toolchains/llvm/prebuilt/linux-x86_64/`
+
+    The toolchain path should be inputted here under `Tools`. Alternatively, it can be provided to the `IncariCLI` as an argument, alongside the **Project** name and desired output directory.
+    
+1. Click on the `Export` button on the top menu.
+
+![](../.gitbook/assets/androidexport.png)
+
+A pop-up message indicating that the export was successful will appear.
+
+![](../.gitbook/assets/exporter-success.png)
+
+ After exporting the **Project**, a folder with the exported **Project** labeled `IncariAndroidApp` will appear in the deployed location. The user can then open this folder in *AndroidStudio* and use it as an *Android* project. 
+
+ **Build and Run**
+
+ Beyond what has been previously discussed, it is also possible to directly install the **Project** onto a specified device. This can be done by toggling on `Build and Run` under `Deploy > Remote`. 
+
+ Before continuing, it is necessary to make sure *adb* is installed. If the chosen `Android Toolchain` in `Settings > Tools` is from the *NDK* installed by *AndroidStudio*, **Incari Studio** will find the associated *platform-tools* and *adb*. *Java 17* is also required (for [*Gradle*](https://gradle.org/)) and also comes installed by *AndroidStudio*. To double-check, this can usually be located with `C:\Program Files\Android\Android Studio\jbr` on *Windows*, or `/usr/local/android-studio/jbr` on *Linux*.
 
 
+ After that, refreshing allows the user to check for connected *Android* devices, appearing in the `Device` dropdown. 
+
+ ![Build and Run Example.](../.gitbook/assets/buildandrunexample.png)
+
+ Then the user must simply click `Export` and it will export, build, and install the app on the chosen device. This may take some time, but should eventually result in a success message:
+ 
+ ![Successful Build and Run for Android.](../.gitbook/assets/androidsuccess.png) 
+ 
+ However there are a few instances where an error will occur. These are if there was an installation failure, if the *Java* path was invalid, or if no device has been selected. 
 
 
 ## External Links
