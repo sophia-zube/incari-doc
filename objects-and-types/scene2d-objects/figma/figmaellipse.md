@@ -37,6 +37,8 @@ This **Attribute** lets the user set a `Blend Mode` as a base property of the **
 
 The `Fill` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category.
 
+If there is more than one `Fill Element`, the most recent one will take precedent over the others (unless some `Blend Mode` is applied).
+
 ### Solid
 
 ![Fill Attributes with Type Solid.](../../../.gitbook/assets/figmafillattributes.png)
