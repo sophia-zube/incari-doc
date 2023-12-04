@@ -1,6 +1,6 @@
 # Figma Line 
 
-The **Line** in **Incari** provides similar functionality as its equivalent in *Figma*. 
+The **Line** in **Incari** provides similar functionality as its equivalent in *Figma*. Since it is effectively a stroke, the `Stroke` **Attribute** controls its initial visibility. 
 
 ![Line.](../../../.gitbook/assets/figmalineimage.png)
 
@@ -31,6 +31,8 @@ This **Attribute** lets the user set a `Blend Mode` as a base property of the **
 ## Fill
 
 The `Fill` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category.
+
+If there is more than one `Fill Element`, the most recent one will take precedent over the others (unless some `Blend Mode` is applied).
 
 ### Solid
 

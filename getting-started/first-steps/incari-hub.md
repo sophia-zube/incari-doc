@@ -14,6 +14,7 @@ On the left-side Menu, there are several sections. We will go through each, one 
   * [Documentation](incari-hub.md#documentation)
   * [Forum](incari-hub.md#forum)
   * [Support](incari-hub.md#support)
+* [Settings](incari-hub.md#settings)
 
 ## Projects
 
@@ -86,3 +87,13 @@ Clicking on _Support_ takes you to the **Support** channel. It may ask you to lo
 Here the user can create _tickets_ to report bugs or suggest new features and improvement. We are always aiming to improve **Incari**, so we are excited to receive _tickets_ from you.
 
 ![Support.](../../.gitbook/assets/communitysupportactual.png)
+
+## Settings
+
+In *Settings*, the user can check whether they have *Visual Studio* installed, as per the [requirements](../requirements.md). If it is not, they will be prompted to do so. 
+
+![Visual Studio Code Installer.](../../.gitbook/assets/image%20(1)%20-%20Copy.png)
+
+They can also connect to repositories using the `Add Endpoint` feature. **Projects** in this repository namespace will appear as an option in the upper right corner on the *Remote Projects* section.
+
+![](../../.gitbook/assets/incarihubvsinstalled.png)
