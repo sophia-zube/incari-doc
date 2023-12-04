@@ -35,6 +35,8 @@ There are two slightly different procedures for exporting a **Project** dependin
 
 * [**Host Target**](#host-target)
 * [**Different Target**](#different-target)
+  * [**Linux**](#linux)
+  * [**Android**](#android)
 
 ### Host Target
 
@@ -111,9 +113,13 @@ These are a few examples for `<target-triple>` to be used in the *path*:
 * `aarch64-linux-gnu`, for *Linux arm64*.
 * `arm-linux-gnueabihf`, for *Linux arm32*.
  -->
+
+ #### Linux
+
+
 **Exporting the Project**
 
-#### Linux
+
 
 After following all the previous steps, everything is ready for exporting a **Project** to the desired *Target* *Platform*. For this:
 
