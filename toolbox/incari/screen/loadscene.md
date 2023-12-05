@@ -2,20 +2,19 @@
 
 ![The Load Scene Node.](../../../.gitbook/assets/loadscenenode.png)
 
-The **Load Scene Node** .
+The **Load Scene Node** loads the specified **Scene**. This can be particularly useful in tandem with the [**Set Scene Node**](setscene.md).
+
+Please note that **Scene Separation** must be enabled in the [**Project Settings**](../../../modules/project-settings/sceneseparation.md).
 
 [**Scope**](../../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Scene ID`|**SceneID**|The ID of the chosen **Scene** that will be loaded.|
 
 # Outputs
 
@@ -25,5 +24,7 @@ The **Load Scene Node** .
 
 # See Also
 
-# External Links
+* [**Set Scene**](setscene.md)
+* [**On Scene Loaded**](../../events/scene/onsceneloaded.md)
+* [**Unload Scene**](unloadscene.md)
 
