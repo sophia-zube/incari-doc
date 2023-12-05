@@ -8,11 +8,14 @@ The **Media Nodes** allow the user to pause, play, or stop a media **Object** or
 
 * [**Get Media**](getmedia.md)
 * [**Get Media Length**](getmedialength.md)
+* [**Get Media Loop**](getmedialoop.md)
+* [**Get Media Progress**](getmediaprogress.md)
 * [**Get Volume**](getvolume.md)
 * [**Is Media Playing**](ismediaplaying.md)
 * [**Pause Media**](pausemedia.md)
 * [**Play Media**](playmedia.md)
 * [**Set Media**](setmedia.md)
+* [**Set Media Loop**](setmedialoop.md)
 * [**Set Media Progress**](setmediaprogress.md)
 <!--* [**Seek Media**](seekmedia.md)-->
 * [**Set Volume**](setvolume.md)
