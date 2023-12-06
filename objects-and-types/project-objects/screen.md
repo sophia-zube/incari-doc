@@ -26,7 +26,7 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 ### Background
 
-The `Mode` **Attribute** defines the background of the **Simulation** and it can be a `Color`, `Texture`, `Scene Environment`, and `Gradient`. It can also be completely transparent if `Color` is selected and alpha channel (`A:`) is set to 0. 
+The `Mode` **Attribute** defines the background of the **Simulation** and can be a `Color`, `Texture`, `Scene Environment`, or `Gradient`. It can also be completely transparent if `Color` is selected and alpha channel (`A:`) is set to 0. 
 
 
 ### Anti-Aliasing
