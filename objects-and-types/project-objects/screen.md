@@ -26,7 +26,7 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 ### Background
 
-The `Color` **Attribute** defines the background color of the **Simulation** and is solid black by default.
+The `Mode` **Attribute** defines the background of the **Simulation** and it can be a `Color`, `Texture`, `Scene Environment`, and `Gradient`. It can also be completely transparent if `Color` is selected and alpha channel (`A:`) is set to 0. 
 
 
 ### Anti-Aliasing
