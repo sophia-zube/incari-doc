@@ -7,7 +7,7 @@ This **Node** can be used to navigate to a particular point of a **Media** **Obj
 
 ## Overview
 
-![The Set Media Progress Node.](../../../.gitbook/assets/setmediaprogressframes.png)
+![The Set Media Progress Node.](../../../.gitbook/assets/setmediaprogressnodereal.png)
 
 The **Set Media Progress Node** is used to navigate to a particular point of a **Media Object’s** progress in either `Frame Numbers`, `Percentage`, or `Seconds`.
 
@@ -15,9 +15,8 @@ The **Set Media Progress Node** is used to navigate to a particular point of a *
 
 ## Attributes
 
-![The Set Media Progress Node Attributes.](../../../.gitbook/assets/setmediaprogressatts.png)
+![The Set Media Progress Node Attributes.](../../../.gitbook/assets/setmediaprogressattsreal.png)
 
-<!--NEED UPDATED IMAGE THAT REMOVES SEEK AND FRAME-->
 
 |Attribute|Type|Description|
 |---|---|---|
