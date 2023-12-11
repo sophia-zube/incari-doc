@@ -1,6 +1,6 @@
 # Figma Importer 
 
-The **Figma Importer** allows the user to import their projects (or parts of their projects) from *Figma* and render them in **Incari Studio** with comparable retention of designs using **Scene2Ds**. As of 2023.2, there are some exceptions to this which will be described in greater detail [below](figma-importer.md#exceptions).
+The **Figma Importer** allows the user to import their projects (or parts of their projects) from *Figma* and render them in **Incari Studio** with comparable retention of designs using **Scene2Ds**. As of 2023.2, there are some exceptions to this which are described in greater detail [here](currentlimitations.md).
 
 All *Figma* componenets are imported as **Prefabs**. More specifically, a component will become a [**Frame**](../objects-and-types/scene2d-objects/frame.md) and its variants become **Prefabs** under that **Frame**. 
 
