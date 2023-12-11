@@ -6,7 +6,7 @@ This **Node** can be used to navigate to a particular point of a **Media** **Obj
 
 ## Overview
 
-![The Get Media Progress Node.](../../../.gitbook/assets/setmediaprogressframes.png)
+![The Get Media Progress Node.](../../../.gitbook/assets/getmediaprogressnodereal.png)
 
 The **Get Media Progress Node** returns the partial duration of time that has progressed out of a **Media Object’s** temporal entirety in either `Frames`, `Seconds`, or a `Percentage`. 
 
@@ -14,7 +14,7 @@ The **Get Media Progress Node** returns the partial duration of time that has pr
 
 ## Attributes
 
-![The Get Media Progress Node Attributes.](../../../.gitbook/assets/getmediaprogressattsframe.png)
+![The Get Media Progress Node Attributes.](../../../.gitbook/assets/setmediaprogressattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|
