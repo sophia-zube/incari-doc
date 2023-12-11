@@ -1,6 +1,6 @@
 # Frame
 
-A **Frame** is a **Scene2D Object** in **Incari** that acts as a 'container' to its *children* and has rigid boundaries. It is the only **Object** in **Scene2Ds** which can be a *parent*. 
+A **Frame** is a **Scene2D Object** in **Incari** that acts as a 'container' to its *children* and has rigid boundaries. It is one of the only **Objects** in **Scene2Ds** which can be a *parent*, besides [**Groups**](group2d.md) and [**Boolean Operations**](figma/figmabooleanoperation.md). 
 
 ## Create  
 
@@ -10,11 +10,11 @@ The dimensions of the **Frame** are provided in its **Attributes**.
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
-![Frame Object Before.](../../.gitbook/assets/frameimage1update.png)
+![Frame Object Before.](../../.gitbook/assets/frameobjectandtransfatts.png)
 
 An **Ellipse** and **Rectangle** are now added as *children*<!--, but it's still difficult to tell the boundaries of the **Frame** visually-->. Notice the `Position` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 100 units in both the X and Y-axes. **Objects**, however, will still appear in full outside the boundaries of the **Frame** if they happen to not be entirely encapsulated. 
 
-![Frame with Objects.](../../.gitbook/assets/frameimage2update.png)
+![Frame with Objects.](../../.gitbook/assets/frameafter20232.png)
 
 <!--## Frame Boundaries
 
@@ -32,6 +32,24 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 -->
 
 ## Attributes
+
+### Transformation
+
+### Frame
+
+### Events
+
+### Blending 
+
+### Fill
+
+### Stroke
+
+### Mask 
+
+### Style
+
+### Tag 
 
 ![Frame Attributes.](../../.gitbook/assets/frameattributes.png)
 
