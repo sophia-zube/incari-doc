@@ -2,14 +2,14 @@
 
 The **Figma Importer** allows the user to import their projects (or parts of their projects) from *Figma* and render them in **Incari Studio** with comparable retention of designs using **Scene2Ds**. As of 2023.2, there are some exceptions to this which are described in greater detail [here](currentlimitations.md).
 
-All *Figma* componenets are imported as **Prefabs**. More specifically, a component will become a [**Frame**](../objects-and-types/scene2d-objects/frame.md) and its variants become **Prefabs** under that **Frame**. 
+All *Figma* components are imported as **Prefabs**. More specifically, a component will become a [**Frame**](../objects-and-types/scene2d-objects/frame.md) and its variants become **Prefabs** under that **Frame**. 
 
 Even if only one page of a *Figma* project is imported, *all* components and their variants from the entire project will be imported into **Incari Studio**. If there are any images in the *Figma* project, the images are added like a normal **Asset** and appear in both the [**Asset Manager**](../modules/asset-manager.md) and [**Asset Database**](asset-database.md). 
 
 
 NESTED PREFABS
 
-*Figma* pages are different to **Scenes** in **Incari**. Large *Figma* pages take a long time to render, so its recommended to split these into multiple pages before importing. It's also highly suggested to flatten any objects used in *Figma* projects so that everything runs smoothly in **Incari**. 
+*Figma* pages are different from **Scenes** in **Incari**. Large *Figma* pages take a long time to render, so it's recommended to split these into multiple pages before importing. It's also highly suggested to flatten any objects used in *Figma* projects so that everything runs smoothly in **Incari**. 
 
 
 
