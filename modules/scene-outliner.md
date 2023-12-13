@@ -114,6 +114,14 @@ The `Filter` option allows the user to filter **Objects** in a **Scene** by type
 
 ![Filtering Objects by type.](../.gitbook/assets/sceneoutlinersearch.gif)
 
+## Frame Selected
+
+Sometimes one gets lost in a **Project**. It is now easier than ever to refocus on a particular **Object**. The user just needs to locate that **Object** in the **Scene Outliner**, right-click, and select `Frame Selected`. This can also be achieved by simply pressing the `F`. 
+
+![Frame Selected Example.](../.gitbook/assets/focusexample.gif)
+
+
+
 ## See Also
 
 * [**Scene**](../objects-and-types/project-objects/scene.md)

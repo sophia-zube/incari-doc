@@ -28,6 +28,23 @@ By default, the **Simulation** will be shown in the left-hand corner of your mon
 
 The `Mode` **Attribute** defines the background of the **Simulation** and can be a `Color`, `Texture`, `Scene Environment`, or `Gradient`. It can also be completely transparent if `Color` is selected and alpha channel (`A:`) is set to 0. 
 
+An example of a `Color Background` with one **Sphere** in the one **Scene**:
+
+![Background with Color Selected.](../../.gitbook/assets/screenbgcolor.png)
+
+An example of a `Texture Background` with one **Sphere** in the one **Scene**:
+
+![Background with Texture Selected.](../../.gitbook/assets/screenbgtexture.png)
+
+An example of a `Scene Environment Background` with one **Sphere** in the one **Scene**:
+
+![Background with Scene Environment Selected.](../../.gitbook/assets/screenbgenvironment.gif)
+
+An example of a `Gradient Background` with one **Sphere** in the one **Scene**:
+
+![Background with Gradient Selected.](../../.gitbook/assets/screenbggradient.png)
+
+
 
 ### Anti-Aliasing
 
