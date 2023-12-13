@@ -101,9 +101,22 @@ The *uv coordinates* can be obtained by using:
 
 `vec2 uv = (fragCoord * incResolution) / incResolution.xy;`
 
+
+It is also possible to use shaders from [*ShaderToy*](https://www.shadertoy.com/). To do so, simply locate a shader which uses the [*GLSL_ES*](https://www.khronos.org/files/opengles_shading_language.pdf) standards. 
+
+Once there, copy the code on the right-hand side of the page. 
+
+![Example Shader from shadertoy.com.](../../.gitbook/assets/shadertoyexample.png)
+
+Then paste that into a `.frag` file in **Incari**. It is imperative that one add `#define USE_RESOLUTION_RANGE` to the very beginning of the file (before all the code that has been pasted).
+
+![Fragment Shader Example.](../../.gitbook/assets/fragshaderexample.png)
+
+This makes a shader from *shadertoy.com* useable in **Incari**. Now one just needs to add the file to a **Custom Shading Model** in the `Fragment Shader` section. 
+
 ### Uniforms
 
-**Incari** makes it possible for the user to set values in **Fragment** and **Vertex Shader** files. This can also be done on runtime by using the [**Set Custom Uniform Node**](../../toolbox/incari/material/setcustomuniforms.md).
+**Incari** makes it possible for the user to set values in **Fragment** and **Vertex Shader** files. This can also be done on runtime by using the [**Set Material Property Node**](../../toolbox/incari/material/setmaterialproperty.md).
 
 Here, the user can set the values for several variables. These variables correspond to those present in the files given in the *shaders*. Please note that *shaders* should be conform to the [*GLSL_ES*](https://www.khronos.org/files/opengles_shading_language.pdf) standards.
 
