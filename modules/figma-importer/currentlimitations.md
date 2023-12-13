@@ -29,6 +29,8 @@ There are a few small exceptions that should be noted in order to make sure ever
   * In *Figma* every instance can change what variant it is. In nested instances, the inner instances must not change the type of variant they use. If there is a change, everything upwards in the hierarchy will imported as a **Frame**. 
 
   * Remote *Figma* components are imported as **Frames**, so there is no linking to the original component.
+  
+  * For nested structures, if a *Figma* component has multiple variants, these variants will be imported as individual **Prefabs**, requiring separate **Logic** for each. This defeats the purpose of **Prefabs** so it is highly suggested to create only one variant per component in *Figma*. This variant would have all possible objects and properties, which the user can cluster into groups if necessary, and will be imported into **Incari** as one **Prefab**. This preserves the structure of the **Prefab**, especially in regard to any subsequent **Logic**. 
 
 
 * **Vector**
