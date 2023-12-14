@@ -1,29 +1,26 @@
 # Overview
 
-![The Getstrokewidth Node.]()
+![The Get Stroke Width Node.](../../../.gitbook/assets/getstrokewidthnode2d.png)
 
-**Getstrokewidth** .
+The **Get Stroke Width Node** returns the `Stroke` width of the inputted **Object** from a **Scene2D**.
 
-[**Scope**]():
-
-# Attributes
-
-|Attribute|Type|Description|
-|---|---|---|
+[**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The ID of the *2D* **Object** that will have its `Stroke` width returned.|
 
 # Outputs
 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Width`|**Float**|The `Stroke` width of the inputted *2D* **Object**.|
 
 # See Also
 
-# External Links
+* [**Set Stroke Width**](setstrokewidth.md)
 
