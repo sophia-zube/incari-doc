@@ -39,7 +39,7 @@ An example of a `Texture Background` with one **Sphere** in the one **Scene**:
 
 An example of a `Scene Environment Background` with one **Sphere** in the one **Scene**:
 
-![Background with Scene Environment Selected.]()
+![Background with Scene Environment Selected.](../../.gitbook/assets/screenbgenvironment.gif)
 
 An example of a `Gradient Background` with one **Sphere** in the one **Scene**:
 
