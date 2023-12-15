@@ -116,7 +116,7 @@ The `Filter` option allows the user to filter **Objects** in a **Scene** by type
 
 ## Frame Selected
 
-Sometimes one gets lost in a **Project**. It is now easier than ever to refocus on a particular **Object**. The user just needs to locate that **Object** in the **Scene Outliner**, right-click, and select `Frame Selected`. This can also be achieved by simply pressing the `F`. 
+Sometimes one gets lost in a **Project**. It is now easier than ever to refocus on a particular **Object**. The user just needs to locate that **Object** in the **Scene Outliner**, right-click, and select `Frame Selected`. This can also be achieved by simply pressing the `F` key. 
 
 ![Frame Selected Example.](../.gitbook/assets/focusexample.gif)
 

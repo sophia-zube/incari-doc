@@ -24,7 +24,7 @@ The **Set Paint Node** sets the value of the fill or stroke's `Paint Type` selec
 |`Target`|**Dropdown**|Can be either `Fill` or `Stroke`. In the image above, `Fill` has been chosen.|
 |`Index`|**Int**|Determines the layer of the paint content, if one is not provided in the **Input Socket**. It works in a top to bottom way, where 0 is the top layer and increasing layers are below it.|
 |`Paint Type`|**Dropdown**|The type of content that will be used on the inputted **Object**. The choices are `Color`or `Image`. In this case, `Color` has been chosen.| 
-|`Color`|**Color Selector**|If `Paint Type` is set to **Color**, this additional **Attribute** appears. It allows the user to set the color of the paint content for the inputted **Object**, if one is not alreayd provided in the **Input Socket**.
+|`Color`|**Color Selector**|If `Paint Type` is set to **Color**, this additional **Attribute** appears. It allows the user to set the color of the paint content for the inputted **Object**, if one is not already provided in the **Input Socket**.
 
 ## Inputs
 
@@ -57,7 +57,7 @@ The **Set Paint Node** returns the value of the fill or stroke's `Paint Type` se
 
 ## Attributes
 
-![The Set Paint Node with Fill Target and Color Paint Type Attributes.](../../../.gitbook/assets/setfillpaintimageattsreal.png)
+![The Set Paint Node with Fill Target and Image Paint Type Attributes.](../../../.gitbook/assets/setfillpaintimageattsreal.png)
 
 |Attribute|Type|Description|
 |---|---|---|
