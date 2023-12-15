@@ -2,7 +2,7 @@
 
 ![The WebSocket Client Start Node.](../../../.gitbook/assets/websocketclientstart.png)
 
-The **WebSocket Client Start Node** starts the *WebSocket* connection that has already been set up in the [**Project Settings**](../../../modules/project-settings/websocket.md).
+The **WebSocket Client Start Node** starts the *WebSocket* connection based on the configuration that has already been set up in the [**Project Settings**](../../../modules/project-settings/websocket.md).
 
 **WebSocket Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and **WebSocket Client Start** will not show up in the [**Toolbox**](../../overview.md). Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 

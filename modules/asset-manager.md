@@ -58,9 +58,9 @@ To reiterate, the first generation of the `.ktx2` file is on instantiation, mean
 
 Deleting the `.jgp` also deletes the generated `.ktx2` and removes the generated files. 
 
-Overwriting (changes to the file and its **Attributes**) will detect the changed file and regenerate the `.ktx2` if it was already generated. This can be something simple, like changing the name of the file. It also could be something a little more high-stakes, like saving a new version of the file over an existing file and replacing it.  
+**Incari Studio** will detect any overwriting (changes to the file or its **Attributes**) and regenerate the `.ktx2` when `Save` under `Information` is pressed. This change can be something simple, like changing the `Compression` **Attribute**. It can also be something more complex, like changing something in the **Image** using an external software, such as *Microsoft Paint*.  
 
-![Texture Importer for a JPG](../.gitbook/assets/textureimporterjpgexample.png)
+![Texture Importer for a JPG](../.gitbook/assets/sunflowertextureimporterexampleupdated.png)
 
 To get the **Texture Importer** to show, one simply needs to click on the imported **Asset** (in this case `sunflower.jpg`). This shows the many **Attributes**:
 
@@ -69,7 +69,8 @@ To get the **Texture Importer** to show, one simply needs to click on the import
 * `Compression Level`: What type of compression to use. The lower the number, the higher the compression but the lower the quality. This can be `High Quality` (255), `Balanced` (128), or `High Compression` (64).
 * `Information`
   * `Open in Asset Database`: Opens the file in the [**Asset Database**](../modules/asset-database.md)
-  * `Save`: Lets the user save the new settings applied to the **Asset** in the **Texture Importer**. 
+  * `Save`: Lets the user save the new settings applied to the **Asset** in the **Texture Importer** or regenerate the file when external changes have been made. These changes will then appear automatically.
+
 
 
 ### Image Sequences
@@ -89,7 +90,8 @@ To get the **Texture Importer** to show, one simply needs to click on the import
 * `Compression Level`: What type of compression to use. The lower the number, the higher the compression but the lower the quality. This can be `High Quality` (255), `Balanced` (128), or `High Compression` (64).
 * `Information`
   * `Open in Asset Database`: Opens the file in the [**Asset Database**](../modules/asset-database.md)
-  * `Save`: Lets the user save the new settings applied to the **Asset** in the **Texture Importer**. 
+  * `Save`: Lets the user save the new settings applied to the **Asset** in the **Texture Importer** or regenerate the file when external changes have been made. These changes will then appear automatically.
+
 
 ## 3D Object Importer
 
@@ -112,7 +114,7 @@ Deleting a base file would delete the `.glb` file as well as everything associat
 
 Any changes to the base file will update the `.glb` files. 
 
-Overwriting in this case means that when a change is made in some **Asset** or **Object**, it is added on top of the original data. So if the original data specifies that a **Material** is orange, the user can overwrite the original **Material** to make the material blue.
+Overwriting in this case means that when a change is made in some **Asset** or **Object**, it is added on top of the original data when `Save` under `Information` is pressed. So if the original data specifies that a **Material** is orange, the user can overwrite the original **Material** to make the material blue.
 
 ![3D Object Importer for a Mesh.](../.gitbook/assets/3dobjectimporterexample.png)
 
@@ -122,5 +124,5 @@ To get the **3D Object Importer** to show, one simply needs to click on the impo
 * `Scale Factor`: This allows the user to scale the **Mesh's** size up or down.
 * `Information`
   * `Open in Asset Database`: Opens the file in the [**Asset Database**](../modules/asset-database.md)
-  * `Save`: Lets the user save the new settings applied to the **Asset** in the **3D Object Importer**. 
+  * `Save`: Lets the user save the new settings applied to the **Asset** in the **3D Object Importer** or regenerate the file when external changes have been made. These changes will then appear automatically.
 
