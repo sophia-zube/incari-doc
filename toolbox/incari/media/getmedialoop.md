@@ -12,7 +12,7 @@ The **Get Media Loop Node** returns the value of the `Loop` **Bool**. *True* mea
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|The ID of the desired **Object**.|
+|`Object ID`|**ObjectID**|The ID of the desired **Media Object**.|
 
 # Outputs
 

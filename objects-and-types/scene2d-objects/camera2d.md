@@ -18,7 +18,7 @@ Before `Player View` is enabled, the bounds of the **Camera** as well as the ent
 
 ![Camera Editor View.](../../.gitbook/assets/camera2dimage1.png)
 
-Once `Player View` is activated, only half of the **Ellipse** is visible and the boundary lines of the **Camera** disappear. 
+Once `Player View` is activated, only half of the **Rectangle** is visible and the boundary lines of the **Camera** disappear. 
 
 ![Camera Player View.](../../.gitbook/assets/camera2dimage2.png)
 
