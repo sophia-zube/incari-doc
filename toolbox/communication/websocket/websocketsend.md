@@ -11,7 +11,7 @@ The **WebSocket Client Send Node** sends a message via the open *WebSocket* conn
 
 # Attributes
 
-![The WebSocket Client Send Node**](../../../.gitbook/assets/websocketclientsentatts.png)
+![The WebSocket Client Send Node Attributes.](../../../.gitbook/assets/websocketclientsendatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

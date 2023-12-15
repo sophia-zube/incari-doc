@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **WebSocket** **Nodes** provide a means for the user to perform several actions within the *WebSocket* messaging protocol.is a form of data transmission that is bidirectional and sends data from a client to a server or vice versa via the same connection channel. More information can be found [here](https://en.wikipedia.org/wiki/WebSocket). To use the **WebSocket Nodes** in **Incari**, the user needs to locate the [**WebSocket Attributes**](../../../modules/project-settings/websocket.md) in **Project Settings** and add a `Connection`.
+The **WebSocket** **Nodes** provide a means for the user to perform several actions within the *WebSocket* messaging protocol. *WebSocket* is a communication protocol that provides full-duplex, bidirectional communication channels over a single *TCP* connection. More information can be found [here](https://en.wikipedia.org/wiki/WebSocket). To use the **WebSocket Nodes** in **Incari**, the user needs to locate the [**WebSocket Attributes**](../../../modules/project-settings/websocket.md) in **Project Settings** and add a `Connection`.
 
 This form of **Communication** in **Incari** is available as a plugin and is enabled as default. However, in the case that it is disabled in the **Plugins Editor**, it will not appear in the **Project Settings** and render the **WebSocket Nodes** unavailable. Please refer to the [**Plugins Editor**](../../../modules/plugins/README.md) to find out more information.
 
