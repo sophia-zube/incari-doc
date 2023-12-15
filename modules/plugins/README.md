@@ -11,9 +11,11 @@ The **Plugins Module** looks like this when it is opened:
 ## Contents
 
 * [**Communication**](communication/README.md)
+  * [**Bluetooth**](communication/bluetooth.md)
   * [**MAVLink**](communication/mavlinkmanager.md)
   * [**Serial**](communication/serialmanager.md)
   * [**Socket.IO**](communication/socketiomanager.md)
   * [**TCP**](communication/tcpconnectionsmanager.md)
   * [**UDP**](communication/udpconnectionsmanager.md)
+  * [**WebSocket**](communication/websocket.md)
 
