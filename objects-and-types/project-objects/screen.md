@@ -46,7 +46,7 @@ An example of a `Gradient Background` with one **Sphere** in the one **Scene**:
 
 ![Background with Gradient Selected.](../../.gitbook/assets/screenbggradient.png)
 
-![](../../.gitbook/assets/screenbgcolor.png)
+![](../../.gitbook/assets/backgroundcolor.png)
 
 
 
