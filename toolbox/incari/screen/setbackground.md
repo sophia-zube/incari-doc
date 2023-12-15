@@ -85,7 +85,7 @@ The **Set Background Texture_Quad Node** sets the `Texture` for the inputted **S
 
 ![The Set Background Scene Environment Node.](../../../.gitbook/assets/setbackgroundsceneenvironmentnode.png)
 
-The **Set Background Scene Environment Node** sets the `Scene Environment` for the inputted **Screen's** background. This is decided in the [`Scene Environment](../../../objects-and-types/project-objects/screen.md#background) option in the **Screen's** `Background` **Attributes**.
+The **Set Background Scene Environment Node** sets the `Scene Environment` for the inputted **Screen's** background. This is decided in the [Scene Environment](../../../objects-and-types/project-objects/screen.md#background) option in the **Screen's** `Background` **Attributes**.
 
 [**Scope**](../../overview.md#scopes): **Project**, **Function**, **Prefab**.
 
