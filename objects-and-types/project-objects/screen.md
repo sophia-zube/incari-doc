@@ -31,6 +31,7 @@ The `Mode` **Attribute** defines the background of the **Simulation** and can be
 An example of a `Color Background` with one **Sphere** in the one **Scene**:
 
 ![Background with Color Selected.](../../../.gitbook/assets/screenbgcolor.png)
+
 ![](../../.gitbook/assets/screenbgcolor.png)
 
 An example of a `Texture Background` with one **Sphere** in the one **Scene**:
@@ -44,6 +45,8 @@ An example of a `Scene Environment Background` with one **Sphere** in the one **
 An example of a `Gradient Background` with one **Sphere** in the one **Scene**:
 
 ![Background with Gradient Selected.](../../.gitbook/assets/screenbggradient.png)
+
+![](../../.gitbook/assets/fxaa.gif)
 
 
 
