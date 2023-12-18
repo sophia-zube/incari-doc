@@ -176,7 +176,7 @@ During the *AndroidStudio* installation, a prompt will appear requiring that *An
 
 Next, *Android NDK* must be installed. This will allow one to compile **Incari Projects** for *Android* and compile *Android* projects later on. Simply open *Android Studio* and click `Tools->SDKManager->AndroidSDK->SDKTools`. In the *NDK* section, select `25.1.8937393`. 
 
-![Android NDK](../.gitbook/assets/androidimage3.png)
+![Android NDK.](../.gitbook/assets/androidimage3.png)
 
 *Android NDK* can also be downloaded [here](https://github.com/android/ndk/wiki/Unsupported-Downloads#r25c).
 

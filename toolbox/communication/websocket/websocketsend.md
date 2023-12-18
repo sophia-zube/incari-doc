@@ -24,7 +24,7 @@ The **WebSocket Client Send Node** sends a message via the open *WebSocket* conn
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Message`|**String**|The desired message to be sent through the chosen *WebSocket* connection. If `IsBinary`is toggled off, it will remain a **String**. If it is toggled on, it will be in **Binary** format.|
+|`Message`|**String** or **Bool**|The desired message to be sent through the chosen *WebSocket* connection. If `IsBinary`is toggled off, it will remain a **String**. If it is toggled on, it will be in **Binary** format.|
 
 # Outputs
 

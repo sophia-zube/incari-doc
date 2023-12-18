@@ -1,9 +1,9 @@
 
 # Overview
 
-![The Retrieve Call History Node.](../../../.gitbook/assets/retrievecallhistory.png)
+![The Retrieve Call History Node.](../../../.gitbook/assets/retrievecallhistoryreal.png)
 
-The **Retrieve Call History Node** returns a device's call history in **Dictionary** form. The keys are `Incoming Calls`, `Outgoing Calls`, `Canceled Calls`, and `Missed Calls`. 
+The **Retrieve Call History Node** returns a device's call history in **Dictionary** form. The keys are `Incoming Calls`, `Outgoing Calls`, `Canceled Calls`, and `Missed Calls`. This requires that that the *Bluetooth* device has been paired and that the user has contact sharing (or something similar) enabled for pairing.
 
 The **Node** only schedules the call history retrieval process and then returns immediately. This means that it is possible to trigger the **Node** multiple times with different inputs, resulting in consecutive retrival attempts. This is the reason for returning the *Bluetooth* address, as it properly attributes the result to the relevant device. 
 
@@ -24,10 +24,10 @@ The **Node** only schedules the call history retrieval process and then returns 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`On Finished`(►)|**Pulse**|An **Event Pulse** which is triggered if the call history was successfully retrieved.|
+|`On Finish`(►)|**Pulse**|An **Event Pulse** which is triggered if the call history was successfully retrieved.|
 |`Call History`|**Dictionary**|The **Dictionary** containing the device's call history.|
-|`Finished Bluetooth Address`|**String**|The **Bluetooth** address of the device.|
+|`Bluetooth Address`|**String**|The **Bluetooth** address of the device.|
 |`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that the retrieval of the call history was unsuccessful.|
 |`Error Message`|**String**|The error message in the event of an error.|
-|`Error Bluetooth Address`|**String**|The *Bluetooth* address associated with the error.|
+|`Bluetooth Address`|**String**|The *Bluetooth* address associated with the error.|
 

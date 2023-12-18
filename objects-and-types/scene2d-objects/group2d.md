@@ -39,7 +39,7 @@ A **Group** can be deleted in its entirety or one **Object** at a time.
 
 ## Transformations
 
-A useful function of the **Group** **Object** is that it allows you to transform multiple **Objects** relative to a single **Pivot Point**, as if they were are a single **Object**.
+A useful function of the **Group** **Object** is that it allows you to transform multiple **Objects** relative to a single **Pivot Point**, as if they were a single **Object**.
 
 Like any other **Scene Object**, we can manipulate its [**Transformation Attributes**](../attributes/common-attributes/transformation/README.md), albeit only in the X and Y directions.
 

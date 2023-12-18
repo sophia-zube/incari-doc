@@ -1,8 +1,8 @@
 # Overview
 
-![The Unpair Bluetooth Device Node.](../../../.gitbook/assets/unpairbluetoothdevicenode.png)
+![The Unpair Bluetooth Device Node.](../../../.gitbook/assets/unpairbluetoothdevicereal.png)
 
-**Unpair Bluetooth Device** attempts to unpair a given *Bluetooth* device that has been previously discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md). A more detailed explanation of this process can be found [here](README.md#bluetooth-guideline).
+**Unpair Bluetooth Device** attempts to unpair a given *Bluetooth* device that may have been previously discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md). A more detailed explanation of this process can be found [here](README.md#bluetooth-guideline).
 
 The **Node** only schedules the unpairing process and then returns immediately. This means that it is possible to trigger the **Node** multiple times with different inputs, resulting in consecutive unpairing attempts. This is the reason for returning the error *Bluetooth* address, as it properly attributes the error to the relevant device. 
 
@@ -22,7 +22,7 @@ Again, the user must first use the **Unpair Bluetooth Device Node** to unpair fr
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Bluetooth Address`|**String**|The unique *Bluetooth* identifier that is associated with a *Bluetooth* device. This is discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md).|
+|`Bluetooth Address`|**String**|The unique *Bluetooth* identifier that is associated with a *Bluetooth* device. This can be discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md).|
 
 # Outputs
 
@@ -31,7 +31,7 @@ Again, the user must first use the **Unpair Bluetooth Device Node** to unpair fr
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 |`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that unpairing failed.|
 |`Error Message`|**String**|The error message in the event of an error.|
-|`Error Bluetooth Address`|**String**|The *Bluetooth* address of the device for which the pairing failed, in the event of an error|
+|`Bluetooth Address`|**String**|The *Bluetooth* address of the device for which the pairing failed, in the event of an error|
 
 # See Also
 

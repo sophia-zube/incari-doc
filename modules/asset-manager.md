@@ -43,7 +43,7 @@ The **Asset Manager** offers different views of the files in the **Assets** fold
 
 The **Texture Importer** appears in an **Asset's** **Attribute Editor** when the **Asset** has been imported in the **Asset Manager**. 
 
-This is only possible for images (files such as *PNGs*, *JPGs*, etc. ) and **Incari** [**Image Sequences**](image-sequence-editor.md). 
+This is only possible for images (files such as *PNGs*, *JPGs*, etc.) and **Incari** [**Image Sequences**](image-sequence-editor.md). 
 
 
 ### Images
@@ -79,7 +79,7 @@ To get the **Texture Importer** to show, one simply needs to click on the import
 
 ![Example .ktx2 Files for an Image Sequence Asset.](../.gitbook/assets/imgseqinternalfolderexample.png)
 
-The example **Image Sequence** contains two **Images** called `nature.jpg` and `sunset.jpg`. These both get there own `.ktx2` files as well as the **Image Sequence** `imgseq.incseq`. 
+The example **Image Sequence** contains two **Images** called `nature.jpg` and `sunset.jpg`. These both get their own `.ktx2` files as well as the **Image Sequence** `imgseq.incseq`. 
 
 ![Texture Importer for an Image Sequence.](../.gitbook/assets/textureimporterimgseqexample.png)
 
