@@ -1,6 +1,6 @@
-# AI Logic Generation
+# AI Logic Generation (Beta)
 
-The **Logic Editor's** **AI Generator** may be in *beta*, but it still offers to transform the user's workflow. 
+The **Logic Editor's** **AI Generator** may be in *beta*, but it still promises to transform the user's workflow. 
 
 ![AI (beta).](../../.gitbook/assets/aiimage1.png)
 
@@ -17,7 +17,7 @@ There are several ways to open the `AI (beta)` section of the **Logic Editor**:
 
 ## Use
 
-Once the user has successfully accessed `AI (beta)`, all they need to do is type their request into the prompt box and click `Generate`.
+Once the user has successfully accessed `AI (beta)`, all they need to do is type their request into the prompt box and click `Generate`. The example demonstrated here is beyond the current capabilities of the **AI Generator**, but the process remains the same. Some current limitations can be referenced [here](#current-limitations).
 
 ![Example Request.](../../.gitbook/assets/AItextexample2.gif)
 
@@ -27,7 +27,7 @@ This will result in an **AI Logic Group** and some associated **Attributes**.
 
 The above image shows **Logic Branches** made up of four **Nodes** which were created based on the example prompt. 
 
-It is possible to remove **Nodes** from the **AI Logic Group** if desired or rewire their configuration. This allows the user further flexibility and creativity. 
+It is possible to remove **Nodes** from the **AI Logic Group** if desired, or rewire their configuration. This allows the user further flexibility and creativity. 
 
 ## Attributes
 
@@ -43,11 +43,22 @@ Under `Rate`, the user can give a rating for the result they are given. This hel
 
 # Result 
 
-Once the user clicks `Apply`, the **AI Logic Group** is confirmed and turned into a regular ** Logic Group**. 
+Once the user clicks `Apply`, the **AI Logic Group** is confirmed and turned into a regular **Logic Group**. 
 
 
 ![Example AI Logic Result.](../../.gitbook/assets/incarilogic3.png)
 
 Here, the user can change the color of the **Group**, its `Zindex`, and `Content Alpha`. 
+
+# Current Limitations
+
+Since the **AI Generator** is still in its beta phase, there are a few issues the user should be aware of:
+
+
+* `AI (beta)` currently cannot create **Node Attributes**.
+* It has no awareness of **Data Types**.
+* Occasionally, connections may be missing.
+* Occasionally, the positioning of the resulting **Nodes** may be incorrect.
+* The **AI Generator** has some difficulty dealing with abstract queries. It is suggested to use it only for simple requests for now.
 
 

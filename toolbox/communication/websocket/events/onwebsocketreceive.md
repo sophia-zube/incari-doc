@@ -24,7 +24,7 @@ The **On WebSocket Receive Node** is an **Event Listener Node** that is triggere
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Message`|**String**|The message data in **String** format, unless `Is Binary` was set to true (resulting in a message in **Binary** format).|
+|`Message`|**String** or **Bool**|The message data in **String** format, unless `Is Binary` was set to true (resulting in a message in **Binary** format).|
 
 # See Also
 

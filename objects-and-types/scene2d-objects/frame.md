@@ -41,7 +41,7 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 `Horizontal Resizing` and `Vertical Resizing` are only made functional when the `Layout` has been changed. They both can either be `Hug Content` or `Fixed Distance`. 
 
-When `Hug Content` is selected, the size of the **Frame** is always automatically recalculated to perfectly fit all its elements. If a `Layout` is used on the **Frame** and then an **Object** is added while `Hug Content` is on, the size of the **Frame** will increase. The same happens when a `Gap` or `Padding` is added. `Fixed Distance` means that the **Frame's** boundaries are exactly as they are set wtih `Size`.  
+When `Hug Content` is selected, the size of the **Frame** is always automatically recalculated to perfectly fit all its elements. If a `Layout` is used on the **Frame** and then an **Object** is added while `Hug Content` is on, the size of the **Frame** will increase. The same happens when a `Gap` or `Padding` is added. `Fixed Distance` means that the **Frame's** boundaries are exactly as they are set with `Size`.  
 
 ### Frame
 
@@ -49,7 +49,9 @@ When `Hug Content` is selected, the size of the **Frame** is always automaticall
 
 These **Attributes** are essential to formatting a **Frame**.
 
-The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical. 
+The `Layout` of the **Frame** can be adjusted to display its *children* horizontally or vertically. Please note that changing the `Layout` causes **Objects** to be placed at their default positions in the **Frame**. 
+
+<!--Here the gap between the **Ellipse** and **Rectangle** disappears when it is first changed to vertical.--> 
 
 `Alignment` determines where the **Frame's** *children* appear within its boundaries. For example, the `Alignment` for the two **Objects** shown below is set to `Bottom Right`.
 

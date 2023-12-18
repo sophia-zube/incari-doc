@@ -12,7 +12,6 @@ There are several **Attributes** which allow the user heightened customizability
 * [**Stroke**](figmabooleanoperation.md#stroke)
 * [**Mask**](figmabooleanoperation.md#mask)
 * [**Operation**](figmabooleanoperation.md#operation)
-* [**Style**](figmabooleanoperation.md#style)
 * [**Tag**](figmabooleanoperation.md#tag)
 
 # Attributes
@@ -70,6 +69,8 @@ The `Stroke` **Attributes** consist of different items called `Elements`. Each `
 * `Width`, which is how wide (in pixels) each `Stroke` will appear. This applies to each `Stroke Element`. 
 * `Position`, which determines what part of the outline identifies the outside of the **Object**. For example, if `Inner` is selected, then the outside of the `Stroke` is the outside of the **Object**. If `Center` is selected, then the `Stroke's` center is the outside of the **Object**. If `Outer` is selected, then the inside of the `Stroke` is the outside of the **Object**.
 
+### Solid 
+
 ![Stroke Attributes with Type Solid.](../../../.gitbook/assets/figmastrokesolid.png)
 
 When `Solid` is selected, `Color` is visible. 
@@ -80,6 +81,7 @@ When `Solid` is selected, `Color` is visible.
 
 * `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
 
+### Image 
 
 ![Stroke Attributes with Type Image.](../../../.gitbook/assets/figmastrokeimage.png)
 
@@ -148,17 +150,6 @@ Thie *child* **Objects** form the shape that will be the core of what is display
 ![](../../../.gitbook/assets/booleanoperationunion.png)
 
 `Union` combines all *children* as a single **Object**. In this example, there are only two **Objects**: an **Ellipse** and a **Rectangle**. There are no separating lines anymore and both take the color given to the **Boolean Operation** (in this case, red).
-## Style 
-
-![Style Attributes.](../../../.gitbook/assets/figmastyleatts.png)
-
-The `Style` **Attributes** allow for more customizability. This can override any stylesheet provided in the [**Project Settings**](../../../modules/project-settings/style.md) or a [**Scene2D**](../../project-objects/scene2d.md). 
-
-To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md).
-
-* `CSS Classes` contain the *CSS* class names of the **Object**. 
-
-* `Stylesheet` contains the *CSS* stylesheet of the **Object**.
 
 ## Tag
 

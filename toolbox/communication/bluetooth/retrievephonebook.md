@@ -2,9 +2,9 @@
 
 # Overview
 
-![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebooknode.png)
+![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebookreal.png)
 
-The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `Speed Dial Contacts`, and `Favorite Contacts`.
+The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `Speed Dial Contacts`, and `Favorite Contacts`. This requires that that the *Bluetooth* device has been paired and that the user has contact sharing (or something similar) enabled for pairing.
 
 The **Node** only schedules the phonebook retrieval process and then returns immediately. This means that it is possible to trigger the **Node** multiple times with different inputs, resulting in consecutive retrieval attempts. This is the reason for returning the *Bluetooth* address, as it properly attributes the result to the relevant device. 
 
@@ -25,10 +25,10 @@ The **Node** only schedules the phonebook retrieval process and then returns imm
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`On Finished`(►)|**Pulse**|An **Event Pulse** which is triggered if the phonebook was successfully retrieved.|
+|`On Finish`(►)|**Pulse**|An **Event Pulse** which is triggered if the phonebook was successfully retrieved.|
 |`Phonebook`|**Dictionary**|The **Dictionary** containing the device's phonebook.|
-|`Finished Bluetooth Address`|**String**|The **Bluetooth** address of the device.|
+|`Bluetooth Address`|**String**|The **Bluetooth** address of the device.|
 |`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that the retrieval of the phonebook was unsuccessful.|
 |`Error Message`|**String**|The error message in the event of an error.|
-|`Error Bluetooth Address`|**String**|The *Bluetooth* address associated with the error.|
+|`Bluetooth Address`|**String**|The *Bluetooth* address associated with the error.|
 

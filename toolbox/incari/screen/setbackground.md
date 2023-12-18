@@ -103,7 +103,7 @@ The **Set Background Scene Environment Node** sets the `Scene Environment` for t
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`ScreenID`|**ScreenID**|The ID of the **Screen** that will have its 
+|`ScreenID`|**ScreenID**|The ID of the **Screen** that will have its **Screen's** **Scene Environment** set.|
 
 
 {% endtab %}

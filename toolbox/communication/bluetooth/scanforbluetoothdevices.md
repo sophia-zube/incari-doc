@@ -1,7 +1,7 @@
 
 # Overview
 
-![The Scan For Bluetooth Devices Node.](../../../.gitbook/assets/scanforbluetooth.png)
+![The Scan For Bluetooth Devices Node.](../../../.gitbook/assets/scanforbluetoothdevicesreal.png)
 
 The **Scan For Bluetooth Devices Node** searches for *Bluetooth* devices in the short-range vicinity and returns any found in an **Array** of **Dictionaries**. The *keys* of these **Dictionaries** are `Device Name`, `Device Address`, `Service Class`, and `Device Class`.
 
@@ -23,7 +23,7 @@ The **Scan For Bluetooth Devices Node** searches for *Bluetooth* devices in the 
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Scan Finished`(►)|**Pulse**|An **Event Pulse** which is triggered if the scan has successfully finished.|
+|`On Finish`(►)|**Pulse**|An **Event Pulse** which is triggered if the scan has successfully finished.|
 |`Devices`|**Array of Dictionaries**|An **Array** of **Dictionaries** containing all the found *Bluetooth* devices.|
 |`On Error`(►)|**Pulse**|An **Event Pulse** that fires in the event of an error, namely that scanning failed.|
 |`Error Message`|**String**|The error message in the event of an error.|
