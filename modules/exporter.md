@@ -171,9 +171,6 @@ To deploy the application on an *Android* device, [*AndroidStudio*](https://deve
 
 During the *AndroidStudio* installation, a prompt will appear requiring that *Android SDK* be installed as well. This will also install *platform-tools*, which will be required to use [*Android Debug Bridge*](https://developer.android.com/tools/adb) to build and run an app from **IncariStudio**. Please make sure `Android SDK` and `Android API 34` are selected. 
 
-
-
-
 Next, *Android NDK* must be installed. This will allow one to compile **Incari Projects** for *Android* and compile *Android* projects later on. Simply open *Android Studio* and click `Tools->SDKManager->AndroidSDK->SDKTools`. In the *NDK* section, select `25.1.8937393`. 
 
 ![Android NDK.](../.gitbook/assets/androidimage3.png)
