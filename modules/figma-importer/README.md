@@ -14,7 +14,7 @@ For nested structures, if a *Figma* component has multiple variants, these varia
 
 ## Access
 
-![Figma Importer Before Importing.](../../.gitbook/assets/figmaimporterimage1.png)
+![Figma Importer Before Importing.](../../.gitbook/assets/figmaimorterimage1again.png)
 
 Before any options for importing can become available, the user must locate the necessary information to access the *Figma* project. These are the `Authentication Token` and the `Document Key`.
 
