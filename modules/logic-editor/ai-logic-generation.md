@@ -48,7 +48,7 @@ Once the user clicks `Apply`, the **AI Logic Group** is confirmed and turned int
 
 ![Example AI Logic Result.](../../.gitbook/assets/incarilogic3.png)
 
-Here, the user can change the color of the **Group**, its `Zindex`, and `Content Alpha`. 
+Here, the user can change the `Color` of the **Group**, its `Zindex`, and `Content Alpha`. 
 
 # Current Limitations
 
