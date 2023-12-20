@@ -17,7 +17,7 @@ Again, the user must first use the **WebSocket Client Stop Node** to close the c
 
 
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
