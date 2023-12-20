@@ -56,12 +56,10 @@ The **Texture** and **3D Object Importers** allow the user to control certain pr
 
 **Prefabs** in **Scenes** remain an integral facet of **Incari Studio**. **Logic** in **Prefabs** has changed slightly with the introduction of two new **Nodes**:
 
-* [**On Creation**](../objects-and-types/prefabs/logic-prefabs.md): Initializing a **Prefab** in **Incari Studio** is easier than ever with the **On Creation Node**. This intelligent feature automatically configures any **Prefabs** as they are added to a **Project**, taking care of all initial settings and technical groundwork. 
-* [**On Destruction**](../objects-and-types/prefabs/logic-prefabs.md): Removing a **Prefab** is as smooth as introducing one, thanks to the **On Destruction Node**. It handles the disassembly of **Prefabs** from a **Project**, ensuring there's no leftover data to clutter a user's workspace. 
+* [**On Creation**](../objects-and-types/prefabs/logic-prefabs.md#nodes): Initializing a **Prefab** in **Incari Studio** is easier than ever with the **On Creation Node**. This intelligent feature automatically configures any **Prefabs** as they are added to a **Project**, taking care of all initial settings and technical groundwork. 
+* [**On Destruction**](../objects-and-types/prefabs/logic-prefabs.md#nodes): Removing a **Prefab** is as smooth as introducing one, thanks to the **On Destruction Node**. It handles the disassembly of **Prefabs** from a **Project**, ensuring there's no leftover data to clutter a user's workspace. 
 
-In addition, the **Variable** of a **Prefab** are now exposed in the **Attribute Editor**. Here, the user can change the default values of the local variable. 
-
-Before: Before 2023.2 you had to set up the value of an instance by calling it through it’s Prefab ID in the scene logic. Here you add the Prefab logic and explicitly have to write within the logic what the Prefab needs to do/how the values change. Now you no longer have to write this in the logic as it’s done in the attribute manager. 
+In addition, the [**Variable** of a **Prefab**](../objects-and-types/prefabs/logic-prefabs.md#variables) are now exposed in the **Attribute Editor**. Here, the user can change the default values of the local variable.  
 
 ## Material Editor Update 
 
@@ -109,6 +107,10 @@ The [**Exporter**](../modules/exporter.md) now allows the user to export a **Pro
   * [**WebSocket Client Start**](../toolbox/communication/websocket/websocketstart.md)
   * [**WebSocket Client Stop**](../toolbox/communication/websocket/websocketstop.md)
 
+## Incari Hub Update 
+
+A user's subscriptions now appear directly in the **Incari Hub** `Settings` and can be activated there, creating a smoother process for managing access to **Incari Studio**. 
+
 
 ## **New Nodes and Node Updates**
 
@@ -129,3 +131,6 @@ New **Nodes**:
     * [**Unload Scene**](../toolbox/incari/screen/unloadscene.md)
   * [**Scene**](../toolbox/events/scene/README.md)
       * [**On Scene Loaded**](../toolbox/events/scene/onsceneloaded.md)
+  * [**Binary**](../toolbox/binary/README.md)
+      * [**Binary To Byte Array**](../toolbox/binary/binarytobytearray.md)
+      * [**Verify Checksum**](../toolbox/binary/verifychecksum.md)
