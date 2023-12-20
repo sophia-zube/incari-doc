@@ -12,7 +12,7 @@ Again, the user must first use the **WebSocket Client Start Node** to open the c
 
 ![WebSocket Client Start and On WebSocket Start Configuration.](../../../.gitbook/assets/websocketstartonstartexample.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

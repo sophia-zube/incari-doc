@@ -25,7 +25,7 @@ The **On Destruction Event Node** is triggered once the **Prefab** is destroyed 
 
 ## Variables
 
-It is possible to expose every **Prefab** **Variable's** default value to be set per instance from the **Attribute Editor** of the **Prefab Instance**. Currently only these **Variable** types are supported for this feature: **Int**, **Float**, **Bool**, **String**, **Byte**, and **Binary**. 
+It is possible to expose every **Prefab** **Variable's** default value to be set per instance from the **Attribute Editor** of the **Prefab Instance**. Currently only these **Variable** types are supported for this feature: **AssetID**, **Binary**, **Boolean**, **Byte**, **Color**, **Float**, **Integer**, **MaterialID**, **MediaID**, **String**, **TextureID** and *Vectors*. 
 
 The user must first access the **Prefab** tab of the **Logic** **Editor**, click on the **Variables** tab, and then click on `Expose Icon` of an already existing variable. If the `Expose Icon` is enabled for a **Variable**, then every instance of the **Prefab** has an `Entry` in its **Attribute Editor** under `Prefab → Variables` that shows the default value of the **Variable** that is settable as well. 
 
@@ -35,6 +35,6 @@ The image below showcases all **Variable** types created in the **Prefabs’s Lo
 
 ![Variables in the Logic Editor of the Prefab](../../.gitbook/assets/variablesexample1.png)
 
-The next image shows how these **Variables** will be shown in the **Attribute Editor** of each instance of the **Prefab** where the user can set their default values. This is accessed by simple clicking on the **Prefab** and locating the **Attribute Editor**. 
+The next image shows how these **Variables** will be shown in the **Attribute Editor** of each instance of the **Prefab** where the user can set their default values. This is accessed by simple clicking on the **Prefab Insantce** in the **Scene Outliner** and locating the **Attribute Editor**. 
 
 ![Variables in the Attribute Editor of a Prefab Instance.](../../.gitbook/assets/variablesexample2.png)
