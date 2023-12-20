@@ -60,7 +60,7 @@ The **Texture** and **3D Object Importers** allow the user to control certain pr
 * [**On Creation**](../objects-and-types/prefabs/logic-prefabs.md#nodes): Initializing a **Prefab** in **Incari Studio** is easier than ever with the **On Creation Node**. This intelligent feature automatically configures any **Prefabs** as they are added to a **Project**, taking care of all initial settings and technical groundwork. 
 * [**On Destruction**](../objects-and-types/prefabs/logic-prefabs.md#nodes): Removing a **Prefab** is as smooth as introducing one, thanks to the **On Destruction Node**. It handles the disassembly of **Prefabs** from a **Project**, ensuring there's no leftover data to clutter a user's workspace. 
 
-In addition, the [**Variable** of a **Prefab**](../objects-and-types/prefabs/logic-prefabs.md#variables) are now exposed in the **Attribute Editor**. Here, the user can change the default values of the local variable.  
+In addition, the [**Variables** of a **Prefab**](../objects-and-types/prefabs/logic-prefabs.md#variables) are now exposed in the **Attribute Editor**. Here, the user can change the default values of the local variable.  
 
 ## Material Editor Update 
 
@@ -94,7 +94,7 @@ The [**Exporter**](../modules/exporter.md) now allows the user to export a **Pro
      * [**On Bluetooth Device Unpaired**](../toolbox/communication/bluetooth/events/onbluetoothdeviceunpaired.md)
   * [**Is Bluetooth Device Paired**](../toolbox/communication/bluetooth/ispaired.md)
   * [**Pair Bluetooth Device**](../toolbox/communication/bluetooth/pairbluetoothdevices.md)
-  * [**Retrieve Call History**](../toolbox/communication/bluetooth/retrievecallhistory.md)
+  * [**Retrieve Call History**](../toolbox/communication/bluetooth/retrievecalhistory.md)
   * [**Retrieve Phonebook**](../toolbox/communication/bluetooth/retrievephonebook.md)
   * [**Scan For Bluetooth Devices**](../toolbox/communication/bluetooth/scanforbluetoothdevices.md)
   * [**Unpair Bluetooth Device**](../toolbox/communication/bluetooth/unpairbluetoothdevices.md)
