@@ -35,6 +35,6 @@ The image below showcases all **Variable** types created in the **Prefabs’s Lo
 
 ![Variables in the Logic Editor of the Prefab](../../.gitbook/assets/variablesexample1.png)
 
-The next image shows how these **Variables** will be shown in the **Attribute Editor** of each instance of the **Prefab** where the user can set their default values. This is accessed by simple clicking on the **Prefab Insantce** in the **Scene Outliner** and locating the **Attribute Editor**. 
+The next image shows how these **Variables** will be shown in the **Attribute Editor** of each instance of the **Prefab** where the user can set their default values. This is accessed by simple clicking on the **Prefab Instance** in the **Scene Outliner** and locating the **Attribute Editor**. 
 
 ![Variables in the Attribute Editor of a Prefab Instance.](../../.gitbook/assets/variablesexample2.png)

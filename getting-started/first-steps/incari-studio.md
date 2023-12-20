@@ -12,11 +12,11 @@ There are many **Modules** available in **Incari Studio**. The user can show or 
 
 * **Modules** can be made visible from the `View` menu in the top bar.
 
-![Drop-down Menu from View.](../../.gitbook/assets/incaristudioimage2.png)
+![Drop-down Menu from View.](../../.gitbook/assets/incaristudioview20232.png)
 
 * **Modules** can be shown or hidden by right-clicking the top bar and selecting or deselecting them.
 
-![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioimage3.png)
+![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioview220232.png)
 
 * **Modules** can be hidden by clicking the `x` in the top right corner of each of them.
 
