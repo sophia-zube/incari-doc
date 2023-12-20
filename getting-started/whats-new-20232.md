@@ -38,6 +38,7 @@ Breaking into a new field of *HMI* design, we at **Incari** are excited to intro
 While an exciting new development, it is still in its beta phase and is expected to grow in the coming releases. Give your feedback to help us improve it! 
 
 ![AI (beta) Prompt.](../.gitbook/assets/aiimage1.png)
+
 ![AI (beta) Example Output.](../.gitbook/assets/AI%20Feedback.png)
  
 

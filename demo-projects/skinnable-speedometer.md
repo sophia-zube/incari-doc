@@ -52,7 +52,9 @@ The **Logic** for switching the speedometer's theme and view is described below:
 
 ![Logic that Controls the Speedometer's Theme.](../.gitbook/assets/controlthemeimage.png)
 
-Once the user presses `T`, the number of values that are in `theme_arr-str_colors` is incremented by 1 and compared to the value of `theme_int_currentColorIndex`. If this current index is less than the length of the **Array** of **Strings** given at the start, this means that there is a next value in the **Array** of themes and it continues to this next one and selects that data. However, if it is not less than the length, this means all the values of the **Array** have been cycled through and it starts at the 'beginning' with an index of 0. This is stored as the `theme_int_currentColorIndex`.  
+Once the user presses `T`, the `currentColorIndex` is incremented and the **Logic** checks that index is within the bounds of `theme_arr-str_colors` (which is an **Array** that allows the user to store as many colors as they wish). This way, the number of colors can be altered dynamically and an infinite amount of color themes can be added. It is also possible to add primary, secondary, tertiary, and quaternary colors associated with that theme name to their respective arrays. These arrays, as can be seen in the **Logic**, are used for storing the specific color choices for different themes and can be modified as needed.
+
+If this current index is less than the length of the **Array** of **Strings** given at the start, this means that there is a next value in the **Array** of themes and it continues to this next one and selects that data. However, if it is not less than the length, this means all the values of the **Array** have been cycled through and it starts at the 'beginning' with an index of 0. This is stored as the `theme_int_currentColorIndex`.  
 
 Whenever there is a change, this triggers `On theme_int_currentColorIndex Change`, which sets and returns the **String** value at the specified index. 
 
@@ -72,7 +74,7 @@ Pressing `V` triggers the **Toggle Node** and sets a variable to either 0 or 1, 
 
 ![Logic that Updates the Speedometer's View Part 1.](../.gitbook/assets/viewupdate3.png)
 
-The first block of the `View Update` **Logic** is triggered by the change of the `theme_int_currentValue` variable. Depending on the resulting variable of either 0 or 1, it provokes use of the **FadeTo Node** between the current and changed view.
+The first block of the `View Update` **Logic** is triggered by the change of the `theme_int_currentValue` variable. Depending on the resulting variable of either 0 or 1, it provokes use of the **FadeTo Node** between the current and changed view. Furthermore, **Objects** for speed and time are being reused between different views by simple move and scale actions with the **MoveTo Action Node** and **ScaleToAction Node**, allowing the user to create specific transitions between different views without duplicating **Objects**.
 
 ![Logic that Updates the Speedometer's View Part 2.](../.gitbook/assets/viewupdate4.png)
 
