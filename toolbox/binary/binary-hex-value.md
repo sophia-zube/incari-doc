@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Binary Value Node.](../../.gitbook/assets/binaryvaluenodetest.png)
+![The Binary Value Node.](../../.gitbook/assets/binaryhexvalue20232.png)
 
 The **Binary Value** stores the inputted value as bytes.
 
@@ -10,9 +10,7 @@ The **Binary Value** stores the inputted value as bytes.
 
 ## Attributes
 
-![The Binary Value Node Attributes.](../../.gitbook/assets/binaryvalueattstest.png)
-
-### Default
+![The Binary Value Node Attributes.](../../.gitbook/assets/binaryhexvalueatts20232.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
