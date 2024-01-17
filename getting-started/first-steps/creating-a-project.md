@@ -37,4 +37,4 @@ The options to customize the new **Project** are the following:
 
 After clicking on `Create`, **Incari Studio** starts with a new empty **Project**.
 
-![](../../.gitbook/assets/empty-project_20222.png)
+![](../../.gitbook/assets/creatingaproject20232.png)

@@ -15,7 +15,7 @@ It is not unheard of to sometimes have problems with high *GPU* usage when using
 
 One can start off by clicking through `Global Preferences --> Viewport --> Enable VSync` and making sure it is toggled on. If this remedies the issue, the next steps are not necessary to investigate. 
 
-![Global Preferences with VSync Enabled.](../.gitbook/assets/globprefsvsync.png) 
+![Global Preferences with VSync Enabled.](../.gitbook/assets/requirementsimage20232.png) 
 
 However, if the high *GPU* usage of **Incari Studio** has not been fixed, it is suggested to open up *Nvidia Control Panel*. It could be that the settings here are overriding those in **Incari Studio**, which
 leads to high FPS (up to 500) and high GPU usage (up to 90%). 

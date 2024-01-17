@@ -6,17 +6,17 @@ The *Interface* is composed of the **Viewport** and the **Modules**. The **Viewp
 
 When starting a new **Project**, the **Incari Studio** *Interface* looks as in the following image:
 
-![Incari Studio Project on start](../../.gitbook/assets/incaristudioimage1.png)
+![Incari Studio Project on start](../../.gitbook/assets/creatingaproject20232.png)
 
 There are many **Modules** available in **Incari Studio**. The user can show or hide any **Module** at their discretion in order to customize their workspace. There are several ways of changing the visibility of **Modules**:
 
 * **Modules** can be made visible from the `View` menu in the top bar.
 
-![Drop-down Menu from View.](../../.gitbook/assets/incaristudioview20232.png)
+![Drop-down Menu from View.](../../.gitbook/assets/incaristudioimage220232.png)
 
 * **Modules** can be shown or hidden by right-clicking the top bar and selecting or deselecting them.
 
-![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioview220232.png)
+![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioimage320232.png)
 
 * **Modules** can be hidden by clicking the `x` in the top right corner of each of them.
 
