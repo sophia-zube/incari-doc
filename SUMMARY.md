@@ -47,7 +47,7 @@
     * [Dropdown](objects-and-types/scene2d-objects/gui/dropdown.md)
     * [List](objects-and-types/scene2d-objects/gui/list.md)
     * [Slider](objects-and-types/scene2d-objects/gui/slider.md)
-    * [Text](objects-and-types/scene2d-objects/gui/text.md)
+    <!--* [Text](objects-and-types/scene2d-objects/gui/text.md)-->
     * [Text Area](objects-and-types/scene2d-objects/gui/textarea.md)
     * [Text Input](objects-and-types/scene2d-objects/gui/textinput.md)
     * [Toggle](objects-and-types/scene2d-objects/gui/toggle.md)

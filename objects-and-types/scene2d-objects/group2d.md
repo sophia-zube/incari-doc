@@ -55,7 +55,7 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
  
 
-### Blending 
+<!--### Blending 
 
 ![Blending Attributes.](../../.gitbook/assets/figmablendingattribute.png)
 
@@ -89,7 +89,7 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../toolbox/incari/object2d/setblendmode.md).
 
-* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.-->
 
 ### Mask 
 
