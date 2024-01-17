@@ -36,7 +36,7 @@ The tab _Remote Projects_ gives access to **Demo Projects** that have been creat
 
 **Demo Projects** allow one to see how certain functionalities can be implemented in **Incari**. These range from a simple button to examples of the several methods of **Animation** available to the user. Discover more in the [**Demo Projects**](../../demo-projects/overview.md) documentation.
 
-![Remote Projects.](../../.gitbook/assets/incarihub4.png)
+![Remote Projects.](../../.gitbook/assets/incarihubremoteprojects20232.png)
 
 ## Applications
 
@@ -50,7 +50,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 ![Applications: Incari Studio](../../.gitbook/assets/incarihub5.png)
 
-![Application: Incari Studio Installed](../../.gitbook/assets/incari-install-installed_20231.png)
+![Application: Incari Studio Installed](../../.gitbook/assets/incaristudioimage20232.png)
 
 ### Incari Player
 
@@ -72,7 +72,7 @@ The user then has the option to remove a **Player** by clicking the trash icon t
 
 The **Documentation** takes you straight to the instructional texts that teach the user the ins and outs of **Incari**, which you are at right now! It gives a run down of the basics, helps you get started, thoroughly explains each component of **Incari Studio**, and provides more information on a few **Demo Projects**. There's a lot to discover in the **Documentation**, written with care by the **Documentation** team.
 
-![Documentation.](../../.gitbook/assets/incarihub6.png)
+![Documentation.](../../.gitbook/assets/incarihubcommunitydoc20232.png)
 
 ### Forum
 
