@@ -8,7 +8,7 @@ A *GUI*, or graphical user interface, uses graphics to let a user interact with 
 * [**Dropdown**](dropdown.md)
 * [**List**](list.md)
 * [**Slider**](slider.md)
-* [**Text**](text.md)
+<!--* [**Text**](text.md)-->
 * [**Text Area**](textarea.md)
 * [**Text Input**](textinput.md)
 * [**Toggle**](toggle.md) 
