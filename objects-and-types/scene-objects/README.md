@@ -8,7 +8,7 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 
 **Objects** in a **Scene** are managed in the **Scene Outliner**. There they can be created, deleted, edited, and organized. For more detail, see the [**Scene Outliner**](../../modules/scene-outliner.md) section.
 
-![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/scene-outliner2.png)
+![Objects in a Scene are managed in the Scene Outliner.](../../.gitbook/assets/managingobjects20232.png)
 
 ## Attributes
 
@@ -43,7 +43,7 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 
 **Prefabs** are an important and useful type of **Object**. They are composed of a combination of **Objects** and allow the user to create several **Instances** of this combination, enact changes across all of them, or apply individual characteristics via overrides. For more information, see the [**Prefabs**](../prefabs/) section.
 
-![Creating a Prefab.](../../.gitbook/assets/prefabs1.gif)
+![Creating a Prefab.](../../.gitbook/assets/sceneobjectsprefabsimage1.gif)
 
 ## Objects in Logic
 
@@ -51,7 +51,7 @@ In the [**Logic**](../../modules/logic-editor/README.md), it might be necessary 
 
 For handling and modifying **Objects** in the **Logic**, there is a special category of [**Nodes**](../../modules/logic-editor/README.md#nodes): the [**Object Nodes**](../../toolbox/incari/object/). These **Nodes** allow the user to obtain and set **Attribute** values for **Objects**, and they receive as input the **Object ID** of the target **Object**.
 
-![Creating an Object Node.](../../.gitbook/assets/ObjLogic2.gif)
+![Creating an Object Node.](../../.gitbook/assets/sceneobjectsobjectsinlogic.gif)
 
 ## Structure in a Scene
 
@@ -59,7 +59,7 @@ For handling and modifying **Objects** in the **Logic**, there is a special cate
 
 The picture below shows an example. Here, `Object1` is the _parent_ of `Object4` and `Object5`, `Object2` is the _parent_ of `Object6`, and `Object3` has no _children_.
 
-![](../../.gitbook/assets/ObjectsinHierarchy.png)
+![](../../.gitbook/assets/structureinscene20232.png)
 
 ### Root Object
 
@@ -71,19 +71,19 @@ In the **Scene Outliner**, there are three ways to make an **Object** the child 
 
 * Drag an existing **Object** and drop it on top of the **Object** that will be the _parent_.
 
-![](../../.gitbook/assets/create-children-1.gif)
+![](../../.gitbook/assets/sceneobjectsmanaging120232.gif)
 
 * Select the **Object** that will be the _parent_ and create a new **Object** by clicking the plus ![](<../../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (2).PNG>) icon on the top left and selecting the **Object** to create as a _child_.
 
-![](../../.gitbook/assets/create-children-3.gif)
+![](../../.gitbook/assets/sceneobjectsmanaging220232.gif)
 
 * Right-click the **Object** that will be the _parent_, click on `Create` on the drop-down menu that appears and select the **Object** to create as a _child_.
 
-![](../../.gitbook/assets/create-children-2.gif)
+![](../../.gitbook/assets/sceneobjectsmanaging320232.gif)
 
 Moreover, **Objects** in the **Scene Outliner** can be dragged and dropped anywhere in the **Scene** structure, as can be seen in the following example:
 
-![](../../.gitbook/assets/tree-play.gif)
+![](../../.gitbook/assets/sceneobjectsmanaging420232.gif)
 
 ### Nodes
 
