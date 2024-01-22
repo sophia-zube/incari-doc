@@ -40,7 +40,7 @@ To read more about basic HTML, take a look at [_HTML basics_](https://developer.
 
 A **Model File** is where you define all the data for your list. Physically, a book has many different properties. It has weight, size, number of pages etc., but when thinking in terms of a **Model**, we are thinking of what properties we need to represent in our data. Going back to the audio-book example above, if we want to display two properties; the author and title of each audio-book, we create **Fields** for `title` and `author`.
 
-![](../../../.gitbook/assets/audiobook-model.PNG)
+![](../../../.gitbook/assets/listmodeleditor20232.png)
 
 **Fields** define a single aspect of each **Record** in a table and are displayed in columns. By _double-clicking_ on the **Field**'s _header / label_ we can define the name that will be used as a placeholder in the **List Entry File**.
 

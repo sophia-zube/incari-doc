@@ -11,7 +11,7 @@ Like any other **Scene Object**, we can manipulate the **Position**, **Rotation*
 
 ## Mesh Asset
 
-![](../../.gitbook/assets/meshimage1.png)
+![](../../.gitbook/assets/meshicon20232.png)
 
 The `Mesh Asset` **Attribute** contains a reference to a 3D file in your **Asset Manager**. We currently have limited support for `.3ds`, `.ply`, `.dae` and `.fbx` files, however we recommend using `.obj`, since the importer has been widely tested and rarely has any issues.
 
@@ -21,7 +21,7 @@ When you drag and drop a _mesh_ from the **Asset Manager** into your **Scene** a
 
 ## Material Asset
 
-![](../../.gitbook/assets/iconmaterial.png)
+![](../../.gitbook/assets/materialicon20232.png)
 
 The `Material Asset` **Attribute** is used to apply a **Material Asset** to a **Mesh**. **Materials** can be created in the **Asset Manager** and edited in the **Material Editor**.
 
