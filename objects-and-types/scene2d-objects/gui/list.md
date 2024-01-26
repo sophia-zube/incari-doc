@@ -61,7 +61,7 @@ Thus there are two ways to populate a **List**:
 
 * When `Advanced Mode` is toggled off, the `Entries` are visible. The user can manually input each **List** entry one by one. 
   
-  ![Example List Entries with Icons.](../../../.gitbook/assets/listlistattsnotadvancedwithdata.png)
+  ![Example List Entries with Icons.](../../../.gitbook/assets/listimage420232.png)
 
 
 These two processes result in a **List** that appears like this (with some other visual **Attributes** changed):

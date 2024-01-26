@@ -2,7 +2,7 @@
 
 The **Dropdown** is a **GUI** **2D Object** that allows the user to create a *dropdown menu*. The options in the menu, together with the colors and size, can be customized in the [**Attributes**](dropdown.md#attributes).
 
-![Dropdown GUI Object.](../../../.gitbook/assets/dropdownexampleimage.png)
+![Dropdown GUI Object.](../../../.gitbook/assets/dropdownimage120232.png)
 
 
 ## Attributes
