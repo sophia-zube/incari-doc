@@ -6,7 +6,7 @@ The **Camera Object** effectively decides what is visible of a **Scene2D** when 
 
 Altering a **Camera's** `Position` and `Rotation` may change how **Objects** are displayed in `Player View`, cutting off parts of an **Object** if they fall outside the **Camera's** bounds. As default, all of these values are set to 0. These can be used to shift the bounds of a **Camera**. 
 
-![Camera Transformations.](../../.gitbook/assets/cameratransformation2d.gif)
+![Camera Transformations.](../../.gitbook/assets/camera2dimage120232.gif)
 
 The `Size` configures the dimensions of the **Camera's** bounds and can be used to reduce or extend the confines of a **Camera**. The default is `1920x1080` in the above example, but this can change as it ultimately depends on the size of the **Screen** that a **Scene2D** resides in. 
 
@@ -16,11 +16,11 @@ The `Size` configures the dimensions of the **Camera's** bounds and can be used 
 
 Before `Player View` is enabled, the bounds of the **Camera** as well as the entire **Object** are visible in `Editor View`. `Player View` is highlighted at the top of the image. 
 
-![Camera Editor View.](../../.gitbook/assets/camera2dimage1.png)
+![Camera Editor View.](../../.gitbook/assets/camera2dimage220232.png)
 
 Once `Player View` is activated, only half of the **Rectangle** is visible and the boundary lines of the **Camera** disappear. 
 
-![Camera Player View.](../../.gitbook/assets/camera2dimage2.png)
+![Camera Player View.](../../.gitbook/assets/camera2dimage320232.png)
 
 `Player View` gives a preview of what will be shown when the **Scene2D** is playing. 
 

@@ -10,11 +10,11 @@ The dimensions of the **Frame** are provided in its **Attributes**.
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
-![Frame Object Before.](../../.gitbook/assets/frameobjectandtransfatts.png)
+![Frame Object Before.](../../.gitbook/assets/frameimage120232.png)
 
 An **Ellipse** and **Rectangle** are now added as *children*<!--, but it's still difficult to tell the boundaries of the **Frame** visually-->. Notice the `Position` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 100 units in both the X and Y-axes. **Objects**, however, will still appear in full outside the boundaries of the **Frame** if they happen to not be entirely encapsulated. 
 
-![Frame with Objects.](../../.gitbook/assets/frameafter20232.png)
+![Frame with Objects.](../../.gitbook/assets/frameimage220232.png)
 
 <!--## Frame Boundaries
 
@@ -35,7 +35,7 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 
 ### Transformation
 
-![Transformation Attributes.](../../.gitbook/assets/frametransformationatts.png)
+![Transformation Attributes.](../../.gitbook/assets/frameimage320232.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../attributes/common-attributes/transformation/README.md).
 
