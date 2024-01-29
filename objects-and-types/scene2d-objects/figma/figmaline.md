@@ -2,7 +2,7 @@
 
 The **Line** in **Incari** provides similar functionality as its equivalent in *Figma*. Since it is effectively a stroke, the `Stroke` **Attribute** controls its initial visibility. 
 
-![Line.](../../../.gitbook/assets/figmalineimage.png)
+![Line.](../../../.gitbook/assets/line2dimage120232.png)
 
 There are several **Attributes** which allow the user heightened customizability and control. 
 
@@ -35,7 +35,7 @@ If there is more than one `Fill Element`, the most recent one will take preceden
 
 ### Solid
 
-![Fill Attributes with Type Solid.](../../../.gitbook/assets/figmafillattributes.png)
+![Fill Attributes with Type Solid.](../../../.gitbook/assets/booleanoperationfill20232.png)
 
 When `Solid` is selected, `Color` is visible. 
 
@@ -68,7 +68,7 @@ The `Stroke` **Attributes** consist of different items called `Elements`. Each `
 
 ### Solid
 
-![Stroke Attributes with Type Solid.](../../../.gitbook/assets/figmastrokesolid.png)
+![Stroke Attributes with Type Solid.](../../../.gitbook/assets/booleanoperationstroke20232.png)
 
 When `Solid` is selected, `Color` is visible. 
 

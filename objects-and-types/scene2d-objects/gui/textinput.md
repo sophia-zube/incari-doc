@@ -14,7 +14,6 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 * [**Text**](textinput.md#text)
 * [**Font**](textinput.md#font)
 * [**Style**](textinput.md#style)
-* [**Code**](textinput.md#code)
 * [**Tag**](textinput.md#tag)
 
 ### Transformation
@@ -30,8 +29,6 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 The `Text Input` **Attributes** provide crucial data for a **Text Input Object**.
 
 * `Text` is simply the desired text.
-
-* `Max Length` is the maximum number of characters of the text. When this number is reduced, the characters that fall after that index are deleted. Increasing the number will not bring back these characters once removed. 
 
 ### Text 
 

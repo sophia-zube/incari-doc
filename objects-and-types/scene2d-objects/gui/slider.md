@@ -12,7 +12,6 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 * [**Transformation**](slider.md#transformation)
 * [**Slider**](slider.md#slider)
 * [**Style**](slider.md#style)
-* [**Code**](slider.md#code)
 * [**Tag**](slider.md#tag)
 
 ### Transformation

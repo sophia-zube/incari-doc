@@ -1,6 +1,6 @@
 # Group 
 
-![Example of a 2D Group in Incari](../../.gitbook/assets/groupexample.png)
+![Example of a 2D Group in Incari](../../.gitbook/assets/group2dimage120232.png)
 
 This page will describe **Groups** in **Scene2Ds**. The **Group** **Object** works like a folder, as it allows the user to structure and organize **Objects**, making **Scenes** with high amounts of different **Objects** more manageable. It is one of the only **Objects** in **Scene2Ds** which can be a *parent*, besides [**Frames**](frame.md) and [**Boolean Operations**](figma/figmabooleanoperation.md).  
 
@@ -17,15 +17,15 @@ There are a couple of ways to create **Groups**.
 
 * Locate the drop-down Menu by clicking the plus-sign in the **Scene Outliner**. Then click **Group** and add any other **Objects** to it. 
 
-![Creating Groups with the Drop-Down Menu.](../../.gitbook/assets/groupcreate20232.gif)
+![Creating Groups with the Drop-Down Menu.](../../.gitbook/assets/group2dimage220232real.gif)
 
 * Select multiple **Objects** and right-click on `Create`. Select **Group**. 
 
-![Creating Groups from Multiple Objects.](../../.gitbook/assets/groupcreate220232.gif)
+![Creating Groups from Multiple Objects.](../../.gitbook/assets/group2dimage320232.gif)
 
 * Right-click inside the **Scene** **Outliner**, select `Create` from the pop-up, and click on **Group**. Now **Objects** can be added one-by-one.
 
-![Creating a Group and Adding Objects.](../../.gitbook/assets/groupcreate320232.gif)
+![Creating a Group and Adding Objects.](../../.gitbook/assets/group2dimage420232.gif)
 
 ## Delete
 
@@ -34,7 +34,7 @@ A **Group** can be deleted in its entirety or one **Object** at a time.
 * To delete a **Group**, right-click the **Group** and select `Delete`.
 * To delete one **Object** in a **Group**, simply right-click on that particular **Object** and select `Delete`. 
 
-![Deleting a Group or Part of a Group.](../../.gitbook/assets/group2ddelete20232.gif)
+![Deleting a Group or Part of a Group.](../../.gitbook/assets/group2dimage520232.gif)
 
 
 ## Transformations
@@ -43,7 +43,7 @@ A useful function of the **Group** **Object** is that it allows you to transform
 
 Like any other **Scene Object**, we can manipulate its [**Transformation Attributes**](../attributes/common-attributes/transformation/README.md), albeit only in the X and Y directions.
 
-![Transformations with a Group Object.](../../.gitbook/assets/group2dtransform20232.gif)
+![Transformations with a Group Object.](../../.gitbook/assets/group2dimage620232.gif)
 
 ## Attributes
 
