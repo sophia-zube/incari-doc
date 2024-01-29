@@ -2,7 +2,7 @@
 
 The **Boolean Operation** in **Incari** provides similar functionality as its equivalent in *Figma*. It acts as *parent* to its *child* **Objects**. Any visual aspects are controlled completely by the **Boolean Operation**; the visual properties of the *children* do not have any precendent, such as a *child's* `Fill`. 
 
-![Boolean Operation.](../../../.gitbook/assets/booleanoperationexample.png)
+![Boolean Operation.](../../../.gitbook/assets/booleanoperationimage120232.png)
 
 There are several **Attributes** which allow the user heightened customizability and control. 
 
@@ -38,7 +38,7 @@ If there is more than one `Fill Element`, the most recent one will take preceden
 
 ### Solid
 
-![Fill Attributes with Type Solid.](../../../.gitbook/assets/figmafillattributes.png)
+![Fill Attributes with Type Solid.](../../../.gitbook/assets/booleanoperationfill20232.png)
 
 When `Solid` is selected, `Color` is visible. 
 
@@ -71,7 +71,7 @@ The `Stroke` **Attributes** consist of different items called `Elements`. Each `
 
 ### Solid 
 
-![Stroke Attributes with Type Solid.](../../../.gitbook/assets/figmastrokesolid.png)
+![Stroke Attributes with Type Solid.](../../../.gitbook/assets/booleanoperationstroke20232.png)
 
 When `Solid` is selected, `Color` is visible. 
 

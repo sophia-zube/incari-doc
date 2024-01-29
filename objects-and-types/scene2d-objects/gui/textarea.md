@@ -14,7 +14,6 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 * [**Text**](textarea.md#text)
 * [**Font**](textarea.md#font)
 * [**Style**](textarea.md#style)
-* [**Code**](textarea.md#code)
 * [**Tag**](textarea.md#tag)
 
 ### Transformation
