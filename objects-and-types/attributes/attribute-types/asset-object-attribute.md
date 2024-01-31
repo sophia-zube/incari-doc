@@ -6,5 +6,5 @@ For example, a **Sprite Object** supplies the **Attributes** to customize how an
 
 Depending on how you create **Nodes** or **Objects**, the **Asset**/**Object** slot may already be linked to some data. If there are no assigned data, you will need to drag the element on the slot to create a link. This can also be done by selecting the **Asset**/**Object** first, then clicking the small arrow button at the side of the slot to assign it.
 
-![](../../../.gitbook/assets/assetobjectslot2.gif)
+![](../../../.gitbook/assets/assetobjattimage20232.gif)
 

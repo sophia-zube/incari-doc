@@ -2,7 +2,7 @@
 
 **Prefabs** contain their own **Logic** and it applies to all instances of the **Prefab**. The **Prefab** **Logic** can be incorporated into the **Scene Logic** via a **Prefab Node**, which can be found in the **Logic Editor** by choosing the **Prefab** tab on the left Menu.
 
-![Prefab Node.](../../.gitbook/assets/logicinprefabimage1.png)
+![Prefab Node.](../../.gitbook/assets/logicinprefabimage120232.png)
 
 To open the **Prefab Logic** graph in the **Logic Editor** either double-click the **Prefab Node** in the **Logic Editor** or the **Prefab Asset** in the **Asset Manager**. The user can then get started with:
 

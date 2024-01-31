@@ -8,11 +8,11 @@
 
 We can change the _step_ \(the amount to increment by\), by right-clicking the **Field**, and selecting an amount from the menu.
 
-![](../../../.gitbook/assets/attributeadjustnumerical.gif)
+![](../../../.gitbook/assets/numericalattsimage220232real.gif)
 
 Alternatively, you can set the **Value** manually by clicking the **Field** and typing.
 
-![](../../../.gitbook/assets/attributeadjustnumericalmanual.gif)
+![](../../../.gitbook/assets/numericalattsimage220232.gif)
 
 There are some cases where a **Numerical Attribute** can be adjusted using a slider.
 
