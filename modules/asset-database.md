@@ -84,7 +84,7 @@ The filter on the top right of the **Asset Database** allows the user to filter 
 
 By clicking on the `ID` of an **Asset**, its use in the **Scene Outliner** and **Viewport** will be highlighted.
 
-![](../.gitbook/assets/assetdb-highlightuse.gif)
+![](../.gitbook/assets/assetdatabasehighlightuse20232.gif)
 
 ### Highlight in Asset Manager
 

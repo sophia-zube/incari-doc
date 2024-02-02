@@ -4,8 +4,8 @@ The **Code Editor** allows the user to edit the code of `.html`, `.css` and `.js
 
 When first opened, the **Code Editor** offers the options of selecting a file used in the **Scene**, creating a new file, or selecting an existing file from the **Assets** folder.
 
-![](../.gitbook/assets/code-editor.png)
+![](../.gitbook/assets/codeeditorimage120232.png)
 
 It can also be opened by directly double-clicking an `.html`, `.css` or `.js` file.
 
-![](../.gitbook/assets/code-editor-html.png)
+![](../.gitbook/assets/codeeditorimage220232.png)
