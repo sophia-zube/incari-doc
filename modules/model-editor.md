@@ -4,7 +4,7 @@ The **Model Editor** allows the user to set up data in **Fields** \(columns\) an
 
 To open the **Model Editor**, double-click on a **Model** file in the **Asset Manager** or right-click on the Menu bar in **Incari** and click on **Model Editor** from the drop-down list. This can be seen in the illustration below:
 
-![](../.gitbook/assets/modeleditorexample2_20222.png)
+![](../.gitbook/assets/modeleditorimage120232.png)
 
 The sections defined in the **Model Editor** are discussed below:
 
@@ -14,11 +14,11 @@ The `Used Models` section contains **Models** that have been previously applied.
 
 `New Model`, as its name suggests, allows us to create new **Models**. The illustration below depicts its behavior when clicked.
 
-![](../.gitbook/assets/newmodelexample.gif)
+![](../.gitbook/assets/modeleditorimage220232.gif)
 
 `Open Model` opens a window that allows us to select an existing **Model** file. An example of the window is shown below:
 
-![](../.gitbook/assets/openmodelexample.png)
+![](../.gitbook/assets/modeleditorimage320232.png)
 
 ## See Also
 

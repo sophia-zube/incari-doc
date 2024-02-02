@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="Animation Editor" %}
-![](../.gitbook/assets/globprefsanimationeditor20231.png)
+![](../.gitbook/assets/globalprefsanimationeditor20232.png)
 
 #### Playback
 
@@ -28,7 +28,7 @@
 {% endtab %}
 
 {% tab title="Global" %}
-![](../.gitbook/assets/globalpref\_global.png)
+![](../.gitbook/assets/globprefsglobal20232.png)
 
 #### Projects
 
@@ -38,7 +38,7 @@ The default directory on a user's computer where **Incari Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
-![](../.gitbook/assets/globalpref\_logic.png)
+![](../.gitbook/assets/globprefslogiceditor20232.png)
 
 #### Theme
 
@@ -50,7 +50,7 @@ Additionally, the `Reset color` button sets the `Grid Color` back to its default
 {% endtab %}
 
 {% tab title="User Interface" %}
-![](../.gitbook/assets/globalpref\_ui.png)
+![](../.gitbook/assets/globprefsuserinterface20232.png)
 
 #### Layout
 
@@ -60,7 +60,7 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](../.gitbook/assets/globalpref\_viewport2.png)
+![](../.gitbook/assets/globprefsviewport20232.png)
 
 #### Theme
 
@@ -80,4 +80,4 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 
 In order to open the **Global Preferences** **Module**, right-click on the Menu bar in **Incari** and click on **Global Preferences** from the drop-down list. Please see the illustration below:
 
-![](../.gitbook/assets/open-global-preferences\_20222.png)
+![](../.gitbook/assets/globalprefslastimage20232.png)

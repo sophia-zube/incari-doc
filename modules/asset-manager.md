@@ -16,7 +16,7 @@
 
 To create an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
 
-![](../.gitbook/assets/assetmanagerimage1.png)
+![](../.gitbook/assets/assetmanagercreating20232.png)
 
 ## Views
 
@@ -31,7 +31,7 @@ The **Asset Manager** offers different views of the files in the **Assets** fold
 * Right-click the **Asset** and select the `Delete` button from the pop-up.
 * Select an **Asset** and press `del`.
 
-![](../.gitbook/assets/asset-delete.png)
+![](../.gitbook/assets/assetmanagerdeleting20232.png)
 
 ## Renaming
 

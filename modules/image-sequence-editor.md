@@ -10,25 +10,25 @@ Once an **Image Sequence** is open in the **Image Sequence Editor**, images can 
 
 The top panel gives the options to save or clear the **Image Sequence**.
 
-![](../.gitbook/assets/image-seq-editor.png)
+![](../.gitbook/assets/imagesequenceeditor20232.png)
 
 ## Adding
 
 To add an image to the **Image Sequence**, drag it from the **Asset Manager** to the **Image Sequence Editor**.
 
-![](../.gitbook/assets/image-seq-add.gif)
+![](../.gitbook/assets/imgseqeditorimage220232.gif)
 
 ## Removing
 
 To remove an image from the sequence, select it and either right-click it and choose `delete` or press `del`.
 
-![](../.gitbook/assets/image-seq-del.gif)
+![](../.gitbook/assets/imgseqeditorimage320232.gif)
 
 ## Changing Order
 
 To move an image within the sequence, drag it and drop it in the desired position.
 
-![](../.gitbook/assets/image-seq-change.gif)
+![](../.gitbook/assets/imgseqeditorimage420232.gif)
 
 ## See Also
 
