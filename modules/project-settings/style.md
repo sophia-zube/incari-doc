@@ -1,6 +1,6 @@
 # Styles
 
-![The Styles Settings](../../.gitbook/assets/projectsettsstyles20232real.png)
+![The Styles Settings](../../.gitbook/assets/projectsettingsstyles2032.png)
 
 The **Styles Settings** allow the user to provide a *CSS* file which applies the specified *CSS* styling over all **Scene2Ds** and the elements in them. This gives more control over things like font, background color, border, etc. 
 

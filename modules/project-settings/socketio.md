@@ -1,6 +1,6 @@
 # Socket.IO
 
-![The Socket.IO Settings](../../.gitbook/assets/projectsettssocketio20232real.png)
+![The Socket.IO Settings](../../.gitbook/assets/projectsettingssocketio20232.png)
 
 The **Socket.IO Settings** allow the user to manage the **Socket.IO Connections** and cover the necessary data to provide functionality to the [**Socket.IO** **Nodes**](../../toolbox/communication/socketio/README.md).
 

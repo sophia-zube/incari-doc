@@ -2,7 +2,7 @@
 
 
 
-![The TCP Settings.](../../.gitbook/assets/projectsettstcp20232real.png)
+![The TCP Settings.](../../.gitbook/assets/projectsettingstcp20232.png)
 
 
 The **TCP Settings** allow the user to manage **TCP Connections** and cover the necessary data to provide functionality to the [**TCP** **Nodes**](../../toolbox/communication/tcp/README.md).
