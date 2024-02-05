@@ -1,6 +1,6 @@
 # MQTT
 
-![The Project Settings MQTT Attributes.](../../.gitbook/assets/projectsettsmqtt20232real.png)
+![The Project Settings MQTT Attributes.](../../.gitbook/assets/projectsettingsmqtt20232.png)
 
 The **MQTT Settings** allow the user to manage the **MQTT Connections** and cover the necessary data to provide functionality to the [**MQTT Nodes**](../../toolbox/communication/mqtt/README.md).
 

@@ -1,7 +1,7 @@
 # CAN
 
 
-![The CAN Settings.](../../.gitbook/assets/projectsettscan2023real.png)
+![The CAN Settings.](../../.gitbook/assets/projectsettingscan20232.png)
 
 The **CAN Settings** cover the necessary data to provide functionality to the [**CAN Nodes**](../../toolbox/communication/can/README.md).
 

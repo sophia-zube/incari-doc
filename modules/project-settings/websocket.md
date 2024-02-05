@@ -1,6 +1,6 @@
 # WebSocket
 
-![The Project Settings WebSocket Attributes.](../../.gitbook/assets/projectsettswebsocket20232real.png)
+![The Project Settings WebSocket Attributes.](../../.gitbook/assets/projectsettingswebsocket20232.png)
 
 The **WebSocket Settings** allow the user to manage the **WebSocket Connections** and cover the necessary data to provide functionality to the [**WebSocket Nodes**](../../toolbox/communication/websocket/README.md).
 
