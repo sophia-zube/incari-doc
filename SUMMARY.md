@@ -452,6 +452,7 @@
     * [Get Media](toolbox/incari/media/getmedia.md)
     * [Get Media Length](toolbox/incari/media/getmedialength.md)
     * [Get Media Loop](toolbox/incari/media/getmedialoop.md)
+    * [Get Media Metadata](toolbox/incari/media/getmediametadata.md)
     * [Get Media Progress](toolbox/incari/media/getmediaprogress.md)
     * [Get Volume](toolbox/incari/media/getvolume.md)
     * [Is Media Playing](toolbox/incari/media/ismediaplaying.md)
