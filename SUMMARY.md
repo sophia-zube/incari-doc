@@ -623,7 +623,7 @@
   * [Vector Value](toolbox/math/vector-value.md)
 * [Plugins*](toolbox/plugins/README.md)
   * [(JSON) Scale Vector](toolbox/plugins/jsonscalevector.md)
-* [Prefab](toolbox/prefab/README.md)
+* [Prefab*](toolbox/prefab/README.md)
   * [This Prefab](toolbox/prefab/thisprefab.md)
 * [String](toolbox/string/README.md)
   * [Capitalize](toolbox/string/capitalize.md)
