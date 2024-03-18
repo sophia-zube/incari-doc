@@ -40,7 +40,7 @@ The **Get Media Metadata Node** returns the *ID3* *metadata* from hard drive med
 
 {% endtab %}
 
-{% tab title="Seconds" %}
+{% tab title="Asset" %}
 
 # Overview
 
