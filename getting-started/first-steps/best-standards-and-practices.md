@@ -2,6 +2,21 @@
 
 It is understandable that learning any new software can be a bit overwhelming. However, we at **Incari** aim to streamline the learning process and limit how daunting it can be. Therefore, this page highlights some **Incari** standards and practices that the user can incoporate into their creative process in order to make using **Incari Studio** that much more enjoyable. 
 
+* [**Conceptualizing**](#conceptualizing)
+  * [**1. Planning the General Structure**](#1-planning-the-general-structure)
+  * [**2. Planning the Logic**](#2-planning-the-logic)
+* [**Logic**](#logic)
+  * [**1. Creating, Maintaining, and Naming Variable**](#1-creating-maintaining-and-naming-variables)
+  * [**2. Building Logic**](#2-building-logic)
+  * [**3. Grouping and Structuring Logic**](#3-grouping-and-structuring-logic)
+* [**Design**](#design)
+  * [**Opacity Maps**](#opacity-maps)
+  * [**Asset Creation**](#asset-creation)
+* [**Deployment**](#deployment)
+  * [**1. Prepare and Optimize the Project for Initial Deployment**](#1-prepare-and-optimize-your-project-for-initial-deployment)
+  * [**2. Deploy the Project on Different Platforms**](#2-deploy-the-project-on-different-platforms)
+
+
 ## Conceptualizing
 
 **Incari Studio** is a powerful tool which offers a multitude of ways for executing the same general concepts <!-- better word here--> -- this enables the user to apply it to an abundance of different situations. Yet, this also means that planning the structure of a **Project** is incredibly important. There are some questions which should be considered at the beginning of every **Incari Project** before commencing with the details.
