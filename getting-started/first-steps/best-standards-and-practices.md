@@ -254,3 +254,99 @@ If an element is used multiple times, it is a good idea to make a  **Prefab** fo
 ### 3. Grouping and Structuring Logic 
 
 Looking at visual **Logic** can oftentimes be overwhelming, especially if the **Project** is extensive. [**Groups**](../../toolbox/utilities/group.md) give a straightforward way to understand the overall structure of the code and make necessary changes. You can choose one of the two approaches depending on the type of logic you are working on, or even merge them.
+
+#### 1. Purpose Based Grouping (Usually View Level)
+
+This type of grouping is especially useful when the user has limited **Objects** in the **Scene**, but wishes to enact a multitude of logical actions related to these **Objects**.
+
+For example, in the **Scene**, one could have a **Prefab** with a few **Texts**, **Vectors**, and any other **Objects**. In the **Logic**, the user would first put in the initial values, then might add some changes regarding interactions, and (in this scenario) also some **Animations**. Lastly, there should also be an output section where the values are outputted.
+
+A clever idea is to categorize and then colorize them. This could range from lighter to darker to show different functionality. This can visualized as follows:
+
+![](../../.gitbook/assets/image-20230830-145849.png)
+
+An example color schema can be found below:
+
+
+```
+#FFFFFF: Input - Inputs, on shown signals etc.
+#808080: Initialization - setting the first value of variables, attributes, setting first positions etc.
+#606060: Interactions - OnClick, OnHover etc. events and more
+#404040: Animations - logic based animation logics.
+#202020: Miscellaneous - everything else.
+#FFFFFF: Output - Outputs, ending sequences and so.
+```
+
+#### 2. Category/Section Based Grouping (Usually Higher Level)
+
+As can be seen in the image in the previous section, different groups will have different tints. One can also take this approach and utilize this on a greater project level to differentiate.
+
+## Design (section not done!!)
+
+### Opacity Maps
+
+Since **Incari** uses brightness masks (black/white), the user is recommended to use a *Luminance mask* in *Figma* instead of an *Alpha mask*. However, the user should be aware that there is a bug in *Figma* related to the *Luminance mask*. Even so, it is highly recommended to use a black/white mask much as possible when it comes to an output **Asset** for delivery. 
+
+### Asset Creation
+
+Delivering movie clip. It’s advised to always use a multiple of 8 for h265 videos. And multiple of 4 for h264
+
+
+### Hierarchies, when to group stuff, how to group stuff
+
+### Preparing materials (for 3D scenes)
+
+### Fragment shaders
+
+
+## Deployment 
+
+### 1. Prepare and Optimize Your Project for Initial Deployment 
+ 
+Before deploying an **Incari** **Project** to the end device, there are certain optimization and cleaning steps to be taken to ensure it goes smoothly. This is outlined below:
+
+#### 1. Check the Plugins
+
+Most **Incari** **Projects** come with **Communications** [**Plugins**](../../modules/plugins/README.md) pre-enabled. Most **Projects** will need only need one or two of them. Hence, check the **Logic** and disable the **Plugins** that aren't required.
+
+#### 2. Check the Assets
+
+Although the [**Exporter Module**](../../modules/exporter.md) can only export **Assets** in use, it is always a good idea to keep the **Project's**  **Assets** neat and tidy. If, for example, there is an *8K* image which is only used in *2K* resolution, it can be compressed into a *2K* one to save some space. Oftentimes, the devices a **Project** is deployed to are not so powerful.
+
+#### 3. Check the Connections
+
+If the user is using a protocol like **MQTT**, they will usually test with a local server on their computer. Do not forget to switch the endpoints, *IP* addresses, etc. to the ones to be used on the target device.
+
+#### 4. Change the Screen Settings
+
+Usually, the deployment endpoint will be an embedded edge device, and the **Project** will need to run in *kiosk mode*. Hence, under the **Attribute Editor** for the **Project's** **Screen**, turn decoration off, set the scaling back to default, and ensure that settings like `Anti-Aliasing` are compliant with the capabilities of the deployment device. It is important to note that in a number of devices, like the *Raspberry Pi 4*, having `Anti-Aliasing` on sometimes results in errors.
+
+#### 5. Clear out the Intermediate Folder.
+
+After working on a **Project** for a while, the **Project** will have a lot of *simulations* and copied **Assets** in the **Project's** *Intermediate* folder. To only include what is required, and save some space, the user can delete the *Intermediate* folder completely before compiling for the target platform.
+
+### 2. Deploy the Project on Different Platforms 
+
+#### 1. Ensure that everything is copied correctly.
+
+Currently, **Incari** **Projects** can be deployed to *Windows*, *Linux ARM64*, and *Linux x86* systems. Especially when copying the deployment folder to a *Linux* device after creating on *Windows*, copy errors resulting in 0KB libraries are commonplace. For this very reason, it is highly recommended to put the folder into a `.tar` archive and copy this instead. The user can do so as follows for a folder named `export_folder` that includes their **Project**, **Incari Player**, and `run.sh` file:
+
+```
+// To compress on Windows:
+tar -cf export.tar .\export_folder
+
+// To extract on Linux:
+tar -xf export.tar
+
+// To extract on Linux to a specific folder:
+tar -xf export.tar -C <folder_name>
+```
+
+### 2. Ensure that the permissions are set correctly.
+
+Most of the time, the files won’t have execution permission on the device the user is deploying them to. Resolve this by running the following on the folder that includes **Incari Player** and the **Project** on the target device:
+
+```
+chmod -R +x ./IncariPlayer
+chmod +x ./run.sh
+```
