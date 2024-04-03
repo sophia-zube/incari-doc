@@ -41,6 +41,7 @@
   * [Video](objects-and-types/scene-objects/3dobjects/video.md)
   * [Web Sprite](objects-and-types/scene-objects/3dobjects/web-sprite.md)
 * [Scene2D Objects](objects-and-types/scene2d-objects/README.md)
+  * [Audio 2D](objects-and-types/scene2d-objects/audio2d.md)
   * [Camera](objects-and-types/scene2d-objects/camera2d.md)
   * [Frame](objects-and-types/scene2d-objects/frame.md)
   * [GUI](objects-and-types/scene2d-objects/gui/README.md)
