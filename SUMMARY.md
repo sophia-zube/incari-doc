@@ -541,6 +541,8 @@
     * [Get Stylesheet](toolbox/incari/scene2d/getstylesheet.md)
     * [Merge To Stylesheet](toolbox/incari/scene2d/mergetostylesheet.md)
     * [Set Stylesheet](toolbox/incari/scene2d/setstylesheet.md)
+  * [Set Scene Environment Color](toolbox/incari/setsceneenvironmentcolornode.md)
+  * [Set Scene Environment Map](toolbox/incari/setsceneenvironmentmap.md)
   * [This Scene](toolbox/incari/thisscene.md)
   * [Ultrahaptics](toolbox/incari/ultrahaptics/README.md)
     * [Ultrahaptics Play](toolbox/incari/ultrahaptics/ultrahapticsplay.md)
