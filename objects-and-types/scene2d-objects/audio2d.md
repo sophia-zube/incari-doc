@@ -17,7 +17,7 @@ While the **Audio 2D Object** has several **Attributes**, the most important  of
 
 <div>
 <figure><img src="../../.gitbook/assets/audio2dimage3.png" alt=""><figcaption><p>Audio 2D Object before File is Selected.</p></figcaption></figure>
-<figure><img src="../../.gitbook/assets/audio2dimage4.png" alt=""><figcaption><p>Create Audio 2D Object after File is Selected.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/audio2dimage4.png" alt=""><figcaption><p>Audio 2D Object after File is Selected.</p></figcaption></figure>
 </div>
 
 A preview of the **Audio 2D** can be played, paused, or stopped within its **Scene2D** of **Incari Studio** by clicking the respective buttons in the **Attribute Editor**.
