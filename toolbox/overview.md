@@ -702,6 +702,8 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
   * [**Screen**](incari/screen/README.md)
      *  [**Load Scene**](incari/screen/loadscene.md)
      *  [**Unload Scene**](incari/screen/unloadscene.md)
+  * [**Set Scene Environment Color**](incari/setsceneenvironmentcolornode.md)
+  * [**Set Scene Environment Map**](incari/setsceneenvironmentmap.md)
   * [**This Scene**](incari/thisscene.md)
   * [**Ultrahaptics**](incari/ultrahaptics/README.md)
      *  [**Ultrahaptics Play**](incari/ultrahaptics/ultrahapticsplay.md)
