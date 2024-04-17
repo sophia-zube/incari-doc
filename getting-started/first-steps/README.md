@@ -7,4 +7,4 @@ In this section, you can find out more about the introductory aspects of creatin
 * [**Incari Hub**](incari-hub.md)
 * [**Creating a Project**](creating-a-project.md)
 * [**Incari Studio**](incari-studio.md)
-* [**Best Standards and Practices**](best-standards-and-practices.md)
+* [**Standards and Best Practices**](best-standards-and-practices.md)
