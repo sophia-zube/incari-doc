@@ -1,4 +1,4 @@
-# Best Standards and Practices 
+# Standards and Best Practices 
 
 It is understandable that learning any new software can be a bit overwhelming. However, we at **Incari** aim to streamline the learning process and limit how daunting it can be. Therefore, this page highlights some **Incari** standards and practices that the user can incoporate into their creative process in order to make using **Incari Studio** that much more enjoyable. 
 
