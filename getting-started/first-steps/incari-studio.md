@@ -53,7 +53,7 @@ The **Viewport** also has its own Menu bar which allows the user to enact change
 
 ![Viewport Menu Bar.](../../.gitbook/assets/viewportimage2.gif)
 
-Another important feature of the **Viewport** is the ability to switch between `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
+Another important feature of the **Viewport** is the ability to switch between the `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
 
 ![Viewport Player View vs. Editor View.](../../.gitbook/assets/viewportimage3.gif)
 
