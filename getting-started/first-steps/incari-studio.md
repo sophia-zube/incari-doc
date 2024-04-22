@@ -4,6 +4,8 @@ After creating a **Project** from **Incari Hub**, **Incari Studio** starts and l
 
 The *Interface* is composed of the **Viewport** and the **Modules**. The **Viewport** contains what will be displayed when the **Project** is played and the different **Modules** offer distinct functionalities to work in the **Project**. For a detailed description of each **Module**, see the **Modules** category of the **Documentation** on the left-hand side index. This page deals with all the possibilities that **Incari** offers in order to accommodate the user's preferences regarding the *Interface*.  
 
+## Modules
+
 When starting a new **Project**, the **Incari Studio** *Interface* looks as in the following image:
 
 ![Incari Studio Project on start](../../.gitbook/assets/creatingaproject20232.png)
@@ -40,3 +42,22 @@ Moreover, **Modules** can be docked together and then accessed via the tabs that
 ![Locked Module.](../../.gitbook/assets/incaristudioimage8.gif)
 
 This way, the *Interface* of **Incari Studio** can be customized in the way that best suits the user and their work.
+
+## Viewport
+
+The **Viewport** shows the visual aspects of a **Scene** or **Scene2D**. An **Object's** visibility is governed by the [**Scene Outliner**](../../modules/scene-outliner.md). A hidden **Object** will not appear in the **Viewport**.
+
+![Viewport.](../../.gitbook/assets/viewportimage1.png)
+
+The **Viewport** also has its own Menu bar which allows the user to enact changes within its bounds. These can affect the **Object's** themselves or simply alter the way they are presented. These *transformations* can be done on either a local or a global level, which is explained in greater detail [here](../../objects-and-types/attributes/common-attributes/transformation/README.md).
+
+![Viewport Menu Bar.](../../.gitbook/assets/viewportimage2.gif)
+
+Another important feature of the **Viewport** is the ability to switch between `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
+
+![Viewport Player View vs. Editor View.](../../.gitbook/assets/viewportimage3.gif)
+
+In `Player view`, it is possible to zoom in and out by clicking the icons or scrolling up and down on the mouse or a device's touchpad. One can also pan, not just by clicking and dragging the scrollbars to the right and bottom of the **Viewport**, but also by holding down a mouse's middle button and moving the mouse around.
+
+
+![Zooming and Panning in Player View.](../../.gitbook/assets/viewportimage4.gif)
