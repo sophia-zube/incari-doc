@@ -1,4 +1,4 @@
-# Figma Line 
+# Line 
 
 The **Line** in **Incari** provides similar functionality as its equivalent in *Figma*. Since it is effectively a stroke, the `Stroke` **Attribute** controls its initial visibility. 
 

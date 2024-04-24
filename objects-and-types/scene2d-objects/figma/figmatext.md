@@ -1,4 +1,4 @@
-# Figma Text 
+# Text 
 
 The **Text** in **Incari** provides similar functionality as its equivalent in *Figma*. 
 
