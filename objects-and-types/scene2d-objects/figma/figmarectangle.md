@@ -1,4 +1,4 @@
-# Figma Rectangle
+# Rectangle
 
 The **Rectangle** in **Incari** provides similar functionality as its equivalent in *Figma*. 
 

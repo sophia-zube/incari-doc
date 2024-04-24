@@ -99,13 +99,13 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 ## Ellipse
 
-![Ellipse Attributes.](../../../.gitbook/assets/figmaellipseatts.png)
+![Ellipse Attributes.](../../../.gitbook/assets/ellipsenewellipseaats20241.png)
 
 These **Attributes** give the foundation properties of the **Ellipse Object**. 
 
-* `Arc Sector` determines the percentage of the **Ellipse** visible. For example, if it is set to 100, the entire **Ellipse** shows and if it is set to 50, only half shows.
+* `Arc Sector` determines the amount of the **Ellipse** visible in degrees, from -360 to 360. For example, if it is set to 360, the entire **Ellipse** shows and if it is set to 180, only half shows. Furthermore, when set to -360, the entire **Ellipse** shows, but in the reverse direction (think counterclockwise). 
 
-* `Thickness` ranges from 0 to 100. If it is set to 0, there is no white space in the center of the **Ellipse** at all. If set to 100, the entire **Ellipse** is replaced by white space. If set to 50, part of the center is white space, creating a 'donut-like' shape. 
+* `Inner Radius` ranges from 0 to 100. If it is set to 0, there is no white space in the center of the **Ellipse** at all. If set to 100, the entire **Ellipse** is replaced by white space. If set to 50, part of the center is white space, creating a 'donut-like' shape. 
 
 * `Start Angle` ranges from 0 to 360 and determines at which angle the start of the **Ellipse** begins. If `Arc Sector` is set to 100, this will have not have any visual impact. 
 
