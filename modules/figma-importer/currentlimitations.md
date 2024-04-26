@@ -42,8 +42,5 @@ There are a few small exceptions that should be noted in order to make sure ever
 
 * **Paint**
 
-  * Setting the *Outer Handle* of *Gradients* is not supported.
-
-  * *Diamond* and *Angular Gradient* paints are not supported, lending the whole layer to be nonexistant as nothing is imported.
   * *Video* paints are not supported, in stroke nor fill. This means that no paint will be imported.
   * Multiple stroke configurations are not supported, e.g. *Style*, *Intersection*, *Caps*, etc.
