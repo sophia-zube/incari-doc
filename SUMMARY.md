@@ -347,7 +347,7 @@
     * [On Mouse Move](toolbox/events/mouse/on-mouse-move.md)
     * [On Mouse Scroll](toolbox/events/mouse/on-mouse-scroll.md)
   * [Object](toolbox/events/object/README.md)
-    * [On Alpha Change](toolbox/events/object/on-alpha-change.md)
+    <!--* [On Alpha Change](toolbox/events/object/on-alpha-change.md)-->
     * [On CheckBox Value Change](toolbox/events/object/on-checkbox-value-change.md)
     * [On Dropdown Active Value Change](toolbox/events/object/on-dropdown-active-value-change.md)
     * [On Opacity Change](toolbox/events/object/on-opacity-change.md)
@@ -470,7 +470,7 @@
     * [Add Tag](toolbox/incari/object/add-tag.md)
     * [Destroy Object](toolbox/incari/object/destroy.md)
     * [Get Active Dropdown Value](toolbox/incari/object/get-active-dropdown-value.md)
-    * [Get Alpha](toolbox/incari/object/get-alpha.md)
+    <!--* [Get Alpha](toolbox/incari/object/get-alpha.md)-->
     * [Get CSS Property](toolbox/incari/object/get-property.md)
     * [Get CheckBox Value](toolbox/incari/object/get-checkbox-value.md)
     * [Get Children](toolbox/incari/object/get-children.md)
@@ -498,7 +498,7 @@
     * [Remove Tag](toolbox/incari/object/remove-tag.md)
     * [Set Active Dropdown Index](toolbox/incari/object/set-active-dropdown-index.md)
     * [Set Active Dropdown Value](toolbox/incari/object/set-active-dropdown-value.md)
-    * [Set Alpha](toolbox/incari/object/set-alpha.md)
+    <!--* [Set Alpha](toolbox/incari/object/set-alpha.md)-->
     * [Set CSS Property](toolbox/incari/object/set-property.md)
     * [Set CheckBox Value](toolbox/incari/object/set-checkbox-value.md)
     * [Set Dropdown Options](toolbox/incari/object/set-dropdown-options.md)
