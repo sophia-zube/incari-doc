@@ -7,7 +7,7 @@ The **Object** **Nodes** are **Event Listener** **Nodes** that allow a **Logic B
 
 ## Contents
 
-* [**On Alpha Change**](on-alpha-change.md)
+<!--* [**On Alpha Change**](on-alpha-change.md)-->
 * [**On CheckBox Value Change**](on-checkbox-value-change.md)
 * [**On Dropdown Active Value Change**](on-dropdown-active-value-change.md)
 * [**On Opacity Change**](on-opacity-change.md)

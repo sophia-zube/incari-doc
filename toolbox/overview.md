@@ -500,7 +500,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**On Mouse Move**](events/mouse/on-mouse-move.md)
     * [**On Mouse Scroll**](events/mouse/on-mouse-scroll.md)
   * [**Object**](events/object/README.md)
-    * [**On Alpha Change**](events/object/on-alpha-change.md)
+    <!--* [**On Alpha Change**](events/object/on-alpha-change.md)-->
     * [**On CheckBox Value Change**](events/object/on-checkbox-value-change.md)
     * [**On Dropdown Active Value Change**](events/object/on-dropdown-active-value-change.md)
     * [**On Opacity Change**](events/object/on-opacity-change.md)
@@ -619,7 +619,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
     * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
-    * [**Get Alpha**](incari/object/get-alpha.md)
+    <!--* [**Get Alpha**](incari/object/get-alpha.md)-->
     * [**Get CSS Property**](incari/object/get-property.md)
     * [**Get CheckBox Value**](incari/object/get-checkbox-value.md)
     * [**Get Children**](incari/object/get-children.md)
@@ -653,7 +653,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
-    * [**Set Alpha**](incari/object/set-alpha.md)
+    <!--* [**Set Alpha**](incari/object/set-alpha.md)-->
     * [**Set CSS Property**](incari/object/set-property.md)
     * [**Set CheckBox Value**](incari/object/set-checkbox-value.md)
     * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)
@@ -983,7 +983,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
     * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
-    * [**Get Alpha**](incari/object/get-alpha.md)
+    <!--* [**Get Alpha**](incari/object/get-alpha.md)-->
     * [**Get CSS Property**](incari/object/get-property.md) 
     * [**Get CheckBox Value**](incari/object/get-checkbox-value.md)
     * [**Get Children**](incari/object/get-children.md)
@@ -1016,7 +1016,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
-    * [**Set Alpha**](incari/object/set-alpha.md)
+    <!--* [**Set Alpha**](incari/object/set-alpha.md)-->
     * [**Set CSS Property**](incari/object/set-property.md) 
     * [**Set CheckBox Value**](incari/object/set-checkbox-value.md)
     * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)
@@ -1306,7 +1306,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**On Mouse Move**](events/mouse/on-mouse-move.md)
     * [**On Mouse Scroll**](events/mouse/on-mouse-scroll.md)
   * [**Object**](events/object/README.md)
-    * [**On Alpha Change**](events/object/on-alpha-change.md)
+    <!--* [**On Alpha Change**](events/object/on-alpha-change.md)-->
     * [**On CheckBox Value Change**](events/object/on-checkbox-value-change.md)
     * [**On Dropdown Active Value Change**](events/object/on-dropdown-active-value-change.md)
     <!-- * [**On Local Position Change**](events/object/on-local-position-change.md)
@@ -1425,7 +1425,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Add Tag**](incari/object/add-tag.md)
     * [**Destroy Object**](incari/object/destroy.md)
     * [**Get Active Dropdown Value**](incari/object/get-active-dropdown-value.md)
-    * [**Get Alpha**](incari/object/get-alpha.md)
+    <!--* [**Get Alpha**](incari/object/get-alpha.md)-->
     * [**Get CSS Property**](incari/object/get-property.md) 
     * [**Get CheckBox Value**](incari/object/get-checkbox-value.md)
     * [**Get Children**](incari/object/get-children.md)
@@ -1459,7 +1459,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Active Dropdown Value**](incari/object/set-active-dropdown-value.md)
     <!-- * [**Is Object 2D**](incari/object/is-object-2d.md)
     * [**Is Object 3D**](incari/object/is-object-3d.md) -->
-    * [**Set Alpha**](incari/object/set-alpha.md)
+    <!--* [**Set Alpha**](incari/object/set-alpha.md)-->
     * [**Set CSS Property**](incari/object/set-property.md) 
     * [**Set CheckBox Value**](incari/object/set-checkbox-value.md)
     * [**Set Dropdown Options**](incari/object/set-dropdown-options.md)

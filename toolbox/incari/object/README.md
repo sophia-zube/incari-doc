@@ -9,7 +9,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 * [**Add Tag**](add-tag.md)
 * [**Destroy Object**](destroy.md)
 * [**Get Active Dropdown Value**](get-active-dropdown-value.md)
-* [**Get Alpha**](get-alpha.md)
+<!--* [**Get Alpha**](get-alpha.md)-->
 * [**Get CheckBox Value**](get-checkbox-value.md)
 * [**Get Children**](get-children.md)
 * [**Get Dropdown Options**](get-dropdown-options.md)
@@ -40,7 +40,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 * [**Remove Tag**](remove-tag.md)
 * [**Set Active Dropdown Index**](set-active-dropdown-index.md)
 * [**Set Active Dropdown Value**](set-active-dropdown-value.md)
-* [**Set Alpha**](set-alpha.md)
+<!--* [**Set Alpha**](set-alpha.md)-->
 * [**Set CheckBox Value**](set-checkbox-value.md)
 * [**Set Dropdown Options**](set-dropdown-options.md)
 * [**Set Mask**](set-mask.md)
