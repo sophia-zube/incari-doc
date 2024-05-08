@@ -27,3 +27,11 @@ In the **Attribute Editor**, the desired **Scene2D** simply needs to be selected
 Once this is done, the **Scene2D** will render over the *3D* **Scene**. An example of this process is shown below, culminating in a **Player View** that displays the contents of the **Overlay Object**.
 
 ![Overlay Object Example.](../../.gitbook/assets/overlaygif20232.gif)
+
+## Overlay Order
+
+It is possible to have multiple **Overlays** in a **Scene**. If they are overlapping, there is an order in which they appear. This is determined by the order in the **Scene Outliner**. The top-most **Overlay** will appear at the front and the bottom-most will be appear behind any and all **Overlays** before it. 
+
+Please note that when switching the order in the **Scene Outliner**, this will not be reflected in **Incari Studio** in either `Player view` or `Editor view`. The user must open the **Player** to see any changes. 
+
+![Overlay Example.](../../.gitbook/assets/overlayorder.gif)
