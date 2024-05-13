@@ -1,0 +1,3 @@
+# CANopen
+
+project settings here
