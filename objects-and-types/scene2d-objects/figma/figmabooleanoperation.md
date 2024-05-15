@@ -48,6 +48,8 @@ When `Solid` is selected, `Color` is visible.
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
+Please note that when a new `Fill` is added, it is added to the top of the *fill* list and the **Object** will be updated to display this `Fill`.  
+
 ### Image
 
 ![Fill Attributes with Type Image.](../../../.gitbook/assets/figmafillimageatts.png) 
