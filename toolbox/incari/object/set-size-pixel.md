@@ -25,7 +25,7 @@ The **Set Size Node** sets the $$X$$, $$Y$$, and $$Z$$ values of a **Scene Objec
 | Input             | Type         | Description                                                                                                                 |
 | ----------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------- |
 | _Pulse Input_ (►) | **Pulse**    | A standard **Input Pulse**, to trigger the execution of the **Node**.                                                       |
-| `Object ID`       | **ObjectID** | The ID of the target **Scene Object** whose `Size` you wish to return.                                                      |
+| `Object ID`       | **ObjectID** | The ID of the target **Scene Object** whose `Size` you wish to set.                                                      |
 | `Size`            | **Vector3**  | A 3-dimensional **Vector** that contains the desired $$X$$, $$Y$$, and $$Z$$ `Size` values for the target **Scene Object**. |
 
 #### Outputs
