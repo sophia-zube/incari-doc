@@ -10,6 +10,7 @@ There are several **Attributes** which allow the user heightened customizability
 * [**Blending**](figmabooleanoperation.md#blending)
 * [**Fill**](figmabooleanoperation.md#fill)
 * [**Stroke**](figmabooleanoperation.md#stroke)
+* [**Effects**](figmabooleanoperation.md#effects)
 * [**Mask**](figmabooleanoperation.md#mask)
 * [**Operation**](figmabooleanoperation.md#operation)
 * [**Tag**](figmabooleanoperation.md#tag)
@@ -96,6 +97,44 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+## Effects
+
+The `Effects` **Attribute** consists of different items called `Elements`. Each `Element` contains a `Type`. These are `Drop Shadow`, `Inner Shadow`, `Layer Blur`, and `Background Blur`. The available **Attributes** are described below:
+
+### Drop Shadow and Inner Shadow
+
+![Effect Attributes with Drop Shadow Selected.](../../../.gitbook/assets/figmaeffectsatts.png)
+
+There are two *shadow* `Types`. `Drop Shadow` adds a *shadow* behind the **Object**. `Inner Shadow` adds a *shadow* within the **Object**.
+
+![Two Vector Objects with the Exclude Boolean Operation and a Drop Shadow.](../../../.gitbook/assets/booleanoperationdropshadow.png)
+
+![Two Vector Objects with the Exclude Boolean Operation and an Inner Shadow.](../../../.gitbook/assets/booleanoperationinnershadow.png)
+
+* `Offset` sets the location of the *shadow* in relation to the **Object**. 
+
+* `Blur` modifies the softness of the shadow. When there is no blur, the shadow appears completely solid with rigid lines. When blur is applied, the shadow becomes transfused.  
+
+* `Spread` inflates or deflates the shadowshape on which the blur is applied. 
+
+* `Color` changes the color of the shadow.
+
+* `Blend Mode` affects the `Effects Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+
+### Layer Blur and Background Blur 
+
+![Effects Attributes with Layer Blur Selected.](../../../.gitbook/assets/figmaeffectsattsblur.png)
+
+There are two *blur* `Types`. `Layer Blur` blurs the **Object** itself and `Background Blur` applies a blur to whatever is directly behind the **Object**. This latter blur type is better seen when the **Object's** opacity or `Fill` opacity has been reduced. 
+
+![Two Vector Objects with the Exclude Boolean Operation and a Layer Blur.](../../../.gitbook/assets/booleanoperationlayerblur.png)
+
+![Two Vector Objects with the Exclude Boolean Operation and a Background Blur.](../../../.gitbook/assets/booleanoperationbackgroundblur.png)
+
+* `Blur` increases the severity of the blur effect. 
+
 
 ## Mask 
 
