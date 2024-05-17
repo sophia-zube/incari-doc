@@ -12,6 +12,7 @@ There are several **Attributes** which allow the user heightened customizability
 * [**Blending**](figmaellipse.md#blending)
 * [**Fill**](figmaellipse.md#fill)
 * [**Stroke**](figmaellipse.md#stroke)
+* [**Effects**](figmaellipse.md#effects)
 * [**Ellipse**](figmaellipse.md#ellipse)
 * [**Mask**](figmaellipse.md#mask)
 * [**Tag**](figmaellipse.md#tag)
@@ -98,6 +99,44 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+
+## Effects
+
+The `Effects` **Attribute** consists of different items called `Elements`. Each `Element` contains a `Type`. These are `Drop Shadow`, `Inner Shadow`, `Layer Blur`, and `Background Blur`. The available **Attributes** are described below:
+
+### Drop Shadow and Inner Shadow
+
+![Effect Attributes with Drop Shadow Selected.](../../../.gitbook/assets/figmaeffectsatts.png)
+
+There are two *shadow* `Types`. `Drop Shadow` adds a *shadow* behind the **Object**. `Inner Shadow` adds a *shadow* within the **Object**.
+
+![Ellipse with a Drop Shadow.](../../../.gitbook/assets/ellipsedropshadow.png)
+
+![Ellipse with an Inner Shadow.](../../../.gitbook/assets/ellipseinnershadow.png)
+
+* `Offset` sets the location of the *shadow* in relation to the **Object**. 
+
+* `Blur` modifies the softness of the shadow. When there is no blur, the shadow appears completely solid with rigid lines. When blur is applied, the shadow becomes transfused.  
+
+* `Spread` inflates or deflates the shadowshape on which the blur is applied.
+
+* `Color` changes the color of the shadow.
+
+* `Blend Mode` affects the `Effects Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+
+### Layer Blur and Background Blur 
+
+![Effects Attributes with Layer Blur Selected.](../../../.gitbook/assets/figmaeffectsattsblur.png)
+
+There are two *blur* `Types`. `Layer Blur` blurs the **Object** itself and `Background Blur` applies a blur to whatever is directly behind the **Object**. This latter blur type is better seen when the **Object's** opacity or `Fill` opacity has been reduced. 
+
+![Ellipse with a Layer Blur.](../../../.gitbook/assets/ellipselayerblur.png)
+
+![Ellipse with a Background Blur.](../../../.gitbook/assets/ellipsebackgroundblur.png)
+
+* `Blur` increases the severity of the blur effect. 
 
 ## Ellipse
 
