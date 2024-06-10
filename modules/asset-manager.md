@@ -65,7 +65,7 @@ Deleting the `.jgp` also deletes the generated `.ktx2` and removes the generated
 To get the **Texture Importer** to show, one simply needs to click on the imported **Asset** (in this case `sunflower.jpg`). This shows the many **Attributes**:
 
 * `Asset Name`: The file name of the **Asset**. This cannot be changed within **Incari Studio**.
-* `Is GPU compressed (ETC1S)`: Determines if it is in *GPU*-compressed format or not. More on *GPU Compression* in reference to *KTX* can be found [here](https://github.com/KhronosGroup/3D-Formats-Guidelines/blob/main/KTXDeveloperGuide.md#etc1s--basislz-codec).
+* `Is GPU compressed (ETC1S)`: Determines if it is in *GPU*-compressed format or not. More on *GPU Compression* in reference to *KTX* can be found [here](https://github.com/KhronosGroup/3D-Formats-Guidelines/blob/main/KTXDeveloperGuide.md#etc1s--basislz-codec). Enabling this **Attribute**significantly reduces memory consumption and is highly recommended when using embedded boards.
 * `Compression Level`: What type of compression to use. The lower the number, the higher the compression but the lower the quality. This can be `High Quality` (255), `Balanced` (128), or `High Compression` (64).
 * `Information`
   * `Open in Asset Database`: Opens the file in the [**Asset Database**](../modules/asset-database.md)
