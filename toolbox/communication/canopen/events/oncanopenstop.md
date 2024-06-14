@@ -1,6 +1,6 @@
 # Overview
 
-![The On CANopen Stop Node.]()
+![The On CANopen Stop Node.](../../../../.gitbook/assets/oncanopenstop.png)
 
 The **On CANopen Stop Node** is an **Event Listener Node** allowing the user to perform an action once a **CANopen** process has ended..
 
@@ -8,7 +8,7 @@ The **On CANopen Stop Node** is an **Event Listener Node** allowing the user to 
 
 # Attributes
 
-![The On CANopen Stop Node Attributes.]()
+![The On CANopen Stop Node Attributes.](../../../../.gitbook/assets/oncanopenstopatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

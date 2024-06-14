@@ -6,7 +6,7 @@ This **Node** has different versions depending on which `Protocol` is selected. 
 {% tab title="PDO" %}
 #### Overview
 
-![The CANopen Send: PDO Node.]()
+![The CANopen Send: PDO Node.](../../../.gitbook/assets/canopensendpdo.png)
 
 The **CANopen Send Node** is used to send a message once a **CANopen** connection has been selected from the **Drop-down Menu**. Here, the *PDO* `protocol` has been chosen. 
 
@@ -14,7 +14,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 
 # Attributes
 
-![The CANopen Send: PDO Node Attributes.](../../../.gitbook/assets/canstopatts20231.png)
+![The CANopen Send: PDO Node Attributes.](../../../.gitbook/assets/canopensendpdoatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
@@ -40,7 +40,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 {% tab title="SDO" %}
 #### Overview
 
-![The CANopen Send: SDO Node.]()
+![The CANopen Send: SDO Node.](../../../.gitbook/assets/canopensend.png)
 
 The **CANopen Send Node** is used to send a message once a **CANopen** connection has been selected from the **Drop-down Menu**. Here, the *SDO* `Protocol` has been chosen. 
 
@@ -48,7 +48,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 
 # Attributes
 
-![The CANopen Send: SDO Node Attributes.]()
+![The CANopen Send: SDO Node Attributes.](../../../.gitbook/assets/canopensendatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
