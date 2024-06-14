@@ -1,6 +1,6 @@
 # Overview
 
-![The CANopen Stop Node.]()
+![The CANopen Stop Node.](../../../.gitbook/assets/canopenstop.png)
 
 THe **CANopen Stop Node** hatls communication with a **CANopen** connection.
 
@@ -17,7 +17,7 @@ Again, the user must first use the **CANopen Stop Node** to close the connection
 
 # Attributes
 
-![The CANopen Stop Node Attributes.]()
+![The CANopen Stop Node Attributes.](../../../.gitbook/assets/canopenstopatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|

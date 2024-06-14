@@ -1,6 +1,6 @@
 # Overview
 
-![The CANopen Start Node.]()
+![The CANopen Start Node.](../../../.gitbook/assets/canopenstart.png)
 
 THe **CANopen Start Node** starts communication with a **CANopen** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/CANopen.md).
 
@@ -14,7 +14,7 @@ Again, the user must first use the **CANopen Start Node** to open the connection
 
 # Attributes
 
-![The CANopen Start Node Attributes.]()
+![The CANopen Start Node Attributes.](../../../.gitbook/assets/canopenstartatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
