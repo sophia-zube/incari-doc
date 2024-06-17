@@ -20,9 +20,12 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |---|---|---|
 |`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../modules/project-settings/CANopen.md). |
 |`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Here, `PDO` has been chosen. After selecting this, `Index` and `Subindex` will provide values. |
+|`Is Custom Message`|**Bool**|Can be toggled on or off depending on whether it is a custom message or not. Toggling it on changes the `Index` and `Subindex` into editable input fields allowing values from 0-FFFF for the former and 0-255 for the latter.|
 |`Index`|**Drop-down**|The index of the signal. Values depend on which `Protocol` has been selected.|
 |`Subindex`|**Drop-down**|The subindex of the signal. Values depend on which `Index` has been selected.|
-|`Value Type`|**Defined by previous selections**|The value type to be sent which is determined by which `Index` and `Subindex` have been chosen. For *PDO*, the types are **Bool** or **Int**.|
+|`CANopen Type`|**Defined by previous selections**|The value type to be sent which is determined by index and subindex selection.|
+|`Message Name`|**String**|A custom name which remains read-only.|
+|`Type`|**String**|A message type which remains read-only.|
 
 # Inputs
 
@@ -54,9 +57,12 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |---|---|---|
 |`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../modules/project-settings/CANopen.md). |
 |`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Here, `SDO` has been chosen. After selecting this, `Index` and `Subindex` will provide values. |
+|`Is Custom Message`|**Bool**|Can be toggled on or off depending on whether it is a custom message or not. Toggling it on changes the `Index` and `Subindex` into editable input fields allowing values from 0-FFFF for the former and 0-255 for the latter.|
 |`Index`|**Drop-down**|The index of the signal. Values depend on which `Protocol` has been selected.|
 |`Subindex`|**Drop-down**|The subindex of the signal. Values depend on which `Index` has been selected.|
-|`Value Type`|**Defined by previous selections**|The value type to be sent which is determined by which `Index` and `Subindex` have been chosen. For *PDO*, the types are **Bool**, **Int**, **Float**, **String**, or **Binary**.|
+|`CANopen Type`|**Defined by previous selections**|The value type to be sent which is determined by index and subindex selection.|
+|`Message Name`|**String**|A custom name which remains read-only.|
+|`Type`|**String**|A message type which remains read-only.|
 
 # Inputs
 

@@ -8,7 +8,7 @@ It is important to note that while the **CANopen Start Node** starts a **CAN** c
 
 Again, the user must first use the **CANopen Start Node** to open the connection. Separately, the **On CANopen Start Node** can be used to execute the desired **Communication Logic**.
 
-![CANopen Start and On CANopen Start Configuration.]()
+![CANopen Start and On CANopen Start Configuration.](../../../.gitbook/assets/canopenstartexample.png)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
