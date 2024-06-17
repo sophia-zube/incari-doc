@@ -6,7 +6,7 @@ To refresh, **Socket.IO Communication** is a popular form of bidirectional data 
 
 To do this, the user needs simply to locate the toggle labeled `Activated` and click it once.  
 
-![](../../../.gitbook/assets/pluginssocketio20232before.png)
+![](../../../.gitbook/assets/socketiopluginsbefore20241.png)
 
 **Incari** will alert the user of this by outputting this message to the screen:
 
@@ -16,6 +16,6 @@ By following these instructions (save and restart **Incari Studio**) the user wi
 
 Once the user has followed these steps, they will see that after restarting **Incari Studio** and going to the **Plugins Editor**, the checkmark by **Socket.IO** will be gone and the toggle labeled `Deactivated`. 
 
-![](../../../.gitbook/assets/pluginssocketio20232after.png)
+![](../../../.gitbook/assets/socketiopluginsafter20241.png)
 
 To activate again, the user just needs to repeat this by clicking `Deactivated` and saving and restarting again. 

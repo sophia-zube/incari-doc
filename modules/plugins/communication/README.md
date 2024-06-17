@@ -10,6 +10,7 @@ After clicking the arrow, **Communication** options are revealed. The checkmark 
 
 
 * [**Bluetooth**](bluetooth.md)
+* [**CANopen**](canopen.md)
 * [**MAVLink**](mavlinkmanager.md)
 * [**Serial**](serialmanager.md)
 * [**Socket.IO**](socketiomanager.md)

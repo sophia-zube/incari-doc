@@ -11,7 +11,7 @@ the [**On CANopen Stop Node**](events/oncanopenstop.md) instead. This way, it is
 Again, the user must first use the **CANopen Stop Node** to close the connection. Separately, the **On CANopen Stop Node** can be used to execute the desired **Communication Logic**. 
 
 
-![CANopen Stop and On CANopen Stop Configuration.]()
+![CANopen Stop and On CANopen Stop Configuration.](../../../.gitbook/)
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
