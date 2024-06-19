@@ -1,6 +1,6 @@
 # Profiler
 
-![The Project Settings Profiler Attributes.](../../.gitbook/assets/projectsettingsprofiler20232.png)
+![The Project Settings Profiler Attributes.](../../.gitbook/assets/projsettsprofiler20241.png)
 
 The **Profiler Settings** cover the necessary data to provide functionality to the **Profiler** **Module**.
 

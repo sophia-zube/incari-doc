@@ -1,7 +1,7 @@
 # CANopen
 
 
-![The CANopen Settings.](../../.gitbook/assets/)
+![The CANopen Settings.](../../.gitbook/assets/projsettscanopen20241.png)
 
 The **CANopen Settings** cover the necessary data to provide functionality to the [**CANopen Nodes**](../../toolbox/communication/canopen/README.md).
 
@@ -9,7 +9,7 @@ The **CANopen Settings** cover the necessary data to provide functionality to th
 
 `Baud Rate (Windows - PCAN)` is the speed of the communication for the channel. More information about this metric can be found in the **External Links** section.
 
-`Channel (Windows - PCAN)` is the USB port that _CAN_ is connected to on _Windows_.
+`Channel (Windows - PCAN)` is the USB port that _CANopen_ is connected to on _Windows_.
 
 Furthermore, the `Channel` and `Interface` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
 

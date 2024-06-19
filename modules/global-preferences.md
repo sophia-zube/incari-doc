@@ -4,7 +4,7 @@
 
 {% tabs %}
 {% tab title="Animation Editor" %}
-![](../.gitbook/assets/globalprefsanimationeditor20232.png)
+![](../.gitbook/assets/globalprefsanimationeditor20241.png)
 
 #### Playback
 
@@ -28,7 +28,7 @@
 {% endtab %}
 
 {% tab title="Global" %}
-![](../.gitbook/assets/globprefsglobal20232.png)
+![](../.gitbook/assets/globalprefsglobal20241.png)
 
 #### Projects
 
@@ -38,7 +38,7 @@ The default directory on a user's computer where **Incari Projects** are saved.
 {% endtab %}
 
 {% tab title="Logic Editor" %}
-![](../.gitbook/assets/globprefslogiceditor20232.png)
+![](../.gitbook/assets/globalprefslogiceditor20241.png)
 
 #### Theme
 
@@ -49,8 +49,23 @@ The `Grid Color` of the **Logic Editor** can be set here. The _color_ can be set
 Additionally, the `Reset color` button sets the `Grid Color` back to its default value.
 {% endtab %}
 
+{% tab title="Player" %}
+![](../.gitbook/assets/globalprefsplayer20241.png)
+
+#### Rendering
+
+**Use Multithreaded Rendering**
+
+When enabled, the **Bool** `Use Multithreaded Rendering` allows the user to automatically launch the **Incari Player** in multithreaded mode (the main/UI thread and the rendering thread) when launched from **Incari Studio**. This can be useful in cases where the **Logic** or rendering processes has been taking a bit longer than expected and supports seamless operation.
+
+
+
+
+{% endtab %}
+
+
 {% tab title="User Interface" %}
-![](../.gitbook/assets/globprefsuserinterface20232.png)
+![](../.gitbook/assets/globalprefsuserinterface20241.png)
 
 #### Layout
 
@@ -60,7 +75,7 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 {% endtab %}
 
 {% tab title="Viewport" %}
-![](../.gitbook/assets/globprefsviewport20232.png)
+![](../.gitbook/assets/globalprefsviewport20241.png)
 
 #### Theme
 
@@ -80,4 +95,4 @@ The `Reset Layout` button resets all **Modules** found in **Incari** to their de
 
 In order to open the **Global Preferences** **Module**, right-click on the Menu bar in **Incari** and click on **Global Preferences** from the drop-down list. Please see the illustration below:
 
-![](../.gitbook/assets/globalprefslastimage20232.png)
+![](../.gitbook/assets/globalprefslastimage20241.png)
