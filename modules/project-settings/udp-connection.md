@@ -1,6 +1,6 @@
 # UDP 
 
-![The UDP Settings.](../../.gitbook/assets/projectsettingsudp20232.png)
+![The UDP Settings.](../../.gitbook/assets/projsettsudp20241.png)
 
 The **UDP Settings** allow the user to manage **UDP Connections** and cover the necessary data to provide functionality to the [**UDP** **Nodes**](../../toolbox/communication/udp/README.md). Messages are called *datagrams*.
 

@@ -1,6 +1,6 @@
 # Serial
 
-![The Project Settings Serial Attributes.](../../.gitbook/assets/projectsettingsserial20232.png)
+![The Project Settings Serial Attributes.](../../.gitbook/assets/projsettsserial20241.png)
 
 The **Serial Settings** allow the user to manage the **Serial Connections** and cover the necessary data to provide functionality to the [**Serial Nodes**](../../toolbox/communication/serial/README.md).
 

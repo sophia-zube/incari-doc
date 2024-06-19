@@ -1,6 +1,6 @@
 # Scene Separation
 
-![The Project Settings Scene Separation Attributes.](../../.gitbook/assets/projectsettingssceneseparation20232.png)
+![The Project Settings Scene Separation Attributes.](../../.gitbook/assets/projsettssceneseparation20241.png)
 
 The **Scene Separation Settings** in **Incari** streamline what **Scenes** are loaded at runtime. 
 
