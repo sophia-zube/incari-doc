@@ -174,8 +174,28 @@ The `Type` **Attribute** has three options:
 
 Here, the user can input the desired text of the **Text Object**. 
 
+There are two ways the `Text` Attribute can be incorporated in the **Object**. That is either as `Static Text` or `Translation`. This can be switched using the text or translation icons to the right, in that order. 
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+### Static Text
+
+![Static Text Attributes.](../../../.gitbook/assets/text2dtextattsstatictext20241.png)
+
+When `Static Text` is selected, the **Attributes** are:
+
+* `Text` is the text itself which will be displayed in the **Text**.  
+
+### Translation
+
+![Translation Attributes.](../../../.gitbook/assets/text2dtranslation20241.png)
+
+When `Translation` is selected, the **Attributes** are:
+
+* `Translation` lets the user choose the key of the current language (which is established in the [**Project Settings**](../../../modules/project-settings/localization.md)). In the image above, the selected key is `phrase`.
+
 ## Tag
 
 ![Tag Attributes.](../../../.gitbook/assets/buttonattstag.png)
 
-This **Attribute** manages the *tags* for the **Button**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)
+This **Attribute** manages the *tags* for the **Text**. See more on *tags* [here.](../../attributes/common-attributes/tag.md)

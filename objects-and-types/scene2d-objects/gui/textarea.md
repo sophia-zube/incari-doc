@@ -28,7 +28,28 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 The `Text Area` **Attributes** provide crucial data for a **Text Area Object**.
 
-* `Text` is simply the desired text.
+There are two ways the `Text Area` Attribute can be incorporated in the **Object**. That is either as `Static Text` or `Translation`. This can be switched using the text or translation icons to the right, in that order. 
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+#### Static Text
+
+![Static Text Attributes.](../../../.gitbook/assets/textareastatictext20241.png)
+
+When `Static Text` is selected, the **Attributes** are:
+
+* `Text` is the text itself which will be displayed in the **Text Area**. 
+
+* `Word Wrap` can be enabled and disabled. When it is enabled, the text fits within the confines of the **Text Area**. If disabled, the text will be in one line and may run off the **Text Area**, causing some text to not be visible. In this case, please adjust the dimensions of the **Text Area**.
+
+#### Translation
+
+![Translation Attributes.](../../../.gitbook/assets/textareatranslation20241.png)
+
+When `Translation` is selected, the **Attributes** are:
+
+* `Translation` lets the user choose the key of the current language (which is established in the [**Project Settings**](../../../modules/project-settings/localization.md)). In the image above, the selected key is `phrase`.
+ 
 
 * `Word Wrap` can be enabled and disabled. When it is enabled, the text fits within the confines of the **Text Area**. If disabled, the text will be in one line and may run off the **Text Area**, causing some text to not be visible. In this case, please adjust the dimensions of the **Text Area**.
 

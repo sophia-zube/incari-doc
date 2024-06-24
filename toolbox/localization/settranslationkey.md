@@ -12,13 +12,15 @@ The **Set Translation Key** sets the  translation `Key` for a specific **Object*
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Key`|**Dropdown**|
+|`Key`|**Dropdown**|The key that the user wishes to set for the given **Object** if one is not added to the **Input Socket**. The possible keys come from the `.local` file inputted in the [**Project Settings**](../../modules/project-settings/localization.md).|
 
 # Inputs
 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
+|`Object ID`|**ObjectID**|The **Object** that the user wishes to set the key for.|
+|`Key`|**String**|The key that the user wishes to set for the given **Object**.| 
 
 # Outputs
 
@@ -28,5 +30,5 @@ The **Set Translation Key** sets the  translation `Key` for a specific **Object*
 
 # See Also
 
-# External Links
+* [**Get Translation Key**](gettranslation.md)
 

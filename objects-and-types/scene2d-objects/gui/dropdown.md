@@ -10,8 +10,9 @@ The **Dropdown** is a **GUI** **2D Object** that allows the user to create a *dr
 The **Object's** **Attributes** can be used to fully customize the **Object**. Explained below, they are:
 
 * [**Transformation**](dropdown.md#transformation)
-* [**Text**](dropdown.md#text)
 * [**Dropdown**](dropdown.md#dropdown)
+* [**Text**](dropdown.md#text)
+* [**Font**](dropdown.md#)
 * [**Code**](dropdown.md#code)
 * [**Tag**](dropdown.md#tag)
 
@@ -21,45 +22,58 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
 
+
+### Dropdown
+
+![Dropdown Attributes.](../../../.gitbook/assets/dropdownatts20241.png)
+
+The `Dropdown` **Attributes** provide crucial data for a **Dropdown Object**. The `Options` have two types: `Static Text` and `Translation`. This can be switched using the text or translation icons to the right, in that order. 
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+* `Active index` determines which `Option` is shown at the front of the **Dropdown**. Remember that the first element has the index of 0. 
+
+* `Options` provides the elements which will populate the **Dropdown**. Here there are three elements called `one`, `two`, and `phrase`. The first two are of type `Static Text`, where the user simply types the desired text. The third is of type `Translation`, which lets the user choose the key of the current language (which is established in the [**Project Settings**](../../../modules/project-settings/localization.md)). In the image above, the selected key is `phrase`.
+
+In the above image, because the `Active index` is set to 0, 'one' would be element shown at the front of the **Dropdown**. 
+
+
 ### Text
 
 ![Text Attributes.](../../../.gitbook/assets/dropdownattstext.png)
 
 The `Text` **Attributes** customize the textual elements of a **Dropdown**. 
 
-* `Font family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
+* `Color` decides the color of the **Dropdown's** text.
 
 * `Transform` can easily change certain text aesthetics without requiring the user to change the `Options` **Attributes** themselves. `Capitalize` makes the first letter capital, `uppercase` makes all letters capital, and `lowercase` makes all letters lowercase.  
 
-* `Font size (px)` determines the size of the font in pixels.
-
 * `Line height (%)` determines the placement of the text within the **Dropdown**. 
 
-* `Font color` decides the color of the **Dropdown's** text.
 
-### Dropdown
 
-![Dropdown Attributes.](../../../.gitbook/assets/dropdownattsdropdown.png)
+### Font
 
-The `Dropdown` **Attributes** provide crucial data for a **Dropdown Object**.
+![Font Attributes.](../../../.gitbook/assets/fontatts20241.png)
 
-* `Active index` determines which `Option` is shown at the front of the **Dropdown**. Remember that the first element has the index of 0. 
+The `Font` **Attributes** focus on the details of the **Drowpdown's** text.
 
-* `Background Color`decides the color of the **Dropdown's** background.
+* `Family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
-* `Options` provides the elements which will populate the **Dropdown**. Here there are three elements called `one`, `two`, and `three`. 
+* `Size` determines the size of the font in pixels.
 
-In the above image, because the `Active index` is set to 1, 'two' would be element shown at the front of the **Dropdown**. 
 
-### Code
+### Style
 
-![Code Attributes.](../../../.gitbook/assets/buttonattscode.png)
+![Style Attributes.](../../../.gitbook/assets/dropdownstyleatts20241.png)
 
-The `Code` **Attributes** allow for more customizability. This can override any stylesheet provided in the [**Project Settings**](../../../modules/project-settings/style.md) or a [**Scene2D**](../../project-objects/scene2d.md). 
+The `Style` **Attributes** allow for more customizability. This can override any stylesheet provided in the [**Project Settings**](../../../modules/project-settings/style.md) or a [**Scene2D**](../../project-objects/scene2d.md). 
 
 To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../../../toolbox/incari/object2d/README.md).
 
-* `Class names` contain the *CSS* class names of the **Object**. 
+* `Background Color` decides the color of the **Dropdown's** background.
+  
+* `CSS Classes` contain the *CSS* class names of the **Object**. 
 
 * `Stylesheet` contains the *CSS* stylesheet of the **Object**.
 

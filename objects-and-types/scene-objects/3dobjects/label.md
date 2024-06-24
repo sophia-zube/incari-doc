@@ -11,3 +11,14 @@ Locating the `Text` **Attribute**, any text can be inputted to provide clear inf
 ![Label with Hello World.](../../../.gitbook/assets/labelimage220232.png)
 
 There is also the **Get LabelText Node**. More information can be found [here.](../../../toolbox/incari/vector/label/README.md)
+
+## Translation
+
+It is also possible to switch to `Translation` by clicking the 
+right-most icon of the `Text` **Attribute**.
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+This let's the user access the `.local` file provided in the [**Project Settings**](../../../modules/project-settings/localization.md). The keys will appear as options in the `Translation` dropdown. The translation of the current language will be used. This is set in the **Project Settings** but can be altered with the [**Localization Nodes**](../../../toolbox/localization/README.md)
+
+
