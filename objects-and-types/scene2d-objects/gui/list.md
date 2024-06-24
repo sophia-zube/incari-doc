@@ -24,7 +24,7 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 ### List
 
-The `List` **Attributes** provide crucial data for a **List Object**. When `Advanced Mode` is toggled on, the **Attribtues** differ slightly. 
+The `List` **Attributes** provide crucial data for a **List Object**. When `Advanced Mode` is toggled on, the **Attributes** differ slightly. 
 
 ![List Attributes: Advanced Mode Off.](../../../.gitbook/assets/list2dsimple.png)
 
@@ -67,6 +67,16 @@ Thus there are two ways to populate a **List**:
 These two processes result in a **List** that appears like this (with some other visual **Attributes** changed):
 
 ![](../../../.gitbook/assets/listexample2.png)
+
+
+There are also two types of `Entries`: `Static Text` and `Translation`. This can be switched using the text or translation icons to the right, in that order. 
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+In the image below, there are three `Entries` labeled `one`, `two`, and `phrase`. The first two are of type `Static Text`, where the user simply types the desired text. The third is of type `Translation`, which lets the user choose the key of the current language (which is established in the [**Project Settings**](../../../modules/project-settings/localization.md)). 
+
+![](../../../.gitbook/assets/listattsentries20241.png)
+
 
 
 ### List Item

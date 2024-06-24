@@ -61,3 +61,12 @@ Additionally, **Text** also shares **Common Attributes** of the **Sprite** categ
 * `Sort Index`
 
 There are also several **Nodes** attributed to **Text Objects**. More information can be found [here](../../../toolbox/incari/object/set-text.md), [here](../../../toolbox/incari/object/get-text-color.md) and [here.](../../../toolbox/incari/object/set-text-color.md)
+
+## Translation
+
+It is also possible to switch to `Translation` by clicking the 
+right-most icon of the `Text` **Attribute**.
+
+![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
+
+This let's the user access the `.local` file provided in the [**Project Settings**](../../../modules/project-settings/localization.md). The keys will appear as options in the `Translation` dropdown. The translation of the current language will be used. This is set in the **Project Settings** but can be altered with the [**Localization Nodes**](../../../toolbox/localization/README.md)
