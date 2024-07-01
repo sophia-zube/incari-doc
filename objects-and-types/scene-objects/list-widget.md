@@ -14,7 +14,11 @@ This is the optional text that you wish to appear as a header for your list. It 
 
 ### Font Family
 
-`Font Family` allows you to select a generic font family \(`monospace`, `serif`, `sans-serif`\) or add your custom font.
+`Font Family` allows you to select a generic font family \(`Manrope` or  `Source Code Pro`\) or a custom font that has been added in [**Project Settings**](../../modules/project-settings/fonts.md).
+
+**List Objects** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts) and let the user configure certain aspects, called `Parameters`. The *gif* below demonstrates what a font looks like with no `Parameters` in its **Attributes** and what it looks like when the user switches to a font that does.
+
+![No Parameters vs. Four Parameters.](../../.gitbook/assets/listfontexample.gif)
 
 ### List Entry File
 
