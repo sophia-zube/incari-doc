@@ -32,9 +32,13 @@ With **Camera**, `Resolution` relates to the resolution of a _physical_ piece of
 
 ## Font Family
 
-`Font Family` allows you to select a generic font family \(`monospace`, `serif`, `sans-serif`\) or add your own custom font.
+`Font Family` allows one to select a generic font family \(`Manrope` or  `Source Code Pro`\) or a custom font that has been added in [**Project Settings**](../../modules/project-settings/fonts.md).
 
-To add a custom font, simply drag it into the **Asset Manager** from your OS file explorer. To use that font, drag it from the **Asset Manager** onto the `Font File` **Attribute** of a **Text Object** in the **Attribute Editor**.
+**Text Objects** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts) and let the user configure certain aspects, called `Parameters`. The *gif* below demonstrates what a font looks like with no `Parameters` in its **Attributes** and what it looks like when the user switches to a font that does.
+
+![No Parameters vs. Four Parameters.](../../../.gitbook/assets/text3dfontexample.gif)
+
+
 
 ## Alignment
 
@@ -70,3 +74,5 @@ right-most icon of the `Text` **Attribute**.
 ![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
 
 This let's the user access the `.local` file provided in the [**Project Settings**](../../../modules/project-settings/localization.md). The keys will appear as options in the `Translation` dropdown. The translation of the current language will be used. This is set in the **Project Settings** but can be altered with the [**Localization Nodes**](../../../toolbox/localization/README.md)
+
+

@@ -119,7 +119,7 @@ The `Text` **Attributes** customize the textual elements of a **List**.
 ![Font Attributes.](../../../.gitbook/assets/listfontatts.png)
 
 
-The `Font` Attributes control certain font characteristics. 
+The `Font` **Attributes** control certain font characteristics. Please note that while **Lists** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts), only the default style will be used, as the configurable **Attributes** are not available for this **Object**.
 
 * `Family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 

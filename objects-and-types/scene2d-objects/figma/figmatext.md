@@ -66,15 +66,19 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 ![Font Attributes.](../../../.gitbook/assets/figmatextfontatts.png)
 
-The `Font` **Attributes** controls many properties of a **Text Object**, such as:
+The `Font` **Attributes** controls many properties of a **Text Object**:
 
-* `Family`, which offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
+* `Family`, which offers two different font types: `Manrope` and `Source Code Pro`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 * `Size` controls how large or small the text is.
 * `Line Height (%)` determines the spacing between lines of text.
 * `Letter Spacing (px)` determines the spacing between each individual letter.
 * `Paragraph Spacing` determines the spacing between each paragraph. 
 * `Horizontal Alignment` decides the alignment of the text horizontally within the text space. It can be either `Left`, `Center`, or `Right`. 
 * `Vertical Alignment` decides the alignment of the text vertically within the text space. It can either be `Top`, `Center`, or `Bottom`. 
+
+**Text Objects** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts) and let the user configure certain aspects, called `Parameters`. The *gif* below demonstrates what a font looks like with no `Parameters` in its **Attributes** and what it looks like when the user switches to a font that does.
+
+![No Parameters vs. Four Parameters.](../../../.gitbook/assets/text2dfontexample.gif)
 
 ## Stroke
 

@@ -61,9 +61,9 @@ When `Translation` is selected, the **Attributes** are:
 
 ![Font Attributes.](../../../.gitbook/assets/fontatts20241.png)
 
-The `Font` **Attributes** focus on the details of the **Button's** text.
+The `Font` **Attributes** focus on the details of the **Button's** text. Please note that while **Buttons** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts), only the default style will be used, as the configurable **Attributes** are not available for this **Object**. 
 
-* `Family` offers three different font types: `monospace`, `sans-serif`, and `serif`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
+* `Family` offers two different font types: `Manrope` and `Source Code Pro`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
 * `Size` determines the size of the font in pixels.
 
