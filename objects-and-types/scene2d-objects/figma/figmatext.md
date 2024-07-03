@@ -48,6 +48,20 @@ When `Solid` is selected, `Color` is visible.
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
+### Gradient
+
+![Fill Attributes with Type Gradient.](../../../.gitbook/assets/fillattributesgradient.png)
+
+When `Gradient` is selected, `Gradient` is visible. 
+
+* `Gradient` decides the style of gradient, which can be either `Linear`, `Radial`, `Angular`, or `Diamond`.
+  
+* The `Gradient` color selector has a row of squares going left to right as well as a column going top to bottom. These correspond 1:1 with each other, so in the image above the mustard yellow squares are the same color. The user can drag the squares in the row to change the order of the gradient's colors. Clicking anywhere in the bar will add a square in both the row and column of colors. The user can change the color of a square by clicking it, which opens the color picker. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
 ### Image
 
 ![Fill Attributes with Type Image.](../../../.gitbook/assets/figmafillimageatts.png) 
@@ -57,6 +71,24 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 * `Image` is the desired **Texture** file.
   
 * `Fit Mode` determines how the **Texture** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+### Video
+
+![Fill Attributes with Type Video.](../../../.gitbook/assets/fillattributesvideo.png) 
+
+When `Image` is selected, `Video` and `Fit Mode` are visible. 
+
+* `Video` is the desired **Video** file.
+  
+* `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
 
 * Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
@@ -102,6 +134,21 @@ When `Solid` is selected, `Color` is visible.
 
 Please note that when a new `Fill` is added, it is added to the top of the *fill* list and the **Object** will be updated to display this `Fill`.
 
+
+### Gradient
+
+![Stroke Attributes with Type Gradient.](../../../.gitbook/assets/strokeattributegradient.png)
+
+When `Gradient` is selected, `Gradient` is visible. 
+
+* `Gradient` decides the style of gradient, which can be either `Linear`, `Radial`, `Angular`, or `Diamond`.
+  
+* The `Gradient` color selector has a row of squares going left to right as well as a column going top to bottom. These correspond 1:1 with each other, so in the image above the mustard yellow squares are the same color. The user can drag the squares in the row to change the order of the gradient's colors. Clicking anywhere in the bar will add a square in both the row and column of colors. The user can change the color of a square by clicking it, which opens the color picker. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
 ### Image
 
 ![Stroke Attributes with Type Image.](../../../.gitbook/assets/figmastrokeimage.png)
@@ -115,6 +162,24 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+### Video
+
+![Stroke Attributes with Type Video.](../../../.gitbook/assets/strokeattributesvideo.png) 
+
+When `Image` is selected, `Video` and `Fit Mode` are visible. 
+
+* `Video` is the desired **Video** file.
+  
+* `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
 
 ## Effects
 

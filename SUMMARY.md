@@ -334,6 +334,8 @@
     * [On List Load](toolbox/events/list/on-list-load.md)
   * [List 2D](toolbox/events/list2d/README.md)
     * [On List Active Index Change](toolbox/events/list2d/onlistactiveindexchange.md)
+  * [Localization](toolbox/events/localization/README.md)
+    * [On Localization Language Change](toolbox/events/localization/onlocalizationlanguagechange.md)
   * [Lottie](toolbox/events/lottie/README.md)
     * [On Lottie Finish](toolbox/events/lottie/on-lottie-finish.md)
     * [On Lottie Pause](toolbox/events/lottie/on-lottie-pause.md)
