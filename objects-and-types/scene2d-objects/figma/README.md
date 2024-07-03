@@ -6,6 +6,8 @@ It is important to note that since **2023.2**, the old **Vector Objects** no lon
 
 For certain *Figma* objects, such as a *Star* or *Polygon*, **Incari** will import them as a **Vector**. These **Vectors** are uneditable and unchangeable and therefore do not have a separate category. This subcategory is not to be confused with the aforementioned old **Vector Objects** nor the current main category.
 
+Additionally, while all **Vector Objects** have the option to add a `Video` to its `Fill` **Attribute**, it is also possible to drag a **Video** from the **Asset Manager** into the **Scene2D**. This will automatically create a **Rectangle** with the same name as the **Video** and the **Video** will already be added as a `Fill`. 
+
 # Contents
 
 * [**Boolean Operation**](figmabooleanoperation.md)
