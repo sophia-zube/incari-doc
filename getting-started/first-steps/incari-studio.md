@@ -47,17 +47,31 @@ This way, the *Interface* of **Incari Studio** can be customized in the way that
 
 The **Viewport** shows the visual aspects of a **Scene** or **Scene2D**. An **Object's** visibility is governed by the [**Scene Outliner**](../../modules/scene-outliner.md). A hidden **Object** will not appear in the **Viewport**.
 
-![Viewport.](../../.gitbook/assets/viewportimage1.png)
+![Viewport in a Scene.](../../.gitbook/assets/viewportimage120241.png)
 
-The **Viewport** also has its own Menu bar which allows the user to enact changes within its bounds. These can affect the **Object's** themselves or simply alter the way they are presented. These *transformations* can be done on either a local or a global level, which is explained in greater detail [here](../../objects-and-types/attributes/common-attributes/transformation/README.md).
 
-![Viewport Menu Bar.](../../.gitbook/assets/viewportimage2.gif)
+The **Viewport** also has two floating toolbars which allow the user to enact changes within its bounds. These can affect the **Objects** themselves or simply alter the way they are presented. These *transformations* can be done on either a local or a global level, which is explained in greater detail [here](../../objects-and-types/attributes/common-attributes/transformation/README.md). They vary slightly between **Scenes** and **Scene2Ds**. The above image shows the **Viewport** in a **Scene**.
 
-Another important feature of the **Viewport** is the ability to switch between the `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
 
-![Viewport Player View vs. Editor View.](../../.gitbook/assets/viewportimage3.gif)
+### Scenes
+
+![Viewport Menu Bar in Scenes.](../../.gitbook/assets/scene3dfloatingtoolbarsexample.gif)
+
+There is a gizmo in the upper right-hand corner which allows the user to move the view of the **Viewport** around.
+
+The toolbar at the bottom has seven icons. These correspond to `Select`, `Translate`, `Rotate`, `Scale`, `Local Global`, `Grid`, and `Headlight`, respectively. The *gif* above demonstrates what changes visually when each feature is selected. An eighth icon, `Leave look-through mode`, appears only when one has entered `Look-through Mode`. This can be done by right-clicking a **Camera Object** and selecting it, or pressing `Ctrl+Space` when the **Camera** is selected. 
+
+At the top-left of the **Viewport** is the second toolbar, which governs `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
 
 In `Player view`, it is possible to zoom in and out by clicking the icons or scrolling up and down on the mouse or a device's touchpad. One can also pan, not just by clicking and dragging the scrollbars to the right and bottom of the **Viewport**, but also by holding down a mouse's middle button and moving the mouse around.
 
 
-![Zooming and Panning in Player View.](../../.gitbook/assets/viewportimage4.gif)
+### Scene2Ds
+
+![Viewport Menu Bar in Scene2Ds.](../../.gitbook/assets/scene2dfloatingtoolbarsexample.gif)
+
+The toolbar at the bottom governs the enabling of the `Grid`. The *gif* above shows how this looks like when clicked on and off. 
+
+At the top-left of the **Viewport** is the second toolbar, which governs `Player view` and `Editor view`. It defaults to `Editor view`, but when `Player view` is selected, the user can see what the **Scene** looks like in **Incari Player** without running the **Project**. This saves time and maximizes efficiency. 
+
+In both `Editor view` and `Player view`, it is possible to zoom in and out by clicking the icons or scrolling up and down on the mouse or a device's touchpad. One can also pan, not just by clicking and dragging the scrollbars to the right and bottom of the **Viewport**, but also by holding down a mouse's middle button and moving the mouse around.
