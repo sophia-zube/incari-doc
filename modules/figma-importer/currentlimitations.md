@@ -2,6 +2,114 @@
 
 There are a few small exceptions that should be noted in order to make sure everything runs smoothly and renders properly when importing *Figma* projects into **Incari Studio**.
 
+
+| Feature |        |         |        |  2023.2  | 2024.1 |
+| ------- | ------ | ------- | ------ | -------- | ------ |
+| Object Blend Mode |    |    |       |   ✔       |     ✔  |
+| Paint Layers      |     |   |       |    --      |    ✔   |
+|            |  Modes |       |       |    --      |    ✔   |
+|            |        | Color |       |   ✔       |    ✔   |
+|            |        | Image |       |   ✔       |    ✔   |
+|            |        |       |  Fill |   ✔       |    ✔   |
+|            |        |       |  Fit  |    ✔      |    ✔   |
+|            |        |       |  Crop |   --       |    --   |
+|            |        |       |  Tile |   ✔       |    ✔   |
+|            |        | Gradient|     |    --      |    --   |
+|            |        |       | Linear|    --      |    ✔   |
+|            |        |       | Radial|    --      |    ✔   |
+|            |        |       | Angular|   --      |    ✔   |
+|            |        |       |Diamond |   --      |    ✔   |
+|            |        | Video |       |    ✘     |    ✔   |
+|            |Layering|       |       |    ✔      |    ✔   |
+|            |Opacity |       |       |    ✔      |    ✔   |
+|            |Blendmodes|     |       |    ✔      |    ✔   |
+|Mask        |         |      |       |    ✔      |    ✔   |
+|            | Alpha   |      |       |    ✔      |    ✔   |
+|           | Luminance|      |       |    ✔      |    ✔   |
+|            | Shape   |      |       |    ✔      |    ✔   |
+|Boolean     |         |      |       |    ✔      |    ✔   |
+|            | Union   |      |       |    ✔      |    ✔   |
+|            | Substraction|  |       |    ✔      |    ✔   |
+|            | Intersection|  |       |   ✔       |    ✔   |
+|            | Exclusion |    |       |   ✔       |    ✔   |
+|Objects     |          |     |       |   --       |    ✔   |
+|            | Vector   |     |       |   ✔       |    ✔   |
+|            | Ellipse  |     |       |   ✔       |    ✔   |
+|            | Line     |     |       |   ✔       |    ✔   |
+|            | Frame    |     |       |   ✔       |    ✔   |
+|        |       |Horizontal Layout|  |   ✔       |    ✔   |
+|        |       |Vertical Layout  |  |   ✔       |    ✔   |
+|        |       |Grid Layout |       |   ✘      |    ✘   |
+|        |     |Gap & Padding |       |   ✔       |    ✔   |
+|            | Crop     |     |       |   ✔       |    ✔   |
+|            | Polygon  |     |       |   --       |    --   |
+|            | Star     |     |       |   --      |    --   |
+|            | Text     |     |       |   --       |    ✔    |
+|            |       | Resizing |     |    ✘      |    ✔    |
+|            |      | Font Family |   |    ✔      |    ✔    |
+|            |   | Variable Fonts |   |    ✘      |    ✔    |
+|            |          | Size |      |    ✔      |    ✔    |
+|            |   | Line Height   |    |    --      |    ✔    |
+|            |   | Letter Spacing|    |    ✔      |    ✔    |
+|            |  | Paragraph Spacing|  |    ✔      |    ✔    |
+|          |   |Horizonal Alignment|  |    ✔      |    ✔    |
+|          |   |     | Left, Center, Right|  ✔    |    ✔    |
+|          |   |Vertical Alignment |  |    ✔      |    ✔    |
+|          |   |     | Top, Center, Bottom |  ✔   |    ✔    |
+|          |   | Decoration |         |    ✘      |    ✘    |
+|          |   |      | None          |    ✘      |    ✘    |
+|          |   |     | Underlined     |    ✘      |    ✘    |
+|          |   |     | Strikethrough  |    ✘      |    ✘    |
+|          |   |Case  |               |    ✘      |    ✘    |
+|          |   |     | As Typed       |    ✘      |    ✘    |
+|          |   |     | Upper Case     |    ✘      |    ✘    |
+|          |   |     | Lower Case     |    ✘      |    ✘    |
+|          |   |     | Title Case     |    ✘      |    ✘    |
+|          |   |     | Small Caps     |    ✘      |    ✘    |
+|          |   |     | Forces Small Caps |  ✘     |    ✘    |
+|          |   | Truncate Text |      |   ✘       |    ✘    |
+|          |   |     | Maximum Lines  |    ✘      |    ✘    |
+|          |   |Number Monospace |    |   ✘       |    ✘    |
+|          |   |Number Alignment |    |   ✘       |    ✘    |
+|          |   |     | Lining    |        ✘      |    ✘    |
+|          |   |     | Old Style |        ✘      |    ✘    |
+|          |   |Settings on Letter Basis|  |  ✘   |    ✘    |
+| Importer |   |      |                |   --      |    --    |
+|          | Accessing |         |    |    ✔      |    ✔    |
+|          | Import    |         |     |    --     |    --    |
+|          |           | Prefabs |     |    --     |    --    |
+|          |           | Scenes  |     |    ✔     |    ✔     |
+|          | Reimport  |         |     |    --     |    --    |
+|          |           | Prefabs |     |   --      |    --    |
+|          |           | Scenes  |     |   --      |    --    |
+| Strokes  |           |         |     |   --      |    --    |
+|          | Style     |         |     |   --      |    --    |
+|          |           | Dash    |     |   ✘      |    ✘    |
+|          |           | Solid   |     |   ✔      |    ✔     |
+|          | Intersection |      |     |   ✘      |    ✘     |
+|          |           | Join    |     |   ✘      |    ✘    |
+|          |           | Regular |     |   ✘      |    ✘    |
+|          |           | Round   |     |   ✘      |    ✘    |
+|          | Caps      |         |     |   ✘      |    ✘    |
+|          |           | None    |     |   ✘      |    ✘    |
+|          |           | Round   |     |   ✘      |    ✘    |
+|          |           | Square  |     |   ✘      |    ✘    |
+|          |           | Line Arrow |  |   ✘      |    ✘    |
+|          |        | Triangle Arrow   |    ✘     |    ✘    |
+| Effects  |        |             |    |   ✘      |    ✔    |
+|          | Blend Modes |       |     |   ✘      |    ✔    |
+|          | Drop Shadow |       |     |   ✘      |    ✔    |
+|          | Inner Shadow |      |     |   ✘      |    ✔    |
+|          | Layer Blur   |      |     |   ✘      |    ✔    |
+|          | Background Blur |   |     |   ✘      |    ✔    |
+| Constraints |          |       |     |   ✘      |    ✔    |
+|      | Left, Center, Right |    |    |   ✘      |    ✔    |
+|      | Top, Center, Bottom |     |   |   ✘      |    ✔    |
+|      | Scale |         |             |   ✘      |    ✔    |
+| Variant      |         |     |       |   ✘      |   ✘    |   
+
+
+
 * **General**
 
   * Any flattened *Figma* objects, or *Figma* vectors in general, must not consist of multiple different fills.
