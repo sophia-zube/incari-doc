@@ -22,7 +22,7 @@ The `Used Localizations/Models` section contains **Localizations** and **Models*
 
 ## Localizations
 
-A **Localization** consists of **Keys**, **Languages**, and **Translations**. The keys \(rows)\ act as a sort of base token which can be a specific word or descriptor. Languages encompass *columns* and their respective cells are populated with the translation for what the key describes. The **Localization** files have `.local` as their filename extension. These are added in the [**Project Settings**](project-settings/localization.md) and only one `.local` file can be added at a time. 
+A **Localization** consists of **Keys**, **Languages**, and **Translations**. The keys \(rows)\ act as a sort of base token which can be a specific word or descriptor. Languages encompass *columns* and their respective cells are populated with the translation for what the key describes. The **Localization** files have `.local` as their filename extension. These are added in the [**Project Settings.**](project-settings/localization.md) and only one `.local` file can be added at a time. 
 
 ![](../.gitbook/assets/createlocalizationexample.gif)
 

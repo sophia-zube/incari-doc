@@ -2,7 +2,7 @@
 
 ![The Get Translation Node.](../../.gitbook/assets/gettranslationnode.png)
 
-The **Get Translation Node** takes a language and a key as input and outputs the appropriate translation. The language and key should be of those referenced in the `.local` file provided in the [**Project Settings**](../../modules/project-settings/localization.md). 
+The **Get Translation Node** takes a language and a key as input and outputs the appropriate translation. The language and key should be of those referenced in the `.local` file provided in the [**Project Settings.**](../../modules/project-settings/localization.md). 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**. 
 
