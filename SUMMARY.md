@@ -134,6 +134,7 @@
   * [Fonts](modules/project-settings/fonts.md)
   * [HTTP](modules/project-settings/http.md)
   * [Keyboard](modules/project-settings/keyboard.md)
+  * [Localization](modules/project-settings/localization.md)
   * [MAVLink](modules/project-settings/mavlink.md)
   * [MQTT](modules/project-settings/mqtt.md)
   * [Profiler](modules/project-settings/profiler.md)

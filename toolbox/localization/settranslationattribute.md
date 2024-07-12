@@ -2,7 +2,7 @@
 
 ![The Set Translation Attribute Node.](../../.gitbook/assets/settranslationattnode.png)
 
-The **Set Translation Attribute Node** allows the user to set a new item for a specific key. The default values appear when a `Key` is selected in the **Attributes** and corresponds to the **Inputs** of the **Node**.
+The **Set Translation Attribute Node** allows the user to set a new item for a specific key and returns this as a formatted **String**. The default values appear when a `Key` is selected in the **Attributes** and corresponds to the **Inputs** of the **Node**.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**. 
 
@@ -12,7 +12,7 @@ The **Set Translation Attribute Node** allows the user to set a new item for a s
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Key`|
+|`Key`|**Dropdown**|The `Key` corresponds to the keys that appear in the **Localization** file selected in the [**Project Settings**](../../modules/project-settings/localization.md).|
 |`Default Values`|**Element**|The element, or elements, to be set as a new **Translation Attribute** if none are already provided in the **Input Socket**.|
 
 # Inputs
@@ -27,8 +27,7 @@ The **Set Translation Attribute Node** allows the user to set a new item for a s
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+|`Formatted String`|The returned **String** fomatted with the **Translation Attributes** that were set.|
 
-# See Also
 
-# External Links
 

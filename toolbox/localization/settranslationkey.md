@@ -8,7 +8,7 @@ The **Set Translation Key** sets the  translation `Key` for a specific **Object*
 
 # Attributes
 
-![The Set Translation Key Node.](../../.gitbook/assets/settranslationkeyatts.png)
+![The Set Translation Key Node Attributes.](../../.gitbook/assets/settranslationkeyatts.png)
 
 |Attribute|Type|Description|
 |---|---|---|
