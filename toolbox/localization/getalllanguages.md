@@ -2,7 +2,7 @@
 
 ![The Get All Languages Node.](../../.gitbook/assets/getalllanguagesnode.png)
 
-The **Get All Languages Node** returns all languages contained in the `.local` file provided in the [**Project Settings.**](../../modules/project-settings/localization.md).
+The **Get All Languages Node** returns all languages contained in the `.local` file provided in the [**Project Settings**](../../modules/project-settings/localization.md).
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**.
 
