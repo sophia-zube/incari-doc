@@ -78,7 +78,7 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 ![Fill Attributes with Type Video.](../../../.gitbook/assets/fillattributesvideo.png) 
 
-When `Image` is selected, `Video` and `Fit Mode` are visible. 
+When `Video` is selected, `Video` and `Fit Mode` are visible. 
 
 * `Video` is the desired **Video** file.
   
@@ -145,7 +145,7 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 ![Stroke Attributes with Type Video.](../../../.gitbook/assets/strokeattributesvideo.png) 
 
-When `Image` is selected, `Video` and `Fit Mode` are visible. 
+When `Video` is selected, `Video` and `Fit Mode` are visible. 
 
 * `Video` is the desired **Video** file.
   
