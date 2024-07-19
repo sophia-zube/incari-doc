@@ -61,6 +61,7 @@
     * [Line](objects-and-types/scene2d-objects/figma/figmaline.md)
     * [Rectangle](objects-and-types/scene2d-objects/figma/figmarectangle.md)
     * [Text](objects-and-types/scene2d-objects/figma/figmatext.md)
+  * [Video](objects-and-types/scene2d-objects/video.md)
   * [Vector (old)](objects-and-types/scene2d-objects/vector2d.md)
 * [Prefabs](objects-and-types/prefabs/README.md)
   * [Creating and Using Prefabs](objects-and-types/prefabs/creatingandusingprefabs/README.md)
