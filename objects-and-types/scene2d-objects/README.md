@@ -106,10 +106,12 @@ For more information about *trees*, visit the [Tree (data structure)](https://en
 
 ## Contents
 
-* [Audio 2D](audio2d.md)
+* [**Audio**](audio2d.md)
 * [**Camera**](camera2d.md)
 * [**Frame**](frame.md)
 * [**GUI**](gui/README.md)
 * [**Group**](group2d.md)
 * [**Image**](image.md)
+* [**Overlay**](overlay.md)
 * [**Vector**](figma/README.md)
+* [**Video**](video.md)

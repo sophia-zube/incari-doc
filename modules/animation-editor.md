@@ -4,9 +4,17 @@
 
 The **Animation Editor** is used for creating and editing **Keyframe**-based timeline animations, which have the file extension `.incani`. It can either be opened from the `View` drop-down Menu on the top panel of **Incari**, or by right-clicking on the Menu bar in **Incari** and clicking on **Animation Editor** from the drop-down list, or simply by double-clicking an **Animation** **Asset** in the **Asset Manager**.
 
-The **Animation Editor** can be used to animate **Objects** in both **Scenes** and **Scene2Ds**.
+The **Animation Editor** can be used to animate **Objects** in both **Scenes** and **Scene2Ds**.  
 
-![](../.gitbook/assets/animationeditorimage1.png)
+![](../.gitbook/assets/animationeditorimage120241.png)
+
+What is capable of being animated depends on the **Attributes** of the **Object**. For example, a **Cube** in a **Scene** can have its `Transformation` **Attributes** and `Opacity` animated, as displayed in the image below: 
+
+![](../.gitbook/assets/animationeditorsceneexample.png)
+
+On the other hand, an **Ellipse** in a **Scene2D** can have additional **Attributes** animated, such as `Stroke` and `Fill`, as can be seen in the following image:
+
+![](../.gitbook/assets/animationeditorscene2dexample.png)
 
 
 
