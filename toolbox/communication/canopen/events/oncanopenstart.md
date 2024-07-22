@@ -2,7 +2,7 @@
 
 ![The On CANopen Start Node.](../../../../.gitbook/assets/oncanopenstart.png)
 
-THe **On CANopen Start Node** is an **Event Listener Node** notifying that the **CANopen** connection was successfully established, therefore enabling the user to perform actions on said connection. 
+The **On CANopen Start Node** is an **Event Listener Node** notifying that the **CANopen** connection was successfully established, therefore enabling the user to perform actions on said connection. 
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**.
 
@@ -12,14 +12,8 @@ THe **On CANopen Start Node** is an **Event Listener Node** notifying that the *
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../modules/project-settings/CANopen.md).|
+|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../../modules/project-settings/CANopen.md).|
 
-
-# Inputs
-
-|Input|Type|Description|
-|---|---|---|
-|*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
 
 # Outputs
 
