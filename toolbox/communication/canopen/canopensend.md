@@ -32,7 +32,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Value`|**Any (Defined by previous selections)**|The value to be sent.|
+|`Message`|**Any (Defined by previous selections)**|The value to be sent.|
 
 # Outputs
 
@@ -69,7 +69,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Value`|**Any (Defined by previous selections)**|The value to be sent.|
+|`Message`|**Any (Defined by previous selections)**|The value to be sent.|
 
 # Outputs
 

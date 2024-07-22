@@ -121,6 +121,7 @@
 * [Plugins](modules/plugins/README.md)
   * [Communication](modules/plugins/communication/README.md)
     * [Bluetooth](modules/plugins/communication/bluetooth.md)
+    * [CANopen](modules/plugins/communication/canopen.md) 
     * [MAVLink](modules/plugins/communication/mavlinkmanager.md)
     * [Serial](modules/plugins/communication/serialmanager.md)
     * [Socket.IO](modules/plugins/communication/socketiomanager.md)
