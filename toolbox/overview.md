@@ -688,6 +688,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
+    * [**Set Overlay Scene**](incari/object/set-overlay-scene.md)
     * [**Set Position**](incari/object/set-position.md)    
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
@@ -1059,6 +1060,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
+    * [**Set Overlay Scene**](incari/object/set-overlay-scene.md)
     * [**Set Position**](incari/object/set-position.md)    
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
@@ -1512,6 +1514,7 @@ The **Logic Editor** can have several tabs, determining at which level this **Lo
     * [**Set Local Rotation**](incari/object/set-local-rotation.md) -->
     * [**Set Material**](incari/object/set-material.md)
     * [**Set Opacity**](incari/object/set-opacity.md)
+    * [**Set Overlay Scene**](incari/object/set-overlay-scene.md)
     * [**Set Position**](incari/object/set-position.md)    
     <!-- * [**Set Position 2D (px)**](incari/object/set-position-pixel.md) -->
     * [**Set Rotation**](incari/object/set-rotation.md)
