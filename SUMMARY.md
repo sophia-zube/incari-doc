@@ -520,6 +520,7 @@
     * [Set Mask](toolbox/incari/object/set-mask.md)
     * [Set Material](toolbox/incari/object/set-material.md)
     * [Set Opacity](toolbox/incari/object/set-opacity.md)
+    * [Set Overlay Scene](toolbox/incari/object/set-overlay-scene.md) 
     * [Set Position](toolbox/incari/object/set-position.md)
     * [Set Rotation](toolbox/incari/object/set-rotation.md)
     * [Set Scale](toolbox/incari/object/set-scale.md)
