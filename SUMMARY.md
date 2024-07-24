@@ -55,6 +55,7 @@
     * [Toggle](objects-and-types/scene2d-objects/gui/toggle.md)
   * [Group](objects-and-types/scene2d-objects/group2d.md)
   * [Image](objects-and-types/scene2d-objects/image.md)
+  * [Overlay](objects-and-types/scene2d-objects/overlay.md)
   * [Vector](objects-and-types/scene2d-objects/figma/README.md)
     * [Boolean Operation](objects-and-types/scene2d-objects/figma/figmabooleanoperation.md)
     * [Ellipse](objects-and-types/scene2d-objects/figma/figmaellipse.md)
