@@ -1,9 +1,9 @@
-# CANopen Send
 
 This **Node** has different versions depending on which `Protocol` is selected. This can be either *PDO* or *SDO*. Find in the tabs below the documentation for both versions.
 
 {% tabs %}
 {% tab title="PDO" %}
+
 #### Overview
 
 ![The CANopen Send: PDO Node.](../../../.gitbook/assets/canopensendpdo.png)
