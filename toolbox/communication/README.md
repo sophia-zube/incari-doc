@@ -14,13 +14,14 @@ These are the general guidelines for incorporating all **Communication** protoco
 
 * Locate the desired communications protocol in [**Project Settings**](../../modules/project-settings/README.md). Attach all necessary files and data.
 * In the **Logic Editor**, use the protocol's **Start Node** to initiate the connection. Separately, use the protocol's **On Start Node** to execute any following **Logic**. This is to make sure the connection is successfully finished being established before doing anything.
-* Use any combination of the protocol's **Nodes** to provide **Communication** capabilities to the **Project**. The protocols supported by **Incari** which use this guideline are [**CAN**](can/README.md), [**HTTP**](http/README.md), [**MAVLink**](mavlink/README.md), [**MQTT**](mqtt/README.md), [**Serial**](serial/README.md), [**Socket.IO**](socketio/README.md), [**TCP**](tcp/README.md), [**UDP**](udp/README.md), and [**WebSocket**](websocket/README.md) communication. For more information on each protocol, visit their respective page.
+* Use any combination of the protocol's **Nodes** to provide **Communication** capabilities to the **Project**. The protocols supported by **Incari** which use this guideline are [**CAN**](can/README.md), [**CANopen**](canopen/README.md), [**HTTP**](http/README.md), [**MAVLink**](mavlink/README.md), [**MQTT**](mqtt/README.md), [**Serial**](serial/README.md), [**Socket.IO**](socketio/README.md), [**TCP**](tcp/README.md), [**UDP**](udp/README.md), and [**WebSocket**](websocket/README.md) communication. For more information on each protocol, visit their respective page.
 * To terminate the connection, use the protocol's **Stop Node** to start disconnecting. Separately, use the protocol's **On Stop Node** to execute any following **Logic**. This is to make sure the connection is stopped completely before doing anything. 
 
 ## Content
 
 * [**Bluetooth**](bluetooth/)
 * [**CAN**](can/)
+* [**CANopen**](canopen/)
 * [**HTTP**](http/)
 * [**MAVLink**](mavlink/)
 * [**MQTT**](mqtt/)

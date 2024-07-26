@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The **Event CANopen Nodes** provide a way to perform certain actions when **CANopen** processes start, halt, or when the message of a _DFC_ file has been received.
+The **Event CANopen Nodes** provide a way to perform certain actions when **CANopen** processes start, halt, or when a **CANopen** *PDO* or *SDO* message has been received.
 
 ## Contents
 

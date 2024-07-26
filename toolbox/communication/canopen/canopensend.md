@@ -23,7 +23,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |`Subindex`|**Drop-down**|The subindex of the signal. Values depend on which `Index` has been selected.|
 |`CANopen Type`|**Defined by previous selections**|The value type to be sent which is determined by index and subindex selection.|
 |`Message Name`|**String**|A custom name which remains read-only.|
-|`Type`|**String**|A message type which remains read-only.|
+|`Type`|**String**|A message type which remains read-only, unless `Is Custom Message` is set to *true*.|
 
 # Inputs
 

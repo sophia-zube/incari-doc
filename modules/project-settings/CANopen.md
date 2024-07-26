@@ -1,7 +1,7 @@
 # CANopen
 
 
-![The CANopen Settings.](../../.gitbook/assets/projsettscanopen20241.png)
+![The CANopen Settings.](../../.gitbook/assets/canopenprojectsettings20241real.png)
 
 The **CANopen Settings** cover the necessary data to provide functionality to the [**CANopen Nodes**](../../toolbox/communication/canopen/README.md).
 
@@ -11,9 +11,9 @@ The **CANopen Settings** cover the necessary data to provide functionality to th
 
 `Channel (Windows - PCAN)` is the USB port that _CANopen_ is connected to on _Windows_.
 
-Furthermore, the `Channel` and `Interface` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
-
 `Interface (Linux - SocketCAN)` is the identifying name of the _CANopen_ Bus. 
+
+Furthermore, the `Channel` and `Interface` can both be specified, in the case that the user's platform is different than the target platform. If there is no difference in platforms, only one needs to be filled in.
 
 A `DCF File` needs to be uploaded and selected. This `DCF File` is a vital part of the **CANopen** protocol, as it stores all data regarding the connections between devices in an object dictionary.
 
