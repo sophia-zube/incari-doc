@@ -12,7 +12,7 @@ These are the guidelines for incorporating **CANopen Communication** into a **Pr
 
 * To properly start a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communication Introduction page.
 * Once the connection has been established, there are several **Nodes** that cover important functions of **CAN Communication**.
-  * [**CANopen Send**](canopensend.md) sends a **CANopen** message when a signal is received. 
+  * [**CANopen Send**](canopensend.md) sends a **CANopen** message when triggered. 
   * [**On CANopen Receive**](events/oncanopenreceive.md) executes once a message is received.
 * To properly stop a connection, see the [**General Guideline**](../README.md#general-guideline) on the Communications Introduction page.
 

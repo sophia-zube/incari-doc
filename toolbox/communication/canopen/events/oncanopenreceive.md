@@ -13,13 +13,13 @@
 |Attribute|Type|Description|
 |---|---|---|
 |`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../../modules/project-settings/CANopen.md).|
-|`Protocol`|**Dropdown**||`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Presently, only `PDO` is possible. After selecting this, `Index` and `Subindex` will provide values. |
+|`Protocol`|**Dropdown**||`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Presently, only `PDO` is possible.|
 |`Is Custom Message`|**Bool**|Can be toggled on or off depending on whether it is a custom message or not. Toggling it on changes the `Index` and `Subindex` into editable input fields allowing values from 0-FFFF for the former and 0-255 for the latter.|
 |`Index`|**Drop-down**|The index of the signal. Values depend on which `Protocol` has been selected.|
 |`Subindex`|**Drop-down**|The subindex of the signal. Values depend on which `Index` has been selected.|
 |`CANopen Type`|**Defined by previous selections**|The value type to be sent which is determined by index and subindex selection.|
 |`Message Name`|**String**|A custom name which remains read-only.|
-|`Type`|**String**|A message type which remains read-only.|
+|`Type`|**String**|A message type which remains read-only, unless `Is Custom Message` is set to *true*.|
 
 # Outputs
 
