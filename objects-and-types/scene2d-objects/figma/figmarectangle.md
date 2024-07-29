@@ -94,6 +94,24 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
+### Lottie
+
+![Fill Attributes with Type Lottie.](../../../.gitbook/assets/lottiefillfigma.png)
+
+When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
+
+* `Lottie` is the desired **Lottie** file.
+  
+* `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
 ## Stroke
 
 The `Stroke` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category. There are also two fixed **Attributes** outside of the `Elements`. These are:
@@ -157,6 +175,24 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
 * Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
 
 * `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+### Lottie
+
+![Stroke Attributes with Type Lottie.](../../../.gitbook/assets/strokelottiefigma.png)
+
+When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
+
+* `Lottie` is the desired **Lottie** file.
+  
+* `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
 
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 

@@ -53,6 +53,17 @@ Thus, a **Play Animation** **Node** with an **Object** connected to the **Object
 ![The Play Animation Node with an Animation Block assigned and an Object connected](../../../.gitbook/assets/node-play-animation-block2.png)
 
 
+## Prefabs
+
+**Prefabs** are a bit special when it comes to their animation. There are two **Scopes** of **Logic** which must be considered. These are the **Scene** **Logic** and **Prefab Logic**. 
+
+Whatever instance is assigned to the **Prefab Node** is what ultimately gets animated. Remember, the **Prefab Node** represents whatever **Logic** has been set up in the **Prefab Logic**. 
+
+During runtime, the **Master Prefab** basically does nothing, this is why it is required to assign an instance of the **Prefab** to the **Prefab Node** to trigger the **Prefab Logic** of this instance.
+
+However, it is still necessary to assign the **Master Prefab Object** to the **Prefab Logic**. It will be replaced by the **Prefab** instance that has been assigned in the **Scene Logic**. This will lend to a smooth animation process within **Incari Studio** in regards to **Prefabs**. 
+
+
 <!-- The behavior of the **Animation** as it plays may change depending on the **Attribute** being animated, and whether it is stopped or paused. For `Position` and `Rotation`, the **Animation** will continue at the state it was paused but start at the beginning when played again. For `Scale` and `Opacity`,   -->
 
 
