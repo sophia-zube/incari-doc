@@ -30,7 +30,7 @@ The **Start Timeout Node** delays the execution of a **Node**.
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
 | `Instance ID` | **InstanceID** | The assigned **Instance** of an **Object**. |
 | `OnStart` \(►\) | **Pulse** | Flows to additional actions following **Start Timeout** when the **Node** is executed |
-| `OnEnd` \(►\) | **Pulse** | Flows to additional actions following **Start Timeout** when the execution of the **Node** is cancelled. |
+| `OnCancel` \(►\) | **Pulse** | Flows to additional actions following **Start Timeout** when the execution of the **Node** is cancelled. |
 
 ## See Also
 

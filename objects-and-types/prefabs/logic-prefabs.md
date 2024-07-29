@@ -38,3 +38,7 @@ The image below showcases all **Variable** types created in the **Prefabs’s Lo
 The next image shows how these **Variables** will be shown in the **Attribute Editor** of each instance of the **Prefab** where the user can set their default values. This is accessed by simple clicking on the **Prefab Instance** in the **Scene Outliner** and locating the **Attribute Editor**. 
 
 ![Variables in the Attribute Editor of a Prefab Instance.](../../.gitbook/assets/variablesexample2.png)
+
+## Animation
+
+Animating **Prefabs** requires a certain process within **Incari Studio**. More information can be found [here](../../toolbox/incari/animation/playanimation.md#prefabs).
