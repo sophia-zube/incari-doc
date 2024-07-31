@@ -57,11 +57,17 @@ Thus, a **Play Animation** **Node** with an **Object** connected to the **Object
 
 **Prefabs** are a bit special when it comes to their animation. There are two **Scopes** of **Logic** which must be considered. These are the **Scene** **Logic** and **Prefab Logic**. 
 
-Whatever instance is assigned to the **Prefab Node** is what ultimately gets animated. Remember, the **Prefab Node** represents whatever **Logic** has been set up in the **Prefab Logic**. 
+![](../../../.gitbook/assets/prefabanimations1.png)
 
-During runtime, the **Master Prefab** basically does nothing, this is why it is required to assign an instance of the **Prefab** to the **Prefab Node** to trigger the **Prefab Logic** of this instance.
+Whatever instance is assigned to the **Prefab Node** in the **Scene Logic** is ultimately what gets animated. Remember, the **Prefab Node** represents whatever **Logic** has been set up in the **Prefab Logic**. In the image below, the instance is `Prefab1 - Instance 2` and the **Prefab Node** is `Prefab1`.
+
+![](../../../.gitbook/assets/prefabanimations2.png)
+
+During runtime, the **Master Prefab** basically does nothing. This is why it is required to assign an instance of the **Prefab** to the **Prefab Node** to trigger the **Prefab Logic** of this instance.
 
 However, it is still necessary to assign the **Master Prefab Object** to the **Prefab Logic**. It will be replaced by the **Prefab** instance that has been assigned in the **Scene Logic**. This will lend to a smooth animation process within **Incari Studio** in regards to **Prefabs**. 
+
+![](../../../.gitbook/assets/prefabanimations3.png)
 
 
 <!-- The behavior of the **Animation** as it plays may change depending on the **Attribute** being animated, and whether it is stopped or paused. For `Position` and `Rotation`, the **Animation** will continue at the state it was paused but start at the beginning when played again. For `Scale` and `Opacity`,   -->
