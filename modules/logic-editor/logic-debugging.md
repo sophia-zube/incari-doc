@@ -6,7 +6,7 @@ Debugging in **Incari** allows the user to follow the path of their **Logic's** 
 
 To enter **Debug Simulation**, simply locate the icon at the top of the **Logic Editor**. The image below references this with the green square. It is to the left of the normal **Play** icon, which would simply start the simulation and open the **Player** without providing the debugging features. 
 
-![Debug Simulation Icon.]()
+![Debug Simulation Icon.](../../.gitbook/assets/logicdebugging1.png)
 
 
 
@@ -14,7 +14,7 @@ To enter **Debug Simulation**, simply locate the icon at the top of the **Logic 
 
 Once **Debug Simulation** has been selected, a new toolbar will appear. This is the **Debug Toolbar** and it has several useful icons which allow the user to maximize their debugging experience in **Incari**. 
 
-![Debug Toolbar.]()
+![Debug Toolbar.](../../.gitbook/assets/debugtoolbar.png)
 
 The icons from left to right are: `Pause/Resume Simulation`, `Call next node`, `Step into a function or prefab`, `Step out of a function or prefab`, and `Focus on error`. 
 
@@ -24,17 +24,23 @@ The icons from left to right are: `Pause/Resume Simulation`, `Call next node`, `
 * `Step out of a function or prefab` exits the **Function** or **Prefab Logic** during the debugging simulation and returns to the **Scene Logic**. 
 * `Focus on error` highlights the error by navigating to the broken **Node** and centering it in the **Logic Editor's** view. 
 
-With these features, the user has heightenined control over the debugging process. 
+With these features, the user has heightened control over the debugging process. 
 
 ### Flow of Execution
+
+![Example Flow.](../../.gitbook/assets/exampleflow.gif)
 
 The user can see the flow of the debugging simulation by following the white dot that passes along the connections between **Nodes**. This can be controlled with the processes maintained by the **Debug Toolbar**, which are described in the section above. 
 
 #### Breakpoints
 
+![Adding and Removing a Breakpoint.](../../.gitbook/assets/setbreakpointreal.gif)
+
 The flow can be manually stopped by setting **Breakpoints**. Simply right-click the **Node** that the flow of execution should be stopped at (i.e., will not continue into or past this **Node**), and select `Set Breakpoint`. This will add a red triangle just before the start of the **Node**. Alternatively, it can also be removed by doing the same thing once a **Breakpoint** has been set, and selecting `Remove Breakpoint`. 
 
 #### Show Values
+
+![Show Values Example.](../../.gitbook/assets/showvalues.gif)
 
 
 In **Debug Simulation**, it is possible to have a **Node's** values displayed during the flow of execution. Please note that this is not possible outside of **Debug Simulation** and the values will only appear once that part of the **Node** has been evaluated. This means that output values will only show once the flow is ready to move onto the next **Node**. 
@@ -42,3 +48,6 @@ In **Debug Simulation**, it is possible to have a **Node's** values displayed du
 
 #### Example with Stepping into and out of a Function 
 
+To better understand the possibilities of the **Debug Simulation**, an example incorporating a **Function** is displayed below:
+
+![Debug Simulation Example with Function.](../../.gitbook/assets/stepthroughexample.gif)
