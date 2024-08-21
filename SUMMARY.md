@@ -109,6 +109,7 @@
 * [Image Sequence Editor](modules/image-sequence-editor.md)
 * [Logic Editor](modules/logic-editor/README.md)
   * [AI Logic Generation](modules/logic-editor/ai-logic-generation.md)
+  * [Logic Debugging](modules/logic-editor/logic-debugging.md)
 * [Global Preferences](modules/global-preferences.md)
 * [Material Editor](modules/material-editor/README.md)
   * [Car Paint Model](modules/material-editor/car-paint-model.md)
