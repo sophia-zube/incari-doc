@@ -20,13 +20,15 @@ On the left-side Menu, there are several sections. We will go through each, one 
 
 ### My Projects
 
-The _My Projects_ section allows the user to access, create, and manage their local **Projects**. Here there are two existing **Projects** called **'test'** and **'test2'**. The leftmost square with the plus icon is used to [create a new **Project**.](creating-a-project.md)
+The _My Projects_ section allows the user to access, create, and manage their local **Projects**. Here there are two existing **Projects** called **'test_1'** and **'test_2'**. The leftmost square with the plus icon is used to [create a new **Project**.](creating-a-project.md) 
 
-![My Projects.](../../.gitbook/assets/incarihub1.png)
+It is also possible to change the order the **Projects** are displayed. This can be `Alphabetical`, `Date Created`, or `Date Updated`.
 
-Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allows the user to open the **Project**, play the **Project** in **Incari Player**, show the **Project** in the user's local file library, and edit the **Project's** settings. It is also possible to delete the **Project** from here, either by removing it from the **Hub** or deleting it completely from the local disk.
+![My Projects.](../../.gitbook/assets/incarihub20241image1.png)
 
-![My Projects Drop-down.](../../.gitbook/assets/incarihub2.png)
+Each **Project** displays the username and **Incari Studio** version at the bottom. Clicking on the three dots that appear when hovering over a **Project** allows the user to open the **Project**, play the **Project** in **Incari Player**, show the **Project** in the user's local file library, edit the **Project's** settings, and inspect a **Project's** info. It is also possible to delete the **Project** from here, either by removing it from the **Hub** or deleting it completely from the local disk.
+
+![My Projects Drop-down.](../../.gitbook/assets/incarihub20241image2.png)
 
 ![Project delete message.](../../.gitbook/assets/incarihub3.png)
 
@@ -36,7 +38,7 @@ The tab _Remote Projects_ gives access to **Demo Projects** that have been creat
 
 **Demo Projects** allow one to see how certain functionalities can be implemented in **Incari**. These range from a simple button to examples of the several methods of **Animation** available to the user. Discover more in the [**Demo Projects**](../../demo-projects/overview.md) documentation.
 
-![Remote Projects.](../../.gitbook/assets/incarihubremoteprojects20232.png)
+![Remote Projects.](../../.gitbook/assets/incarihub20241image4.png)
 
 ## Applications
 
@@ -48,9 +50,9 @@ Note: Locating does not install **Incari Studio**. It simply points to where it 
 
 Please note that if an existing **Project** was made with a previous version of **Incari Studio**, and this version is not currently installed within **Incari Hub**, you will be prompted to upgrade to the most recent version or locate the compatible version. Otherwise it will be impossible to open the **Project**.
 
-![Applications: Incari Studio](../../.gitbook/assets/incarihub5.png)
+![Applications: Incari Studio](../../.gitbook/assets/incarihub20241image5.png)
 
-![Application: Incari Studio Installed](../../.gitbook/assets/incaristudioimage20232.png)
+![Application: Incari Studio Installed](../../.gitbook/assets/incarihub20241image6.png)
 
 ### Incari Player
 
@@ -78,7 +80,7 @@ The **Documentation** takes you straight to the instructional texts that teach t
 
 The **Forum** is where the **Incari** community can come together to discuss issues, ideas, features, and give feedback.
 
-![Forum.](../../.gitbook/assets/communityforum.png)
+![Forum.](../../.gitbook/assets/incarihub20241image7.png)
 
 ### Support
 
