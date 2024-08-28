@@ -96,6 +96,8 @@ In *Settings*, the user can check whether they have *Visual Studio* installed, a
 
 ![Visual Studio Code Installer.](../../.gitbook/assets/image%20(1)%20-%20Copy.png)
 
+It is possible to choose a proxy server. This means, for example, if there is a proxy server set in *Windows*, the **Hub** will take into account the assigned setting and either ignore it, use the system proxy, or define a proxy server manually.
+
 They can also connect to repositories using the `Add Endpoint` feature. **Projects** in this repository namespace will appear as an option in the upper right corner on the *Remote Projects* section.
 
 ![](../../.gitbook/assets/incarihubvsinstalled.png)
