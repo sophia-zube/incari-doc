@@ -4,13 +4,13 @@ The first step to start using **Incari Studio** is to create a new **Project**. 
 
 To create a new **Incari Studio** **Project**, go to *My Projects* under *Projects* on the left Menu and press on the large plus icon.
 
-![](../../.gitbook/assets/createproject1.png)
+![](../../.gitbook/assets/createproject202411.png)
 
 ## New Project
 
 Then, the *New Project* screen will appear. Here it is possible to choose the name and location of the new **Project** as well as the size of the default **Screen**.
 
-![](../../.gitbook/assets/createproject2.png)
+![](../../.gitbook/assets/createproject202412.png)
 
 
 The options to customize the new **Project** are the following:
@@ -32,9 +32,10 @@ The options to customize the new **Project** are the following:
 
 **Scene**
 
+ * Scene type: Can choose either **Scene** or **Scene2D**
  * Name: Name of the default **Scene**.
 
 
 After clicking on `Create`, **Incari Studio** starts with a new empty **Project**.
 
-![](../../.gitbook/assets/creatingaproject20232.png)
+![](../../.gitbook/assets/createproject202413.png)
