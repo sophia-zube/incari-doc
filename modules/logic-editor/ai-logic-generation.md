@@ -1,6 +1,6 @@
 # AI Logic Generation (Beta)
 
-The **Logic Editor's** **AI Generator** may be in *beta*, but it still promises to transform the user's workflow. 
+The **Logic Editor's** **AI Generator** may be in *beta*, but it still promises to transform the user's workflow. With the 2024.1 release, the **AI Logic Generation** tool gives more relevant and complex output at a faster response speed.
 
 ![AI (beta).](../../.gitbook/assets/aiimage1.png)
 
