@@ -12,7 +12,7 @@
   * [Incari Hub](getting-started/first-steps/incari-hub.md)
   * [Creating a Project](getting-started/first-steps/creating-a-project.md)
   * [Incari Studio](getting-started/first-steps/incari-studio.md)
-  * [Standards and Best Practices](getting-started/first-steps/best-standards-and-practices.md)
+  <!--* [Standards and Best Practices](getting-started/first-steps/best-standards-and-practices.md)-->
 
 ## Objects and Types
 

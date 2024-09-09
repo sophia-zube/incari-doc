@@ -2,7 +2,7 @@
 
 ## Overview
 
-In other *3D* applications, it is quite common to apply materials and textures directly to a *3D* _mesh_. In **Incari**, though, we have a specific **Mesh Object** which contains separate references to the **3D Asset** \(the _mesh_ data\) and **Incari**'s own **Material** file, which contains **Shade** and **Texture** information.
+In other *3D* applications, it is quite common to apply materials and textures directly to a *3D* _mesh_. In **Incari**, though, we have a specific **Mesh Object** which contains separate references to the **3D Asset** \(the _mesh_ data\) and **Incari's** own **Material** file, which contains **Shade** and **Texture** information.
 
 Like any other **Scene Object**, we can manipulate the **Position**, **Rotation** and **Scale** of a **Mesh** using the **Transformation Attributes** and adjusting its **Rotation Pivot**.
 
