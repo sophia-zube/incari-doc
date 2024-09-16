@@ -1,6 +1,6 @@
 # Overview
 
-![The TCP Send Node.](../../../.gitbook/assets/tcpsend.png)
+![The TCP Send Node.](../../../.gitbook/assets/tcpsendnode20241.png)
 
 **TCP Send** takes a `Message` and passes it through the currently established **TCP** connection to the endpoint. 
 

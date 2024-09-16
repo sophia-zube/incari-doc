@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../objects-and-types/pr
 {% tab title="Scene" %}
 #### Overview
 
-![The MoveBy Action Node.](../../.gitbook/assets/movebyactionupdatedimage.png)
+![The MoveBy Action Node.](../../.gitbook/assets/movebyactionnode20241.png)
 
 The **MoveBy Action Node** continuously modifies the `Position` of a [**Scene Object**](../../objects-and-types/scene-objects/) by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
@@ -16,7 +16,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 #### Attributes
 
-![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionattributes.png)
+![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionatts20241.png)
 
 | Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                  |
 | ---------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 {% tab title="Scene2D" %}
 #### Overview
 
-![The MoveBy Action Node.](../../.gitbook/assets/movebyaction2dnode.png)
+![The MoveBy Action Node.](../../.gitbook/assets/movebyaction2dnode20241.png)
 
 The **MoveBy Action Node** continuously modifies the `Position` of a [**Scene2D Object**](../../objects-and-types/scene2d-objects/) by the values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
@@ -56,7 +56,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 #### Attributes
 
-![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyactionatts2d.png)
+![The MoveBy Action Node Attributes.](../../.gitbook/assets/movebyaction2datts20241.png)
 
 | Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                  |
 | ---------------- | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

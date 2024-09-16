@@ -1,6 +1,6 @@
 # Overview
 
-![The On UDP Start Node.](../../../../.gitbook/assets/onudpstart.png)
+![The On UDP Start Node.](../../../../.gitbook/assets/onudpstartnode20241.png)
 
 **On UDP Start** is an **Event Listener Node** notifying that the **UDP** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection to the *UDP* server.
 

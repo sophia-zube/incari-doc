@@ -1,6 +1,6 @@
 # Overview
 
-![The MAVLink Decode Node.](../../../.gitbook/assets/mavlinkdecode.png)
+![The MAVLink Decode Node.](../../../.gitbook/assets/mavlinkdecodenode20241.png)
 
 **Mavlink Decode** decodes the binary data attributed to the `Message Name` (identifier of message type) and `Message` (message instance). The identifier comes from the `Dialect's` message definitions. The message instance originates from the output of [**On MAVLink Packet Received**](events/on-mavlink-packet-received.md). 
 

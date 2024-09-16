@@ -1,6 +1,6 @@
 # Overview
 
-![The TCP Start Node.](../../../.gitbook/assets/tcpstart.png)
+![The TCP Start Node.](../../../.gitbook/assets/tcpstartnode20241.png)
 
 The **TCP Start Node** starts a **TCP** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/tcp-connection.md).
 

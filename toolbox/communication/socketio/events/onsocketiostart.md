@@ -1,6 +1,6 @@
 # Overview
 
-![The On Socket.IO Start Node.](../../../../.gitbook/assets/onsocketiostartnodereal.png)
+![The On Socket.IO Start Node.](../../../../.gitbook/assets/onsocketiostartnode20241.png)
 
 **On Socket.IO Start** is an **Event Listener Node** notifying that the **Socket.IO** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection to the *Socket.IO* server.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The On UDP Stop Node.](../../../../.gitbook/assets/onudpstop.png)
+![The On UDP Stop Node.](../../../../.gitbook/assets/onudpstopnode20241.png)
 
 **On UDP Stop** is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a connection to an **UDP** server has been terminated.
 

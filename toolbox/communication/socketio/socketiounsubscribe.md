@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Unsubscribe Node.](../../../.gitbook/assets/socketiounsubscribenodereal.png)
+![The Socket.IO Unsubscribe Node.](../../../.gitbook/assets/socketiounsubscribenode20241.png)
 
 The **Socket.IO Unsubscribe Node** unsubscribes from a **Socket.IO** event, identified under its `Namespace`, when there is no need to listen for it anymore.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSocket Error Node.](../../../../.gitbook/assets/onwebsocketerrornode.png)
+![The On WebSocket Error Node.](../../../../.gitbook/assets/onwebsocketerrornode20241.png)
 
 The **On WebSocket Error Node** is an **Event Listener Node** that is triggered if the specified *WebSocket* connection encounters an error during any action and returns the error `Message`.
 

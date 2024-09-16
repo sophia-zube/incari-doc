@@ -1,6 +1,6 @@
 # Overview
 
-![The On Socket.IO Error Node.](../../../../.gitbook/assets/onsocketioerrornodereal.png)
+![The On Socket.IO Error Node.](../../../../.gitbook/assets/onsocketioerrornode20241.png)
 
 **On Socket.IO Error** is an **Event Listener Node** that executes and triggers a **Logic Branch** when an **Error** is received and returns the **Error** `Message`.
 

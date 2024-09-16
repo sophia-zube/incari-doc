@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSocket Stop Node.](../../../../.gitbook/assets/onwebsocketstopnode.png)
+![The On WebSocket Stop Node.](../../../../.gitbook/assets/onwebsocketstopnode20241.png)
 
 The **On WebSocket Stop Node** is an **Event Listener Node** that gives the user a way to perform an action once a **WebSocket** connection has been terminated.
 

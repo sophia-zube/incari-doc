@@ -1,6 +1,6 @@
 # Overview
 
-![The UDP Stop Node.](../../../.gitbook/assets/udpstop.png)
+![The UDP Stop Node.](../../../.gitbook/assets/udpstopnode20241.png)
 
 **UDP Stop** stops the **UDP** connection, which was previously established with [**UDP Start**](udpstart.md).
 

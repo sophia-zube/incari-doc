@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Start Node.](../../../.gitbook/assets/socketiostartnodereal.png)
+![The Socket.IO Start Node.](../../../.gitbook/assets/socketiostartnode20241.png)
 
 The **Socket.IO Start Node** starts a **Socket.IO** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/socketio.md).
 

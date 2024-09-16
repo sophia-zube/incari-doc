@@ -1,6 +1,6 @@
 # Overview
 
-![The UDP Start Node.](../../../.gitbook/assets/udpstart.png)
+![The UDP Start Node.](../../../.gitbook/assets/udpstartnode20241.png)
 
 **UDP Start** starts a **UDP** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/udp-connection.md).
 

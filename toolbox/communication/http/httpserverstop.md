@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstopupdatedimage.png)
+![The HTTP Server Stop Node.](../../../.gitbook/assets/httpserverstopnode20241.png)
 
 The **HTTP Server Stop Node** terminates the connection with an **HTTP Server**.
 

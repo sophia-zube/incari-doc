@@ -1,6 +1,6 @@
 # Overview
 
-![The MAVLink Start Node.](../../../.gitbook/assets/mavlinkstart.png)
+![The MAVLink Start Node.](../../../.gitbook/assets/mavlinkstartnode20241.png)
 
 The **MAVLink Start Node** opens communication with a **MAVLink** serial port that has already been set up in [**Project Settings**](../../../modules/project-settings/mavlink.md) and starts the *heartbeat*, which is done automatically with no action required by the user.
 

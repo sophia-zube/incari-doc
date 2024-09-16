@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../objects-and-types/pr
 {% tab title="Scene" %}
 #### Overview
 
-![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionupdatedimage.png)
+![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionnode20241.png)
 
 The **RotateBy Action Node** continuously rotates a [**Scene Object**](../../objects-and-types/scene-objects/) by the _Euler angles_ values specified in `Offset` for a given period of time, thus creating an **Animation**.
 
@@ -16,7 +16,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 #### Attributes
 
-![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionattributes.png)
+![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionatts20241.png)
 
 | Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                      |
 | ---------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -46,7 +46,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 {% tab title="Scene2D" %}
 #### Overview
 
-![The RotateBy Action Node.](../../.gitbook/assets/rotatebyactionnode2d.png)
+![The RotateBy Action Node.](../../.gitbook/assets/rotatebyaction2dnode20241.png)
 
 The **RotateBy Action Node** continuously rotates a [**Scene2D Object**](../../objects-and-types/scene2d-objects/) by the value specified in `Offset` for a given period of time, thus creating an **Animation**.
 
@@ -56,7 +56,7 @@ Furthermore, visit the [**Actions Nodes**](./) page for a general introduction t
 
 #### Attributes
 
-![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyactionatts2d.png)
+![The RotateBy Action Node Attributes.](../../.gitbook/assets/rotatebyaction2datts20241.png)
 
 | Attribute        | Type          | Description                                                                                                                                                                                                                                                                                                                                      |
 | ---------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

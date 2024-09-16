@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribeupdatedimage.png)
+![The MQTT Subscribe Node.](../../../.gitbook/assets/mqttsubscribenode20241.png)
 
 The **MQTT Subscribe** subscribes to all specified `Topics`, which [**On MQTT Topic**](events/onmqtttopic.md) is then able to receive, based on the chosen configuration in [**Project Settings**](../../../modules/project-settings/mqtt.md). `Topics` are *strings* that act as filters for *Messages* and are hierarchical, meaning there are different levels. Remember, they are case sensitive.
 

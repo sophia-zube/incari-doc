@@ -1,6 +1,6 @@
 # Overview
 
-![The On Bluetooth Device Paired Node.](../../../../.gitbook/assets/onbluetoothdevicepaired.png)
+![The On Bluetooth Device Paired Node.](../../../../.gitbook/assets/onbluetoothdevicepairednode20241.png)
 
 The **On Bluetooth Device Paired Node** signals that a *Bluetooth* device was paired successfully.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Stop Node.](../../../.gitbook/assets/socketiostopnodereal.png)
+![The Socket.IO Stop Node.](../../../.gitbook/assets/socketiostopnode20241.png)
 
 **Socket.IO Stop** stops the currently opened **Socket.IO** connection.
 

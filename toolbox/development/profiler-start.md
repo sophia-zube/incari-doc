@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Profiler Start Node.](../../.gitbook/assets/profilerstartupdatedimage.png)
+![The Profiler Start Node.](../../.gitbook/assets/profilerstatnode20241.png)
 
 The **Profiler Start** **Node** marks the start of a **Profiler Block** that will be analyzed in the **Profiler View**.
 

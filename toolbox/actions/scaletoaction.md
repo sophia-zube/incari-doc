@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleTo Node.](../../.gitbook/assets/scaletoactionupdatedimage.png)
+![The ScaleTo Node.](../../.gitbook/assets/scaletoactionnode20241.png)
 
 The **ScaleTo Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md) to the `Scale` values specified in `To` for a given period of time, thus creating an **Animation**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
@@ -12,7 +12,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 ## Attributes
 
-![The ScaleTo Node Attributes.](../../.gitbook/assets/scaletoactionattributes.png)
+![The ScaleTo Node Attributes.](../../.gitbook/assets/scaletoactionatts20241.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

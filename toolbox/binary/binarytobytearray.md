@@ -1,6 +1,6 @@
 # Overview
 
-![The Binary to Byte Array Node.](../../.gitbook/assets/binarytobytearray.png)
+![The Binary to Byte Array Node.](../../.gitbook/assets/binarytobytearraynode20241.png)
 
 The **Binary to Byte Array** takes a series of several bytes and puts them into an **Array** where each element is one byte. So, for example, if some **Binary Value** contains the series of five bytes `01000100 01011100 000001111 000001111 00000111`, this would be turned into the **Array** `[01000100, 01011100, 000001111, 000001111, 000001111]`.
 

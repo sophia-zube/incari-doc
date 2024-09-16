@@ -1,6 +1,6 @@
 # Overview
 
-![The On Socket.IO Stop Node.](../../../../.gitbook/assets/onsocketiostopnodereal.png)
+![The On Socket.IO Stop Node.](../../../../.gitbook/assets/onsocketiostopnode20241.png)
 
 **On Socket.IO Stop** is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a connection to an **Socket.IO** server has been terminated.
 

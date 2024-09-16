@@ -1,6 +1,6 @@
 # Overview
 
-![The On TCP Error Node.](../../../../.gitbook/assets/ontcperror.png)
+![The On TCP Error Node.](../../../../.gitbook/assets/ontcperrornode20241.png)
 
 **On TCP Error** is an **Event Listener Node** that executes and triggers a **Logic Branch** when an **Error** in the connection occurs and returns the **Error** `Message`.
 

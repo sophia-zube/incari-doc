@@ -1,6 +1,6 @@
 # Overview
 
-![The On TCP Stop Node.](../../../../.gitbook/assets/ontcpstop.png)
+![The On TCP Stop Node.](../../../../.gitbook/assets/ontcpstopnode20241.png)
 
 **On TCP Stop** is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a connection to a **TCP** server has been terminated.
 

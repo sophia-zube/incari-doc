@@ -1,6 +1,6 @@
 # Overview
 
-![The On TCP Start Node.](../../../../.gitbook/assets/ontcpstart.png)
+![The On TCP Start Node.](../../../../.gitbook/assets/ontcpstartnode20241.png)
 
 **On TCP Start** is an **Event Listener Node** notifying that the **TCP** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection to the *TCP* server.
 
