@@ -1,6 +1,6 @@
 # Overview
 
-![The On Socket.IO Receive Node.](../../../../.gitbook/assets/onsocketioreceivenodereal.png)
+![The On Socket.IO Receive Node.](../../../../.gitbook/assets/onsocketioreceivenode20241.png)
 
 **On Socket.IO Receive** is an **Event Listener Node** that executes and triggers a **Logic Branch** when data of a **Socket.IO** event is received and returns its `Message`, name, and `Namespace`.
 

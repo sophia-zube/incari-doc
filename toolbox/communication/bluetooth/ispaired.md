@@ -1,6 +1,6 @@
 # Overview
 
-![The Is Bluetooth Device Paired Node.](../../../.gitbook/assets/isbluetoothpairedreal.png)
+![The Is Bluetooth Device Paired Node.](../../../.gitbook/assets/isbluetoothdevicepaired.png)
 
 The **Is Bluetooth Device Paired Node** checks the pairing status of a *Bluetooth* device to the [**Bluetooth Plugin**](../../../modules/plugins/communication/bluetooth.md).
 

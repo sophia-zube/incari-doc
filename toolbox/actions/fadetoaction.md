@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionupdatedimage.png)
+![The FadeTo Action Node.](../../.gitbook/assets/fadetoactionnode20241.png)
 
 The **FadeTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. The final value of the `Opacity` is set by the user. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
@@ -13,7 +13,6 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 ## Attributes
 
 ![The FadeTo Action Node Attributes.](../../.gitbook/assets/fadetoactionattributes.png)
-
 | Attribute | Type | Description |
 | :--- | :--- | :--- |
 | `Duration (sec)` | **Float** | The total time of the **Action**, if none is received in the `Duration` **Input Socket**. |

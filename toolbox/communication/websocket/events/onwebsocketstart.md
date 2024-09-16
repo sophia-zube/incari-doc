@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSocket Start Node.](../../../../.gitbook/assets/onwebsocketstartnode.png)
+![The On WebSocket Start Node.](../../../../.gitbook/assets/onwebsocketstartnode20241.png)
 
 The **On WebSocket Start Node** is an **Event Listener Node** notifying that the **WebSocket** connection was successfully established, therefore enabling the user to perform actions on said connection.
 

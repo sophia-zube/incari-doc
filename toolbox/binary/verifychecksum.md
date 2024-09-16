@@ -1,6 +1,6 @@
 # Overview
 
-![The Verify Checksum Node.](../../.gitbook/assets/verifychecksum.png)
+![The Verify Checksum Node.](../../.gitbook/assets/verifychecksumnode20241.png)
 
 The **Verify Checksum Node** checks if a **Binary** message is complete and verifies its checksum. 
 

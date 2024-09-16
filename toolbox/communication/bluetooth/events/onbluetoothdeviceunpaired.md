@@ -1,7 +1,7 @@
 
 # Overview
 
-![The On Bluetooth Device Unpaired Node.](../../../../.gitbook/assets/onbluetoothdeviceunpaired.png)
+![The On Bluetooth Device Unpaired Node.](../../../../.gitbook/assets/onbluetoothdeviceunpairednode20241.png)
 
 The **On Bluetooth Device Unpaired Node** signals that a *Bluetooth* device was unpaired successfully.
 

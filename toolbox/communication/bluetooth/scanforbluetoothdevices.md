@@ -1,7 +1,7 @@
 
 # Overview
 
-![The Scan For Bluetooth Devices Node.](../../../.gitbook/assets/scanforbluetoothdevicesreal.png)
+![The Scan For Bluetooth Devices Node.](../../../.gitbook/assets/scanforbluetoothdevicesnode20241.png)
 
 The **Scan For Bluetooth Devices Node** searches for *Bluetooth* devices in the short-range vicinity and returns any found in an **Array** of **Dictionaries**. The *keys* of these **Dictionaries** are `Device Name`, `Device Address`, `Service Class`, and `Device Class`.
 

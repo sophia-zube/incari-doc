@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionupdatedimage.png)
+![The ScaleBy Action Node.](../../.gitbook/assets/scalebyactionnode20241.png)
 
 The **ScaleBy Action Node** continuously scales an [**Object**](../../objects-and-types/scene-objects/README.md), thus creating an **Animation**. The final values of the `Scale` **Attribute** are determined by multiplying the initial ones with the values specified by the user in either the **Attribute** or **Input Socket** `By` of the **Node**. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
@@ -21,7 +21,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 ## Attributes
 
-![The ScaleBy Action Node Attributes.](../../.gitbook/assets/scalebyactionattributes.png)
+![The ScaleBy Action Node Attributes.](../../.gitbook/assets/scalebyactionatts20241.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

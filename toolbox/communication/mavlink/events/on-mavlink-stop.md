@@ -1,6 +1,6 @@
 # Overview
 
-![The On MAVLink Stop Node.](../../../../.gitbook/assets/onmavlinkstop.png)
+![The On MAVLink Stop Node.](../../../../.gitbook/assets/onmavlinkstopnode20241.png)
 
 **On MAVLink Stop**is an **Event Listener Node** allowing the user to trigger a **Logic Branch** once a connection to an **MAVLink** serial port has been terminated.
 

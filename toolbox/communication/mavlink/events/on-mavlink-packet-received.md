@@ -1,6 +1,6 @@
 # Overview
 
-![The On MAVlink Packet Received Node.](../../../../.gitbook/assets/onmavlinkpacketreceive.png)
+![The On MAVlink Packet Received Node.](../../../../.gitbook/assets/onmavlinkpacketreceivednode20241.png)
 
 **On MAVLink Packet Received**  is an **Event Listener Node** allowing the user to trigger a **Logic Branch** when *MAVLink* data  is received and returns it in the form of a binary `Message`. This message needs to be decoded to access the data, which is done with [**MAVLink Decode**](../mavlink-decode.md).
 

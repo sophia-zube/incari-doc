@@ -1,6 +1,6 @@
 # Overview
 
-![The UDP Send Node.](../../../.gitbook/assets/udpsend.png)
+![The UDP Send Node.](../../../.gitbook/assets/udpsendnode20241.png)
 
 **UDP Send** takes a `Message` and passes it through the currently established *UDP* *connection*. This *connection* can be set using the [UDP guideline](README.md#udp-guideline). 
 

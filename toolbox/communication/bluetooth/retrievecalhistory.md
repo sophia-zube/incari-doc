@@ -1,7 +1,7 @@
 
 # Overview
 
-![The Retrieve Call History Node.](../../../.gitbook/assets/retrievecallhistoryreal.png)
+![The Retrieve Call History Node.](../../../.gitbook/assets/retrievecallhistorynode20241.png)
 
 The **Retrieve Call History Node** returns a device's call history in **Dictionary** form. The keys are `Incoming Calls`, `Outgoing Calls`, `Canceled Calls`, and `Missed Calls`. This requires that that the *Bluetooth* device has been paired and that the user has contact sharing (or something similar) enabled for pairing.
 

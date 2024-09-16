@@ -1,6 +1,6 @@
 # Overview
 
-![The Socket.IO Send Node.](../../../.gitbook/assets/socketiosendnodereal.png)
+![The Socket.IO Send Node.](../../../.gitbook/assets/socketiosendnode20241.png)
 
 The **Socket.IO Send Node** sends the `Message` of a specified **Socket.IO** event identified under its specified `Namespace`. 
 

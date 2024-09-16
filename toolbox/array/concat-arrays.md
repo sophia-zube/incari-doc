@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Concat Arrays Node.](../../.gitbook/assets/concatarraysupdatedimage.png)
+![The Concat Arrays Node.](../../.gitbook/assets/concatarraysnode20241.png)
 
 **Concat Arrays** merges two or more **Arrays** into one new **Array**. The **Arrays** to be merged are given as input to the **Node**.
 

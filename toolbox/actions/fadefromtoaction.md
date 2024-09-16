@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoactionupdatedimage.png)
+![The FadeFromTo Action Node.](../../.gitbook/assets/fadefromtoaction20241.png)
 
 The **FadeFromTo Action Node** continuously modifies the `Opacity` of an [**Object**](../../objects-and-types/scene-objects/README.md) over a specified period of time, thus creating an **Animation**. Both the initial and final values of the `Opacity` are chosen by the user. Find an [example](#example) of how to use this **Node** and its effect over an **Object** at the end of this page.
 
@@ -12,7 +12,7 @@ Furthermore, visit the [**Actions Nodes**](README.md) page for a general introdu
 
 ## Attributes
 
-![The FadeFromTo Action Node Attributes.](../../.gitbook/assets/fadefromtoactionattributes.png)
+![The FadeFromTo Action Node Attributes.](../../.gitbook/assets/fadefromtoactionatts20241.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

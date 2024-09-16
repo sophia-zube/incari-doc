@@ -1,6 +1,6 @@
 # Overview
 
-![The Unpair Bluetooth Device Node.](../../../.gitbook/assets/unpairbluetoothdevicereal.png)
+![The Unpair Bluetooth Device Node.](../../../.gitbook/assets/unpairbluetoothdevicenode20241.png)
 
 **Unpair Bluetooth Device** attempts to unpair a given *Bluetooth* device that may have been previously discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md). A more detailed explanation of this process can be found [here](README.md#bluetooth-guideline).
 

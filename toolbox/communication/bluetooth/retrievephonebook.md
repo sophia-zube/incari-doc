@@ -2,7 +2,7 @@
 
 # Overview
 
-![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebookreal.png)
+![The Retrieve Phonebook Node.](../../../.gitbook/assets/retrievephonebook20241.png)
 
 The **Retrieve Phonebook Node** returns a device's phonebook, speed dial, and favorites. These are presented in **Dictionary** form with the keys `Contacts`, `Speed Dial Contacts`, and `Favorite Contacts`. This requires that that the *Bluetooth* device has been paired and that the user has contact sharing (or something similar) enabled for pairing.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The MAVLink Stop Node.](../../../.gitbook/assets/mavlinkstop.png)
+![The MAVLink Stop Node.](../../../.gitbook/assets/mavlinkstopnode20241.png)
 
 The **MAVLink Stop Node** halts communication with a **MAVLink** serial port and ends the *heartbeat*.
 

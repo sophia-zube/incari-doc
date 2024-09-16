@@ -1,6 +1,6 @@
 # Overview
 
-![The WebSocket Client Stop Node.](../../../.gitbook/assets/websocketclientstop.png)
+![The WebSocket Client Stop Node.](../../../.gitbook/assets/websocketclientstopnode20241.png)
 
 The **WebSocket Client Stop Node** halts communication with a **WebSocket** connection.
 

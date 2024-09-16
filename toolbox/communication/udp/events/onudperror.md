@@ -1,6 +1,6 @@
 # Overview
 
-![The On UDP Error Node.](../../../../.gitbook/assets/onudperror.png)
+![The On UDP Error Node.](../../../../.gitbook/assets/onudperrornode20241.png)
 
 **On UDP Error** is an **Event Listener Node** that executes and triggers a **Logic Branch** when an **Error** is received and returns the **Error** `Message`.
 

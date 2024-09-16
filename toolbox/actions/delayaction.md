@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Delay Action Node.](../../.gitbook/assets/delayactionupdatedimage.png)
+![The Delay Action Node.](../../.gitbook/assets/delayactionnode20241.png)
 
 The **Delay Action Node** delays the **Pulse Flow** for the specified duration \(in seconds\). 
 
@@ -13,7 +13,7 @@ Visit [**Actions**](README.md) for a general introduction to the **Actions Nodes
 
 ## Attributes
 
-![The Delay Action Node Attributes.](../../.gitbook/assets/node-delay-action-attr.png)
+![The Delay Action Node Attributes.](../../.gitbook/assets/delayactionatts20241.png)
 
 | Attribute | Type | Description |
 | :--- | :--- | :--- |

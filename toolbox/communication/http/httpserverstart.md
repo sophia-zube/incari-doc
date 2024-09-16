@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstartupdatedimage.png)
+![The HTTP Server Start Node.](../../../.gitbook/assets/httpserverstartnode20241.png)
 
 The **HTTP Server Start Node** starts communication with a server that has already been set up in [**Project Settings**](../../../modules/project-settings/http.md).
 

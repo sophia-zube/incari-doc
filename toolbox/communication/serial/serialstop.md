@@ -1,6 +1,6 @@
 # Overview
 
-![The Serial Stop Node.](../../../.gitbook/assets/serialstopupdatedimage.png)
+![The Serial Stop Node.](../../../.gitbook/assets/serialstopnode20241.png)
 
 The **Serial Stop Node** stops the **Serial** connection.
 

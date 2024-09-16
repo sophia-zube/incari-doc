@@ -1,6 +1,6 @@
 # Overview
 
-![The Pair Bluetooth Device Node.](../../../.gitbook/assets/pairbluetoothdevicesreal.png)
+![The Pair Bluetooth Device Node.](../../../.gitbook/assets/pairbluetoothdevicenode20241.png)
 
 The **Pair Bluetooth Device Node** attempts to pair a given *Bluetooth* device that may have been previously discovered by the [**Scan For Bluetooth Devices Node**](scanforbluetoothdevices.md). A more detailed explanation of this process can be found [here](README.md#bluetooth-guideline).
 

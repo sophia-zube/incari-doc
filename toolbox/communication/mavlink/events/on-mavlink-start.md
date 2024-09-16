@@ -1,6 +1,6 @@
 # Overview
 
-![The On MAVLink Start Node.](../../../../.gitbook/assets/onmavlinkstart.png)
+![The On MAVLink Start Node.](../../../../.gitbook/assets/onmavlinkstartnode20241.png)
 
 **On MAVLink Start** is an **Event Listener Node** notifying that the **MAVLink** connection was successfully established, therefore enabling the user to trigger a **Logic Branch** on said connection.
 

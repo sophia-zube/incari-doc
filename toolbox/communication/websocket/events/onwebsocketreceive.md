@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSocket Receive Node.](../../../../.gitbook/assets/onwebsocketrecievenode.png)
+![The On WebSocket Receive Node.](../../../../.gitbook/assets/onwebsocketreceivenode20241.png)
 
 The **On WebSocket Receive Node** is an **Event Listener Node** that is triggered if the *Websocket* connection received a message during any action for the selected configuration, which was established in the [**Project Settings**](../../../../modules/project-settings/websocket.md).
 

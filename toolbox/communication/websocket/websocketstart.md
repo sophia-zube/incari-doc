@@ -1,6 +1,6 @@
 # Overview
 
-![The WebSocket Client Start Node.](../../../.gitbook/assets/websocketclientstart.png)
+![The WebSocket Client Start Node.](../../../.gitbook/assets/websocketclientstartnode20241.png)
 
 The **WebSocket Client Start Node** starts the *WebSocket* connection based on the configuration that has already been set up in the [**Project Settings**](../../../modules/project-settings/websocket.md).
 

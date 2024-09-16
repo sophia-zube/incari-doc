@@ -1,6 +1,6 @@
 # Overview
 
-![The WebSocket Client Send Node.](../../../.gitbook/assets/websocketclientsendnode.png)
+![The WebSocket Client Send Node.](../../../.gitbook/assets/websocketclientsendnode20241.png)
 
 The **WebSocket Client Send Node** sends a message via the open *WebSocket* connection specified in `Configuration`.
 

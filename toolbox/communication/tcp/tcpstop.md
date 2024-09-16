@@ -1,6 +1,6 @@
 # Overview
 
-![The TCP Stop Node.](../../../.gitbook/assets/tcpstop.png)
+![The TCP Stop Node.](../../../.gitbook/assets/tcpstopnode20241.png)
 
 **TCP Stop** stops the currently opened **TCP** connection.
 
