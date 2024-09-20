@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Size Of Dictionary Node.](../../.gitbook/assets/sizeofdictionaryupdatedimage.png)
+![The Size Of Dictionary Node.](../../.gitbook/assets/sizeofdictionarynode20241.png)
 
 **Size Of Dictionary** returns the total number of elements in a **Dictionary**.
 

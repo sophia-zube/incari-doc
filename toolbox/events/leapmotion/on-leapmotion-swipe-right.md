@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Swipe Right Node.](../../../.gitbook/assets/onleapmotionswiperight.png)
+![The On Leap Motion Swipe Right Node.](../../../.gitbook/assets/onleapmotionswiperightnode20241.png)
 
 **On Leap Motion Swipe Right** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Swipe Right Action* occurs.
 

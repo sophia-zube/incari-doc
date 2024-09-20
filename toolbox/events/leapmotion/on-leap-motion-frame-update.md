@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Frame Update Node.](../../../.gitbook/assets/onleapmotionframeupdate.png)
+![The On Leap Motion Frame Update Node.](../../../.gitbook/assets/onleapmotionframeupdatenode20241.png)
 
 **On Leap Motion Frame Update** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Hand Action* is updated during a *frame*, an interval defined by *Leap Motion*.
 

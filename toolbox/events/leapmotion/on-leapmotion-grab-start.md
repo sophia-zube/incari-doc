@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Grab Start Node.](../../../.gitbook/assets/onleapmotiongrabstart.png)
+![The On Leap Motion Grab Start Node.](../../../.gitbook/assets/onleapmotiongrabstartnode20241.png)
 
 **On Leap Motion Grab Start** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Grab Action* starts.
 

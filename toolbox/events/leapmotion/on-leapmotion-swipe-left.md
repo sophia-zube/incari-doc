@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Swipe Left Node.](../../../.gitbook/assets/onleapmotionswipeleft.png)
+![The On Leap Motion Swipe Left Node.](../../../.gitbook/assets/onleapmotionswipleftnode20241.png)
 
 **On Leap Motion Swipe Left** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Swipe Left Action* occurs.
 

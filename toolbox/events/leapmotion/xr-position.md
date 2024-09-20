@@ -1,6 +1,6 @@
 # Overview
 
-![The XR Position Node.](../../../.gitbook/assets/xrpositionnode.png)
+![The XR Position Node.](../../../.gitbook/assets/xrpositionnode20241.png)
 
 The **XR Position Node** returns the position in *3D* space of the tracked entity in some extended reality (*XR*) incorporating *Leap Motion*. This **Node** only has an effect within a **Scene** that is under an [**HMD**](../../../objects-and-types/project-objects/hmd.md). This means that while this **Node** can be placed in a **Scene** under a **Screen**, it will never pulse under these circumstances. 
 
