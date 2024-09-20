@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Pinch End Node.](../../../.gitbook/assets/onleapmotionpinchend.png)
+![The On Leap Motion Pinch End Node.](../../../.gitbook/assets/onleapmotionpinchendnode20241.png)
 
 **On Leap Motion Pinch End** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Pinch Action* ends.
 

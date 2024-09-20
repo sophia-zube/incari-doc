@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Pinch Start Node.](../../../.gitbook/assets/onleapmotionpinchstart.png)
+![The On Leap Motion Pinch Start Node.](../../../.gitbook/assets/onleapmotionpinchstartnode20241.png)
 
 **On Leap Motion Pinch Start** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Pinch Action* starts.
 

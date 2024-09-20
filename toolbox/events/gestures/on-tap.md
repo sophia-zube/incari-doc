@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Tap Node.](../../../.gitbook/assets/ontapnodeupdate.png)
+![The On Tap Node.](../../../.gitbook/assets/ontapnode20241.png)
 
 **On Tap** is an **Event Listener** **Node** used for executing a **Logic Branch** after a tap on an **Object**.
 

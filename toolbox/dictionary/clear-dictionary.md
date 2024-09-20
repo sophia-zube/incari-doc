@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Clear Dictionary Node](../../.gitbook/assets/cleardictionaryupdatedimage.png)
+![The Clear Dictionary Node](../../.gitbook/assets/cleardictionarynode20241.png)
 
 **Clear Dictionary** takes as input a **Dictionary**, removes every element in it, and outputs an empty **Dictionary**.
 

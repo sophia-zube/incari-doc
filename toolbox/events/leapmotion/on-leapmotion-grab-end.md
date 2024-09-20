@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Grab End Node.](../../../.gitbook/assets/onleapmotiongrabend.png)
+![The On Leap Motion Grab End Node.](../../../.gitbook/assets/onleapmotiongrabend20241.png)
 
 **On Leap Motion Grab End** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Grab Action* ends.
 

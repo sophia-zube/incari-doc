@@ -1,6 +1,6 @@
 # Overview
 
-![The On Leap Motion Grab Update Node.](../../../.gitbook/assets/onleapmotiongrabupdate.png)
+![The On Leap Motion Grab Update Node.](../../../.gitbook/assets/onleapmotiongrabupdatenode20241.png)
 
 **On Leap Motion Grab Update** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Leap Motion Grab Action* is updated, meaning the interval between its start and end.
 
