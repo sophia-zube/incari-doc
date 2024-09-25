@@ -1,6 +1,6 @@
 # Overview
 
-![The On List Active Index Change Node.](../../../.gitbook/assets/onlistactiveindexchange.png)
+![The On List Active Index Change Node.](../../../.gitbook/assets/onlistactiveindexchangenode20241.png)
 
 The **On List Active Index Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when a **List's** `Active Index` changes.
 

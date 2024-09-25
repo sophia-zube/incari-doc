@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Variable Change Node.](../../../.gitbook/assets/onvariablechangeupdatedimage.png)
+![The On Variable Change Node.](../../../.gitbook/assets/onvariablechangenode20241.png)
 
 **On Variable Change** is an **Event Listener Node** used for executing a **Logic Branch** when the value of the corresponding **Variable** changes.
 

@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Mouse Button Down Node with Object base.](../../../.gitbook/assets/onmousebuttondownupdatedimage.png)
+![The On Mouse Button Down Node with Object Base and Left Button.](../../../.gitbook/assets/onmousebuttondownnode20241.png)
 
-![The On Mouse Button Down Node with Screen base.](../../../.gitbook/assets/onmousebuttondown_basescreen.png)
+![The On Mouse Button Down Node with Screen Base and Left Button.](../../../.gitbook/assets/onmousebuttondownnode20241screen.png)
 
 <!-- <div>
 <figure><img src="../../../.gitbook/assets/onmousebuttondownupdatedimage.png"><figcaption><p>The On Mouse Button Down Node with Object base.</p></figcaption></figure>

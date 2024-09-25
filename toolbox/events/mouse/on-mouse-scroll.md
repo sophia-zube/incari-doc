@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Mouse Scroll Node with Object base.](../../../.gitbook/assets/on-mouse-scroll-objbase.png)
+![The On Mouse Scroll Node with Object Base and Left Button.](../../../.gitbook/assets/onmousescrollnode20241.png)
 
-![The On Mouse Scroll Node with Screen base.](../../../.gitbook/assets/on-mouse-scroll-scrbase.png)
+![The On Mouse Scroll Node with Screen Base and Left Button.](../../../.gitbook/assets/onmousescrollnode20241screen.png)
 
 **On Mouse Scroll** is an **Event Listener** **Node** used for executing a **Logic Branch** when the user scrolls either over an **Object** or anywhere in the **Screen**.
 

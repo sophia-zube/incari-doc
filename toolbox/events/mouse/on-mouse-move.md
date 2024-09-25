@@ -2,9 +2,9 @@
 
 ## Overview
 
-![The On Mouse Move Node with Object base.](../../../.gitbook/assets/node-on-mouse-move-objbase.png)
+![The On Mouse Move Node with Object Base and Left Button.](../../../.gitbook/assets/node-on-mouse-move-objbase.png)
 
-![The On Mouse Move Node with Screen base.](../../../.gitbook/assets/node-on-mouse-move-scrbase.png)
+![The On Mouse Move Node with Screen Base and Left Button.](../../../.gitbook/assets/onmousemovenode20241screen.png)
 
 **On Mouse Move** is an **Event Listener** **Node** used for executing a **Logic Branch** when the cursor moves either within an **Object** or anywhere in the **Screen**.
 

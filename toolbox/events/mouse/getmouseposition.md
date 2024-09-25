@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Mouse Position Node.](../../../.gitbook/assets/getmouseposition.png)
+![The Get Mouse Position Node.](../../../.gitbook/assets/getmousepositionnode20241.png)
 
 The **Get Mouse Position Node** returns the X and Y coordinates of the mouse's position in a device's screen.
 

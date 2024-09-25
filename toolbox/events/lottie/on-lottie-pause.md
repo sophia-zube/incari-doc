@@ -1,6 +1,6 @@
 # Overview
 
-![The On Lottie Pause Node.](../../../.gitbook/assets/node-on-lottie-pause.png)
+![The On Lottie Pause Node.](../../../.gitbook/assets/onlottiepausenode20241.png)
 
 **On Lottie Pause** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* is paused.
 

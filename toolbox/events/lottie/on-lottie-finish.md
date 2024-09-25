@@ -1,6 +1,6 @@
 # Overview
 
-![The On Lottie Finish Node.](../../../.gitbook/assets/node-on-lottie-finish.png)
+![The On Lottie Finish Node.](../../../.gitbook/assets/onlottiefinishnode20241.png)
 
 **On Lottie Finish** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* finishes playing.
 

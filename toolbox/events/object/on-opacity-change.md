@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Opacity Change Node.](../../../.gitbook/assets/onopacitychangewitheventid.png)
+![The On Opacity Change Node.](../../../.gitbook/assets/onopacitychangenode20241.png)
 
 **On Opacity Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the **Opacity** value of an **Object** changes.
 

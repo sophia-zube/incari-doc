@@ -1,6 +1,6 @@
 # Overview
 
-![The Unsubscribe Node.](../../.gitbook/assets/unsubscribeupdatedimage.png)
+![The Unsubscribe Node.](../../.gitbook/assets/unsubscribenode20241.png)
 
 The **Unsubscribe Node** allows the user to disconnect, or unsubscribe, from an **Event**. It requires the ID of the **Event** the user wishes to unsubscribe from. 
 
