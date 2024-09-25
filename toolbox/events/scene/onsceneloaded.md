@@ -1,6 +1,6 @@
 # Overview
 
-![The On Scene Loaded Node.](../../../.gitbook/assets/onsceneloadednode.png)
+![The On Scene Loaded Node.](../../../.gitbook/assets/onsceneloadednode20241.png)
 
 The **On Scene Loaded Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the chosen **Scene** has loaded.
 

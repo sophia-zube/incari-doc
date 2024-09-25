@@ -1,6 +1,6 @@
 # Overview
 
-![The On SliderValue Change Node.](../../../.gitbook/assets/onslidervaluechangenode.png)
+![The On SliderValue Change Node.](../../../.gitbook/assets/onslidervaluenode20241.png)
 
 The **On SliderValue Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current value of a [**Slider Object**](../../../objects-and-types/scene2d-objects/gui/slider.md) changes.
 

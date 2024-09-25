@@ -1,6 +1,6 @@
 # Overview
 
-![The On Lottie Stop Node.](../../../.gitbook/assets/node-on-lottie-stop.png)
+![The On Lottie Stop Node.](../../../.gitbook/assets/onlottiestopnode20241.png)
 
 **On Lottie Stop** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* is stopped.
 

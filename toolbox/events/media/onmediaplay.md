@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The On Media Play Node.](../../../.gitbook/assets/onmediaplay.png)
+![The On Media Play Node.](../../../.gitbook/assets/onmediaplaynode20241.png)
 
 **On Media Play** is an **Event Listener Node** that gives the user a way to trigger a **Logic Branch** when a media **Object** starts. Media in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 

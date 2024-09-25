@@ -1,6 +1,6 @@
 # Overview
 
-![The On WebSprite Remote URL Change Node.](../../../.gitbook/assets/onwebspriteremoteurlchangeupdatedimage.png)
+![The On WebSprite Remote URL Change Node.](../../../.gitbook/assets/onwebspriteremoteurlchangenode20241.png)
 
 **On WebSprite Remote URL Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the URL of a **WebSprite** changes.
 

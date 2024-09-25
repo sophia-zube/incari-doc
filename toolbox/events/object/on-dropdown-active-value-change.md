@@ -1,6 +1,6 @@
 # Overview
 
-![The On Dropdown Active Value Change Node.](../../../.gitbook/assets/ondropdownactivevaluechange.png)
+![The On Dropdown Active Value Change Node.](../../../.gitbook/assets/ondropdownactivevaluechangenode20241.png)
 
 The **On Dropdown Active Value Change Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current active value of a [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md) changes.
 

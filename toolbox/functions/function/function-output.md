@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Function Output Node.](../../../.gitbook/assets/functionoutputnodeupdatedimage.png)
+![The Function Output Node.](../../../.gitbook/assets/functionoutputnode20241.png)
 
 In the **Function's** **Logic Graph**, the **Function Output** **Node** finishes the **Logic Branch** and receives the parameter that the **Function** **Node** will return.
 

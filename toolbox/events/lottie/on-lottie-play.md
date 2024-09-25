@@ -1,6 +1,6 @@
 # Overview
 
-![The On Lottie Play Node.](../../../.gitbook/assets/node-on-lottie-play.png)
+![The On Lottie Play Node.](../../../.gitbook/assets/onlottieplaynode20241.png)
 
 **On Lottie Play** is an **Event Listener** **Node** used for executing a **Logic Branch** when a *Lottie* starts playing.
 

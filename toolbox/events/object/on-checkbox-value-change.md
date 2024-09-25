@@ -1,6 +1,6 @@
 # Overview
 
-![The On Checkbox Value Change Node.](../../../.gitbook/assets/oncheckboxvaluechangenode.png)
+![The On Checkbox Value Change Node.](../../../.gitbook/assets/oncheckbox)
 
 The **On Checkbox Value Change** is an **Event Listener** **Node** used for executing a **Logic Branch** when the current **Boolean** value of a [**Toggle Object**](../../../objects-and-types/scene2d-objects/gui/toggle.md) changes.
 

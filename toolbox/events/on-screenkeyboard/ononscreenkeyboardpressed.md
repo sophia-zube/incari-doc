@@ -1,6 +1,6 @@
 # Overview
 
-![The On On-Screen Keyboard Key Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardkeypressedwitheventid.png)
+![The On On-Screen Keyboard Key Pressed Node.](../../../.gitbook/assets/ononscreenkeyboardkeypressednode20241.png)
 
 The **On On-Screen Keyboard Key Pressed Node** is an **Event Listener** **Node** used for executing a **Logic Branch** when any key on the **On-Screen Keyboard** is pressed.
 
