@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Average Node.](../../.gitbook/assets/averagenodeupdatedimage.png)
+![The Average Node.](../../.gitbook/assets/averagenode20241.png)
 
 **Average** calculates and returns the _arithmetic mean_ of all of its inputs.
 

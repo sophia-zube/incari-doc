@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Range Mapper Node.](../../.gitbook/assets/rangemapperupdatedimage.png)
+![The Range Mapper Node.](../../.gitbook/assets/rangemappernode20241.png)
 
 **Range Mapper** transforms a single numerical value, from its relative position in a given reference range, to a new value within a second target range.
 
