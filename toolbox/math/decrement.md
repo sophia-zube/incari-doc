@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Decrement Node.](../../.gitbook/assets/decrementupdatedimage.png)
+![The Decrement Node.](../../.gitbook/assets/decrementnode20241.png)
 
 **Decrement** decreases a value by a given step and outputs the new value.
 

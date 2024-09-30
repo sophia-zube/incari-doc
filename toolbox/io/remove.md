@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove Node.](../../.gitbook/assets/removeupdatedimage.png)
+![The Remove Node.](../../.gitbook/assets/removearrayelementnode20241.png)
 
 The **Remove** **Node** deletes a file specified by the user. The file _path_ has to be given as input and the output is a **Boolean** indicating whether the operation was successful.
 

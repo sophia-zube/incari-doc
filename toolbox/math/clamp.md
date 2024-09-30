@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Clamp Node.](../../.gitbook/assets/clampupdatedimage.png)
+![The Clamp Node.](../../.gitbook/assets/clampnode20241.png)
 
 **Clamp** limits a _numerical value_ to a given range, so that it isn't lower than the lower boundary, or higher than the upper boundary.
 

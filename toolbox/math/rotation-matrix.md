@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Rotation Matrix Node.](../../.gitbook/assets/rotationmatrixupdatedimage.png)
+![The Rotation Matrix Node.](../../.gitbook/assets/rotationmatrixnode20241.png)
 
 The **Rotation Matrix** **Node** receives three angles as inputs and generates a **Matrix4x4** that represents a _rotation_ along the X, Y, and Z axes in the received angles.
 

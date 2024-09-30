@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Random Node.](../../.gitbook/assets/randomupdatedimage.png)
+![The Random Node.](../../.gitbook/assets/randomnode20241.png)
 
 The **Random** **Node** generates a random outcome, usually a number.
 

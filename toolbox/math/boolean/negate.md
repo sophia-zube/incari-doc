@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Negate Node.](../../../.gitbook/assets/negateupdatedimage.png)
+![The Negate Node.](../../../.gitbook/assets/negatenode20241.png)
 
 **Negate** is a _logical operator_ **Node**, which takes a single **Boolean** expression to yield its opposite **Boolean** value.
 

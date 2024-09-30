@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Bool Value Node.](../../../.gitbook/assets/boolvalueupdatedimage.png)
+![The Bool Value Node.](../../../.gitbook/assets/boolvaluenode20241.png)
 
 The **Bool Value** **Node** stores a **Boolean** value in its internal _state_, which can be defined before the **Project**'s execution and retrieved at runtime.
 

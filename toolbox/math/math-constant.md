@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Math Constant Node.](../../.gitbook/assets/piupdatedimage.png)
+![The Math Constant Node.](../../.gitbook/assets/mathconstantnode20241.png)
 
 The **Math Constant** **Node** outputs a mathematical constant chosen out of three options: Pi, e \(Euler's number\), and Douglas-Adams Constant \(42\).
 

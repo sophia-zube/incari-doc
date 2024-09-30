@@ -1,6 +1,6 @@
 # Overview
 
-![The Create File Node.](../../.gitbook/assets/createfile_2.png)
+![The Create File Node.](../../.gitbook/assets/createfilenode20241.png)
 
 The **Create File Node** creates a file in a location given by the user. 
 

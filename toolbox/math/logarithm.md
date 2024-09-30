@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Logarithm Node.](../../.gitbook/assets/logarithmupdatedimage.png)
+![The Logarithm Node.](../../.gitbook/assets/logarithmnode20241.png)
 
 **Logarithm** calculates the _logarithm_ of a number in a chosen base.
 
