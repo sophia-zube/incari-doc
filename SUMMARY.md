@@ -484,6 +484,7 @@
     * [Stop Media](toolbox/incari/media/stopmedia.md)
   * [Object](toolbox/incari/object/README.md)
     * [Add Tag](toolbox/incari/object/add-tag.md)
+    * [Create Object](toolbox/incari/object/create-object.md)
     * [Destroy Object](toolbox/incari/object/destroy.md)
     * [Get Active Dropdown Value](toolbox/incari/object/get-active-dropdown-value.md)
     <!--* [Get Alpha](toolbox/incari/object/get-alpha.md)-->
@@ -705,7 +706,6 @@
   * [Color Value](toolbox/utilities/colorvalue.md)
   * [Conversion](toolbox/utilities/conversion.md)
   * [Create CustomID](toolbox/utilities/createcustomid.md)
-  * [Create Object](toolbox/utilities/create-object.md)
   * [Get Command Line Option](toolbox/utilities/get-command-line-option.md)
   * [Group](toolbox/utilities/group.md)
   * [Interval](toolbox/utilities/interval/README.md)

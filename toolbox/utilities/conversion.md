@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Conversion Node.](../../.gitbook/assets/node-conversion2.png)
+![The Conversion Node.](../../.gitbook/assets/conversionnode20241.png)
 
 The **Conversion Node** allows the user to convert one **Data Type** into another. With certain **Nodes** the **Conversion Node** appears automatically when two **Nodes** are connected.
 

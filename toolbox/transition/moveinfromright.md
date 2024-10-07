@@ -1,6 +1,6 @@
 # Overview
 
-![The MoveInFromRight Node.](../../.gitbook/assets/moveinfromrightupdatedimage.png)
+![The MoveInFromRight Node.](../../.gitbook/assets/moveinfromrightnode20241.png)
 
 The **MoveInFromRight Node** applies a **Transition** to the chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the right of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static.
 

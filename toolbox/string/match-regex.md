@@ -1,6 +1,6 @@
 # Overview
 
-![The MatchRegex Node.](../../.gitbook/assets/matchregexupdatedimage.png)
+![The MatchRegex Node.](../../.gitbook/assets/matchregexnode20241.png)
 
 The **MatchRegex** **Node** allows one to search a **String** for a certain pattern, which can be given as a *regular expression*. The part of the **String** in which the search is performed can be customized with the indices of the beginning and end of the search, which are given to the **Node** either as **Attributes** or **Inputs**. The **Node** outputs the result as a **Boolean**, together with the index of the first appearance of the searched pattern and the number of matches. 
 

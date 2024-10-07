@@ -1,6 +1,6 @@
 # Overview
 
-![The Lower Node.](../../.gitbook/assets/lowerupdatedimage.png)
+![The Lower Node.](../../.gitbook/assets/lowernode20241.png)
 
 The **Lower** **Node** converts a **String** to lowercase letters.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The PaddingLeft Node.](../../.gitbook/assets/paddingleftupdatedimage.png)
+![The PaddingLeft Node.](../../.gitbook/assets/paddingleftnode20241.png)
 
 The **PaddingLeft** **Node** adds a character a chosen number of times to the left of a **String**.
 

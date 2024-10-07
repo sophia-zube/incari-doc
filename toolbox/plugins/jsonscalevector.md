@@ -1,6 +1,6 @@
 # Overview
 
-![The (JSON) Scale Vector Node.](../../.gitbook/assets/jsonscalevector.png)
+![The (JSON) Scale Vector Node.](../../.gitbook/assets/jsonscalevector20241.png)
 
 The **(JSON) Scale Vector Node** scales a **Vector3** by the **Float** value given as **Input**. It returns the scaled **Vector3** as well as the Euclidean norm of the new **Vector3**. 
 

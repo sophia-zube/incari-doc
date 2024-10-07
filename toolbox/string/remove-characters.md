@@ -1,6 +1,6 @@
 # Overview
 
-![The RemoveCharacters Node.](../../.gitbook/assets/removecharactersupdatedimage.png)
+![The RemoveCharacters Node.](../../.gitbook/assets/removecharactersnode20241.png)
 
 The **RemoveCharacters** **Node** removes characters from a **String**. It takes as inputs a **String** and the characters to remove and it outputs the **String** with the characters removed.
 

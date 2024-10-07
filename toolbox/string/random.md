@@ -1,6 +1,6 @@
 # Overview
 
-![The RandomString Node.](../../.gitbook/assets/randomstringupdatedimage.png)
+![The RandomString Node.](../../.gitbook/assets/randomstringnode20241.png)
 
 The **RandomString Node** returns a random **String**. The length and characters to be used are specified by the user.
 

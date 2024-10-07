@@ -1,6 +1,6 @@
 # Overview
 
-![The MoveInFromTop Node.](../../.gitbook/assets/moveinfromtopupdatedimage.png)
+![The MoveInFromTop Node.](../../.gitbook/assets/moveinfromtopnode20241.png)
 
 The **MoveInFromTop** **Node** creates a **Transition** from the current **Scene** to a chosen **Scene**. Starting off-screen, the chosen **Scene** moves in from the top of the **Screen**. This **Transition** leads to the chosen **Scene** covering the previous **Scene**, which remains static. 
 

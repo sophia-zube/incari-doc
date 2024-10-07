@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Call JavaScript Function Node.](../../.gitbook/assets/calljavascriptfunctionnodeupdatedimage.png)
+![The Call JavaScript Function Node.](../../.gitbook/assets/calljavascriptfunctionnode20241.png)
 
 The **Call JavaScript Function** **Node** executes a JavaScript function that is defined in a **Web Sprite** **Object**, which has to be given to the **Node** as its **Object** **Attribute**.
 

@@ -9,7 +9,6 @@ The **Utilities** **Nodes** provide a means for a user to add additional functio
 * [**Color Value**](colorvalue.md)
 * [**Conversion**](conversion.md)
 * [**Create CustomID**](createcustomid.md)
-* [**Create Object**](create-object.md)
 * [**Get Command Line Option**](get-command-line-option.md)
 * [**Group**](group.md)
 * [**Interval**](interval/)

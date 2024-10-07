@@ -1,6 +1,6 @@
 # Overview
 
-![The PaddingRight Node.](../../.gitbook/assets/paddingrightupdatedimage.png)
+![The PaddingRight Node.](../../.gitbook/assets/paddingrightnode20241.png)
 
 The **PaddingRight** **Node** adds a character a chosen number of times to the right of a **String**.
 

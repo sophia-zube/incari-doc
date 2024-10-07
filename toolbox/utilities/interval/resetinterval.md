@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Reset Interval Node.](../../../.gitbook/assets/resetintervalupdatedimage.png)
+![The Reset Interval Node.](../../../.gitbook/assets/resetintervalnode20241.png)
 
 The **Reset Interval Node** resets an existing **Interval** by taking the **Instance** of an **Interval** as input. This causes an **Interval** to cease until further notice. If multiple **Intervals** have been started by the **Start Interval** **Node**, they must be stopped one by one. 
 

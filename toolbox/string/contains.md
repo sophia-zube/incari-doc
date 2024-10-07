@@ -1,6 +1,6 @@
 # Overview
 
-![The Contains Node.](../../.gitbook/assets/containsupdatedimage.png)
+![The Contains Node.](../../.gitbook/assets/containsnode20241.png)
 
 The **Contains** **Node** receives two **Strings** and checks whether one is a *substring* of the other. It outputs the result as a **Boolean**.
 

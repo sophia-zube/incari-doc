@@ -1,6 +1,6 @@
 # Overview
 
-![The Split Node.](../../.gitbook/assets/splitupdatedimage.png)
+![The Split Node.](../../.gitbook/assets/splitnode20241.png)
 
 The **Split** **Node** separates a **String** into two or more **Strings**. It receives as inputs the **String** to separate and a delimiter **String**, which marks where the separations will be made. Thus, if the **String** to split is `abcdecba` and the delimiter is `c`, the resulting **Strings** will be `ab`, `de`, and `ba`.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Upper Node.](../../.gitbook/assets/upperupdatedimage.png)
+![The Upper Node.](../../.gitbook/assets/uppernode20241.png)
 
 The **Upper** **Node** converts a **String** to uppercase letters.
 
