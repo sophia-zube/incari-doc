@@ -7,6 +7,7 @@ The **Object** **Nodes** allow the user to set and obtain the **Attributes** of 
 ## Contents
 
 * [**Add Tag**](add-tag.md)
+* [**Create Object**](create-object.md)
 * [**Destroy Object**](destroy.md)
 * [**Get Active Dropdown Value**](get-active-dropdown-value.md)
 <!--* [**Get Alpha**](get-alpha.md)-->

@@ -1,6 +1,6 @@
 # Overview
 
-![The This Prefab Node.](../../.gitbook/assets/thisprefab.png)
+![The This Prefab Node.](../../.gitbook/assets/thisprefabnode20241.png)
 
 The **This Prefab Node** provides the ID of the current **Prefab** being worked on. It is only available in the **Prefab** section of the **Logic Editor** when a **Prefab** has been selected. 
 

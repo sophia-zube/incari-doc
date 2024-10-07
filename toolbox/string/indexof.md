@@ -1,6 +1,6 @@
 # Overview
 
-![The IndexOf Node.](../../.gitbook/assets/indexofupdatedimage.png)
+![The IndexOf Node.](../../.gitbook/assets/indexofnode20241.png)
 
 The **IndexOf** **Node** returns the index of the first occurrence of a *substring* in a **String** and a **Bool** indicating whether it was found or not.
 

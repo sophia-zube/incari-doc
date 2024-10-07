@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Concat Strings Node.](../../.gitbook/assets/concatstringsupdatedimage.png)
+![The Concat Strings Node.](../../.gitbook/assets/concatstringsnode20241.png)
 
 **Concat Strings** joins two or more **Strings** into one new **String**.
 

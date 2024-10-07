@@ -1,6 +1,6 @@
 # Overview
 
-![The TrimLeft Node.](../../.gitbook/assets/trimleftupdatedimage.png)
+![The TrimLeft Node.](../../.gitbook/assets/trimleftnode20241.png)
 
 The **TrimLeft** **Node** trims certain chosen characters from the left side of a **String**, until a different character is found. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 

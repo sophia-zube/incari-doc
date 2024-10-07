@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The JSON Stringify Node.](../../.gitbook/assets/jsonstringifyupdatedimage20231.png)
+![The JSON Stringify Node.](../../.gitbook/assets/jsonstringifynode20241.png)
 
 The **JSON Stringify Node** converts a **Data Type** like a **Dictionary** into one **String**. This can be useful when the user wants to save something like a **Dictionary** into a file.
 

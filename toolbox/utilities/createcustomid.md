@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Create CustomID Node.](../../.gitbook/assets/createcustomidupdatedimage.png)
+![The Create CustomID Node.](../../.gitbook/assets/createcustomidnode20241.png)
 
 Items in **Incari** have a unique ID number, including **Materials**, **Objects**, **Scenes**, and **Screens**. The **Create** **CustomID** **Node** creates a new unique ID. (Note: these are the **Instance IDs** of **Animations** and **Actions**.)
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Length Node.](../../.gitbook/assets/lengthupdatedimage.png)
+![The Length Node.](../../.gitbook/assets/lengthnode20241.png)
 
 **Length** returns the length of a **String**.
 

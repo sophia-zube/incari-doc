@@ -1,6 +1,6 @@
 # Overview
 
-![The Trim Node.](../../.gitbook/assets/trimupdatedimage.png)
+![The Trim Node.](../../.gitbook/assets/trimnode20241.png)
 
 The **Trim** **Node** trims certain chosen characters from a **String**. It receives as **Input** a **String** to be trimmed and the characters to trim, and it outputs the trimmed **String**.
 

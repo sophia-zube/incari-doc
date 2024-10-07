@@ -1,6 +1,6 @@
 # Overview
 
-![The IsUpper Node.](../../.gitbook/assets/isupperupdatedimage.png)
+![The IsUpper Node.](../../.gitbook/assets/isuppernode20241.png)
 
 The **IsUpper Node** checks if a **String** is all uppercase and returns a **Bool** of either *True* or *False*. 
 
