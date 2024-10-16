@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene" %}
 #### Overview
 
-![The Set Rotation Node.](../../../.gitbook/assets/setrotationupdatedimage.png)
+![The Set Rotation Node.](../../../.gitbook/assets/setrotationnode20241.png)
 
 **Set Rotation** sets the value of a given **Scene Object's** `Rotation` **Attribute**.
 
@@ -38,7 +38,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene2D" %}
 #### Overview
 
-![The Set Rotation Node.](../../../.gitbook/assets/setrotationnode2d.png)
+![The Set Rotation Node.](../../../.gitbook/assets/setrotation2d20241.png)
 
 **Set Rotation** sets the value of a given **Scene2D Object's** `Rotation` **Attribute**.
 

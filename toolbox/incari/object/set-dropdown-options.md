@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Dropdown Options Node.](../../../.gitbook/assets/setdropdownoptionsnode.png)
+![The Set Dropdown Options Node.](../../../.gitbook/assets/setdropdownoptionsnode20241.png)
 
 The **Set Dropdown Options Node** sets a [**Dropdown Object's**](../../../objects-and-types/scene2d-objects/gui/dropdown.md) `Options` using an **Array**. These `Options` are the **Strings** that act as the **Dropdown Object's** choices, thus the **Array** should only consist of **Strings**. 
 

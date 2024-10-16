@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The This Scene Node.](../../.gitbook/assets/thissceneupdatedimage.png)
+![The This Scene Node.](../../.gitbook/assets/thisscenenode20241.png)
 
 The **This Scene Node** provides the ID of the current **Scene** being worked on.
 

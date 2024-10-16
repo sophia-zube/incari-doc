@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Play ImageSequence Node.](../../../.gitbook/assets/playimagesequencenode20231.png)
+![The Play ImageSequence Node.](../../../.gitbook/assets/playimagesequencenode20241.png)
 
 The **Play ImageSequence Node** starts and plays through an **ImageSequence** at the specified time frames. The `Start Frame` value must be a smaller number than the `End Frame`value. When ``PlayDirection` is set to `Backward`, the **ImageSequence** will be played in reverse.  
 

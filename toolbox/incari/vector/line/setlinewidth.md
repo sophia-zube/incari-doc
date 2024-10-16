@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set LineWidth Node.](../../../../.gitbook/assets/setlinewidthupdatedimage.png)
+![The Set LineWidth Node.](../../../../.gitbook/assets/setlinewidthnode20241.png)
 
 The **Set LineWidth Node** sets the **LineWidth** of a **Line Object** created in the **Scene Outliner Module** under **Vector**.
 

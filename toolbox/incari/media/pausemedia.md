@@ -1,6 +1,6 @@
 # Overview
 
-![The Pause Media Node.](../../../.gitbook/assets/pausemedianode.png)
+![The Pause Media Node.](../../../.gitbook/assets/pausemedianode20241.png)
 
 The **Pause Media** **Node** can be used to pause a **Media** **Object** already playing during the session. **Media** in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 

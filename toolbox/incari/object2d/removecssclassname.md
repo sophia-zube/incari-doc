@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove CSS Class Name Node.](../../../.gitbook/assets/removecssclassname.png)
+![The Remove CSS Class Name Node.](../../../.gitbook/assets/removecssclassnamenode20241.png)
 
 **Remove CSS Class Name Node** deletes a *CSS class* with the given *name*. It has no effect if the given *class name* does not exist. 
 

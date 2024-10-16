@@ -8,7 +8,7 @@ This **Node** has different versions based on whether `Fill` or `Stroke` is set 
 
 ## Overview
 
-![The Get Fill Paint Opacity Node.](../../../.gitbook/assets/getfillpaintopacitynode.png)
+![The Get Fill Paint Opacity Node.](../../../.gitbook/assets/getfillpaintopacitynode20241.png)
 
 The **Get Fill Paint Opacity Node** returns the fill's `Opacity` -- meaning how opaque or transparent it appears -- of the selected **Object** at the specified layer indicated by the `Index`.
 
@@ -46,7 +46,7 @@ The **Get Fill Paint Opacity Node** returns the fill's `Opacity` -- meaning how 
 
 ## Overview
 
-![The Get Stroke Paint Opacity Node.](../../../.gitbook/assets/getstrokepaintopacitynode.png)
+![The Get Stroke Paint Opacity Node.](../../../.gitbook/assets/getstrokepaintopacitynode20241.png)
 
 The **Get Stroke Paint Opacity Node** returns the stroke's `Opacity` -- meaning how opaque or transparent it appears -- of the selected **Object** at the specified layer indicated by the `Index`.
 

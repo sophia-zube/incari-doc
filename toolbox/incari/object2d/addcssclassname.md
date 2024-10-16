@@ -1,6 +1,6 @@
 # Overview
 
-![The Add CSS Class Name Node.](../../../.gitbook/assets/addcssclassname.png)
+![The Add CSS Class Name Node.](../../../.gitbook/assets/addcssclassnamenode20241.png)
 
 The **Add CSS Class Name Node** adds a *CSS class name* to the given **Object**. It won't duplicate existing *class names*. 
 

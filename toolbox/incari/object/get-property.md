@@ -1,6 +1,6 @@
 # Overview
 
-![The Get CSS Property Node.](../../../.gitbook/assets/getcssproperty.png)
+![The Get CSS Property Node.](../../../.gitbook/assets/getcsspropertynode20241.png)
 
 The **Get CSS Property Node** returns the value of a single *CSS* property of an **Object** provided by the user.
 

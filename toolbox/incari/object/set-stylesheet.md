@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Stylesheet Node.](../../../.gitbook/assets/setstylesheet.png)
+![The Set Stylesheet Node.](../../../.gitbook/assets/setstylesheetnode20241.png)
 
 The **Set Stylesheet Node** allows the user to apply a customized *CSS* stylesheet to a **2D** **Object**.
 

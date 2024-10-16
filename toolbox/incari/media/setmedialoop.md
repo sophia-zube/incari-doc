@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Media Loop Node.](../../../.gitbook/assets/setmedialoopnode.png)
+![The Set Media Loop Node.](../../../.gitbook/assets/setmedialoopnode20241.png)
 
 The **Set Media Loop Node** sets the `Loop` **Bool** for a **Media Object** to either *true* or *false*. *True* means that the **Media** restarts when it finishes, *false* means that it doesn’t.
 

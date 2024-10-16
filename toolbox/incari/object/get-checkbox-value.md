@@ -1,6 +1,6 @@
 # Overview
 
-![The Get CheckBox Value Node.](../../../.gitbook/assets/getcheckboxvaluenode.png)
+![The Get CheckBox Value Node.](../../../.gitbook/assets/getcheckboxvaluenode20241.png)
 
 The **Get CheckBox Value Node** returns a **Boolean** value of either *true* or *false*, depending on if the [**Toggle Object**](../../../objects-and-types/scene2d-objects/gui/toggle.md) given as input is checked on or not.
 

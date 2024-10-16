@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene" %}
 #### Overview
 
-![The Get Rotation Node.](../../../.gitbook/assets/getrotationupdatedimage.png)
+![The Get Rotation Node.](../../../.gitbook/assets/getrotationnode20241.png)
 
 **Get Rotation** returns the $$X$$, $$Y$$, and $$Z$$ rotation of an **Object** in a **Scene**.
 
@@ -30,7 +30,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene2D" %}
 #### Overview
 
-![The Get Rotation Node.](../../../.gitbook/assets/getrotationnode2d.png)
+![The Get Rotation Node.](../../../.gitbook/assets/getrotationnode2d20241.png)
 
 **Get Rotation** returns the `Rotation` value of an **Object** in a **Scene2D**.
 

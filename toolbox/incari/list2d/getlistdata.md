@@ -1,6 +1,6 @@
 # Overview
 
-![The Get List Data Node.](../../../.gitbook/assets/getlistdata.png)
+![The Get List Data Node.](../../../.gitbook/assets/getlistdatanode20241.png)
 
 The **Get List Data Node** returns the data of a **List** in **Array** format.
 

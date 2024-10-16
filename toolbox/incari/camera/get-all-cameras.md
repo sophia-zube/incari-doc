@@ -1,6 +1,6 @@
 # Overview
 
-![The Get All Cameras Node.](../../../.gitbook/assets/node-get-all-cameras.png)
+![The Get All Cameras Node.](../../../.gitbook/assets/getallcamerasnode20241.png)
 
 The **Get All Cameras** **Node** outputs an **Array** containing the **Object IDs** of all available **Cameras** in the **Scene**.
 

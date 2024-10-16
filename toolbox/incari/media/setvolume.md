@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Volume Node.](../../../.gitbook/assets/setvolume.png)
+![The Set Volume Node.](../../../.gitbook/assets/setvolumnenode20241.png)
 
 The **Set Volume Node** sets the current volume of a **Media Object**. This does not change the `Volume` **Attribute** however. 
 

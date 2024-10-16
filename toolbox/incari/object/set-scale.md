@@ -4,7 +4,7 @@ This **Node** is only useable in [**Scenes**](../../../objects-and-types/project
 
 ## Overview
 
-![The Set Scale Node.](../../../.gitbook/assets/setscaleupdatedimage.png)
+![The Set Scale Node.](../../../.gitbook/assets/setscalenode20241.png)
 
 **Set Scale** sets the values of a given **Scene Object's** `Scale` **Attribute**.
 

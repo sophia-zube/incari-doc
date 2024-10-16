@@ -1,6 +1,6 @@
 # Overview
 
-![The Get CSS Class Names Node.](../../../.gitbook/assets/getcssclassnames.png)
+![The Get CSS Class Names Node.](../../../.gitbook/assets/getcssclassnamesnode20241.png)
 
 **Get CSS Class Names Node** returns all the *CSS class names* of the given **Object**. These are in a **String** with a single-space as a separator. 
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Active Index Node.](../../../.gitbook/assets/setactiveindexnode.png)
+![The Set Active Index Node.](../../../.gitbook/assets/setactiveindexnode20241.png)
 
 The **Set Active Index Node** sets the value of a **List's** `Active Index` **Attribute**.
 

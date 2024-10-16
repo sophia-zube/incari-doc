@@ -8,7 +8,7 @@ This **Node** has different versions based on whether `Color` or `Image` is chos
 
 ## Overview
 
-![The Get Paint Node with Fill Target and Color Paint Type.](../../../.gitbook/assets/getfillpaintcolornode.png)
+![The Get Paint Node with Fill Target and Color Paint Type.](../../../.gitbook/assets/getfillpaintcolornode20241.png)
 
 The **Get Paint Node** returns the value of the fill or stroke's `Paint Type` selected in the **Attributes**.
 
@@ -46,7 +46,7 @@ The **Get Paint Node** returns the value of the fill or stroke's `Paint Type` se
 
 ## Overview
 
-![The Get Paint Node with Fill Target and Image Paint Type.](../../../.gitbook/assets/getfillpaintimagenode.png)
+![The Get Paint Node with Fill Target and Image Paint Type.](../../../.gitbook/assets/getfillpaintimagenode20241.png)
 
 The **Get Paint Node** returns the value of the fill or stroke's `Paint Type` selected in the **Attributes**.
 

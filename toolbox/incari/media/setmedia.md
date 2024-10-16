@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Media Node.](../../../.gitbook/assets/setmedianode.png)
+![The Set Media Node.](../../../.gitbook/assets/setmedianode20241.png)
 
 The **Set Media Node** applies a given **Media Asset** to a **Media Object**. This is only possible for **Video** and **Audio Assets**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the [**Asset Database**](../../../modules/asset-database.md) (which can be populated with **Assets** by dragging them from the [**Asset Manager**](../../../modules/asset-manager.md)).
 

@@ -8,7 +8,7 @@ This **Node** has different versions based on what `Mode` is set in the **Attrib
 
 # Overview
 
-![The Set Background Color Node.](../../../.gitbook/assets/setbackgroundcolornode.png)
+![The Set Background Color Node.](../../../.gitbook/assets/setbackgroundcolornode20241.png)
 
 The **Set Background Color Node** sets the `Color` for the inputted **Screen's** background.
 

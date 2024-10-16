@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get ArcEnd Node.](../../../../.gitbook/assets/getarcendupdatedimage.png)
+![The Get ArcEnd Node.](../../../../.gitbook/assets/getarcendnode20241.png)
 
 The **Get ArcEnd Node** returns the ending _arc degree_ of an **Arc Object**.
 

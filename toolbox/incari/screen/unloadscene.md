@@ -1,6 +1,6 @@
 # Overview
 
-![The Unload Scene Node.](../../../.gitbook/assets/unloadscenenode.png)
+![The Unload Scene Node.](../../../.gitbook/assets/unloadscenenode20241.png)
 
 The **Unload Scene Node** unloads the specified **Scene** and returns a **Boolean** which confirms or denies this success.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Media Node.](../../../.gitbook/assets/getmedianode.png)
+![The Get Media Node.](../../../.gitbook/assets/getmedianode20241.png)
 
 The **Get Media Node** returns the **Media Asset** of a **Media Object**. This would either be a **Video** or **Audio Asset**.  
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Active Index Node.](../../../.gitbook/assets/getactiveindex.png)
+![The Get Active Index Node.](../../../.gitbook/assets/getactiveindexnode20241.png)
 
 The **Get Active Index Node** returns the value of a **List's** `Active Index` **Attribute**.
 

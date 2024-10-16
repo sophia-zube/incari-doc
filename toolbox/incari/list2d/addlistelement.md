@@ -1,6 +1,6 @@
 # Overview
 
-![The Add List Element Node.](../../../.gitbook/assets/addlistelementnode.png)
+![The Add List Element Node.](../../../.gitbook/assets/addlistelementnode20241.png)
 
 The **Add List Element Node** adds an element to either the beginning or end of a **List**. Each element consists of two parts: the icon and the text. 
 

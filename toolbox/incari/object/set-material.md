@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Set Material Node.](../../../.gitbook/assets/setmaterialupdatedimage.png)
+![The Set Material Node.](../../../.gitbook/assets/setmaterialnode20241.png)
 
 **Set Material** assigns a **Material** to a [**Mesh** **Object**](../../../objects-and-types/scene-objects/mesh.md).
 

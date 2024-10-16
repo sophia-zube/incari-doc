@@ -1,6 +1,6 @@
 # Overview
 
-![The Set CSS Class Names Node.](../../../.gitbook/assets/setcssclassnames.png)
+![The Set CSS Class Names Node.](../../../.gitbook/assets/setcssclassnamesnode20241.png)
 
 **Set CSS Class Names Node** sets all *CSS class names* for the given **Object**, and overwrites any exisiting ones. The *class names* must be in one **String**, separated by single-spaces. 
 

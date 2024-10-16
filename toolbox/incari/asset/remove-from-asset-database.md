@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove From Asset Database Node.](../../../.gitbook/assets/remove-from-asset-database.png)
+![The Remove From Asset Database Node.](../../../.gitbook/assets/removefromassetdatabasenode20241.png)
 
 The **Remove From Asset Database** **Node** removes an **Asset** from the [**Asset Database**](../../../modules/asset-database.md).
 

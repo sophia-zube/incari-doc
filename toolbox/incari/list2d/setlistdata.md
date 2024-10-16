@@ -1,6 +1,6 @@
 # Overview
 
-![The Set List Data Node.](../../../.gitbook/assets/setlistdata.png)
+![The Set List Data Node.](../../../.gitbook/assets/setlistdatanode20241.png)
 
 The **Set List Data Node** allows the user to set the data of a [**List**](../../../objects-and-types/scene2d-objects/gui/list.md) in a **Scene2D**. 
 

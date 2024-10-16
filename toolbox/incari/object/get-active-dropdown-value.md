@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Active Dropdown Value Node.](../../../.gitbook/assets/getactivedropdownvalue.png)
+![The Get Active Dropdown Value Node.](../../../.gitbook/assets/getactivedropdownnode20241.png)
 
 The **Get Active Dropdown Value Node** returns the value that is currently active of the inputted [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md).
 

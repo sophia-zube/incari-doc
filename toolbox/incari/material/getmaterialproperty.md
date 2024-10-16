@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Material Property Node with Two Example Outputs.](../../../.gitbook/assets/getmaterialpropertynode.png)
+![The Get Material Property Node with Two Example Outputs.](../../../.gitbook/assets/getmaterialpropertynode20241.png)
 
 The **Get Material Property Node**  returns a property, or properties, of a **Material**. These properties are given their defining names in the **Attributes**. The names can be found by hovering over an **Attribute** of any of the **Shading Models** found in the [**Material Editor**](../../../modules/material-editor/README.md), copying it, and pasting it here. The **Node** pictured above shows two possible outputs. 
 

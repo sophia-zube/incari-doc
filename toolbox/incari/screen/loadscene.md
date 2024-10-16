@@ -1,6 +1,6 @@
 # Overview
 
-![The Load Scene Node.](../../../.gitbook/assets/loadscenenode.png)
+![The Load Scene Node.](../../../.gitbook/assets/loadscenenode20241.png)
 
 The **Load Scene Node** loads the specified **Scene**. This can be particularly useful in tandem with the [**Set Scene Node**](setscene.md).
 
