@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Overlay Scene Node.](../../../.gitbook/assets/setoverlayscenenode.png)
+![The Set Overlay Scene Node.](../../../.gitbook/assets/setoverlayscenenode20241.png)
 
 The **Set Overlay Scene Node** sets an **Overlay Object** for a specific **Scene** or **Scene2D**.
 

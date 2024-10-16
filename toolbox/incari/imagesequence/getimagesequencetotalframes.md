@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get ImageSequence Total Frames Node.](../../../.gitbook/assets/getimagesequencetotalframesupdatedimage.png)
+![The Get ImageSequence Total Frames Node.](../../../.gitbook/assets/getimagesequencetotalframesnode20241.png)
 
 The **Get ImageSequence Total Frames Node** returns the total number of frames in the **ImageSequence**.
 

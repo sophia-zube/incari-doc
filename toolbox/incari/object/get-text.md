@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Text Node.](../../../.gitbook/assets/gettextnode.png)
+![The Get Text Node.](../../../.gitbook/assets/gettextnode20241.png)
 
 The **Get Text Node** returns the text of the inputted **Object**, such as [**Text**](../../../objects-and-types/scene2d-objects/gui/text.md), [**Text Area**](../../../objects-and-types/scene2d-objects/gui/textarea.md), and [**Text Input**](../../../objects-and-types/scene2d-objects/gui/textinput.md).
 

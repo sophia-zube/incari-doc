@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Mask Node.](../../../.gitbook/assets/setmasknode.png)
+![The Set Mask Node.](../../../.gitbook/assets/setmasknode20241.png)
 
 The **Set Mask Node** sets, or reassigns, the **Mask** of an **Object**.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get List Element Node.](../../../.gitbook/assets/getlistelementnode.png)
+![The Get List Element Node.](../../../.gitbook/assets/getlistelementnode20241.png)
 
 The **Get List Element Node** returns the element of a **List** at the specified `Index`. Each element consists of two parts: the icon and the text. 
 

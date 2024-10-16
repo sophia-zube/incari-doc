@@ -11,11 +11,11 @@ The **Vector Nodes** provide a means for the user to perform several actions on 
   * [**Get ArcStart**](arc/getarcstart.md)
   * [**Set ArcEnd**](arc/setarcend.md)
   * [**Set ArcStart**](arc/setarcstart.md)
-* [**Get BackgroundColor**](getbackgroundcolor.md)
+<!--* [**Get BackgroundColor**](getbackgroundcolor.md)-->
 * [**Get FillColor**](getfillcolor.md)
 * [**Get StrokeWidth**](getstrokewidth.md)
-* [**Label**](label/)
-  * [**Get LabelText**](label/getlabeltext.md)
+<!--* [**Label**](label/)
+  * [**Get LabelText**](label/getlabeltext.md)-->
 * [**Line**](line/)
   * [**Get LineWidth**](line/getlinewidth.md)
   * [**Set LineWidth**](line/setlinewidth.md)
@@ -27,7 +27,7 @@ The **Vector Nodes** provide a means for the user to perform several actions on 
 * [**Rectangle**](rectangle/)
   * [**Get RectangleCorners**](rectangle/getrectanglecorners.md)
   * [**Set RectangleCorners**](rectangle/setrectanglecorners.md)
-* [**Set BackgroundColor**](setbackgroundcolor.md)
+<!--* [**Set BackgroundColor**](setbackgroundcolor.md)-->
 * [**Set FillColor**](setfillcolor.md)
 * [**Set StrokeWidth**](setstrokewidth.md)
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Media Loop Node.](../../../.gitbook/assets/getmedialoopnode.png)
+![The Get Media Loop Node.](../../../.gitbook/assets/getmedialoopnode20241.png)
 
 The **Get Media Loop Node** returns the value of the `Loop` **Bool**. *True* means that the **Media Object** should restart after it finishes and *false* means that it shouldn’t. 
 

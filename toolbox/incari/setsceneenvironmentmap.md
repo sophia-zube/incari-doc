@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Scene Environment Map Node.](../../.gitbook/assets/setsceneenvironmentmap.png)
+![The Set Scene Environment Map Node.](../../.gitbook/assets/setsceneenvironmentcolornode20241.png)
 
 The **Set Scene Environment Map** sets the **Environment Map** of a **Scene's** [`Environment Lighting`](../../objects-and-types/project-objects/scene.md) **Attribute** in the **Logic**.
 

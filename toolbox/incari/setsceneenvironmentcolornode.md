@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Scene Environment Color Node.](../../.gitbook/assets/setsceneenvcolornode.png)
+![The Set Scene Environment Color Node.](../../.gitbook/assets/setsceneenvironmentcolornode20241.png)
 
 The **Set Scene Environment Color Node** sets the color of a **Scene's** [`Environment Lighting`]((../../objects-and-types/project-objects/scene.md)) **Attribute** in the **Logic**.
 

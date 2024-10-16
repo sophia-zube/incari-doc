@@ -1,6 +1,6 @@
 # Overview
 
-![The Web Sprite Reload Node.](../../../.gitbook/assets/webspritereloadupdatedimage.png)
+![The Web Sprite Reload Node.](../../../.gitbook/assets/webspritereloadnode20241.png)
 
 The **Web Sprite Reload** **Node** reloads a **Web Sprite** **Object** when triggered.
 

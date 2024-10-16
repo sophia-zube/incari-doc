@@ -1,6 +1,6 @@
 # Overview
 
-![The Stop Lottie Node.](../../../.gitbook/assets/node-stop-lottie.png)
+![The Stop Lottie Node.](../../../.gitbook/assets/stoplottienode20241.png)
 
 The **Stop Lottie** **Node** stops playing a *Lottie*. It receives as input the [**Object ID**](../../../objects-and-types/scene-objects/README.md#objects-in-logic) of the [**Lottie Sprite** **Object**](../../../objects-and-types/scene-objects/lottie-sprite.md) to be stopped.
 

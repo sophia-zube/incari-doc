@@ -1,7 +1,7 @@
 # Overview
 
 
-![The Set Texture Node.](../../../.gitbook/assets/settexturenode.png)
+![The Set Texture Node.](../../../.gitbook/assets/settexturenode20241.png)
 
 The **Set Texture Node** applies a given *texture* to an **Object**. This is only possible for **Objects** which have either a `Diffuse Texture` or `Opacity Map` **Attribute**, either of which can be specified in the **Node's** **Attributes**. These can be applied in the **Logic Editor** by dragging the desired **Asset** from the [**Asset Database**](../../../modules/asset-database.md) (which can be populated with **Assets** by dragging them from the [**Asset Mananger**](../../../modules/asset-manager.md)). 
 

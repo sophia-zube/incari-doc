@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Sort Index Node.](../../../.gitbook/assets/setsortindex.png)
+![The Set Sort Index Node.](../../../.gitbook/assets/setsortindexnode20241.png)
 
 The **Set Sort Index Node** sets the sort index of an **Object**, which is the order an **Object** is layered in a **Scene**.
 

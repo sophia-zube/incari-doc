@@ -8,7 +8,7 @@ This **Node** has different versions based on whether `Fill` or `Stroke` is set 
 
 ## Overview
 
-![The Set Fill Paint Opacity Node.](../../../.gitbook/assets/setfillpaintopacity.png)
+![The Set Fill Paint Opacity Node.](../../../.gitbook/assets/setfillpaintopacitynode20241.png)
 
 The **Set Paint Node** sets the fill's `Opacity` -- meaning how opaque or transparent it appears -- of the selected **Object** at the specified layer indicated by the `Index`.
 
@@ -47,7 +47,7 @@ The **Set Paint Node** sets the fill's `Opacity` -- meaning how opaque or transp
 
 ## Overview
 
-![The Set Stroke Paint Opacity Node.](../../../.gitbook/assets/setstrokepaintopacity.png)
+![The Set Stroke Paint Opacity Node.](../../../.gitbook/assets/setstrokepaintopacitynode20241.png)
 
 The **Set Paint Node** sets the stroke's `Opacity` -- meaning how opaque or transparent it appears -- of the selected **Object** at the specified layer indicated by the `Index`.
 

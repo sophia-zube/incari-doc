@@ -1,6 +1,6 @@
 # Overview
 
-![The Set CheckBox Value Node.](../../../.gitbook/assets/setcheckboxvaluenode.png)
+![The Set CheckBox Value Node.](../../../.gitbook/assets/setcheckboxvaluenode20241.png)
 
 The **Set Checkbox Value** sets the **Boolean** value for a [**Toggle Object**](../../../objects-and-types/scene2d-objects/gui/toggle.md) depending on if the user wants it to be checked on or off.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Slider Value Node.](../../../.gitbook/assets/setslidervaluenode.png)
+![The Set Slider Value Node.](../../../.gitbook/assets/setslidervaluenode20241.png)
 
 The **Set Slider Value Node** sets the value of a [**Slider's**](../../../objects-and-types/scene2d-objects/gui/slider.md) placement on its handle. 
 

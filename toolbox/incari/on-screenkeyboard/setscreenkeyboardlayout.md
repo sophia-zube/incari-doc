@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Screen Keyboard Layout Node.](../../../.gitbook/assets/setscreenkeyboardlayoutupdatedimage.png)
+![The Set Screen Keyboard Layout Node.](../../../.gitbook/assets/setscreenkeyboardlayoutnode20241.png)
 
 The **Set Screen Keyboard Layout** **Node** sets, or changes, the *layout* of an **On-Screen Keyboard**.
 

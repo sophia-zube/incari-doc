@@ -1,6 +1,6 @@
 # Overview
 
-![The Is Media Playing Node.](../../../.gitbook/assets/ismediaplayingnode.png)
+![The Is Media Playing Node.](../../../.gitbook/assets/ismediaplayingnode20241.png)
 
 The **Is Media Playing Node** returns a **Boolean** value, depending on whether the inputted **Media** is playing or not. **Media** in **Incari** is either a [**Video**](../../../objects-and-types/scene-objects/3dobjects/video.md) or an [**Audio**](../../../objects-and-types/scene-objects/audio.md). 
 

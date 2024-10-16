@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Next List Entry Node.](../../../.gitbook/assets/nextlistentryupdatedimage.png)
+![The Next List Entry Node.](../../../.gitbook/assets/nextlistentrynode20241.png)
 
 **Next List Entry** selects the next entry item in a **List** **Object**.
 

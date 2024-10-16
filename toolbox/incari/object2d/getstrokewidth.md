@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Stroke Width Node.](../../../.gitbook/assets/getstrokewidthnode2d.png)
+![The Get Stroke Width Node.](../../../.gitbook/assets/getstrokewidthnode20241real.png)
 
 The **Get Stroke Width Node** returns the `Stroke` width of the inputted **Object** from a **Scene2D**.
 

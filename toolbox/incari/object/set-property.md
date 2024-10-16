@@ -1,6 +1,6 @@
 # Overview
 
-![The Set CSS Property Node.](../../../.gitbook/assets/setcsspropertynode.png)
+![The Set CSS Property Node.](../../../.gitbook/assets/setcsspropertynode20241.png)
 
 The **Set CSS Property Node** sets the value of a single *CSS* property  of an **Object** provided by the user.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Play Animation Node.](../../../.gitbook/assets/playanimationupdatedimage.png)
+![The Play Animation Node.](../../../.gitbook/assets/playanimationnode20241.png)
 
 <!-- ![The Play Animation Block Node.](../../../.gitbook/assets/playanimationwithfile.png) -->
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Remove List Element Node.](../../../.gitbook/assets/removelistelement.png)
+![The Remove List Element Node.](../../../.gitbook/assets/removelistelementnode20241.png)
 
 The **Remove List Element Node** removes the element of a **List** at the specifed `Index` and returns the updated **List**. Each element consists of two parts: the icon and the text. 
 

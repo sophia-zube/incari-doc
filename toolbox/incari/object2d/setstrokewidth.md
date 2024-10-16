@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Stroke Width Node.](../../../.gitbook/assets/setstrokewidthnode2d.png)
+![The Set Stroke Width Node.](../../../.gitbook/assets/setstrokewidthnode20241real.png)
 
 The **Set Stroke Width Node** sets the `Stroke` width of the inputted **Object** from a **Scene2D**.
 

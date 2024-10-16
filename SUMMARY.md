@@ -486,7 +486,7 @@
     * [Add Tag](toolbox/incari/object/add-tag.md)
     * [Create Object](toolbox/incari/object/create-object.md)
     * [Destroy Object](toolbox/incari/object/destroy.md)
-    * [Get Active Dropdown Value](toolbox/incari/object/get-active-dropdown-value.md)
+    <!--* [Get Active Dropdown Value](toolbox/incari/object/get-active-dropdown-value.md)-->
     <!--* [Get Alpha](toolbox/incari/object/get-alpha.md)-->
     * [Get CSS Property](toolbox/incari/object/get-property.md)
     * [Get CheckBox Value](toolbox/incari/object/get-checkbox-value.md)
@@ -581,11 +581,11 @@
       * [Get ArcStart](toolbox/incari/vector/arc/getarcstart.md)
       * [Set ArcEnd](toolbox/incari/vector/arc/setarcend.md)
       * [Set ArcStart](toolbox/incari/vector/arc/setarcstart.md)
-    * [Get BackgroundColor](toolbox/incari/vector/getbackgroundcolor.md)
+    <!--* [Get BackgroundColor](toolbox/incari/vector/getbackgroundcolor.md)-->
     * [Get FillColor](toolbox/incari/vector/getfillcolor.md)
     * [Get StrokeWidth](toolbox/incari/vector/getstrokewidth.md)
-    * [Label](toolbox/incari/vector/label/README.md)
-      * [Get LabelText](toolbox/incari/vector/label/getlabeltext.md)
+    <!--* [Label](toolbox/incari/vector/label/README.md)
+      * [Get LabelText](toolbox/incari/vector/label/getlabeltext.md)-->
     * [Line](toolbox/incari/vector/line/README.md)
       * [Get LineWidth](toolbox/incari/vector/line/getlinewidth.md)
       * [Set LineWidth](toolbox/incari/vector/line/setlinewidth.md)
@@ -597,7 +597,7 @@
     * [Rectangle](toolbox/incari/vector/rectangle/README.md)
       * [Get RectangleCorners](toolbox/incari/vector/rectangle/getrectanglecorners.md)
       * [Set RectangleCorners](toolbox/incari/vector/rectangle/setrectanglecorners.md)
-    * [Set BackgroundColor](toolbox/incari/vector/setbackgroundcolor.md)
+    <!--* [Set BackgroundColor](toolbox/incari/vector/setbackgroundcolor.md)-->
     * [Set FillColor](toolbox/incari/vector/setfillcolor.md)
     * [Set StrokeWidth](toolbox/incari/vector/setstrokewidth.md)
   * [WebSprite](toolbox/incari/websprite/README.md)

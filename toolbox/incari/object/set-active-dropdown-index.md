@@ -1,6 +1,6 @@
 # Overview
 
-![The Set Active Dropdown Index Node.](../../../.gitbook/assets/setactivedropdownindex.png)
+![The Set Active Dropdown Index Node.](../../../.gitbook/assets/setactivedropdownindexnode20241.png)
 
 The **Set Active Dropdown Index Node** sets the `Active Index` of a [**Dropdown Object**](../../../objects-and-types/scene2d-objects/gui/dropdown.md). The `Active Index` is the number representing the place in the **Dropdown Object's** order an `Option` is in. 
 

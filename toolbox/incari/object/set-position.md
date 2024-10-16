@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene" %}
 #### Overview
 
-![The Set Position Node.](../../../.gitbook/assets/setpositionnode3d.png)
+![The Set Position Node.](../../../.gitbook/assets/setpositionnode20241.png)
 
 **Set Position** sets the $$X$$, $$Y$$, and $$Z$$ values of a given **Scene Object's** `Position` **Attribute**.
 
@@ -46,7 +46,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 
 #### Attributes
 
-![The Set Position Node Attributes.](../../../.gitbook/assets/setpositionnode2d.png)
+![The Set Position Node Attributes.](../../../.gitbook/assets/setpositionnode2d20241.png)
 
 | Attribute  | Type        | Description                                                                                                   |
 | ---------- | ----------- | ------------------------------------------------------------------------------------------------------------- |

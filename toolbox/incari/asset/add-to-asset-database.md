@@ -1,6 +1,6 @@
 # Overview
 
-![The Add To Asset Database Node.](../../../.gitbook/assets/node-add-asset-to-database.png)
+![The Add To Asset Database Node.](../../../.gitbook/assets/addtoassetdatabasenode20241.png)
 
 The **Add To Asset Database** **Node** adds an **Asset** to the [**Asset Database**](../../../modules/asset-database.md).
 

@@ -9,7 +9,7 @@ This **Node** has different versions based on whether `Color` or `Image` is chos
 
 ## Overview
 
-![The Set Paint Node with Fill Target and Color Paint Type.](../../../.gitbook/assets/setfillpaintcolornode.png)
+![The Set Paint Node with Fill Target and Color Paint Type.](../../../.gitbook/assets/setfillpaintcolornode20241.png)
 
 The **Set Paint Node** sets the value of the fill or stroke's `Paint Type` selected in the **Attributes**.
 
@@ -49,7 +49,7 @@ The **Set Paint Node** sets the value of the fill or stroke's `Paint Type` selec
 
 ## Overview
 
-![The Set Paint Node with Fill Target and Image Paint Type.](../../../.gitbook/assets/setfillpaintimageatts.png)
+![The Set Paint Node with Fill Target and Image Paint Type.](../../../.gitbook/assets/setfillpaintnode20241.png)
 
 The **Set Paint Node** returns the value of the fill or stroke's `Paint Type` selected in the **Attributes**.
 

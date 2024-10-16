@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Volume Node.](../../../.gitbook/assets/getvolume.png)
+![The Get Volume Node.](../../../.gitbook/assets/getvolumenode20241.png)
 
 The **Get Volume Node** returns the current volume of a **Media Object**.
 

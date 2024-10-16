@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Objects By Tag Node.](../../../.gitbook/assets/getobjectsbytagupdatedimage.png)
+![The Get Objects By Tag Node.](../../../.gitbook/assets/getobjectsbytagnode20241.png)
 
 The **Get Objects By Tag Nodes** returns an **Array** of all **Objects**, specifically their **IDs**, which are associated with the given *tag* and fall under the *subtree* of a given **Object**. If no **Object** is given as input, it defaults to the **Root Object**, thus performing the search on the whole **Scene**. 
 

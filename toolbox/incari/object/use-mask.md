@@ -1,6 +1,6 @@
 # Overview
 
-![The Use Mask Node.](../../../.gitbook/assets/usemask.png)
+![The Use Mask Node.](../../../.gitbook/assets/usemasknode20241.png)
 
 The **Use Mask** Node allows the user to enable or disable an **Object's** **Mask** from the **Logic Editor**.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Slider Value Node.](../../../.gitbook/assets/getslidervaluenode.png)
+![The Get Slider Value Node.](../../../.gitbook/assets/getslidervaluenode20241.png)
 
 The **Get Slider Value Node** returns the current value of a [**Slider's**](../../../objects-and-types/scene2d-objects/gui/slider.md) placement on its handle.
 

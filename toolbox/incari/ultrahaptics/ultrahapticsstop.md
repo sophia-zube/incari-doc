@@ -1,6 +1,6 @@
 # Overview
 
-![The Ultrahaptics Stop Node.](../../../.gitbook/assets/ultrahapticsstop.png)
+![The Ultrahaptics Stop Node.](../../../.gitbook/assets/ultrahapticsstopnode20241.png)
 
 The **Ultrahaptics Stop Node** stops the currently playing haptic if there is one.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Selected Item Node.](../../../.gitbook/assets/getselecteditem.png)
+![The Get Selected Item Node.](../../../.gitbook/assets/getselecteditemnode20241.png)
 
 The **Get Selected Item Node** returns the item that is currently selected in a **List**.
 

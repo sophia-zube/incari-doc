@@ -1,6 +1,6 @@
 # Overview
 
-![The Insert List Element Node.](../../../.gitbook/assets/insertlistelementnode.png)
+![The Insert List Element Node.](../../../.gitbook/assets/insertlistelementnode20241.png)
 
 The **Insert List Element Node** inserts an element into a **List** at the specified `Index`. All elements after the inserted element will have an updated index of *i + 1*. Each element consists of two parts: the icon and the text. 
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get ImageSequence Duration Node.](../../../.gitbook/assets/getimagesequencedurationupdatedimage.png)
+![The Get ImageSequence Duration Node.](../../../.gitbook/assets/getimagesequencedurationnode20241.png)
 
 The **Get ImageSequence Duration Node** returns the total runtime \(in seconds\) of the **ImageSequence**.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Dropdown Options Node.](../../../.gitbook/assets/getdropdownoptionsnode.png)
+![The Get Dropdown Options Node.](../../../.gitbook/assets/getdropdownoptionsnode20241.png)
 
 **Get Dropdown Options** returns an **Array** of all of a [**Dropdown Object's**](../../../objects-and-types/scene2d-objects/gui/dropdown.md) `Options`.
 

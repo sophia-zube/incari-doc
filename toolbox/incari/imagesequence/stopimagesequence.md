@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Stop ImageSequence Node.](../../../.gitbook/assets/stopimagesequenceupdatedimage.png)
+![The Stop ImageSequence Node.](../../../.gitbook/assets/stopimagesequencenode20241.png)
 
 The **Stop ImageSequence Node** ends an **ImageSequence** already playing during a session.
 

@@ -1,6 +1,6 @@
 # Overview
 
-![The Get Tag Node.](../../../.gitbook/assets/gettag.png)
+![The Get Tag Node.](../../../.gitbook/assets/gettagnode20241.png)
 
 The **Get Tag Node** returns the tags that are attributed to the **Object** given as input. If an **Object** with no tags is given, an empty **Array** is returned. 
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-![The Get Current ImageSequence Frame Node.](../../../.gitbook/assets/getcurrentimagesequenceframeupdatedimage.png)
+![The Get Current ImageSequence Frame Node.](../../../.gitbook/assets/getcurrentimagesequenceframenode20241.png)
 
 The **Get Current ImageSequence Frame Node** returns the current frame number of the selected **ImageSequence**.
 

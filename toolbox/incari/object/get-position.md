@@ -6,7 +6,7 @@ This **Node** has different versions for [**Scenes**](../../../objects-and-types
 {% tab title="Scene" %}
 #### Overview
 
-![The Get Position Node.](../../../.gitbook/assets/getpositionupdatedimage.png)
+![The Get Position Node.](../../../.gitbook/assets/getpositionnode20241.png)
 
 **Get Position** returns the $$X$$, $$Y$$, and $$Z$$ positions of an **Object** in a **Scene**.
 

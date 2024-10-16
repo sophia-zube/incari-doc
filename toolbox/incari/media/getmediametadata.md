@@ -5,7 +5,7 @@ This **Node** can be used to get the metadata of a **Media** **Object**. It has 
 
 # Overview
 
-![The Get Media Metadata Node.](../../../.gitbook/assets/getmediametadatanode.png)
+![The Get Media Metadata Node.](../../../.gitbook/assets/getmediametadatanode20241.png)
 
 
 The **Get Media Metadata Node** returns the *ID3* *metadata* from hard drive media, such as *.mp3* files, in **Dictionary** format. More information on *ID3* can be found [here](https://en.wikipedia.org/wiki/ID3). Please note that videos do not have *metadata* and thus are not compatible with this **Node**.
@@ -44,7 +44,7 @@ The **Get Media Metadata Node** returns the *ID3* *metadata* from hard drive med
 
 # Overview
 
-![The Get Media Metadata Node.](../../../.gitbook/assets/getmediametadatanode2.png)
+![The Get Media Metadata Node.](../../../.gitbook/assets/getmediametadatanode20241asset.png)
 
 
 The **Get Media Metadata Node** returns the *ID3* *metadata* from hard drive media, such as *.mp3* files, in **Dictionary** format. More information on *ID3* can be found [here](https://en.wikipedia.org/wiki/ID3). Please note that videos do not have *metadata* and thus are not compatible with this **Node**.

@@ -4,7 +4,7 @@ This **Node** is only useable in [**Scenes**](../../../objects-and-types/project
 
 ## Overview
 
-![The Get Scale Node.](../../../.gitbook/assets/getscaleupdatedimage.png)
+![The Get Scale Node.](../../../.gitbook/assets/getscalenode20241.png)
 
 **Get Scale** returns the _scale_ of an **Object** in a **Scene**. 
 
