@@ -12,7 +12,7 @@ The **Get CheckBox Value Node** returns a **Boolean** value of either *true* or 
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**|the **Toggle Object** from which the value is to be obtained.|
+|`Object ID`|**ObjectID**|The **Toggle Object** from which the value is to be obtained.|
 
 # Outputs
 
