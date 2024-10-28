@@ -1,4 +1,4 @@
-## Logic Debugging
+
 
 Debugging in **Incari** allows the user to follow the path of their **Logic's** execution. This not only connects **Incari Studio** with **Incari Player** in a visual way, but can show all evaluated values as each **Node** is stepped through.  
 
@@ -20,7 +20,7 @@ The icons from left to right are: `Pause/Resume Simulation`, `Call next node`, `
 
 * `Pause/Resume Simulation` allows the user to pause and play the debugging visualization. 
 * `Call next node` is very useful. When the simulation has been paused in some way, or stopped by a [**Breakpoint**](logic-debugging.md#breakpoints), the user can use the `Call next node` to continue through the flow of execution. When a **Node** has been evaluated completely, a horizonal line will flash brightly beneath its name. When a **Node** is currently being inspected, a pale horizontal line will be displayed constantly. 
-* `Step into a function or prefab` can only be used on **Function** and **Prefab** **Nodes**. This lets the user access the **Function** or **Prefab** **Logic** represented by their **Nodes** in the **Scene Logic**. The debugging simulation will continue in a separate tab of the **Logic Editor** and the user can inspect an issues related to **Functions** or **Prefabs**.
+* `Step into a function or prefab` can only be used on **Function** and **Prefab** **Nodes**. This lets the user access the **Function** or **Prefab** **Logic** represented by their **Nodes** in the **Scene Logic**. The debugging simulation will continue in a separate tab of the **Logic Editor** and the user can inspect any issues related to **Functions** or **Prefabs**.
 * `Step out of a function or prefab` exits the **Function** or **Prefab Logic** during the debugging simulation and returns to the **Scene Logic**. 
 * `Focus on error` highlights the error by navigating to the broken **Node** and centering it in the **Logic Editor's** view. 
 
@@ -30,7 +30,7 @@ With these features, the user has heightened control over the debugging process.
 
 ![Example Flow.](../../.gitbook/assets/exampleflow.gif)
 
-The user can see the flow of the debugging simulation by following the white dot that passes along the connections between **Nodes**. This can be controlled with the processes maintained by the **Debug Toolbar**, which are described in the section above. 
+The user can see the flow of the debugging simulation by following the dot that passes along the connections between **Nodes**. This can be controlled with the processes maintained by the **Debug Toolbar**, which are described in the section above. 
 
 #### Breakpoints
 

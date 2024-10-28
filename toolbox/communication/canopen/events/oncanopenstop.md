@@ -12,7 +12,7 @@ The **On CANopen Stop Node** is an **Event Listener Node** allowing the user to 
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../../modules/project-settings/CANopen.md).|
+|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../../modules/project-settings/CANopen.md).|
 
 
 # Outputs

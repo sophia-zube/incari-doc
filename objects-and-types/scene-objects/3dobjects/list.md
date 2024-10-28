@@ -12,10 +12,6 @@ Like any other **Scene Object**, we can manipulate its **Transformation Attribut
 
 This is the optional text that you wish to appear as a header for your list. It works like an `<h1>` tag in HTML.
 
-### Font Family
-
-`Font Family` allows you to select a generic font family \(`monospace`, `serif`, `sans-serif`\) or add your custom font.
-
 ### List Entry File
 
 This takes a local `.html` file, which defines a template for how each list item is displayed. You can create one by right-clicking in the **Asset Manager** and selecting `Create asset` &gt; `List Entry`. This method will create a new `.html` file, containing some example HTML text.
@@ -134,6 +130,12 @@ replaceBook(3);
 {% endtabs %}
 
 In the _JavaScript_ code above, the `replaceBook` function allows us to replace any book in the audio-book **List** example by using its index. Furthermore, the color of the new audio-book entry is changed to _red_.
+
+### Font
+
+The **Font Attributes** control customizable settings of the **List's** font. `Font Family` allows one to select a generic font family (`Manrope` or `Source Code Pro`) or a custom font that has been added in [**Project Settings**](../../../modules/project-settings/fonts.md#variable-fonts).
+
+**List** **Objects** are capable of handling *variable fonts* and let the user configure certain aspects, called `Parameters`. 
 
 ### Generate List
 

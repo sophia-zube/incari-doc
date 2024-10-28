@@ -27,7 +27,7 @@ The **Set Translation Attribute Node** allows the user to set a new item for a s
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
-|`Formatted String`|The returned **String** fomatted with the **Translation Attributes** that were set.|
+|`Formatted String`|**String**|The returned **String** fomatted with the **Translation Attributes** that were set.|
 
 
 

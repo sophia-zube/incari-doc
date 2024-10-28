@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The **Communication Nodes** \(**Bluetooth**, **CAN**, **HTTP**, **MAVLink**, **MQTT**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket**\) represent the different messaging protocols and ways of communicating between devices that each one employs. 
+The **Communication Nodes** \(**Bluetooth**, **CAN**, **CANopen**, **HTTP**, **MAVLink**, **MQTT**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket**\) represent the different messaging protocols and ways of communicating between devices that each one employs. 
 
-**Bluetooth**, **MAVLink**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket** are available as plugins. For more information, check out the [**Plugins Module**](../../modules/plugins/README.md)
+**Bluetooth**, **CANopen**, **MAVLink**, **Serial**, **Socket.IO**, **TCP**, **UDP**, and **WebSocket** are available as plugins. For more information, check out the [**Plugins Module**](../../modules/plugins/README.md)
 
 The following guideline explains the specific set-up required to implement **Communication** in **Incari**.
 

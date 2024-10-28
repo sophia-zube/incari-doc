@@ -91,7 +91,7 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
   
 * `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
    
-* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
 
 * `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
 
@@ -109,7 +109,7 @@ When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
   
 * `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
    
-* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
 
 * `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
 
@@ -175,7 +175,7 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
   
 * `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
    
-* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
 
 * `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
 
@@ -193,7 +193,7 @@ When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
   
 * `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
    
-* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and reset it to the beginning. 
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
 
 * `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
 

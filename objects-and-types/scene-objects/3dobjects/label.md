@@ -19,7 +19,7 @@ right-most icon of the `Text` **Attribute**.
 
 ![Static Text and Translation.](../../../.gitbook/assets/textvstranslation.png)
 
-This let's the user access the `.local` file provided in the [**Project Settings**](../../../modules/project-settings/localization.md). The keys will appear as options in the `Translation` dropdown. The translation of the current language will be used. This is set in the **Project Settings** but can be altered with the [**Localization Nodes**](../../../toolbox/localization/README.md)
+This lets the user access the `.local` file provided in the [**Project Settings**](../../../modules/project-settings/localization.md). The keys will appear as options in the `Translation` dropdown. The translation of the current language will be used. This is set in the **Project Settings** but can be altered with the [**Localization Nodes**](../../../toolbox/localization/README.md).
 
 ## Font
 
