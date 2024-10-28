@@ -95,7 +95,7 @@ There are a few small exceptions that should be noted in order to make sure ever
 |          |           | Round   |     |   ✘      |    ✘    |
 |          |           | Square  |     |   ✘      |    ✘    |
 |          |           | Line Arrow |  |   ✘      |    ✘    |
-|          |        | Triangle Arrow   |    ✘     |    ✘    |
+|          |        | Triangle Arrow|   |    ✘     |    ✘    |
 | Effects  |        |             |    |   ✘      |    ✔    |
 |          | Blend Modes |       |     |   ✘      |    ✔    |
 |          | Drop Shadow |       |     |   ✘      |    ✔    |

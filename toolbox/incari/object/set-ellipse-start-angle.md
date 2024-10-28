@@ -2,7 +2,7 @@
 
 ![The Set Ellipse Start Angle Node.](../../../.gitbook/assets/setellipsestartanglenode20241.png)
 
-The **Set Ellipse Start Angle Node** allows the user to set the `Start Angle` of an [**Ellipse*](../../../objects-and-types/scene2d-objects/figma/figmaellipse.md).
+The **Set Ellipse Start Angle Node** allows the user to set the `Start Angle` of an [**Ellipse**](../../../objects-and-types/scene2d-objects/figma/figmaellipse.md).
 
 [**Scope**](../../overview.md#scopes): **Scene**, **Function**, **Prefab**.
 

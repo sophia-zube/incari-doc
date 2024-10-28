@@ -12,8 +12,8 @@ The **Set Overlay Scene Node** sets an **Overlay Object** for a specific **Scene
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object ID`|**ObjectID**| |
-|`Scene ID`|**SceneID**| |
+|`Object ID`|**ObjectID**|The **Overlay Object** to be set.|
+|`Scene ID`|**SceneID**|The **Scene** where the **Overlay Object** will be set.|
 
 # Outputs
 

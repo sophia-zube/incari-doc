@@ -2,7 +2,7 @@
 
 ![The Get Translation Key Node.](../../.gitbook/assets/gettranslationkeynode.png)
 
-The **Get Translation Key Node** returns the key refrenced by the inputted **Object**.
+The **Get Translation Key Node** returns the key referenced by the inputted **Object**.
 
 [**Scope**](../overview.md#scopes): **Project**, **Scene**, **Function**, **Prefab**. 
 
@@ -11,7 +11,7 @@ The **Get Translation Key Node** returns the key refrenced by the inputted **Obj
 |Input|Type|Description|
 |---|---|---|
 |*Pulse Input* (►)|**Pulse**|A standard **Input Pulse**, to trigger the execution of the **Node**.|
-|`Object`|**ObjectID**|The ID of the **Object** the user wishes to get the key from.|
+|`Object ID`|**ObjectID**|The ID of the **Object** the user wishes to get the key from.|
 
 # Outputs
 

@@ -67,6 +67,17 @@ If a *child* **Object** (or part of a *child* **Object**) is moved outside the b
 
 This **Attribute** determines whether the **Frame** receives **Events** or not in the **Logic**. This is *true* when it is toggled on and *false* if not. 
 
+## Render to Texture
+
+![](../../.gitbook/assets/camera2drendertotexture2.png)
+
+
+Enabling `Render to Texture` renders the **Scene2D** from the viewpoint of the **Frame** into a texture. When enabled, the resulting texture is added to the **Asset Database** and can be used for all **Objects** which allow for textures (such as **Images**). It is removed again when the **Attribute** is disabled. 
+
+This **Attribute** can also be used to draw multiple **Scene2Ds**, combine them, or bring them into another **Scene2D**.
+
+`Anti-Aliasing` lets the user choose an anti-aliasing technique which can help improve the appearance of the texture. More information on anti-aliasing can be found [here](https://www.digitaltrends.com/computing/what-is-anti-aliasing/).
+
 ### Blending 
 
 ![Blending Attributes.](../../.gitbook/assets/figmablendingattribute.png)

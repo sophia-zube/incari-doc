@@ -1,6 +1,6 @@
 # Introduction
 
-The **Screen** section encompasses two **Nodes** that allow the user to set and get **Scenes**.
+The **Screen** section encompasses several **Nodes** that allow the user to set and get different elements of a **Screen**.
 
 # Contents
 

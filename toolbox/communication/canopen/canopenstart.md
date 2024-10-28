@@ -18,7 +18,7 @@ Again, the user must first use the **CANopen Start Node** to open the connection
 
 |Attribute|Type|Description|
 |------|---|---|
-|`Configuration`  | **Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../modules/project-settings/CANopen.md).|
+|`Configuration`  | **Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../modules/project-settings/CANopen.md).|
 
 # Inputs
 

@@ -26,7 +26,7 @@ A `DCF File` needs to be uploaded and selected. This `DCF File` is a vital part 
 
 ## See Also
 
-* [**CANopen Nodes**](../toolbox/communication/canopen/)
+* [**CANopen Nodes**](../../toolbox/communication/canopen/README.md)
 
 ## External Links
 

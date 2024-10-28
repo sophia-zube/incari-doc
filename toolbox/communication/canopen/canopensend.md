@@ -16,7 +16,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../modules/project-settings/CANopen.md). |
+|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../modules/project-settings/CANopen.md). |
 |`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Here, `PDO` has been chosen. After selecting this, `Index` and `Subindex` will provide values. |
 |`Is Custom Message`|**Bool**|Can be toggled on or off depending on whether it is a custom message or not. Toggling it on changes the `Index` and `Subindex` into editable input fields allowing values from 0-FFFF for the former and 0-255 for the latter.|
 |`Index`|**Drop-down**|The index of the signal. Values depend on which `Protocol` has been selected.|
@@ -38,6 +38,8 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
 
+{% endtab %}
+
 {% tab title="SDO" %}
 #### Overview
 
@@ -53,7 +55,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 
 |Attribute|Type|Description|
 |---|---|---|
-|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [Project Settings](../../../modules/project-settings/CANopen.md). |
+|`Configuration`|**Drop-down**|The identifying connection name that will be used, which has already been set up in the [**Project Settings**](../../../modules/project-settings/CANopen.md). |
 |`Protocol`|**Drop-down**|The desired protocol to use when sending the message. Here, `SDO` has been chosen. After selecting this, `Index` and `Subindex` will provide values. |
 |`Is Custom Message`|**Bool**|Can be toggled on or off depending on whether it is a custom message or not. Toggling it on changes the `Index` and `Subindex` into editable input fields allowing values from 0-FFFF for the former and 0-255 for the latter.|
 |`Index`|**Drop-down**|The index of the signal. Values depend on which `Protocol` has been selected.|
@@ -74,6 +76,10 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 |Output|Type|Description|
 |---|---|---|
 |*Pulse Output* (►)|**Pulse**|A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution.|
+
+{% endtab %}
+{% endtabs %}
+
 
 # See Also
 

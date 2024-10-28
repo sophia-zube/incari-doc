@@ -7,14 +7,14 @@ Many new features have been added to the release of **Incari Studio** 2024.1. He
 
 ![](../.gitbook/assets/exampleflow.gif)
 
-With **Incari Studio's** new [**Debugging Simulation**](../modules/logic-editor/logic-debugging.md) in the **Logic Editor**, following the flow of the **Logic** and finding errors has never been easier. This powerful improvmenet of **Incari's** interface allows the user to gain even more control over their **Projects** and aims to aid their creative process. 
+With **Incari Studio's** new [**Debugging Simulation**](../modules/logic-editor/logic-debugging.md) in the **Logic Editor**, following the flow of the **Logic** and finding errors has never been easier. This powerful improvement of **Incari's** interface allows the user to gain even more control over their **Projects** and aims to aid their creative process. 
 
 
 ## Localization
 
 ![](../.gitbook/assets/localizatonexample.png)
 
-An exciting new feature in **Incari Studio** is localization. This provides a means for the user to incopororate translation seamlessly within a **Project**. 
+An exciting new feature in **Incari Studio** is **Localization**. This provides a means for the user to incorporate translation seamlessly within a **Project**. 
 
 The update in the [**Project Settings**](../modules/project-settings/localization.md) starts the process, where a **Localization** file can be added. These are created in the [**Model Editor**](../modules/model-editor.md#localizations). With this, the user can access and change the data based on the *keys* and *translation attributes* using the new **Nodes**:
 
@@ -76,7 +76,13 @@ Besides new **Nodes**, this includes an update to [**Plugins**](../modules/plugi
 
 ## New Nodes and Node Updates
 
-Besides the **Nodes** related to new features that are specified above, there is one new **Node**. This applies to both **Scenes** and **Scene2Ds**. 
+Besides the **Nodes** related to new features that are specified above, there are some new **Nodes**. 
 
 
 * [**Set Overlay Scene**](../toolbox/incari/object/set-overlay-scene.md)
+* [**Get Ellipse Arc Sector**](../toolbox/incari/object/get-ellipse-arc-sector.md)
+* [**Get Ellipse Start Angle**](../toolbox/incari/object/get-ellipse-start-angle.md)
+* [**Get Inner Radius**](../toolbox/incari/object/get-inner-radius.md)
+* [**Set Ellipse Arc Sector**](../toolbox/incari/object/set-ellipse-arc-sector.md)
+* [**Set Ellipse Start Angle**](../toolbox/incari/object/set-ellipse-start-angle.md)
+* [**Set Inner Radius**](../toolbox/incari/object/set-inner-radius.md)

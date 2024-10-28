@@ -9,7 +9,6 @@ There are several **Vector Objects** that are described below:
 * [**Line**](vector.md#line)
 * [**Pie**](vector.md#pie)
 * [**Rectangle**](vector.md#rectangle)
-* [**Svg**](vector.md#svg)
 
 ![Vector Objects](../../.gitbook/assets/vectorimage120232.png)
 
