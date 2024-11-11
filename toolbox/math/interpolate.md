@@ -41,7 +41,7 @@ The following `Interpolation` **Attributes** are only available when `Alternate`
 
 | Input | Type | Description |
 | :--- | :--- | :--- |
-| `Instance ID` | **InstanceID** | The assigned **Instance** of an **Animation Block**. |
+| `Instance ID` | **InstanceID** | The assigned **ID** of an **Interpolation Instance**. |
 | `Start` | **Pulse** | **Pulse** to trigger the start of the interpolation. |
 | `Duration (s)` | **Float** | The length of time between the start and end of the interpolation. |
 | `Count` | **Int** | The number of times that the interpolation will be performed. |
@@ -54,7 +54,7 @@ The following `Interpolation` **Attributes** are only available when `Alternate`
 | Output | Type | Description |
 | :--- | :--- | :--- |
 | _Pulse Output_ \(►\) | **Pulse** | A standard **Output Pulse**, to move onto the next **Node** along the **Logic Branch**, once this **Node** has finished its execution. |
-| `Instance ID` | **InstanceID** | The previously assigned **Instance** of the **Animation Block**. |
+| `Instance ID` | **InstanceID** | The previously assigned **ID** of the **Interpolation Instance**. |
 | `Value` | _Defined in the `Data Type` **Attribute**_ | The intermediate value calculated. |
 | `OnStart` | **Pulse** | **Pulse** that gets triggered when the interpolation starts. |
 | `OnReset` | **Pulse** | **Pulse** that gets triggered when the interpolation resets. |

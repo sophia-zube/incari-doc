@@ -58,7 +58,7 @@ Clipping planes define the range that will be rendered, in relation to the posit
 
 ### Render to Texture
 
-![](../../.gitbook/assets/rendertotexture.png)
+![](../../.gitbook/assets/cameraimage320241.png)
 
 
 This **Attribute** is used to render the **Scene** from the viewpoint of the **Camera** into a texture. When enabled, the resulting texture is added to the **Asset Database** and can be used for all **Objects** which allow for textures (such as **Materials**, **Sprites**, or **Images**). It is removed again when the **Attribute** is disabled. 
