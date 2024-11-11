@@ -23,7 +23,7 @@ For installation and licensing of **Incari Studio**, please follow these steps:
 
 * In **Incari Hub**, go to the **Incari Studio** tab, under _Applications_. Here you can manage your installed versions of **Incari Studio** and install new ones.
 
-![Incari Hub with no version of Incari Studio installed.](../.gitbook/assets/incarihub5.png)
+![Incari Hub with no version of Incari Studio installed.](../.gitbook/assets/installationguide520241.png)
 
 * Press on "Install". Then you will see the available versions of **Incari Studio** to install.
 

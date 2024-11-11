@@ -18,7 +18,7 @@ There are many **Modules** available in **Incari Studio**. The user can show or 
 
 * **Modules** can be shown or hidden by right-clicking the top bar and selecting or deselecting them.
 
-![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioimage320232.png)
+![Drop-down Menu by right-clicking.](../../.gitbook/assets/incaristudioimage320241.png)
 
 * **Modules** can be hidden by clicking the `x` in the top right corner of each of them.
 
