@@ -10,11 +10,11 @@ The dimensions of the **Frame** are provided in its **Attributes**.
 
 Without any **Objects** as *children*, a **Frame** doesn't look like much:
 
-![Frame Object Before.](../../.gitbook/assets/frameimage120232.png)
+![Frame Object Before.](../../.gitbook/assets/frameimage120241.png)
 
 An **Ellipse** and **Rectangle** are now added as *children*<!--, but it's still difficult to tell the boundaries of the **Frame** visually-->. Notice the `Position` and `Size` describe these boundaries numerically. The top-left corner starts at `0,0` and it extends 100 units in both the X and Y-axes. **Objects**, however, will still appear in full outside the boundaries of the **Frame** if they happen to not be entirely encapsulated. 
 
-![Frame with Objects.](../../.gitbook/assets/frameimage220232.png)
+![Frame with Objects.](../../.gitbook/assets/frameimage220241.png)
 
 <!--## Frame Boundaries
 
@@ -35,7 +35,7 @@ If the size of a **Frame** is altered, its children are automatically affected, 
 
 ### Transformation
 
-![Transformation Attributes.](../../.gitbook/assets/frameimage320232.png)
+![Transformation Attributes.](../../.gitbook/assets/frameatts20241.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../attributes/common-attributes/transformation/README.md).
 
@@ -45,7 +45,7 @@ When `Hug Content` is selected, the size of the **Frame** is always automaticall
 
 ### Frame
 
-![Frame Attributes.](../../.gitbook/assets/frameframeatts.png)
+![Frame Attributes.](../../.gitbook/assets/frameframeatts20241.png)
 
 These **Attributes** are essential to formatting a **Frame**.
 
@@ -55,7 +55,7 @@ The `Layout` of the **Frame** can be adjusted to display its *children* horizont
 
 `Alignment` determines where the **Frame's** *children* appear within its boundaries. For example, the `Alignment` for the two **Objects** shown below is set to `Bottom Right`.
 
-![](../../.gitbook/assets/alignmentexample.png)
+![](../../.gitbook/assets/framealignmentexample20241.png)
 
 `Crop` cuts off all content which is outside of the **Frame**. However, this only applies to its *children* and not any unrelated **Objects** in the **Scene2D**.  
 
@@ -78,11 +78,11 @@ This **Attribute** can also be used to draw multiple **Scene2Ds**, combine them,
 
 `Anti-Aliasing` lets the user choose an anti-aliasing technique which can help improve the appearance of the texture. More information on anti-aliasing can be found [here](https://www.digitaltrends.com/computing/what-is-anti-aliasing/).
 
-### Blending 
+<!-- ### Blending 
 
 ![Blending Attributes.](../../.gitbook/assets/figmablendingattribute.png)
 
-This **Attribute** lets the user set a `Blend Mode` as a base property of the **Ellipse**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../toolbox/incari/object2d/setblendmode.md).
+This **Attribute** lets the user set a `Blend Mode` as a base property of the **Ellipse**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../toolbox/incari/object2d/setblendmode.md). -->
 
 ### Fill
 
@@ -92,7 +92,7 @@ If there is more than one `Fill Element`, the most recent one will take preceden
 
 ### Solid
 
-![Fill Attributes with Type Solid.](../../.gitbook/assets/figmafillattributes.png)
+![Fill Attributes with Type Solid.](../../.gitbook/assets/framefillatts20241.png)
 
 When `Solid` is selected, `Color` is visible. 
 
@@ -104,9 +104,24 @@ When `Solid` is selected, `Color` is visible.
 
 Please note that when a new `Fill` is added, it is added to the top of the *fill* list and the **Object** will be updated to display this `Fill`.
 
+### Gradient 
+
+![Fill Attributes with Type Gradient.](../../.gitbook/assets/framefillgradient20241.png) 
+
+When `Gradient` is selected, `Gradient` is visible. 
+
+* `Gradient` decides the style of gradient, which can be either `Linear`, `Radial`, `Angular`, or `Diamond`.
+  
+* The `Gradient` color selector has a row of squares going left to right as well as a column going top to bottom. These correspond 1:1 with each other, so in the image above the mustard yellow squares are the same color. The user can drag the squares in the row to change the order of the gradient's colors. Clicking anywhere in the bar will add a square in both the row and column of colors. The user can change the color of a square by clicking it, which opens the color picker. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+
 ### Image
 
-![Fill Attributes with Type Image.](../../.gitbook/assets/figmafillimageatts.png) 
+![Fill Attributes with Type Image.](../../.gitbook/assets/fillimageatts20241.png) 
 
 When `Image` is selected, `Image` and `Fit Mode` are visible. 
 
@@ -118,6 +133,43 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
+### Video
+
+![Fill Attributes with Type Video.](../../.gitbook/assets/framefillvideoatts20241.png) 
+
+When `Video` is selected, `Video` and `Fit Mode` are visible. 
+
+* `Video` is the desired **Video** file.
+  
+* `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+### Lottie
+
+![Fill Attributes with Type Lottie.](../../.gitbook/assets/framefilllottie20241.png)
+
+When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
+
+* `Lottie` is the desired **Lottie** file.
+  
+* `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+
 ### Stroke
 
 The `Stroke` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category. There are also two fixed **Attributes** outside of the `Elements`. These are:
@@ -125,7 +177,9 @@ The `Stroke` **Attributes** consist of different items called `Elements`. Each `
 * `Width`, which is how wide (in pixels) each `Stroke` will appear. This applies to each `Stroke Element`. 
 * `Position`, which determines what part of the outline identifies the outside of the **Object**. For example, if `Inner` is selected, then the outside of the `Stroke` is the outside of the **Object**. If `Center` is selected, then the `Stroke's` center is the outside of the **Object**. If `Outer` is selected, then the inside of the `Stroke` is the outside of the **Object**.
 
-![Stroke Attributes with Type Solid.](../../.gitbook/assets/figmastrokesolid.png)
+### Solid
+
+![Stroke Attributes with Type Solid.](../../.gitbook/assets/framestrokesolid20241.png)
 
 When `Solid` is selected, `Color` is visible. 
 
@@ -135,8 +189,23 @@ When `Solid` is selected, `Color` is visible.
 
 * `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
 
+### Gradient
 
-![Stroke Attributes with Type Image.](../../.gitbook/assets/figmastrokeimage.png)
+![Stroke Attributes with Type Gradient.](../../.gitbook/assets/framestrokegradient20241.png)
+
+When `Gradient` is selected, `Gradient` is visible. 
+
+* `Gradient` decides the style of gradient, which can be either `Linear`, `Radial`, `Angular`, or `Diamond`.
+  
+* The `Gradient` color selector has a row of squares going left to right as well as a column going top to bottom. These correspond 1:1 with each other, so in the image above the mustard yellow squares are the same color. The user can drag the squares in the row to change the order of the gradient's colors. Clicking anywhere in the bar will add a square in both the row and column of colors. The user can change the color of a square by clicking it, which opens the color picker. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+### Image
+
+![Stroke Attributes with Type Image.](../../.gitbook/assets/framestrokeimage20241.png)
 
 When `Image` is selected, `Image` and `Fit Mode` are visible. 
 
@@ -148,13 +217,50 @@ When `Image` is selected, `Image` and `Fit Mode` are visible.
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
+### Video
+
+![Stroke Attributes with Type Video.](../../.gitbook/assets/framestrokevideo20241.png) 
+
+When `Video` is selected, `Video` and `Fit Mode` are visible. 
+
+* `Video` is the desired **Video** file.
+  
+* `Fit Mode` determines how the **Video** is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the video in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the video repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+### Lottie
+
+![Stroke Attributes with Type Lottie.](../../.gitbook/assets/framestrokelottie20241.png)
+
+When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
+
+* `Lottie` is the desired **Lottie** file.
+  
+* `Fit Mode` determines how the **Lottie** file is displayed. These can be `Fill`, `Fit`, `Crop`, and `Tile`. `Tile` has the additional **Attribute** of `Scale Factor`, which augments the tesselation.
+   
+* Below `Fit Mode` are three options: `Play`, `Pause`, and `Stop`. `Play` starts the **Lottie** in the **Scene2D**, `Pause` halts it at the frame it is currently on, and `Stop` halts it and resets it to the beginning. 
+
+* `Loop` is a *Bool* that when toggled on, makes the **Lottie** repeat itself once it finishes. This is continous. 
+
+* Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+* `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+
 ### Mask 
 
 A **Mask** is an **Object** that shows a certain area of another **Object** while concealing the rest. Any **Object** (e.g., an **Ellipse**, **Rectangle**, **Frame**, **Group**, or **Text**) can be used as a **Mask**. 
 
 For easier visualization, think of the **Mask** as a cookie cutter while the masked **Object** is the dough: the cookie cutter shows only a part and discards the rest.
 
-![Mask Attributes.](../../.gitbook/assets/figmamaskattsreal.png)
+![Mask Attributes.](../../.gitbook/assets/framemaskatts20241.png)
 
 The `Type` **Attribute** has three options:
 
@@ -167,7 +273,7 @@ The `Type` **Attribute** has three options:
 
 `Apply Mask` is a toggle that applies the **Mask** when set to on, and disables the **Mask** when set to off. 
 
-### Style
+<!-- ### Style
 
 ![Style Attributes.](../../.gitbook/assets/framestyleatts.png)
 
@@ -181,7 +287,7 @@ To address these in the **Logic**, please refer to the [**Object 2D Nodes**](../
 
 * `CSS Classes` contain the *CSS* class names of the **Object**. 
 
-* `Stylesheet` contains the *CSS* stylesheet of the **Object**.
+* `Stylesheet` contains the *CSS* stylesheet of the **Object**.-->
 
 ### Tag 
 
