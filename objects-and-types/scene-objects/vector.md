@@ -10,39 +10,39 @@ There are several **Vector Objects** that are described below:
 * [**Pie**](vector.md#pie)
 * [**Rectangle**](vector.md#rectangle)
 
-![Vector Objects](../../.gitbook/assets/vectorimage120232.png)
+![Vector Objects](../../.gitbook/assets/vectorimage120241.png)
 
 ## Arc
 
 A **3D Object** that is a piece of a circle defined by a starting and ending degree disregarding the center and running straight through between the two selected degree points. It can be *transformed* along the X, Y, or Z axes. There are several **Nodes** attributed to **Arc Objects**, which can be found [_here_](../../toolbox/incari/vector/arc/README.md).
 
-![Arc](../../.gitbook/assets/vectorarc20232.png)
+![Arc](../../.gitbook/assets/vectorarc20241.png)
 
 ## Ellipse
 
 A circular **3D** **Object** that can be *transformed* along the X, Y, and Z axes. 
 
-![Ellipse](../../.gitbook/assets/vectorellipse20232.png)
+![Ellipse](../../.gitbook/assets/vectorellipse20241.png)
 
 ## Line
 
 A linear **3D** **Object** that can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Line Objects**, which can found [_here_](../../toolbox/incari/vector/line/README.md).
 
-![Line](../../.gitbook/assets/vectorline20232.png)
+![Line](../../.gitbook/assets/vectorline20241.png)
 
 ## Pie
 
 A **3D** **Object** that is a piece of a circle defined by a starting and ending degree and a connected point at the center of the circle. It can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Line Objects**, which can be found [_here_](../../toolbox/incari/vector/pie/README.md).
 
-![Pie](../../.gitbook/assets/vectorpie20232.png)
+![Pie](../../.gitbook/assets/vectorpie20241.png)
 
 ## Rectangle
 
 A rectangular **3D** **Object** that can be *transformed* along the X, Y, and Z axes. There are several **Nodes** attributed to **Rectangle Objects**, which can be found [_here_](../../toolbox/incari/vector/rectangle/README.md).
 
-![Rectangle](../../.gitbook/assets/vectorrectangle20232.png)
+![Rectangle](../../.gitbook/assets/vectorrectangle20241.png)
 
-## Svg
+<!--## Svg
 
 The **Svg Object** allows the user to display *.svg* files in the **Scene Outliner**. 
 
@@ -54,7 +54,7 @@ Above, the `File` **Attribute** has been highlighted for the **Svg Object**. Thi
 
 ![Svg Object after Adding Asset.](../../.gitbook/assets/vectorsvgafter20232.png)
 
-When the *.svg* file is selected, it is displayed in the viewport of the **Scene Outliner**. 
+When the *.svg* file is selected, it is displayed in the viewport of the **Scene Outliner**. -->
 
 ## External Links
 

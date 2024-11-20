@@ -20,11 +20,11 @@ For in-depth descriptions of each type of **Object**, see the [**Table of Conten
 * [`Transformation`](../attributes/common-attributes/transformation/README.md): They define the _position_ and _rotation_ of an **Object** in a **Scene2D**.
 
 
-![Object Attributes.](../../.gitbook/assets/2datteditor.png)
+![Object Attributes.](../../.gitbook/assets/scene2dobjectsobjectimage20241.png)
 
 ![Tag Attributes.](../../.gitbook/assets/attri-tag.png)
 
-![Transformation Attributes.](../../.gitbook/assets/2dtransformation.png)
+![Transformation Attributes.](../../.gitbook/assets/scene2dobjectstransformationimage20241.png)
 
 <!--
 <div>
