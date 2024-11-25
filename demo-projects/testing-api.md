@@ -322,3 +322,13 @@ if __name__ == "__main__":
 
 
 ``` 
+
+This script is connected to a **Project** which has a **Rectangle** in a **Scene2D**. 
+
+The two are connected by the *port number*, which is given with the line ` "port": 52001,`. **Incari Studio** is aware of this *port number* and deals with it automatically when the **Player** is run. 
+
+The **Logic** provided in the **Project** sets the color of the **Rectangle** to blue. The script (shown above) rotates the **Rectangle** continuously by 6 degrees while the **Player** is running. 
+
+When **Incari Player** is run from **Incari Studio**, the **Rectangle** will be blue *and* will rotate. 
+
+This shows that the **Testing API** aids in automation and can be extended to testing. 
