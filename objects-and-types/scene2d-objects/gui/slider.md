@@ -2,7 +2,7 @@
 
 The **Slider** is a **GUI** **2D Object** that allows the user to create a customizable slider selector. The customization is done through the [**Attributes**](slider.md#attributes). <!-- Its **Attributes** offer the options to customize the **Slider**. -->
 
-![Slider.](../../../.gitbook/assets/sliderimage120232.png)
+![Slider.](../../../.gitbook/assets/sliderimage120241.png)
 
 
 ## Attributes
@@ -16,7 +16,7 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 
 ### Transformation
 
-![Transformation Attributes.](../../../.gitbook/assets/sliderattstransformation.png)
+![Transformation Attributes.](../../../.gitbook/assets/dropdowntransformation20241.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
 

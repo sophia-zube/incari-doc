@@ -2,7 +2,7 @@
 
 The **Text Area** **Object** allows the user to add multiline text with a background to their **Project**. It can be completely customized in the [**Attributes**](textarea.md#attributes).
 
-![Text Area.](../../../.gitbook/assets/2dgui-textarea1.png)
+![Text Area.](../../../.gitbook/assets/textareaimage120241.png)
 
 
 ## Attributes

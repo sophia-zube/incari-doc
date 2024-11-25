@@ -4,7 +4,7 @@
 
 The **On CANopen Start Node** is an **Event Listener Node** notifying that the **CANopen** connection was successfully established, therefore enabling the user to perform actions on said connection. 
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

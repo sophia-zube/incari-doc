@@ -4,7 +4,7 @@
 
 **On CANopen Receive Node** is an **Event Listener Node** allowing the user to perform an action once a **CANopen** `Configuration` is selected from the **Drop-down Menu**.
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

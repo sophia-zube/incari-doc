@@ -84,6 +84,7 @@
       * [Global Transformations](objects-and-types/attributes/common-attributes/transformation/global.md)
       * [Local Transformations](objects-and-types/attributes/common-attributes/transformation/local.md)
     * [Tag](objects-and-types/attributes/common-attributes/tag.md)
+    * [Debug ID](objects-and-types/attributes/common-attributes/debug-id.md)
 * [Data Types](objects-and-types/data-types/README.md)
   * [Bool](objects-and-types/data-types/bool.md)
   * [Byte](objects-and-types/data-types/byte.md)
@@ -744,3 +745,4 @@
 <!--* [Widgets](demo-projects/widgets.md)-->
 * [On-Screen Keyboard](demo-projects/keyboard.md) 
 * [Skinnable Speedometer](demo-projects/skinnable-speedometer.md)
+* [Testing API](demo-projects/testing-api.md)

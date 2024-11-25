@@ -13,7 +13,7 @@ Again, the user must first use the **CANopen Stop Node** to close the connection
 
 ![CANopen Stop and On CANopen Stop Configuration.](../../../.gitbook/assets/canopenstopconfig.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
