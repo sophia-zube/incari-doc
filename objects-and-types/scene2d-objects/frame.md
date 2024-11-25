@@ -84,7 +84,7 @@ This **Attribute** can also be used to draw multiple **Scene2Ds**, combine them,
 
 This **Attribute** lets the user set a `Blend Mode` as a base property of the **Ellipse**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../toolbox/incari/object2d/setblendmode.md). -->
 
-### Fill
+## Fill
 
 The `Fill` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category.
 
@@ -170,7 +170,7 @@ When `Lottie` is selected, `Lottie` and `Fit Mode` are visible.
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
 
 
-### Stroke
+## Stroke
 
 The `Stroke` **Attributes** consist of different items called `Elements`. Each `Element` contains a `Type`. This can be either `Solid` or `Image` and changes some of the available **Attributes** under this category. There are also two fixed **Attributes** outside of the `Elements`. These are:
 

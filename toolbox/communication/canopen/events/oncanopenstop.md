@@ -4,7 +4,7 @@
 
 The **On CANopen Stop Node** is an **Event Listener Node** allowing the user to perform an action once a **CANopen** process has ended.
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

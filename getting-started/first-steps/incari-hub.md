@@ -58,7 +58,7 @@ Please note that if an existing **Project** was made with a previous version of 
 
 Under *Incari Player*, one can add specific versions of the **Incari Player** for different platforms. This is essential to successfully export **Projects** which utilize different *Target Platforms*, such as *Linux*. The **Incari Player** added should match the *Target* type eventually selected in the [**Exporter**](../../modules/exporter.md) (it must first be added in the **Hub** to be useable in the **Exporter** of a **Project**).
 
-![Applications: Incari Player](../../.gitbook/assets/incarihubincariplayer.png)
+![Applications: Incari Player](../../.gitbook/assets/hubimage20241.png)
 
 
 After adding a **Player**, it will appear like this in the **Hub**:
@@ -100,4 +100,4 @@ It is possible to choose a proxy server. This means, for example, if there is a 
 
 They can also connect to repositories using the `Add Endpoint` feature. **Projects** in this repository namespace will appear as an option in the upper right corner on the *Remote Projects* section.
 
-![](../../.gitbook/assets/incarihubvsinstalled.png)
+![](../../.gitbook/assets/incarihublastimage20241.png)

@@ -2,7 +2,7 @@
 
 The **Dropdown** is a **GUI** **2D Object** that allows the user to create a *dropdown menu*. The options in the menu, together with the colors and size, can be customized in the [**Attributes**](dropdown.md#attributes).
 
-![Dropdown GUI Object.](../../../.gitbook/assets/dropdownimage120232.png)
+![Dropdown GUI Object.](../../../.gitbook/assets/dropdownimage120241.png)
 
 
 ## Attributes
@@ -13,12 +13,12 @@ The **Object's** **Attributes** can be used to fully customize the **Object**. E
 * [**Dropdown**](dropdown.md#dropdown)
 * [**Text**](dropdown.md#text)
 * [**Font**](dropdown.md#)
-* [**Code**](dropdown.md#code)
+* [**Style**](dropdown.md#style)
 * [**Tag**](dropdown.md#tag)
 
 ### Transformation
 
-![Transformation Attributes.](../../../.gitbook/assets/dropdownattstransformation.png)
+![Transformation Attributes.](../../../.gitbook/assets/dropdowntransformation20241.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
 
@@ -40,7 +40,7 @@ In the above image, because the `Active index` is set to 0, 'one' would be eleme
 
 ### Text
 
-![Text Attributes.](../../../.gitbook/assets/dropdownattstext.png)
+![Text Attributes.](../../../.gitbook/assets/dropdowntext20241.png)
 
 The `Text` **Attributes** customize the textual elements of a **Dropdown**. 
 
@@ -87,11 +87,11 @@ This **Attribute** manages the *tags* for the **Dropdown**. See more on *tags* [
 
 The following is a simple example of a **Dropdown** with three options:
 
-![Dropdown.](../../../.gitbook/assets/gui-dropdown1.png)
+![Dropdown.](../../../.gitbook/assets/dropdownimage3rdtolast20241.png)
 
 The `Options` **Attribute** defines the options in the **Dropdown**:
 
-![Options Attributes.](../../../.gitbook/assets/gui-dropdown-options.png)
+![Options Attributes.](../../../.gitbook/assets/dropdown2ndtolast20241.png)
 
 Finally, this **Dropdown** looks like this when the **Project** is run:
 

@@ -4,13 +4,13 @@
 
 THe **CANopen Start Node** starts communication with a **CANopen** connection that has already been set up in [**Project Settings**](../../../modules/project-settings/CANopen.md).
 
-It is important to note that while the **CANopen Start Node** starts a **CAN** connection, it may not completely finish establishing said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On CANopen Start Node**](events/oncanopenstart.md) instead. This way, the **Logic** will only execute once the **CANopen** connection has definitely been established.
+It is important to note that while the **CANopen Start Node** starts a **CANopen** connection, it may not completely finish establishing said connection when the **Node** is executed. This could lead to the **Logic** attached to its **Output Pulse** to not work even though there is technically nothing wrong. In order to avoid this, it is highly suggested to use the [**On CANopen Start Node**](events/oncanopenstart.md) instead. This way, the **Logic** will only execute once the **CANopen** connection has definitely been established.
 
 Again, the user must first use the **CANopen Start Node** to open the connection. Separately, the **On CANopen Start Node** can be used to execute the desired **Communication Logic**.
 
 ![CANopen Start and On CANopen Start Configuration.](../../../.gitbook/assets/canopenstartexample.png)
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 

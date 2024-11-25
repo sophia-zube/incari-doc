@@ -2,9 +2,9 @@
 
 The **Button** **GUI** **Object** is a simple icon to attach **Logic** to. It can be configured so that something occurs when it is clicked in tandem with using the [**Mouse Nodes**](../../../toolbox/events/mouse/README.md). A **Button's** text, placement, and size can be altered using the [**Attributes**](button.md#attributes). 
 
-![Button.](../../../.gitbook/assets/buttonimage120232.png)
+![Button.](../../../.gitbook/assets/buttonimage120241.png)
 
-![Button with Text.](../../../.gitbook/assets/buttonimage220232.png)
+![Button with Text.](../../../.gitbook/assets/buttonimage220241.png)
 
 
 ## Attributes
@@ -25,7 +25,7 @@ The `Transformation` **Attributes** deal with placement, rotation, and size in *
 
 ### Text
 
-![Text Attributes.](../../../.gitbook/assets/buttonattstext.png)
+<!--![Text Attributes.](../../../.gitbook/assets/buttonattstext.png)-->
 
 The `Text` **Attributes** customize the textual elements of a **Button**.
 

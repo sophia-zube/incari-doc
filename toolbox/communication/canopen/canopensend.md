@@ -8,7 +8,7 @@ This **Node** has different versions depending on which `Protocol` is selected. 
 
 The **CANopen Send Node** is used to send a message once a **CANopen** connection has been selected from the **Drop-down Menu**. Here, the *PDO* `protocol` has been chosen. 
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
@@ -47,7 +47,7 @@ The **CANopen Send Node** is used to send a message once a **CANopen** connectio
 
 The **CANopen Send Node** is used to send a message once a **CANopen** connection has been selected from the **Drop-down Menu**. Here, the *SDO* `Protocol` has been chosen. 
 
-[**Scope**](../overview.md#scopes): **Project**, **Scene**.
+[**Scope**](../../overview.md#scopes): **Project**, **Scene**.
 
 # Attributes
 
