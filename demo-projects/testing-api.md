@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This **Testing API** gives the user everything required to understand the tools necessary for creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
+This **Testing API** gives the user everything required to understand the tools necessary for automating as well as creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
 
 * [**Requirements**](testing-api.md#requirements)
 * [**Types**](testing-api.md#types)
@@ -15,13 +15,13 @@ It is mandatory to install *Python* to access the **incari Module**, as tests wi
 
 ### Installation Requirements
 
-Python version: 
+*Python* version: 
 
-* 3.10.6, which can be installed [here](https://www.python.org/downloads/release/python-3106/).
+* *3.10.6*, which can be installed [here](https://www.python.org/downloads/release/python-3106/).
 
 ### Adding the PATH
 
-A *PATH* is an environment variable which is required for *Python* to function. More on *PATHs* can be found [here](https://en.wikipedia.org/wiki/PATH_(variable)). 
+*PYTHONPATH* is a type of *PATH*, which is an environment variable, and is required for *Python* to function. More on *PATHs* can be found [here](https://en.wikipedia.org/wiki/PATH_(variable)). 
 
 To make the *PATH* permanently available:
 
@@ -40,7 +40,7 @@ To make the *PATH* permanently available:
 
 * Click `OK` to save and close all windows.
 
-* Finally, restart the *Command Prompt* or *IDE* for the changes to take effect.
+* Finally, if applicable, restart the *Command Prompt* or *IDE* for the changes to take effect.
 
 ## Types
 
