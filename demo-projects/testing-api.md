@@ -131,4 +131,194 @@ The *Keyboard Methods* are described below.
 
 ## Template
 
+The following template provides all the method definitions in the **incari Module**. 
+
+Please note that to use the **incari Module** in *Python*, one needs to first use `import incari` to import the **Module**.
+
+```
+import incari
+def set_up(ip, port):
+    """
+    eg: (ip, port) = ("127.0.0.1", 52001)
+    """
+    intercom = incari.Intercom(ip, port)
+    return intercom
+def get_screen(screen_id, intercom):
+    """
+    screen_id: string
+    intercom: returned from set_up()
+    """
+    screen = intercom.get_screen_by_id(incari.UUID(screen_id))
+    return screen
+def get_scene(scene_id, intercom):
+    """
+    screen_id: string
+    intercom: returned from set_up()
+    """
+    scene = intercom.get_scene_by_id(incari.UUID(scene_id))
+    return scene
+def get_mouse(screen):
+    """
+    screen: returned from get_screen()
+    """
+    mouse = screen.get_mouse()
+    return mouse
+def get_keyboard(screen):
+    """
+    screen: returned from get_screen()
+    """
+    keyboard = screen.get_keyboard()
+    return keyboard
+def mouse_click_left(mouse, x, y):
+    """
+    Mouse click on Left button.
+    x, y: are the exact position to click
+    """
+    mouse.move(incari.Vec2(x, y))
+    mouse.press(incari.Mouse.Button.LEFT)
+    mouse.release(incari.Mouse.Button.LEFT)
+def mouse_click_right(mouse, x, y):
+    """
+    Mouse click on right button.
+    x, y: are the exact position to click
+    """
+    mouse.move(incari.Vec2(x, y))
+    mouse.press(incari.Mouse.Button.RIGHT)
+    mouse.release(incari.Mouse.Button.RIGHT)
+def swipe_leftbutton(mouse, x1, y1, x2, y2):
+    '''
+    swiping from (x1, y1) to (x2, y2) using left mouse button
+    '''
+    mouse.move(incari.Vec2(x1, y1))
+    mouse.press(incari.Mouse.Button.LEFT)
+    time.sleep(0.1)
+    mouse.move(incari.Vec2(x2, y2))
+    mouse.release(incari.Mouse.Button.LEFT)
+def long_press_mouse_left(mouse, x, y):
+    """
+    long Mouse click on Left button.
+    x, y: the exact position where to click
+    """
+    mouse.move(incari.Vec2(x, y))
+    mouse.press(incari.Mouse.Button.LEFT)
+    time.sleep(1)
+    mouse.release(incari.Mouse.Button.LEFT)
+# Class IncariObject_Ext is a wrapper class for IncariObject returned from get_object().
+# It contains additional methods to interact with the object.
+# It takes an IncariObject as an argument.   
+class IncariObject_Ext:
+    def __init__(self, incari_object):
+        self.incari_object = incari_object
+    def getPosition(self):
+        pos_vec = self.incari_object.get_property("_currentPosition") # incari.vector in format <Vec2: x=0, y=0>
+        return (int(pos_vec.x), int(pos_vec.y))
+    def setPosition(self, x, y):
+        self.incari_object.set_property("_currentPosition", f"({x} {y})")
+    def getRotation(self):
+        return self.incari_object.get_property("_currentRotation")
+    def setRotation(self, rotation):
+        self.incari_object.set_property("_currentRotation", rotation)
+    def getText(self):
+        return self.incari_object.get_property("_text").get_text()
+    def getOpacity(self):
+        return self.incari_object.get_property("_currentOpacity")
+    def setOpacity(self, opacity):
+        self.incari_object.set_property("_currentOpacity", opacity)
+    def getVisibility(self):
+        return self.incari_object.get_property("_enabled")
+    def getSize(self):
+        size = self.incari_object.get_property("_currentSize") # incari.vector in format <Vec2: x=0, y=0>
+        return (int(size.x), int(size.y))
+    def getName(self):
+        name = self.incari_object.get_property("_name")
+        return name
+    def getId(self):
+        return self.incari_object.get_id()
+
+```
+
 ## Example
+
+To better clarify how to use the **Incari Testing API**, here is an example use-case: 
+
+```
+
+def rotate_object_with_mouse_and_keyboard(object_ext, mouse, keyboard):
+    """
+    Rotate an object continuously, interacting with mouse and keyboard.
+    Args:
+        object_ext (IncariObjectExt): The extended Incari object.
+        mouse: Mouse object.
+        keyboard: Keyboard object.
+    """
+    rotation = object_ext.get_rotation()
+    press_mouse, press_key = True, True
+
+    try:
+        while True:
+            rotation += 6.0
+            object_ext.set_rotation(rotation)
+
+            if press_mouse:
+                mouse.press(incari.Mouse.Button.LEFT)
+            else:
+                mouse.release(incari.Mouse.Button.LEFT)
+
+            if press_key:
+                keyboard.press(incari.Keyboard.Key.KEY_A)
+            else:
+                keyboard.release(incari.Keyboard.Key.KEY_A)
+
+            press_mouse = not press_mouse
+            press_key = not press_key
+
+            time.sleep(0.5)
+    except KeyboardInterrupt:
+        print("Rotation loop interrupted by user.")
+
+
+# Configuration
+config = {
+    "ip": "127.0.0.1",
+    "port": 52001,
+    "screen_id": "c967b33f-67fd-4cf1-936a-0bbf4db9931f",
+    "scene_id": "31983131-4aba-403e-b97b-656fd5df51d2",
+    "object_id": "dedc4c26-6a8b-4a7c-b786-4c6db7bd5c8c",
+}
+
+# Setup and execution
+if __name__ == "__main__":
+    intercom = set_up(config["ip"], config["port"])
+    screen = get_screen(config["screen_id"], intercom)
+    scene = get_scene(config["scene_id"], intercom)
+    incari_object = scene.get_object_by_id(incari.UUID(config["object_id"]))
+    object = IncariObject(incari_object)
+
+    mouse = get_mouse(screen)
+    keyboard = get_keyboard(screen)
+
+    print("Starting rotation...")
+    rotation = object.get_rotation()
+    press_mouse, press_key = True, True
+
+    while True:
+        rotation += 6.0
+        object.set_rotation(rotation)
+
+        if press_mouse:
+            mouse.press(incari.Mouse.Button.LEFT)
+        else:
+            mouse.release(incari.Mouse.Button.LEFT)
+
+        if press_key:
+            keyboard.press(incari.Keyboard.Key.KEY_A)
+        else:
+            keyboard.release(incari.Keyboard.Key.KEY_A)
+
+        press_mouse = not press_mouse
+        press_key = not press_key
+
+        time.sleep(0.5)
+
+
+``` 
