@@ -265,6 +265,74 @@ class IncariObject:
         
 ``` 
 
+## Example
+
+To better clarify how to use the **Python Testing API**, here is an example use-case: 
+
+```
+def rotate_object_with_mouse_and_keyboard(object, mouse, keyboard):
+    """
+    Rotate an object continuously, interacting with mouse and keyboard.
+    Args:
+        object (IncariObject): The extended Incari object.
+        mouse: Mouse object.
+        keyboard: Keyboard object.
+    """
+    rotation = object.get_rotation()
+    press_mouse, press_key = True, True
+    try:
+        while True:
+            rotation += 6.0
+            object.set_rotation(rotation)
+            if press_mouse:
+                mouse.press(incari.Mouse.Button.LEFT)
+            else:
+                mouse.release(incari.Mouse.Button.LEFT)
+            if press_key:
+                keyboard.press(incari.Keyboard.Key.KEY_A)
+            else:
+                keyboard.release(incari.Keyboard.Key.KEY_A)
+            press_mouse = not press_mouse
+            press_key = not press_key
+            time.sleep(0.5)
+    except KeyboardInterrupt:
+        print("Rotation loop interrupted by user.")
+# Configuration
+config = {
+    "ip": "127.0.0.1",
+    "port": 52001,
+    "screen_id": "c967b33f-67fd-4cf1-936a-0bbf4db9931f",
+    "scene_id": "31983131-4aba-403e-b97b-656fd5df51d2",
+    "object_id": "dedc4c26-6a8b-4a7c-b786-4c6db7bd5c8c",
+}
+# Setup and execution
+if __name__ == "__main__":
+    intercom = set_up(config["ip"], config["port"])
+    screen = get_screen(config["screen_id"], intercom)
+    scene = get_scene(config["scene_id"], intercom)
+    incari_object = scene.get_object_by_id(incari.UUID(config["object_id"]))
+    object = IncariObject(incari_object)
+    mouse = get_mouse(screen)
+    keyboard = get_keyboard(screen)
+    print("Starting rotation...")
+    rotation = object.get_rotation()
+    press_mouse, press_key = True, True
+    while True:
+        rotation += 6.0
+        object.set_rotation(rotation)
+        if press_mouse:
+            mouse.press(incari.Mouse.Button.LEFT)
+        else:
+            mouse.release(incari.Mouse.Button.LEFT)
+        if press_key:
+            keyboard.press(incari.Keyboard.Key.KEY_A)
+        else:
+            keyboard.release(incari.Keyboard.Key.KEY_A)
+        press_mouse = not press_mouse
+        press_key = not press_key
+        time.sleep(0.5)
+``` 
+
 To follow along, please create a **Project** which contains a **Rectangle** in a **Scene2D** as well as copy and paste the above script to the desired *Python* location. In addition, recreate the **Logic** shown below in the **Logic Editor**. 
 
 ![](../.gitbook/assets/testingapilogicexample.png)
@@ -289,4 +357,4 @@ should be changed to what is displayed in the [**Debug IDs**](../objects-and-typ
 
 When **Incari Player** is run from **Incari Studio**, the **Rectangle** will be blue *and* will rotate. The **Player** *must* be run before running the script. 
 
-This shows that the **Python Testing API** aids in automation and can be extended to testing. 
+This shows that the **Python Testing API** aids in automation and can be extended to testing.
