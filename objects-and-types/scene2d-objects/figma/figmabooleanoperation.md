@@ -2,12 +2,12 @@
 
 The **Boolean Operation** in **Incari** provides similar functionality as its equivalent in *Figma*. It acts as *parent* to its *child* **Objects**. Any visual aspects are controlled completely by the **Boolean Operation**; the visual properties of the *children* do not have any precendent, such as a *child's* `Fill`. 
 
-![Boolean Operation.](../../../.gitbook/assets/booleanoperationimage120232.png)
+![Boolean Operation.](../../../.gitbook/assets/booleanoperation20241.png)
 
 There are several **Attributes** which allow the user heightened customizability and control. 
 
+* [**Object**](figmabooleanoperation.md#object)
 * [**Transformation**](figmabooleanoperation.md#transformation)
-* [**Blending**](figmabooleanoperation.md#blending)
 * [**Fill**](figmabooleanoperation.md#fill)
 * [**Stroke**](figmabooleanoperation.md#stroke)
 * [**Effects**](figmabooleanoperation.md#effects)
@@ -18,17 +18,20 @@ There are several **Attributes** which allow the user heightened customizability
 # Attributes
 
 
+## Object 
+
+![Blend Mode.](../../../.gitbook/assets/objectattsscene2dblendmode.png)
+
+Besides `Name`, `Type`, and `Opacity`, which appear for every **Object** in **Incari**, the `Object` **Attributes** include `Blend Mode`. 
+
+This **Attribute** lets the user set a `Blend Mode` as a base property of the **Boolean Operation**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
+
+
 ## Transformation
 
 ![Transformation Attributes.](../../../.gitbook/assets/buttonattstransformation.png)
 
 The `Transformation` **Attributes** deal with placement, rotation, and size in *XY* space. More information can be found [here](../../attributes/common-attributes/transformation/README.md).
-
-## Blending
-
-![Blending Attributes.](../../../.gitbook/assets/figmablendingattribute.png)
-
-This **Attribute** lets the user set a `Blend Mode` as a base property of the **Ellipse**. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). An **Object's** `Blend Mode` can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 
 ## Fill
@@ -98,6 +101,12 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
 * Similar to the base property described previously, `Blend Mode` here affects the `Fill Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Fill` appears. This is represented by an integer between 0 and 1.
+
+When `Video` is selected, a new **Attibute** appears in a new **Attribute** section called `Video`. 
+
+![Video Preload Attribute.](../../../.gitbook/assets/videopreloadatt20241.png)
+
+This is `Preload`, which is a **Bool**. When enabled, memory is used on **Project** initializaton and there will be no delay on first play. When disabled, less memory will be used and there will be a small delay on first play.  
 
 ### Lottie
 
@@ -182,6 +191,12 @@ When `Video` is selected, `Video` and `Fit Mode` are visible.
 * Similar to the base property described previously, `Blend Mode` here affects the `Stroke Elements` only. These are established on common formulas, examples of each can be accessed [here](http://www.simplefilter.de/en/basics/mixmods.html). It can also be set with the [**Set Blend Mode Node**](../../../toolbox/incari/object2d/setblendmode.md).
 
 * `Opacity` refers to how opaque or transparent the `Stroke` appears. This is represented by an integer between 0 and 1.
+
+When `Video` is selected, a new **Attibute** appears in a new **Attribute** section called `Video`. 
+
+![Video Preload Attribute.](../../../.gitbook/assets/videopreloadatt20241.png)
+
+This is `Preload`, which is a **Bool**. When enabled, memory is used on **Project** initializaton and there will be no delay on first play. When disabled, less memory will be used and there will be a small delay on first play. 
 
 ### Lottie
 

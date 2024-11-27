@@ -135,7 +135,7 @@ In the _JavaScript_ code above, the `replaceBook` function allows us to replace 
 
 The **Font Attributes** control customizable settings of the **List's** font. `Font Family` allows one to select a generic font family (`Manrope` or `Source Code Pro`) or a custom font that has been added in [**Project Settings**](../../../modules/project-settings/fonts.md#variable-fonts).
 
-**List** **Objects** are capable of handling *variable fonts* and let the user configure certain aspects, called `Parameters`. 
+**List** **Objects** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts) and let the user configure certain aspects, called `Parameters`. 
 
 ### Generate List
 

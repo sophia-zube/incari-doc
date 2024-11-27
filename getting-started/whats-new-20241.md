@@ -29,6 +29,12 @@ The update in the [**Project Settings**](../modules/project-settings/localizatio
   * [**Set Translation Attribute**](../toolbox/localization/settranslationattribute.md)
   * [**Set Translation Key**](../toolbox/localization/settranslationkey.md)
 
+## Python Testing API
+
+**Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** that have been created externally. 
+
+To learn more about this new tool and try out a simple use-case, check out the documentation [here](../demo-projects/testing-api.md).
+
 ## Environment Lighting
 
 ![](../.gitbook/assets/sceneenvlightinggif2.gif)

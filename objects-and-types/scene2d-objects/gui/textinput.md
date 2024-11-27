@@ -42,7 +42,7 @@ The **Text Attributes** offer the user options to customize the **Text**:
 
 ![Font Attributes.](../../../.gitbook/assets/textinputfontatts20232.png)
 
-The **Font Attributes** offer the user options to customize the **Text's** font. Please note that while **Text Inputs** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts), only the default style will be used, as the configurable **Attributes** are not available for this **Object**.
+The **Font Attributes** offer the user options to customize the **Text Input's** font. Please note that while **Text Inputs** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts), only the default style will be used, as the configurable **Attributes** are not available for this **Object**.
 
 * `Family` offers three different font types: `Manrope` and `Source Code Pro`. More fonts can be added by the user in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
