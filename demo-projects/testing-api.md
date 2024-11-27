@@ -337,12 +337,12 @@ To follow along, please create a **Project** which contains a **Rectangle** in a
 
 ![](../.gitbook/assets/testingapilogicexample.png)
 
-This will set the color of the **Rectangle** to blue when `A` is pressed. 
+This will set the color of the **Rectangle** to blue if `A` is pressed. 
 
 
 The **Incari Project** and script are connected by the *port number*, which is given with the line ` "port": 52001,`. **Incari Studio** is aware of this *port number* and deals with it automatically when the **Player** is run. 
 
-The script (shown above) rotates the **Rectangle** by 6 degrees when `A` is pressed while the **Player** is running. 
+The script (shown above) continously rotates the **Rectangle** by 6 degrees while the **Player** is running. It also executes the key press in the **Logic** without requiring the user to physically press `A`. While the **Logic** is capable of this, the provided script handles the action required for the color change. 
 
 
 Furthermore, the alphanumerics shown in the script lines describing the various **IDs** as:
