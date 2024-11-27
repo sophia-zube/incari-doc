@@ -1,8 +1,10 @@
-# Testing API
+# Python Testing API
 
 ## Introduction
 
-This **Testing API** gives the user everything required to understand the tools necessary for automating as well as creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
+**Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** created externally. 
+
+The **Python Testing API** gives the user everything required to understand the tools necessary for automating as well as creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
 
 * [**Requirements**](testing-api.md#requirements)
 * [**Types**](testing-api.md#types)
@@ -23,7 +25,7 @@ It is mandatory to install *Python* to access the **incari Module**, as tests wi
 
 *PYTHONPATH* is a type of *PATH*, which is an environment variable, and is required for *Python* to function. More on *PATHs* can be found [here](https://en.wikipedia.org/wiki/PATH_(variable)). 
 
-To make the *PATH* permanently available:
+To make the *PATH* permanently available in *Windows*:
 
 
 * Press `Win + R`, type `sysdm.cpl`, and press `Enter`
@@ -61,17 +63,17 @@ The types are:
 
 ### Object
 
-The **Object** *Methods* are described below. The `property.Name:Strings` are given in the [**Properties**](testing-api.md#properties) section. 
+The **Object** *Methods* are described below. The `propertyName:Strings` are given in the [**Properties**](testing-api.md#properties) section. 
 
 | Method Name | Method Usage | Parameter | Return Type| Method Definition|
 | :--- | :--- | :--- | :--- | :--- |
 |  `get_id`    | `object.get_id()`     |    --  | `incari.UUID`    |`get_id` returns the [**Debug ID** ](../objects-and-types/attributes/common-attributes/debug-id.md) of an **Object**.| 
-| `get_property`     |  `object.get_property("propertyName")`    |   `propertyName:String`   | *value*    | `get_property` returns the value of the chosen [**Property**](testing-api.md#properties) of an **Object**.   |
-|  `set_property`    | `object.set_property("propertyName", value)`     |`propertyName:String, value`      | --    |  `set_property` allows the user to set a *value* for a certain [**Property**](testing-api.md#properties).  |
+| `get_property`     |  `object.get_property("propertyName")`    |   `propertyName:String`   | *value*    | `get_property` returns the value of the chosen [**Property**](testing-api.md#properties) of an **Object**. The returned *value* is of the *type* of the desired **Property**. This *type* is displayed in the **Property** table in the next section under **Type** (for example, `Name` is a **String**).|
+|  `set_property`    | `object.set_property("propertyName", value)`     |`propertyName:String, value`      | --    |  `set_property` allows the user to set a *value* for a certain [**Property**](testing-api.md#properties). The second parameter `value` is of the *type* of the desired **Property**. This *type* is displayed in the **Property** table in the next section under **Type** (for example, `Name` is a **String**). |
 
 #### Properties
 
-The **Property Names** which correspond to the `property:Name:Strings` given in the section above.
+The **Property Names** which correspond to the `propertyName:Strings` given in the section above.
 
 | Property | Property Name| Type | Property Definition| 
 | :--- | :--- | :--- | :--- | 
@@ -114,7 +116,7 @@ The *Mouse Methods* are described below.
 | Method Name | Method Usage | Parameter | Return Type| Method Definition|
 | :--- | :--- | :--- | :--- | :--- |
 | `move`     |  `mouse.move(incari.Vec2(x,y))`    |  `incari.Vec2(x1,y1)`    |  --    |   `move` chooses where the **Mouse** should move to.    |
-|  `press`    | `mouse.press(incari.Mouse.Button.X)`     | `X` = `incari.Mouse.Button.LEFT` OR `incari.Mouse.Button.RIGHT`     |  --    |  `press` defines if a **Mouse** click is *left* or *right*.    |
+|  `press`    | `mouse.press(incari.Mouse.Button.X)`     | `X` = `incari.Mouse.Button.LEFT` OR `incari.Mouse.Button.RIGHT`     |  --    |  `press` defines if a **Mouse** press is *left* or *right*.    |
 | `release`     |  `mouse.release(incari.Mouse.Button.X)`    | `X` = `incari.Mouse.Button.LEFT` OR `incari.Mouse.Button.RIGHT`     |  --    |  `release` defines if a **Mouse** release is *left* or *right*.   |
 
 
@@ -133,7 +135,7 @@ The *Keyboard Methods* are described below.
 
 The following template provides all the method definitions in the **incari Module**. 
 
-Please note that to use the **incari Module** in *Python*, one needs to first use `import incari` to import the **Module**.
+Please note that to use the **incari Module** in *Python*, one needs to makes sure all requirements are met (as mentioned [above](testing-api.md#requirements)). Additionally, it is imperative to first use `import incari` to import the **Module**.
 
 ```
 import incari
@@ -239,7 +241,7 @@ class IncariObject_Ext:
 
 ## Example
 
-To better clarify how to use the **Incari Testing API**, here is an example use-case: 
+To better clarify how to use the **Python Testing API**, here is an example use-case: 
 
 ```
 
@@ -323,12 +325,28 @@ if __name__ == "__main__":
 
 ``` 
 
-This script is connected to a **Project** which has a **Rectangle** in a **Scene2D**. 
+To follow along, please create a **Project** which contains a **Rectangle** in a **Scene2D** as well as copy and paste the above script to the desired *Python* location. In addition, recreate the **Logic** shown below in the **Logic Editor**. 
 
-The two are connected by the *port number*, which is given with the line ` "port": 52001,`. **Incari Studio** is aware of this *port number* and deals with it automatically when the **Player** is run. 
+![](../.gitbook/assets/testingapilogicexample.png)
 
-The **Logic** provided in the **Project** sets the color of the **Rectangle** to blue. The script (shown above) rotates the **Rectangle** continuously by 6 degrees while the **Player** is running. 
+This will set the color of the **Rectangle** to blue when `A` is pressed. 
 
-When **Incari Player** is run from **Incari Studio**, the **Rectangle** will be blue *and* will rotate. 
 
-This shows that the **Testing API** aids in automation and can be extended to testing. 
+The **Incari Project** and script are connected by the *port number*, which is given with the line ` "port": 52001,`. **Incari Studio** is aware of this *port number* and deals with it automatically when the **Player** is run. 
+
+The script (shown above) rotates the **Rectangle** by 6 degrees when `A` is pressed while the **Player** is running. 
+
+
+Furthermore, the alphanumerics shown in the script lines describing the various **IDs** as:
+
+```
+  "screen_id": "c967b33f-67fd-4cf1-936a-0bbf4db9931f",
+  "scene_id": "31983131-4aba-403e-b97b-656fd5df51d2",
+  "object_id": "dedc4c26-6a8b-4a7c-b786-4c6db7bd5c8c",
+```
+
+should be changed to what is displayed in the [**Debug IDs**](../objects-and-types/attributes/common-attributes/debug-id.md) of the respective object types in the **Project** previously created by the user (i.e. the **ID** of the **Project's** **Screen**, **Scene2D**, and **Rectangle**)
+
+When **Incari Player** is run from **Incari Studio**, the **Rectangle** will be blue *and* will rotate. The **Player** *must* be run before running the script. 
+
+This shows that the **Python Testing API** aids in automation and can be extended to testing. 

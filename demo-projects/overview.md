@@ -15,6 +15,6 @@ The available **Demo Projects** are:
 * [**On-Screen Keyboard**](keyboard.md)
 * [**Skinnable Speedometer**](skinnable-speedometer.md) 
 
-Additionally, as of version *2024.1*, the page [**Testing API**] gives all the information you need to start writing your own tests in *Python* for your **Incari Projects**! 
+Additionally, as of version *2024.1*, the page [**Python Testing API**] gives all the information you need to start writing your own tests in *Python* for your **Incari Projects**! 
 
-* [**Testing API**](testing-api.md)
+* [**Python Testing API**](testing-api.md)
