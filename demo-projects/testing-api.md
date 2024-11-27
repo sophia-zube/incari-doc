@@ -244,41 +244,33 @@ class IncariObject_Ext:
 To better clarify how to use the **Python Testing API**, here is an example use-case: 
 
 ```
-
-def rotate_object_with_mouse_and_keyboard(object_ext, mouse, keyboard):
+def rotate_object_with_mouse_and_keyboard(object, mouse, keyboard):
     """
     Rotate an object continuously, interacting with mouse and keyboard.
     Args:
-        object_ext (IncariObjectExt): The extended Incari object.
+        object (IncariObject): The extended Incari object.
         mouse: Mouse object.
         keyboard: Keyboard object.
     """
-    rotation = object_ext.get_rotation()
+    rotation = object.get_rotation()
     press_mouse, press_key = True, True
-
     try:
         while True:
             rotation += 6.0
-            object_ext.set_rotation(rotation)
-
+            object.set_rotation(rotation)
             if press_mouse:
                 mouse.press(incari.Mouse.Button.LEFT)
             else:
                 mouse.release(incari.Mouse.Button.LEFT)
-
             if press_key:
                 keyboard.press(incari.Keyboard.Key.KEY_A)
             else:
                 keyboard.release(incari.Keyboard.Key.KEY_A)
-
             press_mouse = not press_mouse
             press_key = not press_key
-
             time.sleep(0.5)
     except KeyboardInterrupt:
         print("Rotation loop interrupted by user.")
-
-
 # Configuration
 config = {
     "ip": "127.0.0.1",
@@ -287,7 +279,6 @@ config = {
     "scene_id": "31983131-4aba-403e-b97b-656fd5df51d2",
     "object_id": "dedc4c26-6a8b-4a7c-b786-4c6db7bd5c8c",
 }
-
 # Setup and execution
 if __name__ == "__main__":
     intercom = set_up(config["ip"], config["port"])
@@ -295,34 +286,25 @@ if __name__ == "__main__":
     scene = get_scene(config["scene_id"], intercom)
     incari_object = scene.get_object_by_id(incari.UUID(config["object_id"]))
     object = IncariObject(incari_object)
-
     mouse = get_mouse(screen)
     keyboard = get_keyboard(screen)
-
     print("Starting rotation...")
     rotation = object.get_rotation()
     press_mouse, press_key = True, True
-
     while True:
         rotation += 6.0
         object.set_rotation(rotation)
-
         if press_mouse:
             mouse.press(incari.Mouse.Button.LEFT)
         else:
             mouse.release(incari.Mouse.Button.LEFT)
-
         if press_key:
             keyboard.press(incari.Keyboard.Key.KEY_A)
         else:
             keyboard.release(incari.Keyboard.Key.KEY_A)
-
         press_mouse = not press_mouse
         press_key = not press_key
-
         time.sleep(0.5)
-
-
 ``` 
 
 To follow along, please create a **Project** which contains a **Rectangle** in a **Scene2D** as well as copy and paste the above script to the desired *Python* location. In addition, recreate the **Logic** shown below in the **Logic Editor**. 
