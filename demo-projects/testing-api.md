@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** created externally. 
+**Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** that have been created externally. 
 
 The **Python Testing API** gives the user everything required to understand the tools necessary for automating as well as creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
 

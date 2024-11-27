@@ -32,7 +32,7 @@ With **Camera**, `Resolution` relates to the resolution of a _physical_ piece of
 
 ## Font Family
 
-`Font Family` allows one to select a generic font family \(`Manrope` or  `Source Code Pro`\) or a custom font that has been added in [**Project Settings**](../../modules/project-settings/fonts.md).
+`Font Family` allows one to select a generic font family \(`Manrope` or  `Source Code Pro`\) or a custom font that has been added in [**Project Settings**](../../../modules/project-settings/fonts.md).
 
 **Text Objects** are capable of handling [*variable fonts*](../../../modules/project-settings/fonts.md#variable-fonts) and let the user configure certain aspects, called `Parameters`. The *gif* below demonstrates what a font looks like with no `Parameters` in its **Attributes** and what it looks like when the user switches to a font that does.
 
