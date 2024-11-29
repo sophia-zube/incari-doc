@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** that have been created externally. 
+As of version **2024.1**, **Incari** now provides developers with another powerful tool to manage the entire *HMI* development process, from prototyping to mass production. With the new **Python Testing** **API**,  the user can perform automated application testing and quality assurance utilizing *Python* in conjunction with **Incari Studio**. This allows for seamless integration between **Incari Studio** and any scripts using the **API** that have been created externally. 
 
 The **Python Testing API** gives the user everything required to understand the tools necessary for automating as well as creating their own tests in *Python* in order to check their **Incari Projects**. The following four sections provide the details:
 
@@ -326,8 +326,6 @@ if __name__ == "__main__":
             mouse.release(incari.Mouse.Button.LEFT)
         if press_key:
             keyboard.press(incari.Keyboard.Key.KEY_A)
-        else:
-            keyboard.release(incari.Keyboard.Key.KEY_A)
         press_mouse = not press_mouse
         press_key = not press_key
         time.sleep(0.5)
@@ -337,12 +335,9 @@ To follow along, please create a **Project** which contains a **Rectangle** in a
 
 ![](../.gitbook/assets/testingapilogicexample.png)
 
-This will set the color of the **Rectangle** to blue if `A` is pressed. 
+This will set the color of the **Rectangle** to blue if `A` is pressed.  
 
-
-The **Incari Project** and script are connected by the *port number*, which is given with the line ` "port": 52001,`. **Incari Studio** is aware of this *port number* and deals with it automatically when the **Player** is run. 
-
-The script (shown above) continously rotates the **Rectangle** by 6 degrees while the **Player** is running. It also executes the key press in the **Logic** without requiring the user to physically press `A`. While the **Logic** is capable of this, the provided script handles the action required for the color change. 
+The script (shown above) continuously rotates the **Rectangle** by 6 degrees while the **Player** is running. It also executes the key press in the **Logic** without requiring the user to physically press `A`. While the **Logic** is capable of this, the provided script handles the action required for the color change. 
 
 
 Furthermore, the alphanumerics shown in the script lines describing the various **IDs** as:
@@ -353,8 +348,15 @@ Furthermore, the alphanumerics shown in the script lines describing the various 
   "object_id": "dedc4c26-6a8b-4a7c-b786-4c6db7bd5c8c",
 ```
 
-should be changed to what is displayed in the [**Debug IDs**](../objects-and-types/attributes/common-attributes/debug-id.md) of the respective object types in the **Project** previously created by the user (i.e. the **ID** of the **Project's** **Screen**, **Scene2D**, and **Rectangle**)
+should be changed to what is displayed in the [**Debug IDs**](../objects-and-types/attributes/common-attributes/debug-id.md) of the respective object types in the **Project** previously created by the user (i.e. the **Debug ID** of the **Project's** **Screen**, **Scene2D**, and **Rectangle**).
 
-When **Incari Player** is run from **Incari Studio**, the **Rectangle** will be blue *and* will rotate. The **Player** *must* be run before running the script. 
+
+The **Incari Project** and script are connected by the *port number*, which is given with the line ` "port": 52001,`. In order to make sure this connection is understood by **Incari Studio**, one must open the **Player** using the *Windows PowerShell* from the *bin* folder of the desired **Incari Studio** version. Please be aware that the **Python Testing API** is only compatible from versions **2024.1** onward.
+
+To do this, after opening the *Windows PowerShell* from the appropriate *bin* folder, the user must run the following command:
+
+`.\IncariPlayer.exe /p="C:ProjectPathName" /test-api /listener-port=52001`
+
+When **Incari Player** is finally running, the **Rectangle** will be blue *and* will rotate. The **Player** *must* be run before running the script. 
 
 This shows that the **Python Testing API** aids in automation and can be extended to testing.
