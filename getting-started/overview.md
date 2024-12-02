@@ -4,7 +4,7 @@ This section shows how to get started with **Incari Studio**, a powerful softwar
 
 There are a few imperative properties your local machine requires for running **Incari Studio**. These are all provided in [**Requirements**](requirements.md). 
 
-With each release, **Incari Studio** is updated and improved in order to provide the best user experience. We explain any new features in [**What's New**](whats-new-20232.md). Take a look for the most current developments within **Incari Studio**. 
+With each release, **Incari Studio** is updated and improved in order to provide the best user experience. We explain any new features in [**What's New**](whats-new-20241.md). Take a look for the most current developments within **Incari Studio**. 
 
 Installing **Incari Studio** is not scary or difficult. The process is explained step by step in the easy-to-follow [**Installation Guide**](installation.md).
 
@@ -20,7 +20,7 @@ We wish you well on your journey using **Incari Studio**.
 ## Contents
 
 * [**Requirements**](requirements.md)
-* [**What's New**](whats-new-20232.md)
+* [**What's New**](whats-new-20241.md)
 * [**Installation**](installation.md)
 * [**First Steps**](first-steps/README.md)
   * [**Incari Hub**](first-steps/incari-hub.md)
