@@ -11,7 +11,7 @@ All these **Attributes** are described in greater detail below.
 
 
 
-![](../../.gitbook/assets/phongmodel1.png)
+![](../../.gitbook/assets/phongmodel120241.png)
 
 ## Attributes
 
@@ -23,7 +23,7 @@ This **Attribute** provides the `Name` of the **Material** as well as the `Shadi
 The `Alpha` channel is additional to the RGB channels and adds a kind of transparency to the object by mixing the background and foreground colors. For example, if the `Alpha` value is set to 0.5, then this would result in a 50% mix of the object and its background, providing a somewhat see-through quality. 
 
 ### Diffuse
-![Diffuse](../../.gitbook/assets/phongmodel3.png)
+![Diffuse](../../.gitbook/assets/phongmodel320241.png)
 
 `Color` of `Diffuse` sets the base diffuse color of the model. 
 
@@ -39,7 +39,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Specular
-![Specular](../../.gitbook/assets/phongmodel5.png)
+![Specular](../../.gitbook/assets/phongmodel520241.png)
 
 `Specular` is the point of reflection of the light source. 
 
@@ -50,7 +50,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
  Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set to 1 then 100% of the `Texture` is displayed on the **Object**. If 0.5, then it displays a 50/50 ratio of `Texture` and `Color`. 
 
 ### Tweak
-![Tweak](../../.gitbook/assets/phongmodel6.png)
+![Tweak](../../.gitbook/assets/phongmodel620241.png)
 
 `Shininess` determines how 'shiny' a **Material** will be. This means that the higher the value, the 'harder' the surface looks at the smaller the reflection of light. 
 

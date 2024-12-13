@@ -21,7 +21,7 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Diffuse
-![Diffuse](../../.gitbook/assets/shadelessmodel3.png)
+![Diffuse](../../.gitbook/assets/shadelessmodel320241.png)
 
 `Color` of `Diffuse` sets the base diffuse color of the model. 
 

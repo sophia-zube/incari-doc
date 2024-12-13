@@ -10,7 +10,7 @@ This model represents a material that provides a more realistic quality to objec
 
 All these **Attributes** are described in greater detail below.
 
-![](../../.gitbook/assets/pbrmodelmat1.png)
+![](../../.gitbook/assets/pbrimage120241.png)
 
 ## Attributes
 
@@ -24,7 +24,7 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Environment Map
-![Environment Map](../../.gitbook/assets/pbrenvironmentmap.png)
+![Environment Map](../../.gitbook/assets/pbrmodel320241.png)
 
 This enables the user to set a **Texture** which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
@@ -50,7 +50,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Albedo
-![Albedo](../../.gitbook/assets/phongalbedo20232.png)
+![Albedo](../../.gitbook/assets/pbrmodelimage520241.png)
 
 `Color` of `Albedo` sets the base diffuse color of the model. 
 
@@ -60,7 +60,7 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 
 ### Specular
-![Specular](../../.gitbook/assets/pbrmodel7.png)
+![Specular](../../.gitbook/assets/pbrmodelimage620241.png)
 
 `Specular` is the point of reflection of the light source. `Color` sets the color of it. 
 
