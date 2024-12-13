@@ -11,7 +11,7 @@ This model offers more attributes than the **PBR Model**. It allows for selectin
 All these **Attributes** are described in greater detail below. 
 
 
-![](../../.gitbook/assets/extendedpbrmaterialmat1.png)
+![](../../.gitbook/assets/extendedpbr120241.png)
 
 ## Attributes
 
@@ -24,7 +24,7 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Environment Map
-![Environment Map](../../.gitbook/assets/pbrenvironmentmap.png)
+![Environment Map](../../.gitbook/assets/extendedpbr320241.png)
 
 This enables the user to set a **Texture** which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
@@ -50,7 +50,7 @@ Initially, there is only the **Attribute** `Overwrite Env.` which is toggled off
 A normal is a line perpendicular to the surface of some object. *Normal mapping* distorts these normals and simulates a surface with light and shadow, even if the object surface itself is flat. This is only possible with a light source. The `Normal Map` sets this surface and `Use Normal Map` toggles it on and off. 
 
 ### Albedo
-![Albedo](../../.gitbook/assets/extendedpbrmaterial5.png)
+![Albedo](../../.gitbook/assets/extendedpbr520241.png)
 
 `Color` of `Albedo` sets the base diffuse color of the model. 
 
@@ -60,7 +60,7 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 
 ### Specular
-![Specular](../../.gitbook/assets/extendedpbrmaterial6.png)
+![Specular](../../.gitbook/assets/extendedpbr620241.png)
 
 `Specular` is the point of reflection of the light source. `Color` sets the color of it. 
 

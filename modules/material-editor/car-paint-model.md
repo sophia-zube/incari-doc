@@ -11,7 +11,7 @@ This model represents a material that provides the visual qualities to a car's p
 
 All these **Attributes** are described in greater detail below. 
 
-![](../../.gitbook/assets/carpaintmodel0.png)
+![](../../.gitbook/assets/carpaintmodel120241.png)
 
 ## Attributes
 
@@ -25,7 +25,7 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Environment Map
-![Environment Map](../../.gitbook/assets/pbrenvironmentmap.png)
+![Environment Map](../../.gitbook/assets/carmodel320241.png)
 
 This enables the user to set a **Texture** which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
@@ -51,7 +51,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Base Coat
-![Base Coat](../../.gitbook/assets/carpaintmodel2.png)
+![Base Coat](../../.gitbook/assets/carpaintmodel520241.png)
 
 `Albedo` is the base diffuse color of the car. 
 
@@ -63,7 +63,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Clear Coat
-![Clear Coat](../../.gitbook/assets/carmodel3.png)
+![Clear Coat](../../.gitbook/assets/carpaintmodel620241.png)
 
 The `Albedo` here is the color of the glossy finish of a car, which sits at the top layer as a color that one can see through. 
 
@@ -77,7 +77,7 @@ The `Albedo` here is the color of the glossy finish of a car, which sits at the 
 
 
 ### Tweak
-![Tweak](../../.gitbook/assets/carpaint-attr-tweak.png)
+![Tweak](../../.gitbook/assets/carpaintmodel720241.png)
 
 `Shadow sensitivity` decides the percentage of the shadow's influence. So if set to 0, the surface will not be influenced by the shadow at all. At 100% the surface would be totally black and at 50%, even if the **Object's** surface stands in a shadow, it will still retain 50% of its own color.
 

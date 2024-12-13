@@ -11,7 +11,7 @@ This model represents materials with a glass-like quality. It allows for selecti
 All these **Attributes** are described in greater detail below. 
 
 
-![](../../.gitbook/assets/glassmodelmat1.png)
+![](../../.gitbook/assets/glassmodel120241.png)
 
 
 ## Attributes
@@ -25,7 +25,7 @@ The `Alpha` channel is additional to the RGB channels and adds a kind of transpa
 
 
 ### Environment Map
-![Environment Map](../../.gitbook/assets/pbrenvironmentmap.png)
+![Environment Map](../../.gitbook/assets/glassmodel320241.png)
 
 This enables the user to set a **Texture** which reflects the environment around an **Object**, meaning that the **Object** reflects the surface surrounding it (whether that be the background, another **Object**, or both combined.). 
 
@@ -51,7 +51,7 @@ A normal is a line perpendicular to the surface of some object. *Normal mapping*
 
 
 ### Base
-![Base](../../.gitbook/assets/glassbaseatts.png)
+![Base](../../.gitbook/assets/glassmodel520241.png)
 
 `Color` of `Base` sets the base diffuse color of the model. 
 
@@ -61,7 +61,7 @@ Using `Blending`, the `Texture` and `Color` are combined. If `Blending` is set t
 
 
 ### Reflection
-![Reflection](../../.gitbook/assets/glassmodelmat3.png)
+![Reflection](../../.gitbook/assets/glassmodel620241.png)
 
 These **Attributes** simulate a reflective surface. `Roughness` determines how rough an object is, limiting or strengthening reflectivity. 
 
