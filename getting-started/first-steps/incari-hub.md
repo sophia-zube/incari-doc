@@ -74,7 +74,7 @@ The user then has the option to remove a **Player** by clicking the trash icon t
 
 The **Documentation** takes you straight to the instructional texts that teach the user the ins and outs of **Incari**, which you are at right now! It gives a run down of the basics, helps you get started, thoroughly explains each component of **Incari Studio**, and provides more information on a few **Demo Projects**. There's a lot to discover in the **Documentation**, written with care by the **Documentation** team.
 
-![Documentation.](../../.gitbook/assets/incarihubcommunitydoc20232.png)
+![Documentation.](../../.gitbook/assets/hubdoc20241.png)
 
 ### Forum
 

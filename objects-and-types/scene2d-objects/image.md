@@ -14,4 +14,4 @@ The **Image** will then be displayed in the **Viewport**.
 
 It is also possible to create an **Image** by selecting an image file in the [**Asset Manager**](../../modules/asset-manager.md) and dragging and dropping it into the **Viewport**. This will create a [**Rectangle Object**](figma/figmarectangle.md) with its `Fill` **Attribute** set to `Image` and the `Image` file already chosen. 
 
-![Dragging and Dropping an Image into the Viewport.](../../.gitbook/assets/image2dnewdraganddrop.gif)
+![Dragging and Dropping an Image into the Viewport.](../../.gitbook/assets/image2dlastimage20241.gif)

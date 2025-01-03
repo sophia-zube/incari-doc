@@ -4,7 +4,7 @@ The **Material Editor** allows us to create a **Material** that gives a **Mesh**
 
 To open the **Material Editor**, double-click on a **Material** file in the **Asset Manager** or right-click on the Menu bar and click on **Material Editor** from the drop-down list. The latter option can be seen in the illustration below:
 
-![](../../.gitbook/assets/materialeditornew_20222.png)
+![](../../.gitbook/assets/materialeditor120241.png)
 
 The sections defined in the **Material Editor** are discussed below. They will not be displayed in the **Material Editor** if a **Material** file has already been opened. 
 
@@ -12,15 +12,15 @@ The `Used Materials` section has **Materials** that have been previously applied
 
 `New Material`, as its name suggests, allows us to create new **Materials**. The illustration below depicts its behavior when clicked.
 
-![](../../.gitbook/assets/create-material.gif)
+![](../../.gitbook/assets/materialeditor220241.gif)
 
 `Open Material` opens a window that allows us to select an existing **Material** file. An example of the window is shown below:
 
-![](../../.gitbook/assets/open-material-editor.PNG)
+![](../../.gitbook/assets/materialeditor320241.png)
 
 Once a **Material** has been opened, the **Material** **Editor** allows the user to edit the **Material's** **Attributes**. 
 
-![Shading Models Menu](../../.gitbook/assets/materialeditornewagain.png)
+![Shading Models Menu](../../.gitbook/assets/materialeditor420241.png)
 
 
 There are several **Shading** **Models** available to choose from when creating a new **Material**. The following sections give a brief description of each and list their available **Attributes**:
@@ -37,11 +37,11 @@ There are several **Shading** **Models** available to choose from when creating 
 
 In each of these **Models**, it is possible to hover over each **Attribute** with the cursor and see their property names. Below, one can see the property name `diffuse_color` for the `Color` **Attribute** of a **Phong Model**.
 
-![Hovering over Names.](../../.gitbook/assets/materialhovernames.png)
+![Hovering over Names.](../../.gitbook/assets/materialeditor520241.png)
 
 These can then be copied and pasted by right-clicking on them, selecting either property `Name` or `Value`, and pasting where needed. This is particularly useful for accessing the names for the [**Set Material Property**](../../toolbox/incari/material/setmaterialproperty.md) and [**Get Material Property**](../../toolbox/incari/material/getmaterialproperty.md) **Nodes**.
 
-![Copying a Name.](../../.gitbook/assets/materialcopynames.png)
+![Copying a Name.](../../.gitbook/assets/materialeditor620241.png)
 
 
 
