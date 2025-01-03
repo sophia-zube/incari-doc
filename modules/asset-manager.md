@@ -4,25 +4,25 @@
 
 **Assets** are the files in the **Project Asset** folder. They can be used for creating or modifying **Objects**. The **Asset Manager** shows all the available **Assets** and allows the user to organize, manage, and create them.
 
-![](../.gitbook/assets/asset-manager.png)
+![](../.gitbook/assets/assetmanagerimage120241.png)
 
 ## Importing
 
 **Assets** can be imported by clicking on the plus ![](<../.gitbook/assets/plusIcon (4) (4) (4) (4) (4) (4) (4) (4) (1) (1) (1) (1).PNG>) icon at the top left of the **Asset Manager**, selecting `Import Assets`, and finding the files to import to the **Asset Manager**.
 
-![](../.gitbook/assets/import-asset.png)
+![](../.gitbook/assets/assetmanagerimage2.png)
 
 ## Creating
 
 To create an **Asset**, right-click on the **Asset Manager**, select `Create Asset`, and choose which kind of **Asset** to create.
 
-![](../.gitbook/assets/assetmanagercreating20232.png)
+![](../.gitbook/assets/assetmanagerimage3.png)
 
 ## Views
 
 The **Asset Manager** offers different views of the files in the **Assets** folder. The general view can be switched on the top left between flat and folder tree view and the files can be seen as either icons or in a list, which is chosen in the bottom right corner.
 
-![](../.gitbook/assets/asset-manager-view.gif)
+![](../.gitbook/assets/assetmanagerimage4.gif)
 
 ## Deleting
 
@@ -31,13 +31,13 @@ The **Asset Manager** offers different views of the files in the **Assets** fold
 * Right-click the **Asset** and select the `Delete` button from the pop-up.
 * Select an **Asset** and press `del`.
 
-![](../.gitbook/assets/assetmanagerdeleting20232.png)
+![](../.gitbook/assets/assetmanagerimage5.png)
 
 ## Renaming
 
 **Assets** can be renamed by right-clicking an item and selecting `Rename`. You can then type a new name and press **`⏎`**/`Return` to confirm the change.
 
-![](../.gitbook/assets/asset-rename.png)
+![](../.gitbook/assets/assetmanagerimage6.gif)
 
 ## Texture Importer
 
@@ -60,7 +60,7 @@ Deleting the `.jgp` also deletes the generated `.ktx2` and removes the generated
 
 **Incari Studio** will detect any overwriting (changes to the file or its **Attributes**) and regenerate the `.ktx2` when `Save` under `Information` is pressed. This change can be something simple, like changing the `Compression` **Attribute**. It can also be something more complex, like changing something in the **Image** using an external software, such as *Microsoft Paint*.  
 
-![Texture Importer for a JPG](../.gitbook/assets/sunflowertextureimporterexampleupdated.png)
+![Texture Importer for a JPG](../.gitbook/assets/assetmanagerimage9.png)
 
 To get the **Texture Importer** to show, one simply needs to click on the imported **Asset** (in this case `sunflower.jpg`). This shows the many **Attributes**:
 
@@ -81,7 +81,7 @@ To get the **Texture Importer** to show, one simply needs to click on the import
 
 The example **Image Sequence** contains two **Images** called `nature.jpg` and `sunset.jpg`. These both get their own `.ktx2` files as well as the **Image Sequence** `imgseq.incseq`. 
 
-![Texture Importer for an Image Sequence.](../.gitbook/assets/textureimporterimgseqexample.png)
+![Texture Importer for an Image Sequence.](../.gitbook/assets/assetmanagerimage11.png)
 
 To get the **Texture Importer** to show, one simply needs to click on the imported **Asset** (in this case `imgseq.incseq`). This shows the many **Attributes**:
 
@@ -116,7 +116,7 @@ Any changes to the base file will update the `.glb` files.
 
 Overwriting in this case means that when a change is made in some **Asset** or **Object**, it is added on top of the original data when `Save` under `Information` is pressed. So if the original data specifies that a **Material** is orange, the user can overwrite the original **Material** to make the material blue.
 
-![3D Object Importer for a Mesh.](../.gitbook/assets/3dobjectimporterexample.png)
+![3D Object Importer for a Mesh.](../.gitbook/assets/assetmanagerimage15.png)
 
 To get the **3D Object Importer** to show, one simply needs to click on the imported **Asset** (in this case `Avocado.glb`). This shows the many **Attributes**:
 

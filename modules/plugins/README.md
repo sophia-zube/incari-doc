@@ -6,7 +6,7 @@ The **Plugins Module** allows the user to activate or deactivate different compo
 
 The **Plugins Module** looks like this when it is opened: 
 
-![](../../.gitbook/assets/pluginsstart.png)
+![](../../.gitbook/assets/plugins20241.png)
 
 ## Contents
 

@@ -4,7 +4,7 @@ The **Model Editor** allows the user to create **Localizations** and **Models**.
 
 To open the **Model Editor**, double-click on a **Localization** or **Model** file in the **Asset Manager** or right-click on the Menu bar in **Incari** and click on **Model Editor** from the drop-down list. This can be seen in the illustration below:
 
-![](../.gitbook/assets/modeleditorimage120232.png)
+![](../.gitbook/assets/modeleditorimage120241.png)
 
 When opened for the first time, the **Model Editor** appears like this:
 
