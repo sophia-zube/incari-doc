@@ -83,31 +83,31 @@ If `Background Mode` is set to `Transparent` every pixel that is part of the bac
 
 ## Player Mode
 
-The **Player Mode** shows what the **Player Camera** will show once the **Scene** starts playing. To access it, simply click `Player` on top of the **Viewport**. Then, to go back to the **3D View**, just click on `3D`:
+The **Player Mode** shows what the **Player Camera** will show once the **Scene** starts playing. To access it, simply click `Player view` on top of the **Viewport**. Then, to go back to the **Editor View**, just click on `Editor view`:
 
-![](../../.gitbook/assets/camera-player-mode.gif)
+![](../../.gitbook/assets/cameraplayermode1.gif)
 
 ## Picture in Picture
 
 When a **Camera** is selected in the **Scene Outliner**, an inset window appears at the bottom-right of the **Viewport** showing what the selected **Camera** shows. The **Picture-in-Picture** inset window is highlighted in the picture below:
 
-![](../../.gitbook/assets/camera-pip2.png)
+![](../../.gitbook/assets/cameraplayermode2.png)
 
 The example below shows the **Picture-in-Picture** feature throughout several **Cameras** in a **Scene**:
 
-![](../../.gitbook/assets/camera-pip.gif)
+![](../../.gitbook/assets/cameraplayermode3.gif)
 
 ## Look Through
 
-The **Look Through** mode allows the user to see in the **Viewport** what a **Camera** shows. To use it, right-click on a **Camera** and select `Look Through` from the drop-down menu. Then, to leave this mode, just click on the `Leave Look Through` button at the top right of the **Viewport**:
+The **Look Through** mode allows the user to see in the **Viewport** what a **Camera** shows. To use it, right-click on a **Camera** and select `Look through` from the drop-down menu. Then, to leave this mode, just click on the `Leave look through` button at the top right of the **Viewport**:
 
-![](../../.gitbook/assets/camera-lookthrough1.gif)
+![](../../.gitbook/assets/cameraplayermode4.gif)
 
 ## Proxy
 
 When a **Camera** is selected in the **Scene Outliner**, its **Proxy** appears in the **Viewport**, showing which part of the **Scene** the selected **Camera** will render:
 
-![](../../.gitbook/assets/camera-proxy.png)
+![](../../.gitbook/assets/cameraplayermode5.png)
 
 ## Camera Nodes
 
