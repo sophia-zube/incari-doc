@@ -39,7 +39,7 @@ For more detail, see:
 
 `Scale` multiplies the size of an **Object** along its axes, relative to its **Origin**. By default, `Scale` is set to `x=1`, `y=1`, `z=1`, meaning that it is at 100% of its size on all axes.
 
-![](../../../../.gitbook/assets/transformationscale20232.gif)
+![](../../../../.gitbook/assets/transformationscale20241.gif)
 
 ## Groups
 
@@ -51,10 +51,10 @@ Consider a **Group** containing one **Object**, a **Cube**. Setting the `Positio
 
 For an illustration of this, see the following example, in which there are two **Cubes**: one with `Position` `x=100` in a **Group** with `Position` `x=100` and another one that is not part of a **Group** and has `Position` `x=200`. For visualization purposes, the two **Cubes** have been set at different heights along the Y axis.
 
-![](../../../../.gitbook/assets/transformationgroup120232.gif)
+![](../../../../.gitbook/assets/transformationgroup120241.gif)
 
 The same applies to rotations. Consider again a **Group** containing one **Object**, a **Cube**. Setting the `Rotation` of the **Group** to `x=30` and the `Rotation` of the **Cube** to `x=30` will result in the **Cube** being rotated 60 degrees with respect to the **Scene** coordinate system.
 
 For an illustration of this, see the following example, in which there are two **Cubes**: one with `Rotation` `x=30` in a **Group** with `Rotation` `x=30` and another one that is not part of a **Group** and has its `Rotation` set to `x=60`. For visualization purposes, the two **Cubes** have been set at different heights along the Y axis.
 
-![](../../../../.gitbook/assets/transformationgroup220232.gif)
+![](../../../../.gitbook/assets/transformationgroup220241.gif)
