@@ -6,11 +6,11 @@
 
 As an example, the **Local** axes for a cube, a cylinder, and a dome are:
 
-![Local Axes for a cube, cylinder, and dome.](../../../../.gitbook/assets/Local_PpalAxesredo.gif)
+![Local Axes for a cube, cylinder, and dome.](../../../../.gitbook/assets/localtrans120241.gif)
 
 **Local** **Transformations** for `Position` and `Rotation` are done directly in the **Scene Viewport** in **Local** mode. To switch to **Local** mode simply click on the `Local Global` icon on the top Menu of the **Viewport**.
 
-![Local mode view.](../../../../.gitbook/assets/TransformLocalMode_1.png)
+![Local mode view.](../../../../.gitbook/assets/localtrans220241.png)
 
 The **Local** mode allows one to change the [`Position`](#position), [`Rotation`](#rotation), and [`Scale`](#scale) of an **Object**. It can also be used for [several **Objects**](#several-objects) and [**Groups**](#groups).
 
@@ -22,7 +22,7 @@ To move an **Object** along an axis, click on the preferred axis and drag the **
 
 The example below shows an **Object** being moved along its **Local** axes.
 
-![](../../../../.gitbook/assets/Local_Positionredo.gif)
+![](../../../../.gitbook/assets/localtrans320241.gif)
 
 ## Rotation
 
@@ -30,7 +30,7 @@ To be able to rotate an **Object**, click on the `Rotate` icon, third from the l
 
 The example below shows an **Object** being locally rotated. Note that as the **Object** is rotated, its **Local** axes also rotate.
 
-![](../../../../.gitbook/assets/Local_Rotationredo.gif)
+![](../../../../.gitbook/assets/localtrans420241.gif)
 
 
 ## Scale
@@ -41,14 +41,14 @@ To scale an **Object** in the **Viewport**, simply locate the `Scale` icon fourt
 
 The example below shows a cube being scaled in the **Viewport**.
 
-![](../../../../.gitbook/assets/Local_Scaleredo.gif)
+![](../../../../.gitbook/assets/localtrans520241.gif)
 
 It is also possible to scale an **Object** from its **Attributes**. For this, modify the `Scale` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
 The following example shows the modification of the `Scale` values for a **Cube**.
 
 
-![](../../../../.gitbook/assets/Local_ScaleAttri2redo.gif)
+![](../../../../.gitbook/assets/localtrans620241.gif)
 
 ## Several Objects
 
@@ -58,13 +58,13 @@ It is also possible to perform **Local** **Transformations** on several **Object
 
 The first example shows the **Transformation** *gizmo* of each individual **Object** and then how it looks when they are all selected.
 
-![](../../../../.gitbook/assets/LocalGlobal_SeveralObj1redo.gif)
+![](../../../../.gitbook/assets/localtrans720241.gif)
 
 The next two examples show the translation of two cubes and the rotation of two cylinders, respectively.
 
-![](../../../../.gitbook/assets/LocalGlobal_SeveralObj2redo.gif)
+![](../../../../.gitbook/assets/localtrans820241.gif)
 
-![](../../../../.gitbook/assets/LocalGlobal_SeveralObj3redo.gif)
+![](../../../../.gitbook/assets/localtrans920241.gif)
 
 
 
@@ -75,7 +75,7 @@ Another way of performing **Transformations** over several **Objects** is by put
 
 The example below shows a **Local** rotation and translation of a **Group** composed of two cylinders and a cube.
 
-![](../../../../.gitbook/assets/Local_Groupredo.gif)
+![](../../../../.gitbook/assets/localtrans1020241.gif)
 
 
 ## External Links
