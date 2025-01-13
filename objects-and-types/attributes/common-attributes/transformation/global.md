@@ -6,17 +6,17 @@
 
 The following example shows the **Global** axes for several **Objects**:
 
-![](../../../../.gitbook/assets/transformationglobal120232.gif)
+![](../../../../.gitbook/assets/globaltrans120241.gif)
 
 **Global** **Transformations** can be done either directly in the **Scene Viewport** in **Global** mode or in the [**Attribute Editor**](../../../../modules/attribute-editor.md). 
 
 To switch to **Global** view simply click on the `Local Global` icon on the top Menu of the **Viewport**. This is only necessary if **Local** mode is currently selected, as **Global** mode is the default on start. 
 
-![Global mode view.](../../../../.gitbook/assets/transformationglobal220232.png)
+![Global mode view.](../../../../.gitbook/assets/globaltrans220241.png)
 
 The **Attributes** of an **Object** can be modified in the **Attribute Editor**. They will appear there when the **Object** is selected.
 
-![Attribute Editor for a cube.](../../../../.gitbook/assets/transformationglobal320232.gif)
+![Attribute Editor for a cube.](../../../../.gitbook/assets/globaltrans320241.gif)
 
 The **Global** mode allows one to change the [`Position`](#position) and [`Rotation`](#rotation) of an **Object**. It can also be used for [**Groups**](#groups).
 
@@ -30,17 +30,17 @@ To move an **Object** along an axis, click on the preferred axis and drag the **
 
 The example below shows an **Object** being moved along its **Global** axes.
 
-![](../../../../.gitbook/assets/transformationglobal420232.gif)
+![](../../../../.gitbook/assets/globaltrans420241.gif)
 
 The following example shows an **Object** being moved freely by dragging the center of the *gizmo*, first, and then on a plane by dragging the square between two axes.
 
-![](../../../../.gitbook/assets/transformationglobal520232.gif)
+![](../../../../.gitbook/assets/globaltrans520241.gif)
 
 It is also possible to change an **Object's** **Position** from its **Attributes**. For this, modify the `Position` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value. It is also possible to directly set the value in the input box.
 
 The following example shows the modification of the `Position` values for a **Cube**.
 
-![](../../../../.gitbook/assets/transformationglobal620232.gif)
+![](../../../../.gitbook/assets/globaltrans620241.gif)
 
 ## Rotation
 
@@ -50,7 +50,7 @@ In order to rotate an **Object** in the **Viewport**, click on the `Rotate` icon
 
 The example below shows a **Global** rotation of an **Object**.
 
-![](../../../../.gitbook/assets/transformationglobal720232.gif)
+![](../../../../.gitbook/assets/globaltrans720241.gif)
 
 It is also possible to rotate an **Object** from its **Attributes**. For this, modify the `Rotation` values under `Transformation` in the **Attribute Editor**: with a right-click, a drop-down Menu for the step change opens; after choosing the step, change the value by scrolling or use the up and down arrows at the right of the value.
 
@@ -58,7 +58,7 @@ The following example shows the modification of the `Rotation` values for a **Cu
 
 When modifying a `Rotation` value, it is possible that the other two values get automatically changed. This is just a recalculation of the rotation angles required to successfully perform the desired transformation.
 
-![](../../../../.gitbook/assets/transformationglobal820232.gif)
+![](../../../../.gitbook/assets/globaltrans820241.gif)
 
 
 ## Groups
@@ -67,8 +67,8 @@ It is possible to perform **Transformations** over several **Objects** as if the
 
 The example below shows a **Global** rotation and translation of a **Group** composed of two cylinders and a cube.
 
-![](../../../../.gitbook/assets/transformationglobal920232real.gif)
+![](../../../../.gitbook/assets/globaltrans920241.gif)
 
 The following example shows the same **Group** being translated and rotated by modifying its **Attributes** in the **Attribute Editor**. To set the step, right-click the input box, and then modify the value by either scrolling or using the up and down arrows on the right.
 
-![](../../../../.gitbook/assets/transformationglobal1020232real.gif)
+![](../../../../.gitbook/assets/globaltrans1020241.gif)
